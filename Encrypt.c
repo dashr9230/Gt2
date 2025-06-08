@@ -1,0 +1,126 @@
+
+// Original file: C:\CodePrj\Gt2\Game\src\dave\Encrypt.c
+
+/*
+ * ModName: .\Debug\Encrypt.obj
+ * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\Game\Debug\Encrypt.obj
+ * 
+ * (000040) S_COMPILE:
+ *          Language: C
+ *          Target processor: Pentium
+ *          Floating-point precision: 0
+ *          Floating-point package: hardware
+ *          Ambient data: NEAR
+ *          Ambient code: NEAR
+ *          PCode present: 0
+ *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
+ * 
+ * (00008C) S_GPROC32: [0001:0000CA30], Cb: 00000034, Type:             0x1D23, SetDefaultFastestLap
+ *          Parent: 00000000, End: 00000108, Next: 0000010C
+ *          Debug start: 00000003, Debug end: 00000032
+ *          Flags: Frame Ptr Present
+ * 
+ * (0000C8)  S_BPREL32: [00000008], Type:             0x1D24, Record
+ * (0000DC)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), FastestLap
+ * (0000F4)  S_BPREL32: [00000010], Type:   T_32PRCHAR(0470), Name
+ * 
+ * (000108) S_END
+ * 
+ * (00010C) S_GPROC32: [0001:0000CA64], Cb: 000000E2, Type:             0x1D26, SetFastestLap
+ *          Parent: 00000000, End: 000001D4, Next: 000001D8
+ *          Debug start: 00000006, Debug end: 000000DE
+ *          Flags: Frame Ptr Present
+ * 
+ * (000144)  S_BPREL32: [00000008], Type:             0x1D24, Record
+ * (000158)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), FastestLap
+ * (000170)  S_BPREL32: [00000010], Type:   T_32PRCHAR(0470), Name
+ * (000184)  S_BPREL32: [00000014], Type:       T_INT4(0074), Human
+ * (000198)  S_BPREL32: [FFFFFFF4], Type:      T_ULONG(0022), VisualTime
+ * (0001B0)  S_BPREL32: [FFFFFFF8], Type:      T_ULONG(0022), Code
+ * (0001C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Key
+ * 
+ * (0001D4) S_END
+ * 
+ * (0001D8) S_GPROC32: [0001:0000CB46], Cb: 000000FD, Type:             0x1D28, ENCRYPT_Encode
+ *          Parent: 00000000, End: 0000028C, Next: 00000290
+ *          Debug start: 00000006, Debug end: 000000F9
+ *          Flags: Frame Ptr Present
+ * 
+ * (000210)  S_BPREL32: [00000008], Type:      T_ULONG(0022), FastestLap
+ * (000228)  S_BPREL32: [0000000C], Type:   T_32PULONG(0422), Key
+ * (000238)  S_BPREL32: [00000010], Type:   T_32PULONG(0422), Code
+ * (00024C)  S_BPREL32: [FFFFFFE8], Type:      T_ULONG(0022), iKey
+ * (000260)  S_BPREL32: [FFFFFFEC], Type:      T_ULONG(0022), iCode
+ * (000274)  S_BPREL32: [FFFFFFF0], Type:             0x1D2A, SystemTime
+ * 
+ * (00028C) S_END
+ * 
+ * (000290) S_GPROC32: [0001:0000CC43], Cb: 0000008E, Type:             0x1D2B, ENCRYPT_GetKeyCodeStr
+ *          Parent: 00000000, End: 00000318, Next: 00000000
+ *          Debug start: 00000006, Debug end: 0000008A
+ *          Flags: Frame Ptr Present
+ * 
+ * (0002D0)  S_BPREL32: [00000008], Type:   T_32PULONG(0422), KeyCode
+ * (0002E4)  S_BPREL32: [FFFFFFF4], Type:      T_ULONG(0022), i
+ * (0002F4)  S_BPREL32: [FFFFFFF8], Type:      T_ULONG(0022), Code
+ * (000308)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Key
+ * 
+ * (000318) S_END
+ * 
+ * (00031C) S_GDATA32: [0003:00004124], Type:             0x1004, KeyCodeTextTable
+ * (00033C) S_GDATA32: [0003:00074FDC], Type:             0x1D2C, LapCode
+ * 
+ * ModName: .\Debug\Drivers.obj
+ * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\Game\Debug\Drivers.obj
+ * 
+ * (000040) S_COMPILE:
+ *          Language: C
+ *          Target processor: Pentium
+ *          Floating-point precision: 0
+ *          Floating-point package: hardware
+ *          Ambient data: NEAR
+ *          Ambient code: NEAR
+ *          PCode present: 0
+ *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
+ * 
+ * (00008C) S_GPROC32: [0001:0000C7C0], Cb: 00000055, Type:             0x1D2E, Driver_SetControls
+ *          Parent: 00000000, End: 0000016C, Next: 00000170
+ *          Debug start: 00000004, Debug end: 00000051
+ *          Flags: Frame Ptr Present
+ * 
+ * (0000C8)  S_BPREL32: [00000008], Type:      T_ULONG(0022), Driver
+ * (0000DC)  S_BPREL32: [0000000C], Type:       T_INT4(0074), Human
+ * (0000F0)  S_BPREL32: [00000010], Type:      T_ULONG(0022), DriverAids
+ * (000108)  S_BPREL32: [00000014], Type:       T_LONG(0012), DeviceId
+ * (000120)  S_BPREL32: [00000018], Type:      T_ULONG(0022), DeviceType
+ * (000138)  S_BPREL32: [0000001C], Type:             0x174C, DeviceMapping
+ * (000154)  S_BPREL32: [FFFFFFFC], Type:             0x181F, ThisDriver
+ * 
+ * (00016C) S_END
+ * 
+ * (000170) S_GPROC32: [0001:0000C815], Cb: 0000007D, Type:             0x1001, Driver_Init
+ *          Parent: 00000000, End: 000001CC, Next: 000001D0
+ *          Debug start: 00000006, Debug end: 00000079
+ *          Flags: Frame Ptr Present
+ * 
+ * (0001A4)  S_BPREL32: [FFFFFFF8], Type:             0x181F, ThisDriver
+ * (0001BC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
+ * 
+ * (0001CC) S_END
+ * 
+ * (0001D0) S_GPROC32: [0001:0000C892], Cb: 00000191, Type:             0x16A1, Driver_Dump
+ *          Parent: 00000000, End: 00000230, Next: 00000000
+ *          Debug start: 00000008, Debug end: 0000018B
+ *          Flags: Frame Ptr Present
+ * 
+ * (000204)  S_BPREL32: [00000008], Type:      T_ULONG(0022), driver
+ * (000218)  S_BPREL32: [FFFFFFFC], Type:             0x181F, ThisDriver
+ * 
+ * (000230) S_END
+ * 
+ * (000234) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (00024C) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
+ * (000268) S_GDATA32: [0003:00003DB8], Type:             0x16CB, DefaultJoyMapping
+ * 
+ */
+

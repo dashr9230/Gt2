@@ -1,0 +1,19 @@
+
+// Original file: dx_setup.rc
+
+/*
+ * ModName: .\Debug\dx_setup.res
+ * (000004) S_OBJNAME: Signature: 00000000, c:\windows\TEMP\lnk2
+ * 
+ * (000024) S_COMPILE:
+ *          Language: CVTRES
+ *          Target processor: 8080
+ *          Floating-point precision: 0
+ *          Floating-point package: hardware
+ *          Ambient data: NEAR
+ *          Ambient code: NEAR
+ *          PCode present: 0
+ *          Compiler Version: Microsoft CVTRES 5.00.1735.1
+ * 
+ */
+

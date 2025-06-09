@@ -1,5 +1,5 @@
 
-// Original file: moxtypes.h
+// Original file: C:\CodePrj\Gt2\Engine\src\mox\moxtypes.h
 
 /*
  * ModName: .\Debug\moxtypes.obj

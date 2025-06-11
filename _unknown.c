@@ -25,6 +25,9 @@
  * 
  * (00007C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -82,6 +85,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -139,6 +145,9 @@
  * 
  * (000078) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -196,6 +205,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -253,6 +265,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -310,6 +325,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -367,6 +385,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -424,6 +445,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -481,6 +505,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -538,6 +565,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -595,6 +625,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -652,6 +685,9 @@
  * 
  * (000078) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -709,6 +745,9 @@
  * 
  * (00007C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -766,6 +805,9 @@
  * 
  * (00007C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -823,6 +865,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -880,6 +925,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -937,6 +985,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -994,6 +1045,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1051,6 +1105,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1108,6 +1165,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1165,6 +1225,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1222,6 +1285,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1279,6 +1345,9 @@
  * 
  * (000078) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1336,6 +1405,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1393,6 +1465,9 @@
  * 
  * (000078) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1450,6 +1525,9 @@
  * 
  * (00007C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1507,6 +1585,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1564,6 +1645,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1621,6 +1705,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1678,6 +1765,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1735,6 +1825,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1792,6 +1885,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1849,6 +1945,9 @@
  * 
  * (000078) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1906,6 +2005,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -1963,6 +2065,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2020,6 +2125,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2077,6 +2185,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2134,6 +2245,9 @@
  * 
  * (00007C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2191,6 +2305,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2235,6 +2352,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2266,6 +2386,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2323,6 +2446,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2380,6 +2506,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2437,6 +2566,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2494,6 +2626,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2551,6 +2686,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2608,6 +2746,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2665,6 +2806,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2722,6 +2866,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: KERNEL32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, KERNEL32.dll
@@ -2779,6 +2926,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -2836,6 +2986,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -2893,6 +3046,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -2950,6 +3106,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3007,6 +3166,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3064,6 +3226,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3121,6 +3286,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3178,6 +3346,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3235,6 +3406,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3292,6 +3466,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3349,6 +3526,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3406,6 +3586,9 @@
  * 
  * (000074) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3463,6 +3646,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3520,6 +3706,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3577,6 +3766,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3634,6 +3826,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3678,6 +3873,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3722,6 +3920,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3779,6 +3980,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3836,6 +4040,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3893,6 +4100,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: USER32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, USER32.dll
@@ -3950,6 +4160,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: GDI32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, GDI32.dll
@@ -3981,6 +4194,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: GDI32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, GDI32.dll
@@ -4038,6 +4254,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: GDI32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, GDI32.dll
@@ -4095,6 +4314,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: GDI32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, GDI32.dll
@@ -4139,6 +4361,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: ole32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, ole32.dll
@@ -4183,6 +4408,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: ole32.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, ole32.dll
@@ -4240,6 +4468,9 @@
  * 
  * (000070) S_END
  * 
+ */
+
+/*
  * ModName: Guidlib.tmp_0\cguid_i_guid0.obj
  * 
  * (000004) S_OBJNAME: Signature: 00000000, cguid_i_guid0.obj
@@ -4273,6 +4504,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: DDRAW.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, DDRAW.dll
@@ -4309,6 +4543,9 @@
  * 
  * (000068) S_END
  * 
+ */
+
+/*
  * ModName: DDRAW.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, DDRAW.dll
@@ -4358,6 +4595,9 @@
  * 
  * (00006C) S_END
  * 
+ */
+
+/*
  * ModName: WINMM.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, WINMM.dll
@@ -4402,6 +4642,9 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft LINK 5.12.8034
  * 
+ */
+
+/*
  * ModName: WINMM.dll
  * 
  * (000004) S_OBJNAME: Signature: 00000000, WINMM.dll
@@ -4446,11 +4689,14 @@
  * 
  * (00006C) S_END
  * 
- * ModName: .\Debug\timing.obj
+ */
+
+/*
+ * ModName: build\intel\xmt_obj\fileno.obj
  * 
- * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\engine\Debug\timing.obj
+ * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fileno.obj
  * 
- * (000040) S_COMPILE:
+ * (000054) S_COMPILE:
  *          Language: C
  *          Target processor: Pentium
  *          Floating-point precision: 0
@@ -4458,17 +4704,16 @@
  *          Ambient data: NEAR
  *          Ambient code: NEAR
  *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
+ *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168.0
  * 
- * (00008C) S_GPROC32: [0001:00098480], Cb: 00000005, Type:             0x1001, tmrInitialize
- *          Parent: 00000000, End: 000000C4, Next: 00000000
- *          Debug start: 00000003, Debug end: 00000003
+ * (0000A0) S_GPROC32: [0001:000B9FE0], Cb: 0000000B, Type:             0x215D, _fileno
+ *          Parent: 00000000, End: 000000E4, Next: 00000000
+ *          Debug start: 00000003, Debug end: 00000009
  *          Flags: Frame Ptr Present
  * 
- * (0000C4) S_END
+ * (0000D0)  S_BPREL32: [00000008], Type:             0x1834, stream
  * 
- * (0000C8) S_GDATA32: [0003:009CF698], Type:             0x1533, tmrLastTime
- * (0000E4) S_GDATA32: [0003:009CF690], Type:     T_REAL32(0040), tmrDivisor
+ * (0000E4) S_END
  * 
  */
 
@@ -4501,6 +4746,9 @@
  * 
  * (00013C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\setenv.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xE8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\setenv.obj
@@ -4630,6 +4878,9 @@
  * 
  * (000360) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\wtombenv.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xBC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\wtombenv.obj
@@ -4695,6 +4946,9 @@
  * 
  * (00014C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\days.obj
  * 
  * (000004) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\days.obj
@@ -4753,6 +5007,9 @@
  * 
  * (0001BC) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\setmode.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\setmode.obj
@@ -4837,6 +5094,9 @@
  * 
  * (000210) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\w_loc.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xBC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\w_loc.obj
@@ -4977,6 +5237,9 @@
  * 
  * (0004A0) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\timeset.obj
  * 
  * (000004) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\timeset.obj
@@ -5018,6 +5281,9 @@
  * 
  * (000094) S_GDATA32: [0003:00931C88], Type:       T_INT4(0074), _fmode
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\chsize.obj
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\chsize.obj
  * 
@@ -5121,6 +5387,9 @@
  * 
  * (0002CC) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\lconv.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x11C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\lconv.obj
@@ -5203,6 +5472,9 @@
  * 
  * (0002A8) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strftime.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x17C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\strftime.obj
@@ -5543,6 +5815,9 @@
  * 
  * (000550) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\ismbbyte.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xF0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\ismbbyte.obj
@@ -5690,6 +5965,9 @@
  * 
  * (000098) S_GDATA32: [0003:00931C70], Type:       T_INT4(0074), _commode
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\open.obj
  * (000004) Start search for segment 0x1 at symbol 0xE8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\open.obj
  * 
@@ -5781,6 +6059,9 @@
  * 
  * (000148) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\closeall.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD4(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\closeall.obj
@@ -5863,6 +6144,9 @@
  * 
  * (00028C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\getqloc.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x1A8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\getqloc.obj
@@ -6077,6 +6361,9 @@
  * 
  * (000098) S_GDATA32: [0003:00931C24], Type:             0x21EB, __lc_id
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strpbrk.obj
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strpbrk.obj
  * 
@@ -6133,6 +6420,9 @@
  * 
  * (000118) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strcmp.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strcmp.obj
@@ -6183,6 +6473,9 @@
  * 
  * (0000DC) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\initctyp.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x158(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initctyp.obj
@@ -6293,6 +6586,9 @@
  * 
  * (0002C4) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\initnum.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x15C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initnum.obj
@@ -6396,6 +6692,9 @@
  * 
  * (000250) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strncpy.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strncpy.obj
@@ -6476,6 +6775,9 @@
  * 
  * (0001C8) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\winsig.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x1D4(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\winsig.obj
@@ -6614,6 +6916,9 @@
  * 
  * (00015C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\snprintf.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA4(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\snprintf.obj
@@ -6747,6 +7052,9 @@
  * 
  * (000438) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\ullrem.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\ullrem.obj
@@ -6802,6 +7110,9 @@
  * 
  * (0000F0) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\wctomb.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x13C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\wctomb.obj
@@ -6881,6 +7192,9 @@
  * 
  * (000110) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\_getbuf.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xB8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\_getbuf.obj
@@ -6931,6 +7245,9 @@
  * 
  * (0000D0) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\memmove.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\memmove.obj
@@ -7030,6 +7347,9 @@
  * 
  * (000138) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\osfinfo.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xEC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\osfinfo.obj
@@ -7162,6 +7482,9 @@
  * 
  * (0001B8) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\crt0init.obj
  * 
  * (000004) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\crt0init.obj
@@ -7243,6 +7566,9 @@
  * 
  * (000280) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\ioinit.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xEC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\ioinit.obj
@@ -7320,6 +7646,9 @@
  * 
  * (000170) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\stdargv.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x13C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\stdargv.obj
@@ -7406,6 +7735,9 @@
  * 
  * (000190) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\wincmdln.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xE0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\wincmdln.obj
@@ -7482,6 +7814,9 @@
  * 
  * (0002A4) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\read.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\read.obj
@@ -7576,6 +7911,9 @@
  * 
  * (0001F4) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\write.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\write.obj
@@ -7667,6 +8005,9 @@
  * 
  * (00017C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\tidtable.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xDC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\tidtable.obj
@@ -7959,6 +8300,9 @@
  * 
  * (000D14) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\heapinit.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x118(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\heapinit.obj
@@ -8034,6 +8378,9 @@
  * 
  * (000144) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\free.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xB8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\free.obj
@@ -8094,6 +8441,9 @@
  * 
  * (000190) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\expand.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\expand.obj
@@ -8157,6 +8507,9 @@
  * 
  * (000194) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\malloc.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xF0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\malloc.obj
@@ -8260,6 +8613,9 @@
  * 
  * (000214) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\_newmode.obj
  * 
  * (000004) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\_newmode.obj
@@ -8305,6 +8661,9 @@
  * 
  * (000128) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\_open.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\_open.obj
@@ -8382,6 +8741,9 @@
  * 
  * (000128) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fflush.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fflush.obj
@@ -8475,6 +8837,9 @@
  * 
  * (0000E8) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\close.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\close.obj
@@ -8593,6 +8958,9 @@
  * 
  * (00032C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\a_map.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xBC(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\a_map.obj
@@ -8676,6 +9044,9 @@
  * (0000B4) S_GDATA32: [0003:00073A88], Type:             0x21A4, __decimal_point
  * (0000D4) S_GDATA32: [0003:00073A8C], Type:      T_UINT4(0075), __decimal_point_length
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\isctype.obj
  * (000004) Start search for segment 0x1 at symbol 0xB8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\isctype.obj
  * 
@@ -8725,6 +9096,9 @@
  * (0000AC) S_GDATA32: [0003:00073878], Type:  T_32PUSHORT(0421), _pctype
  * (0000C4) S_GDATA32: [0003:0007387C], Type:  T_32PUSHORT(0421), _pwctype
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\tolower.obj
  * (000004) Start search for segment 0x1 at symbol 0x138(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\tolower.obj
  * 
@@ -8927,6 +9301,9 @@
  * 
  * (00070C) S_GDATA32: [0003:00073830], Type:             0x2290, __lc_category
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\nlsdata2.obj
  * (000004) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\nlsdata2.obj
  * 
@@ -9010,6 +9387,9 @@
  * 
  * (00029C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\dbgrpt.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x138(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\dbgrpt.obj
@@ -9353,6 +9733,9 @@
  * 
  * (000AB4) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\_flsbuf.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xE8(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\_flsbuf.obj
@@ -9404,6 +9787,9 @@
  * 
  * (000098) S_GDATA32: [0003:00073500], Type:             0x22A1, _cfltcvt_tab
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fp8.obj
  * (000004) Start search for segment 0x1 at symbol 0x9C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fp8.obj
  * 
@@ -9489,6 +9875,9 @@
  * 
  * (0002EC) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\flength.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\flength.obj
@@ -9542,6 +9931,9 @@
  * 
  * (0000B0) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\lldiv.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\lldiv.obj
@@ -9602,6 +9994,9 @@
  * 
  * (000144) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\crt0dat.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x3A0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\crt0dat.obj
@@ -9774,6 +10169,9 @@
  * 
  * (0001D8) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fgetc.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fgetc.obj
@@ -9838,6 +10236,9 @@
  * 
  * (000138) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fputc.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fputc.obj
@@ -9917,6 +10318,9 @@
  * (0001BC) S_LABEL32: [0001:000A1430], found_bx
  * (0001D0) S_LABEL32: [0001:000A1446], __from_strstr_to_strchr
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strnicmp.obj
  * (000004) Start search for segment 0x1 at symbol 0x74(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strnicmp.obj
  * 
@@ -10015,6 +10419,9 @@
  * 
  * (000300) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\memcmp.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\memcmp.obj
@@ -10093,6 +10500,9 @@
  * 
  * (000240) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fseek.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fseek.obj
@@ -10180,6 +10590,9 @@
  * 
  * (000244) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strncmp.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strncmp.obj
@@ -10267,6 +10680,9 @@
  * 
  * (000290) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\rand.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\rand.obj
@@ -10759,6 +11175,9 @@
  * 
  * (00162C) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\abs.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x9C(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\abs.obj
@@ -10813,6 +11232,9 @@
  * 
  * (000144) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\atof.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD4(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\atof.obj
@@ -10880,6 +11302,9 @@
  * 
  * (000190) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\fgets.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fgets.obj
@@ -10948,6 +11373,9 @@
  * 
  * (000168) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\chkstk.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\chkstk.obj
@@ -11029,6 +11457,9 @@
  * 
  * (000264) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\atox.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0xD4(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\atox.obj
@@ -11109,6 +11540,9 @@
  * 
  * (000124) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\stricmp.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\stricmp.obj
@@ -11179,6 +11613,9 @@
  * 
  * (000144) S_END
  * 
+ */
+
+/*
  * ModName: build\intel\xmt_obj\strcat.obj
  * 
  * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\strcat.obj
@@ -11220,6 +11657,36 @@
  *          Debug start: 00000000, Debug end: 00000007
  * 
  * (000234) S_END
+ * 
+ */
+
+/*
+ * ModName: build\intel\xmt_obj\memset.obj
+ * 
+ * (000004) Start search for segment 0x1 at symbol 0x70(000010) S_OBJNAME: Signature: 00000001, build\intel\xmt_obj\memset.obj
+ * 
+ * (000038) S_COMPILE:
+ *          Language: MASM
+ *          Target processor: 8086
+ *          Floating-point precision: 0
+ *          Floating-point package: hardware
+ *          Ambient data: NEAR
+ *          Ambient code: NEAR
+ *          PCode present: 0
+ *          Compiler Version: Microsoft (R) Macro Assembler Version 6.13.7299
+ * 
+ * (000070) S_GPROC32: [0001:0009D320], Cb: 00000058, Type:             0x1001, memset
+ *          Parent: 00000000, End: 00000120, Next: 00000000
+ *          Debug start: 00000004, Debug end: 00000058
+ * 
+ * (0000A0)  S_LABEL32: [0001:0009D343], adjust_loop
+ * (0000B8)  S_LABEL32: [0001:0009D349], dwords
+ * (0000CC)  S_LABEL32: [0001:0009D363], main_loop_tail
+ * (0000E8)  S_LABEL32: [0001:0009D367], tail
+ * (0000F8)  S_LABEL32: [0001:0009D36D], finish
+ * (00010C)  S_LABEL32: [0001:0009D373], toend
+ * 
+ * (000120) S_END
  * 
  */
 

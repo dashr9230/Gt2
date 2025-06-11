@@ -1,5 +1,5 @@
 
-// Original file: C:\CodePrj\Gt2\ZLib\uncompr.c
+// File: C:\CodePrj\Gt2\ZLib\uncompr.c
 
 /*
  * ModName: .\Debug\uncompr.obj
@@ -28,29 +28,6 @@
  * (000128)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), err
  * 
  * (000138) S_END
- * 
- * ModName: build\intel\xmt_obj\fileno.obj
- * 
- * (000004) Start search for segment 0x1 at symbol 0xA0(000010) S_OBJNAME: Signature: 00000000, E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\fileno.obj
- * 
- * (000054) S_COMPILE:
- *          Language: C
- *          Target processor: Pentium
- *          Floating-point precision: 0
- *          Floating-point package: hardware
- *          Ambient data: NEAR
- *          Ambient code: NEAR
- *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168.0
- * 
- * (0000A0) S_GPROC32: [0001:000B9FE0], Cb: 0000000B, Type:             0x215D, _fileno
- *          Parent: 00000000, End: 000000E4, Next: 00000000
- *          Debug start: 00000003, Debug end: 00000009
- *          Flags: Frame Ptr Present
- * 
- * (0000D0)  S_BPREL32: [00000008], Type:             0x1834, stream
- * 
- * (0000E4) S_END
  * 
  */
 

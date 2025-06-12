@@ -15,6 +15,14 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0005A8) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0006E160], Cb: 00000005, Type:             0x1408, PolyManager_Release
  *          Parent: 00000000, End: 000000D8, Next: 000000DC
  *          Debug start: 00000003, Debug end: 00000003
@@ -23,7 +31,9 @@
  * (0000C8)  S_BPREL32: [00000008], Type:             0x1404, Obj
  * 
  * (0000D8) S_END
- * 
+ */
+
+/*
  * (0000DC) S_GPROC32: [0001:0006E165], Cb: 0000002E, Type:             0x1408, PolyManager_Draw
  *          Parent: 00000000, End: 00000134, Next: 00000138
  *          Debug start: 00000004, Debug end: 0000002A
@@ -33,7 +43,9 @@
  * (000124)  S_BPREL32: [FFFFFFFC], Type:             0x1404, ptr
  * 
  * (000134) S_END
- * 
+ */
+
+/*
  * (000138) S_GPROC32: [0001:0006E193], Cb: 00000076, Type:             0x1824, PolyManager_Create
  *          Parent: 00000000, End: 00000194, Next: 00000198
  *          Debug start: 00000004, Debug end: 00000072
@@ -42,7 +54,9 @@
  * (000174)  S_BPREL32: [FFFFFFFC], Type:             0x1404, PolyManagerObject
  * 
  * (000194) S_END
- * 
+ */
+
+/*
  * (000198) S_GPROC32: [0001:0006E209], Cb: 0000002B, Type:             0x1408, Poly_Release
  *          Parent: 00000000, End: 000001DC, Next: 000001E0
  *          Debug start: 00000003, Debug end: 00000029
@@ -51,7 +65,9 @@
  * (0001CC)  S_BPREL32: [00000008], Type:             0x1404, Obj
  * 
  * (0001DC) S_END
- * 
+ */
+
+/*
  * (0001E0) S_GPROC32: [0001:0006E234], Cb: 00000019, Type:             0x1408, Poly_Draw
  *          Parent: 00000000, End: 00000224, Next: 00000228
  *          Debug start: 00000003, Debug end: 00000017
@@ -60,7 +76,9 @@
  * (000214)  S_BPREL32: [00000008], Type:             0x1404, Obj
  * 
  * (000224) S_END
- * 
+ */
+
+/*
  * (000228) S_GPROC32: [0001:0006E24D], Cb: 00000156, Type:             0x1826, Poly_Create
  *          Parent: 00000000, End: 00000328, Next: 0000032C
  *          Debug start: 00000006, Debug end: 00000152
@@ -80,7 +98,9 @@
  * (000314)  S_BPREL32: [FFFFFFFC], Type:             0x1404, PolyObj
  * 
  * (000328) S_END
- * 
+ */
+
+/*
  * (00032C) S_LPROC32: [0001:0006E3A3], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 000003B0, Next: 000003B4
  *          Debug start: 00000006, Debug end: 00000076
@@ -93,7 +113,9 @@
  * (0003A0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0003B0) S_END
- * 
+ */
+
+/*
  * (0003B4) S_GPROC32: [0001:0006E41D], Cb: 00000128, Type:             0x182C, Poly_CreateFlat
  *          Parent: 00000000, End: 000004A8, Next: 000004AC
  *          Debug start: 00000006, Debug end: 00000124
@@ -112,7 +134,9 @@
  * (000494)  S_BPREL32: [FFFFFFFC], Type:             0x1404, PolyObj
  * 
  * (0004A8) S_END
- * 
+ */
+
+/*
  * (0004AC) S_GPROC32: [0001:0006E545], Cb: 00000148, Type:             0x182E, Poly_CreateGouraud
  *          Parent: 00000000, End: 000005A4, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000144
@@ -131,8 +155,5 @@
  * (000590)  S_BPREL32: [FFFFFFFC], Type:             0x1404, PolyObj
  * 
  * (0005A4) S_END
- * 
- * (0005A8) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
  */
 

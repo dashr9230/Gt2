@@ -15,6 +15,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000508) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (000524) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ */
+
+/*
  * (000088) S_GPROC32: [0001:0002C450], Cb: 00000274, Type:             0x1BBD, getModelDimensions
  *          Parent: 00000000, End: 00000228, Next: 0000022C
  *          Debug start: 00000006, Debug end: 00000270
@@ -57,7 +66,9 @@
  * (000224)  S_END
  * 
  * (000228) S_END
- * 
+ */
+
+/*
  * (00022C) S_LPROC32: [0001:0002C6C4], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
  *          Parent: 00000000, End: 00000280, Next: 00000284
  *          Debug start: 00000004, Debug end: 0000002B
@@ -67,7 +78,9 @@
  * (000270)  S_BPREL32: [FFFFFFFC], Type:             0x100B, eVL
  * 
  * (000280) S_END
- * 
+ */
+
+/*
  * (000284) S_LPROC32: [0001:0002C6F3], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
  *          Parent: 00000000, End: 000002D8, Next: 000002DC
  *          Debug start: 00000004, Debug end: 0000002B
@@ -77,7 +90,9 @@
  * (0002C8)  S_BPREL32: [FFFFFFFC], Type:             0x17BD, eVL
  * 
  * (0002D8) S_END
- * 
+ */
+
+/*
  * (0002DC) S_GPROC32: [0001:0002C722], Cb: 000001A9, Type:             0x1BBF, RotatePoint
  *          Parent: 00000000, End: 000003DC, Next: 000003E0
  *          Debug start: 00000006, Debug end: 000001A5
@@ -97,7 +112,9 @@
  * (0003CC)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), z1
  * 
  * (0003DC) S_END
- * 
+ */
+
+/*
  * (0003E0) S_GPROC32: [0001:0002C8CB], Cb: 0000001F, Type:             0x1BC0, QHyp
  *          Parent: 00000000, End: 0000042C, Next: 00000430
  *          Debug start: 00000003, Debug end: 0000001D
@@ -107,7 +124,9 @@
  * (00041C)  S_BPREL32: [0000000C], Type:     T_REAL32(0040), z
  * 
  * (00042C) S_END
- * 
+ */
+
+/*
  * (000430) S_GPROC32: [0001:0002C8EA], Cb: 00000021, Type:             0x1BC1, QAng
  *          Parent: 00000000, End: 0000049C, Next: 000004A0
  *          Debug start: 00000003, Debug end: 0000001F
@@ -119,7 +138,9 @@
  * (00048C)  S_BPREL32: [00000014], Type:     T_REAL32(0040), z2
  * 
  * (00049C) S_END
- * 
+ */
+
+/*
  * (0004A0) S_GPROC32: [0001:0002C90B], Cb: 00000047, Type:             0x1BC3, QAngSep
  *          Parent: 00000000, End: 00000504, Next: 00000000
  *          Debug start: 00000004, Debug end: 00000043
@@ -130,9 +151,5 @@
  * (0004F0)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), theta
  * 
  * (000504) S_END
- * 
- * (000508) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (000524) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * 
  */
 

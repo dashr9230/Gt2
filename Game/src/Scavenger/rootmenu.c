@@ -16,6 +16,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000158) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (000174) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (000190) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00070C90], Cb: 00000060, Type:             0x1001, DestroyRootMenu
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000006, Debug end: 0000005C
@@ -25,7 +35,9 @@
  * (0000D4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_GPROC32: [0001:00070CF0], Cb: 000002FC, Type:             0x1001, SetupRootMenu
  *          Parent: 00000000, End: 00000154, Next: 00000000
  *          Debug start: 00000006, Debug end: 000002F8
@@ -35,10 +47,5 @@
  * (00013C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000154) S_END
- * 
- * (000158) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (000174) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (000190) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * 
  */
 

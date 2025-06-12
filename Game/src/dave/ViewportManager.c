@@ -15,6 +15,22 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0014A0) S_GDATA32: [0003:0097BEE0], Type:             0x1BE3, VPM_GameScreen
+ * (0014C0) S_GDATA32: [0003:0121E7A0], Type:             0x1BE5, CloseUpCameras
+ * (0014E0) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
+ * (0014F4) S_GDATA32: [0003:0097C0A0], Type:             0x1A7F, CamScreen
+ * (00150C) S_GDATA32: [0003:0097C080], Type:      T_ULONG(0022), VPM_ScreenCount
+ * (00152C) S_GDATA32: [0003:0097C084], Type:      T_ULONG(0022), VPM_NumDrivable
+ * (00154C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (001564) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (00157C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ */
+
+/*
  * (000094) S_GPROC32: [0001:00028430], Cb: 0000004B, Type:             0x1001, VPM_Init
  *          Parent: 00000000, End: 000000D4, Next: 000000D8
  *          Debug start: 00000004, Debug end: 00000047
@@ -23,7 +39,9 @@
  * (0000C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0000D4) S_END
- * 
+ */
+
+/*
  * (0000D8) S_GPROC32: [0001:0002847B], Cb: 00000097, Type:             0x1BD7, VPM_Request
  *          Parent: 00000000, End: 0000018C, Next: 00000190
  *          Debug start: 00000006, Debug end: 00000093
@@ -37,7 +55,9 @@
  * (000178)  S_BPREL32: [FFFFFFFC], Type:             0x1A7E, Screen
  * 
  * (00018C) S_END
- * 
+ */
+
+/*
  * (000190) S_GPROC32: [0001:00028512], Cb: 0000015E, Type:             0x1001, VPM_DesignateDrivableVPs
  *          Parent: 00000000, End: 000002D0, Next: 000002D4
  *          Debug start: 00000006, Debug end: 0000013A
@@ -58,7 +78,9 @@
  * (0002B4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), NumProcessed
  * 
  * (0002D0) S_END
- * 
+ */
+
+/*
  * (0002D4) S_GPROC32: [0001:00028670], Cb: 000005D4, Type:             0x1001, VPM_Allocate
  *          Parent: 00000000, End: 00000530, Next: 00000534
  *          Debug start: 00000006, Debug end: 0000056C
@@ -94,7 +116,9 @@
  * (000520)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000530) S_END
- * 
+ */
+
+/*
  * (000534) S_GPROC32: [0001:00028C44], Cb: 000000D0, Type:             0x1001, VPM_AllocateHUDs
  *          Parent: 00000000, End: 00000590, Next: 00000594
  *          Debug start: 00000006, Debug end: 000000CC
@@ -104,7 +128,9 @@
  * (000580)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000590) S_END
- * 
+ */
+
+/*
  * (000594) S_GPROC32: [0001:00028D14], Cb: 00000017, Type:             0x1BD9, VPM_SetSideEffect
  *          Parent: 00000000, End: 000005FC, Next: 00000600
  *          Debug start: 00000003, Debug end: 00000015
@@ -114,7 +140,9 @@
  * (0005E4)  S_BPREL32: [0000000C], Type:             0x1A7E, SideEffect
  * 
  * (0005FC) S_END
- * 
+ */
+
+/*
  * (000600) S_GPROC32: [0001:00028D2B], Cb: 0000004C, Type:             0x1001, VPM_SetFixedTarget
  *          Parent: 00000000, End: 00000660, Next: 00000664
  *          Debug start: 00000006, Debug end: 00000048
@@ -124,7 +152,9 @@
  * (000650)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000660) S_END
- * 
+ */
+
+/*
  * (000664) S_GPROC32: [0001:00028D77], Cb: 000002BD, Type:             0x1BDB, VPM_DirectScreen
  *          Parent: 00000000, End: 000006EC, Next: 000006F0
  *          Debug start: 00000006, Debug end: 000002B9
@@ -136,7 +166,9 @@
  * (0006DC)  S_BPREL32: [FFFFFFFC], Type:             0x140A, Cam
  * 
  * (0006EC) S_END
- * 
+ */
+
+/*
  * (0006F0) S_GPROC32: [0001:00029034], Cb: 00000044, Type:             0x1001, VPM_Direct
  *          Parent: 00000000, End: 00000748, Next: 0000074C
  *          Debug start: 00000006, Debug end: 00000040
@@ -146,7 +178,9 @@
  * (000738)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000748) S_END
- * 
+ */
+
+/*
  * (00074C) S_GPROC32: [0001:00029078], Cb: 00000099, Type:             0x1001, VPM_AutoChanger
  *          Parent: 00000000, End: 000007A8, Next: 000007AC
  *          Debug start: 00000006, Debug end: 00000095
@@ -156,7 +190,9 @@
  * (000798)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0007A8) S_END
- * 
+ */
+
+/*
  * (0007AC) S_GPROC32: [0001:00029111], Cb: 000000E2, Type:             0x1001, VPM_Release
  *          Parent: 00000000, End: 000007F0, Next: 000007F4
  *          Debug start: 00000004, Debug end: 000000DE
@@ -165,7 +201,9 @@
  * (0007E0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0007F0) S_END
- * 
+ */
+
+/*
  * (0007F4) S_GPROC32: [0001:000291F3], Cb: 000000F7, Type:             0x1BDD, VPORT_SimpleSetup
  *          Parent: 00000000, End: 00000914, Next: 00000918
  *          Debug start: 00000006, Debug end: 000000F3
@@ -190,7 +228,9 @@
  * (000910)  S_END
  * 
  * (000914) S_END
- * 
+ */
+
+/*
  * (000918) S_GPROC32: [0001:000292EA], Cb: 000000A8, Type:             0x1BDF, RC_CameraScreen
  *          Parent: 00000000, End: 00000A1C, Next: 00000A20
  *          Debug start: 00000006, Debug end: 000000A4
@@ -209,7 +249,9 @@
  * (000A04)  S_BPREL32: [FFFFFFFC], Type:             0x1B32, Director
  * 
  * (000A1C) S_END
- * 
+ */
+
+/*
  * (000A20) S_GPROC32: [0001:00029392], Cb: 000000B3, Type:             0x1BDF, RC_PlayerScreen
  *          Parent: 00000000, End: 00000B24, Next: 00000B28
  *          Debug start: 00000006, Debug end: 000000AF
@@ -228,7 +270,9 @@
  * (000B0C)  S_BPREL32: [FFFFFFFC], Type:             0x1B32, Director
  * 
  * (000B24) S_END
- * 
+ */
+
+/*
  * (000B28) S_GPROC32: [0001:00029445], Cb: 00000552, Type:             0x1BDB, VPM_Setup
  *          Parent: 00000000, End: 00000D3C, Next: 00000D40
  *          Debug start: 00000006, Debug end: 000004EA
@@ -260,7 +304,9 @@
  * (000D24)  S_BPREL32: [FFFFFFFC], Type:             0x1B32, Director
  * 
  * (000D3C) S_END
- * 
+ */
+
+/*
  * (000D40) S_GPROC32: [0001:00029997], Cb: 0000003D, Type:             0x1BDB, VPM_NextCar
  *          Parent: 00000000, End: 00000D88, Next: 00000D8C
  *          Debug start: 00000003, Debug end: 0000003B
@@ -269,7 +315,9 @@
  * (000D74)  S_BPREL32: [00000008], Type:             0x1A7E, Screen
  * 
  * (000D88) S_END
- * 
+ */
+
+/*
  * (000D8C) S_GPROC32: [0001:000299D4], Cb: 00000276, Type:             0x1BDB, VPM_NextUser
  *          Parent: 00000000, End: 00000E38, Next: 00000E3C
  *          Debug start: 00000006, Debug end: 00000272
@@ -292,7 +340,9 @@
  * (000E34)  S_END
  * 
  * (000E38) S_END
- * 
+ */
+
+/*
  * (000E3C) S_GPROC32: [0001:00029C4A], Cb: 0000019B, Type:             0x1001, VPM_KeyChecks
  *          Parent: 00000000, End: 00000EDC, Next: 00000EE0
  *          Debug start: 00000006, Debug end: 00000197
@@ -310,7 +360,9 @@
  * (000ED8)  S_END
  * 
  * (000EDC) S_END
- * 
+ */
+
+/*
  * (000EE0) S_GPROC32: [0001:00029DE5], Cb: 000000A8, Type:             0x1BE0, VPM_FindTV
  *          Parent: 00000000, End: 00000F38, Next: 00000F3C
  *          Debug start: 00000006, Debug end: 000000A4
@@ -320,7 +372,9 @@
  * (000F28)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000F38) S_END
- * 
+ */
+
+/*
  * (000F3C) S_GPROC32: [0001:00029E8D], Cb: 000000C5, Type:             0x1BE0, VPM_FindFullScreen
  *          Parent: 00000000, End: 00000F9C, Next: 00000FA0
  *          Debug start: 00000006, Debug end: 000000C1
@@ -330,7 +384,9 @@
  * (000F8C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000F9C) S_END
- * 
+ */
+
+/*
  * (000FA0) S_GPROC32: [0001:00029F52], Cb: 000000A6, Type:             0x1BE2, VPM_Force
  *          Parent: 00000000, End: 00001020, Next: 00001024
  *          Debug start: 00000006, Debug end: 000000A2
@@ -342,7 +398,9 @@
  * (001010)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (001020) S_END
- * 
+ */
+
+/*
  * (001024) S_GPROC32: [0001:00029FF8], Cb: 000000F6, Type:             0x1A19, VPM_UnForce
  *          Parent: 00000000, End: 000010F4, Next: 000010F8
  *          Debug start: 00000006, Debug end: 000000F2
@@ -367,7 +425,9 @@
  * (0010F0)  S_END
  * 
  * (0010F4) S_END
- * 
+ */
+
+/*
  * (0010F8) S_GPROC32: [0001:0002A0EE], Cb: 0000020F, Type:             0x16A1, VPM_Debug
  *          Parent: 00000000, End: 00001258, Next: 0000125C
  *          Debug start: 00000006, Debug end: 000001F3
@@ -390,7 +450,9 @@
  * (001240)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (001258) S_END
- * 
+ */
+
+/*
  * (00125C) S_LPROC32: [0001:0002A2FD], Cb: 000000DB, Type:             0x1B7C, DriverSetModeStr
  *          Parent: 00000000, End: 00001368, Next: 0000136C
  *          Debug start: 00000004, Debug end: 000000B7
@@ -409,7 +471,9 @@
  * (001354)  S_BPREL32: [0000000C], Type:       T_LONG(0012), Mode
  * 
  * (001368) S_END
- * 
+ */
+
+/*
  * (00136C) S_LPROC32: [0001:0002A3D8], Cb: 00000078, Type:             0x1B7C, PipSetModeStr
  *          Parent: 00000000, End: 00001428, Next: 0000142C
  *          Debug start: 00000004, Debug end: 00000064
@@ -424,7 +488,9 @@
  * (001414)  S_BPREL32: [0000000C], Type:       T_LONG(0012), Mode
  * 
  * (001428) S_END
- * 
+ */
+
+/*
  * (00142C) S_GPROC32: [0001:0002A450], Cb: 0000009C, Type:             0x1408, VPM_ForceObjFinish
  *          Parent: 00000000, End: 0000149C, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000098
@@ -435,16 +501,5 @@
  * (00148C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (00149C) S_END
- * 
- * (0014A0) S_GDATA32: [0003:0097BEE0], Type:             0x1BE3, VPM_GameScreen
- * (0014C0) S_GDATA32: [0003:0121E7A0], Type:             0x1BE5, CloseUpCameras
- * (0014E0) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
- * (0014F4) S_GDATA32: [0003:0097C0A0], Type:             0x1A7F, CamScreen
- * (00150C) S_GDATA32: [0003:0097C080], Type:      T_ULONG(0022), VPM_ScreenCount
- * (00152C) S_GDATA32: [0003:0097C084], Type:      T_ULONG(0022), VPM_NumDrivable
- * (00154C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (001564) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (00157C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * 
  */
 

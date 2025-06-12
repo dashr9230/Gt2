@@ -15,6 +15,20 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0004AC) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
+ * (0004D0) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
+ * (0004EC) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (000508) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
+ * (000520) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (000540) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
+ * (000554) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ */
+
+/*
  * (000088) S_GPROC32: [0001:00055DA0], Cb: 00001F08, Type:             0x1A13, ParseStringToID
  *          Parent: 00000000, End: 000000D0, Next: 000000D4
  *          Debug start: 00000003, Debug end: 00001F06
@@ -23,7 +37,9 @@
  * (0000C0)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), str
  * 
  * (0000D0) S_END
- * 
+ */
+
+/*
  * (0000D4) S_GPROC32: [0001:00057CA8], Cb: 00005465, Type:             0x1907, LoadTextArray
  *          Parent: 00000000, End: 000004A8, Next: 00000000
  *          Debug start: 0000000A, Debug end: 00005430
@@ -76,14 +92,5 @@
  * (000494)  S_BPREL32: [FFFFFFB0], Type:             0x17E8, bTracks
  * 
  * (0004A8) S_END
- * 
- * (0004AC) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
- * (0004D0) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
- * (0004EC) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (000508) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
- * (000520) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (000540) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
- * (000554) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * 
  */
 

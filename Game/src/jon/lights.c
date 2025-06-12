@@ -15,6 +15,29 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0007B4) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (0007D0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (0007E8) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (000800) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (000818) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (000830) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (000848) S_GDATA32: [0003:00075164], Type:             0x140A, GlobalCamera
+ * (000864) S_LDATA32: [0003:00010AA8], Type:             0x13BB, LiteSize
+ * (00087C) S_LDATA32: [0003:00075D08], Type:             0x1B6C, plan
+ * (000890) S_LDATA32: [0003:00075E08], Type:             0x1B6C, FloorLight
+ * (0008AC) S_LDATA32: [0003:00010AC8], Type:       T_LONG(0012), BrakeLightSides
+ * (0008CC) S_GDATA32: [0003:00010ACC], Type:      T_ULONG(0022), BrakeLightDetail
+ * (0008EC) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (000908) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (000924) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ * (000944) S_GDATA32: [0003:00C9A6E4], Type:             0x13EB, CurScreen
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00031140], Cb: 00000005, Type:             0x1B62, DrawLights
  *          Parent: 00000000, End: 00000160, Next: 00000164
  *          Debug start: 00000003, Debug end: 00000003
@@ -31,7 +54,9 @@
  * (00014C)  S_BPREL32: [00000028], Type:      T_UCHAR(0020), fade
  * 
  * (000160) S_END
- * 
+ */
+
+/*
  * (000164) S_GPROC32: [0001:00031145], Cb: 000002F6, Type:             0x1001, LITE_AllocateAll
  *          Parent: 00000000, End: 00000280, Next: 00000284
  *          Debug start: 00000006, Debug end: 000002F2
@@ -55,7 +80,9 @@
  * (00027C)  S_END
  * 
  * (000280) S_END
- * 
+ */
+
+/*
  * (000284) S_LPROC32: [0001:0003143B], Cb: 00000150, Type:             0x1B68, LITE_Allocate
  *          Parent: 00000000, End: 00000354, Next: 00000358
  *          Debug start: 00000004, Debug end: 0000014C
@@ -71,7 +98,9 @@
  * (000344)  S_BPREL32: [FFFFFFFC], Type:             0x1404, Obj
  * 
  * (000354) S_END
- * 
+ */
+
+/*
  * (000358) S_LPROC32: [0001:0003158B], Cb: 0000026B, Type:             0x1408, LITE_DrawFloor
  *          Parent: 00000000, End: 000004CC, Next: 000004D0
  *          Debug start: 00000006, Debug end: 00000267
@@ -109,7 +138,9 @@
  * (0004C8)  S_END
  * 
  * (0004CC) S_END
- * 
+ */
+
+/*
  * (0004D0) S_LPROC32: [0001:000317F6], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 0000058C, Next: 00000590
  *          Debug start: 00000006, Debug end: 0000006D
@@ -129,7 +160,9 @@
  * (000588)  S_END
  * 
  * (00058C) S_END
- * 
+ */
+
+/*
  * (000590) S_LPROC32: [0001:00031867], Cb: 000000D5, Type:             0x1B6B, ScaleRGB
  *          Parent: 00000000, End: 0000063C, Next: 00000640
  *          Debug start: 00000007, Debug end: 000000D0
@@ -144,7 +177,9 @@
  * (00062C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), a
  * 
  * (00063C) S_END
- * 
+ */
+
+/*
  * (000640) S_LPROC32: [0001:0003193C], Cb: 000001D9, Type:             0x1408, LITE_Draw
  *          Parent: 00000000, End: 00000758, Next: 0000075C
  *          Debug start: 00000006, Debug end: 000001D5
@@ -173,7 +208,9 @@
  * (000754)  S_END
  * 
  * (000758) S_END
- * 
+ */
+
+/*
  * (00075C) S_LPROC32: [0001:00031B15], Cb: 00000099, Type:             0x1408, LITE_Handler
  *          Parent: 00000000, End: 000007B0, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000095
@@ -183,23 +220,5 @@
  * (0007A0)  S_BPREL32: [FFFFFFF4], Type:             0x1A34, Pos
  * 
  * (0007B0) S_END
- * 
- * (0007B4) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (0007D0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (0007E8) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (000800) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (000818) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (000830) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (000848) S_GDATA32: [0003:00075164], Type:             0x140A, GlobalCamera
- * (000864) S_LDATA32: [0003:00010AA8], Type:             0x13BB, LiteSize
- * (00087C) S_LDATA32: [0003:00075D08], Type:             0x1B6C, plan
- * (000890) S_LDATA32: [0003:00075E08], Type:             0x1B6C, FloorLight
- * (0008AC) S_LDATA32: [0003:00010AC8], Type:       T_LONG(0012), BrakeLightSides
- * (0008CC) S_GDATA32: [0003:00010ACC], Type:      T_ULONG(0022), BrakeLightDetail
- * (0008EC) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (000908) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (000924) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * (000944) S_GDATA32: [0003:00C9A6E4], Type:             0x13EB, CurScreen
- * 
  */
 

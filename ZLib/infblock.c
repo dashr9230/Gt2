@@ -16,6 +16,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0005E0) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
+ * (0005FC) S_LDATA32: [0002:00002138], Type:             0x2142, border
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00099180], Cb: 000000D2, Type:             0x2139, inflate_blocks_reset
  *          Parent: 00000000, End: 000000F8, Next: 000000FC
  *          Debug start: 00000004, Debug end: 000000C8
@@ -26,7 +35,9 @@
  * (0000E8)  S_BPREL32: [00000010], Type:   T_32PULONG(0422), c
  * 
  * (0000F8) S_END
- * 
+ */
+
+/*
  * (0000FC) S_GPROC32: [0001:00099252], Cb: 00000141, Type:             0x213B, inflate_blocks_new
  *          Parent: 00000000, End: 00000178, Next: 0000017C
  *          Debug start: 0000000C, Debug end: 00000132
@@ -38,7 +49,9 @@
  * (000168)  S_BPREL32: [FFFFFFFC], Type:             0x2102, s
  * 
  * (000178) S_END
- * 
+ */
+
+/*
  * (00017C) S_GPROC32: [0001:00099393], Cb: 000013B4, Type:             0x210C, inflate_blocks
  *          Parent: 00000000, End: 000004B0, Next: 000004B4
  *          Debug start: 00000017, Debug end: 0000136C
@@ -103,7 +116,9 @@
  * (0004AC)  S_END
  * 
  * (0004B0) S_END
- * 
+ */
+
+/*
  * (0004B4) S_GPROC32: [0001:0009A747], Cb: 0000007F, Type:             0x213D, inflate_blocks_free
  *          Parent: 00000000, End: 00000510, Next: 00000514
  *          Debug start: 00000004, Debug end: 00000075
@@ -113,7 +128,9 @@
  * (000500)  S_BPREL32: [0000000C], Type:             0x2107, z
  * 
  * (000510) S_END
- * 
+ */
+
+/*
  * (000514) S_GPROC32: [0001:0009A7C6], Cb: 0000003E, Type:             0x213F, inflate_set_dictionary
  *          Parent: 00000000, End: 00000584, Next: 00000588
  *          Debug start: 00000003, Debug end: 00000035
@@ -124,7 +141,9 @@
  * (000574)  S_BPREL32: [00000010], Type:      T_UINT4(0075), n
  * 
  * (000584) S_END
- * 
+ */
+
+/*
  * (000588) S_GPROC32: [0001:0009A804], Cb: 00000012, Type:             0x2141, inflate_blocks_sync_point
  *          Parent: 00000000, End: 000005DC, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000010
@@ -133,9 +152,5 @@
  * (0005CC)  S_BPREL32: [00000008], Type:             0x2102, s
  * 
  * (0005DC) S_END
- * 
- * (0005E0) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
- * (0005FC) S_LDATA32: [0002:00002138], Type:             0x2142, border
- * 
  */
 

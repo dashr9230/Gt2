@@ -15,6 +15,19 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000A8C) S_LDATA32: [0003:0091E8D8], Type:     T_USHORT(0021), TPAGE_Cur
+ * (000AA4) S_LDATA32: [0003:0091E8DA], Type:     T_USHORT(0021), TPAGE_Used
+ * (000AC0) S_GDATA32: [0002:00000BE8], Type:             0x1011, IID_IDirect3DTexture2
+ * (000AE4) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000AFC) S_GDATA32: [0003:00C9B860], Type:             0x1FB2, TPAGE_Defs
+ * (000B18) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:000853F0], Cb: 00000174, Type:             0x1F9C, getrgbpix
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000006, Debug end: 00000170
@@ -38,7 +51,9 @@
  * (0001B8)  S_BPREL32: [FFFFFFFC], Type:     T_USHORT(0021), col
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_GPROC32: [0001:00085564], Cb: 000000E1, Type:             0x1F9E, palmatch
  *          Parent: 00000000, End: 000002A4, Next: 000002A8
  *          Debug start: 00000007, Debug end: 000000DC
@@ -56,7 +71,9 @@
  * (000290)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), result
  * 
  * (0002A4) S_END
- * 
+ */
+
+/*
  * (0002A8) S_GPROC32: [0001:00085645], Cb: 00000055, Type:             0x1FA0, getavgpix
  *          Parent: 00000000, End: 00000370, Next: 00000374
  *          Debug start: 00000006, Debug end: 00000051
@@ -73,14 +90,18 @@
  * (000360)  S_BPREL32: [FFFFFFFC], Type:     T_USHORT(0021), b
  * 
  * (000370) S_END
- * 
+ */
+
+/*
  * (000374) S_GPROC32: [0001:0008569A], Cb: 0000003D, Type:             0x16A5, TPAGE_Init
  *          Parent: 00000000, End: 000003A8, Next: 000003AC
  *          Debug start: 00000003, Debug end: 0000003B
  *          Flags: Frame Ptr Present
  * 
  * (0003A8) S_END
- * 
+ */
+
+/*
  * (0003AC) S_GPROC32: [0001:000856D7], Cb: 0000001B, Type:             0x1FA3, TPAGE_Create
  *          Parent: 00000000, End: 000003F0, Next: 000003F4
  *          Debug start: 00000003, Debug end: 00000019
@@ -89,7 +110,9 @@
  * (0003E0)  S_BPREL32: [00000008], Type:             0x1FA1, TP
  * 
  * (0003F0) S_END
- * 
+ */
+
+/*
  * (0003F4) S_LPROC32: [0001:000856F2], Cb: 000005D6, Type:             0x1FA3, tpageCreate
  *          Parent: 00000000, End: 000004F8, Next: 000004FC
  *          Debug start: 00000009, Debug end: 000005D2
@@ -111,7 +134,9 @@
  * (0004F4)  S_END
  * 
  * (0004F8) S_END
- * 
+ */
+
+/*
  * (0004FC) S_LPROC32: [0001:00085CC8], Cb: 0000006F, Type:             0x1D32, TPAGE_CheckTextureFormat
  *          Parent: 00000000, End: 0000057C, Next: 00000580
  *          Debug start: 00000004, Debug end: 0000006B
@@ -122,7 +147,9 @@
  * (00056C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (00057C) S_END
- * 
+ */
+
+/*
  * (000580) S_LPROC32: [0001:00085D37], Cb: 000000BA, Type:             0x1AA6, tpage_alloc
  *          Parent: 00000000, End: 000005D8, Next: 000005DC
  *          Debug start: 00000006, Debug end: 000000B6
@@ -132,7 +159,9 @@
  * (0005C8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0005D8) S_END
- * 
+ */
+
+/*
  * (0005DC) S_LPROC32: [0001:00085DF1], Cb: 00000042, Type:             0x1FA4, tpage_next
  *          Parent: 00000000, End: 00000624, Next: 00000628
  *          Debug start: 00000003, Debug end: 00000040
@@ -141,7 +170,9 @@
  * (000610)  S_BPREL32: [00000008], Type:     T_USHORT(0021), CurPage
  * 
  * (000624) S_END
- * 
+ */
+
+/*
  * (000628) S_LPROC32: [0001:00085E33], Cb: 0000005E, Type:             0x1FA4, tpage_gettextureinterface
  *          Parent: 00000000, End: 00000680, Next: 00000684
  *          Debug start: 00000003, Debug end: 0000005C
@@ -150,7 +181,9 @@
  * (00066C)  S_BPREL32: [00000008], Type:     T_USHORT(0021), CurPage
  * 
  * (000680) S_END
- * 
+ */
+
+/*
  * (000684) S_GPROC32: [0001:00085E91], Cb: 0000002A, Type:             0x1FA6, TPAGE_CreateStaged
  *          Parent: 00000000, End: 000006E4, Next: 000006E8
  *          Debug start: 00000003, Debug end: 00000028
@@ -160,7 +193,9 @@
  * (0006D0)  S_BPREL32: [0000000C], Type:       T_LONG(0012), Stage
  * 
  * (0006E4) S_END
- * 
+ */
+
+/*
  * (0006E8) S_GPROC32: [0001:00085EBB], Cb: 00000267, Type:             0x1FAB, TPAGE_CreateNew
  *          Parent: 00000000, End: 00000914, Next: 00000918
  *          Debug start: 00000006, Debug end: 00000263
@@ -211,7 +246,9 @@
  * (000910)  S_END
  * 
  * (000914) S_END
- * 
+ */
+
+/*
  * (000918) S_GPROC32: [0001:00086122], Cb: 00000169, Type:             0x1FAF, TPAGE_Delete
  *          Parent: 00000000, End: 00000960, Next: 00000964
  *          Debug start: 00000003, Debug end: 00000167
@@ -220,7 +257,9 @@
  * (00094C)  S_BPREL32: [00000008], Type:     T_USHORT(0021), TPage
  * 
  * (000960) S_END
- * 
+ */
+
+/*
  * (000964) S_GPROC32: [0001:0008628B], Cb: 00000031, Type:             0x1FB1, TPAGE_DeleteEntry
  *          Parent: 00000000, End: 000009C8, Next: 000009CC
  *          Debug start: 00000004, Debug end: 0000002D
@@ -230,7 +269,9 @@
  * (0009B4)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), RetVal
  * 
  * (0009C8) S_END
- * 
+ */
+
+/*
  * (0009CC) S_GPROC32: [0001:000862BC], Cb: 00000054, Type:             0x1001, TPAGE_DeleteAll
  *          Parent: 00000000, End: 00000A14, Next: 00000A18
  *          Debug start: 00000004, Debug end: 00000050
@@ -239,28 +280,27 @@
  * (000A04)  S_BPREL32: [FFFFFFFC], Type:     T_USHORT(0021), a
  * 
  * (000A14) S_END
- * 
+ */
+
+/*
  * (000A18) S_GPROC32: [0001:00086310], Cb: 0000002D, Type:             0x16A5, TPAGE_EvictAll
  *          Parent: 00000000, End: 00000A50, Next: 00000A54
  *          Debug start: 00000003, Debug end: 0000002B
  *          Flags: Frame Ptr Present
  * 
  * (000A50) S_END
- * 
+ */
+
+/*
  * (000A54) S_GPROC32: [0001:0008633D], Cb: 0000007B, Type:             0x1001, TPAGE_Report
  *          Parent: 00000000, End: 00000A88, Next: 00000B38
  *          Debug start: 00000003, Debug end: 00000079
  *          Flags: Frame Ptr Present
  * 
  * (000A88) S_END
- * 
- * (000A8C) S_LDATA32: [0003:0091E8D8], Type:     T_USHORT(0021), TPAGE_Cur
- * (000AA4) S_LDATA32: [0003:0091E8DA], Type:     T_USHORT(0021), TPAGE_Used
- * (000AC0) S_GDATA32: [0002:00000BE8], Type:             0x1011, IID_IDirect3DTexture2
- * (000AE4) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000AFC) S_GDATA32: [0003:00C9B860], Type:             0x1FB2, TPAGE_Defs
- * (000B18) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * 
+ */
+
+/*
  * (000B38) S_GPROC32: [0001:000863C0], Cb: 000004C3, Type:             0x1FBA, convert_to_xbit2
  *          Parent: 00000000, End: 00000D64, Next: 00000D68
  *          Debug start: 00000007, Debug end: 000004AE
@@ -296,7 +336,9 @@
  * (000D54)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), col
  * 
  * (000D64) S_END
- * 
+ */
+
+/*
  * (000D68) S_GPROC32: [0001:00086890], Cb: 00000031, Type:             0x182A, FTB
  *          Parent: 00000000, End: 00000DBC, Next: 00000000
  *          Debug start: 00000004, Debug end: 0000002D
@@ -306,6 +348,5 @@
  * (000DA8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), btshift
  * 
  * (000DBC) S_END
- * 
  */
 

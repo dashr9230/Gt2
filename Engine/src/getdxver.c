@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000204) S_GDATA32: [0002:00000808], Type:             0x1011, IID_IDirectDraw2
+ * (000224) S_GDATA32: [0002:00000848], Type:             0x1011, IID_IDirectDrawSurface3
+ * (00024C) S_GDATA32: [0002:00000858], Type:             0x1011, IID_IDirectDrawSurface4
+ */
+
+/*
  * (000090) S_GPROC32: [0001:00097F90], Cb: 000004E5, Type:             0x1D6F, GetDXVersion
  *          Parent: 00000000, End: 00000200, Next: 00000000
  *          Debug start: 00000009, Debug end: 000004DF
@@ -36,10 +46,5 @@
  * (0001EC)  S_BPREL32: [FFFFFF94], Type:             0x101F, desc
  * 
  * (000200) S_END
- * 
- * (000204) S_GDATA32: [0002:00000808], Type:             0x1011, IID_IDirectDraw2
- * (000224) S_GDATA32: [0002:00000848], Type:             0x1011, IID_IDirectDrawSurface3
- * (00024C) S_GDATA32: [0002:00000858], Type:             0x1011, IID_IDirectDrawSurface4
- * 
  */
 

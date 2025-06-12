@@ -15,7 +15,10 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
- * (000084) S_GDATA32: [0003:00C286C0], Type:             0x1E96, moxLineBuf
  * 
+ */
+
+/*
+ * (000084) S_GDATA32: [0003:00C286C0], Type:             0x1E96, moxLineBuf
  */
 

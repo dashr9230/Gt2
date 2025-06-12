@@ -16,6 +16,20 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0005DC) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (0005F4) S_GDATA32: [0003:000078D0], Type:             0x1CF7, TrackMaps
+ * (00060C) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (000628) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
+ * (000648) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000660) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (00067C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000EAB0], Cb: 00000038, Type:             0x1001, HUDMAP_Allocate
  *          Parent: 00000000, End: 000000DC, Next: 000000E0
  *          Debug start: 00000004, Debug end: 00000034
@@ -24,7 +38,9 @@
  * (0000C4)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (0000DC) S_END
- * 
+ */
+
+/*
  * (0000E0) S_GPROC32: [0001:0000EAE8], Cb: 00000025, Type:             0x1001, HUDMAP_Release
  *          Parent: 00000000, End: 00000130, Next: 00000134
  *          Debug start: 00000004, Debug end: 00000021
@@ -33,7 +49,9 @@
  * (000118)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (000130) S_END
- * 
+ */
+
+/*
  * (000134) S_LPROC32: [0001:0000EB0D], Cb: 00000089, Type:             0x1001, HUDMAP_BuildVerts
  *          Parent: 00000000, End: 000001D4, Next: 000001D8
  *          Debug start: 00000006, Debug end: 00000085
@@ -46,7 +64,9 @@
  * (0001C4)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (0001D4) S_END
- * 
+ */
+
+/*
  * (0001D8) S_LPROC32: [0001:0000EB96], Cb: 00000138, Type:             0x1D01, HUDMAP_BuildVert
  *          Parent: 00000000, End: 00000310, Next: 00000314
  *          Debug start: 00000006, Debug end: 00000134
@@ -67,7 +87,9 @@
  * (0002FC)  S_BPREL32: [FFFFFFFC], Type:     T_USHORT(0021), v2ang
  * 
  * (000310) S_END
- * 
+ */
+
+/*
  * (000314) S_GPROC32: [0001:0000ECCE], Cb: 000000BF, Type:             0x13EF, HUDMAP_ViewPortAllocate
  *          Parent: 00000000, End: 00000390, Next: 00000394
  *          Debug start: 00000006, Debug end: 000000BB
@@ -78,7 +100,9 @@
  * (000380)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000390) S_END
- * 
+ */
+
+/*
  * (000394) S_LPROC32: [0001:0000ED8D], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 00000418, Next: 0000041C
  *          Debug start: 00000006, Debug end: 00000076
@@ -91,7 +115,9 @@
  * (000408)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000418) S_END
- * 
+ */
+
+/*
  * (00041C) S_GPROC32: [0001:0000EE07], Cb: 00000017, Type:             0x13EF, HUDMAP_ViewPortRelease
  *          Parent: 00000000, End: 00000470, Next: 00000474
  *          Debug start: 00000003, Debug end: 00000015
@@ -100,7 +126,9 @@
  * (00045C)  S_BPREL32: [00000008], Type:             0x13EB, screen
  * 
  * (000470) S_END
- * 
+ */
+
+/*
  * (000474) S_GPROC32: [0001:0000EE1E], Cb: 000001BB, Type:             0x13EF, HUDMAP_MoveMap
  *          Parent: 00000000, End: 0000058C, Next: 00000590
  *          Debug start: 00000006, Debug end: 000001B7
@@ -121,7 +149,9 @@
  * (00057C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sfy
  * 
  * (00058C) S_END
- * 
+ */
+
+/*
  * (000590) S_GPROC32: [0001:0000EFD9], Cb: 00000017, Type:             0x13EF, HUDMAP_Draw
  *          Parent: 00000000, End: 000005D8, Next: 00000698
  *          Debug start: 00000003, Debug end: 00000015
@@ -130,15 +160,9 @@
  * (0005C4)  S_BPREL32: [00000008], Type:             0x13EB, screen
  * 
  * (0005D8) S_END
- * 
- * (0005DC) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (0005F4) S_GDATA32: [0003:000078D0], Type:             0x1CF7, TrackMaps
- * (00060C) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (000628) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
- * (000648) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000660) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (00067C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * 
+ */
+
+/*
  * (000698) S_GPROC32: [0001:0000EFF0], Cb: 0000001C, Type:             0x1CCB, P2D_SetGouraudShade
  *          Parent: 00000000, End: 000006FC, Next: 00000700
  *          Debug start: 00000003, Debug end: 0000001A
@@ -148,7 +172,9 @@
  * (0006E8)  S_BPREL32: [0000000C], Type:       T_INT4(0074), State
  * 
  * (0006FC) S_END
- * 
+ */
+
+/*
  * (000700) S_GPROC32: [0001:0000F010], Cb: 00000270, Type:             0x1D03, P2D_SetXY4
  *          Parent: 00000000, End: 000007C8, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000026C
@@ -165,6 +191,5 @@
  * (0007B8)  S_BPREL32: [00000028], Type:     T_REAL32(0040), y3
  * 
  * (0007C8) S_END
- * 
  */
 

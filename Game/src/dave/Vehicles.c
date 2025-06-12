@@ -15,6 +15,17 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0000E8) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
+ * (00010C) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
+ * (00012C) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
+ * (000150) S_GDATA32: [0003:0000CC80], Type:             0x1BE7, Vehicle_SkinColors
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00028270], Cb: 000001B8, Type:             0x1001, Vehicle_InitDefaultSetup
  *          Parent: 00000000, End: 000000E4, Next: 00000000
  *          Debug start: 00000004, Debug end: 000001B4
@@ -23,11 +34,5 @@
  * (0000CC)  S_BPREL32: [FFFFFFFC], Type:             0x1BE6, ThisVehicle
  * 
  * (0000E4) S_END
- * 
- * (0000E8) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
- * (00010C) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
- * (00012C) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
- * (000150) S_GDATA32: [0003:0000CC80], Type:             0x1BE7, Vehicle_SkinColors
- * 
  */
 

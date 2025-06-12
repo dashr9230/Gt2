@@ -15,6 +15,12 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ */
+
+/*
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00089350], Cb: 000000D5, Type:             0x1F67, TDTF_Reset
  *          Parent: 00000000, End: 000000E0, Next: 000000E4
  *          Debug start: 00000004, Debug end: 000000D1
@@ -24,7 +30,9 @@
  * (0000D0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0000E0) S_END
- * 
+ */
+
+/*
  * (0000E4) S_GPROC32: [0001:00089425], Cb: 000003E6, Type:             0x1F69, TDTF_Load
  *          Parent: 00000000, End: 000001A4, Next: 000001A8
  *          Debug start: 0000000A, Debug end: 000003E1
@@ -39,7 +47,9 @@
  * (000190)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), Drive
  * 
  * (0001A4) S_END
- * 
+ */
+
+/*
  * (0001A8) S_GPROC32: [0001:0008980B], Cb: 00000121, Type:             0x1F67, TDTF_Dump
  *          Parent: 00000000, End: 00000200, Next: 00000204
  *          Debug start: 00000004, Debug end: 0000011D
@@ -49,7 +59,9 @@
  * (0001F0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000200) S_END
- * 
+ */
+
+/*
  * (000204) S_GPROC32: [0001:0008992C], Cb: 00000098, Type:             0x1F6E, TDTF_Allocate
  *          Parent: 00000000, End: 000002A8, Next: 000002AC
  *          Debug start: 00000009, Debug end: 00000094
@@ -62,7 +74,9 @@
  * (000290)  S_BPREL32: [FFFFFF00], Type:             0x1A12, Filename
  * 
  * (0002A8) S_END
- * 
+ */
+
+/*
  * (0002AC) S_GPROC32: [0001:000899C4], Cb: 00000011, Type:             0x1F67, TDTF_Release
  *          Parent: 00000000, End: 000002F4, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000000F
@@ -71,6 +85,5 @@
  * (0002E0)  S_BPREL32: [00000008], Type:             0x1766, tdtf
  * 
  * (0002F4) S_END
- * 
  */
 

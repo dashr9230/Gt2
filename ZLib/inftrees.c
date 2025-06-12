@@ -15,6 +15,22 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0004EC) S_LDATA32: [0003:000721E0], Type:      T_UINT4(0075), fixed_bl
+ * (000504) S_LDATA32: [0003:000721E4], Type:      T_UINT4(0075), fixed_bd
+ * (00051C) S_LDATA32: [0003:000721E8], Type:             0x211A, fixed_tl
+ * (000534) S_LDATA32: [0003:000731E8], Type:             0x211B, fixed_td
+ * (00054C) S_GDATA32: [0002:00002184], Type:             0x211C, inflate_copyright
+ * (00056C) S_LDATA32: [0002:000021B4], Type:             0x211D, cplens
+ * (000584) S_LDATA32: [0002:00002230], Type:             0x211D, cplext
+ * (00059C) S_LDATA32: [0002:000022AC], Type:             0x211E, cpdist
+ * (0005B4) S_LDATA32: [0002:00002324], Type:             0x211E, cpdext
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0009B940], Cb: 000000DB, Type:             0x210F, inflate_trees_bits
  *          Parent: 00000000, End: 00000148, Next: 0000014C
  *          Debug start: 0000001C, Debug end: 000000CC
@@ -30,7 +46,9 @@
  * (000138)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), r
  * 
  * (000148) S_END
- * 
+ */
+
+/*
  * (00014C) S_LPROC32: [0001:0009BA1B], Cb: 000008E2, Type:             0x2113, huft_build
  *          Parent: 00000000, End: 00000354, Next: 00000358
  *          Debug start: 0000001C, Debug end: 000008DD
@@ -67,7 +85,9 @@
  * (000344)  S_BPREL32: [FFFFFFFC], Type:   T_32PUINT4(0475), p
  * 
  * (000354) S_END
- * 
+ */
+
+/*
  * (000358) S_GPROC32: [0001:0009C2FD], Cb: 000001CA, Type:             0x2117, inflate_trees_dynamic
  *          Parent: 00000000, End: 00000458, Next: 0000045C
  *          Debug start: 0000001C, Debug end: 000001BB
@@ -87,7 +107,9 @@
  * (000448)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), r
  * 
  * (000458) S_END
- * 
+ */
+
+/*
  * (00045C) S_GPROC32: [0001:0009C4C7], Cb: 0000002E, Type:             0x2119, inflate_trees_fixed
  *          Parent: 00000000, End: 000004E8, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000002C
@@ -100,16 +122,5 @@
  * (0004D8)  S_BPREL32: [00000018], Type:             0x2107, z
  * 
  * (0004E8) S_END
- * 
- * (0004EC) S_LDATA32: [0003:000721E0], Type:      T_UINT4(0075), fixed_bl
- * (000504) S_LDATA32: [0003:000721E4], Type:      T_UINT4(0075), fixed_bd
- * (00051C) S_LDATA32: [0003:000721E8], Type:             0x211A, fixed_tl
- * (000534) S_LDATA32: [0003:000731E8], Type:             0x211B, fixed_td
- * (00054C) S_GDATA32: [0002:00002184], Type:             0x211C, inflate_copyright
- * (00056C) S_LDATA32: [0002:000021B4], Type:             0x211D, cplens
- * (000584) S_LDATA32: [0002:00002230], Type:             0x211D, cplext
- * (00059C) S_LDATA32: [0002:000022AC], Type:             0x211E, cpdist
- * (0005B4) S_LDATA32: [0002:00002324], Type:             0x211E, cpdext
- * 
  */
 

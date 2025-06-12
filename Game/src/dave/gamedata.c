@@ -15,6 +15,19 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000140) S_GDATA32: [0003:0099D1A0], Type:             0x1D19, Platform
+ * (000158) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (000170) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
+ * (000194) S_GDATA32: [0003:00990BE0], Type:             0x1837, Teams
+ * (0001A8) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
+ * (0001C4) S_GDATA32: [0003:00005FEC], Type:             0x1C00, TeamNames
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000CE70], Cb: 000000A5, Type:             0x182A, MakeVisualTime
  *          Parent: 00000000, End: 0000013C, Next: 00000000
  *          Debug start: 00000006, Debug end: 000000A1
@@ -29,13 +42,5 @@
  * (00012C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), s
  * 
  * (00013C) S_END
- * 
- * (000140) S_GDATA32: [0003:0099D1A0], Type:             0x1D19, Platform
- * (000158) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (000170) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
- * (000194) S_GDATA32: [0003:00990BE0], Type:             0x1837, Teams
- * (0001A8) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
- * (0001C4) S_GDATA32: [0003:00005FEC], Type:             0x1C00, TeamNames
- * 
  */
 

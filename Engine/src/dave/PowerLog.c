@@ -15,6 +15,14 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0001CC) S_LDATA32: [0003:0091DB74], Type:             0x1E96, Message
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0007C7A0], Cb: 0000015C, Type:             0x2062, PowerLog
  *          Parent: 00000000, End: 000001C8, Next: 00000000
  *          Debug start: 00000009, Debug end: 00000148
@@ -35,8 +43,5 @@
  * (0001B4)  S_BPREL32: [FFFFFD00], Type:             0x2063, buffer
  * 
  * (0001C8) S_END
- * 
- * (0001CC) S_LDATA32: [0003:0091DB74], Type:             0x1E96, Message
- * 
  */
 

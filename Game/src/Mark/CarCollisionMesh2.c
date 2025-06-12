@@ -15,6 +15,30 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (001CE0) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (001CFC) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (001D14) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (001D2C) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (001D44) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (001D5C) S_GDATA32: [0003:000114AC], Type:     T_REAL32(0040), GRAVITY
+ * (001D74) S_GDATA32: [0003:0097B4A8], Type:      T_ULONG(0022), numSqrts
+ * (001D8C) S_GDATA32: [0003:000777BC], Type:      T_ULONG(0022), maxSqrts
+ * (001DA4) S_GDATA32: [0003:0097B4A4], Type:      T_ULONG(0022), numChkPols
+ * (001DC0) S_GDATA32: [0003:0097B4A0], Type:      T_ULONG(0022), numRejPols
+ * (001DDC) S_GDATA32: [0003:000777C0], Type:     T_USHORT(0021), CorrectAxis
+ * (001DF8) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (001E14) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (001E30) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ * (001E50) S_GDATA32: [0003:00074FFC], Type:             0x1404, GRIPED
+ * (001E68) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
+ * (001E80) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
+ */
+
+/*
  * (000094) S_GPROC32: [0001:000370F0], Cb: 00000081, Type:             0x1AEA, NormaliseVec
  *          Parent: 00000000, End: 000000E8, Next: 000000EC
  *          Debug start: 00000004, Debug end: 0000007D
@@ -24,7 +48,9 @@
  * (0000D8)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), mag
  * 
  * (0000E8) S_END
- * 
+ */
+
+/*
  * (0000EC) S_GPROC32: [0001:00037171], Cb: 00000037, Type:             0x1AEB, MagVec
  *          Parent: 00000000, End: 0000012C, Next: 00000130
  *          Debug start: 00000003, Debug end: 00000035
@@ -33,7 +59,9 @@
  * (00011C)  S_BPREL32: [00000008], Type:             0x13A1, V
  * 
  * (00012C) S_END
- * 
+ */
+
+/*
  * (000130) S_GPROC32: [0001:000371A8], Cb: 00000080, Type:             0x1AED, BuildBox_CalcNormal
  *          Parent: 00000000, End: 000001D4, Next: 000001D8
  *          Debug start: 00000006, Debug end: 0000007C
@@ -47,7 +75,9 @@
  * (0001C0)  S_BPREL32: [FFFFFFF4], Type:             0x1008, vec1
  * 
  * (0001D4) S_END
- * 
+ */
+
+/*
  * (0001D8) S_LPROC32: [0001:00037228], Cb: 00000060, Type:             0x1AB4, simCrossProduct
  *          Parent: 00000000, End: 00000240, Next: 00000244
  *          Debug start: 00000003, Debug end: 0000005E
@@ -58,7 +88,9 @@
  * (000230)  S_BPREL32: [00000010], Type:             0x13A1, T
  * 
  * (000240) S_END
- * 
+ */
+
+/*
  * (000244) S_GPROC32: [0001:00037288], Cb: 000005BE, Type:             0x1408, CarCol_BuildBox
  *          Parent: 00000000, End: 0000030C, Next: 00000310
  *          Debug start: 00000006, Debug end: 000005BA
@@ -74,7 +106,9 @@
  * (0002F8)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (00030C) S_END
- * 
+ */
+
+/*
  * (000310) S_GPROC32: [0001:00037846], Cb: 000000FD, Type:             0x1AEF, CarCol_GenWorldPos
  *          Parent: 00000000, End: 000003C4, Next: 000003C8
  *          Debug start: 00000006, Debug end: 000000F9
@@ -89,7 +123,9 @@
  * (0003B0)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (0003C4) S_END
- * 
+ */
+
+/*
  * (0003C8) S_GPROC32: [0001:00037943], Cb: 0000004D, Type:             0x1AF1, CarCol_MeshCollideToPoint
  *          Parent: 00000000, End: 0000046C, Next: 00000470
  *          Debug start: 00000006, Debug end: 00000049
@@ -102,7 +138,9 @@
  * (00045C)  S_BPREL32: [FFFFFFF4], Type:             0x1008, V
  * 
  * (00046C) S_END
- * 
+ */
+
+/*
  * (000470) S_GPROC32: [0001:00037990], Cb: 00000446, Type:             0x1AF1, CarCol_MeshCollide
  *          Parent: 00000000, End: 000005A0, Next: 000005A4
  *          Debug start: 00000006, Debug end: 00000442
@@ -124,7 +162,9 @@
  * (000590)  S_BPREL32: [FFFFFFF4], Type:             0x1008, cN
  * 
  * (0005A0) S_END
- * 
+ */
+
+/*
  * (0005A4) S_GPROC32: [0001:00037DD6], Cb: 00000580, Type:             0x1AF1, CarCol_MeshCollideGravity
  *          Parent: 00000000, End: 00000750, Next: 00000754
  *          Debug start: 00000006, Debug end: 0000057C
@@ -152,7 +192,9 @@
  * (000740)  S_BPREL32: [FFFFFFF4], Type:             0x1008, cN
  * 
  * (000750) S_END
- * 
+ */
+
+/*
  * (000754) S_GPROC32: [0001:00038356], Cb: 000000E6, Type:             0x1001, MotionTracker_Reset
  *          Parent: 00000000, End: 000007EC, Next: 000007F0
  *          Debug start: 00000006, Debug end: 000000E2
@@ -165,7 +207,9 @@
  * (0007D8)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CarObj
  * 
  * (0007EC) S_END
- * 
+ */
+
+/*
  * (0007F0) S_GPROC32: [0001:0003843C], Cb: 000000F8, Type:             0x1AF7, CalcCarBox
  *          Parent: 00000000, End: 000008AC, Next: 000008B0
  *          Debug start: 00000006, Debug end: 000000F4
@@ -180,7 +224,9 @@
  * (000894)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), iMeshVert
  * 
  * (0008AC) S_END
- * 
+ */
+
+/*
  * (0008B0) S_GPROC32: [0001:00038534], Cb: 00000128, Type:             0x1AF7, PredictNextCarBox
  *          Parent: 00000000, End: 00000988, Next: 0000098C
  *          Debug start: 00000006, Debug end: 00000124
@@ -196,7 +242,9 @@
  * (000974)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (000988) S_END
- * 
+ */
+
+/*
  * (00098C) S_LPROC32: [0001:0003865C], Cb: 0000019C, Type:             0x1AB0, simMultMatrices
  *          Parent: 00000000, End: 000009F4, Next: 000009F8
  *          Debug start: 00000003, Debug end: 0000019A
@@ -207,7 +255,9 @@
  * (0009E4)  S_BPREL32: [00000010], Type:             0x11DC, B
  * 
  * (0009F4) S_END
- * 
+ */
+
+/*
  * (0009F8) S_GPROC32: [0001:000387F8], Cb: 00000145, Type:             0x1AF9, InterpolateVectors
  *          Parent: 00000000, End: 00000AB8, Next: 00000ABC
  *          Debug start: 00000006, Debug end: 00000141
@@ -223,7 +273,9 @@
  * (000AA8)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), phi
  * 
  * (000AB8) S_END
- * 
+ */
+
+/*
  * (000ABC) S_GPROC32: [0001:0003893D], Cb: 00000123, Type:             0x1AFB, DampMatrix
  *          Parent: 00000000, End: 00000B40, Next: 00000B44
  *          Debug start: 00000006, Debug end: 0000011F
@@ -236,7 +288,9 @@
  * (000B30)  S_BPREL32: [FFFFFFF4], Type:             0x1008, A
  * 
  * (000B40) S_END
- * 
+ */
+
+/*
  * (000B44) S_GPROC32: [0001:00038A60], Cb: 00000140, Type:             0x1AFB, KillAlmostDeadMatrix
  *          Parent: 00000000, End: 00000BA0, Next: 00000BA4
  *          Debug start: 00000006, Debug end: 0000013C
@@ -246,7 +300,9 @@
  * (000B90)  S_BPREL32: [0000000C], Type:     T_REAL32(0040), a
  * 
  * (000BA0) S_END
- * 
+ */
+
+/*
  * (000BA4) S_GPROC32: [0001:00038BA0], Cb: 0000015C, Type:             0x1AFD, RotateTo
  *          Parent: 00000000, End: 00000C64, Next: 00000C68
  *          Debug start: 00000006, Debug end: 00000158
@@ -262,7 +318,9 @@
  * (000C50)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (000C64) S_END
- * 
+ */
+
+/*
  * (000C68) S_GPROC32: [0001:00038CFC], Cb: 000001B8, Type:             0x1AFF, CorrectMatrix
  *          Parent: 00000000, End: 00000CE0, Next: 00000CE4
  *          Debug start: 00000006, Debug end: 000001B4
@@ -274,7 +332,9 @@
  * (000CD0)  S_BPREL32: [FFFFFFF4], Type:             0x1008, a
  * 
  * (000CE0) S_END
- * 
+ */
+
+/*
  * (000CE4) S_GPROC32: [0001:00038EB4], Cb: 00000259, Type:             0x1B01, FindVelocity
  *          Parent: 00000000, End: 00000E00, Next: 00000E04
  *          Debug start: 00000006, Debug end: 00000255
@@ -296,7 +356,9 @@
  * (000DEC)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (000E00) S_END
- * 
+ */
+
+/*
  * (000E04) S_GPROC32: [0001:0003910D], Cb: 0000029A, Type:             0x1B03, PredictCarBoxAtTime
  *          Parent: 00000000, End: 00000F2C, Next: 00000F30
  *          Debug start: 00000009, Debug end: 00000296
@@ -317,7 +379,9 @@
  * (000F1C)  S_BPREL32: [FFFFFFC0], Type:             0x1006, av
  * 
  * (000F2C) S_END
- * 
+ */
+
+/*
  * (000F30) S_GPROC32: [0001:000393A7], Cb: 000011E0, Type:             0x1B05, UpdateWheel
  *          Parent: 00000000, End: 000012F4, Next: 000012F8
  *          Debug start: 00000009, Debug end: 000011DC
@@ -377,7 +441,9 @@
  * (0012F0)  S_END
  * 
  * (0012F4) S_END
- * 
+ */
+
+/*
  * (0012F8) S_LPROC32: [0001:0003A587], Cb: 00000031, Type:             0x1AAE, simSinCos
  *          Parent: 00000000, End: 00001360, Next: 00001364
  *          Debug start: 00000003, Debug end: 0000002F
@@ -388,7 +454,9 @@
  * (001350)  S_BPREL32: [00000010], Type:  T_32PREAL32(0440), c
  * 
  * (001360) S_END
- * 
+ */
+
+/*
  * (001364) S_LPROC32: [0001:0003A5B8], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 00001420, Next: 00001424
  *          Debug start: 00000006, Debug end: 0000006D
@@ -408,7 +476,9 @@
  * (00141C)  S_END
  * 
  * (001420) S_END
- * 
+ */
+
+/*
  * (001424) S_GPROC32: [0001:0003A629], Cb: 0000009C, Type:             0x1B0A, MoveCarToTime
  *          Parent: 00000000, End: 00001490, Next: 00001494
  *          Debug start: 00000003, Debug end: 0000009A
@@ -419,7 +489,9 @@
  * (00147C)  S_BPREL32: [00000010], Type:       T_INT4(0074), doGrav
  * 
  * (001490) S_END
- * 
+ */
+
+/*
  * (001494) S_GPROC32: [0001:0003A6C5], Cb: 00000260, Type:             0x1AF7, MeshCollideFailSafe
  *          Parent: 00000000, End: 000015F0, Next: 000015F4
  *          Debug start: 00000009, Debug end: 0000025C
@@ -441,7 +513,9 @@
  * (0015D8)  S_BPREL32: [FFFFFFF4], Type:             0x1008, motionVec
  * 
  * (0015F0) S_END
- * 
+ */
+
+/*
  * (0015F4) S_GPROC32: [0001:0003A925], Cb: 00000A0A, Type:             0x1ADE, MeshCollisionOS
  *          Parent: 00000000, End: 000018D4, Next: 000018D8
  *          Debug start: 00000009, Debug end: 00000A06
@@ -482,7 +556,9 @@
  * (0018C4)  S_BPREL32: [FFFFFFF4], Type:             0x1008, vel
  * 
  * (0018D4) S_END
- * 
+ */
+
+/*
  * (0018D8) S_GPROC32: [0001:0003B32F], Cb: 000012F8, Type:             0x1ADE, MeshCollision
  *          Parent: 00000000, End: 00001BAC, Next: 00001BB0
  *          Debug start: 00000009, Debug end: 000012F4
@@ -552,14 +628,18 @@
  * (001BA8)  S_END
  * 
  * (001BAC) S_END
- * 
+ */
+
+/*
  * (001BB0) S_LPROC32: [0001:0003C627], Cb: 00000023, Type:             0x1AA6, nRand
  *          Parent: 00000000, End: 00001BE0, Next: 00001BE4
  *          Debug start: 00000003, Debug end: 00000021
  *          Flags: Frame Ptr Present
  * 
  * (001BE0) S_END
- * 
+ */
+
+/*
  * (001BE4) S_LPROC32: [0001:0003C64A], Cb: 0000001E, Type:             0x1ADE, CurCar
  *          Parent: 00000000, End: 00001C24, Next: 00001C28
  *          Debug start: 00000003, Debug end: 0000001C
@@ -568,7 +648,9 @@
  * (001C14)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (001C24) S_END
- * 
+ */
+
+/*
  * (001C28) S_GPROC32: [0001:0003C668], Cb: 00000048, Type:             0x1B0E, InstantFindHeight
  *          Parent: 00000000, End: 00001CDC, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000044
@@ -583,24 +665,5 @@
  * (001CC8)  S_BPREL32: [FFFFFFFC], Type:   T_32PULONG(0422), czone
  * 
  * (001CDC) S_END
- * 
- * (001CE0) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (001CFC) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (001D14) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (001D2C) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (001D44) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (001D5C) S_GDATA32: [0003:000114AC], Type:     T_REAL32(0040), GRAVITY
- * (001D74) S_GDATA32: [0003:0097B4A8], Type:      T_ULONG(0022), numSqrts
- * (001D8C) S_GDATA32: [0003:000777BC], Type:      T_ULONG(0022), maxSqrts
- * (001DA4) S_GDATA32: [0003:0097B4A4], Type:      T_ULONG(0022), numChkPols
- * (001DC0) S_GDATA32: [0003:0097B4A0], Type:      T_ULONG(0022), numRejPols
- * (001DDC) S_GDATA32: [0003:000777C0], Type:     T_USHORT(0021), CorrectAxis
- * (001DF8) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (001E14) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (001E30) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * (001E50) S_GDATA32: [0003:00074FFC], Type:             0x1404, GRIPED
- * (001E68) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
- * (001E80) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
- * 
  */
 

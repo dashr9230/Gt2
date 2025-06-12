@@ -16,6 +16,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0002FC) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
+ * (000310) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (00032C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ */
+
+/*
  * (000090) S_GPROC32: [0001:000253A0], Cb: 000000AA, Type:             0x1C0E, FindBestGear
  *          Parent: 00000000, End: 00000164, Next: 00000168
  *          Debug start: 00000006, Debug end: 000000A6
@@ -31,7 +41,9 @@
  * (000150)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (000164) S_END
- * 
+ */
+
+/*
  * (000168) S_GPROC32: [0001:0002544A], Cb: 00000CBE, Type:             0x1408, SimController
  *          Parent: 00000000, End: 000002F8, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000CBA
@@ -75,10 +87,5 @@
  * (0002F4)  S_END
  * 
  * (0002F8) S_END
- * 
- * (0002FC) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
- * (000310) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (00032C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * 
  */
 

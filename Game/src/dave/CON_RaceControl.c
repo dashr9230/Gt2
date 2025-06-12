@@ -15,20 +15,39 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000BC8) S_GDATA32: [0003:01249500], Type:             0x1C0B, UsedObjectsHead
+ * (000BE8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (000C00) S_GDATA32: [0003:000088F8], Type:             0x1838, MESH_PATH
+ * (000C18) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (000C30) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
+ * (000C48) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
+ * (000C68) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
+ * (000C8C) S_GDATA32: [0003:00003DB8], Type:             0x16CB, DefaultJoyMapping
+ */
+
+/*
  * (000094) S_GPROC32: [0001:0000AEE0], Cb: 000000DF, Type:             0x1001, RC_Console_Install
  *          Parent: 00000000, End: 000000D0, Next: 000000D4
  *          Debug start: 00000003, Debug end: 000000DD
  *          Flags: Frame Ptr Present
  * 
  * (0000D0) S_END
- * 
+ */
+
+/*
  * (0000D4) S_GPROC32: [0001:0000AFBF], Cb: 00000005, Type:             0x1001, RC_Console_Remove
  *          Parent: 00000000, End: 00000110, Next: 00000114
  *          Debug start: 00000003, Debug end: 00000003
  *          Flags: Frame Ptr Present
  * 
  * (000110) S_END
- * 
+ */
+
+/*
  * (000114) S_GPROC32: [0001:0000AFC4], Cb: 00000094, Type:             0x17C9, CON_RCCreate
  *          Parent: 00000000, End: 00000170, Next: 00000174
  *          Debug start: 00000003, Debug end: 00000092
@@ -38,7 +57,9 @@
  * (00015C)  S_BPREL32: [0000000C], Type:             0x17C7, argv
  * 
  * (000170) S_END
- * 
+ */
+
+/*
  * (000174) S_GPROC32: [0001:0000B058], Cb: 00000169, Type:             0x17C9, CON_RCSelectVenue
  *          Parent: 00000000, End: 00000220, Next: 00000224
  *          Debug start: 00000006, Debug end: 00000165
@@ -52,7 +73,9 @@
  * (000210)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000220) S_END
- * 
+ */
+
+/*
  * (000224) S_GPROC32: [0001:0000B1C1], Cb: 00000103, Type:             0x17C9, CON_RCEnterCar
  *          Parent: 00000000, End: 000002AC, Next: 000002B0
  *          Debug start: 00000006, Debug end: 000000FF
@@ -64,7 +87,9 @@
  * (000294)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (0002AC) S_END
- * 
+ */
+
+/*
  * (0002B0) S_GPROC32: [0001:0000B2C4], Cb: 000000CB, Type:             0x17C9, CON_RCStart
  *          Parent: 00000000, End: 0000033C, Next: 00000340
  *          Debug start: 00000006, Debug end: 000000C7
@@ -76,7 +101,9 @@
  * (000324)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (00033C) S_END
- * 
+ */
+
+/*
  * (000340) S_GPROC32: [0001:0000B38F], Cb: 000000AF, Type:             0x1001, DumpObjectList
  *          Parent: 00000000, End: 0000039C, Next: 000003A0
  *          Debug start: 00000006, Debug end: 000000AB
@@ -86,7 +113,9 @@
  * (00038C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (00039C) S_END
- * 
+ */
+
+/*
  * (0003A0) S_GPROC32: [0001:0000B43E], Cb: 000000AF, Type:             0x17C9, CON_RCDestroy
  *          Parent: 00000000, End: 00000400, Next: 00000404
  *          Debug start: 00000003, Debug end: 000000AD
@@ -96,7 +125,9 @@
  * (0003EC)  S_BPREL32: [0000000C], Type:             0x17C7, argv
  * 
  * (000400) S_END
- * 
+ */
+
+/*
  * (000404) S_GPROC32: [0001:0000B4ED], Cb: 00000014, Type:             0x17C9, CON_RCHelp
  *          Parent: 00000000, End: 00000460, Next: 00000464
  *          Debug start: 00000003, Debug end: 00000012
@@ -106,7 +137,9 @@
  * (00044C)  S_BPREL32: [0000000C], Type:             0x17C7, argv
  * 
  * (000460) S_END
- * 
+ */
+
+/*
  * (000464) S_GPROC32: [0001:0000B501], Cb: 0000011E, Type:             0x17C9, CON_RCQuickStart
  *          Parent: 00000000, End: 000004D4, Next: 000004D8
  *          Debug start: 00000004, Debug end: 0000011A
@@ -117,7 +150,9 @@
  * (0004C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0004D4) S_END
- * 
+ */
+
+/*
  * (0004D8) S_LPROC32: [0001:0000B61F], Cb: 00000267, Type:             0x1D30, ParseCars
  *          Parent: 00000000, End: 00000654, Next: 00000658
  *          Debug start: 00000006, Debug end: 00000233
@@ -151,7 +186,9 @@
  * (000650)  S_END
  * 
  * (000654) S_END
- * 
+ */
+
+/*
  * (000658) S_LPROC32: [0001:0000B886], Cb: 0000000F, Type:             0x1D32, GetDriver
  *          Parent: 00000000, End: 000006B4, Next: 000006B8
  *          Debug start: 00000003, Debug end: 0000000D
@@ -161,7 +198,9 @@
  * (0006A0)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), skin
  * 
  * (0006B4) S_END
- * 
+ */
+
+/*
  * (0006B8) S_LPROC32: [0001:0000B895], Cb: 00000191, Type:             0x1D30, ParseTracks
  *          Parent: 00000000, End: 00000758, Next: 0000075C
  *          Debug start: 00000006, Debug end: 0000018D
@@ -175,7 +214,9 @@
  * (000748)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000758) S_END
- * 
+ */
+
+/*
  * (00075C) S_GPROC32: [0001:0000BA26], Cb: 000000A7, Type:             0x17C9, CON_ECTS_Demo
  *          Parent: 00000000, End: 000007D0, Next: 000007D4
  *          Debug start: 00000006, Debug end: 000000A3
@@ -186,7 +227,9 @@
  * (0007BC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), demo_id
  * 
  * (0007D0) S_END
- * 
+ */
+
+/*
  * (0007D4) S_GPROC32: [0001:0000BACD], Cb: 0000015D, Type:             0x16A1, RC_ECTS_Demo
  *          Parent: 00000000, End: 0000082C, Next: 00000830
  *          Debug start: 00000006, Debug end: 00000159
@@ -196,7 +239,9 @@
  * (00081C)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (00082C) S_END
- * 
+ */
+
+/*
  * (000830) S_GPROC32: [0001:0000BC2A], Cb: 000002F5, Type:             0x17C9, CON_Gary
  *          Parent: 00000000, End: 00000928, Next: 0000092C
  *          Debug start: 00000006, Debug end: 000002E1
@@ -215,7 +260,9 @@
  * (000918)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000928) S_END
- * 
+ */
+
+/*
  * (00092C) S_GPROC32: [0001:0000BF1F], Cb: 000002D2, Type:             0x17C9, CON_Justin
  *          Parent: 00000000, End: 000009C8, Next: 000009CC
  *          Debug start: 00000006, Debug end: 000002CE
@@ -229,7 +276,9 @@
  * (0009B8)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (0009C8) S_END
- * 
+ */
+
+/*
  * (0009CC) S_GPROC32: [0001:0000C1F1], Cb: 000002F5, Type:             0x17C9, CON_John
  *          Parent: 00000000, End: 00000AC4, Next: 00000AC8
  *          Debug start: 00000006, Debug end: 000002E1
@@ -248,7 +297,9 @@
  * (000AB4)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000AC4) S_END
- * 
+ */
+
+/*
  * (000AC8) S_GPROC32: [0001:0000C4E6], Cb: 000002D8, Type:             0x17C9, CON_Herbert
  *          Parent: 00000000, End: 00000BC4, Next: 00000000
  *          Debug start: 00000006, Debug end: 000002C4
@@ -267,15 +318,5 @@
  * (000BB4)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000BC4) S_END
- * 
- * (000BC8) S_GDATA32: [0003:01249500], Type:             0x1C0B, UsedObjectsHead
- * (000BE8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (000C00) S_GDATA32: [0003:000088F8], Type:             0x1838, MESH_PATH
- * (000C18) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (000C30) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
- * (000C48) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
- * (000C68) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
- * (000C8C) S_GDATA32: [0003:00003DB8], Type:             0x16CB, DefaultJoyMapping
- * 
  */
 

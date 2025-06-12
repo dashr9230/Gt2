@@ -15,6 +15,36 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0025CC) S_GDATA32: [0003:00931D60], Type:      T_ULONG(0022), re
+ * (0025E0) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (0025FC) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (002618) S_GDATA32: [0003:00C28AE0], Type:             0x1A11, NetInfo
+ * (002630) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
+ * (002648) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ * (00265C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
+ * (002670) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ * (002688) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (0026A0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (0026B8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
+ * (0026D0) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (0026EC) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (00270C) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
+ * (002724) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ * (002740) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
+ * (002754) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
+ * (00276C) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
+ * (002784) S_GDATA32: [0003:0091E08C], Type:      T_ULONG(0022), DI_JoysticksConnected
+ * (0027A8) S_GDATA32: [0002:000017F8], Type:             0x1011, DPSPGUID_IPX
+ * (0027C4) S_GDATA32: [0002:00001808], Type:             0x1011, DPSPGUID_TCPIP
+ * (0027E4) S_GDATA32: [0002:00001818], Type:             0x1011, DPSPGUID_SERIAL
+ * (002804) S_GDATA32: [0002:00001828], Type:             0x1011, DPSPGUID_MODEM
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0005D110], Cb: 00000243, Type:             0x141A, BtStartMultiPlayer
  *          Parent: 00000000, End: 000001A8, Next: 000001AC
  *          Debug start: 00000007, Debug end: 00000219
@@ -34,7 +64,9 @@
  * (000190)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0001A8) S_END
- * 
+ */
+
+/*
  * (0001AC) S_GPROC32: [0001:0005D353], Cb: 000001C7, Type:             0x1001, MultiOP_SetSettings
  *          Parent: 00000000, End: 000001F8, Next: 000001FC
  *          Debug start: 00000004, Debug end: 000001C3
@@ -43,7 +75,9 @@
  * (0001E8)  S_BPREL32: [FFFFFFFC], Type:             0x180B, Gw
  * 
  * (0001F8) S_END
- * 
+ */
+
+/*
  * (0001FC) S_GPROC32: [0001:0005D51A], Cb: 0000008D, Type:             0x1001, OpGotoMultiPlayerNetworkTCPGame
  *          Parent: 00000000, End: 00000264, Next: 00000268
  *          Debug start: 00000006, Debug end: 00000089
@@ -53,7 +87,9 @@
  * (000254)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000264) S_END
- * 
+ */
+
+/*
  * (000268) S_GPROC32: [0001:0005D5A7], Cb: 000002CF, Type:             0x1001, OpGotoMultiPlayerSplitScreen
  *          Parent: 00000000, End: 000002DC, Next: 000002E0
  *          Debug start: 00000007, Debug end: 000002CA
@@ -64,7 +100,9 @@
  * (0002CC)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (0002DC) S_END
- * 
+ */
+
+/*
  * (0002E0) S_GPROC32: [0001:0005D876], Cb: 000002F6, Type:             0x141A, BtMultiCarChange
  *          Parent: 00000000, End: 00000414, Next: 00000418
  *          Debug start: 00000006, Debug end: 000002E2
@@ -86,7 +124,9 @@
  * (0003FC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000414) S_END
- * 
+ */
+
+/*
  * (000418) S_GPROC32: [0001:0005DB6C], Cb: 00000063, Type:             0x141A, BtChangeAM
  *          Parent: 00000000, End: 0000046C, Next: 00000470
  *          Debug start: 00000004, Debug end: 0000005F
@@ -96,7 +136,9 @@
  * (00045C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, Gw
  * 
  * (00046C) S_END
- * 
+ */
+
+/*
  * (000470) S_GPROC32: [0001:0005DBCF], Cb: 000000D3, Type:             0x141A, BtChangeControlUp
  *          Parent: 00000000, End: 000004CC, Next: 000004D0
  *          Debug start: 00000004, Debug end: 000000CF
@@ -106,7 +148,9 @@
  * (0004BC)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0004CC) S_END
- * 
+ */
+
+/*
  * (0004D0) S_GPROC32: [0001:0005DCA2], Cb: 0000007D, Type:             0x141A, BtChangeControlDown
  *          Parent: 00000000, End: 0000052C, Next: 00000530
  *          Debug start: 00000004, Debug end: 00000079
@@ -116,7 +160,9 @@
  * (00051C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (00052C) S_END
- * 
+ */
+
+/*
  * (000530) S_GPROC32: [0001:0005DD1F], Cb: 000000CF, Type:             0x141A, BtMultiSetupController
  *          Parent: 00000000, End: 00000590, Next: 00000594
  *          Debug start: 00000004, Debug end: 000000CB
@@ -126,7 +172,9 @@
  * (000580)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000590) S_END
- * 
+ */
+
+/*
  * (000594) S_GPROC32: [0001:0005DDEE], Cb: 0000005C, Type:             0x141A, BtMultiChangeCamUp
  *          Parent: 00000000, End: 000005F0, Next: 000005F4
  *          Debug start: 00000004, Debug end: 00000058
@@ -136,7 +184,9 @@
  * (0005E0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0005F0) S_END
- * 
+ */
+
+/*
  * (0005F4) S_GPROC32: [0001:0005DE4A], Cb: 0000005C, Type:             0x141A, BtMultiChangeCamDown
  *          Parent: 00000000, End: 00000650, Next: 00000654
  *          Debug start: 00000004, Debug end: 00000058
@@ -146,7 +196,9 @@
  * (000640)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000650) S_END
- * 
+ */
+
+/*
  * (000654) S_GPROC32: [0001:0005DEA6], Cb: 00001134, Type:             0x141A, SetupMultiplayerFrame_Car
  *          Parent: 00000000, End: 000009E8, Next: 000009EC
  *          Debug start: 00000006, Debug end: 000010B0
@@ -198,7 +250,9 @@
  * (0009D4)  S_BPREL32: [FFFFFFFC], Type:             0x1766, LogoTDT
  * 
  * (0009E8) S_END
- * 
+ */
+
+/*
  * (0009EC) S_GPROC32: [0001:0005EFDA], Cb: 0000011F, Type:             0x141A, BtMultiTrackChange
  *          Parent: 00000000, End: 00000A60, Next: 00000A64
  *          Debug start: 00000006, Debug end: 0000011B
@@ -209,7 +263,9 @@
  * (000A48)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000A60) S_END
- * 
+ */
+
+/*
  * (000A64) S_GPROC32: [0001:0005F0F9], Cb: 00000457, Type:             0x141A, SetupMultiplayerFrame_Track
  *          Parent: 00000000, End: 00000B30, Next: 00000B34
  *          Debug start: 00000006, Debug end: 00000453
@@ -225,7 +281,9 @@
  * (000B18)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000B30) S_END
- * 
+ */
+
+/*
  * (000B34) S_GPROC32: [0001:0005F550], Cb: 000004D9, Type:             0x141A, BtPlayerSplit
  *          Parent: 00000000, End: 00000C48, Next: 00000C4C
  *          Debug start: 00000009, Debug end: 000004C5
@@ -245,7 +303,9 @@
  * (000C30)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000C48) S_END
- * 
+ */
+
+/*
  * (000C4C) S_GPROC32: [0001:0005FA29], Cb: 00000153, Type:             0x141A, BtIPXScanLan
  *          Parent: 00000000, End: 00000CDC, Next: 00000CE0
  *          Debug start: 00000006, Debug end: 0000014F
@@ -258,7 +318,9 @@
  * (000CC8)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (000CDC) S_END
- * 
+ */
+
+/*
  * (000CE0) S_GPROC32: [0001:0005FB7C], Cb: 00000175, Type:             0x141A, BtTCPScanLAN
  *          Parent: 00000000, End: 00000D70, Next: 00000D74
  *          Debug start: 00000006, Debug end: 00000171
@@ -271,7 +333,9 @@
  * (000D5C)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (000D70) S_END
- * 
+ */
+
+/*
  * (000D74) S_GPROC32: [0001:0005FCF1], Cb: 00000065, Type:             0x141A, BtNewName
  *          Parent: 00000000, End: 00000DE0, Next: 00000DE4
  *          Debug start: 00000006, Debug end: 00000061
@@ -282,7 +346,9 @@
  * (000DC8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000DE0) S_END
- * 
+ */
+
+/*
  * (000DE4) S_GPROC32: [0001:0005FD56], Cb: 00000070, Type:             0x141A, BtEnterServerName
  *          Parent: 00000000, End: 00000E58, Next: 00000E5C
  *          Debug start: 00000006, Debug end: 0000006C
@@ -293,7 +359,9 @@
  * (000E40)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000E58) S_END
- * 
+ */
+
+/*
  * (000E5C) S_GPROC32: [0001:0005FDC6], Cb: 0000002C, Type:             0x141A, BtChangeNetSelect
  *          Parent: 00000000, End: 00000EB8, Next: 00000EBC
  *          Debug start: 00000004, Debug end: 00000028
@@ -303,7 +371,9 @@
  * (000EA8)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000EB8) S_END
- * 
+ */
+
+/*
  * (000EBC) S_GPROC32: [0001:0005FDF2], Cb: 0000011C, Type:             0x141A, BtServerListScroll
  *          Parent: 00000000, End: 00000F74, Next: 00000F78
  *          Debug start: 00000006, Debug end: 00000103
@@ -318,7 +388,9 @@
  * (000F64)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000F74) S_END
- * 
+ */
+
+/*
  * (000F78) S_GPROC32: [0001:0005FF0E], Cb: 00000280, Type:             0x1001, MENU_DrawIPXServerList
  *          Parent: 00000000, End: 00001000, Next: 00001004
  *          Debug start: 00000006, Debug end: 0000027C
@@ -330,7 +402,9 @@
  * (000FE8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001000) S_END
- * 
+ */
+
+/*
  * (001004) S_GPROC32: [0001:0006018E], Cb: 000003FD, Type:             0x1001, MENU_DrawTCPServerInformation
  *          Parent: 00000000, End: 00001098, Next: 0000109C
  *          Debug start: 00000006, Debug end: 000003F9
@@ -342,7 +416,9 @@
  * (001084)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (001098) S_END
- * 
+ */
+
+/*
  * (00109C) S_GPROC32: [0001:0006058B], Cb: 00000287, Type:             0x1001, MENU_DrawIPXServerInformation
  *          Parent: 00000000, End: 00001130, Next: 00001134
  *          Debug start: 00000006, Debug end: 00000283
@@ -354,7 +430,9 @@
  * (00111C)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (001130) S_END
- * 
+ */
+
+/*
  * (001134) S_GPROC32: [0001:00060812], Cb: 00000299, Type:             0x1001, MENU_DrawTCPServerList
  *          Parent: 00000000, End: 000011CC, Next: 000011D0
  *          Debug start: 00000006, Debug end: 00000295
@@ -367,7 +445,9 @@
  * (0011BC)  S_BPREL32: [FFFFFFFC], Type:             0x1404, a
  * 
  * (0011CC) S_END
- * 
+ */
+
+/*
  * (0011D0) S_GPROC32: [0001:00060AAB], Cb: 00000299, Type:             0x1001, MENU_DrawMODEMServerList
  *          Parent: 00000000, End: 00001268, Next: 0000126C
  *          Debug start: 00000006, Debug end: 00000295
@@ -380,7 +460,9 @@
  * (001258)  S_BPREL32: [FFFFFFFC], Type:             0x1404, a
  * 
  * (001268) S_END
- * 
+ */
+
+/*
  * (00126C) S_GPROC32: [0001:00060D44], Cb: 00000086, Type:             0x141A, BtTCPAddEntryDone
  *          Parent: 00000000, End: 000012E0, Next: 000012E4
  *          Debug start: 00000006, Debug end: 00000082
@@ -391,7 +473,9 @@
  * (0012C8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0012E0) S_END
- * 
+ */
+
+/*
  * (0012E4) S_GPROC32: [0001:00060DCA], Cb: 000000AC, Type:             0x141A, BtTCPAddIP
  *          Parent: 00000000, End: 00001350, Next: 00001354
  *          Debug start: 00000006, Debug end: 000000A8
@@ -402,7 +486,9 @@
  * (001338)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001350) S_END
- * 
+ */
+
+/*
  * (001354) S_GPROC32: [0001:00060E76], Cb: 0000006B, Type:             0x141A, BtTCPAddEntry
  *          Parent: 00000000, End: 000013C4, Next: 000013C8
  *          Debug start: 00000006, Debug end: 00000067
@@ -413,7 +499,9 @@
  * (0013AC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0013C4) S_END
- * 
+ */
+
+/*
  * (0013C8) S_GPROC32: [0001:00060EE1], Cb: 00000071, Type:             0x141A, BtTCPEditEntryDone
  *          Parent: 00000000, End: 0000143C, Next: 00001440
  *          Debug start: 00000006, Debug end: 0000006D
@@ -424,7 +512,9 @@
  * (001424)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00143C) S_END
- * 
+ */
+
+/*
  * (001440) S_GPROC32: [0001:00060F52], Cb: 000000C3, Type:             0x141A, BtTCPEditIP
  *          Parent: 00000000, End: 000014AC, Next: 000014B0
  *          Debug start: 00000006, Debug end: 000000BF
@@ -435,7 +525,9 @@
  * (001494)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0014AC) S_END
- * 
+ */
+
+/*
  * (0014B0) S_GPROC32: [0001:00061015], Cb: 00000093, Type:             0x141A, BtTCPEditEntry
  *          Parent: 00000000, End: 00001520, Next: 00001524
  *          Debug start: 00000006, Debug end: 0000008F
@@ -446,7 +538,9 @@
  * (001508)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001520) S_END
- * 
+ */
+
+/*
  * (001524) S_GPROC32: [0001:000610A8], Cb: 000000D8, Type:             0x141A, BtTCPDeleteEntry
  *          Parent: 00000000, End: 0000157C, Next: 00001580
  *          Debug start: 00000004, Debug end: 000000D4
@@ -456,7 +550,9 @@
  * (00156C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (00157C) S_END
- * 
+ */
+
+/*
  * (001580) S_GPROC32: [0001:00061180], Cb: 00000087, Type:             0x141A, BtMODEMAddEntryDone
  *          Parent: 00000000, End: 000015F4, Next: 000015F8
  *          Debug start: 00000006, Debug end: 00000083
@@ -467,7 +563,9 @@
  * (0015DC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0015F4) S_END
- * 
+ */
+
+/*
  * (0015F8) S_GPROC32: [0001:00061207], Cb: 000000AC, Type:             0x141A, BtMODEMAddIP
  *          Parent: 00000000, End: 00001664, Next: 00001668
  *          Debug start: 00000006, Debug end: 000000A8
@@ -478,7 +576,9 @@
  * (00164C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001664) S_END
- * 
+ */
+
+/*
  * (001668) S_GPROC32: [0001:000612B3], Cb: 0000006B, Type:             0x141A, BtMODEMAddEntry
  *          Parent: 00000000, End: 000016D8, Next: 000016DC
  *          Debug start: 00000006, Debug end: 00000067
@@ -489,7 +589,9 @@
  * (0016C0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0016D8) S_END
- * 
+ */
+
+/*
  * (0016DC) S_GPROC32: [0001:0006131E], Cb: 00000072, Type:             0x141A, BtMODEMEditEntryDone
  *          Parent: 00000000, End: 00001750, Next: 00001754
  *          Debug start: 00000006, Debug end: 0000006E
@@ -500,7 +602,9 @@
  * (001738)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001750) S_END
- * 
+ */
+
+/*
  * (001754) S_GPROC32: [0001:00061390], Cb: 000000C3, Type:             0x141A, BtMODEMEditIP
  *          Parent: 00000000, End: 000017C4, Next: 000017C8
  *          Debug start: 00000006, Debug end: 000000BF
@@ -511,7 +615,9 @@
  * (0017AC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0017C4) S_END
- * 
+ */
+
+/*
  * (0017C8) S_GPROC32: [0001:00061453], Cb: 00000093, Type:             0x141A, BtMODEMEditEntry
  *          Parent: 00000000, End: 00001838, Next: 0000183C
  *          Debug start: 00000006, Debug end: 0000008F
@@ -522,7 +628,9 @@
  * (001820)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001838) S_END
- * 
+ */
+
+/*
  * (00183C) S_GPROC32: [0001:000614E6], Cb: 000000D8, Type:             0x141A, BtMODEMDeleteEntry
  *          Parent: 00000000, End: 00001898, Next: 0000189C
  *          Debug start: 00000004, Debug end: 000000D4
@@ -532,7 +640,9 @@
  * (001888)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001898) S_END
- * 
+ */
+
+/*
  * (00189C) S_GPROC32: [0001:000615BE], Cb: 00000225, Type:             0x141A, BtTCPJoin
  *          Parent: 00000000, End: 00001918, Next: 0000191C
  *          Debug start: 00000006, Debug end: 00000221
@@ -544,7 +654,9 @@
  * (001900)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001918) S_END
- * 
+ */
+
+/*
  * (00191C) S_GPROC32: [0001:000617E3], Cb: 00000128, Type:             0x141A, BtTCPCreate
  *          Parent: 00000000, End: 00001988, Next: 0000198C
  *          Debug start: 00000006, Debug end: 00000124
@@ -555,7 +667,9 @@
  * (001970)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001988) S_END
- * 
+ */
+
+/*
  * (00198C) S_GPROC32: [0001:0006190B], Cb: 000000A8, Type:             0x141A, BtTCPDisconnect
  *          Parent: 00000000, End: 000019FC, Next: 00001A00
  *          Debug start: 00000006, Debug end: 000000A4
@@ -566,7 +680,9 @@
  * (0019E4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0019FC) S_END
- * 
+ */
+
+/*
  * (001A00) S_GPROC32: [0001:000619B3], Cb: 00000128, Type:             0x141A, BtIPXJoin
  *          Parent: 00000000, End: 00001A7C, Next: 00001A80
  *          Debug start: 00000006, Debug end: 00000124
@@ -578,7 +694,9 @@
  * (001A64)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001A7C) S_END
- * 
+ */
+
+/*
  * (001A80) S_GPROC32: [0001:00061ADB], Cb: 000000DC, Type:             0x141A, BtIPXCreate
  *          Parent: 00000000, End: 00001AEC, Next: 00001AF0
  *          Debug start: 00000006, Debug end: 000000D8
@@ -589,7 +707,9 @@
  * (001AD4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001AEC) S_END
- * 
+ */
+
+/*
  * (001AF0) S_GPROC32: [0001:00061BB7], Cb: 000000A8, Type:             0x141A, BtIPXDisconnect
  *          Parent: 00000000, End: 00001B60, Next: 00001B64
  *          Debug start: 00000006, Debug end: 000000A4
@@ -600,7 +720,9 @@
  * (001B48)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001B60) S_END
- * 
+ */
+
+/*
  * (001B64) S_GPROC32: [0001:00061C5F], Cb: 00000722, Type:             0x141A, SetupNetworkGameFrame_Server
  *          Parent: 00000000, End: 00001C90, Next: 00001C94
  *          Debug start: 00000006, Debug end: 000006EE
@@ -620,7 +742,9 @@
  * (001C78)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001C90) S_END
- * 
+ */
+
+/*
  * (001C94) S_GPROC32: [0001:00062381], Cb: 000000D0, Type:             0x1904, ChatDrawLine
  *          Parent: 00000000, End: 00001D28, Next: 00001D2C
  *          Debug start: 00000006, Debug end: 000000CC
@@ -633,7 +757,9 @@
  * (001D10)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001D28) S_END
- * 
+ */
+
+/*
  * (001D2C) S_GPROC32: [0001:00062451], Cb: 000001E0, Type:             0x141A, NetworkGame_ChatLineFinished
  *          Parent: 00000000, End: 00001DDC, Next: 00001DE0
  *          Debug start: 0000000A, Debug end: 000001DB
@@ -647,7 +773,9 @@
  * (001DCC)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), ptr
  * 
  * (001DDC) S_END
- * 
+ */
+
+/*
  * (001DE0) S_GPROC32: [0001:00062631], Cb: 00000159, Type:             0x1907, NetworkGame_ChatLineRecieved
  *          Parent: 00000000, End: 00001E7C, Next: 00001E80
  *          Debug start: 00000007, Debug end: 00000154
@@ -660,7 +788,9 @@
  * (001E64)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001E7C) S_END
- * 
+ */
+
+/*
  * (001E80) S_GPROC32: [0001:0006278A], Cb: 00000432, Type:             0x141A, SetupNetworkGameFrame_Chat
  *          Parent: 00000000, End: 00001F30, Next: 00001F34
  *          Debug start: 00000006, Debug end: 0000042E
@@ -674,7 +804,9 @@
  * (001F1C)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (001F30) S_END
- * 
+ */
+
+/*
  * (001F34) S_GPROC32: [0001:00062BBC], Cb: 00000040, Type:             0x141A, BtQueryTCPDisconnect
  *          Parent: 00000000, End: 00001F98, Next: 00001F9C
  *          Debug start: 00000004, Debug end: 0000003C
@@ -684,7 +816,9 @@
  * (001F80)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001F98) S_END
- * 
+ */
+
+/*
  * (001F9C) S_GPROC32: [0001:00062BFC], Cb: 00000040, Type:             0x141A, BtQueryIPXDisconnect
  *          Parent: 00000000, End: 00002000, Next: 00002004
  *          Debug start: 00000004, Debug end: 0000003C
@@ -694,7 +828,9 @@
  * (001FE8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002000) S_END
- * 
+ */
+
+/*
  * (002004) S_GPROC32: [0001:00062C3C], Cb: 00000034, Type:             0x141A, BtQueryModemDisconnect
  *          Parent: 00000000, End: 0000206C, Next: 00002070
  *          Debug start: 00000004, Debug end: 00000030
@@ -704,7 +840,9 @@
  * (002054)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00206C) S_END
- * 
+ */
+
+/*
  * (002070) S_GPROC32: [0001:00062C70], Cb: 00000034, Type:             0x141A, BtQuerySerialDisconnect
  *          Parent: 00000000, End: 000020D8, Next: 000020DC
  *          Debug start: 00000004, Debug end: 00000030
@@ -714,7 +852,9 @@
  * (0020C0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0020D8) S_END
- * 
+ */
+
+/*
  * (0020DC) S_GPROC32: [0001:00062CA4], Cb: 0000012E, Type:             0x141A, BtNetROOTMENU
  *          Parent: 00000000, End: 000021BC, Next: 000021C0
  *          Debug start: 00000006, Debug end: 0000010B
@@ -731,7 +871,9 @@
  * (0021A4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0021BC) S_END
- * 
+ */
+
+/*
  * (0021C0) S_GPROC32: [0001:00062DD2], Cb: 000003CA, Type:             0x141A, BtNetwork
  *          Parent: 00000000, End: 000022B0, Next: 000022B4
  *          Debug start: 00000006, Debug end: 000003B6
@@ -749,7 +891,9 @@
  * (002298)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0022B0) S_END
- * 
+ */
+
+/*
  * (0022B4) S_GPROC32: [0001:0006319C], Cb: 000003AE, Type:             0x1909, MultiFrameCreateButton
  *          Parent: 00000000, End: 0000236C, Next: 00002370
  *          Debug start: 00000006, Debug end: 000003AA
@@ -764,7 +908,9 @@
  * (002354)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00236C) S_END
- * 
+ */
+
+/*
  * (002370) S_GPROC32: [0001:0006354A], Cb: 000001F5, Type:             0x141A, SetupMultiFrame_GameType
  *          Parent: 00000000, End: 00002434, Next: 00002438
  *          Debug start: 00000006, Debug end: 000001E1
@@ -779,7 +925,9 @@
  * (00241C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002434) S_END
- * 
+ */
+
+/*
  * (002438) S_GPROC32: [0001:0006373F], Cb: 000001CD, Type:             0x1001, MENU_EnumerateNetworkServices
  *          Parent: 00000000, End: 000024E0, Next: 000024E4
  *          Debug start: 00000006, Debug end: 000001C9
@@ -791,7 +939,9 @@
  * (0024C8)  S_BPREL32: [FFFFFFFC], Type:             0x190C, provider
  * 
  * (0024E0) S_END
- * 
+ */
+
+/*
  * (0024E4) S_GPROC32: [0001:0006390C], Cb: 000000EA, Type:             0x1001, DestroyMultiPlayerMenu
  *          Parent: 00000000, End: 0000253C, Next: 00002540
  *          Debug start: 00000004, Debug end: 000000E6
@@ -800,7 +950,9 @@
  * (002524)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00253C) S_END
- * 
+ */
+
+/*
  * (002540) S_GPROC32: [0001:000639F6], Cb: 0000013E, Type:             0x1001, SetupMultiPlayerMenu
  *          Parent: 00000000, End: 000025C8, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000013A
@@ -812,30 +964,5 @@
  * (0025B0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0025C8) S_END
- * 
- * (0025CC) S_GDATA32: [0003:00931D60], Type:      T_ULONG(0022), re
- * (0025E0) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (0025FC) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (002618) S_GDATA32: [0003:00C28AE0], Type:             0x1A11, NetInfo
- * (002630) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
- * (002648) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * (00265C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
- * (002670) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * (002688) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (0026A0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (0026B8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
- * (0026D0) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (0026EC) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (00270C) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
- * (002724) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * (002740) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
- * (002754) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
- * (00276C) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
- * (002784) S_GDATA32: [0003:0091E08C], Type:      T_ULONG(0022), DI_JoysticksConnected
- * (0027A8) S_GDATA32: [0002:000017F8], Type:             0x1011, DPSPGUID_IPX
- * (0027C4) S_GDATA32: [0002:00001808], Type:             0x1011, DPSPGUID_TCPIP
- * (0027E4) S_GDATA32: [0002:00001818], Type:             0x1011, DPSPGUID_SERIAL
- * (002804) S_GDATA32: [0002:00001828], Type:             0x1011, DPSPGUID_MODEM
- * 
  */
 

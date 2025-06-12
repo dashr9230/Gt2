@@ -15,6 +15,33 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0007E8) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (000808) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
+ * (00081C) S_GDATA32: [0003:00C440E0], Type:             0x1A20, Key
+ * (000830) S_GDATA32: [0003:0007A0C8], Type:       T_INT4(0074), KeyStringActive
+ * (000850) S_GDATA32: [0003:0007A0D0], Type:       T_LONG(0012), CapsState
+ * (000868) S_GDATA32: [0003:000672D4], Type:             0x189B, InvalidKeys
+ * (000884) S_GDATA32: [0003:00947E40], Type:             0x184C, RawJoyAxisData
+ * (0008A4) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (0008C0) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (0008DC) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
+ * (0008F4) S_GDATA32: [0003:00947E6C], Type:      T_RCHAR(0070), LastKeyPress
+ * (000910) S_GDATA32: [0003:00947E64], Type:      T_RCHAR(0070), LastJoyPress
+ * (00092C) S_GDATA32: [0003:00947E28], Type:       T_INT4(0074), waitforkey
+ * (000948) S_GDATA32: [0003:00947E60], Type:       T_INT4(0074), getkeycontrol
+ * (000964) S_GDATA32: [0003:00947E20], Type:       T_INT4(0074), getjoycontrol
+ * (000980) S_GDATA32: [0003:00947E24], Type:       T_LONG(0012), KC_SetVal
+ * (000998) S_GDATA32: [0003:0007A0C4], Type:       T_LONG(0012), KeyPosition
+ * (0009B4) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
+ * (0009C8) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
+ * (0009E0) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:000543B0], Cb: 0000003F, Type:             0x16A1, MENU_StoreAxisData
  *          Parent: 00000000, End: 000000F0, Next: 000000F4
  *          Debug start: 00000004, Debug end: 0000003B
@@ -24,7 +51,9 @@
  * (0000E0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0000F0) S_END
- * 
+ */
+
+/*
  * (0000F4) S_GPROC32: [0001:000543EF], Cb: 00000074, Type:             0x1001, MENU_ResetString
  *          Parent: 00000000, End: 00000154, Next: 00000158
  *          Debug start: 00000006, Debug end: 00000070
@@ -34,7 +63,9 @@
  * (00013C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000154) S_END
- * 
+ */
+
+/*
  * (000158) S_GPROC32: [0001:00054463], Cb: 0000008D, Type:             0x1A19, MENU_KeyStringEnable
  *          Parent: 00000000, End: 000001C0, Next: 000001C4
  *          Debug start: 00000004, Debug end: 00000089
@@ -44,7 +75,9 @@
  * (0001A8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0001C0) S_END
- * 
+ */
+
+/*
  * (0001C4) S_GPROC32: [0001:000544F0], Cb: 0000013D, Type:             0x1A1B, MENU_DrawKeyString
  *          Parent: 00000000, End: 00000278, Next: 0000027C
  *          Debug start: 00000006, Debug end: 00000139
@@ -59,7 +92,9 @@
  * (000260)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000278) S_END
- * 
+ */
+
+/*
  * (00027C) S_GPROC32: [0001:0005462D], Cb: 0000026C, Type:             0x1001, MENU_MakeStrings
  *          Parent: 00000000, End: 00000338, Next: 0000033C
  *          Debug start: 00000006, Debug end: 00000196
@@ -74,7 +109,9 @@
  * (000328)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000338) S_END
- * 
+ */
+
+/*
  * (00033C) S_GPROC32: [0001:00054899], Cb: 0000020B, Type:             0x1001, MENU_GetKey
  *          Parent: 00000000, End: 00000390, Next: 00000394
  *          Debug start: 00000006, Debug end: 00000207
@@ -84,7 +121,9 @@
  * (000380)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000390) S_END
- * 
+ */
+
+/*
  * (000394) S_GPROC32: [0001:00054AA4], Cb: 00000685, Type:             0x1A1D, MENUSetControl
  *          Parent: 00000000, End: 0000055C, Next: 00000560
  *          Debug start: 00000006, Debug end: 00000641
@@ -113,7 +152,9 @@
  * (00054C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (00055C) S_END
- * 
+ */
+
+/*
  * (000560) S_GPROC32: [0001:00055129], Cb: 00000C6D, Type:             0x1A1D, MENUSetJoyControl
  *          Parent: 00000000, End: 000007E4, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000C19
@@ -152,27 +193,5 @@
  * (0007D4)  S_BPREL32: [FFFFFFE0], Type:             0x184C, val
  * 
  * (0007E4) S_END
- * 
- * (0007E8) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (000808) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
- * (00081C) S_GDATA32: [0003:00C440E0], Type:             0x1A20, Key
- * (000830) S_GDATA32: [0003:0007A0C8], Type:       T_INT4(0074), KeyStringActive
- * (000850) S_GDATA32: [0003:0007A0D0], Type:       T_LONG(0012), CapsState
- * (000868) S_GDATA32: [0003:000672D4], Type:             0x189B, InvalidKeys
- * (000884) S_GDATA32: [0003:00947E40], Type:             0x184C, RawJoyAxisData
- * (0008A4) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (0008C0) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (0008DC) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
- * (0008F4) S_GDATA32: [0003:00947E6C], Type:      T_RCHAR(0070), LastKeyPress
- * (000910) S_GDATA32: [0003:00947E64], Type:      T_RCHAR(0070), LastJoyPress
- * (00092C) S_GDATA32: [0003:00947E28], Type:       T_INT4(0074), waitforkey
- * (000948) S_GDATA32: [0003:00947E60], Type:       T_INT4(0074), getkeycontrol
- * (000964) S_GDATA32: [0003:00947E20], Type:       T_INT4(0074), getjoycontrol
- * (000980) S_GDATA32: [0003:00947E24], Type:       T_LONG(0012), KC_SetVal
- * (000998) S_GDATA32: [0003:0007A0C4], Type:       T_LONG(0012), KeyPosition
- * (0009B4) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
- * (0009C8) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
- * (0009E0) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
- * 
  */
 

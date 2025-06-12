@@ -16,6 +16,38 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00101C) S_GDATA32: [0003:00075158], Type:       T_INT4(0074), QuakeKeysOn
+ * (001038) S_GDATA32: [0003:00915AB4], Type:       T_INT4(0074), MESH_Status
+ * (001054) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (001070) S_GDATA32: [0003:01256620], Type:             0x1C36, sectConsider
+ * (00108C) S_GDATA32: [0003:012555E0], Type:             0x1C36, sectAutoDraw
+ * (0010A8) S_GDATA32: [0003:01255E00], Type:             0x1C36, sectLoDetail
+ * (0010C4) S_GDATA32: [0003:0121E640], Type:             0x1B32, DirectorFocus
+ * (0010E0) S_GDATA32: [0003:000750D4], Type:             0x1404, SectorMap
+ * (0010F8) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (001110) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (001128) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
+ * (001144) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (00115C) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (001174) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (00118C) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (0011A4) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (0011C0) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (0011DC) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ * (0011F8) S_LDATA32: [0002:000005B0], Type:             0x1C38, sectCols
+ * (001210) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ * (00122C) S_GDATA32: [0003:0121EFC0], Type:             0x1A2B, Mouse
+ * (001240) S_LDATA32: [0003:000750CC], Type:     T_REAL32(0040), sdmx
+ * (001254) S_LDATA32: [0003:000750D0], Type:     T_REAL32(0040), sdmy
+ * (001268) S_LDATA32: [0003:000750C4], Type:     T_REAL32(0040), sdbx
+ * (00127C) S_LDATA32: [0003:000750C8], Type:     T_REAL32(0040), sdby
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:000218F0], Cb: 00000171, Type:             0x1001, SectorMap_Install
  *          Parent: 00000000, End: 000000D8, Next: 000000DC
  *          Debug start: 00000004, Debug end: 0000016D
@@ -24,14 +56,18 @@
  * (0000C8)  S_BPREL32: [FFFFFFFC], Type:             0x1C2A, sm
  * 
  * (0000D8) S_END
- * 
+ */
+
+/*
  * (0000DC) S_GPROC32: [0001:00021A61], Cb: 00000049, Type:             0x1001, SectorMap_Release
  *          Parent: 00000000, End: 00000118, Next: 0000011C
  *          Debug start: 00000003, Debug end: 00000047
  *          Flags: Frame Ptr Present
  * 
  * (000118) S_END
- * 
+ */
+
+/*
  * (00011C) S_GPROC32: [0001:00021AAA], Cb: 00000377, Type:             0x1408, SectorMap_Draw
  *          Parent: 00000000, End: 00000208, Next: 0000020C
  *          Debug start: 0000000A, Debug end: 00000372
@@ -53,7 +89,9 @@
  * (000204)  S_END
  * 
  * (000208) S_END
- * 
+ */
+
+/*
  * (00020C) S_LPROC32: [0001:00021E21], Cb: 000000C0, Type:             0x1C2D, sdbgBoxDraw
  *          Parent: 00000000, End: 00000294, Next: 00000298
  *          Debug start: 00000003, Debug end: 000000BE
@@ -66,7 +104,9 @@
  * (000280)  S_LDATA32: [0003:000750D8], Type:             0x1ABA, box
  * 
  * (000294) S_END
- * 
+ */
+
+/*
  * (000298) S_LPROC32: [0001:00021EE1], Cb: 000000BC, Type:             0x1C2D, shiliteBoxDraw
  *          Parent: 00000000, End: 00000324, Next: 00000328
  *          Debug start: 00000003, Debug end: 000000BA
@@ -79,7 +119,9 @@
  * (000310)  S_LDATA32: [0003:00075118], Type:             0x1ABA, box
  * 
  * (000324) S_END
- * 
+ */
+
+/*
  * (000328) S_GPROC32: [0001:00021F9D], Cb: 0000007D, Type:             0x1001, SectorMap_Dump
  *          Parent: 00000000, End: 00000370, Next: 00000374
  *          Debug start: 00000004, Debug end: 00000079
@@ -88,7 +130,9 @@
  * (000360)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000370) S_END
- * 
+ */
+
+/*
  * (000374) S_GPROC32: [0001:0002201A], Cb: 00000210, Type:             0x1408, QuakeKeys
  *          Parent: 00000000, End: 00000434, Next: 00000438
  *          Debug start: 00000006, Debug end: 0000020C
@@ -103,7 +147,9 @@
  * (000420)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CM_Obj
  * 
  * (000434) S_END
- * 
+ */
+
+/*
  * (000438) S_LPROC32: [0001:0002222A], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 000004F4, Next: 000004F8
  *          Debug start: 00000006, Debug end: 0000006D
@@ -123,7 +169,9 @@
  * (0004F0)  S_END
  * 
  * (0004F4) S_END
- * 
+ */
+
+/*
  * (0004F8) S_GPROC32: [0001:0002229B], Cb: 00000A70, Type:             0x1408, SectorMap_Handler
  *          Parent: 00000000, End: 00000820, Next: 00000824
  *          Debug start: 0000000A, Debug end: 00000A6B
@@ -197,7 +245,9 @@
  * (00081C)  S_END
  * 
  * (000820) S_END
- * 
+ */
+
+/*
  * (000824) S_LPROC32: [0001:00022D0B], Cb: 00000197, Type:             0x1C32, keySEDelete
  *          Parent: 00000000, End: 000008F8, Next: 000008FC
  *          Debug start: 00000006, Debug end: 0000017F
@@ -214,7 +264,9 @@
  * (0008E8)  S_BPREL32: [FFFFFFFC], Type:             0x1C2E, s
  * 
  * (0008F8) S_END
- * 
+ */
+
+/*
  * (0008FC) S_LPROC32: [0001:00022EA2], Cb: 0000004F, Type:             0x1C35, unlinkSector
  *          Parent: 00000000, End: 00000960, Next: 00000964
  *          Debug start: 00000004, Debug end: 0000004B
@@ -225,7 +277,9 @@
  * (000950)  S_BPREL32: [FFFFFFFC], Type:             0x1C2E, l
  * 
  * (000960) S_END
- * 
+ */
+
+/*
  * (000964) S_LPROC32: [0001:00022EF1], Cb: 000001C3, Type:             0x1C32, keySEPriority
  *          Parent: 00000000, End: 00000A58, Next: 00000A5C
  *          Debug start: 00000006, Debug end: 000001AB
@@ -248,7 +302,9 @@
  * (000A54)  S_END
  * 
  * (000A58) S_END
- * 
+ */
+
+/*
  * (000A5C) S_LPROC32: [0001:000230B4], Cb: 000001C0, Type:             0x1C32, keySENormal
  *          Parent: 00000000, End: 00000B4C, Next: 00000B50
  *          Debug start: 00000006, Debug end: 000001A8
@@ -271,7 +327,9 @@
  * (000B48)  S_END
  * 
  * (000B4C) S_END
- * 
+ */
+
+/*
  * (000B50) S_LPROC32: [0001:00023274], Cb: 000001C0, Type:             0x1C32, keySEConsider
  *          Parent: 00000000, End: 00000C44, Next: 00000C48
  *          Debug start: 00000006, Debug end: 000001A8
@@ -294,7 +352,9 @@
  * (000C40)  S_END
  * 
  * (000C44) S_END
- * 
+ */
+
+/*
  * (000C48) S_GPROC32: [0001:00023434], Cb: 00000455, Type:             0x1B5B, LoadSectors
  *          Parent: 00000000, End: 00000E4C, Next: 00000E50
  *          Debug start: 00000006, Debug end: 00000451
@@ -359,7 +419,9 @@
  * (000E48)  S_END
  * 
  * (000E4C) S_END
- * 
+ */
+
+/*
  * (000E50) S_GPROC32: [0001:00023889], Cb: 0000004F, Type:             0x17C9, cmdLoadSectors
  *          Parent: 00000000, End: 00000EE0, Next: 00000EE4
  *          Debug start: 00000006, Debug end: 0000004B
@@ -376,7 +438,9 @@
  * (000EDC)  S_END
  * 
  * (000EE0) S_END
- * 
+ */
+
+/*
  * (000EE4) S_GPROC32: [0001:000238D8], Cb: 00000234, Type:             0x17C9, cmdSaveSectors
  *          Parent: 00000000, End: 00001018, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000230
@@ -411,32 +475,5 @@
  * (001014)  S_END
  * 
  * (001018) S_END
- * 
- * (00101C) S_GDATA32: [0003:00075158], Type:       T_INT4(0074), QuakeKeysOn
- * (001038) S_GDATA32: [0003:00915AB4], Type:       T_INT4(0074), MESH_Status
- * (001054) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (001070) S_GDATA32: [0003:01256620], Type:             0x1C36, sectConsider
- * (00108C) S_GDATA32: [0003:012555E0], Type:             0x1C36, sectAutoDraw
- * (0010A8) S_GDATA32: [0003:01255E00], Type:             0x1C36, sectLoDetail
- * (0010C4) S_GDATA32: [0003:0121E640], Type:             0x1B32, DirectorFocus
- * (0010E0) S_GDATA32: [0003:000750D4], Type:             0x1404, SectorMap
- * (0010F8) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (001110) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (001128) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
- * (001144) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (00115C) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (001174) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (00118C) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (0011A4) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (0011C0) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (0011DC) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * (0011F8) S_LDATA32: [0002:000005B0], Type:             0x1C38, sectCols
- * (001210) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * (00122C) S_GDATA32: [0003:0121EFC0], Type:             0x1A2B, Mouse
- * (001240) S_LDATA32: [0003:000750CC], Type:     T_REAL32(0040), sdmx
- * (001254) S_LDATA32: [0003:000750D0], Type:     T_REAL32(0040), sdmy
- * (001268) S_LDATA32: [0003:000750C4], Type:     T_REAL32(0040), sdbx
- * (00127C) S_LDATA32: [0003:000750C8], Type:     T_REAL32(0040), sdby
- * 
  */
 

@@ -15,6 +15,39 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0004C0) S_GDATA32: [0003:0121E600], Type:             0x1006, moxIdenMatrix
+ * (0004DC) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (0004F8) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (000510) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (000528) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (000540) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (000558) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000570) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (00058C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (0005A8) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
+ * (0005C4) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
+ * (0005E0) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
+ * (0005FC) S_LDATA32: [0003:0000EDA0], Type:             0x1BB1, fCube
+ * (000610) S_GDATA32: [0003:000757D8], Type:             0x1404, shadow
+ * (000628) S_GDATA32: [0003:00C97110], Type:      T_ULONG(0022), RS_DPICalled
+ * (000644) S_GDATA32: [0003:00C970C8], Type:      T_ULONG(0022), RS_DPIVCount
+ * (000660) S_GDATA32: [0003:00C971BC], Type:      T_ULONG(0022), RS_DPIICount
+ * (00067C) S_GDATA32: [0003:0000EE00], Type:             0x13BB, shadowtex
+ * (000694) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
+ * (0006B4) S_LDATA32: [0003:000757DC], Type:             0x1A34, blankP
+ * (0006CC) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
+ * (0006E8) S_LDATA32: [0003:000757E8], Type:             0x1A35, blankO
+ * (000700) S_GDATA32: [0003:0000EE20], Type:             0x1008, Sun
+ * (000714) S_GDATA32: [0003:0097F150], Type:             0x1008, flVec
+ * (000728) S_LDATA32: [0003:0000EE2C], Type:             0x1AB9, txFlare
+ * (000740) S_LDATA32: [0003:0000EE6C], Type:             0x1BB2, ColorTable
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0002CF30], Cb: 0000060F, Type:             0x1A6A, DrawShadow
  *          Parent: 00000000, End: 00000350, Next: 00000354
  *          Debug start: 0000000A, Debug end: 0000060A
@@ -84,7 +117,9 @@
  * (00034C)  S_END
  * 
  * (000350) S_END
- * 
+ */
+
+/*
  * (000354) S_LPROC32: [0001:0002D53F], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 00000410, Next: 00000414
  *          Debug start: 00000006, Debug end: 0000006D
@@ -104,7 +139,9 @@
  * (00040C)  S_END
  * 
  * (000410) S_END
- * 
+ */
+
+/*
  * (000414) S_GPROC32: [0001:0002D5B0], Cb: 00000005, Type:             0x1BAE, shadeInitialize
  *          Parent: 00000000, End: 00000484, Next: 00000488
  *          Debug start: 00000003, Debug end: 00000003
@@ -115,41 +152,18 @@
  * (000470)  S_BPREL32: [00000010], Type:     T_REAL32(0040), radFar
  * 
  * (000484) S_END
- * 
+ */
+
+/*
  * (000488) S_GPROC32: [0001:0002D5B5], Cb: 00000005, Type:             0x1001, shadeDestroy
  *          Parent: 00000000, End: 000004BC, Next: 0000075C
  *          Debug start: 00000003, Debug end: 00000003
  *          Flags: Frame Ptr Present
  * 
  * (0004BC) S_END
- * 
- * (0004C0) S_GDATA32: [0003:0121E600], Type:             0x1006, moxIdenMatrix
- * (0004DC) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (0004F8) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (000510) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (000528) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (000540) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (000558) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000570) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (00058C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (0005A8) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
- * (0005C4) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
- * (0005E0) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
- * (0005FC) S_LDATA32: [0003:0000EDA0], Type:             0x1BB1, fCube
- * (000610) S_GDATA32: [0003:000757D8], Type:             0x1404, shadow
- * (000628) S_GDATA32: [0003:00C97110], Type:      T_ULONG(0022), RS_DPICalled
- * (000644) S_GDATA32: [0003:00C970C8], Type:      T_ULONG(0022), RS_DPIVCount
- * (000660) S_GDATA32: [0003:00C971BC], Type:      T_ULONG(0022), RS_DPIICount
- * (00067C) S_GDATA32: [0003:0000EE00], Type:             0x13BB, shadowtex
- * (000694) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
- * (0006B4) S_LDATA32: [0003:000757DC], Type:             0x1A34, blankP
- * (0006CC) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
- * (0006E8) S_LDATA32: [0003:000757E8], Type:             0x1A35, blankO
- * (000700) S_GDATA32: [0003:0000EE20], Type:             0x1008, Sun
- * (000714) S_GDATA32: [0003:0097F150], Type:             0x1008, flVec
- * (000728) S_LDATA32: [0003:0000EE2C], Type:             0x1AB9, txFlare
- * (000740) S_LDATA32: [0003:0000EE6C], Type:             0x1BB2, ColorTable
- * 
+ */
+
+/*
  * (00075C) S_GPROC32: [0001:0002D5C0], Cb: 00000053, Type:             0x1BB4, RSTATES_SetTransform
  *          Parent: 00000000, End: 000007D4, Next: 000007D8
  *          Debug start: 00000003, Debug end: 00000051
@@ -159,7 +173,9 @@
  * (0007BC)  S_BPREL32: [0000000C], Type:             0x11DC, lpD3DMatrix
  * 
  * (0007D4) S_END
- * 
+ */
+
+/*
  * (0007D8) S_GPROC32: [0001:0002D620], Cb: 00000072, Type:             0x1BB6, RSTATES_SetTexture
  *          Parent: 00000000, End: 00000840, Next: 00000844
  *          Debug start: 00000003, Debug end: 00000070
@@ -169,7 +185,9 @@
  * (000828)  S_BPREL32: [0000000C], Type:             0x1308, lpTexture
  * 
  * (000840) S_END
- * 
+ */
+
+/*
  * (000844) S_GPROC32: [0001:0002D6A0], Cb: 00000096, Type:             0x1BB8, RSTATES_DrawIndexedPrimitive
  *          Parent: 00000000, End: 00000944, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000094
@@ -184,6 +202,5 @@
  * (000930)  S_BPREL32: [00000020], Type:      T_ULONG(0022), dwFlags
  * 
  * (000944) S_END
- * 
  */
 

@@ -15,6 +15,48 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (001238) S_GDATA32: [0003:0006B9F4], Type:      T_UCHAR(0020), visMipCount
+ * (001254) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ * (001274) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (00128C) S_GDATA32: [0003:0091E8C4], Type:             0x100B, visVrtArray
+ * (0012A8) S_GDATA32: [0003:0091E8C8], Type:             0x1D4B, visTriHeap
+ * (0012C4) S_GDATA32: [0003:0091E8CC], Type:             0x13A0, visTexArray
+ * (0012E0) S_GDATA32: [0003:0091E8D0], Type:             0x13A8, visMdlArray
+ * (0012FC) S_GDATA32: [0003:0121E5E8], Type:      T_ULONG(0022), visNumVertices
+ * (00131C) S_GDATA32: [0003:0121E5EC], Type:      T_ULONG(0022), visNumTextures
+ * (00133C) S_GDATA32: [0003:0121E5E4], Type:      T_ULONG(0022), visNumModels
+ * (001358) S_GDATA32: [0003:00C9D080], Type:             0x1D4C, ioPage
+ * (001370) S_GDATA32: [0003:00C9CC60], Type:             0x1D4D, palette
+ * (001388) S_GDATA32: [0003:00C9D060], Type:             0x1421, ioTT
+ * (00139C) S_GDATA32: [0003:0121E5F0], Type:     T_USHORT(0021), ioTTi
+ * (0013B0) S_GDATA32: [0003:0121E5E0], Type:      T_ULONG(0022), gFDF
+ * (0013C4) S_GDATA32: [0003:0097C108], Type:    T_32PVOID(0403), hLoaderThread
+ * (0013E0) S_GDATA32: [0003:0097C110], Type:    T_32PVOID(0403), hAbortLoad
+ * (0013FC) S_GDATA32: [0003:011F25E0], Type:             0x1D4E, vrtTemporary
+ * (001418) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ * (00142C) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
+ * (001440) S_GDATA32: [0003:0099D250], Type:      T_ULONG(0022), Filez_NumberOf
+ * (001460) S_GDATA32: [0003:0099D278], Type:      T_ULONG(0022), Filez_TotalSize
+ * (001480) S_GDATA32: [0003:009CF680], Type:       T_INT4(0074), Filez_Decoded
+ * (00149C) S_GDATA32: [0003:0099D254], Type:       T_INT4(0074), Decoded_Mesh
+ * (0014B8) S_GDATA32: [0003:0099D258], Type:       T_INT4(0074), Decoded_Models
+ * (0014D8) S_GDATA32: [0003:0099D27C], Type:       T_INT4(0074), Decoded_Textures
+ * (0014F8) S_GDATA32: [0003:0099D260], Type:      T_ULONG(0022), Chunkz_Size
+ * (001514) S_GDATA32: [0003:0099D25C], Type:      T_ULONG(0022), Chunkz_NumberOf
+ * (001534) S_GDATA32: [0003:0099D264], Type:      T_ULONG(0022), Chunkz_This
+ * (001550) S_GDATA32: [0003:009CF684], Type:       T_INT4(0074), Chunkz_Failed
+ * (00156C) S_GDATA32: [0003:0099D270], Type:       T_INT4(0074), Chunkz_Loaded
+ * (001588) S_GDATA32: [0003:0099D26C], Type:      T_ULONG(0022), LoaderThreadId
+ * (0015A8) S_GDATA32: [0003:0099D268], Type:      T_ULONG(0022), Mesh_Model
+ * (0015C4) S_GDATA32: [0003:0099D274], Type:      T_ULONG(0022), Mesh_Textures
+ * (0015E0) S_GDATA32: [0003:00C9B860], Type:             0x1D4F, TPAGE_Defs
+ */
+
+/*
  * (000088) S_GPROC32: [0001:00007AF0], Cb: 0000019C, Type:             0x1001, Chunk_Init
  *          Parent: 00000000, End: 000000CC, Next: 000000D0
  *          Debug start: 00000004, Debug end: 00000198
@@ -23,7 +65,9 @@
  * (0000BC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0000CC) S_END
- * 
+ */
+
+/*
  * (0000D0) S_GPROC32: [0001:00007C8C], Cb: 00000040, Type:             0x1D34, Chunk_DoesFileExist
  *          Parent: 00000000, End: 00000164, Next: 00000168
  *          Debug start: 00000006, Debug end: 0000003C
@@ -35,7 +79,9 @@
  * (000150)  S_BPREL32: [FFFFFFF0], Type:             0x1004, Buffer
  * 
  * (000164) S_END
- * 
+ */
+
+/*
  * (000168) S_GPROC32: [0001:00007CCC], Cb: 00000047, Type:             0x1B45, Chunk_DoesTextureExist
  *          Parent: 00000000, End: 000001D4, Next: 000001D8
  *          Debug start: 00000003, Debug end: 00000045
@@ -45,7 +91,9 @@
  * (0001BC)  S_BPREL32: [0000000C], Type:   T_32PRCHAR(0470), Filename
  * 
  * (0001D4) S_END
- * 
+ */
+
+/*
  * (0001D8) S_GPROC32: [0001:00007D13], Cb: 00000027, Type:             0x1B45, Chunk_DoesModelExist
  *          Parent: 00000000, End: 00000240, Next: 00000244
  *          Debug start: 00000003, Debug end: 00000025
@@ -55,7 +103,9 @@
  * (000228)  S_BPREL32: [0000000C], Type:   T_32PRCHAR(0470), Filename
  * 
  * (000240) S_END
- * 
+ */
+
+/*
  * (000244) S_GPROC32: [0001:00007D3A], Cb: 00000021, Type:             0x1D36, Chunk_AddFile
  *          Parent: 00000000, End: 000002D0, Next: 000002D4
  *          Debug start: 00000003, Debug end: 0000001F
@@ -67,7 +117,9 @@
  * (0002BC)  S_BPREL32: [00000014], Type:   T_32PRCHAR(0470), IdStr
  * 
  * (0002D0) S_END
- * 
+ */
+
+/*
  * (0002D4) S_GPROC32: [0001:00007D5B], Cb: 000007CF, Type:             0x1D38, Chunk_AddFileEx
  *          Parent: 00000000, End: 00000470, Next: 00000474
  *          Debug start: 00000006, Debug end: 000007AB
@@ -97,7 +149,9 @@
  * (00046C)  S_END
  * 
  * (000470) S_END
- * 
+ */
+
+/*
  * (000474) S_GPROC32: [0001:0000852A], Cb: 000002E4, Type:             0x1001, Chunk_Loader
  *          Parent: 00000000, End: 00000558, Next: 0000055C
  *          Debug start: 00000006, Debug end: 000002E0
@@ -114,7 +168,9 @@
  * (000544)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), ToChunk
  * 
  * (000558) S_END
- * 
+ */
+
+/*
  * (00055C) S_GPROC32: [0001:0000880E], Cb: 0000007E, Type:             0x16A7, Chunk_AsyncLoad
  *          Parent: 00000000, End: 000005A8, Next: 000005AC
  *          Debug start: 00000006, Debug end: 00000078
@@ -123,14 +179,18 @@
  * (000594)  S_BPREL32: [00000008], Type:    T_32PVOID(0403), lParam
  * 
  * (0005A8) S_END
- * 
+ */
+
+/*
  * (0005AC) S_GPROC32: [0001:0000888C], Cb: 0000003F, Type:             0x1001, Chunk_StartLoad
  *          Parent: 00000000, End: 000005E4, Next: 000005E8
  *          Debug start: 00000003, Debug end: 0000003D
  *          Flags: Frame Ptr Present
  * 
  * (0005E4) S_END
- * 
+ */
+
+/*
  * (0005E8) S_GPROC32: [0001:000088CB], Cb: 000001B1, Type:             0x1001, Chunk_Release
  *          Parent: 00000000, End: 00000630, Next: 00000634
  *          Debug start: 00000006, Debug end: 000001AD
@@ -139,7 +199,9 @@
  * (000620)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000630) S_END
- * 
+ */
+
+/*
  * (000634) S_GPROC32: [0001:00008A7C], Cb: 000000C9, Type:             0x1001, BuildMesh
  *          Parent: 00000000, End: 0000068C, Next: 00000690
  *          Debug start: 00000006, Debug end: 000000C5
@@ -149,7 +211,9 @@
  * (000678)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Start
  * 
  * (00068C) S_END
- * 
+ */
+
+/*
  * (000690) S_GPROC32: [0001:00008B45], Cb: 00000159, Type:             0x1001, BuildTextures
  *          Parent: 00000000, End: 00000718, Next: 0000071C
  *          Debug start: 00000006, Debug end: 00000155
@@ -161,7 +225,9 @@
  * (000704)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Start
  * 
  * (000718) S_END
- * 
+ */
+
+/*
  * (00071C) S_GPROC32: [0001:00008C9E], Cb: 000002EF, Type:             0x1001, Filez_Dump
  *          Parent: 00000000, End: 00000760, Next: 00000764
  *          Debug start: 00000006, Debug end: 000002EB
@@ -170,7 +236,9 @@
  * (000750)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000760) S_END
- * 
+ */
+
+/*
  * (000764) S_GPROC32: [0001:00008F8D], Cb: 00000089, Type:             0x1A13, TP_Search
  *          Parent: 00000000, End: 000007DC, Next: 000007E0
  *          Debug start: 00000006, Debug end: 00000085
@@ -181,7 +249,9 @@
  * (0007C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), TexIndex
  * 
  * (0007DC) S_END
- * 
+ */
+
+/*
  * (0007E0) S_GPROC32: [0001:00009016], Cb: 0000052C, Type:             0x1D3B, TP_AddFile
  *          Parent: 00000000, End: 000008E4, Next: 000008E8
  *          Debug start: 00000009, Debug end: 00000528
@@ -203,7 +273,9 @@
  * (0008E0)  S_END
  * 
  * (0008E4) S_END
- * 
+ */
+
+/*
  * (0008E8) S_GPROC32: [0001:00009542], Cb: 0000075F, Type:             0x16A1, BuildTexture
  *          Parent: 00000000, End: 00000AA4, Next: 00000AA8
  *          Debug start: 00000007, Debug end: 0000075A
@@ -246,7 +318,9 @@
  * (000AA0)  S_END
  * 
  * (000AA4) S_END
- * 
+ */
+
+/*
  * (000AA8) S_GPROC32: [0001:00009CA1], Cb: 00000042, Type:             0x16A1, TP_ReleaseLoadBuffer
  *          Parent: 00000000, End: 00000AF8, Next: 00000AFC
  *          Debug start: 00000003, Debug end: 00000040
@@ -255,7 +329,9 @@
  * (000AE4)  S_BPREL32: [00000008], Type:      T_ULONG(0022), FilezId
  * 
  * (000AF8) S_END
- * 
+ */
+
+/*
  * (000AFC) S_LPROC32: [0001:00009CE3], Cb: 000000DB, Type:             0x1D3F, texDecompress
  *          Parent: 00000000, End: 00000BDC, Next: 00000BE0
  *          Debug start: 00000006, Debug end: 000000D7
@@ -282,7 +358,9 @@
  * (000BD8)  S_END
  * 
  * (000BDC) S_END
- * 
+ */
+
+/*
  * (000BE0) S_GPROC32: [0001:00009DBE], Cb: 0000030C, Type:             0x1D3B, MODEL_AddFile
  *          Parent: 00000000, End: 00000CD4, Next: 00000CD8
  *          Debug start: 00000009, Debug end: 00000308
@@ -298,7 +376,9 @@
  * (000CB4)  S_BPREL32: [FFFFFF00], Type:             0x1A12, WorkingNameBuffer
  * 
  * (000CD4) S_END
- * 
+ */
+
+/*
  * (000CD8) S_GPROC32: [0001:0000A0CA], Cb: 0000008F, Type:             0x1001, BuildModels
  *          Parent: 00000000, End: 00000D1C, Next: 00000D20
  *          Debug start: 00000004, Debug end: 0000008B
@@ -307,7 +387,9 @@
  * (000D0C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000D1C) S_END
- * 
+ */
+
+/*
  * (000D20) S_GPROC32: [0001:0000A159], Cb: 000002DA, Type:             0x16A1, BuildModel
  *          Parent: 00000000, End: 00000E08, Next: 00000E0C
  *          Debug start: 00000009, Debug end: 000002D6
@@ -323,7 +405,9 @@
  * (000DE8)  S_BPREL32: [FFFFFF00], Type:             0x1A12, WorkingNameBuffer
  * 
  * (000E08) S_END
- * 
+ */
+
+/*
  * (000E0C) S_LPROC32: [0001:0000A433], Cb: 00000A84, Type:             0x1D41, visParseVisual
  *          Parent: 00000000, End: 0000117C, Next: 00001180
  *          Debug start: 00000009, Debug end: 000009E7
@@ -389,7 +473,9 @@
  * (001178)  S_END
  * 
  * (00117C) S_END
- * 
+ */
+
+/*
  * (001180) S_LPROC32: [0001:0000AEB7], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
  *          Parent: 00000000, End: 000011D8, Next: 000011DC
  *          Debug start: 00000003, Debug end: 0000000C
@@ -399,7 +485,9 @@
  * (0011C8)  S_BPREL32: [0000000C], Type:             0x13A7, F
  * 
  * (0011D8) S_END
- * 
+ */
+
+/*
  * (0011DC) S_LPROC32: [0001:0000AEC5], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
  *          Parent: 00000000, End: 00001234, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000000C
@@ -409,42 +497,5 @@
  * (001224)  S_BPREL32: [0000000C], Type:    T_32PVOID(0403), D
  * 
  * (001234) S_END
- * 
- * (001238) S_GDATA32: [0003:0006B9F4], Type:      T_UCHAR(0020), visMipCount
- * (001254) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * (001274) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (00128C) S_GDATA32: [0003:0091E8C4], Type:             0x100B, visVrtArray
- * (0012A8) S_GDATA32: [0003:0091E8C8], Type:             0x1D4B, visTriHeap
- * (0012C4) S_GDATA32: [0003:0091E8CC], Type:             0x13A0, visTexArray
- * (0012E0) S_GDATA32: [0003:0091E8D0], Type:             0x13A8, visMdlArray
- * (0012FC) S_GDATA32: [0003:0121E5E8], Type:      T_ULONG(0022), visNumVertices
- * (00131C) S_GDATA32: [0003:0121E5EC], Type:      T_ULONG(0022), visNumTextures
- * (00133C) S_GDATA32: [0003:0121E5E4], Type:      T_ULONG(0022), visNumModels
- * (001358) S_GDATA32: [0003:00C9D080], Type:             0x1D4C, ioPage
- * (001370) S_GDATA32: [0003:00C9CC60], Type:             0x1D4D, palette
- * (001388) S_GDATA32: [0003:00C9D060], Type:             0x1421, ioTT
- * (00139C) S_GDATA32: [0003:0121E5F0], Type:     T_USHORT(0021), ioTTi
- * (0013B0) S_GDATA32: [0003:0121E5E0], Type:      T_ULONG(0022), gFDF
- * (0013C4) S_GDATA32: [0003:0097C108], Type:    T_32PVOID(0403), hLoaderThread
- * (0013E0) S_GDATA32: [0003:0097C110], Type:    T_32PVOID(0403), hAbortLoad
- * (0013FC) S_GDATA32: [0003:011F25E0], Type:             0x1D4E, vrtTemporary
- * (001418) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * (00142C) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
- * (001440) S_GDATA32: [0003:0099D250], Type:      T_ULONG(0022), Filez_NumberOf
- * (001460) S_GDATA32: [0003:0099D278], Type:      T_ULONG(0022), Filez_TotalSize
- * (001480) S_GDATA32: [0003:009CF680], Type:       T_INT4(0074), Filez_Decoded
- * (00149C) S_GDATA32: [0003:0099D254], Type:       T_INT4(0074), Decoded_Mesh
- * (0014B8) S_GDATA32: [0003:0099D258], Type:       T_INT4(0074), Decoded_Models
- * (0014D8) S_GDATA32: [0003:0099D27C], Type:       T_INT4(0074), Decoded_Textures
- * (0014F8) S_GDATA32: [0003:0099D260], Type:      T_ULONG(0022), Chunkz_Size
- * (001514) S_GDATA32: [0003:0099D25C], Type:      T_ULONG(0022), Chunkz_NumberOf
- * (001534) S_GDATA32: [0003:0099D264], Type:      T_ULONG(0022), Chunkz_This
- * (001550) S_GDATA32: [0003:009CF684], Type:       T_INT4(0074), Chunkz_Failed
- * (00156C) S_GDATA32: [0003:0099D270], Type:       T_INT4(0074), Chunkz_Loaded
- * (001588) S_GDATA32: [0003:0099D26C], Type:      T_ULONG(0022), LoaderThreadId
- * (0015A8) S_GDATA32: [0003:0099D268], Type:      T_ULONG(0022), Mesh_Model
- * (0015C4) S_GDATA32: [0003:0099D274], Type:      T_ULONG(0022), Mesh_Textures
- * (0015E0) S_GDATA32: [0003:00C9B860], Type:             0x1D4F, TPAGE_Defs
- * 
  */
 

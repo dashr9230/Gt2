@@ -15,13 +15,26 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00022C) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
+ * (000244) S_GDATA32: [0003:009CF6A0], Type:             0x1047, hdc
+ * (000258) S_GDATA32: [0003:009CF6A4], Type:             0x1E8F, hfont
+ * (00026C) S_GDATA32: [0003:009CF6A8], Type:      T_UCHAR(0020), DebugInUse
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00097B20], Cb: 00000093, Type:             0x1001, OpenDebug
  *          Parent: 00000000, End: 000000C0, Next: 000000C4
  *          Debug start: 00000003, Debug end: 00000091
  *          Flags: Frame Ptr Present
  * 
  * (0000C0) S_END
- * 
+ */
+
+/*
  * (0000C4) S_GPROC32: [0001:00097BB3], Cb: 00000057, Type:             0x1E8D, PrintDebug
  *          Parent: 00000000, End: 00000190, Next: 00000194
  *          Debug start: 00000009, Debug end: 00000053
@@ -41,14 +54,18 @@
  * (00018C)  S_END
  * 
  * (000190) S_END
- * 
+ */
+
+/*
  * (000194) S_GPROC32: [0001:00097C0A], Cb: 00000025, Type:             0x1001, CloseDebug
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000003, Debug end: 00000023
  *          Flags: Frame Ptr Present
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_GPROC32: [0001:00097C2F], Cb: 00000026, Type:             0x1BFD, TxtColDebug
  *          Parent: 00000000, End: 00000228, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000024
@@ -58,11 +75,5 @@
  * (000214)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), back
  * 
  * (000228) S_END
- * 
- * (00022C) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
- * (000244) S_GDATA32: [0003:009CF6A0], Type:             0x1047, hdc
- * (000258) S_GDATA32: [0003:009CF6A4], Type:             0x1E8F, hfont
- * (00026C) S_GDATA32: [0003:009CF6A8], Type:      T_UCHAR(0020), DebugInUse
- * 
  */
 

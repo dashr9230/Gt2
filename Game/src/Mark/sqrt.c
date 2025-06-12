@@ -15,6 +15,14 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000154) S_GDATA32: [0003:0096B480], Type:             0x1A7A, sqrt_tab
+ */
+
+/*
  * (000088) S_GPROC32: [0001:00040AF0], Cb: 000000B6, Type:             0x1001, initFastSqrt
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000006, Debug end: 000000B2
@@ -25,7 +33,9 @@
  * (0000DC)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), f
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_GPROC32: [0001:00040BA6], Cb: 0000008A, Type:             0x1A79, fastSqrt
  *          Parent: 00000000, End: 00000150, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000086
@@ -36,8 +46,5 @@
  * (000140)  S_BPREL32: [FFFFFFFC], Type:      T_UINT4(0075), e
  * 
  * (000150) S_END
- * 
- * (000154) S_GDATA32: [0003:0096B480], Type:             0x1A7A, sqrt_tab
- * 
  */
 

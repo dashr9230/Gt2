@@ -15,6 +15,23 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000F54) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
+ * (000F6C) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
+ * (000F84) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (000FA0) S_GDATA32: [0003:009CF688], Type:     T_REAL32(0040), throttleModDueToAvoid
+ * (000FC4) S_GDATA32: [0003:009CF68C], Type:     T_REAL32(0040), brakeDueToAvoid
+ * (000FE4) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (001000) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
+ * (001020) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (00103C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (001058) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00000000], Cb: 00000042, Type:             0x1C58, AI_ShowLine
  *          Parent: 00000000, End: 000000F4, Next: 000000F8
  *          Debug start: 00000004, Debug end: 0000003E
@@ -25,7 +42,9 @@
  * (0000E0)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, ThisCar
  * 
  * (0000F4) S_END
- * 
+ */
+
+/*
  * (0000F8) S_GPROC32: [0001:00000042], Cb: 000000EB, Type:             0x1408, AI_ChooseLine
  *          Parent: 00000000, End: 00000188, Next: 0000018C
  *          Debug start: 00000006, Debug end: 000000E7
@@ -38,7 +57,9 @@
  * (000178)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000188) S_END
- * 
+ */
+
+/*
  * (00018C) S_GPROC32: [0001:0000012D], Cb: 000002E1, Type:             0x1408, AI_BlackBox
  *          Parent: 00000000, End: 00000244, Next: 00000248
  *          Debug start: 00000006, Debug end: 000002DD
@@ -57,7 +78,9 @@
  * (000240)  S_END
  * 
  * (000244) S_END
- * 
+ */
+
+/*
  * (000248) S_GPROC32: [0001:0000040E], Cb: 00000185, Type:             0x1D67, FindCarPos
  *          Parent: 00000000, End: 00000340, Next: 00000344
  *          Debug start: 00000006, Debug end: 00000181
@@ -76,7 +99,9 @@
  * (000330)  S_BPREL32: [FFFFFFF8], Type:             0x1C45, a
  * 
  * (000340) S_END
- * 
+ */
+
+/*
  * (000344) S_GPROC32: [0001:00000593], Cb: 0000100D, Type:             0x1D68, SteeringHelp
  *          Parent: 00000000, End: 000007BC, Next: 000007C0
  *          Debug start: 00000009, Debug end: 00001009
@@ -145,7 +170,9 @@
  * (0007B8)  S_END
  * 
  * (0007BC) S_END
- * 
+ */
+
+/*
  * (0007C0) S_GPROC32: [0001:000015A0], Cb: 00000230, Type:             0x1D68, ThrottleHelp
  *          Parent: 00000000, End: 00000988, Next: 0000098C
  *          Debug start: 00000006, Debug end: 0000022C
@@ -171,7 +198,9 @@
  * (000974)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), speed
  * 
  * (000988) S_END
- * 
+ */
+
+/*
  * (00098C) S_GPROC32: [0001:000017D0], Cb: 000000A2, Type:             0x1D68, BrakeHelp
  *          Parent: 00000000, End: 00000A84, Next: 00000A88
  *          Debug start: 00000006, Debug end: 0000009E
@@ -189,7 +218,9 @@
  * (000A70)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), speed
  * 
  * (000A84) S_END
- * 
+ */
+
+/*
  * (000A88) S_GPROC32: [0001:00001872], Cb: 00000088, Type:             0x1D6A, Car2CarColl
  *          Parent: 00000000, End: 00000B3C, Next: 00000B40
  *          Debug start: 00000006, Debug end: 00000084
@@ -204,7 +235,9 @@
  * (000B2C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), dz
  * 
  * (000B3C) S_END
- * 
+ */
+
+/*
  * (000B40) S_GPROC32: [0001:000018FA], Cb: 0000004C, Type:             0x1D6B, Car2CarCollNear
  *          Parent: 00000000, End: 00000BB8, Next: 00000BBC
  *          Debug start: 00000004, Debug end: 00000048
@@ -215,7 +248,9 @@
  * (000BA4)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), dist
  * 
  * (000BB8) S_END
- * 
+ */
+
+/*
  * (000BBC) S_GPROC32: [0001:00001946], Cb: 0000009D, Type:             0x1408, AvoidCollision
  *          Parent: 00000000, End: 00000C90, Next: 00000C94
  *          Debug start: 00000006, Debug end: 00000099
@@ -235,7 +270,9 @@
  * (000C8C)  S_END
  * 
  * (000C90) S_END
- * 
+ */
+
+/*
  * (000C94) S_GPROC32: [0001:000019E3], Cb: 0000006D, Type:             0x1D6A, ProximityCheck
  *          Parent: 00000000, End: 00000D48, Next: 00000D4C
  *          Debug start: 00000006, Debug end: 00000069
@@ -249,7 +286,9 @@
  * (000D34)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, MyCar
  * 
  * (000D48) S_END
- * 
+ */
+
+/*
  * (000D4C) S_GPROC32: [0001:00001A50], Cb: 000000F3, Type:             0x1408, Evasion
  *          Parent: 00000000, End: 00000E54, Next: 00000E58
  *          Debug start: 00000006, Debug end: 000000DF
@@ -268,7 +307,9 @@
  * (000E44)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sep
  * 
  * (000E54) S_END
- * 
+ */
+
+/*
  * (000E58) S_GPROC32: [0001:00001B43], Cb: 000000D9, Type:             0x1408, SlipStream
  *          Parent: 00000000, End: 00000F1C, Next: 00000F20
  *          Debug start: 00000006, Debug end: 000000D5
@@ -283,24 +324,14 @@
  * (000F0C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sep
  * 
  * (000F1C) S_END
- * 
+ */
+
+/*
  * (000F20) S_LPROC32: [0001:00001C1C], Cb: 00000023, Type:             0x1AA6, nRand
  *          Parent: 00000000, End: 00000F50, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000021
  *          Flags: Frame Ptr Present
  * 
  * (000F50) S_END
- * 
- * (000F54) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
- * (000F6C) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
- * (000F84) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (000FA0) S_GDATA32: [0003:009CF688], Type:     T_REAL32(0040), throttleModDueToAvoid
- * (000FC4) S_GDATA32: [0003:009CF68C], Type:     T_REAL32(0040), brakeDueToAvoid
- * (000FE4) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (001000) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
- * (001020) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (00103C) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (001058) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * 
  */
 

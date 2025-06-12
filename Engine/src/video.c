@@ -15,6 +15,29 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (001288) S_GDATA32: [0003:00C30FBC], Type:             0x15C5, hInstMain
+ * (0012A0) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
+ * (0012B8) S_GDATA32: [0003:00931780], Type:      T_ULONG(0022), SystemActive
+ * (0012D4) S_GDATA32: [0002:00000818], Type:             0x1011, IID_IDirectDraw4
+ * (0012F4) S_GDATA32: [0003:00931A00], Type:       T_INT4(0074), __argc
+ * (00130C) S_GDATA32: [0003:00931A04], Type:             0x171D, __argv
+ * (001324) S_GDATA32: [0003:00C30DE0], Type:             0x1A4F, SysConfig
+ * (00133C) S_GDATA32: [0003:00C2E420], Type:             0x1EB8, VideoProfile
+ * (001358) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (001370) S_GDATA32: [0002:00000B38], Type:             0x1011, IID_IDirect3D3
+ * (001390) S_GDATA32: [0002:00000B58], Type:             0x1011, IID_IDirect3DRGBDevice
+ * (0013B8) S_GDATA32: [0002:00000B68], Type:             0x1011, IID_IDirect3DHALDevice
+ * (0013E0) S_GDATA32: [0002:00000B78], Type:             0x1011, IID_IDirect3DMMXDevice
+ * (001408) S_LDATA32: [0003:0093176C], Type:       T_INT4(0074), CustomSettings
+ * (001428) S_GDATA32: [0003:00C30FE0], Type:             0x1F00, Screen
+ * (001440) S_LDATA32: [0002:00002128], Type:             0x1F09, VideoDriver
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0008E3E0], Cb: 00000202, Type:             0x16D8, AdvancedDlg
  *          Parent: 00000000, End: 00000140, Next: 00000144
  *          Debug start: 00000006, Debug end: 000001FC
@@ -28,7 +51,9 @@
  * (000128)  S_LDATA32: [0003:00931770], Type:             0x1EB9, VProfile
  * 
  * (000140) S_END
- * 
+ */
+
+/*
  * (000144) S_GPROC32: [0001:0008E5E2], Cb: 0000051C, Type:             0x16D8, SelectDlg
  *          Parent: 00000000, End: 00000278, Next: 0000027C
  *          Debug start: 00000006, Debug end: 00000516
@@ -53,7 +78,9 @@
  * (000274)  S_END
  * 
  * (000278) S_END
- * 
+ */
+
+/*
  * (00027C) S_LPROC32: [0001:0008EAFE], Cb: 00000045, Type:             0x1EF9, StoreDetail
  *          Parent: 00000000, End: 000002EC, Next: 000002F0
  *          Debug start: 00000004, Debug end: 00000041
@@ -64,7 +91,9 @@
  * (0002DC)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), Sel
  * 
  * (0002EC) S_END
- * 
+ */
+
+/*
  * (0002F0) S_LPROC32: [0001:0008EB43], Cb: 000002B0, Type:             0x1EFB, SetComboResList
  *          Parent: 00000000, End: 000003F8, Next: 000003FC
  *          Debug start: 00000009, Debug end: 000002AC
@@ -82,7 +111,9 @@
  * (0003E4)  S_BPREL32: [FFFFFF00], Type:             0x1A12, Buffer
  * 
  * (0003F8) S_END
- * 
+ */
+
+/*
  * (0003FC) S_GPROC32: [0001:0008EDF3], Cb: 00000250, Type:             0x1EFD, VIDEO_SelectDriver
  *          Parent: 00000000, End: 000004B0, Next: 000004B4
  *          Debug start: 0000000D, Debug end: 0000024C
@@ -96,7 +127,9 @@
  * (0004A0)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), Err
  * 
  * (0004B0) S_END
- * 
+ */
+
+/*
  * (0004B4) S_LPROC32: [0001:0008F043], Cb: 0000008B, Type:             0x1F03, VIDEO_Initialise
  *          Parent: 00000000, End: 00000500, Next: 00000504
  *          Debug start: 00000003, Debug end: 00000089
@@ -105,7 +138,9 @@
  * (0004EC)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000500) S_END
- * 
+ */
+
+/*
  * (000504) S_LPROC32: [0001:0008F0CE], Cb: 0000018F, Type:             0x17B2, enumCurVProfileCB
  *          Parent: 00000000, End: 00000670, Next: 00000674
  *          Debug start: 00000009, Debug end: 00000189
@@ -136,7 +171,9 @@
  * (00066C)  S_END
  * 
  * (000670) S_END
- * 
+ */
+
+/*
  * (000674) S_GPROC32: [0001:0008F25D], Cb: 00000C2B, Type:             0x1F04, VIDEO_Create3dScreen
  *          Parent: 00000000, End: 000007B4, Next: 000007B8
  *          Debug start: 00000006, Debug end: 00000C27
@@ -163,7 +200,9 @@
  * (0007B0)  S_END
  * 
  * (0007B4) S_END
- * 
+ */
+
+/*
  * (0007B8) S_LPROC32: [0001:0008FE88], Cb: 00000177, Type:             0x1F06, VIDEO_CreateDirectDraw
  *          Parent: 00000000, End: 0000084C, Next: 00000850
  *          Debug start: 00000004, Debug end: 00000173
@@ -180,7 +219,9 @@
  * (000848)  S_END
  * 
  * (00084C) S_END
- * 
+ */
+
+/*
  * (000850) S_LPROC32: [0001:0008FFFF], Cb: 000000CA, Type:             0x1F07, VIDEO_SetCooperativeLevel
  *          Parent: 00000000, End: 000008C0, Next: 000008C4
  *          Debug start: 00000004, Debug end: 000000C6
@@ -190,7 +231,9 @@
  * (0008A8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), dwCoopFlags
  * 
  * (0008C0) S_END
- * 
+ */
+
+/*
  * (0008C4) S_LPROC32: [0001:000900C9], Cb: 00000079, Type:             0x1F07, VIDEO_CreateDirect3D
  *          Parent: 00000000, End: 00000914, Next: 00000918
  *          Debug start: 00000003, Debug end: 00000077
@@ -199,7 +242,9 @@
  * (000900)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000914) S_END
- * 
+ */
+
+/*
  * (000918) S_LPROC32: [0001:00090142], Cb: 00000086, Type:             0x1F07, VIDEO_SetResolution
  *          Parent: 00000000, End: 00000968, Next: 0000096C
  *          Debug start: 00000003, Debug end: 00000084
@@ -208,7 +253,9 @@
  * (000954)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000968) S_END
- * 
+ */
+
+/*
  * (00096C) S_LPROC32: [0001:000901C8], Cb: 000001E9, Type:             0x1F07, VIDEO_CreateDisplaySurfaces
  *          Parent: 00000000, End: 00000A20, Next: 00000A24
  *          Debug start: 00000009, Debug end: 000001E5
@@ -226,7 +273,9 @@
  * (000A1C)  S_END
  * 
  * (000A20) S_END
- * 
+ */
+
+/*
  * (000A24) S_LPROC32: [0001:000903B1], Cb: 000001A1, Type:             0x1F07, VIDEO_CreateBackBuffer
  *          Parent: 00000000, End: 00000AD0, Next: 00000AD4
  *          Debug start: 00000009, Debug end: 0000019D
@@ -244,7 +293,9 @@
  * (000ACC)  S_END
  * 
  * (000AD0) S_END
- * 
+ */
+
+/*
  * (000AD4) S_LPROC32: [0001:00090552], Cb: 000000DE, Type:             0x1F07, VIDEO_GetZBufferFormat
  *          Parent: 00000000, End: 00000B54, Next: 00000B58
  *          Debug start: 00000004, Debug end: 000000DA
@@ -260,7 +311,9 @@
  * (000B50)  S_END
  * 
  * (000B54) S_END
- * 
+ */
+
+/*
  * (000B58) S_LPROC32: [0001:00090630], Cb: 00000069, Type:             0x146D, enumZBufferFormatsCB
  *          Parent: 00000000, End: 00000BD4, Next: 00000BD8
  *          Debug start: 00000004, Debug end: 00000063
@@ -271,7 +324,9 @@
  * (000BC0)  S_BPREL32: [FFFFFFFC], Type:             0x1F01, Screen
  * 
  * (000BD4) S_END
- * 
+ */
+
+/*
  * (000BD8) S_LPROC32: [0001:00090699], Cb: 0000026B, Type:             0x1F07, VIDEO_CreateZBuffer
  *          Parent: 00000000, End: 00000C98, Next: 00000C9C
  *          Debug start: 00000009, Debug end: 00000267
@@ -295,7 +350,9 @@
  * (000C94)  S_END
  * 
  * (000C98) S_END
- * 
+ */
+
+/*
  * (000C9C) S_LPROC32: [0001:00090904], Cb: 000000CA, Type:             0x1F07, VIDEO_CreateD3Device
  *          Parent: 00000000, End: 00000CEC, Next: 00000CF0
  *          Debug start: 00000003, Debug end: 000000C8
@@ -304,7 +361,9 @@
  * (000CD8)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000CEC) S_END
- * 
+ */
+
+/*
  * (000CF0) S_LPROC32: [0001:000909CE], Cb: 000000CF, Type:             0x1F07, VIDEO_GetD3DeviceInfo
  *          Parent: 00000000, End: 00000D58, Next: 00000D5C
  *          Debug start: 00000009, Debug end: 000000CB
@@ -314,7 +373,9 @@
  * (000D44)  S_BPREL32: [FFFFFF04], Type:             0x11A6, Soft
  * 
  * (000D58) S_END
- * 
+ */
+
+/*
  * (000D5C) S_LPROC32: [0001:00090A9D], Cb: 00000146, Type:             0x1F07, VIDEO_GetTextureFormat
  *          Parent: 00000000, End: 00000DDC, Next: 00000DE0
  *          Debug start: 00000004, Debug end: 00000142
@@ -330,7 +391,9 @@
  * (000DD8)  S_END
  * 
  * (000DDC) S_END
- * 
+ */
+
+/*
  * (000DE0) S_LPROC32: [0001:00090BE3], Cb: 000002D3, Type:             0x146D, enumTextureFormatsCB
  *          Parent: 00000000, End: 00000E94, Next: 00000E98
  *          Debug start: 00000006, Debug end: 000002CD
@@ -348,14 +411,18 @@
  * (000E90)  S_END
  * 
  * (000E94) S_END
- * 
+ */
+
+/*
  * (000E98) S_GPROC32: [0001:00090EB6], Cb: 000000E3, Type:             0x1001, VIDEO_Close3dScreen
  *          Parent: 00000000, End: 00000ED4, Next: 00000ED8
  *          Debug start: 00000003, Debug end: 000000E1
  *          Flags: Frame Ptr Present
  * 
  * (000ED4) S_END
- * 
+ */
+
+/*
  * (000ED8) S_LPROC32: [0001:00090F99], Cb: 000000B8, Type:             0x1F07, VIDEO_DestroyDirectDraw
  *          Parent: 00000000, End: 00000F2C, Next: 00000F30
  *          Debug start: 00000003, Debug end: 000000B6
@@ -364,7 +431,9 @@
  * (000F18)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000F2C) S_END
- * 
+ */
+
+/*
  * (000F30) S_LPROC32: [0001:00091051], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyDirect3D
  *          Parent: 00000000, End: 00000F84, Next: 00000F88
  *          Debug start: 00000003, Debug end: 00000047
@@ -373,7 +442,9 @@
  * (000F70)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000F84) S_END
- * 
+ */
+
+/*
  * (000F88) S_LPROC32: [0001:0009109A], Cb: 0000006C, Type:             0x1F07, VIDEO_RestoreDefaultResolution
  *          Parent: 00000000, End: 00000FE4, Next: 00000FE8
  *          Debug start: 00000003, Debug end: 0000006A
@@ -382,7 +453,9 @@
  * (000FD0)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (000FE4) S_END
- * 
+ */
+
+/*
  * (000FE8) S_LPROC32: [0001:00091106], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyDisplaySurfaces
  *          Parent: 00000000, End: 00001040, Next: 00001044
  *          Debug start: 00000003, Debug end: 00000047
@@ -391,7 +464,9 @@
  * (00102C)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (001040) S_END
- * 
+ */
+
+/*
  * (001044) S_LPROC32: [0001:0009114F], Cb: 00000037, Type:             0x1F07, VIDEO_DestroyBackBuffer
  *          Parent: 00000000, End: 00001098, Next: 0000109C
  *          Debug start: 00000003, Debug end: 00000035
@@ -400,7 +475,9 @@
  * (001084)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (001098) S_END
- * 
+ */
+
+/*
  * (00109C) S_LPROC32: [0001:00091186], Cb: 00000064, Type:             0x1F07, VIDEO_DestroyZBuffer
  *          Parent: 00000000, End: 000010EC, Next: 000010F0
  *          Debug start: 00000003, Debug end: 00000062
@@ -409,7 +486,9 @@
  * (0010D8)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (0010EC) S_END
- * 
+ */
+
+/*
  * (0010F0) S_LPROC32: [0001:000911EA], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyD3Device
  *          Parent: 00000000, End: 00001144, Next: 00001148
  *          Debug start: 00000003, Debug end: 00000047
@@ -418,14 +497,18 @@
  * (001130)  S_BPREL32: [00000008], Type:             0x1F01, Screen
  * 
  * (001144) S_END
- * 
+ */
+
+/*
  * (001148) S_GPROC32: [0001:00091233], Cb: 0000004C, Type:             0x1F08, VIDEO_Restore
  *          Parent: 00000000, End: 00001180, Next: 00001184
  *          Debug start: 00000003, Debug end: 0000004A
  *          Flags: Frame Ptr Present
  * 
  * (001180) S_END
- * 
+ */
+
+/*
  * (001184) S_GPROC32: [0001:0009127F], Cb: 0000000A, Type:             0x1F04, VIDEO_ChangeResolution
  *          Parent: 00000000, End: 000011F4, Next: 000011F8
  *          Debug start: 00000003, Debug end: 00000008
@@ -435,7 +518,9 @@
  * (0011DC)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), NewHeight
  * 
  * (0011F4) S_END
- * 
+ */
+
+/*
  * (0011F8) S_GPROC32: [0001:00091289], Cb: 0000004D, Type:             0x1001, VIDEO_ClrScreen
  *          Parent: 00000000, End: 00001244, Next: 00001248
  *          Debug start: 00000006, Debug end: 00000049
@@ -444,30 +529,14 @@
  * (001230)  S_BPREL32: [FFFFFF9C], Type:             0x104B, ddbfx
  * 
  * (001244) S_END
- * 
+ */
+
+/*
  * (001248) S_GPROC32: [0001:000912D6], Cb: 00000014, Type:             0x1001, VIDEO_ClrAllScreens
  *          Parent: 00000000, End: 00001284, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000012
  *          Flags: Frame Ptr Present
  * 
  * (001284) S_END
- * 
- * (001288) S_GDATA32: [0003:00C30FBC], Type:             0x15C5, hInstMain
- * (0012A0) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
- * (0012B8) S_GDATA32: [0003:00931780], Type:      T_ULONG(0022), SystemActive
- * (0012D4) S_GDATA32: [0002:00000818], Type:             0x1011, IID_IDirectDraw4
- * (0012F4) S_GDATA32: [0003:00931A00], Type:       T_INT4(0074), __argc
- * (00130C) S_GDATA32: [0003:00931A04], Type:             0x171D, __argv
- * (001324) S_GDATA32: [0003:00C30DE0], Type:             0x1A4F, SysConfig
- * (00133C) S_GDATA32: [0003:00C2E420], Type:             0x1EB8, VideoProfile
- * (001358) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (001370) S_GDATA32: [0002:00000B38], Type:             0x1011, IID_IDirect3D3
- * (001390) S_GDATA32: [0002:00000B58], Type:             0x1011, IID_IDirect3DRGBDevice
- * (0013B8) S_GDATA32: [0002:00000B68], Type:             0x1011, IID_IDirect3DHALDevice
- * (0013E0) S_GDATA32: [0002:00000B78], Type:             0x1011, IID_IDirect3DMMXDevice
- * (001408) S_LDATA32: [0003:0093176C], Type:       T_INT4(0074), CustomSettings
- * (001428) S_GDATA32: [0003:00C30FE0], Type:             0x1F00, Screen
- * (001440) S_LDATA32: [0002:00002128], Type:             0x1F09, VideoDriver
- * 
  */
 

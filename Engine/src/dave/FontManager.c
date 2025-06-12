@@ -15,6 +15,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000648) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
+ * (00065C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (000090) S_GPROC32: [0001:000912F0], Cb: 000000D9, Type:             0x1EEA, FONT_Allocate
  *          Parent: 00000000, End: 000000F0, Next: 000000F4
  *          Debug start: 00000006, Debug end: 000000D5
@@ -24,7 +33,9 @@
  * (0000DC)  S_BPREL32: [FFFFFFFC], Type:             0x1773, lpFont
  * 
  * (0000F0) S_END
- * 
+ */
+
+/*
  * (0000F4) S_GPROC32: [0001:000913C9], Cb: 0000014D, Type:             0x1EEC, FONT_Load
  *          Parent: 00000000, End: 000001E0, Next: 000001E4
  *          Debug start: 00000006, Debug end: 00000149
@@ -46,7 +57,9 @@
  * (0001DC)  S_END
  * 
  * (0001E0) S_END
- * 
+ */
+
+/*
  * (0001E4) S_GPROC32: [0001:00091516], Cb: 0000005F, Type:             0x1EEF, FONT_Release
  *          Parent: 00000000, End: 00000240, Next: 00000244
  *          Debug start: 00000004, Debug end: 0000005B
@@ -56,7 +69,9 @@
  * (00022C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), page
  * 
  * (000240) S_END
- * 
+ */
+
+/*
  * (000244) S_GPROC32: [0001:00091575], Cb: 00000069, Type:             0x1EF1, FONT_FindPage
  *          Parent: 00000000, End: 000002B0, Next: 000002B4
  *          Debug start: 00000005, Debug end: 00000064
@@ -67,7 +82,9 @@
  * (0002A0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0002B0) S_END
- * 
+ */
+
+/*
  * (0002B4) S_GPROC32: [0001:000915DE], Cb: 000000B0, Type:             0x1EF3, FONT_Len
  *          Parent: 00000000, End: 00000378, Next: 0000037C
  *          Debug start: 00000006, Debug end: 000000AC
@@ -83,7 +100,9 @@
  * (000364)  S_BPREL32: [FFFFFFFC], Type:             0x1EED, lpPage
  * 
  * (000378) S_END
- * 
+ */
+
+/*
  * (00037C) S_GPROC32: [0001:0009168E], Cb: 00000055, Type:             0x1EF5, FONT_Printf
  *          Parent: 00000000, End: 00000428, Next: 0000042C
  *          Debug start: 00000009, Debug end: 00000051
@@ -97,7 +116,9 @@
  * (000414)  S_BPREL32: [FFFFFF00], Type:             0x1A12, buffer
  * 
  * (000428) S_END
- * 
+ */
+
+/*
  * (00042C) S_GPROC32: [0001:000916E3], Cb: 0000027F, Type:             0x1EF7, FONT_Print
  *          Parent: 00000000, End: 00000560, Next: 00000564
  *          Debug start: 00000006, Debug end: 0000027B
@@ -119,7 +140,9 @@
  * (00054C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), xpos
  * 
  * (000560) S_END
- * 
+ */
+
+/*
  * (000564) S_GPROC32: [0001:00091962], Cb: 00000082, Type:             0x1EEF, FONT_Flush
  *          Parent: 00000000, End: 000005BC, Next: 000005C0
  *          Debug start: 00000004, Debug end: 0000007E
@@ -129,7 +152,9 @@
  * (0005AC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0005BC) S_END
- * 
+ */
+
+/*
  * (0005C0) S_LPROC32: [0001:000919E4], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 00000644, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000076
@@ -142,9 +167,5 @@
  * (000634)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000644) S_END
- * 
- * (000648) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
- * (00065C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
  */
 

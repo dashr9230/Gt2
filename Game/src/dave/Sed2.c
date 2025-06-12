@@ -15,6 +15,21 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000DD4) S_LDATA32: [0003:0000B3F8], Type:             0x139D, SedFilename
+ * (000DF0) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
+ * (000E10) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000E28) S_GDATA32: [0003:0097C140], Type:             0x1C22, Sed2Setup
+ * (000E40) S_GDATA32: [0003:0007515C], Type:      T_ULONG(0022), Sed2CurSetup
+ * (000E5C) S_GDATA32: [0003:00075160], Type:      T_ULONG(0022), Sed2PrevSetup
+ * (000E78) S_LDATA32: [0003:0000A4D8], Type:             0x1C23, Sed2Contents
+ * (000E94) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ */
+
+/*
  * (000088) S_GPROC32: [0001:00023B10], Cb: 0000016C, Type:             0x1824, SED2_Allocate
  *          Parent: 00000000, End: 000000F8, Next: 000000FC
  *          Debug start: 00000006, Debug end: 00000168
@@ -25,7 +40,9 @@
  * (0000E4)  S_BPREL32: [FFFFFFFC], Type:             0x1C11, Sed2
  * 
  * (0000F8) S_END
- * 
+ */
+
+/*
  * (0000FC) S_GPROC32: [0001:00023C7C], Cb: 00000105, Type:             0x1408, SED2_Enable
  *          Parent: 00000000, End: 00000184, Next: 00000188
  *          Debug start: 00000006, Debug end: 00000101
@@ -37,7 +54,9 @@
  * (000170)  S_BPREL32: [FFFFFFFC], Type:             0x1C11, Sed2
  * 
  * (000184) S_END
- * 
+ */
+
+/*
  * (000188) S_GPROC32: [0001:00023D81], Cb: 0000001E, Type:             0x1408, SED2_Release
  *          Parent: 00000000, End: 000001D0, Next: 000001D4
  *          Debug start: 00000003, Debug end: 0000001C
@@ -46,7 +65,9 @@
  * (0001BC)  S_BPREL32: [00000008], Type:             0x1404, Sed2Obj
  * 
  * (0001D0) S_END
- * 
+ */
+
+/*
  * (0001D4) S_GPROC32: [0001:00023D9F], Cb: 00000064, Type:             0x1408, SED2_Destroy
  *          Parent: 00000000, End: 0000022C, Next: 00000230
  *          Debug start: 00000004, Debug end: 00000060
@@ -56,7 +77,9 @@
  * (000218)  S_BPREL32: [FFFFFFFC], Type:             0x1C11, Sed2
  * 
  * (00022C) S_END
- * 
+ */
+
+/*
  * (000230) S_GPROC32: [0001:00023E03], Cb: 00000085, Type:             0x1C12, SED2_CountVars
  *          Parent: 00000000, End: 000002A4, Next: 000002A8
  *          Debug start: 00000006, Debug end: 00000081
@@ -67,7 +90,9 @@
  * (00028C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), drawcounter
  * 
  * (0002A4) S_END
- * 
+ */
+
+/*
  * (0002A8) S_GPROC32: [0001:00023E88], Cb: 00000238, Type:             0x1C13, MakeSedValueStr
  *          Parent: 00000000, End: 000003D8, Next: 000003DC
  *          Debug start: 00000006, Debug end: 00000214
@@ -88,7 +113,9 @@
  * (0003C4)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), Data
  * 
  * (0003D8) S_END
- * 
+ */
+
+/*
  * (0003DC) S_GPROC32: [0001:000240C0], Cb: 00000106, Type:             0x1C17, MakeSedValue
  *          Parent: 00000000, End: 000004F8, Next: 000004FC
  *          Debug start: 00000006, Debug end: 000000E2
@@ -108,7 +135,9 @@
  * (0004E4)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), Data
  * 
  * (0004F8) S_END
- * 
+ */
+
+/*
  * (0004FC) S_GPROC32: [0001:000241C6], Cb: 000003B8, Type:             0x1C19, SED2_DrawItem
  *          Parent: 00000000, End: 000005A8, Next: 000005AC
  *          Debug start: 00000006, Debug end: 000003B4
@@ -122,7 +151,9 @@
  * (000598)  S_BPREL32: [FFFFFFE0], Type:             0x139D, str
  * 
  * (0005A8) S_END
- * 
+ */
+
+/*
  * (0005AC) S_LPROC32: [0001:0002457E], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 00000630, Next: 00000634
  *          Debug start: 00000006, Debug end: 00000076
@@ -135,7 +166,9 @@
  * (000620)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000630) S_END
- * 
+ */
+
+/*
  * (000634) S_GPROC32: [0001:000245F8], Cb: 00000098, Type:             0x16A1, SED2_Draw
  *          Parent: 00000000, End: 000006B4, Next: 000006B8
  *          Debug start: 00000006, Debug end: 00000094
@@ -147,7 +180,9 @@
  * (0006A0)  S_BPREL32: [FFFFFFFC], Type:             0x1C11, Sed2
  * 
  * (0006B4) S_END
- * 
+ */
+
+/*
  * (0006B8) S_GPROC32: [0001:00024690], Cb: 00000174, Type:             0x1C1B, SED2_IncrementValue
  *          Parent: 00000000, End: 0000084C, Next: 00000850
  *          Debug start: 00000006, Debug end: 00000150
@@ -173,7 +208,9 @@
  * (00083C)  S_BPREL32: [FFFFFFFC], Type:      T_SHORT(0011), iv
  * 
  * (00084C) S_END
- * 
+ */
+
+/*
  * (000850) S_GPROC32: [0001:00024804], Cb: 00000188, Type:             0x1C1B, SED2_DecrementValue
  *          Parent: 00000000, End: 000009E4, Next: 000009E8
  *          Debug start: 00000006, Debug end: 00000164
@@ -199,7 +236,9 @@
  * (0009D4)  S_BPREL32: [FFFFFFFC], Type:      T_SHORT(0011), iv
  * 
  * (0009E4) S_END
- * 
+ */
+
+/*
  * (0009E8) S_GPROC32: [0001:0002498C], Cb: 0000023C, Type:             0x16A1, SED2_Handler
  *          Parent: 00000000, End: 00000A5C, Next: 00000A60
  *          Debug start: 00000006, Debug end: 00000238
@@ -210,7 +249,9 @@
  * (000A48)  S_BPREL32: [FFFFFFFC], Type:             0x1C11, Sed2
  * 
  * (000A5C) S_END
- * 
+ */
+
+/*
  * (000A60) S_GPROC32: [0001:00024BC8], Cb: 00000055, Type:             0x1001, SED2_FixDriveConfig
  *          Parent: 00000000, End: 00000ABC, Next: 00000AC0
  *          Debug start: 00000006, Debug end: 00000051
@@ -220,7 +261,9 @@
  * (000AAC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000ABC) S_END
- * 
+ */
+
+/*
  * (000AC0) S_GPROC32: [0001:00024C1D], Cb: 00000073, Type:             0x16A5, SED2_Load
  *          Parent: 00000000, End: 00000B30, Next: 00000B34
  *          Debug start: 00000006, Debug end: 0000006F
@@ -231,7 +274,9 @@
  * (000B20)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), err
  * 
  * (000B30) S_END
- * 
+ */
+
+/*
  * (000B34) S_GPROC32: [0001:00024C90], Cb: 0000006E, Type:             0x16A5, SED2_Save
  *          Parent: 00000000, End: 00000BA4, Next: 00000BA8
  *          Debug start: 00000006, Debug end: 0000006A
@@ -242,7 +287,9 @@
  * (000B94)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), err
  * 
  * (000BA4) S_END
- * 
+ */
+
+/*
  * (000BA8) S_GPROC32: [0001:00024CFE], Cb: 0000004C, Type:             0x17C9, SED2_Command_Save
  *          Parent: 00000000, End: 00000C0C, Next: 00000C10
  *          Debug start: 00000003, Debug end: 0000004A
@@ -252,7 +299,9 @@
  * (000BF8)  S_BPREL32: [0000000C], Type:             0x17C7, argv
  * 
  * (000C0C) S_END
- * 
+ */
+
+/*
  * (000C10) S_GPROC32: [0001:00024D4A], Cb: 0000004C, Type:             0x17C9, SED2_Command_Load
  *          Parent: 00000000, End: 00000C74, Next: 00000C78
  *          Debug start: 00000003, Debug end: 0000004A
@@ -262,7 +311,9 @@
  * (000C60)  S_BPREL32: [0000000C], Type:             0x17C7, argv
  * 
  * (000C74) S_END
- * 
+ */
+
+/*
  * (000C78) S_GPROC32: [0001:00024D96], Cb: 00000592, Type:             0x1A56, SED2_UploadFile
  *          Parent: 00000000, End: 00000D6C, Next: 00000D70
  *          Debug start: 00000007, Debug end: 0000058D
@@ -285,7 +336,9 @@
  * (000D68)  S_END
  * 
  * (000D6C) S_END
- * 
+ */
+
+/*
  * (000D70) S_GPROC32: [0001:00025328], Cb: 00000034, Type:             0x1BFD, SED2_DownloadFile
  *          Parent: 00000000, End: 00000DD0, Next: 00000EB0
  *          Debug start: 00000003, Debug end: 00000032
@@ -295,16 +348,9 @@
  * (000DC0)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), src
  * 
  * (000DD0) S_END
- * 
- * (000DD4) S_LDATA32: [0003:0000B3F8], Type:             0x139D, SedFilename
- * (000DF0) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
- * (000E10) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000E28) S_GDATA32: [0003:0097C140], Type:             0x1C22, Sed2Setup
- * (000E40) S_GDATA32: [0003:0007515C], Type:      T_ULONG(0022), Sed2CurSetup
- * (000E5C) S_GDATA32: [0003:00075160], Type:      T_ULONG(0022), Sed2PrevSetup
- * (000E78) S_LDATA32: [0003:0000A4D8], Type:             0x1C23, Sed2Contents
- * (000E94) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * 
+ */
+
+/*
  * (000EB0) S_GPROC32: [0001:00025360], Cb: 00000029, Type:             0x1C25, FONT_SetColor2V
  *          Parent: 00000000, End: 00000F24, Next: 00000F28
  *          Debug start: 00000003, Debug end: 00000027
@@ -315,7 +361,9 @@
  * (000F10)  S_BPREL32: [00000010], Type:      T_ULONG(0022), color2
  * 
  * (000F24) S_END
- * 
+ */
+
+/*
  * (000F28) S_GPROC32: [0001:00025390], Cb: 0000000E, Type:             0x1C27, FONT_SetJustify
  *          Parent: 00000000, End: 00000F88, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000000C
@@ -325,6 +373,5 @@
  * (000F74)  S_BPREL32: [0000000C], Type:       T_INT4(0074), Justify
  * 
  * (000F88) S_END
- * 
  */
 

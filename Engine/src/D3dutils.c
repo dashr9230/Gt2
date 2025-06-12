@@ -15,6 +15,23 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000D70) S_GDATA32: [0003:0091DB6C], Type:       T_LONG(0012), LastFileSize
+ * (000D8C) S_GDATA32: [0003:0097C124], Type:      T_ULONG(0022), MessageLoopExit
+ * (000DAC) S_GDATA32: [0003:00931788], Type:      T_ULONG(0022), UserTimer
+ * (000DC4) S_GDATA32: [0003:0124D580], Type:      T_ULONG(0022), timeout
+ * (000DDC) S_LDATA32: [0003:0091DB64], Type:      T_ULONG(0022), MEM_Used
+ * (000DF4) S_LDATA32: [0003:0091DB68], Type:      T_ULONG(0022), MEM_NumBlocks
+ * (000E10) S_GDATA32: [0003:0124D5A0], Type:             0x207F, MemAllocationList
+ * (000E30) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000E48) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
+ * (000E60) S_GDATA32: [0003:00931780], Type:      T_ULONG(0022), SystemActive
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0007AA40], Cb: 000000E3, Type:             0x2065, FILE_Load
  *          Parent: 00000000, End: 00000134, Next: 00000138
  *          Debug start: 00000006, Debug end: 000000DF
@@ -27,7 +44,9 @@
  * (00011C)  S_BPREL32: [FFFFFFFC], Type:    T_32PVOID(0403), lpLoadAddr
  * 
  * (000134) S_END
- * 
+ */
+
+/*
  * (000138) S_GPROC32: [0001:0007AB23], Cb: 00000052, Type:             0x2066, FILE_GetSize
  *          Parent: 00000000, End: 000001A8, Next: 000001AC
  *          Debug start: 00000006, Debug end: 0000004E
@@ -38,7 +57,9 @@
  * (000194)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), Size
  * 
  * (0001A8) S_END
- * 
+ */
+
+/*
  * (0001AC) S_GPROC32: [0001:0007AB75], Cb: 00000045, Type:             0x2067, FILE_GetExtension
  *          Parent: 00000000, End: 00000218, Next: 0000021C
  *          Debug start: 00000004, Debug end: 00000041
@@ -48,7 +69,9 @@
  * (000200)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), lpExtension
  * 
  * (000218) S_END
- * 
+ */
+
+/*
  * (00021C) S_GPROC32: [0001:0007ABBA], Cb: 000006FF, Type:             0x2069, UTIL_SaveAsPcx
  *          Parent: 00000000, End: 000003E4, Next: 000003E8
  *          Debug start: 0000000E, Debug end: 000006FA
@@ -77,7 +100,9 @@
  * (0003D0)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), ScrPtr
  * 
  * (0003E4) S_END
- * 
+ */
+
+/*
  * (0003E8) S_GPROC32: [0001:0007B2B9], Cb: 000000BC, Type:             0x1001, UTIL_ScreenShot
  *          Parent: 00000000, End: 0000045C, Next: 00000460
  *          Debug start: 00000009, Debug end: 000000B8
@@ -88,7 +113,9 @@
  * (00044C)  S_BPREL32: [FFFFFFFC], Type:             0x1834, fh
  * 
  * (00045C) S_END
- * 
+ */
+
+/*
  * (000460) S_GPROC32: [0001:0007B375], Cb: 0000001C, Type:             0x2071, PCX_GetHeader
  *          Parent: 00000000, End: 000004BC, Next: 000004C0
  *          Debug start: 00000003, Debug end: 0000001A
@@ -98,7 +125,9 @@
  * (0004A8)  S_BPREL32: [0000000C], Type:             0x206F, Header
  * 
  * (0004BC) S_END
- * 
+ */
+
+/*
  * (0004C0) S_GPROC32: [0001:0007B391], Cb: 00000A33, Type:             0x2073, PCX_LoadToSurface
  *          Parent: 00000000, End: 00000714, Next: 00000718
  *          Debug start: 0000000D, Debug end: 00000A2F
@@ -131,7 +160,9 @@
  * (000704)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000714) S_END
- * 
+ */
+
+/*
  * (000718) S_GPROC32: [0001:0007BDC4], Cb: 0000064F, Type:             0x2077, PCX_LoadToMemory
  *          Parent: 00000000, End: 00000908, Next: 0000090C
  *          Debug start: 0000000D, Debug end: 0000064B
@@ -160,7 +191,9 @@
  * (0008F8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000908) S_END
- * 
+ */
+
+/*
  * (00090C) S_GPROC32: [0001:0007C413], Cb: 0000002F, Type:             0x1001, UTIL_WaitKeyPress
  *          Parent: 00000000, End: 00000958, Next: 0000095C
  *          Debug start: 00000006, Debug end: 0000002B
@@ -169,7 +202,9 @@
  * (000948)  S_BPREL32: [FFFFFFE8], Type:             0x1BF3, Joy
  * 
  * (000958) S_END
- * 
+ */
+
+/*
  * (00095C) S_GPROC32: [0001:0007C442], Cb: 0000002F, Type:             0x1001, UTIL_WaitKeyRelease
  *          Parent: 00000000, End: 000009A8, Next: 000009AC
  *          Debug start: 00000006, Debug end: 0000002B
@@ -178,7 +213,9 @@
  * (000998)  S_BPREL32: [FFFFFFE8], Type:             0x1BF3, Joy
  * 
  * (0009A8) S_END
- * 
+ */
+
+/*
  * (0009AC) S_GPROC32: [0001:0007C471], Cb: 0000003C, Type:             0x1B5B, UTIL_DisplayPcxAndWaitForKeyPress
  *          Parent: 00000000, End: 00000A10, Next: 00000A14
  *          Debug start: 00000003, Debug end: 0000003A
@@ -187,7 +224,9 @@
  * (0009F8)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), filename
  * 
  * (000A10) S_END
- * 
+ */
+
+/*
  * (000A14) S_GPROC32: [0001:0007C4AD], Cb: 0000003D, Type:             0x1001, UTIL_WaitKeyPressTimeout
  *          Parent: 00000000, End: 00000A64, Next: 00000A68
  *          Debug start: 00000006, Debug end: 00000039
@@ -196,7 +235,9 @@
  * (000A54)  S_BPREL32: [FFFFFFE8], Type:             0x1BF3, Joy
  * 
  * (000A64) S_END
- * 
+ */
+
+/*
  * (000A68) S_GPROC32: [0001:0007C4EA], Cb: 0000004F, Type:             0x1C43, UTIL_DisplayPcxAndWaitForKeyPressTimeout
  *          Parent: 00000000, End: 00000AE4, Next: 00000AE8
  *          Debug start: 00000003, Debug end: 0000004D
@@ -206,7 +247,9 @@
  * (000AD0)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), ticks
  * 
  * (000AE4) S_END
- * 
+ */
+
+/*
  * (000AE8) S_GPROC32: [0001:0007C539], Cb: 00000022, Type:             0x1B5B, UTIL_DisplayPcx
  *          Parent: 00000000, End: 00000B38, Next: 00000B3C
  *          Debug start: 00000003, Debug end: 00000020
@@ -215,14 +258,18 @@
  * (000B20)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), filename
  * 
  * (000B38) S_END
- * 
+ */
+
+/*
  * (000B3C) S_GPROC32: [0001:0007C55B], Cb: 0000002D, Type:             0x1001, MEM_Init
  *          Parent: 00000000, End: 00000B6C, Next: 00000B70
  *          Debug start: 00000003, Debug end: 0000002B
  *          Flags: Frame Ptr Present
  * 
  * (000B6C) S_END
- * 
+ */
+
+/*
  * (000B70) S_GPROC32: [0001:0007C588], Cb: 00000052, Type:             0x1001, MEM_Close
  *          Parent: 00000000, End: 00000BB4, Next: 00000BB8
  *          Debug start: 00000004, Debug end: 0000004E
@@ -231,14 +278,18 @@
  * (000BA4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000BB4) S_END
- * 
+ */
+
+/*
  * (000BB8) S_GPROC32: [0001:0007C5DA], Cb: 00000005, Type:             0x1001, MEM_Report
  *          Parent: 00000000, End: 00000BEC, Next: 00000BF0
  *          Debug start: 00000003, Debug end: 00000003
  *          Flags: Frame Ptr Present
  * 
  * (000BEC) S_END
- * 
+ */
+
+/*
  * (000BF0) S_GPROC32: [0001:0007C5DF], Cb: 0000000F, Type:             0x2078, MEM_Size
  *          Parent: 00000000, End: 00000C34, Next: 00000C38
  *          Debug start: 00000003, Debug end: 0000000D
@@ -247,7 +298,9 @@
  * (000C20)  S_BPREL32: [00000008], Type:    T_32PVOID(0403), Memory
  * 
  * (000C34) S_END
- * 
+ */
+
+/*
  * (000C38) S_GPROC32: [0001:0007C5EE], Cb: 000000CF, Type:             0x2079, MEM_Malloc
  *          Parent: 00000000, End: 00000CFC, Next: 00000D00
  *          Debug start: 00000006, Debug end: 000000CB
@@ -261,7 +314,9 @@
  * (000CEC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000CFC) S_END
- * 
+ */
+
+/*
  * (000D00) S_GPROC32: [0001:0007C6BD], Cb: 000000B8, Type:             0x207E, MEM_free
  *          Parent: 00000000, End: 00000D6C, Next: 00000E7C
  *          Debug start: 00000006, Debug end: 000000B4
@@ -272,18 +327,9 @@
  * (000D5C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000D6C) S_END
- * 
- * (000D70) S_GDATA32: [0003:0091DB6C], Type:       T_LONG(0012), LastFileSize
- * (000D8C) S_GDATA32: [0003:0097C124], Type:      T_ULONG(0022), MessageLoopExit
- * (000DAC) S_GDATA32: [0003:00931788], Type:      T_ULONG(0022), UserTimer
- * (000DC4) S_GDATA32: [0003:0124D580], Type:      T_ULONG(0022), timeout
- * (000DDC) S_LDATA32: [0003:0091DB64], Type:      T_ULONG(0022), MEM_Used
- * (000DF4) S_LDATA32: [0003:0091DB68], Type:      T_ULONG(0022), MEM_NumBlocks
- * (000E10) S_GDATA32: [0003:0124D5A0], Type:             0x207F, MemAllocationList
- * (000E30) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000E48) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
- * (000E60) S_GDATA32: [0003:00931780], Type:      T_ULONG(0022), SystemActive
- * 
+ */
+
+/*
  * (000E7C) S_GPROC32: [0001:0007C780], Cb: 0000001B, Type:             0x2080, UnlockSurface
  *          Parent: 00000000, End: 00000ECC, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000019
@@ -292,6 +338,5 @@
  * (000EB4)  S_BPREL32: [00000008], Type:             0x112D, lpSurface
  * 
  * (000ECC) S_END
- * 
  */
 

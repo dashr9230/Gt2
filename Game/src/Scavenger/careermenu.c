@@ -15,6 +15,32 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (001CE8) S_GDATA32: [0003:0096B464], Type:       T_LONG(0012), TmpComp
+ * (001D00) S_GDATA32: [0003:0096B460], Type:       T_LONG(0012), Caradd
+ * (001D18) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (001D34) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (001D50) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
+ * (001D68) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ * (001D7C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
+ * (001D90) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ * (001DA8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (001DC0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (001DD8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
+ * (001DF0) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (001E08) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (001E24) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (001E44) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
+ * (001E5C) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ * (001E78) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
+ * (001E8C) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
+ * (001EA4) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
+ */
+
+/*
  * (000090) S_GPROC32: [0001:00042820], Cb: 00000046, Type:             0x1001, GiveHalfCars
  *          Parent: 00000000, End: 000000E4, Next: 000000E8
  *          Debug start: 00000006, Debug end: 00000042
@@ -24,7 +50,9 @@
  * (0000D4)  S_BPREL32: [FFFFFFFC], Type:             0x180B, Gw
  * 
  * (0000E4) S_END
- * 
+ */
+
+/*
  * (0000E8) S_GPROC32: [0001:00042866], Cb: 00000066, Type:             0x1001, GiveAllCars
  *          Parent: 00000000, End: 0000014C, Next: 00000150
  *          Debug start: 00000006, Debug end: 00000062
@@ -35,7 +63,9 @@
  * (00013C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, Gw
  * 
  * (00014C) S_END
- * 
+ */
+
+/*
  * (000150) S_GPROC32: [0001:000428CC], Cb: 00000039, Type:             0x141A, BtStartCareerRace
  *          Parent: 00000000, End: 000001AC, Next: 000001B0
  *          Debug start: 00000004, Debug end: 00000035
@@ -45,7 +75,9 @@
  * (00019C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, Gw
  * 
  * (0001AC) S_END
- * 
+ */
+
+/*
  * (0001B0) S_GPROC32: [0001:00042905], Cb: 0000004B, Type:             0x141A, BtStartQualify
  *          Parent: 00000000, End: 00000210, Next: 00000214
  *          Debug start: 00000004, Debug end: 00000047
@@ -55,7 +87,9 @@
  * (0001F8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000210) S_END
- * 
+ */
+
+/*
  * (000214) S_GPROC32: [0001:00042950], Cb: 0000007A, Type:             0x141A, BtQueryStartType
  *          Parent: 00000000, End: 00000284, Next: 00000288
  *          Debug start: 00000006, Debug end: 00000076
@@ -66,7 +100,9 @@
  * (00026C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000284) S_END
- * 
+ */
+
+/*
  * (000288) S_GPROC32: [0001:000429CA], Cb: 000004B0, Type:             0x1001, OpStartCareerRace
  *          Parent: 00000000, End: 00000304, Next: 00000308
  *          Debug start: 00000007, Debug end: 000004AB
@@ -78,7 +114,9 @@
  * (0002F4)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000304) S_END
- * 
+ */
+
+/*
  * (000308) S_GPROC32: [0001:00042E7A], Cb: 00000398, Type:             0x1001, OpStartQualifying
  *          Parent: 00000000, End: 00000374, Next: 00000378
  *          Debug start: 00000006, Debug end: 00000394
@@ -89,7 +127,9 @@
  * (000364)  S_BPREL32: [FFFFFFC0], Type:             0x180C, str
  * 
  * (000374) S_END
- * 
+ */
+
+/*
  * (000378) S_GPROC32: [0001:00043212], Cb: 0000006F, Type:             0x1A66, AddCar2Competition
  *          Parent: 00000000, End: 000003F4, Next: 000003F8
  *          Debug start: 00000004, Debug end: 0000006B
@@ -101,7 +141,9 @@
  * (0003E4)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (0003F4) S_END
- * 
+ */
+
+/*
  * (0003F8) S_GPROC32: [0001:00043281], Cb: 000015B3, Type:             0x1001, JoinCompetition
  *          Parent: 00000000, End: 00000518, Next: 0000051C
  *          Debug start: 00000006, Debug end: 0000158F
@@ -122,7 +164,9 @@
  * (000508)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), p
  * 
  * (000518) S_END
- * 
+ */
+
+/*
  * (00051C) S_GPROC32: [0001:00044834], Cb: 00000138, Type:             0x141A, BtJoin
  *          Parent: 00000000, End: 00000584, Next: 00000588
  *          Debug start: 00000006, Debug end: 00000134
@@ -133,7 +177,9 @@
  * (00056C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000584) S_END
- * 
+ */
+
+/*
  * (000588) S_GPROC32: [0001:0004496C], Cb: 00000157, Type:             0x141A, BtCompetitionSelect
  *          Parent: 00000000, End: 000006FC, Next: 00000700
  *          Debug start: 00000006, Debug end: 00000123
@@ -157,7 +203,9 @@
  * (0006E4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0006FC) S_END
- * 
+ */
+
+/*
  * (000700) S_GPROC32: [0001:00044AC3], Cb: 00000128, Type:             0x141A, BtLeaveComp
  *          Parent: 00000000, End: 0000076C, Next: 00000770
  *          Debug start: 00000006, Debug end: 00000124
@@ -168,7 +216,9 @@
  * (000754)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00076C) S_END
- * 
+ */
+
+/*
  * (000770) S_GPROC32: [0001:00044BEB], Cb: 0000003E, Type:             0x141A, BtQuitChampionship
  *          Parent: 00000000, End: 000007D4, Next: 000007D8
  *          Debug start: 00000004, Debug end: 0000003A
@@ -178,7 +228,9 @@
  * (0007BC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0007D4) S_END
- * 
+ */
+
+/*
  * (0007D8) S_GPROC32: [0001:00044C29], Cb: 0000002C, Type:             0x141A, BtChangeStagePage
  *          Parent: 00000000, End: 00000834, Next: 00000838
  *          Debug start: 00000004, Debug end: 00000028
@@ -188,7 +240,9 @@
  * (000824)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (000834) S_END
- * 
+ */
+
+/*
  * (000838) S_GPROC32: [0001:00044C55], Cb: 000001C7, Type:             0x1001, NewCareer
  *          Parent: 00000000, End: 000008E4, Next: 000008E8
  *          Debug start: 00000007, Debug end: 000001B3
@@ -203,7 +257,9 @@
  * (0008D4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0008E4) S_END
- * 
+ */
+
+/*
  * (0008E8) S_GPROC32: [0001:00044E1C], Cb: 000001B9, Type:             0x141A, BtCarCareerChange
  *          Parent: 00000000, End: 000009BC, Next: 000009C0
  *          Debug start: 00000006, Debug end: 000001A5
@@ -219,7 +275,9 @@
  * (0009A4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0009BC) S_END
- * 
+ */
+
+/*
  * (0009C0) S_GPROC32: [0001:00044FD5], Cb: 00000315, Type:             0x141A, BtCareerSelectCar
  *          Parent: 00000000, End: 00000A94, Next: 00000A98
  *          Debug start: 00000006, Debug end: 000002F1
@@ -235,7 +293,9 @@
  * (000A7C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000A94) S_END
- * 
+ */
+
+/*
  * (000A98) S_GPROC32: [0001:000452EA], Cb: 00000067, Type:             0x141A, BtCareerAuto
  *          Parent: 00000000, End: 00000AFC, Next: 00000B00
  *          Debug start: 00000006, Debug end: 00000063
@@ -246,7 +306,9 @@
  * (000AEC)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (000AFC) S_END
- * 
+ */
+
+/*
  * (000B00) S_GPROC32: [0001:00045351], Cb: 00000067, Type:             0x141A, BtCareerManual
  *          Parent: 00000000, End: 00000B68, Next: 00000B6C
  *          Debug start: 00000006, Debug end: 00000063
@@ -257,7 +319,9 @@
  * (000B58)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (000B68) S_END
- * 
+ */
+
+/*
  * (000B6C) S_GPROC32: [0001:000453B8], Cb: 00000042, Type:             0x141A, BtUseAltSkin
  *          Parent: 00000000, End: 00000BC0, Next: 00000BC4
  *          Debug start: 00000004, Debug end: 0000003E
@@ -267,7 +331,9 @@
  * (000BB0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000BC0) S_END
- * 
+ */
+
+/*
  * (000BC4) S_GPROC32: [0001:000453FA], Cb: 00001212, Type:             0x141A, SetupCareerFrame_Car
  *          Parent: 00000000, End: 00000E7C, Next: 00000E80
  *          Debug start: 00000006, Debug end: 0000119E
@@ -308,7 +374,9 @@
  * (000E68)  S_BPREL32: [FFFFFFFC], Type:             0x1766, LogoTDT
  * 
  * (000E7C) S_END
- * 
+ */
+
+/*
  * (000E80) S_GPROC32: [0001:0004660C], Cb: 0000155D, Type:             0x141A, SetupCareerFrame_Competition
  *          Parent: 00000000, End: 00001358, Next: 0000135C
  *          Debug start: 0000000A, Debug end: 000014C8
@@ -379,7 +447,9 @@
  * (001348)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), p
  * 
  * (001358) S_END
- * 
+ */
+
+/*
  * (00135C) S_LPROC32: [0001:00047B69], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 000013E0, Next: 000013E4
  *          Debug start: 00000006, Debug end: 00000076
@@ -392,7 +462,9 @@
  * (0013D0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0013E0) S_END
- * 
+ */
+
+/*
  * (0013E4) S_GPROC32: [0001:00047BE3], Cb: 00001299, Type:             0x1001, CompetitionShowFinalStandings
  *          Parent: 00000000, End: 000015E4, Next: 000015E8
  *          Debug start: 0000000A, Debug end: 00001254
@@ -424,7 +496,9 @@
  * (0015D0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), best
  * 
  * (0015E4) S_END
- * 
+ */
+
+/*
  * (0015E8) S_GPROC32: [0001:00048E7C], Cb: 00000A39, Type:             0x1001, CalcRaceResults
  *          Parent: 00000000, End: 00001678, Next: 0000167C
  *          Debug start: 00000007, Debug end: 00000A34
@@ -437,7 +511,9 @@
  * (001660)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001678) S_END
- * 
+ */
+
+/*
  * (00167C) S_GPROC32: [0001:000498B5], Cb: 000008F2, Type:             0x1001, CareerFrame_DisplayRaceResults
  *          Parent: 00000000, End: 00001764, Next: 00001768
  *          Debug start: 00000007, Debug end: 000008ED
@@ -454,7 +530,9 @@
  * (00174C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001764) S_END
- * 
+ */
+
+/*
  * (001768) S_GPROC32: [0001:0004A1A7], Cb: 0000012D, Type:             0x141A, SetupCareerFrame_RaceResults
  *          Parent: 00000000, End: 000017D4, Next: 000017D8
  *          Debug start: 00000004, Debug end: 00000129
@@ -464,7 +542,9 @@
  * (0017BC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0017D4) S_END
- * 
+ */
+
+/*
  * (0017D8) S_GPROC32: [0001:0004A2D4], Cb: 00000A29, Type:             0x141A, SetupCareerFrame_Results
  *          Parent: 00000000, End: 000018C4, Next: 000018C8
  *          Debug start: 0000000A, Debug end: 00000A24
@@ -482,7 +562,9 @@
  * (0018AC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0018C4) S_END
- * 
+ */
+
+/*
  * (0018C8) S_GPROC32: [0001:0004ACFD], Cb: 00000562, Type:             0x141A, SetupCareerFrame_NextRace
  *          Parent: 00000000, End: 000019BC, Next: 000019C0
  *          Debug start: 00000006, Debug end: 0000055E
@@ -500,7 +582,9 @@
  * (0019A4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0019BC) S_END
- * 
+ */
+
+/*
  * (0019C0) S_GPROC32: [0001:0004B25F], Cb: 00000112, Type:             0x1001, DestroyCareerMenu
  *          Parent: 00000000, End: 00001A24, Next: 00001A28
  *          Debug start: 00000006, Debug end: 0000010E
@@ -510,7 +594,9 @@
  * (001A0C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001A24) S_END
- * 
+ */
+
+/*
  * (001A28) S_GPROC32: [0001:0004B371], Cb: 000000D8, Type:             0x141A, BtNewGame
  *          Parent: 00000000, End: 00001A94, Next: 00001A98
  *          Debug start: 00000006, Debug end: 000000D4
@@ -521,7 +607,9 @@
  * (001A7C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001A94) S_END
- * 
+ */
+
+/*
  * (001A98) S_GPROC32: [0001:0004B449], Cb: 0000005D, Type:             0x141A, BtNewGameCancel
  *          Parent: 00000000, End: 00001AF8, Next: 00001AFC
  *          Debug start: 00000004, Debug end: 00000059
@@ -531,7 +619,9 @@
  * (001AE0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001AF8) S_END
- * 
+ */
+
+/*
  * (001AFC) S_GPROC32: [0001:0004B4A6], Cb: 0000007F, Type:             0x141A, BtEnterName
  *          Parent: 00000000, End: 00001B68, Next: 00001B6C
  *          Debug start: 00000006, Debug end: 0000007B
@@ -542,7 +632,9 @@
  * (001B50)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001B68) S_END
- * 
+ */
+
+/*
  * (001B6C) S_GPROC32: [0001:0004B525], Cb: 0000106B, Type:             0x1001, SetupCareerMenu
  *          Parent: 00000000, End: 00001CE4, Next: 00000000
  *          Debug start: 00000006, Debug end: 00001027
@@ -567,26 +659,5 @@
  * (001CCC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001CE4) S_END
- * 
- * (001CE8) S_GDATA32: [0003:0096B464], Type:       T_LONG(0012), TmpComp
- * (001D00) S_GDATA32: [0003:0096B460], Type:       T_LONG(0012), Caradd
- * (001D18) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (001D34) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (001D50) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
- * (001D68) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * (001D7C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
- * (001D90) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * (001DA8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (001DC0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (001DD8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
- * (001DF0) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (001E08) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (001E24) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (001E44) S_GDATA32: [0003:000672D0], Type:   T_32PRCHAR(0470), KeyFocus
- * (001E5C) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * (001E78) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
- * (001E8C) S_GDATA32: [0003:00947D20], Type:             0x1A12, KeyBuffer
- * (001EA4) S_GDATA32: [0003:00947E68], Type:       T_LONG(0012), KeyMaxLen
- * 
  */
 

@@ -15,6 +15,22 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0034FC) S_LDATA32: [0003:00008DC8], Type:             0x17FB, ColorTable
+ * (003518) S_LDATA32: [0003:00008E08], Type:             0x1AB9, txFlare
+ * (003530) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (00354C) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
+ * (00356C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (003584) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (00359C) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
+ * (0035B8) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ * (0035D4) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0001ACE0], Cb: 000001E3, Type:             0x1C43, RaceCraft_Allocate
  *          Parent: 00000000, End: 00000120, Next: 00000124
  *          Debug start: 00000006, Debug end: 000001DF
@@ -26,7 +42,9 @@
  * (000108)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (000120) S_END
- * 
+ */
+
+/*
  * (000124) S_LPROC32: [0001:0001AEC3], Cb: 00000135, Type:             0x1408, RaceCraft_Destroy
  *          Parent: 00000000, End: 00000188, Next: 0000018C
  *          Debug start: 00000004, Debug end: 00000131
@@ -36,14 +54,18 @@
  * (000170)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (000188) S_END
- * 
+ */
+
+/*
  * (00018C) S_GPROC32: [0001:0001AFF8], Cb: 00000026, Type:             0x1001, RaceCraft_Release
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000003, Debug end: 00000024
  *          Flags: Frame Ptr Present
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_LPROC32: [0001:0001B01E], Cb: 00000005, Type:             0x1408, RaceCraft_Handler
  *          Parent: 00000000, End: 00000218, Next: 0000021C
  *          Debug start: 00000003, Debug end: 00000003
@@ -52,7 +74,9 @@
  * (000208)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (000218) S_END
- * 
+ */
+
+/*
  * (00021C) S_LPROC32: [0001:0001B023], Cb: 00000005, Type:             0x1408, RaceCraft_Draw
  *          Parent: 00000000, End: 00000264, Next: 00000268
  *          Debug start: 00000003, Debug end: 00000003
@@ -61,7 +85,9 @@
  * (000254)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (000264) S_END
- * 
+ */
+
+/*
  * (000268) S_LPROC32: [0001:0001B028], Cb: 00000495, Type:             0x1C4D, RaceCraft_Load
  *          Parent: 00000000, End: 00000380, Next: 00000384
  *          Debug start: 00000006, Debug end: 00000491
@@ -84,7 +110,9 @@
  * (00037C)  S_END
  * 
  * (000380) S_END
- * 
+ */
+
+/*
  * (000384) S_LPROC32: [0001:0001B4BD], Cb: 00000029, Type:             0x1408, RaceCraft_BuildInfo
  *          Parent: 00000000, End: 000003D0, Next: 000003D4
  *          Debug start: 00000003, Debug end: 00000027
@@ -93,7 +121,9 @@
  * (0003C0)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0003D0) S_END
- * 
+ */
+
+/*
  * (0003D4) S_GPROC32: [0001:0001B4E6], Cb: 000000CE, Type:             0x1C51, RaceCraft_FindStartSector
  *          Parent: 00000000, End: 00000478, Next: 0000047C
  *          Debug start: 00000006, Debug end: 000000CA
@@ -106,7 +136,9 @@
  * (000468)  S_BPREL32: [FFFFFFD8], Type:             0x1C52, v
  * 
  * (000478) S_END
- * 
+ */
+
+/*
  * (00047C) S_LPROC32: [0001:0001B5B4], Cb: 0000011F, Type:             0x1001, RaceCraft_MeasureTrack
  *          Parent: 00000000, End: 0000053C, Next: 00000540
  *          Debug start: 00000006, Debug end: 0000011B
@@ -120,7 +152,9 @@
  * (000524)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), DistSoFar
  * 
  * (00053C) S_END
- * 
+ */
+
+/*
  * (000540) S_LPROC32: [0001:0001B6D3], Cb: 00000071, Type:             0x1C54, RaceCraft_MeasureSectorToSector
  *          Parent: 00000000, End: 00000644, Next: 00000648
  *          Debug start: 00000006, Debug end: 0000006D
@@ -138,7 +172,9 @@
  * (000630)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), diffy
  * 
  * (000644) S_END
- * 
+ */
+
+/*
  * (000648) S_LPROC32: [0001:0001B744], Cb: 00000020, Type:             0x1C56, RaceCraft_MeasureSectorToStart
  *          Parent: 00000000, End: 000006D0, Next: 000006D4
  *          Debug start: 00000003, Debug end: 0000001E
@@ -149,7 +185,9 @@
  * (0006B8)  S_BPREL32: [00000010], Type:  T_32PREAL32(0440), DistSoFar
  * 
  * (0006D0) S_END
- * 
+ */
+
+/*
  * (0006D4) S_LPROC32: [0001:0001B764], Cb: 000000B4, Type:             0x1408, RaceCraft_BuildHeadings
  *          Parent: 00000000, End: 00000764, Next: 00000768
  *          Debug start: 00000006, Debug end: 000000B0
@@ -161,7 +199,9 @@
  * (000754)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000764) S_END
- * 
+ */
+
+/*
  * (000768) S_LPROC32: [0001:0001B818], Cb: 0000013B, Type:             0x1C58, RaceCraft_CalcSectorEdges
  *          Parent: 00000000, End: 000007D4, Next: 000007D8
  *          Debug start: 00000003, Debug end: 00000139
@@ -171,7 +211,9 @@
  * (0007BC)  S_BPREL32: [0000000C], Type:             0x1AE3, ThisSector
  * 
  * (0007D4) S_END
- * 
+ */
+
+/*
  * (0007D8) S_LPROC32: [0001:0001B953], Cb: 0000009E, Type:             0x1C58, RaceCraft_GetHeading
  *          Parent: 00000000, End: 000008A4, Next: 000008A8
  *          Debug start: 00000006, Debug end: 0000009A
@@ -187,7 +229,9 @@
  * (000894)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), dz
  * 
  * (0008A4) S_END
- * 
+ */
+
+/*
  * (0008A8) S_LPROC32: [0001:0001B9F1], Cb: 0000007E, Type:             0x1C58, RaceCraft_DifferentiateHeadings
  *          Parent: 00000000, End: 00000994, Next: 00000998
  *          Debug start: 00000006, Debug end: 0000007A
@@ -203,7 +247,9 @@
  * (000980)  S_BPREL32: [FFFFFFFC], Type:      T_SHORT(0011), curve
  * 
  * (000994) S_END
- * 
+ */
+
+/*
  * (000998) S_LPROC32: [0001:0001BA6F], Cb: 00000029, Type:             0x1408, RaceCraft_GradeTrack
  *          Parent: 00000000, End: 000009E4, Next: 000009E8
  *          Debug start: 00000003, Debug end: 00000027
@@ -212,7 +258,9 @@
  * (0009D4)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0009E4) S_END
- * 
+ */
+
+/*
  * (0009E8) S_LPROC32: [0001:0001BA98], Cb: 0000007A, Type:             0x1408, RaceCraft_ResetGrades
  *          Parent: 00000000, End: 00000A84, Next: 00000A88
  *          Debug start: 00000006, Debug end: 00000076
@@ -225,7 +273,9 @@
  * (000A74)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000A84) S_END
- * 
+ */
+
+/*
  * (000A88) S_LPROC32: [0001:0001BB12], Cb: 0000007D, Type:             0x1408, RaceCraft_DetectCorners
  *          Parent: 00000000, End: 00000B24, Next: 00000B28
  *          Debug start: 00000006, Debug end: 00000079
@@ -238,7 +288,9 @@
  * (000B14)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000B24) S_END
- * 
+ */
+
+/*
  * (000B28) S_LPROC32: [0001:0001BB8F], Cb: 00000100, Type:             0x1408, RaceCraft_BuildTurnInZones
  *          Parent: 00000000, End: 00000BC8, Next: 00000BCC
  *          Debug start: 00000006, Debug end: 000000FC
@@ -251,7 +303,9 @@
  * (000BB8)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000BC8) S_END
- * 
+ */
+
+/*
  * (000BCC) S_LPROC32: [0001:0001BC8F], Cb: 00000103, Type:             0x1408, RaceCraft_BuildTargets
  *          Parent: 00000000, End: 00000C74, Next: 00000C78
  *          Debug start: 00000006, Debug end: 000000FF
@@ -264,7 +318,9 @@
  * (000C5C)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000C74) S_END
- * 
+ */
+
+/*
  * (000C78) S_LPROC32: [0001:0001BD92], Cb: 0000066A, Type:             0x1C58, RaceCraft_FindTarget
  *          Parent: 00000000, End: 00000D70, Next: 00000D74
  *          Debug start: 00000006, Debug end: 00000656
@@ -281,7 +337,9 @@
  * (000D58)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), TargetDist
  * 
  * (000D70) S_END
- * 
+ */
+
+/*
  * (000D74) S_LPROC32: [0001:0001C3FC], Cb: 00000110, Type:             0x1C5D, SetTarget
  *          Parent: 00000000, End: 00000E78, Next: 00000E7C
  *          Debug start: 00000006, Debug end: 0000010C
@@ -299,7 +357,9 @@
  * (000E5C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), LineInterpolate
  * 
  * (000E78) S_END
- * 
+ */
+
+/*
  * (000E7C) S_LPROC32: [0001:0001C50C], Cb: 00000061, Type:             0x1408, RaceCraft_ClearBrakingZones
  *          Parent: 00000000, End: 00000F08, Next: 00000F0C
  *          Debug start: 00000006, Debug end: 0000005D
@@ -311,7 +371,9 @@
  * (000EF8)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000F08) S_END
- * 
+ */
+
+/*
  * (000F0C) S_LPROC32: [0001:0001C56D], Cb: 00000071, Type:             0x1C58, RaceCraft_FindBrakingZones
  *          Parent: 00000000, End: 00000F98, Next: 00000F9C
  *          Debug start: 00000006, Debug end: 0000006D
@@ -323,7 +385,9 @@
  * (000F88)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (000F98) S_END
- * 
+ */
+
+/*
  * (000F9C) S_LPROC32: [0001:0001C5DE], Cb: 000000A1, Type:             0x1C58, RaceCraft_UnifyBrakingZones
  *          Parent: 00000000, End: 00001028, Next: 0000102C
  *          Debug start: 00000006, Debug end: 0000009D
@@ -335,7 +399,9 @@
  * (001018)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (001028) S_END
- * 
+ */
+
+/*
  * (00102C) S_LPROC32: [0001:0001C67F], Cb: 000000B6, Type:             0x1C58, RaceCraft_SetTriggers
  *          Parent: 00000000, End: 000010D0, Next: 000010D4
  *          Debug start: 00000006, Debug end: 000000B2
@@ -348,7 +414,9 @@
  * (0010C0)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (0010D0) S_END
- * 
+ */
+
+/*
  * (0010D4) S_GPROC32: [0001:0001C735], Cb: 00000030, Type:             0x1C5E, RaceCraft_GetGridPos
  *          Parent: 00000000, End: 00001160, Next: 00001164
  *          Debug start: 00000006, Debug end: 0000002C
@@ -360,7 +428,9 @@
  * (001148)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (001160) S_END
- * 
+ */
+
+/*
  * (001164) S_GPROC32: [0001:0001C765], Cb: 00000071, Type:             0x1C60, VerifyFindSector
  *          Parent: 00000000, End: 000011F8, Next: 000011FC
  *          Debug start: 00000006, Debug end: 0000006D
@@ -373,7 +443,9 @@
  * (0011E8)  S_BPREL32: [FFFFFFF8], Type:             0x1C45, AB
  * 
  * (0011F8) S_END
- * 
+ */
+
+/*
  * (0011FC) S_GPROC32: [0001:0001C7D6], Cb: 0000010E, Type:             0x1C61, RaceCraft_FindSector
  *          Parent: 00000000, End: 000012E0, Next: 000012E4
  *          Debug start: 00000006, Debug end: 0000010A
@@ -389,7 +461,9 @@
  * (0012C8)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), ThisDist
  * 
  * (0012E0) S_END
- * 
+ */
+
+/*
  * (0012E4) S_LPROC32: [0001:0001C8E4], Cb: 00000030, Type:             0x1C62, RaceCraft_DistToSector
  *          Parent: 00000000, End: 0000137C, Next: 00001380
  *          Debug start: 00000006, Debug end: 0000002C
@@ -402,7 +476,9 @@
  * (00136C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), dz
  * 
  * (00137C) S_END
- * 
+ */
+
+/*
  * (001380) S_GPROC32: [0001:0001C914], Cb: 000000C7, Type:             0x1C0E, RaceCraft_FindNearestLine
  *          Parent: 00000000, End: 00001498, Next: 0000149C
  *          Debug start: 00000006, Debug end: 000000C3
@@ -421,7 +497,9 @@
  * (001488)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), dz
  * 
  * (001498) S_END
- * 
+ */
+
+/*
  * (00149C) S_GPROC32: [0001:0001C9DB], Cb: 000000EB, Type:             0x1C0E, RaceCraft_LineCheck
  *          Parent: 00000000, End: 00001548, Next: 0000154C
  *          Debug start: 00000006, Debug end: 000000E7
@@ -435,7 +513,9 @@
  * (001534)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), chk1
  * 
  * (001548) S_END
- * 
+ */
+
+/*
  * (00154C) S_GPROC32: [0001:0001CAC6], Cb: 0000022E, Type:             0x1001, RaceCraft_DrawChecks
  *          Parent: 00000000, End: 000015A0, Next: 000015A4
  *          Debug start: 00000004, Debug end: 0000022A
@@ -444,7 +524,9 @@
  * (001588)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (0015A0) S_END
- * 
+ */
+
+/*
  * (0015A4) S_GPROC32: [0001:0001CCF4], Cb: 00000075, Type:             0x1C65, RaceCraft_GetPosition_Race
  *          Parent: 00000000, End: 0000165C, Next: 00001660
  *          Debug start: 00000006, Debug end: 00000071
@@ -458,7 +540,9 @@
  * (00164C)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (00165C) S_END
- * 
+ */
+
+/*
  * (001660) S_GPROC32: [0001:0001CD69], Cb: 00000173, Type:             0x1C65, RaceCraft_GetAccuratePosition_Race
  *          Parent: 00000000, End: 0000174C, Next: 00001750
  *          Debug start: 00000006, Debug end: 0000016F
@@ -474,7 +558,9 @@
  * (00173C)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (00174C) S_END
- * 
+ */
+
+/*
  * (001750) S_LPROC32: [0001:0001CEDC], Cb: 0000001E, Type:             0x1ADE, CurCar
  *          Parent: 00000000, End: 00001790, Next: 00001794
  *          Debug start: 00000003, Debug end: 0000001C
@@ -483,7 +569,9 @@
  * (001780)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (001790) S_END
- * 
+ */
+
+/*
  * (001794) S_GPROC32: [0001:0001CEFA], Cb: 00000034, Type:             0x1C65, RaceCraft_GetPosition_Lap
  *          Parent: 00000000, End: 00001838, Next: 0000183C
  *          Debug start: 00000006, Debug end: 00000030
@@ -496,7 +584,9 @@
  * (001828)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (001838) S_END
- * 
+ */
+
+/*
  * (00183C) S_GPROC32: [0001:0001CF2E], Cb: 00000068, Type:             0x1C68, RaceCraft_GetSeperation_Lap
  *          Parent: 00000000, End: 00001920, Next: 00001924
  *          Debug start: 00000006, Debug end: 00000064
@@ -512,7 +602,9 @@
  * (00190C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), SepA
  * 
  * (001920) S_END
- * 
+ */
+
+/*
  * (001924) S_GPROC32: [0001:0001CF96], Cb: 00000042, Type:             0x1C68, RaceCraft_GetSeperation_Race
  *          Parent: 00000000, End: 000019E0, Next: 000019E4
  *          Debug start: 00000006, Debug end: 0000003E
@@ -526,7 +618,9 @@
  * (0019CC)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), CarPosB
  * 
  * (0019E0) S_END
- * 
+ */
+
+/*
  * (0019E4) S_GPROC32: [0001:0001CFD8], Cb: 00000081, Type:             0x1C65, RaceCraft_FindClosestHuman_Race
  *          Parent: 00000000, End: 00001AC8, Next: 00001ACC
  *          Debug start: 00000006, Debug end: 0000007D
@@ -541,7 +635,9 @@
  * (001AB4)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), nearsep
  * 
  * (001AC8) S_END
- * 
+ */
+
+/*
  * (001ACC) S_GPROC32: [0001:0001D059], Cb: 00000081, Type:             0x1C65, RaceCraft_FindClosestHuman_Lap
  *          Parent: 00000000, End: 00001BB0, Next: 00001BB4
  *          Debug start: 00000006, Debug end: 0000007D
@@ -556,7 +652,9 @@
  * (001B9C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), nearsep
  * 
  * (001BB0) S_END
- * 
+ */
+
+/*
  * (001BB4) S_GPROC32: [0001:0001D0DA], Cb: 0000009D, Type:             0x1ADE, RaceCraft_IsGoingTheWrongWay
  *          Parent: 00000000, End: 00001C90, Next: 00001C94
  *          Debug start: 00000007, Debug end: 00000098
@@ -571,7 +669,9 @@
  * (001C78)  S_BPREL32: [FFFFFFFC], Type:     T_USHORT(0021), ang_right
  * 
  * (001C90) S_END
- * 
+ */
+
+/*
  * (001C94) S_LPROC32: [0001:0001D177], Cb: 000001FD, Type:             0x1408, RaceCraft_Display2D_Allocate
  *          Parent: 00000000, End: 00001E04, Next: 00001E08
  *          Debug start: 00000006, Debug end: 000001F9
@@ -600,7 +700,9 @@
  * (001E00)  S_END
  * 
  * (001E04) S_END
- * 
+ */
+
+/*
  * (001E08) S_LPROC32: [0001:0001D374], Cb: 0000003B, Type:             0x1408, RaceCraft_Display2D_Destroy
  *          Parent: 00000000, End: 00001E70, Next: 00001E74
  *          Debug start: 00000004, Debug end: 00000037
@@ -610,7 +712,9 @@
  * (001E5C)  S_BPREL32: [FFFFFFFC], Type:             0x1C6B, display
  * 
  * (001E70) S_END
- * 
+ */
+
+/*
  * (001E74) S_GPROC32: [0001:0001D3AF], Cb: 0000001E, Type:             0x1408, RaceCraft_Display2D_Release
  *          Parent: 00000000, End: 00001EC8, Next: 00001ECC
  *          Debug start: 00000003, Debug end: 0000001C
@@ -619,7 +723,9 @@
  * (001EB8)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (001EC8) S_END
- * 
+ */
+
+/*
  * (001ECC) S_LPROC32: [0001:0001D3CD], Cb: 0000009A, Type:             0x1408, RaceCraft_Display2D_Handler
  *          Parent: 00000000, End: 00001F34, Next: 00001F38
  *          Debug start: 00000004, Debug end: 00000096
@@ -629,7 +735,9 @@
  * (001F20)  S_BPREL32: [FFFFFFFC], Type:             0x1C6B, display
  * 
  * (001F34) S_END
- * 
+ */
+
+/*
  * (001F38) S_LPROC32: [0001:0001D467], Cb: 0000002B, Type:             0x1408, RaceCraft_Display2D_Draw
  *          Parent: 00000000, End: 00001F9C, Next: 00001FA0
  *          Debug start: 00000004, Debug end: 00000027
@@ -639,7 +747,9 @@
  * (001F88)  S_BPREL32: [FFFFFFFC], Type:             0x1C6B, display
  * 
  * (001F9C) S_END
- * 
+ */
+
+/*
  * (001FA0) S_LPROC32: [0001:0001D492], Cb: 00000251, Type:             0x1408, RaceCraft_Display2D_Update
  *          Parent: 00000000, End: 00002150, Next: 00002154
  *          Debug start: 00000006, Debug end: 0000022D
@@ -670,7 +780,9 @@
  * (00214C)  S_END
  * 
  * (002150) S_END
- * 
+ */
+
+/*
  * (002154) S_LPROC32: [0001:0001D6E3], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 000021D8, Next: 000021DC
  *          Debug start: 00000006, Debug end: 00000076
@@ -683,7 +795,9 @@
  * (0021C8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0021D8) S_END
- * 
+ */
+
+/*
  * (0021DC) S_LPROC32: [0001:0001D75D], Cb: 000000BD, Type:             0x1408, RaceCraft_Display3D_Allocate
  *          Parent: 00000000, End: 00002278, Next: 0000227C
  *          Debug start: 00000006, Debug end: 000000B9
@@ -695,7 +809,9 @@
  * (002264)  S_BPREL32: [FFFFFFFC], Type:             0x1C6E, display
  * 
  * (002278) S_END
- * 
+ */
+
+/*
  * (00227C) S_LPROC32: [0001:0001D81A], Cb: 0000001D, Type:             0x1408, RaceCraft_Display3D_Destroy
  *          Parent: 00000000, End: 000022D0, Next: 000022D4
  *          Debug start: 00000003, Debug end: 0000001B
@@ -704,7 +820,9 @@
  * (0022C0)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0022D0) S_END
- * 
+ */
+
+/*
  * (0022D4) S_GPROC32: [0001:0001D837], Cb: 0000001E, Type:             0x1408, RaceCraft_Display3D_Release
  *          Parent: 00000000, End: 00002328, Next: 0000232C
  *          Debug start: 00000003, Debug end: 0000001C
@@ -713,7 +831,9 @@
  * (002318)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (002328) S_END
- * 
+ */
+
+/*
  * (00232C) S_LPROC32: [0001:0001D855], Cb: 00000053, Type:             0x1408, RaceCraft_Display3D_Handler
  *          Parent: 00000000, End: 00002394, Next: 00002398
  *          Debug start: 00000004, Debug end: 0000004F
@@ -723,7 +843,9 @@
  * (002380)  S_BPREL32: [FFFFFFFC], Type:             0x1C6E, display
  * 
  * (002394) S_END
- * 
+ */
+
+/*
  * (002398) S_LPROC32: [0001:0001D8A8], Cb: 00000028, Type:             0x1408, RaceCraft_Display3D_Draw
  *          Parent: 00000000, End: 000023FC, Next: 00002400
  *          Debug start: 00000004, Debug end: 00000024
@@ -733,7 +855,9 @@
  * (0023E8)  S_BPREL32: [FFFFFFFC], Type:             0x1C6B, display
  * 
  * (0023FC) S_END
- * 
+ */
+
+/*
  * (002400) S_LPROC32: [0001:0001D8D0], Cb: 000001C9, Type:             0x1408, RaceCraft_Display3D_DrawSmarties
  *          Parent: 00000000, End: 000024F8, Next: 000024FC
  *          Debug start: 00000006, Debug end: 000001C5
@@ -750,7 +874,9 @@
  * (0024E4)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CarObj
  * 
  * (0024F8) S_END
- * 
+ */
+
+/*
  * (0024FC) S_GPROC32: [0001:0001DA99], Cb: 000002E2, Type:             0x1408, RaceCraft_ApexLine_Allocate
  *          Parent: 00000000, End: 0000269C, Next: 000026A0
  *          Debug start: 00000006, Debug end: 000002DE
@@ -786,7 +912,9 @@
  * (002698)  S_END
  * 
  * (00269C) S_END
- * 
+ */
+
+/*
  * (0026A0) S_LPROC32: [0001:0001DD7B], Cb: 0000004A, Type:             0x1408, RaceCraft_ApexLine_Destroy
  *          Parent: 00000000, End: 00002724, Next: 00002728
  *          Debug start: 00000004, Debug end: 00000046
@@ -802,7 +930,9 @@
  * (002720)  S_END
  * 
  * (002724) S_END
- * 
+ */
+
+/*
  * (002728) S_GPROC32: [0001:0001DDC5], Cb: 0000001E, Type:             0x1408, RaceCraft_ApexLine_Release
  *          Parent: 00000000, End: 0000277C, Next: 00002780
  *          Debug start: 00000003, Debug end: 0000001C
@@ -811,7 +941,9 @@
  * (00276C)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (00277C) S_END
- * 
+ */
+
+/*
  * (002780) S_LPROC32: [0001:0001DDE3], Cb: 00000053, Type:             0x1408, RaceCraft_ApexLine_Handler
  *          Parent: 00000000, End: 000027E8, Next: 000027EC
  *          Debug start: 00000004, Debug end: 0000004F
@@ -821,7 +953,9 @@
  * (0027D4)  S_BPREL32: [FFFFFFFC], Type:             0x1C71, display
  * 
  * (0027E8) S_END
- * 
+ */
+
+/*
  * (0027EC) S_LPROC32: [0001:0001DE36], Cb: 000001B3, Type:             0x1408, RaceCraft_ApexLine_Draw
  *          Parent: 00000000, End: 00002904, Next: 00002908
  *          Debug start: 00000006, Debug end: 000001AF
@@ -840,7 +974,9 @@
  * (0028F4)  S_BPREL32: [FFFFFFFC], Type:             0x1AE3, rs
  * 
  * (002904) S_END
- * 
+ */
+
+/*
  * (002908) S_LPROC32: [0001:0001DFE9], Cb: 00000025, Type:             0x1C73, RaceCraft_PredictApex
  *          Parent: 00000000, End: 00002958, Next: 0000295C
  *          Debug start: 00000003, Debug end: 00000023
@@ -849,7 +985,9 @@
  * (002948)  S_BPREL32: [00000008], Type:             0x1AE3, rs
  * 
  * (002958) S_END
- * 
+ */
+
+/*
  * (00295C) S_GPROC32: [0001:0001E00E], Cb: 000001E1, Type:             0x1408, RaceCraft_GradeEditor_Allocate
  *          Parent: 00000000, End: 000029FC, Next: 00002A00
  *          Debug start: 00000006, Debug end: 000001DD
@@ -861,7 +999,9 @@
  * (0029E8)  S_BPREL32: [FFFFFFFC], Type:             0x1C5B, gred
  * 
  * (0029FC) S_END
- * 
+ */
+
+/*
  * (002A00) S_LPROC32: [0001:0001E1EF], Cb: 00000039, Type:             0x1408, RaceCraft_GradeEditor_Destroy
  *          Parent: 00000000, End: 00002A88, Next: 00002A8C
  *          Debug start: 00000004, Debug end: 00000035
@@ -877,7 +1017,9 @@
  * (002A84)  S_END
  * 
  * (002A88) S_END
- * 
+ */
+
+/*
  * (002A8C) S_GPROC32: [0001:0001E228], Cb: 0000001E, Type:             0x1001, RaceCraft_GradeEditor_Release
  *          Parent: 00000000, End: 00002AE4, Next: 00002AE8
  *          Debug start: 00000003, Debug end: 0000001C
@@ -886,7 +1028,9 @@
  * (002AD4)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (002AE4) S_END
- * 
+ */
+
+/*
  * (002AE8) S_LPROC32: [0001:0001E246], Cb: 0000099E, Type:             0x1408, RaceCraft_GradeEditor_Draw
  *          Parent: 00000000, End: 00002DD4, Next: 00002DD8
  *          Debug start: 00000006, Debug end: 0000092A
@@ -928,7 +1072,9 @@
  * (002DBC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Difficulty
  * 
  * (002DD4) S_END
- * 
+ */
+
+/*
  * (002DD8) S_LPROC32: [0001:0001EBE4], Cb: 00000795, Type:             0x1408, RaceCraft_GradeEditor_Handler
  *          Parent: 00000000, End: 000032DC, Next: 000032E0
  *          Debug start: 00000006, Debug end: 000006B1
@@ -997,14 +1143,18 @@
  * (0032C4)  S_BPREL32: [FFFFFFFC], Type:             0x1C4B, RaceCraft
  * 
  * (0032DC) S_END
- * 
+ */
+
+/*
  * (0032E0) S_LPROC32: [0001:0001F379], Cb: 00000017, Type:             0x1001, RaceCraft_GradeEditor_CommandInstall
  *          Parent: 00000000, End: 0000332C, Next: 00003330
  *          Debug start: 00000003, Debug end: 00000015
  *          Flags: Frame Ptr Present
  * 
  * (00332C) S_END
- * 
+ */
+
+/*
  * (003330) S_LPROC32: [0001:0001F390], Cb: 000000B4, Type:             0x17C9, CON_RaceCraft_GradeEditor_Save
  *          Parent: 00000000, End: 00003428, Next: 0000342C
  *          Debug start: 00000006, Debug end: 000000B0
@@ -1020,7 +1170,9 @@
  * (003410)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), numbytes
  * 
  * (003428) S_END
- * 
+ */
+
+/*
  * (00342C) S_LPROC32: [0001:0001F444], Cb: 000000CD, Type:             0x1001, RaceCraft_GradeEditor_Load
  *          Parent: 00000000, End: 000034F8, Next: 000035F0
  *          Debug start: 00000006, Debug end: 000000C9
@@ -1034,17 +1186,9 @@
  * (0034E0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), numbytes
  * 
  * (0034F8) S_END
- * 
- * (0034FC) S_LDATA32: [0003:00008DC8], Type:             0x17FB, ColorTable
- * (003518) S_LDATA32: [0003:00008E08], Type:             0x1AB9, txFlare
- * (003530) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (00354C) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
- * (00356C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (003584) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (00359C) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
- * (0035B8) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * (0035D4) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * 
+ */
+
+/*
  * (0035F0) S_GPROC32: [0001:0001F520], Cb: 0000004B, Type:             0x1C75, P2D_SetColour
  *          Parent: 00000000, End: 0000365C, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000049
@@ -1055,6 +1199,5 @@
  * (00364C)  S_BPREL32: [00000010], Type:      T_ULONG(0022), c
  * 
  * (00365C) S_END
- * 
  */
 

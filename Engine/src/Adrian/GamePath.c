@@ -15,13 +15,25 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0003CC) S_LDATA32: [0003:0091E0A8], Type:             0x153F, GPATH_Install
+ * (0003E8) S_LDATA32: [0003:0091E2A8], Type:             0x153F, GPATH_CD
+ * (000400) S_LDATA32: [0003:0091E4A8], Type:             0x1E96, GPATH_Filename
+ */
+
+/*
  * (000090) S_GPROC32: [0001:00082E30], Cb: 00000025, Type:             0x1001, GPath_SetDefaultPaths
  *          Parent: 00000000, End: 000000D0, Next: 000000D4
  *          Debug start: 00000003, Debug end: 00000023
  *          Flags: Frame Ptr Present
  * 
  * (0000D0) S_END
- * 
+ */
+
+/*
  * (0000D4) S_GPROC32: [0001:00082E55], Cb: 0000004F, Type:             0x1FCC, GPATH_FindFile
  *          Parent: 00000000, End: 00000144, Next: 00000148
  *          Debug start: 00000003, Debug end: 0000004D
@@ -32,7 +44,9 @@
  * (000134)  S_BPREL32: [00000010], Type:   T_32PRCHAR(0470), Ext
  * 
  * (000144) S_END
- * 
+ */
+
+/*
  * (000148) S_LPROC32: [0001:00082EA4], Cb: 000000CF, Type:             0x1FCE, GPATH_DoesFileExist
  *          Parent: 00000000, End: 00000200, Next: 00000204
  *          Debug start: 00000009, Debug end: 000000CB
@@ -46,7 +60,9 @@
  * (0001EC)  S_BPREL32: [FFFFFC00], Type:             0x1E96, Buffer
  * 
  * (000200) S_END
- * 
+ */
+
+/*
  * (000204) S_GPROC32: [0001:00082F73], Cb: 000000AB, Type:             0x1FCC, GPATH_BuildFullPathToFile
  *          Parent: 00000000, End: 00000294, Next: 00000298
  *          Debug start: 00000004, Debug end: 000000A7
@@ -58,7 +74,9 @@
  * (000280)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), Drive
  * 
  * (000294) S_END
- * 
+ */
+
+/*
  * (000298) S_GPROC32: [0001:0008301E], Cb: 00000048, Type:             0x1FCF, GPATH_FindTexture
  *          Parent: 00000000, End: 00000310, Next: 00000314
  *          Debug start: 00000004, Debug end: 00000044
@@ -69,7 +87,9 @@
  * (0002FC)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), Result
  * 
  * (000310) S_END
- * 
+ */
+
+/*
  * (000314) S_LPROC32: [0001:00083066], Cb: 0000006D, Type:             0x1FCC, GPATH_FindTex
  *          Parent: 00000000, End: 00000388, Next: 0000038C
  *          Debug start: 00000003, Debug end: 0000006B
@@ -80,17 +100,14 @@
  * (000374)  S_BPREL32: [00000010], Type:   T_32PRCHAR(0470), Name
  * 
  * (000388) S_END
- * 
+ */
+
+/*
  * (00038C) S_GPROC32: [0001:000830D3], Cb: 00000007, Type:             0x1F30, GPATH_VolatileData
  *          Parent: 00000000, End: 000003C8, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000005
  *          Flags: Frame Ptr Present
  * 
  * (0003C8) S_END
- * 
- * (0003CC) S_LDATA32: [0003:0091E0A8], Type:             0x153F, GPATH_Install
- * (0003E8) S_LDATA32: [0003:0091E2A8], Type:             0x153F, GPATH_CD
- * (000400) S_LDATA32: [0003:0091E4A8], Type:             0x1E96, GPATH_Filename
- * 
  */
 

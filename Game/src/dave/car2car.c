@@ -15,6 +15,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0016BC) S_LDATA32: [0003:000002E4], Type:       T_INT4(0074), DetectSphere_Active
+ * (0016E0) S_LDATA32: [0003:000002E8], Type:       T_INT4(0074), DetectMesh_Active
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00001DA0], Cb: 000000A6, Type:             0x1408, Car2Car_ApplyCollisions
  *          Parent: 00000000, End: 00000114, Next: 00000118
  *          Debug start: 00000006, Debug end: 000000A2
@@ -26,7 +35,9 @@
  * (000104)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000114) S_END
- * 
+ */
+
+/*
  * (000118) S_GPROC32: [0001:00001E46], Cb: 00000054, Type:             0x1408, Car2Car_GenerateAllCollisions
  *          Parent: 00000000, End: 00000184, Next: 00000188
  *          Debug start: 00000004, Debug end: 00000050
@@ -36,7 +47,9 @@
  * (000174)  S_BPREL32: [FFFFFFFC], Type:             0x1404, obj
  * 
  * (000184) S_END
- * 
+ */
+
+/*
  * (000188) S_GPROC32: [0001:00001E9A], Cb: 0000005D, Type:             0x1408, Car2Car_ClearCollisionList
  *          Parent: 00000000, End: 00000200, Next: 00000204
  *          Debug start: 00000006, Debug end: 00000059
@@ -47,7 +60,9 @@
  * (0001F0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000200) S_END
- * 
+ */
+
+/*
  * (000204) S_GPROC32: [0001:00001EF7], Cb: 000000A8, Type:             0x1B01, Trans_Ob2World
  *          Parent: 00000000, End: 0000027C, Next: 00000280
  *          Debug start: 00000004, Debug end: 000000A4
@@ -59,7 +74,9 @@
  * (00026C)  S_BPREL32: [FFFFFFFC], Type:             0x11DC, rm
  * 
  * (00027C) S_END
- * 
+ */
+
+/*
  * (000280) S_GPROC32: [0001:00001F9F], Cb: 000000C1, Type:             0x1B01, Trans_World2Ob
  *          Parent: 00000000, End: 0000032C, Next: 00000330
  *          Debug start: 00000006, Debug end: 000000BD
@@ -74,7 +91,9 @@
  * (000318)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (00032C) S_END
- * 
+ */
+
+/*
  * (000330) S_GPROC32: [0001:00002060], Cb: 000002D0, Type:             0x1D53, FindLineBoxIntersection
  *          Parent: 00000000, End: 00000468, Next: 0000046C
  *          Debug start: 00000006, Debug end: 000002CC
@@ -96,7 +115,9 @@
  * (000454)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), maxl
  * 
  * (000468) S_END
- * 
+ */
+
+/*
  * (00046C) S_GPROC32: [0001:00002330], Cb: 000008CE, Type:             0x1D56, LineInBox
  *          Parent: 00000000, End: 000005EC, Next: 000005F0
  *          Debug start: 00000006, Debug end: 000008CA
@@ -123,7 +144,9 @@
  * (0005D8)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), lamda
  * 
  * (0005EC) S_END
- * 
+ */
+
+/*
  * (0005F0) S_GPROC32: [0001:00002BFE], Cb: 00000212, Type:             0x1D58, IsInBox
  *          Parent: 00000000, End: 00000704, Next: 00000708
  *          Debug start: 00000006, Debug end: 0000020E
@@ -144,7 +167,9 @@
  * (0006F4)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), ax
  * 
  * (000704) S_END
- * 
+ */
+
+/*
  * (000708) S_GPROC32: [0001:00002E10], Cb: 00000337, Type:             0x1D5A, FindCar2CarCollPoint
  *          Parent: 00000000, End: 00000844, Next: 00000848
  *          Debug start: 00000006, Debug end: 00000333
@@ -167,7 +192,9 @@
  * (000834)  S_BPREL32: [FFFFFFF4], Type:             0x1008, t
  * 
  * (000844) S_END
- * 
+ */
+
+/*
  * (000848) S_GPROC32: [0001:00003147], Cb: 00000314, Type:             0x1D5A, FindCar2CarCollPointLines
  *          Parent: 00000000, End: 000009AC, Next: 000009B0
  *          Debug start: 00000006, Debug end: 00000310
@@ -192,7 +219,9 @@
  * (00099C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), nnn
  * 
  * (0009AC) S_END
- * 
+ */
+
+/*
  * (0009B0) S_GPROC32: [0001:0000345B], Cb: 0000061B, Type:             0x1D5C, CalcCollNormalOld
  *          Parent: 00000000, End: 00000B00, Next: 00000B04
  *          Debug start: 00000006, Debug end: 00000617
@@ -216,7 +245,9 @@
  * (000AEC)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), lamda
  * 
  * (000B00) S_END
- * 
+ */
+
+/*
  * (000B04) S_GPROC32: [0001:00003A76], Cb: 00000376, Type:             0x1D5E, CalcCollNormal
  *          Parent: 00000000, End: 00000C30, Next: 00000C34
  *          Debug start: 00000006, Debug end: 00000372
@@ -238,7 +269,9 @@
  * (000C1C)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), maxl
  * 
  * (000C30) S_END
- * 
+ */
+
+/*
  * (000C34) S_GPROC32: [0001:00003DEC], Cb: 0000047F, Type:             0x1D5F, DoCar2CarColl
  *          Parent: 00000000, End: 00000DF4, Next: 00000DF8
  *          Debug start: 00000009, Debug end: 0000047B
@@ -268,7 +301,9 @@
  * (000DE4)  S_BPREL32: [FFFFFFF4], Type:             0x1008, n2
  * 
  * (000DF4) S_END
- * 
+ */
+
+/*
  * (000DF8) S_LPROC32: [0001:0000426B], Cb: 000000F7, Type:             0x1408, Car2CollisionSoundEffect
  *          Parent: 00000000, End: 00000E58, Next: 00000E5C
  *          Debug start: 00000004, Debug end: 000000F3
@@ -278,7 +313,9 @@
  * (000E48)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, Car
  * 
  * (000E58) S_END
- * 
+ */
+
+/*
  * (000E5C) S_LPROC32: [0001:00004362], Cb: 00000068, Type:             0x1408, Car2Car_DetectCollisionsWith
  *          Parent: 00000000, End: 00000EDC, Next: 00000EE0
  *          Debug start: 00000006, Debug end: 00000064
@@ -289,7 +326,9 @@
  * (000EC8)  S_BPREL32: [FFFFFFF4], Type:             0x1008, CollPos
  * 
  * (000EDC) S_END
- * 
+ */
+
+/*
  * (000EE0) S_LPROC32: [0001:000043CA], Cb: 000000CA, Type:             0x1D61, Car2Car_DetectSphere
  *          Parent: 00000000, End: 00000FA8, Next: 00000FAC
  *          Debug start: 00000006, Debug end: 000000C6
@@ -304,7 +343,9 @@
  * (000F98)  S_BPREL32: [FFFFFFE0], Type:             0x1C63, vec
  * 
  * (000FA8) S_END
- * 
+ */
+
+/*
  * (000FAC) S_GPROC32: [0001:00004494], Cb: 00000459, Type:             0x1408, Car2Car_MakeCollisionMesh
  *          Parent: 00000000, End: 00001098, Next: 0000109C
  *          Debug start: 00000006, Debug end: 00000455
@@ -321,7 +362,9 @@
  * (001084)  S_BPREL32: [FFFFFFFC], Type:             0x1AA3, vDat
  * 
  * (001098) S_END
- * 
+ */
+
+/*
  * (00109C) S_LPROC32: [0001:000048ED], Cb: 000001EE, Type:             0x1D63, CollMesh_CalcNormal
  *          Parent: 00000000, End: 00001148, Next: 0000114C
  *          Debug start: 00000007, Debug end: 000001E9
@@ -335,7 +378,9 @@
  * (001138)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), mag
  * 
  * (001148) S_END
- * 
+ */
+
+/*
  * (00114C) S_LPROC32: [0001:00004ADB], Cb: 000002B9, Type:             0x1408, CollMesh_UpdatePos
  *          Parent: 00000000, End: 000011D4, Next: 000011D8
  *          Debug start: 00000006, Debug end: 000002B5
@@ -347,7 +392,9 @@
  * (0011BC)  S_BPREL32: [FFFFFFFC], Type:             0x1D54, ThisMesh
  * 
  * (0011D4) S_END
- * 
+ */
+
+/*
  * (0011D8) S_GPROC32: [0001:00004D94], Cb: 0000029A, Type:             0x1408, CollMesh_Draw
  *          Parent: 00000000, End: 000012A8, Next: 000012AC
  *          Debug start: 00000006, Debug end: 00000296
@@ -363,7 +410,9 @@
  * (001290)  S_BPREL32: [FFFFFFFC], Type:             0x1D64, ThisFace
  * 
  * (0012A8) S_END
- * 
+ */
+
+/*
  * (0012AC) S_GPROC32: [0001:0000502E], Cb: 000003C9, Type:             0x1408, CollMesh_DrawEdges
  *          Parent: 00000000, End: 000013B0, Next: 000013B4
  *          Debug start: 00000009, Debug end: 000003C5
@@ -382,7 +431,9 @@
  * (00139C)  S_BPREL32: [FFFFFFC0], Type:             0x1ABA, quad
  * 
  * (0013B0) S_END
- * 
+ */
+
+/*
  * (0013B4) S_LPROC32: [0001:000053F7], Cb: 00000060, Type:             0x1AB4, simCrossProduct
  *          Parent: 00000000, End: 0000141C, Next: 00001420
  *          Debug start: 00000003, Debug end: 0000005E
@@ -393,7 +444,9 @@
  * (00140C)  S_BPREL32: [00000010], Type:             0x13A1, T
  * 
  * (00141C) S_END
- * 
+ */
+
+/*
  * (001420) S_GPROC32: [0001:00005457], Cb: 0000006E, Type:             0x1408, CollMesh_DrawLastCollision
  *          Parent: 00000000, End: 000014B4, Next: 000014B8
  *          Debug start: 00000006, Debug end: 0000006A
@@ -405,7 +458,9 @@
  * (00149C)  S_BPREL32: [FFFFFFFC], Type:             0x1D54, ThisMesh
  * 
  * (0014B4) S_END
- * 
+ */
+
+/*
  * (0014B8) S_GPROC32: [0001:000054C5], Cb: 000001E7, Type:             0x1C65, ChooseFaceThatTookTheBruntOfTheImpact
  *          Parent: 00000000, End: 00001628, Next: 0000162C
  *          Debug start: 00000006, Debug end: 000001E3
@@ -427,7 +482,9 @@
  * (001614)  S_BPREL32: [FFFFFFF4], Type:             0x1008, vMyMot
  * 
  * (001628) S_END
- * 
+ */
+
+/*
  * (00162C) S_GPROC32: [0001:000056AC], Cb: 000001FA, Type:             0x1408, CalcCollisionPt
  *          Parent: 00000000, End: 000016B8, Next: 00000000
  *          Debug start: 00000006, Debug end: 000001F6
@@ -439,9 +496,5 @@
  * (0016A4)  S_BPREL32: [FFFFFFF4], Type:             0x1008, vAvgPt
  * 
  * (0016B8) S_END
- * 
- * (0016BC) S_LDATA32: [0003:000002E4], Type:       T_INT4(0074), DetectSphere_Active
- * (0016E0) S_LDATA32: [0003:000002E8], Type:       T_INT4(0074), DetectMesh_Active
- * 
  */
 

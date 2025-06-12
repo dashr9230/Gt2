@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0008D8) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
+ * (0008F0) S_GDATA32: [0003:0097F180], Type:             0x1CA8, PitBoard
+ * (000908) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00018D60], Cb: 000000A5, Type:             0x1001, PITBOARD_Allocate
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000006, Debug end: 000000A1
@@ -24,7 +34,9 @@
  * (0000D8)  S_BPREL32: [FFFFFFFC], Type:             0x1413, prim
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_LPROC32: [0001:00018E05], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 00000174, Next: 00000178
  *          Debug start: 00000006, Debug end: 00000076
@@ -37,7 +49,9 @@
  * (000164)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000174) S_END
- * 
+ */
+
+/*
  * (000178) S_GPROC32: [0001:00018E7F], Cb: 00000028, Type:             0x1C7E, PITBOARD_MakeString
  *          Parent: 00000000, End: 000001D8, Next: 000001DC
  *          Debug start: 00000003, Debug end: 00000026
@@ -47,7 +61,9 @@
  * (0001C8)  S_BPREL32: [0000000C], Type:   T_32PRCHAR(0470), str
  * 
  * (0001D8) S_END
- * 
+ */
+
+/*
  * (0001DC) S_GPROC32: [0001:00018EA7], Cb: 00000487, Type:             0x1CA1, PITBOARD_Draw
  *          Parent: 00000000, End: 0000041C, Next: 00000420
  *          Debug start: 00000007, Debug end: 00000482
@@ -108,14 +124,18 @@
  * (000418)  S_END
  * 
  * (00041C) S_END
- * 
+ */
+
+/*
  * (000420) S_GPROC32: [0001:0001932E], Cb: 0000003F, Type:             0x1001, PITBOARD_Release
  *          Parent: 00000000, End: 00000458, Next: 0000045C
  *          Debug start: 00000003, Debug end: 0000003D
  *          Flags: Frame Ptr Present
  * 
  * (000458) S_END
- * 
+ */
+
+/*
  * (00045C) S_LPROC32: [0001:0001936D], Cb: 0000039A, Type:             0x1001, PITBOARD_DrawBack
  *          Parent: 00000000, End: 000004D4, Next: 000004D8
  *          Debug start: 00000006, Debug end: 00000396
@@ -126,21 +146,27 @@
  * (0004C0)  S_BPREL32: [FFFFFFFC], Type:             0x1413, prim
  * 
  * (0004D4) S_END
- * 
+ */
+
+/*
  * (0004D8) S_LPROC32: [0001:00019707], Cb: 00000023, Type:             0x1001, PITBOARD_ResetStrings
  *          Parent: 00000000, End: 00000518, Next: 0000051C
  *          Debug start: 00000003, Debug end: 00000021
  *          Flags: Frame Ptr Present
  * 
  * (000518) S_END
- * 
+ */
+
+/*
  * (00051C) S_LPROC32: [0001:0001972A], Cb: 00000071, Type:             0x1001, PITBOARD_DrawStrings
  *          Parent: 00000000, End: 00000558, Next: 0000055C
  *          Debug start: 00000003, Debug end: 0000006F
  *          Flags: Frame Ptr Present
  * 
  * (000558) S_END
- * 
+ */
+
+/*
  * (00055C) S_LPROC32: [0001:0001979B], Cb: 000002CE, Type:             0x1CA3, PITBOARD_AddString
  *          Parent: 00000000, End: 00000744, Next: 00000748
  *          Debug start: 00000009, Debug end: 000002CA
@@ -175,7 +201,9 @@
  * (000740)  S_END
  * 
  * (000744) S_END
- * 
+ */
+
+/*
  * (000748) S_LPROC32: [0001:00019A69], Cb: 00000139, Type:             0x1CA5, PITBOARD_AddPanel
  *          Parent: 00000000, End: 00000814, Next: 00000818
  *          Debug start: 00000006, Debug end: 00000135
@@ -191,7 +219,9 @@
  * (000800)  S_BPREL32: [FFFFFFFC], Type:             0x1413, prim
  * 
  * (000814) S_END
- * 
+ */
+
+/*
  * (000818) S_LPROC32: [0001:00019BA2], Cb: 00000120, Type:             0x1CA6, PITBOARD_AddHighlight
  *          Parent: 00000000, End: 000008D4, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000011C
@@ -206,10 +236,5 @@
  * (0008C0)  S_BPREL32: [FFFFFFFC], Type:             0x1413, prim
  * 
  * (0008D4) S_END
- * 
- * (0008D8) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
- * (0008F0) S_GDATA32: [0003:0097F180], Type:             0x1CA8, PitBoard
- * (000908) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
  */
 

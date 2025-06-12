@@ -15,6 +15,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00031C) S_GDATA32: [0003:00004124], Type:             0x1004, KeyCodeTextTable
+ * (00033C) S_GDATA32: [0003:00074FDC], Type:             0x1D2C, LapCode
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000CA30], Cb: 00000034, Type:             0x1D23, SetDefaultFastestLap
  *          Parent: 00000000, End: 00000108, Next: 0000010C
  *          Debug start: 00000003, Debug end: 00000032
@@ -25,7 +34,9 @@
  * (0000F4)  S_BPREL32: [00000010], Type:   T_32PRCHAR(0470), Name
  * 
  * (000108) S_END
- * 
+ */
+
+/*
  * (00010C) S_GPROC32: [0001:0000CA64], Cb: 000000E2, Type:             0x1D26, SetFastestLap
  *          Parent: 00000000, End: 000001D4, Next: 000001D8
  *          Debug start: 00000006, Debug end: 000000DE
@@ -40,7 +51,9 @@
  * (0001C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Key
  * 
  * (0001D4) S_END
- * 
+ */
+
+/*
  * (0001D8) S_GPROC32: [0001:0000CB46], Cb: 000000FD, Type:             0x1D28, ENCRYPT_Encode
  *          Parent: 00000000, End: 0000028C, Next: 00000290
  *          Debug start: 00000006, Debug end: 000000F9
@@ -54,7 +67,9 @@
  * (000274)  S_BPREL32: [FFFFFFF0], Type:             0x1D2A, SystemTime
  * 
  * (00028C) S_END
- * 
+ */
+
+/*
  * (000290) S_GPROC32: [0001:0000CC43], Cb: 0000008E, Type:             0x1D2B, ENCRYPT_GetKeyCodeStr
  *          Parent: 00000000, End: 00000318, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000008A
@@ -66,9 +81,5 @@
  * (000308)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), Key
  * 
  * (000318) S_END
- * 
- * (00031C) S_GDATA32: [0003:00004124], Type:             0x1004, KeyCodeTextTable
- * (00033C) S_GDATA32: [0003:00074FDC], Type:             0x1D2C, LapCode
- * 
  */
 

@@ -16,20 +16,37 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0004F8) S_GDATA32: [0003:0097F278], Type:             0x1D16, HudInfo
+ * (000510) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (00052C) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
+ * (000544) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (00055C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000574) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
+ */
+
+/*
  * (000088) S_GPROC32: [0001:0000D920], Cb: 0000001E, Type:             0x1001, HUD_Allocate
  *          Parent: 00000000, End: 000000BC, Next: 000000C0
  *          Debug start: 00000003, Debug end: 0000001C
  *          Flags: Frame Ptr Present
  * 
  * (0000BC) S_END
- * 
+ */
+
+/*
  * (0000C0) S_GPROC32: [0001:0000D93E], Cb: 00000027, Type:             0x1001, HUD_Release
  *          Parent: 00000000, End: 000000F4, Next: 000000F8
  *          Debug start: 00000003, Debug end: 00000025
  *          Flags: Frame Ptr Present
  * 
  * (0000F4) S_END
- * 
+ */
+
+/*
  * (0000F8) S_GPROC32: [0001:0000D965], Cb: 00000376, Type:             0x13EF, HUD_Car_Draw
  *          Parent: 00000000, End: 000002CC, Next: 000002D0
  *          Debug start: 00000006, Debug end: 00000372
@@ -63,7 +80,9 @@
  * (0002C8)  S_END
  * 
  * (0002CC) S_END
- * 
+ */
+
+/*
  * (0002D0) S_GPROC32: [0001:0000DCDB], Cb: 00000143, Type:             0x13EF, HUD_TV_Draw
  *          Parent: 00000000, End: 000003C4, Next: 000003C8
  *          Debug start: 00000006, Debug end: 0000013F
@@ -82,7 +101,9 @@
  * (0003B4)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sfy
  * 
  * (0003C4) S_END
- * 
+ */
+
+/*
  * (0003C8) S_GPROC32: [0001:0000DE1E], Cb: 00000190, Type:             0x13EF, HUD_Overlay_Draw
  *          Parent: 00000000, End: 000004F4, Next: 00000590
  *          Debug start: 00000006, Debug end: 0000018C
@@ -103,27 +124,23 @@
  * (0004E4)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sfy
  * 
  * (0004F4) S_END
- * 
- * (0004F8) S_GDATA32: [0003:0097F278], Type:             0x1D16, HudInfo
- * (000510) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (00052C) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
- * (000544) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (00055C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000574) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
- * 
+ */
+
+/*
  * (000590) S_GPROC32: [0001:0000DFB0], Cb: 00000047, Type:             0x1001, RSTATES_BeginScene
  *          Parent: 00000000, End: 000005CC, Next: 000005D0
  *          Debug start: 00000003, Debug end: 00000045
  *          Flags: Frame Ptr Present
  * 
  * (0005CC) S_END
- * 
+ */
+
+/*
  * (0005D0) S_GPROC32: [0001:0000E000], Cb: 00000047, Type:             0x1001, RSTATES_EndScene
  *          Parent: 00000000, End: 00000608, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000045
  *          Flags: Frame Ptr Present
  * 
  * (000608) S_END
- * 
  */
 

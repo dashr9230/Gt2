@@ -15,6 +15,34 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00111C) S_GDATA32: [0003:00C2E320], Type:             0x1A12, NET_MessageBuffer
+ * (00113C) S_GDATA32: [0003:009317A8], Type:       T_INT4(0074), NET_GoThread
+ * (001158) S_GDATA32: [0003:00C2E220], Type:             0x1A12, NET_TextMessage
+ * (001178) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ * (001194) S_GDATA32: [0002:000017D8], Type:             0x1011, IID_IDirectPlay4A
+ * (0011B4) S_GDATA32: [0002:000017E8], Type:             0x1011, CLSID_DirectPlay
+ * (0011D4) S_GDATA32: [0002:000017F8], Type:             0x1011, DPSPGUID_IPX
+ * (0011F0) S_GDATA32: [0002:00001808], Type:             0x1011, DPSPGUID_TCPIP
+ * (001210) S_GDATA32: [0002:00001818], Type:             0x1011, DPSPGUID_SERIAL
+ * (001230) S_GDATA32: [0002:00001828], Type:             0x1011, DPSPGUID_MODEM
+ * (001250) S_GDATA32: [0003:00C28AE0], Type:             0x1A11, NetInfo
+ * (001268) S_GDATA32: [0002:00001908], Type:             0x1011, DPAID_ServiceProvider
+ * (00128C) S_GDATA32: [0002:00001928], Type:             0x1011, DPAID_Phone
+ * (0012A8) S_GDATA32: [0002:00001948], Type:             0x1011, DPAID_Modem
+ * (0012C4) S_GDATA32: [0002:00001968], Type:             0x1011, DPAID_INet
+ * (0012E0) S_GDATA32: [0002:00001988], Type:             0x1011, DPAID_INetPort
+ * (001300) S_GDATA32: [0002:00001998], Type:             0x1011, DPAID_ComPort
+ * (00131C) S_GDATA32: [0002:00003EB0], Type:             0x1011, GUID_NULL
+ * (001334) S_GDATA32: [0003:00C28AC0], Type:      T_ULONG(0022), type
+ * (001348) S_GDATA32: [0002:00001898], Type:             0x1011, IID_IDirectPlayLobby3A
+ * (001370) S_GDATA32: [0002:000018A8], Type:             0x1011, CLSID_DirectPlayLobby
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00095340], Cb: 0000008E, Type:             0x1E98, NET_Send
  *          Parent: 00000000, End: 00000138, Next: 0000013C
  *          Debug start: 00000006, Debug end: 0000008A
@@ -28,7 +56,9 @@
  * (000124)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), flags
  * 
  * (000138) S_END
- * 
+ */
+
+/*
  * (00013C) S_LPROC32: [0001:000953CE], Cb: 0000079E, Type:             0x1E9A, ProcessDPError
  *          Parent: 00000000, End: 000003D8, Next: 000003DC
  *          Debug start: 00000004, Debug end: 00000627
@@ -68,7 +98,9 @@
  * (0003C4)  S_BPREL32: [0000000C], Type:   T_32PUCHAR(0420), Message
  * 
  * (0003D8) S_END
- * 
+ */
+
+/*
  * (0003DC) S_GPROC32: [0001:00095B6C], Cb: 0000014F, Type:             0x1001, NET_Init
  *          Parent: 00000000, End: 0000041C, Next: 00000420
  *          Debug start: 00000004, Debug end: 0000014B
@@ -77,7 +109,9 @@
  * (00040C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), hr
  * 
  * (00041C) S_END
- * 
+ */
+
+/*
  * (000420) S_LPROC32: [0001:00095CBB], Cb: 00000236, Type:             0x16A1, NET_DebugHandler
  *          Parent: 00000000, End: 0000046C, Next: 00000470
  *          Debug start: 00000003, Debug end: 00000234
@@ -86,7 +120,9 @@
  * (000458)  S_BPREL32: [00000008], Type:      T_ULONG(0022), page
  * 
  * (00046C) S_END
- * 
+ */
+
+/*
  * (000470) S_LPROC32: [0001:00095EF1], Cb: 000000F9, Type:             0x17C9, CON_Say
  *          Parent: 00000000, End: 000004FC, Next: 00000500
  *          Debug start: 00000009, Debug end: 000000F5
@@ -99,7 +135,9 @@
  * (0004EC)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), ptr
  * 
  * (0004FC) S_END
- * 
+ */
+
+/*
  * (000500) S_LPROC32: [0001:00095FEA], Cb: 00000895, Type:             0x16A1, NET_DebugDraw
  *          Parent: 00000000, End: 00000570, Next: 00000574
  *          Debug start: 00000006, Debug end: 00000891
@@ -110,7 +148,9 @@
  * (00055C)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), type
  * 
  * (000570) S_END
- * 
+ */
+
+/*
  * (000574) S_LPROC32: [0001:0009687F], Cb: 000000B0, Type:             0x16BB, NET_EnumConnectionsCallback
  *          Parent: 00000000, End: 00000664, Next: 00000668
  *          Debug start: 00000004, Debug end: 000000AA
@@ -125,7 +165,9 @@
  * (00064C)  S_BPREL32: [FFFFFFFC], Type:             0x190C, provider
  * 
  * (000664) S_END
- * 
+ */
+
+/*
  * (000668) S_GPROC32: [0001:0009692F], Cb: 000000E6, Type:             0x1001, NET_Shutdown
  *          Parent: 00000000, End: 000006AC, Next: 000006B0
  *          Debug start: 00000004, Debug end: 000000E2
@@ -134,7 +176,9 @@
  * (00069C)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), n
  * 
  * (0006AC) S_END
- * 
+ */
+
+/*
  * (0006B0) S_GPROC32: [0001:00096A15], Cb: 0000008F, Type:             0x1B55, NET_Connect
  *          Parent: 00000000, End: 0000071C, Next: 00000720
  *          Debug start: 00000006, Debug end: 0000008B
@@ -145,7 +189,9 @@
  * (000704)  S_BPREL32: [FFFFFFFC], Type:             0x190C, provider
  * 
  * (00071C) S_END
- * 
+ */
+
+/*
  * (000720) S_LPROC32: [0001:00096AA4], Cb: 00000519, Type:             0x1B55, NET_CreateServiceProviderAddress
  *          Parent: 00000000, End: 00000834, Next: 00000838
  *          Debug start: 00000006, Debug end: 00000515
@@ -161,7 +207,9 @@
  * (00081C)  S_BPREL32: [FFFFFFFC], Type:             0x190C, provider
  * 
  * (000834) S_END
- * 
+ */
+
+/*
  * (000838) S_LPROC32: [0001:00096FBD], Cb: 00000149, Type:             0x16A1, NET_SetBaudRate
  *          Parent: 00000000, End: 000009C0, Next: 000009C4
  *          Debug start: 00000004, Debug end: 00000109
@@ -186,14 +234,18 @@
  * (0009AC)  S_BPREL32: [00000008], Type:      T_ULONG(0022), Baud
  * 
  * (0009C0) S_END
- * 
+ */
+
+/*
  * (0009C4) S_GPROC32: [0001:00097106], Cb: 0000000F, Type:             0x1001, NET_Disconnect
  *          Parent: 00000000, End: 000009FC, Next: 00000A00
  *          Debug start: 00000003, Debug end: 0000000D
  *          Flags: Frame Ptr Present
  * 
  * (0009FC) S_END
- * 
+ */
+
+/*
  * (000A00) S_GPROC32: [0001:00097115], Cb: 000000E5, Type:             0x1E9E, NET_CreatePlayer
  *          Parent: 00000000, End: 00000ACC, Next: 00000AD0
  *          Debug start: 00000006, Debug end: 000000E1
@@ -208,7 +260,9 @@
  * (000AB8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), flags
  * 
  * (000ACC) S_END
- * 
+ */
+
+/*
  * (000AD0) S_LPROC32: [0001:000971FA], Cb: 00000103, Type:             0x16A7, NET_MessageHandler
  *          Parent: 00000000, End: 00000B88, Next: 00000B8C
  *          Debug start: 00000006, Debug end: 000000FD
@@ -227,7 +281,9 @@
  * (000B84)  S_END
  * 
  * (000B88) S_END
- * 
+ */
+
+/*
  * (000B8C) S_LPROC32: [0001:000972FD], Cb: 00000065, Type:             0x1EA5, NET_Receive
  *          Parent: 00000000, End: 00000C1C, Next: 00000C20
  *          Debug start: 00000006, Debug end: 00000061
@@ -240,7 +296,9 @@
  * (000C08)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), size
  * 
  * (000C1C) S_END
- * 
+ */
+
+/*
  * (000C20) S_GPROC32: [0001:00097362], Cb: 0000005F, Type:             0x1B55, NET_DestroyPlayer
  *          Parent: 00000000, End: 00000C7C, Next: 00000C80
  *          Debug start: 00000004, Debug end: 0000005B
@@ -250,7 +308,9 @@
  * (000C6C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), hr
  * 
  * (000C7C) S_END
- * 
+ */
+
+/*
  * (000C80) S_GPROC32: [0001:000973C1], Cb: 000000D0, Type:             0x1EA7, NET_Host
  *          Parent: 00000000, End: 00000D00, Next: 00000D04
  *          Debug start: 00000006, Debug end: 000000CC
@@ -262,7 +322,9 @@
  * (000CEC)  S_BPREL32: [FFFFFFB0], Type:             0x1765, desc
  * 
  * (000D00) S_END
- * 
+ */
+
+/*
  * (000D04) S_LPROC32: [0001:00097491], Cb: 000000DD, Type:             0x1EA9, NET_EnumPlayers
  *          Parent: 00000000, End: 00000D9C, Next: 00000DA0
  *          Debug start: 00000006, Debug end: 000000D9
@@ -275,7 +337,9 @@
  * (000D88)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), flags
  * 
  * (000D9C) S_END
- * 
+ */
+
+/*
  * (000DA0) S_LPROC32: [0001:0009756E], Cb: 00000094, Type:             0x172E, NET_EnumPlayersCallback
  *          Parent: 00000000, End: 00000E78, Next: 00000E7C
  *          Debug start: 00000006, Debug end: 0000008E
@@ -290,7 +354,9 @@
  * (000E64)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (000E78) S_END
- * 
+ */
+
+/*
  * (000E7C) S_LPROC32: [0001:00097602], Cb: 0000002E, Type:             0x1EAC, NET_SortPlayerList
  *          Parent: 00000000, End: 00000EF8, Next: 00000EFC
  *          Debug start: 00000006, Debug end: 0000002A
@@ -302,7 +368,9 @@
  * (000EE8)  S_BPREL32: [FFFFFFFC], Type:             0x1EAA, p0
  * 
  * (000EF8) S_END
- * 
+ */
+
+/*
  * (000EFC) S_GPROC32: [0001:00097630], Cb: 00000097, Type:             0x16A5, NET_EnumSessions
  *          Parent: 00000000, End: 00000F58, Next: 00000F5C
  *          Debug start: 00000006, Debug end: 00000093
@@ -312,7 +380,9 @@
  * (000F44)  S_BPREL32: [FFFFFFB0], Type:             0x1765, desc
  * 
  * (000F58) S_END
- * 
+ */
+
+/*
  * (000F5C) S_LPROC32: [0001:000976C7], Cb: 000000C1, Type:             0x17D1, NET_EnumSessionsCallback
  *          Parent: 00000000, End: 00001010, Next: 00001014
  *          Debug start: 00000004, Debug end: 000000BB
@@ -325,7 +395,9 @@
  * (000FFC)  S_BPREL32: [FFFFFFFC], Type:             0x1902, session
  * 
  * (001010) S_END
- * 
+ */
+
+/*
  * (001014) S_GPROC32: [0001:00097788], Cb: 00000064, Type:             0x1001, NET_StopEnumSessions
  *          Parent: 00000000, End: 00001064, Next: 00001068
  *          Debug start: 00000006, Debug end: 00000060
@@ -334,7 +406,9 @@
  * (001050)  S_BPREL32: [FFFFFFB0], Type:             0x1765, desc
  * 
  * (001064) S_END
- * 
+ */
+
+/*
  * (001068) S_GPROC32: [0001:000977EC], Cb: 000000AD, Type:             0x1EAE, NET_Join
  *          Parent: 00000000, End: 000010D0, Next: 000010D4
  *          Debug start: 00000006, Debug end: 000000A9
@@ -345,7 +419,9 @@
  * (0010BC)  S_BPREL32: [FFFFFFB0], Type:             0x1765, desc
  * 
  * (0010D0) S_END
- * 
+ */
+
+/*
  * (0010D4) S_GPROC32: [0001:00097899], Cb: 0000006D, Type:             0x1001, NET_Close
  *          Parent: 00000000, End: 00001118, Next: 00000000
  *          Debug start: 00000004, Debug end: 00000069
@@ -354,28 +430,5 @@
  * (001108)  S_BPREL32: [FFFFFFFC], Type:       T_INT4(0074), n
  * 
  * (001118) S_END
- * 
- * (00111C) S_GDATA32: [0003:00C2E320], Type:             0x1A12, NET_MessageBuffer
- * (00113C) S_GDATA32: [0003:009317A8], Type:       T_INT4(0074), NET_GoThread
- * (001158) S_GDATA32: [0003:00C2E220], Type:             0x1A12, NET_TextMessage
- * (001178) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * (001194) S_GDATA32: [0002:000017D8], Type:             0x1011, IID_IDirectPlay4A
- * (0011B4) S_GDATA32: [0002:000017E8], Type:             0x1011, CLSID_DirectPlay
- * (0011D4) S_GDATA32: [0002:000017F8], Type:             0x1011, DPSPGUID_IPX
- * (0011F0) S_GDATA32: [0002:00001808], Type:             0x1011, DPSPGUID_TCPIP
- * (001210) S_GDATA32: [0002:00001818], Type:             0x1011, DPSPGUID_SERIAL
- * (001230) S_GDATA32: [0002:00001828], Type:             0x1011, DPSPGUID_MODEM
- * (001250) S_GDATA32: [0003:00C28AE0], Type:             0x1A11, NetInfo
- * (001268) S_GDATA32: [0002:00001908], Type:             0x1011, DPAID_ServiceProvider
- * (00128C) S_GDATA32: [0002:00001928], Type:             0x1011, DPAID_Phone
- * (0012A8) S_GDATA32: [0002:00001948], Type:             0x1011, DPAID_Modem
- * (0012C4) S_GDATA32: [0002:00001968], Type:             0x1011, DPAID_INet
- * (0012E0) S_GDATA32: [0002:00001988], Type:             0x1011, DPAID_INetPort
- * (001300) S_GDATA32: [0002:00001998], Type:             0x1011, DPAID_ComPort
- * (00131C) S_GDATA32: [0002:00003EB0], Type:             0x1011, GUID_NULL
- * (001334) S_GDATA32: [0003:00C28AC0], Type:      T_ULONG(0022), type
- * (001348) S_GDATA32: [0002:00001898], Type:             0x1011, IID_IDirectPlayLobby3A
- * (001370) S_GDATA32: [0002:000018A8], Type:             0x1011, CLSID_DirectPlayLobby
- * 
  */
 

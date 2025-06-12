@@ -15,6 +15,33 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0025F4) S_GDATA32: [0003:00947E6C], Type:      T_RCHAR(0070), LastKeyPress
+ * (002610) S_GDATA32: [0003:00947E64], Type:      T_RCHAR(0070), LastJoyPress
+ * (00262C) S_GDATA32: [0003:00947E60], Type:       T_INT4(0074), getkeycontrol
+ * (002648) S_GDATA32: [0003:00947E20], Type:       T_INT4(0074), getjoycontrol
+ * (002664) S_GDATA32: [0003:00947E24], Type:       T_LONG(0012), KC_SetVal
+ * (00267C) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
+ * (002690) S_GDATA32: [0003:00931D5C], Type:       T_LONG(0012), TmpSlot
+ * (0026A8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (0026C0) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
+ * (0026E4) S_GDATA32: [0003:00990BE0], Type:             0x1837, Teams
+ * (0026F8) S_GDATA32: [0003:00012B78], Type:             0x1838, SLOTLOCATION
+ * (002714) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (002734) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (002750) S_GDATA32: [0003:0006E9F8], Type:             0x183B, MSS_SfxVolumes
+ * (002770) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (00278C) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
+ * (0027A4) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
+ * (0027B8) S_GDATA32: [0003:0091E08C], Type:      T_ULONG(0022), DI_JoysticksConnected
+ * (0027DC) S_GDATA32: [0003:0007A0E4], Type:      T_ULONG(0022), anawheel
+ * (0027F4) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00063B40], Cb: 00000052, Type:             0x141A, BtGetKeyControl
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000004, Debug end: 0000004E
@@ -24,7 +51,9 @@
  * (0000D4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_GPROC32: [0001:00063B92], Cb: 0000007C, Type:             0x141A, BtGetJoyControl
  *          Parent: 00000000, End: 00000160, Next: 00000164
  *          Debug start: 00000006, Debug end: 00000078
@@ -35,7 +64,9 @@
  * (000148)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000160) S_END
- * 
+ */
+
+/*
  * (000164) S_GPROC32: [0001:00063C0E], Cb: 000001B5, Type:             0x1408, SetIconControlSelect
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000004, Debug end: 000001B1
@@ -45,7 +76,9 @@
  * (0001B0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_GPROC32: [0001:00063DC3], Cb: 000006C9, Type:             0x1830, MakeKeyString
  *          Parent: 00000000, End: 000005B0, Next: 000005B4
  *          Debug start: 00000006, Debug end: 0000051A
@@ -101,7 +134,9 @@
  * (0005A0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0005B0) S_END
- * 
+ */
+
+/*
  * (0005B4) S_GPROC32: [0001:0006448C], Cb: 0000002E, Type:             0x141A, BtForceOn
  *          Parent: 00000000, End: 00000608, Next: 0000060C
  *          Debug start: 00000004, Debug end: 0000002A
@@ -111,7 +146,9 @@
  * (0005F8)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000608) S_END
- * 
+ */
+
+/*
  * (00060C) S_GPROC32: [0001:000644BA], Cb: 0000002E, Type:             0x141A, BtForceOff
  *          Parent: 00000000, End: 00000660, Next: 00000664
  *          Debug start: 00000004, Debug end: 0000002A
@@ -121,7 +158,9 @@
  * (000650)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000660) S_END
- * 
+ */
+
+/*
  * (000664) S_GPROC32: [0001:000644E8], Cb: 000001B8, Type:             0x1831, FindCorrectJoytype
  *          Parent: 00000000, End: 000006D4, Next: 000006D8
  *          Debug start: 00000006, Debug end: 000001B4
@@ -132,7 +171,9 @@
  * (0006C4)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0006D4) S_END
- * 
+ */
+
+/*
  * (0006D8) S_GPROC32: [0001:000646A0], Cb: 000002AB, Type:             0x141A, BtJoyChange
  *          Parent: 00000000, End: 00000758, Next: 0000075C
  *          Debug start: 00000006, Debug end: 000002A7
@@ -144,7 +185,9 @@
  * (000740)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000758) S_END
- * 
+ */
+
+/*
  * (00075C) S_GPROC32: [0001:0006494B], Cb: 00000067, Type:             0x141A, BtKeyChange
  *          Parent: 00000000, End: 000007B0, Next: 000007B4
  *          Debug start: 00000004, Debug end: 00000063
@@ -154,7 +197,9 @@
  * (0007A0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0007B0) S_END
- * 
+ */
+
+/*
  * (0007B4) S_GPROC32: [0001:000649B2], Cb: 000002B2, Type:             0x141A, BtSetKeyRead
  *          Parent: 00000000, End: 00000868, Next: 0000086C
  *          Debug start: 00000006, Debug end: 0000029E
@@ -169,7 +214,9 @@
  * (000858)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (000868) S_END
- * 
+ */
+
+/*
  * (00086C) S_GPROC32: [0001:00064C64], Cb: 000004BB, Type:             0x141A, BtDigiAccelChange
  *          Parent: 00000000, End: 00000A24, Next: 00000A28
  *          Debug start: 00000006, Debug end: 0000047F
@@ -197,7 +244,9 @@
  * (000A14)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), c
  * 
  * (000A24) S_END
- * 
+ */
+
+/*
  * (000A28) S_GPROC32: [0001:0006511F], Cb: 000004BB, Type:             0x141A, BtDigiSteerChange
  *          Parent: 00000000, End: 00000BE0, Next: 00000BE4
  *          Debug start: 00000006, Debug end: 0000047F
@@ -225,7 +274,9 @@
  * (000BD0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), c
  * 
  * (000BE0) S_END
- * 
+ */
+
+/*
  * (000BE4) S_GPROC32: [0001:000655DA], Cb: 000004B3, Type:             0x141A, BtAnaAccelChange
  *          Parent: 00000000, End: 00000D98, Next: 00000D9C
  *          Debug start: 00000006, Debug end: 00000477
@@ -253,7 +304,9 @@
  * (000D88)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), c
  * 
  * (000D98) S_END
- * 
+ */
+
+/*
  * (000D9C) S_GPROC32: [0001:00065A8D], Cb: 000004B3, Type:             0x141A, BtAnaSteerChange
  *          Parent: 00000000, End: 00000F50, Next: 00000F54
  *          Debug start: 00000006, Debug end: 00000477
@@ -281,7 +334,9 @@
  * (000F40)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), c
  * 
  * (000F50) S_END
- * 
+ */
+
+/*
  * (000F54) S_GPROC32: [0001:00065F40], Cb: 000001B1, Type:             0x141A, SetSensitivityBar
  *          Parent: 00000000, End: 00001028, Next: 0000102C
  *          Debug start: 00000006, Debug end: 0000019D
@@ -297,7 +352,9 @@
  * (001010)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001028) S_END
- * 
+ */
+
+/*
  * (00102C) S_GPROC32: [0001:000660F1], Cb: 000000D2, Type:             0x141A, BtAccelSensChange
  *          Parent: 00000000, End: 00001088, Next: 0000108C
  *          Debug start: 00000004, Debug end: 000000CE
@@ -307,7 +364,9 @@
  * (001078)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001088) S_END
- * 
+ */
+
+/*
  * (00108C) S_GPROC32: [0001:000661C3], Cb: 000000D2, Type:             0x141A, BtBrakeSensChange
  *          Parent: 00000000, End: 000010E8, Next: 000010EC
  *          Debug start: 00000004, Debug end: 000000CE
@@ -317,7 +376,9 @@
  * (0010D8)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0010E8) S_END
- * 
+ */
+
+/*
  * (0010EC) S_GPROC32: [0001:00066295], Cb: 000000D2, Type:             0x141A, BtSteerLeftSensChange
  *          Parent: 00000000, End: 0000114C, Next: 00001150
  *          Debug start: 00000004, Debug end: 000000CE
@@ -327,7 +388,9 @@
  * (00113C)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (00114C) S_END
- * 
+ */
+
+/*
  * (001150) S_GPROC32: [0001:00066367], Cb: 000000D2, Type:             0x141A, BtSteerRightSensChange
  *          Parent: 00000000, End: 000011B0, Next: 000011B4
  *          Debug start: 00000004, Debug end: 000000CE
@@ -337,7 +400,9 @@
  * (0011A0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0011B0) S_END
- * 
+ */
+
+/*
  * (0011B4) S_GPROC32: [0001:00066439], Cb: 0000120D, Type:             0x16A1, OptionSetupJoystickView
  *          Parent: 00000000, End: 0000123C, Next: 00001240
  *          Debug start: 00000006, Debug end: 00001209
@@ -349,7 +414,9 @@
  * (001224)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00123C) S_END
- * 
+ */
+
+/*
  * (001240) S_GPROC32: [0001:00067646], Cb: 00000D9F, Type:             0x1001, OptionSetupDigitalView
  *          Parent: 00000000, End: 000012B8, Next: 000012BC
  *          Debug start: 00000006, Debug end: 00000D9B
@@ -360,7 +427,9 @@
  * (0012A0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0012B8) S_END
- * 
+ */
+
+/*
  * (0012BC) S_GPROC32: [0001:000683E5], Cb: 0000053F, Type:             0x1001, OptionSetupKeyboardView
  *          Parent: 00000000, End: 00001334, Next: 00001338
  *          Debug start: 00000006, Debug end: 0000053B
@@ -371,7 +440,9 @@
  * (00131C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001334) S_END
- * 
+ */
+
+/*
  * (001338) S_GPROC32: [0001:00068924], Cb: 00000050, Type:             0x141A, OptionKeyboard
  *          Parent: 00000000, End: 000013A8, Next: 000013AC
  *          Debug start: 00000006, Debug end: 0000004C
@@ -382,7 +453,9 @@
  * (001390)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0013A8) S_END
- * 
+ */
+
+/*
  * (0013AC) S_GPROC32: [0001:00068974], Cb: 00000050, Type:             0x141A, OptionJoystick
  *          Parent: 00000000, End: 0000141C, Next: 00001420
  *          Debug start: 00000006, Debug end: 0000004C
@@ -393,7 +466,9 @@
  * (001404)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00141C) S_END
- * 
+ */
+
+/*
  * (001420) S_GPROC32: [0001:000689C4], Cb: 00000050, Type:             0x141A, OptionWheel
  *          Parent: 00000000, End: 0000148C, Next: 00001490
  *          Debug start: 00000006, Debug end: 0000004C
@@ -404,7 +479,9 @@
  * (001474)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (00148C) S_END
- * 
+ */
+
+/*
  * (001490) S_GPROC32: [0001:00068A14], Cb: 00000050, Type:             0x141A, OptionDigital
  *          Parent: 00000000, End: 00001500, Next: 00001504
  *          Debug start: 00000006, Debug end: 0000004C
@@ -415,7 +492,9 @@
  * (0014E8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001500) S_END
- * 
+ */
+
+/*
  * (001504) S_GPROC32: [0001:00068A64], Cb: 000004AC, Type:             0x141A, SetupOptionsFrame_Controller
  *          Parent: 00000000, End: 000015BC, Next: 000015C0
  *          Debug start: 00000006, Debug end: 000004A8
@@ -429,7 +508,9 @@
  * (0015A4)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0015BC) S_END
- * 
+ */
+
+/*
  * (0015C0) S_GPROC32: [0001:00068F10], Cb: 000002E8, Type:             0x16A1, SetDetailLevel
  *          Parent: 00000000, End: 000016C8, Next: 000016CC
  *          Debug start: 00000006, Debug end: 000001FE
@@ -448,7 +529,9 @@
  * (0016B0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0016C8) S_END
- * 
+ */
+
+/*
  * (0016CC) S_GPROC32: [0001:000691F8], Cb: 00001450, Type:             0x141A, SetupOptionsFrame_Display
  *          Parent: 00000000, End: 00001818, Next: 0000181C
  *          Debug start: 00000006, Debug end: 0000142C
@@ -470,7 +553,9 @@
  * (001800)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001818) S_END
- * 
+ */
+
+/*
  * (00181C) S_GPROC32: [0001:0006A648], Cb: 00000084, Type:             0x141A, BtCarCountChange
  *          Parent: 00000000, End: 00001874, Next: 00001878
  *          Debug start: 00000004, Debug end: 00000080
@@ -480,7 +565,9 @@
  * (001864)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001874) S_END
- * 
+ */
+
+/*
  * (001878) S_GPROC32: [0001:0006A6CC], Cb: 00000084, Type:             0x141A, BtLapCountChange
  *          Parent: 00000000, End: 000018D0, Next: 000018D4
  *          Debug start: 00000004, Debug end: 00000080
@@ -490,7 +577,9 @@
  * (0018C0)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0018D0) S_END
- * 
+ */
+
+/*
  * (0018D4) S_GPROC32: [0001:0006A750], Cb: 00000077, Type:             0x141A, BtDifficultyChange
  *          Parent: 00000000, End: 00001930, Next: 00001934
  *          Debug start: 00000004, Debug end: 00000073
@@ -500,7 +589,9 @@
  * (001920)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001930) S_END
- * 
+ */
+
+/*
  * (001934) S_GPROC32: [0001:0006A7C7], Cb: 0000006A, Type:             0x141A, BtMultiAI
  *          Parent: 00000000, End: 00001988, Next: 0000198C
  *          Debug start: 00000004, Debug end: 00000066
@@ -510,7 +601,9 @@
  * (001978)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001988) S_END
- * 
+ */
+
+/*
  * (00198C) S_GPROC32: [0001:0006A831], Cb: 00000084, Type:             0x141A, BtLapCountChange_Split
  *          Parent: 00000000, End: 000019EC, Next: 000019F0
  *          Debug start: 00000004, Debug end: 00000080
@@ -520,7 +613,9 @@
  * (0019DC)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0019EC) S_END
- * 
+ */
+
+/*
  * (0019F0) S_GPROC32: [0001:0006A8B5], Cb: 00000455, Type:             0x141A, SetupOptionsFrame_Split
  *          Parent: 00000000, End: 00001A78, Next: 00001A7C
  *          Debug start: 00000006, Debug end: 00000451
@@ -532,7 +627,9 @@
  * (001A60)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001A78) S_END
- * 
+ */
+
+/*
  * (001A7C) S_GPROC32: [0001:0006AD0A], Cb: 00000084, Type:             0x141A, BtLapCountChange_Multi
  *          Parent: 00000000, End: 00001ADC, Next: 00001AE0
  *          Debug start: 00000004, Debug end: 00000080
@@ -542,7 +639,9 @@
  * (001ACC)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (001ADC) S_END
- * 
+ */
+
+/*
  * (001AE0) S_GPROC32: [0001:0006AD8E], Cb: 0000051A, Type:             0x141A, SetupOptionsFrame_MultiPlayer_Race
  *          Parent: 00000000, End: 00001B84, Next: 00001B88
  *          Debug start: 00000006, Debug end: 00000516
@@ -555,7 +654,9 @@
  * (001B74)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), p
  * 
  * (001B84) S_END
- * 
+ */
+
+/*
  * (001B88) S_GPROC32: [0001:0006B2A8], Cb: 00000A0D, Type:             0x141A, SetupOptionsFrame_Race
  *          Parent: 00000000, End: 00001E04, Next: 00001E08
  *          Debug start: 00000006, Debug end: 000009B5
@@ -593,7 +694,9 @@
  * (001DEC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001E04) S_END
- * 
+ */
+
+/*
  * (001E08) S_GPROC32: [0001:0006BCB5], Cb: 0000019B, Type:             0x16A1, SetSound
  *          Parent: 00000000, End: 00001ED0, Next: 00001ED4
  *          Debug start: 00000006, Debug end: 00000183
@@ -609,7 +712,9 @@
  * (001EB8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001ED0) S_END
- * 
+ */
+
+/*
  * (001ED4) S_GPROC32: [0001:0006BE50], Cb: 00000525, Type:             0x141A, SetupOptionsFrame_Sound
  *          Parent: 00000000, End: 00001F5C, Next: 00001F60
  *          Debug start: 00000006, Debug end: 00000521
@@ -621,7 +726,9 @@
  * (001F44)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001F5C) S_END
- * 
+ */
+
+/*
  * (001F60) S_GPROC32: [0001:0006C375], Cb: 00000243, Type:             0x141A, SaveSlot
  *          Parent: 00000000, End: 00001FE8, Next: 00001FEC
  *          Debug start: 00000009, Debug end: 0000023F
@@ -634,7 +741,9 @@
  * (001FD0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (001FE8) S_END
- * 
+ */
+
+/*
  * (001FEC) S_GPROC32: [0001:0006C5B8], Cb: 00000047, Type:             0x141A, BtSaveToSlot
  *          Parent: 00000000, End: 00002048, Next: 0000204C
  *          Debug start: 00000004, Debug end: 00000043
@@ -644,7 +753,9 @@
  * (002030)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002048) S_END
- * 
+ */
+
+/*
  * (00204C) S_GPROC32: [0001:0006C5FF], Cb: 000005C7, Type:             0x141A, LoadSlot
  *          Parent: 00000000, End: 00002154, Next: 00002158
  *          Debug start: 00000009, Debug end: 000005A3
@@ -664,7 +775,9 @@
  * (00213C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002154) S_END
- * 
+ */
+
+/*
  * (002158) S_GPROC32: [0001:0006CBC6], Cb: 0000007C, Type:             0x141A, BtLoadFromSlot
  *          Parent: 00000000, End: 000021C8, Next: 000021CC
  *          Debug start: 00000006, Debug end: 00000078
@@ -675,7 +788,9 @@
  * (0021B0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0021C8) S_END
- * 
+ */
+
+/*
  * (0021CC) S_GPROC32: [0001:0006CC42], Cb: 0000053C, Type:             0x141A, SetupOptionsFrame_Save
  *          Parent: 00000000, End: 00002274, Next: 00002278
  *          Debug start: 00000006, Debug end: 00000538
@@ -689,7 +804,9 @@
  * (00225C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002274) S_END
- * 
+ */
+
+/*
  * (002278) S_GPROC32: [0001:0006D17E], Cb: 00000042, Type:             0x141A, BtGotoROOTMENU
  *          Parent: 00000000, End: 000022D8, Next: 000022DC
  *          Debug start: 00000004, Debug end: 0000003E
@@ -699,7 +816,9 @@
  * (0022C0)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0022D8) S_END
- * 
+ */
+
+/*
  * (0022DC) S_GPROC32: [0001:0006D1C0], Cb: 0000057E, Type:             0x141A, SetupOptionsFrame_Load
  *          Parent: 00000000, End: 00002384, Next: 00002388
  *          Debug start: 00000006, Debug end: 0000057A
@@ -713,7 +832,9 @@
  * (00236C)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (002384) S_END
- * 
+ */
+
+/*
  * (002388) S_GPROC32: [0001:0006D73E], Cb: 00000084, Type:             0x141A, BtCareerOppChange
  *          Parent: 00000000, End: 000023E4, Next: 000023E8
  *          Debug start: 00000004, Debug end: 00000080
@@ -723,7 +844,9 @@
  * (0023D4)  S_BPREL32: [FFFFFFFC], Type:             0x180B, set
  * 
  * (0023E4) S_END
- * 
+ */
+
+/*
  * (0023E8) S_GPROC32: [0001:0006D7C2], Cb: 0000099D, Type:             0x141A, SetupOptionsFrame_Career
  *          Parent: 00000000, End: 000025F0, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000959
@@ -755,27 +878,5 @@
  * (0025D8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0025F0) S_END
- * 
- * (0025F4) S_GDATA32: [0003:00947E6C], Type:      T_RCHAR(0070), LastKeyPress
- * (002610) S_GDATA32: [0003:00947E64], Type:      T_RCHAR(0070), LastJoyPress
- * (00262C) S_GDATA32: [0003:00947E60], Type:       T_INT4(0074), getkeycontrol
- * (002648) S_GDATA32: [0003:00947E20], Type:       T_INT4(0074), getjoycontrol
- * (002664) S_GDATA32: [0003:00947E24], Type:       T_LONG(0012), KC_SetVal
- * (00267C) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
- * (002690) S_GDATA32: [0003:00931D5C], Type:       T_LONG(0012), TmpSlot
- * (0026A8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (0026C0) S_GDATA32: [0003:0099D1C0], Type:             0x1836, Default_VehicleSetups
- * (0026E4) S_GDATA32: [0003:00990BE0], Type:             0x1837, Teams
- * (0026F8) S_GDATA32: [0003:00012B78], Type:             0x1838, SLOTLOCATION
- * (002714) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (002734) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (002750) S_GDATA32: [0003:0006E9F8], Type:             0x183B, MSS_SfxVolumes
- * (002770) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (00278C) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
- * (0027A4) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
- * (0027B8) S_GDATA32: [0003:0091E08C], Type:      T_ULONG(0022), DI_JoysticksConnected
- * (0027DC) S_GDATA32: [0003:0007A0E4], Type:      T_ULONG(0022), anawheel
- * (0027F4) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * 
  */
 

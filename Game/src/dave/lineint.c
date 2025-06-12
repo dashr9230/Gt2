@@ -16,6 +16,12 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ */
+
+/*
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00015B90], Cb: 0000015C, Type:             0x1CD3, LineInterSection
  *          Parent: 00000000, End: 00000124, Next: 00000128
  *          Debug start: 00000006, Debug end: 00000158
@@ -28,7 +34,9 @@
  * (000110)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), alpha
  * 
  * (000124) S_END
- * 
+ */
+
+/*
  * (000128) S_GPROC32: [0001:00015CEC], Cb: 00000125, Type:             0x1CD3, LineLineInterSection
  *          Parent: 00000000, End: 000001C4, Next: 000001C8
  *          Debug start: 00000006, Debug end: 00000121
@@ -41,7 +49,9 @@
  * (0001B0)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), alpha
  * 
  * (0001C4) S_END
- * 
+ */
+
+/*
  * (0001C8) S_GPROC32: [0001:00015E11], Cb: 000000C7, Type:             0x1CD5, ThickLineInterSection
  *          Parent: 00000000, End: 0000027C, Next: 00000280
  *          Debug start: 00000006, Debug end: 000000C3
@@ -55,7 +65,9 @@
  * (000268)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), alpha
  * 
  * (00027C) S_END
- * 
+ */
+
+/*
  * (000280) S_GPROC32: [0001:00015ED8], Cb: 0000005B, Type:             0x1CD6, DistFromLine
  *          Parent: 00000000, End: 00000324, Next: 00000000
  *          Debug start: 00000006, Debug end: 00000057
@@ -68,6 +80,5 @@
  * (000308)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), sqdist_to_line
  * 
  * (000324) S_END
- * 
  */
 

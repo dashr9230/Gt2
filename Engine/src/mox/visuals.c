@@ -16,6 +16,35 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000E48) S_GDATA32: [0003:00C9B860], Type:             0x1D4F, TPAGE_Defs
+ * (000E64) S_GDATA32: [0003:0091E8C4], Type:             0x100B, visVrtArray
+ * (000E80) S_GDATA32: [0003:0091E8C8], Type:             0x1D4B, visTriHeap
+ * (000E9C) S_GDATA32: [0003:0091E8CC], Type:             0x13A0, visTexArray
+ * (000EB8) S_GDATA32: [0003:0091E8D0], Type:             0x13A8, visMdlArray
+ * (000ED4) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ * (000EF4) S_GDATA32: [0003:0091E8B4], Type:      T_ULONG(0022), visMaxVertices
+ * (000F14) S_GDATA32: [0003:0091E8B8], Type:      T_ULONG(0022), visMaxTriHeap
+ * (000F30) S_GDATA32: [0003:0091E8BC], Type:      T_ULONG(0022), visMaxTexCount
+ * (000F50) S_GDATA32: [0003:00C9D080], Type:             0x1FC8, ioPage
+ * (000F68) S_GDATA32: [0003:011F25E0], Type:             0x1D4E, vrtTemporary
+ * (000F84) S_GDATA32: [0003:00C9CC60], Type:             0x1D4D, palette
+ * (000F9C) S_GDATA32: [0003:00C9D060], Type:             0x1421, ioTT
+ * (000FB0) S_GDATA32: [0003:0121E5E0], Type:      T_ULONG(0022), gFDF
+ * (000FC4) S_GDATA32: [0003:0121E5E8], Type:      T_ULONG(0022), visNumVertices
+ * (000FE4) S_GDATA32: [0003:0121E5EC], Type:      T_ULONG(0022), visNumTextures
+ * (001004) S_GDATA32: [0003:0121E5E4], Type:      T_ULONG(0022), visNumModels
+ * (001020) S_GDATA32: [0003:0121E5F0], Type:     T_USHORT(0021), ioTTi
+ * (001034) S_LDATA32: [0003:0091E8D4], Type:      T_UCHAR(0020), moxModuleMode
+ * (001050) S_GDATA32: [0003:0091E8C0], Type:      T_ULONG(0022), visMaxModels
+ * (00106C) S_GDATA32: [0003:0006B9F4], Type:      T_UCHAR(0020), visMipCount
+ * (001088) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00083480], Cb: 000000A2, Type:             0x1FBE, visRemap
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000003, Debug end: 000000A0
@@ -26,7 +55,9 @@
  * (0000DC)  S_BPREL32: [00000010], Type:     T_USHORT(0021), n
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_GPROC32: [0001:00083522], Cb: 00000AA6, Type:             0x1FBF, VIS_LoadTextureEx
  *          Parent: 00000000, End: 00000328, Next: 0000032C
  *          Debug start: 0000000A, Debug end: 00000AA1
@@ -80,7 +111,9 @@
  * (000324)  S_END
  * 
  * (000328) S_END
- * 
+ */
+
+/*
  * (00032C) S_LPROC32: [0001:00083FC8], Cb: 000000F0, Type:             0x1FC1, texDecompress
  *          Parent: 00000000, End: 0000041C, Next: 00000420
  *          Debug start: 00000006, Debug end: 000000EC
@@ -108,7 +141,9 @@
  * (000418)  S_END
  * 
  * (00041C) S_END
- * 
+ */
+
+/*
  * (000420) S_LPROC32: [0001:000840B8], Cb: 00000028, Type:             0x1FC1, texCopyLiteral
  *          Parent: 00000000, End: 00000488, Next: 0000048C
  *          Debug start: 00000003, Debug end: 00000026
@@ -119,7 +154,9 @@
  * (000478)  S_BPREL32: [00000010], Type:   T_32PUCHAR(0420), ptr
  * 
  * (000488) S_END
- * 
+ */
+
+/*
  * (00048C) S_LPROC32: [0001:000840E0], Cb: 00000005, Type:             0x1F8F, moxError
  *          Parent: 00000000, End: 000004DC, Next: 000004E0
  *          Debug start: 00000003, Debug end: 00000003
@@ -129,7 +166,9 @@
  * (0004CC)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), ln
  * 
  * (0004DC) S_END
- * 
+ */
+
+/*
  * (0004E0) S_LPROC32: [0001:000840E5], Cb: 00000005, Type:             0x1F8F, moxReport
  *          Parent: 00000000, End: 00000534, Next: 00000538
  *          Debug start: 00000003, Debug end: 00000003
@@ -139,7 +178,9 @@
  * (000524)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), ln
  * 
  * (000534) S_END
- * 
+ */
+
+/*
  * (000538) S_GPROC32: [0001:000840EA], Cb: 00000017, Type:             0x1FC2, VIS_LoadTexture
  *          Parent: 00000000, End: 00000598, Next: 0000059C
  *          Debug start: 00000003, Debug end: 00000015
@@ -149,7 +190,9 @@
  * (000584)  S_BPREL32: [0000000C], Type:   T_32PRCHAR(0470), name
  * 
  * (000598) S_END
- * 
+ */
+
+/*
  * (00059C) S_GPROC32: [0001:00084101], Cb: 000002D4, Type:             0x1FC3, VIS_LoadModel
  *          Parent: 00000000, End: 000006A4, Next: 000006A8
  *          Debug start: 00000006, Debug end: 000002D0
@@ -173,7 +216,9 @@
  * (0006A0)  S_END
  * 
  * (0006A4) S_END
- * 
+ */
+
+/*
  * (0006A8) S_LPROC32: [0001:000843D5], Cb: 000009DC, Type:             0x1FC5, visParseVisual
  *          Parent: 00000000, End: 00000A0C, Next: 00000A10
  *          Debug start: 00000009, Debug end: 0000093F
@@ -239,7 +284,9 @@
  * (000A08)  S_END
  * 
  * (000A0C) S_END
- * 
+ */
+
+/*
  * (000A10) S_LPROC32: [0001:00084DB1], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
  *          Parent: 00000000, End: 00000A68, Next: 00000A6C
  *          Debug start: 00000003, Debug end: 0000000C
@@ -249,7 +296,9 @@
  * (000A58)  S_BPREL32: [0000000C], Type:             0x13A7, F
  * 
  * (000A68) S_END
- * 
+ */
+
+/*
  * (000A6C) S_LPROC32: [0001:00084DBF], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
  *          Parent: 00000000, End: 00000AC4, Next: 00000AC8
  *          Debug start: 00000003, Debug end: 0000000C
@@ -259,21 +308,27 @@
  * (000AB4)  S_BPREL32: [0000000C], Type:    T_32PVOID(0403), D
  * 
  * (000AC4) S_END
- * 
+ */
+
+/*
  * (000AC8) S_GPROC32: [0001:00084DCD], Cb: 0000000A, Type:             0x1001, VIS_Flush
  *          Parent: 00000000, End: 00000AFC, Next: 00000B00
  *          Debug start: 00000003, Debug end: 00000008
  *          Flags: Frame Ptr Present
  * 
  * (000AFC) S_END
- * 
+ */
+
+/*
  * (000B00) S_LPROC32: [0001:00084DD7], Cb: 000000A8, Type:             0x1001, visFlush
  *          Parent: 00000000, End: 00000B30, Next: 00000B34
  *          Debug start: 00000003, Debug end: 000000A6
  *          Flags: Frame Ptr Present
  * 
  * (000B30) S_END
- * 
+ */
+
+/*
  * (000B34) S_GPROC32: [0001:00084E7F], Cb: 00000232, Type:             0x1001, VIS_Initialize
  *          Parent: 00000000, End: 00000B80, Next: 00000B84
  *          Debug start: 00000004, Debug end: 0000022E
@@ -282,14 +337,18 @@
  * (000B6C)  S_BPREL32: [FFFFFFFC], Type:      T_UCHAR(0020), failed
  * 
  * (000B80) S_END
- * 
+ */
+
+/*
  * (000B84) S_GPROC32: [0001:000850B1], Cb: 000000C9, Type:             0x1001, VIS_Release
  *          Parent: 00000000, End: 00000BB8, Next: 00000BBC
  *          Debug start: 00000003, Debug end: 000000C7
  *          Flags: Frame Ptr Present
  * 
  * (000BB8) S_END
- * 
+ */
+
+/*
  * (000BBC) S_GPROC32: [0001:0008517A], Cb: 00000217, Type:             0x1FC7, VIS_ModelOverride
  *          Parent: 00000000, End: 00000D94, Next: 00000D98
  *          Debug start: 00000006, Debug end: 00000213
@@ -338,7 +397,9 @@
  * (000D90)  S_END
  * 
  * (000D94) S_END
- * 
+ */
+
+/*
  * (000D98) S_LPROC32: [0001:00085391], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
  *          Parent: 00000000, End: 00000DEC, Next: 00000DF0
  *          Debug start: 00000004, Debug end: 0000002B
@@ -348,7 +409,9 @@
  * (000DDC)  S_BPREL32: [FFFFFFFC], Type:             0x100B, eVL
  * 
  * (000DEC) S_END
- * 
+ */
+
+/*
  * (000DF0) S_LPROC32: [0001:000853C0], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
  *          Parent: 00000000, End: 00000E44, Next: 00000000
  *          Debug start: 00000004, Debug end: 0000002B
@@ -358,29 +421,5 @@
  * (000E34)  S_BPREL32: [FFFFFFFC], Type:             0x17BD, eVL
  * 
  * (000E44) S_END
- * 
- * (000E48) S_GDATA32: [0003:00C9B860], Type:             0x1D4F, TPAGE_Defs
- * (000E64) S_GDATA32: [0003:0091E8C4], Type:             0x100B, visVrtArray
- * (000E80) S_GDATA32: [0003:0091E8C8], Type:             0x1D4B, visTriHeap
- * (000E9C) S_GDATA32: [0003:0091E8CC], Type:             0x13A0, visTexArray
- * (000EB8) S_GDATA32: [0003:0091E8D0], Type:             0x13A8, visMdlArray
- * (000ED4) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * (000EF4) S_GDATA32: [0003:0091E8B4], Type:      T_ULONG(0022), visMaxVertices
- * (000F14) S_GDATA32: [0003:0091E8B8], Type:      T_ULONG(0022), visMaxTriHeap
- * (000F30) S_GDATA32: [0003:0091E8BC], Type:      T_ULONG(0022), visMaxTexCount
- * (000F50) S_GDATA32: [0003:00C9D080], Type:             0x1FC8, ioPage
- * (000F68) S_GDATA32: [0003:011F25E0], Type:             0x1D4E, vrtTemporary
- * (000F84) S_GDATA32: [0003:00C9CC60], Type:             0x1D4D, palette
- * (000F9C) S_GDATA32: [0003:00C9D060], Type:             0x1421, ioTT
- * (000FB0) S_GDATA32: [0003:0121E5E0], Type:      T_ULONG(0022), gFDF
- * (000FC4) S_GDATA32: [0003:0121E5E8], Type:      T_ULONG(0022), visNumVertices
- * (000FE4) S_GDATA32: [0003:0121E5EC], Type:      T_ULONG(0022), visNumTextures
- * (001004) S_GDATA32: [0003:0121E5E4], Type:      T_ULONG(0022), visNumModels
- * (001020) S_GDATA32: [0003:0121E5F0], Type:     T_USHORT(0021), ioTTi
- * (001034) S_LDATA32: [0003:0091E8D4], Type:      T_UCHAR(0020), moxModuleMode
- * (001050) S_GDATA32: [0003:0091E8C0], Type:      T_ULONG(0022), visMaxModels
- * (00106C) S_GDATA32: [0003:0006B9F4], Type:      T_UCHAR(0020), visMipCount
- * (001088) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
  */
 

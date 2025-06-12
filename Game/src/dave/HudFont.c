@@ -16,6 +16,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000834) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
+ * (000848) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ * (00085C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000E050], Cb: 00000091, Type:             0x1D04, HUDFONT_Allocate
  *          Parent: 00000000, End: 000000E8, Next: 000000EC
  *          Debug start: 00000006, Debug end: 0000008D
@@ -25,7 +35,9 @@
  * (0000D8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), fi
  * 
  * (0000E8) S_END
- * 
+ */
+
+/*
  * (0000EC) S_GPROC32: [0001:0000E0E1], Cb: 0000001F, Type:             0x1D06, HUDFONT_Release
  *          Parent: 00000000, End: 00000138, Next: 0000013C
  *          Debug start: 00000003, Debug end: 0000001D
@@ -34,7 +46,9 @@
  * (000124)  S_BPREL32: [00000008], Type:             0x1C9F, HudFont
  * 
  * (000138) S_END
- * 
+ */
+
+/*
  * (00013C) S_GPROC32: [0001:0000E100], Cb: 00000042, Type:             0x1D08, HUDFONT_Reset
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000003, Debug end: 00000040
@@ -47,7 +61,9 @@
  * (0001B8)  S_BPREL32: [00000018], Type:     T_REAL32(0040), sfy
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_GPROC32: [0001:0000E142], Cb: 0000002B, Type:             0x1D06, HUDFONT_Draw
  *          Parent: 00000000, End: 00000214, Next: 00000218
  *          Debug start: 00000003, Debug end: 00000029
@@ -56,7 +72,9 @@
  * (000200)  S_BPREL32: [00000008], Type:             0x1C9F, HudFont
  * 
  * (000214) S_END
- * 
+ */
+
+/*
  * (000218) S_GPROC32: [0001:0000E16D], Cb: 00000174, Type:             0x1D0A, HUDFONT_AddString
  *          Parent: 00000000, End: 000003A0, Next: 000003A4
  *          Debug start: 00000009, Debug end: 00000170
@@ -86,7 +104,9 @@
  * (00039C)  S_END
  * 
  * (0003A0) S_END
- * 
+ */
+
+/*
  * (0003A4) S_LPROC32: [0001:0000E2E1], Cb: 0000011C, Type:             0x1D0C, HUDFONT_AddChar
  *          Parent: 00000000, End: 0000047C, Next: 00000480
  *          Debug start: 00000006, Debug end: 00000118
@@ -103,7 +123,9 @@
  * (000468)  S_BPREL32: [FFFFFFFC], Type:             0x1413, prim
  * 
  * (00047C) S_END
- * 
+ */
+
+/*
  * (000480) S_LPROC32: [0001:0000E3FD], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 00000504, Next: 00000508
  *          Debug start: 00000006, Debug end: 00000076
@@ -116,7 +138,9 @@
  * (0004F4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000504) S_END
- * 
+ */
+
+/*
  * (000508) S_LPROC32: [0001:0000E477], Cb: 00000085, Type:             0x1D0E, HUDFONT_GetTextExtents
  *          Parent: 00000000, End: 000005E0, Next: 000005E4
  *          Debug start: 00000006, Debug end: 00000081
@@ -137,7 +161,9 @@
  * (0005DC)  S_END
  * 
  * (0005E0) S_END
- * 
+ */
+
+/*
  * (0005E4) S_GPROC32: [0001:0000E4FC], Cb: 000000A2, Type:             0x1D10, HUDFONT_AddTime
  *          Parent: 00000000, End: 00000708, Next: 0000070C
  *          Debug start: 00000009, Debug end: 0000009E
@@ -158,7 +184,9 @@
  * (0006F8)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), s
  * 
  * (000708) S_END
- * 
+ */
+
+/*
  * (00070C) S_GPROC32: [0001:0000E59E], Cb: 000000C9, Type:             0x1D10, HUDFONT_AddSplit
  *          Parent: 00000000, End: 00000830, Next: 00000874
  *          Debug start: 00000009, Debug end: 000000C5
@@ -179,11 +207,9 @@
  * (000820)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), s
  * 
  * (000830) S_END
- * 
- * (000834) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
- * (000848) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * (00085C) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
+ */
+
+/*
  * (000874) S_GPROC32: [0001:0000E670], Cb: 0000000E, Type:             0x1D12, P2D_SetPrimsToDraw
  *          Parent: 00000000, End: 000008DC, Next: 000008E0
  *          Debug start: 00000003, Debug end: 0000000C
@@ -193,7 +219,9 @@
  * (0008C4)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), NumPrims
  * 
  * (0008DC) S_END
- * 
+ */
+
+/*
  * (0008E0) S_GPROC32: [0001:0000E680], Cb: 00000015, Type:             0x1D12, P2D_SetCurPrim
  *          Parent: 00000000, End: 00000940, Next: 00000944
  *          Debug start: 00000003, Debug end: 00000013
@@ -203,7 +231,9 @@
  * (00092C)  S_BPREL32: [0000000C], Type:      T_ULONG(0022), Prim
  * 
  * (000940) S_END
- * 
+ */
+
+/*
  * (000944) S_GPROC32: [0001:0000E6A0], Cb: 0000001F, Type:             0x1CCB, P2D_SetBlendMode
  *          Parent: 00000000, End: 000009A4, Next: 000009A8
  *          Debug start: 00000003, Debug end: 0000001D
@@ -213,7 +243,9 @@
  * (000990)  S_BPREL32: [0000000C], Type:       T_INT4(0074), Blend
  * 
  * (0009A4) S_END
- * 
+ */
+
+/*
  * (0009A8) S_GPROC32: [0001:0000E6C0], Cb: 0000000E, Type:             0x1D14, P2D_SetTPage
  *          Parent: 00000000, End: 00000A04, Next: 00000A08
  *          Debug start: 00000003, Debug end: 0000000C
@@ -223,7 +255,9 @@
  * (0009F0)  S_BPREL32: [0000000C], Type:             0x1308, lpTPage
  * 
  * (000A04) S_END
- * 
+ */
+
+/*
  * (000A08) S_GPROC32: [0001:0000E6D0], Cb: 0000006D, Type:             0x1D12, P2D_SetAllColour
  *          Parent: 00000000, End: 00000A74, Next: 00000A78
  *          Debug start: 00000004, Debug end: 00000069
@@ -234,7 +268,9 @@
  * (000A64)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), i
  * 
  * (000A74) S_END
- * 
+ */
+
+/*
  * (000A78) S_GPROC32: [0001:0000E740], Cb: 00000288, Type:             0x1A77, P2D_SetXYWH
  *          Parent: 00000000, End: 00000B00, Next: 00000B04
  *          Debug start: 00000006, Debug end: 00000284
@@ -247,7 +283,9 @@
  * (000AF0)  S_BPREL32: [00000018], Type:     T_REAL32(0040), h
  * 
  * (000B00) S_END
- * 
+ */
+
+/*
  * (000B04) S_GPROC32: [0001:0000E9D0], Cb: 000000D3, Type:             0x1A77, P2D_SetUVWH
  *          Parent: 00000000, End: 00000B8C, Next: 00000000
  *          Debug start: 00000003, Debug end: 000000D1
@@ -260,6 +298,5 @@
  * (000B7C)  S_BPREL32: [00000018], Type:     T_REAL32(0040), h
  * 
  * (000B8C) S_END
- * 
  */
 

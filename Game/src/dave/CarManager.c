@@ -15,6 +15,32 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00153C) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
+ * (001550) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (00156C) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (001584) S_GDATA32: [0003:0121E7A0], Type:             0x1BE5, CloseUpCameras
+ * (0015A4) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
+ * (0015BC) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
+ * (0015D4) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (0015F0) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
+ * (001610) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (001628) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (001640) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (001658) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
+ * (001674) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (00168C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (0016A4) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
+ * (0016C4) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
+ * (0016E8) S_GDATA32: [0003:0000CC80], Type:             0x1BE7, Vehicle_SkinColors
+ * (00170C) S_GDATA32: [0003:0097F164], Type:             0x13A8, DashModel
+ * (001724) S_GDATA32: [0003:0006AA40], Type:             0x1D50, ControlDevices
+ */
+
+/*
  * (000090) S_GPROC32: [0001:000058B0], Cb: 000000F7, Type:             0x1824, CM_Allocate
  *          Parent: 00000000, End: 000000F0, Next: 000000F4
  *          Debug start: 00000006, Debug end: 000000F3
@@ -24,7 +50,9 @@
  * (0000DC)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CM_Obj
  * 
  * (0000F0) S_END
- * 
+ */
+
+/*
  * (0000F4) S_LPROC32: [0001:000059A7], Cb: 0000003E, Type:             0x1408, CM_Destroy
  *          Parent: 00000000, End: 00000154, Next: 00000158
  *          Debug start: 00000004, Debug end: 0000003A
@@ -34,7 +62,9 @@
  * (00013C)  S_BPREL32: [FFFFFFFC], Type:             0x1A86, CarManager
  * 
  * (000154) S_END
- * 
+ */
+
+/*
  * (000158) S_GPROC32: [0001:000059E5], Cb: 00000038, Type:             0x1408, CM_Release
  *          Parent: 00000000, End: 000001A0, Next: 000001A4
  *          Debug start: 00000003, Debug end: 00000036
@@ -43,7 +73,9 @@
  * (00018C)  S_BPREL32: [00000008], Type:             0x1404, CM_Obj
  * 
  * (0001A0) S_END
- * 
+ */
+
+/*
  * (0001A4) S_LPROC32: [0001:00005A1D], Cb: 0000005B, Type:             0x1408, CM_Handler
  *          Parent: 00000000, End: 00000200, Next: 00000204
  *          Debug start: 00000004, Debug end: 00000057
@@ -53,7 +85,9 @@
  * (0001E8)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000200) S_END
- * 
+ */
+
+/*
  * (000204) S_LPROC32: [0001:00005A78], Cb: 00000029, Type:             0x1408, CM_Draw
  *          Parent: 00000000, End: 00000244, Next: 00000248
  *          Debug start: 00000003, Debug end: 00000027
@@ -62,7 +96,9 @@
  * (000234)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (000244) S_END
- * 
+ */
+
+/*
  * (000248) S_GPROC32: [0001:00005AA1], Cb: 00000030, Type:             0x1408, CM_YouWereOnlySupposedToBlowTheBloodyDoorsOff
  *          Parent: 00000000, End: 000002B0, Next: 000002B4
  *          Debug start: 00000003, Debug end: 0000002E
@@ -71,7 +107,9 @@
  * (0002A0)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0002B0) S_END
- * 
+ */
+
+/*
  * (0002B4) S_GPROC32: [0001:00005AD1], Cb: 00000527, Type:             0x1A1D, CM_EnterCar
  *          Parent: 00000000, End: 000004D0, Next: 000004D4
  *          Debug start: 00000009, Debug end: 00000523
@@ -115,7 +153,9 @@
  * (0004CC)  S_END
  * 
  * (0004D0) S_END
- * 
+ */
+
+/*
  * (0004D4) S_GPROC32: [0001:00005FF8], Cb: 00000090, Type:             0x1001, CM_CarInitOnce
  *          Parent: 00000000, End: 00000578, Next: 0000057C
  *          Debug start: 00000006, Debug end: 0000008C
@@ -128,7 +168,9 @@
  * (000564)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CM_Obj
  * 
  * (000578) S_END
- * 
+ */
+
+/*
  * (00057C) S_GPROC32: [0001:00006088], Cb: 0000019C, Type:             0x1001, CM_DropAllCars
  *          Parent: 00000000, End: 00000650, Next: 00000654
  *          Debug start: 00000006, Debug end: 00000198
@@ -143,7 +185,9 @@
  * (00063C)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CM_Obj
  * 
  * (000650) S_END
- * 
+ */
+
+/*
  * (000654) S_GPROC32: [0001:00006224], Cb: 00000033, Type:             0x1824, CM_GetCurCar
  *          Parent: 00000000, End: 000006CC, Next: 000006D0
  *          Debug start: 00000006, Debug end: 0000002F
@@ -154,7 +198,9 @@
  * (0006B8)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CM_Obj
  * 
  * (0006CC) S_END
- * 
+ */
+
+/*
  * (0006D0) S_GPROC32: [0001:00006257], Cb: 00000021, Type:             0x1408, CM_ForceCPUControl
  *          Parent: 00000000, End: 00000734, Next: 00000738
  *          Debug start: 00000004, Debug end: 0000001D
@@ -164,7 +210,9 @@
  * (000720)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, ThisCar
  * 
  * (000734) S_END
- * 
+ */
+
+/*
  * (000738) S_GPROC32: [0001:00006278], Cb: 0000002E, Type:             0x1408, CM_ForceAllCPUControl
  *          Parent: 00000000, End: 0000079C, Next: 000007A0
  *          Debug start: 00000004, Debug end: 0000002A
@@ -174,7 +222,9 @@
  * (000788)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CarObj
  * 
  * (00079C) S_END
- * 
+ */
+
+/*
  * (0007A0) S_GPROC32: [0001:000062A6], Cb: 000001F8, Type:             0x1408, CM_ActiveDriverDump
  *          Parent: 00000000, End: 00000848, Next: 0000084C
  *          Debug start: 00000008, Debug end: 000001F2
@@ -192,7 +242,9 @@
  * (000844)  S_END
  * 
  * (000848) S_END
- * 
+ */
+
+/*
  * (00084C) S_GPROC32: [0001:0000649E], Cb: 00000054, Type:             0x1408, CM_FindHumanLanes
  *          Parent: 00000000, End: 000008DC, Next: 000008E0
  *          Debug start: 00000006, Debug end: 00000050
@@ -209,7 +261,9 @@
  * (0008D8)  S_END
  * 
  * (0008DC) S_END
- * 
+ */
+
+/*
  * (0008E0) S_GPROC32: [0001:000064F2], Cb: 00000030, Type:             0x1408, CM_ReportLines
  *          Parent: 00000000, End: 0000096C, Next: 00000970
  *          Debug start: 00000006, Debug end: 0000002C
@@ -226,7 +280,9 @@
  * (000968)  S_END
  * 
  * (00096C) S_END
- * 
+ */
+
+/*
  * (000970) S_GPROC32: [0001:00006522], Cb: 0000013A, Type:             0x1408, CM_BuildPlaces
  *          Parent: 00000000, End: 00000A70, Next: 00000A74
  *          Debug start: 00000007, Debug end: 00000135
@@ -249,7 +305,9 @@
  * (000A6C)  S_END
  * 
  * (000A70) S_END
- * 
+ */
+
+/*
  * (000A74) S_LPROC32: [0001:0000665C], Cb: 000000D0, Type:             0x1408, CM_GetCarPositions
  *          Parent: 00000000, End: 00000B00, Next: 00000B04
  *          Debug start: 00000006, Debug end: 000000CC
@@ -261,7 +319,9 @@
  * (000AEC)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CarObj
  * 
  * (000B00) S_END
- * 
+ */
+
+/*
  * (000B04) S_LPROC32: [0001:0000672C], Cb: 00000078, Type:             0x1408, CM_ReportPlaces
  *          Parent: 00000000, End: 00000B74, Next: 00000B78
  *          Debug start: 00000006, Debug end: 00000074
@@ -272,7 +332,9 @@
  * (000B60)  S_BPREL32: [FFFFFFFC], Type:             0x1404, CarObj
  * 
  * (000B74) S_END
- * 
+ */
+
+/*
  * (000B78) S_LPROC32: [0001:000067A4], Cb: 000000FB, Type:             0x1408, CM_ReportCatchup
  *          Parent: 00000000, End: 00000C14, Next: 00000C18
  *          Debug start: 00000006, Debug end: 000000F7
@@ -285,7 +347,9 @@
  * (000BFC)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000C14) S_END
- * 
+ */
+
+/*
  * (000C18) S_GPROC32: [0001:0000689F], Cb: 000002C6, Type:             0x1408, CM_NickedCars
  *          Parent: 00000000, End: 00000DC0, Next: 00000DC4
  *          Debug start: 00000006, Debug end: 000002C2
@@ -330,7 +394,9 @@
  * (000DBC)  S_END
  * 
  * (000DC0) S_END
- * 
+ */
+
+/*
  * (000DC4) S_GPROC32: [0001:00006B65], Cb: 00000176, Type:             0x1408, CM_ReportNickedCars
  *          Parent: 00000000, End: 00000E78, Next: 00000E7C
  *          Debug start: 00000006, Debug end: 00000172
@@ -344,7 +410,9 @@
  * (000E60)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000E78) S_END
- * 
+ */
+
+/*
  * (000E7C) S_GPROC32: [0001:00006CDB], Cb: 0000007F, Type:             0x1408, CM_SlipStreamCars
  *          Parent: 00000000, End: 00000F20, Next: 00000F24
  *          Debug start: 00000006, Debug end: 0000007B
@@ -357,7 +425,9 @@
  * (000F08)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000F20) S_END
- * 
+ */
+
+/*
  * (000F24) S_GPROC32: [0001:00006D5A], Cb: 00000458, Type:             0x1408, DropCarAtStart
  *          Parent: 00000000, End: 00001094, Next: 00001098
  *          Debug start: 00000006, Debug end: 00000454
@@ -387,7 +457,9 @@
  * (001090)  S_END
  * 
  * (001094) S_END
- * 
+ */
+
+/*
  * (001098) S_GPROC32: [0001:000071B2], Cb: 000003B8, Type:             0x1408, UpturnCar
  *          Parent: 00000000, End: 000011F8, Next: 000011FC
  *          Debug start: 00000006, Debug end: 000003B4
@@ -416,7 +488,9 @@
  * (0011F4)  S_END
  * 
  * (0011F8) S_END
- * 
+ */
+
+/*
  * (0011FC) S_GPROC32: [0001:0000756A], Cb: 0000047F, Type:             0x1408, DropCar
  *          Parent: 00000000, End: 00001368, Next: 0000136C
  *          Debug start: 00000006, Debug end: 0000047B
@@ -446,7 +520,9 @@
  * (001364)  S_END
  * 
  * (001368) S_END
- * 
+ */
+
+/*
  * (00136C) S_GPROC32: [0001:000079E9], Cb: 00000041, Type:             0x1001, DropAllCars
  *          Parent: 00000000, End: 000013C8, Next: 000013CC
  *          Debug start: 00000006, Debug end: 0000003D
@@ -456,28 +532,36 @@
  * (0013B0)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (0013C8) S_END
- * 
+ */
+
+/*
  * (0013CC) S_GPROC32: [0001:00007A2A], Cb: 00000016, Type:             0x1001, DropCar_Install
  *          Parent: 00000000, End: 00001404, Next: 00001408
  *          Debug start: 00000003, Debug end: 00000014
  *          Flags: Frame Ptr Present
  * 
  * (001404) S_END
- * 
+ */
+
+/*
  * (001408) S_GPROC32: [0001:00007A40], Cb: 0000000F, Type:             0x1001, DropCar_Uninstall
  *          Parent: 00000000, End: 00001444, Next: 00001448
  *          Debug start: 00000003, Debug end: 0000000D
  *          Flags: Frame Ptr Present
  * 
  * (001444) S_END
- * 
+ */
+
+/*
  * (001448) S_LPROC32: [0001:00007A4F], Cb: 00000023, Type:             0x1AA6, nRand
  *          Parent: 00000000, End: 00001478, Next: 0000147C
  *          Debug start: 00000003, Debug end: 00000021
  *          Flags: Frame Ptr Present
  * 
  * (001478) S_END
- * 
+ */
+
+/*
  * (00147C) S_LPROC32: [0001:00007A72], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 00001538, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000006D
@@ -497,26 +581,5 @@
  * (001534)  S_END
  * 
  * (001538) S_END
- * 
- * (00153C) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
- * (001550) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (00156C) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (001584) S_GDATA32: [0003:0121E7A0], Type:             0x1BE5, CloseUpCameras
- * (0015A4) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
- * (0015BC) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
- * (0015D4) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (0015F0) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
- * (001610) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (001628) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (001640) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (001658) S_GDATA32: [0003:0007B902], Type:      T_UCHAR(0020), CTP_Console
- * (001674) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (00168C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (0016A4) S_GDATA32: [0003:0000BF00], Type:             0x1A3E, Vehicle_Filenames
- * (0016C4) S_GDATA32: [0003:0000C080], Type:             0x1A16, Vehicle_SkinFilenames
- * (0016E8) S_GDATA32: [0003:0000CC80], Type:             0x1BE7, Vehicle_SkinColors
- * (00170C) S_GDATA32: [0003:0097F164], Type:             0x13A8, DashModel
- * (001724) S_GDATA32: [0003:0006AA40], Type:             0x1D50, ControlDevices
- * 
  */
 

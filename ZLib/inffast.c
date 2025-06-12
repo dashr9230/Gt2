@@ -16,6 +16,14 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0001F4) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0009C710], Cb: 000006F4, Type:             0x2109, inflate_fast
  *          Parent: 00000000, End: 000001F0, Next: 00000000
  *          Debug start: 00000016, Debug end: 000006EF
@@ -42,8 +50,5 @@
  * (0001E0)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), p
  * 
  * (0001F0) S_END
- * 
- * (0001F4) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
- * 
  */
 

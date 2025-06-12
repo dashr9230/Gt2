@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000234) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (00024C) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
+ * (000268) S_GDATA32: [0003:00003DB8], Type:             0x16CB, DefaultJoyMapping
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000C7C0], Cb: 00000055, Type:             0x1D2E, Driver_SetControls
  *          Parent: 00000000, End: 0000016C, Next: 00000170
  *          Debug start: 00000004, Debug end: 00000051
@@ -29,7 +39,9 @@
  * (000154)  S_BPREL32: [FFFFFFFC], Type:             0x181F, ThisDriver
  * 
  * (00016C) S_END
- * 
+ */
+
+/*
  * (000170) S_GPROC32: [0001:0000C815], Cb: 0000007D, Type:             0x1001, Driver_Init
  *          Parent: 00000000, End: 000001CC, Next: 000001D0
  *          Debug start: 00000006, Debug end: 00000079
@@ -39,7 +51,9 @@
  * (0001BC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (0001CC) S_END
- * 
+ */
+
+/*
  * (0001D0) S_GPROC32: [0001:0000C892], Cb: 00000191, Type:             0x16A1, Driver_Dump
  *          Parent: 00000000, End: 00000230, Next: 00000000
  *          Debug start: 00000008, Debug end: 0000018B
@@ -49,10 +63,5 @@
  * (000218)  S_BPREL32: [FFFFFFFC], Type:             0x181F, ThisDriver
  * 
  * (000230) S_END
- * 
- * (000234) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (00024C) S_GDATA32: [0003:000041EC], Type:             0x1A17, DriverNames
- * (000268) S_GDATA32: [0003:00003DB8], Type:             0x16CB, DefaultJoyMapping
- * 
  */
 

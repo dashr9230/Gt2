@@ -15,6 +15,22 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00191C) S_LDATA32: [0003:00070540], Type:             0x1ED0, CommandsList
+ * (001938) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
+ * (001950) S_LDATA32: [0003:000705B8], Type:             0x1ED1, ProfileCommandsList
+ * (001974) S_GDATA32: [0002:00000818], Type:             0x1011, IID_IDirectDraw4
+ * (001994) S_GDATA32: [0003:00C30DE0], Type:             0x1A4F, SysConfig
+ * (0019AC) S_GDATA32: [0003:00C2E420], Type:             0x1EB8, VideoProfile
+ * (0019C8) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
+ * (0019E0) S_GDATA32: [0002:00000B38], Type:             0x1011, IID_IDirect3D3
+ * (001A00) S_GDATA32: [0002:00000B68], Type:             0x1011, IID_IDirect3DHALDevice
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00092BA0], Cb: 00000034, Type:             0x1EBB, CFG_ValidateVideoProfile
  *          Parent: 00000000, End: 00000114, Next: 00000118
  *          Debug start: 00000004, Debug end: 00000030
@@ -25,7 +41,9 @@
  * (0000FC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), CardIndex
  * 
  * (000114) S_END
- * 
+ */
+
+/*
  * (000118) S_LPROC32: [0001:00092BD4], Cb: 0000001F, Type:             0x1EBC, CFG_SelectVideoCard
  *          Parent: 00000000, End: 0000017C, Next: 00000180
  *          Debug start: 00000003, Debug end: 0000001D
@@ -35,7 +53,9 @@
  * (000168)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (00017C) S_END
- * 
+ */
+
+/*
  * (000180) S_LPROC32: [0001:00092BF3], Cb: 00000029, Type:             0x1EBC, CFG_ShowMenu
  *          Parent: 00000000, End: 000001DC, Next: 000001E0
  *          Debug start: 00000003, Debug end: 00000027
@@ -45,7 +65,9 @@
  * (0001C8)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (0001DC) S_END
- * 
+ */
+
+/*
  * (0001E0) S_LPROC32: [0001:00092C1C], Cb: 0000001F, Type:             0x1EBC, CFG_CardName
  *          Parent: 00000000, End: 0000023C, Next: 00000240
  *          Debug start: 00000003, Debug end: 0000001D
@@ -55,7 +77,9 @@
  * (000228)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (00023C) S_END
- * 
+ */
+
+/*
  * (000240) S_LPROC32: [0001:00092C3B], Cb: 00000080, Type:             0x1EBC, CFG_CardGUID
  *          Parent: 00000000, End: 000002C8, Next: 000002CC
  *          Debug start: 00000004, Debug end: 0000007C
@@ -72,7 +96,9 @@
  * (0002C4)  S_END
  * 
  * (0002C8) S_END
- * 
+ */
+
+/*
  * (0002CC) S_LPROC32: [0001:00092CBB], Cb: 0000006F, Type:             0x1EBC, CFG_CardRes
  *          Parent: 00000000, End: 00000328, Next: 0000032C
  *          Debug start: 00000003, Debug end: 0000006D
@@ -82,7 +108,9 @@
  * (000314)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000328) S_END
- * 
+ */
+
+/*
  * (00032C) S_LPROC32: [0001:00092D2A], Cb: 00000029, Type:             0x1EBC, CFG_CardMipMapping
  *          Parent: 00000000, End: 00000390, Next: 00000394
  *          Debug start: 00000003, Debug end: 00000027
@@ -92,7 +120,9 @@
  * (00037C)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000390) S_END
- * 
+ */
+
+/*
  * (000394) S_LPROC32: [0001:00092D53], Cb: 00000029, Type:             0x1EBC, CFG_CardMultiTexture
  *          Parent: 00000000, End: 000003F8, Next: 000003FC
  *          Debug start: 00000003, Debug end: 00000027
@@ -102,7 +132,9 @@
  * (0003E4)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (0003F8) S_END
- * 
+ */
+
+/*
  * (0003FC) S_LPROC32: [0001:00092D7C], Cb: 00000029, Type:             0x1EBC, CFG_Card32BitTextures
  *          Parent: 00000000, End: 00000464, Next: 00000468
  *          Debug start: 00000003, Debug end: 00000027
@@ -112,7 +144,9 @@
  * (000450)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000464) S_END
- * 
+ */
+
+/*
  * (000468) S_LPROC32: [0001:00092DA5], Cb: 00000029, Type:             0x1EBC, CFG_CardAntiJudder
  *          Parent: 00000000, End: 000004CC, Next: 000004D0
  *          Debug start: 00000003, Debug end: 00000027
@@ -122,7 +156,9 @@
  * (0004B8)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (0004CC) S_END
- * 
+ */
+
+/*
  * (0004D0) S_LPROC32: [0001:00092DCE], Cb: 00000029, Type:             0x1EBC, CFG_CardDisableAlphaTest
  *          Parent: 00000000, End: 00000538, Next: 0000053C
  *          Debug start: 00000003, Debug end: 00000027
@@ -132,7 +168,9 @@
  * (000524)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000538) S_END
- * 
+ */
+
+/*
  * (00053C) S_LPROC32: [0001:00092DF7], Cb: 0000001F, Type:             0x1EBC, CFG_CardDetail
  *          Parent: 00000000, End: 0000059C, Next: 000005A0
  *          Debug start: 00000003, Debug end: 0000001D
@@ -142,7 +180,9 @@
  * (000588)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (00059C) S_END
- * 
+ */
+
+/*
  * (0005A0) S_LPROC32: [0001:00092E16], Cb: 0000001A, Type:             0x1EBC, CFG_SoundProvider
  *          Parent: 00000000, End: 00000604, Next: 00000608
  *          Debug start: 00000003, Debug end: 00000018
@@ -152,7 +192,9 @@
  * (0005F0)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000604) S_END
- * 
+ */
+
+/*
  * (000608) S_LPROC32: [0001:00092E30], Cb: 0000001A, Type:             0x1EBC, CFG_SoundQuality
  *          Parent: 00000000, End: 00000668, Next: 0000066C
  *          Debug start: 00000003, Debug end: 00000018
@@ -162,7 +204,9 @@
  * (000654)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000668) S_END
- * 
+ */
+
+/*
  * (00066C) S_GPROC32: [0001:00092E4A], Cb: 00000241, Type:             0x1EBE, CFIG_Load
  *          Parent: 00000000, End: 000007D8, Next: 000007DC
  *          Debug start: 00000009, Debug end: 0000023D
@@ -194,7 +238,9 @@
  * (0007D4)  S_END
  * 
  * (0007D8) S_END
- * 
+ */
+
+/*
  * (0007DC) S_LPROC32: [0001:0009308B], Cb: 00000217, Type:             0x1EC1, SplitLine
  *          Parent: 00000000, End: 000008F4, Next: 000008F8
  *          Debug start: 00000006, Debug end: 00000213
@@ -213,7 +259,9 @@
  * (0008E4)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), p
  * 
  * (0008F4) S_END
- * 
+ */
+
+/*
  * (0008F8) S_GPROC32: [0001:000932A2], Cb: 00000131, Type:             0x1EBE, CFIG_SetDefaults
  *          Parent: 00000000, End: 00000948, Next: 0000094C
  *          Debug start: 00000003, Debug end: 0000012F
@@ -222,14 +270,18 @@
  * (000930)  S_BPREL32: [00000008], Type:             0x1EB9, VProfile
  * 
  * (000948) S_END
- * 
+ */
+
+/*
  * (00094C) S_GPROC32: [0001:000933D3], Cb: 00000014, Type:             0x1001, CFIG_Save
  *          Parent: 00000000, End: 00000980, Next: 00000984
  *          Debug start: 00000003, Debug end: 00000012
  *          Flags: Frame Ptr Present
  * 
  * (000980) S_END
- * 
+ */
+
+/*
  * (000984) S_LPROC32: [0001:000933E7], Cb: 0000023A, Type:             0x1001, Save
  *          Parent: 00000000, End: 000009EC, Next: 000009F0
  *          Debug start: 00000006, Debug end: 00000236
@@ -245,14 +297,18 @@
  * (0009E8)  S_END
  * 
  * (0009EC) S_END
- * 
+ */
+
+/*
  * (0009F0) S_GPROC32: [0001:00093621], Cb: 00000014, Type:             0x1001, CFIG_Test
  *          Parent: 00000000, End: 00000A24, Next: 00000A28
  *          Debug start: 00000003, Debug end: 00000012
  *          Flags: Frame Ptr Present
  * 
  * (000A24) S_END
- * 
+ */
+
+/*
  * (000A28) S_LPROC32: [0001:00093635], Cb: 00000024, Type:             0x1EBC, PRO_ResetGCards
  *          Parent: 00000000, End: 00000A88, Next: 00000A8C
  *          Debug start: 00000003, Debug end: 00000022
@@ -262,7 +318,9 @@
  * (000A74)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000A88) S_END
- * 
+ */
+
+/*
  * (000A8C) S_LPROC32: [0001:00093659], Cb: 00000036, Type:             0x1EBC, PRO_StartCard
  *          Parent: 00000000, End: 00000AEC, Next: 00000AF0
  *          Debug start: 00000003, Debug end: 00000034
@@ -272,7 +330,9 @@
  * (000AD8)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000AEC) S_END
- * 
+ */
+
+/*
  * (000AF0) S_LPROC32: [0001:0009368F], Cb: 00000099, Type:             0x1EBC, PRO_GraphicGuid
  *          Parent: 00000000, End: 00000B7C, Next: 00000B80
  *          Debug start: 00000004, Debug end: 00000095
@@ -289,7 +349,9 @@
  * (000B78)  S_END
  * 
  * (000B7C) S_END
- * 
+ */
+
+/*
  * (000B80) S_LPROC32: [0001:00093728], Cb: 0000003F, Type:             0x1EBC, PRO_DirectX6
  *          Parent: 00000000, End: 00000BDC, Next: 00000BE0
  *          Debug start: 00000003, Debug end: 0000003D
@@ -299,7 +361,9 @@
  * (000BC8)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000BDC) S_END
- * 
+ */
+
+/*
  * (000BE0) S_LPROC32: [0001:00093767], Cb: 0000003F, Type:             0x1EBC, PRO_SharedWithGDI
  *          Parent: 00000000, End: 00000C44, Next: 00000C48
  *          Debug start: 00000003, Debug end: 0000003D
@@ -309,7 +373,9 @@
  * (000C30)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000C44) S_END
- * 
+ */
+
+/*
  * (000C48) S_LPROC32: [0001:000937A6], Cb: 0000003F, Type:             0x1EBC, PRO_WindowRender
  *          Parent: 00000000, End: 00000CA8, Next: 00000CAC
  *          Debug start: 00000003, Debug end: 0000003D
@@ -319,7 +385,9 @@
  * (000C94)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000CA8) S_END
- * 
+ */
+
+/*
  * (000CAC) S_LPROC32: [0001:000937E5], Cb: 0000003F, Type:             0x1EBC, PRO_Gamma
  *          Parent: 00000000, End: 00000D08, Next: 00000D0C
  *          Debug start: 00000003, Debug end: 0000003D
@@ -329,7 +397,9 @@
  * (000CF4)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000D08) S_END
- * 
+ */
+
+/*
  * (000D0C) S_LPROC32: [0001:00093824], Cb: 00000035, Type:             0x1EBC, PRO_TexFormats
  *          Parent: 00000000, End: 00000D6C, Next: 00000D70
  *          Debug start: 00000003, Debug end: 00000033
@@ -339,7 +409,9 @@
  * (000D58)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000D6C) S_END
- * 
+ */
+
+/*
  * (000D70) S_LPROC32: [0001:00093859], Cb: 000000ED, Type:             0x1EBC, PRO_AddMode
  *          Parent: 00000000, End: 00000E30, Next: 00000E34
  *          Debug start: 00000006, Debug end: 000000E9
@@ -363,7 +435,9 @@
  * (000E2C)  S_END
  * 
  * (000E30) S_END
- * 
+ */
+
+/*
  * (000E34) S_LPROC32: [0001:00093946], Cb: 00000012, Type:             0x1EBC, PRO_EndCard
  *          Parent: 00000000, End: 00000E90, Next: 00000E94
  *          Debug start: 00000003, Debug end: 00000010
@@ -373,7 +447,9 @@
  * (000E7C)  S_BPREL32: [0000000C], Type:             0x171D, AList
  * 
  * (000E90) S_END
- * 
+ */
+
+/*
  * (000E94) S_GPROC32: [0001:00093958], Cb: 000000A2, Type:             0x1EC5, VidSort
  *          Parent: 00000000, End: 00000F0C, Next: 00000F10
  *          Debug start: 00000006, Debug end: 0000009E
@@ -385,7 +461,9 @@
  * (000EF8)  S_BPREL32: [FFFFFFFC], Type:             0x1EC4, lpVM1
  * 
  * (000F0C) S_END
- * 
+ */
+
+/*
  * (000F10) S_GPROC32: [0001:000939FA], Cb: 00000B1E, Type:             0x1EC6, CFIG_ProfileSystem
  *          Parent: 00000000, End: 000012CC, Next: 000012D0
  *          Debug start: 00000009, Debug end: 00000B1A
@@ -485,7 +563,9 @@
  * (0012C8)  S_END
  * 
  * (0012CC) S_END
- * 
+ */
+
+/*
  * (0012D0) S_LPROC32: [0001:00094518], Cb: 00000BCB, Type:             0x17B2, enumVideoProfileCB
  *          Parent: 00000000, End: 00001688, Next: 0000168C
  *          Debug start: 0000000D, Debug end: 00000BC5
@@ -579,7 +659,9 @@
  * (001684)  S_END
  * 
  * (001688) S_END
- * 
+ */
+
+/*
  * (00168C) S_LPROC32: [0001:000950E3], Cb: 00000077, Type:             0x146D, enumZBufferFormatsProfileCB
  *          Parent: 00000000, End: 00001738, Next: 0000173C
  *          Debug start: 00000006, Debug end: 00000071
@@ -591,7 +673,9 @@
  * (00171C)  S_BPREL32: [FFFFFFFC], Type:             0x1049, lpZPixelFormat
  * 
  * (001738) S_END
- * 
+ */
+
+/*
  * (00173C) S_LPROC32: [0001:0009515A], Cb: 000000AB, Type:             0x160A, enumVideoModesProfileCB
  *          Parent: 00000000, End: 000017D8, Next: 000017DC
  *          Debug start: 00000006, Debug end: 000000A5
@@ -603,7 +687,9 @@
  * (0017BC)  S_BPREL32: [FFFFFFFC], Type:             0x1ECC, lpVideoModes
  * 
  * (0017D8) S_END
- * 
+ */
+
+/*
  * (0017DC) S_LPROC32: [0001:00095205], Cb: 000000DE, Type:             0x146D, enumTextureFormatsCB
  *          Parent: 00000000, End: 00001894, Next: 00001898
  *          Debug start: 00000006, Debug end: 000000D8
@@ -621,7 +707,9 @@
  * (001890)  S_END
  * 
  * (001894) S_END
- * 
+ */
+
+/*
  * (001898) S_LPROC32: [0001:000952E3], Cb: 00000050, Type:             0x182A, BitCounter
  *          Parent: 00000000, End: 00001918, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000004C
@@ -633,16 +721,5 @@
  * (001908)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (001918) S_END
- * 
- * (00191C) S_LDATA32: [0003:00070540], Type:             0x1ED0, CommandsList
- * (001938) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
- * (001950) S_LDATA32: [0003:000705B8], Type:             0x1ED1, ProfileCommandsList
- * (001974) S_GDATA32: [0002:00000818], Type:             0x1011, IID_IDirectDraw4
- * (001994) S_GDATA32: [0003:00C30DE0], Type:             0x1A4F, SysConfig
- * (0019AC) S_GDATA32: [0003:00C2E420], Type:             0x1EB8, VideoProfile
- * (0019C8) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
- * (0019E0) S_GDATA32: [0002:00000B38], Type:             0x1011, IID_IDirect3D3
- * (001A00) S_GDATA32: [0002:00000B68], Type:             0x1011, IID_IDirect3DHALDevice
- * 
  */
 

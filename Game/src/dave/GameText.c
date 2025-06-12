@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000144) S_GDATA32: [0002:0000045C], Type:             0x1D17, GAMETEXT_Filename
+ * (000164) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
+ * (00017C) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0000D150], Cb: 000001BE, Type:             0x1001, GAMETEXT_Allocate
  *          Parent: 00000000, End: 00000140, Next: 00000000
  *          Debug start: 00000009, Debug end: 00000176
@@ -29,10 +39,5 @@
  * (000130)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000140) S_END
- * 
- * (000144) S_GDATA32: [0002:0000045C], Type:             0x1D17, GAMETEXT_Filename
- * (000164) S_GDATA32: [0003:0097F280], Type:             0x1C41, GAMETEXT
- * (00017C) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * 
  */
 

@@ -15,13 +15,111 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (001188) S_GDATA32: [0003:0097BC90], Type:             0x1008, windCurrentVector
+ * (0011A8) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
+ * (0011BC) S_GDATA32: [0003:0097B4B8], Type:             0x1404, moon
+ * (0011D0) S_GDATA32: [0003:0097B4E0], Type:     T_REAL32(0040), skyZ
+ * (0011E4) S_GDATA32: [0003:0097B4C4], Type:      T_ULONG(0022), clrBlu
+ * (0011FC) S_GDATA32: [0003:0097B4C8], Type:      T_ULONG(0022), clrKey
+ * (001214) S_GDATA32: [0003:0097B4D0], Type:             0x1769, clrHrz
+ * (00122C) S_GDATA32: [0003:0097B4B0], Type:      T_ULONG(0022), zenith1
+ * (001244) S_GDATA32: [0003:0097B4B4], Type:      T_ULONG(0022), zenith2
+ * (00125C) S_GDATA32: [0003:0097B4EC], Type:     T_REAL32(0040), canopy1
+ * (001274) S_GDATA32: [0003:0097B4F0], Type:     T_REAL32(0040), canopy2
+ * (00128C) S_GDATA32: [0003:0097B4BC], Type:     T_REAL32(0040), mass1
+ * (0012A0) S_GDATA32: [0003:0097B4C0], Type:     T_REAL32(0040), mass2
+ * (0012B4) S_GDATA32: [0003:0097B4E4], Type:     T_REAL32(0040), tile1
+ * (0012C8) S_GDATA32: [0003:0097B4E8], Type:     T_REAL32(0040), tile2
+ * (0012DC) S_GDATA32: [0003:0097B4AD], Type:      T_UCHAR(0020), rm1
+ * (0012F0) S_GDATA32: [0003:0097B4AE], Type:      T_UCHAR(0020), rm2
+ * (001304) S_GDATA32: [0003:0097B4AC], Type:      T_UCHAR(0020), skyNoClouds
+ * (001320) S_LDATA32: [0003:00077760], Type:             0x1B24, fans
+ * (001334) S_LDATA32: [0003:00077490], Type:             0x1B25, vrts
+ * (001348) S_LDATA32: [0003:00076EB8], Type:             0x1B25, mvrts
+ * (00135C) S_LDATA32: [0003:000770F8], Type:             0x1B26, Horizon
+ * (001374) S_LDATA32: [0003:00077708], Type:             0x1B27, HorizonVerts
+ * (001390) S_LDATA32: [0003:000777B8], Type:     T_REAL32(0040), SkyAngStep
+ * (0013AC) S_LDATA32: [0003:000776C8], Type:             0x1AE0, vCrn
+ * (0013C0) S_LDATA32: [0003:000777A8], Type:             0x1769, theta
+ * (0013D4) S_LDATA32: [0003:000776AC], Type:             0x13BA, phi
+ * (0013E8) S_LDATA32: [0003:000776F8], Type:     T_REAL32(0040), uo1
+ * (0013FC) S_LDATA32: [0003:00077700], Type:     T_REAL32(0040), vo1
+ * (001410) S_LDATA32: [0003:000776FC], Type:     T_REAL32(0040), uo2
+ * (001424) S_LDATA32: [0003:00077704], Type:     T_REAL32(0040), vo2
+ * (001438) S_LDATA32: [0003:00077694], Type:             0x13A0, cloud1
+ * (001450) S_LDATA32: [0003:00077698], Type:             0x13A0, cloud2
+ * (001468) S_LDATA32: [0003:00077690], Type:             0x13A0, backdrop
+ * (001480) S_LDATA32: [0003:000776A8], Type:             0x1404, skyObj
+ * (001498) S_LDATA32: [0003:00077754], Type:      T_ULONG(0022), nc
+ * (0014AC) S_LDATA32: [0003:000776C0], Type:      T_ULONG(0022), vc1
+ * (0014C0) S_LDATA32: [0003:000776C4], Type:      T_ULONG(0022), vc2
+ * (0014D4) S_LDATA32: [0003:00077758], Type:      T_ULONG(0022), tc
+ * (0014E8) S_LDATA32: [0003:000776A4], Type:      T_ULONG(0022), angAdd
+ * (001500) S_LDATA32: [0003:000770B8], Type:             0x1006, M
+ * (001510) S_LDATA32: [0003:00011280], Type:             0x1B28, cTex1
+ * (001524) S_LDATA32: [0003:00011290], Type:             0x1B28, cTex2
+ * (001538) S_LDATA32: [0003:000112A0], Type:             0x13BA, cLyr1
+ * (00154C) S_LDATA32: [0003:000112B0], Type:             0x13BA, cLyr2
+ * (001560) S_LDATA32: [0003:000112C0], Type:             0x1769, cBlu
+ * (001574) S_LDATA32: [0003:000112D0], Type:             0x1769, cHrz1
+ * (001588) S_LDATA32: [0003:000112E0], Type:             0x1769, cHrz2
+ * (00159C) S_LDATA32: [0003:000112F0], Type:             0x1769, cHrz3
+ * (0015B0) S_LDATA32: [0003:00011300], Type:             0x1769, cHrz4
+ * (0015C4) S_LDATA32: [0003:00011310], Type:             0x1769, cZnth1
+ * (0015DC) S_LDATA32: [0003:00011320], Type:             0x1769, cZnth2
+ * (0015F4) S_LDATA32: [0003:00011330], Type:             0x1ABC, cRend1
+ * (00160C) S_LDATA32: [0003:00011334], Type:             0x1ABC, cRend2
+ * (001624) S_LDATA32: [0003:00011338], Type:             0x13BA, cMass1
+ * (00163C) S_LDATA32: [0003:00011348], Type:             0x13BA, cMass2
+ * (001654) S_LDATA32: [0003:00011358], Type:             0x13BA, cTile1
+ * (00166C) S_LDATA32: [0003:00011368], Type:             0x13BA, cTile2
+ * (001684) S_LDATA32: [0003:000776A0], Type:      T_UCHAR(0020), drawIterations
+ * (0016A4) S_LDATA32: [0003:00077750], Type:     T_REAL32(0040), drawAvgTime
+ * (0016C0) S_LDATA32: [0003:0007769C], Type:     T_REAL32(0040), drawAccTime
+ * (0016DC) S_LDATA32: [0003:00076A78], Type:             0x1B29, dome1
+ * (0016F0) S_LDATA32: [0003:00076C98], Type:             0x1B29, dome2
+ * (001704) S_LDATA32: [0003:000773F8], Type:             0x1B2A, domet
+ * (001718) S_GDATA32: [0003:00915AAC], Type:       T_INT4(0074), gClouds
+ * (001730) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (001748) S_GDATA32: [0003:00C9A6E4], Type:             0x13EB, CurScreen
+ * (001760) S_GDATA32: [0003:0006D318], Type:             0x1664, RS
+ * (001774) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (001790) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (0017AC) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ * (0017CC) S_GDATA32: [0003:00C97120], Type:             0x169F, RC
+ * (0017E0) S_GDATA32: [0003:0091ED38], Type:       T_INT4(0074), RS_BilinearEnable
+ * (001800) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
+ * (00181C) S_GDATA32: [0003:0006D3A0], Type:             0x1B2C, TS
+ * (001830) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
+ * (00184C) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
+ * (001868) S_GDATA32: [0003:00C971AC], Type:      T_ULONG(0022), RS_BilinearChge
+ * (001888) S_GDATA32: [0003:00C97110], Type:      T_ULONG(0022), RS_DPICalled
+ * (0018A4) S_GDATA32: [0003:00C970C8], Type:      T_ULONG(0022), RS_DPIVCount
+ * (0018C0) S_GDATA32: [0003:00C971BC], Type:      T_ULONG(0022), RS_DPIICount
+ * (0018DC) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
+ * (0018FC) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
+ * (001918) S_GDATA32: [0003:0006D5BC], Type:             0x1B2D, RS_ZCmp
+ * (001930) S_GDATA32: [0003:0006D5EC], Type:             0x1B2D, RS_TextureOp
+ * (00194C) S_GDATA32: [0003:0006D6D4], Type:             0x1B2D, RS_MagFilterType
+ * (00196C) S_GDATA32: [0003:0006D6EC], Type:             0x1B2D, RS_MinFilterType
+ * (00198C) S_GDATA32: [0003:0006D70C], Type:             0x1B2D, RS_TextureAddress
+ * (0019AC) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00034060], Cb: 0000001B, Type:             0x1001, skyToggleClouds
  *          Parent: 00000000, End: 000000C4, Next: 000000C8
  *          Debug start: 00000003, Debug end: 00000019
  *          Flags: Frame Ptr Present
  * 
  * (0000C4) S_END
- * 
+ */
+
+/*
  * (0000C8) S_GPROC32: [0001:0003407B], Cb: 000000C3, Type:             0x1B10, skyTexLoad
  *          Parent: 00000000, End: 00000134, Next: 00000138
  *          Debug start: 00000004, Debug end: 000000BF
@@ -32,7 +130,9 @@
  * (000124)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), fi
  * 
  * (000134) S_END
- * 
+ */
+
+/*
  * (000138) S_GPROC32: [0001:0003413E], Cb: 000008D8, Type:             0x1A3C, skyInitialize
  *          Parent: 00000000, End: 0000024C, Next: 00000250
  *          Debug start: 00000006, Debug end: 000008D4
@@ -57,7 +157,9 @@
  * (000248)  S_END
  * 
  * (00024C) S_END
- * 
+ */
+
+/*
  * (000250) S_LPROC32: [0001:00034A16], Cb: 000004F4, Type:             0x1408, eraseSky
  *          Parent: 00000000, End: 00000350, Next: 00000354
  *          Debug start: 00000006, Debug end: 000004F0
@@ -76,14 +178,18 @@
  * (000338)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), ScrollPos
  * 
  * (000350) S_END
- * 
+ */
+
+/*
  * (000354) S_LPROC32: [0001:00034F0A], Cb: 00000005, Type:             0x1001, tmrBeginTiming
  *          Parent: 00000000, End: 0000038C, Next: 00000390
  *          Debug start: 00000003, Debug end: 00000003
  *          Flags: Frame Ptr Present
  * 
  * (00038C) S_END
- * 
+ */
+
+/*
  * (000390) S_LPROC32: [0001:00034F0F], Cb: 0000010F, Type:             0x1001, drawFans
  *          Parent: 00000000, End: 000003D0, Next: 000003D4
  *          Debug start: 00000004, Debug end: 0000010B
@@ -92,7 +198,9 @@
  * (0003C0)  S_BPREL32: [FFFFFFFC], Type:      T_UCHAR(0020), i
  * 
  * (0003D0) S_END
- * 
+ */
+
+/*
  * (0003D4) S_LPROC32: [0001:0003501E], Cb: 000015A8, Type:             0x1001, makeFans
  *          Parent: 00000000, End: 00000BDC, Next: 00000BE0
  *          Debug start: 00000009, Debug end: 000015A4
@@ -355,7 +463,9 @@
  * (000BD8)  S_END
  * 
  * (000BDC) S_END
- * 
+ */
+
+/*
  * (000BE0) S_LPROC32: [0001:000365C6], Cb: 000000E4, Type:             0x1B12, clrFLTInterpolate
  *          Parent: 00000000, End: 00000C80, Next: 00000C84
  *          Debug start: 00000007, Debug end: 000000DF
@@ -369,7 +479,9 @@
  * (000C70)  S_BPREL32: [FFFFFFFC], Type:      T_SHORT(0011), v1
  * 
  * (000C80) S_END
- * 
+ */
+
+/*
  * (000C84) S_LPROC32: [0001:000366AA], Cb: 00000011, Type:             0x1B14, Interpolate
  *          Parent: 00000000, End: 00000CEC, Next: 00000CF0
  *          Debug start: 00000003, Debug end: 0000000F
@@ -380,7 +492,9 @@
  * (000CD8)  S_BPREL32: [00000010], Type:     T_REAL32(0040), alpha
  * 
  * (000CEC) S_END
- * 
+ */
+
+/*
  * (000CF0) S_LPROC32: [0001:000366BB], Cb: 00000063, Type:             0x1B16, horizonColour
  *          Parent: 00000000, End: 00000D6C, Next: 00000D70
  *          Debug start: 00000006, Debug end: 0000005F
@@ -392,7 +506,9 @@
  * (000D5C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), c1
  * 
  * (000D6C) S_END
- * 
+ */
+
+/*
  * (000D70) S_LPROC32: [0001:0003671E], Cb: 000000D2, Type:             0x1B18, clrINTInterpolate
  *          Parent: 00000000, End: 00000E20, Next: 00000E24
  *          Debug start: 00000007, Debug end: 000000CD
@@ -407,7 +523,9 @@
  * (000E10)  S_BPREL32: [FFFFFFFC], Type:      T_SHORT(0011), v1
  * 
  * (000E20) S_END
- * 
+ */
+
+/*
  * (000E24) S_LPROC32: [0001:000367F0], Cb: 0000005B, Type:             0x1B1A, addPtToBand
  *          Parent: 00000000, End: 00000E80, Next: 00000E84
  *          Debug start: 00000003, Debug end: 00000059
@@ -417,7 +535,9 @@
  * (000E6C)  S_BPREL32: [0000000C], Type:     T_USHORT(0021), index
  * 
  * (000E80) S_END
- * 
+ */
+
+/*
  * (000E84) S_LPROC32: [0001:0003684B], Cb: 00000153, Type:             0x1B1C, makeVertex
  *          Parent: 00000000, End: 00000EEC, Next: 00000EF0
  *          Debug start: 00000003, Debug end: 00000151
@@ -428,7 +548,9 @@
  * (000ED8)  S_BPREL32: [00000010], Type:      T_ULONG(0022), colour
  * 
  * (000EEC) S_END
- * 
+ */
+
+/*
  * (000EF0) S_LPROC32: [0001:0003699E], Cb: 0000031A, Type:             0x1001, projectVectors
  *          Parent: 00000000, End: 00000FC4, Next: 00000FC8
  *          Debug start: 00000009, Debug end: 00000316
@@ -445,7 +567,9 @@
  * (000FB0)  S_BPREL32: [FFFFFFF4], Type:             0x1008, tvCrn
  * 
  * (000FC4) S_END
- * 
+ */
+
+/*
  * (000FC8) S_LPROC32: [0001:00036CB8], Cb: 000000E1, Type:             0x1408, scrollSky
  *          Parent: 00000000, End: 0000100C, Next: 00001010
  *          Debug start: 00000003, Debug end: 000000DF
@@ -454,7 +578,9 @@
  * (000FFC)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (00100C) S_END
- * 
+ */
+
+/*
  * (001010) S_LPROC32: [0001:00036D99], Cb: 000000DB, Type:             0x1B1E, domeVertex
  *          Parent: 00000000, End: 000010A8, Next: 000010AC
  *          Debug start: 00000006, Debug end: 000000D7
@@ -468,7 +594,9 @@
  * (001098)  S_BPREL32: [FFFFFFFC], Type:             0x13B3, v
  * 
  * (0010A8) S_END
- * 
+ */
+
+/*
  * (0010AC) S_LPROC32: [0001:00036E74], Cb: 000000BF, Type:             0x1B20, domeTri
  *          Parent: 00000000, End: 0000114C, Next: 00001150
  *          Debug start: 00000004, Debug end: 000000BB
@@ -483,104 +611,18 @@
  * (00113C)  S_BPREL32: [FFFFFFFC], Type:  T_32PUSHORT(0421), t
  * 
  * (00114C) S_END
- * 
+ */
+
+/*
  * (001150) S_GPROC32: [0001:00036F33], Cb: 00000013, Type:             0x1001, skyRelease
  *          Parent: 00000000, End: 00001184, Next: 000019C8
  *          Debug start: 00000003, Debug end: 00000011
  *          Flags: Frame Ptr Present
  * 
  * (001184) S_END
- * 
- * (001188) S_GDATA32: [0003:0097BC90], Type:             0x1008, windCurrentVector
- * (0011A8) S_GDATA32: [0003:0099D280], Type:             0x1A44, Filez
- * (0011BC) S_GDATA32: [0003:0097B4B8], Type:             0x1404, moon
- * (0011D0) S_GDATA32: [0003:0097B4E0], Type:     T_REAL32(0040), skyZ
- * (0011E4) S_GDATA32: [0003:0097B4C4], Type:      T_ULONG(0022), clrBlu
- * (0011FC) S_GDATA32: [0003:0097B4C8], Type:      T_ULONG(0022), clrKey
- * (001214) S_GDATA32: [0003:0097B4D0], Type:             0x1769, clrHrz
- * (00122C) S_GDATA32: [0003:0097B4B0], Type:      T_ULONG(0022), zenith1
- * (001244) S_GDATA32: [0003:0097B4B4], Type:      T_ULONG(0022), zenith2
- * (00125C) S_GDATA32: [0003:0097B4EC], Type:     T_REAL32(0040), canopy1
- * (001274) S_GDATA32: [0003:0097B4F0], Type:     T_REAL32(0040), canopy2
- * (00128C) S_GDATA32: [0003:0097B4BC], Type:     T_REAL32(0040), mass1
- * (0012A0) S_GDATA32: [0003:0097B4C0], Type:     T_REAL32(0040), mass2
- * (0012B4) S_GDATA32: [0003:0097B4E4], Type:     T_REAL32(0040), tile1
- * (0012C8) S_GDATA32: [0003:0097B4E8], Type:     T_REAL32(0040), tile2
- * (0012DC) S_GDATA32: [0003:0097B4AD], Type:      T_UCHAR(0020), rm1
- * (0012F0) S_GDATA32: [0003:0097B4AE], Type:      T_UCHAR(0020), rm2
- * (001304) S_GDATA32: [0003:0097B4AC], Type:      T_UCHAR(0020), skyNoClouds
- * (001320) S_LDATA32: [0003:00077760], Type:             0x1B24, fans
- * (001334) S_LDATA32: [0003:00077490], Type:             0x1B25, vrts
- * (001348) S_LDATA32: [0003:00076EB8], Type:             0x1B25, mvrts
- * (00135C) S_LDATA32: [0003:000770F8], Type:             0x1B26, Horizon
- * (001374) S_LDATA32: [0003:00077708], Type:             0x1B27, HorizonVerts
- * (001390) S_LDATA32: [0003:000777B8], Type:     T_REAL32(0040), SkyAngStep
- * (0013AC) S_LDATA32: [0003:000776C8], Type:             0x1AE0, vCrn
- * (0013C0) S_LDATA32: [0003:000777A8], Type:             0x1769, theta
- * (0013D4) S_LDATA32: [0003:000776AC], Type:             0x13BA, phi
- * (0013E8) S_LDATA32: [0003:000776F8], Type:     T_REAL32(0040), uo1
- * (0013FC) S_LDATA32: [0003:00077700], Type:     T_REAL32(0040), vo1
- * (001410) S_LDATA32: [0003:000776FC], Type:     T_REAL32(0040), uo2
- * (001424) S_LDATA32: [0003:00077704], Type:     T_REAL32(0040), vo2
- * (001438) S_LDATA32: [0003:00077694], Type:             0x13A0, cloud1
- * (001450) S_LDATA32: [0003:00077698], Type:             0x13A0, cloud2
- * (001468) S_LDATA32: [0003:00077690], Type:             0x13A0, backdrop
- * (001480) S_LDATA32: [0003:000776A8], Type:             0x1404, skyObj
- * (001498) S_LDATA32: [0003:00077754], Type:      T_ULONG(0022), nc
- * (0014AC) S_LDATA32: [0003:000776C0], Type:      T_ULONG(0022), vc1
- * (0014C0) S_LDATA32: [0003:000776C4], Type:      T_ULONG(0022), vc2
- * (0014D4) S_LDATA32: [0003:00077758], Type:      T_ULONG(0022), tc
- * (0014E8) S_LDATA32: [0003:000776A4], Type:      T_ULONG(0022), angAdd
- * (001500) S_LDATA32: [0003:000770B8], Type:             0x1006, M
- * (001510) S_LDATA32: [0003:00011280], Type:             0x1B28, cTex1
- * (001524) S_LDATA32: [0003:00011290], Type:             0x1B28, cTex2
- * (001538) S_LDATA32: [0003:000112A0], Type:             0x13BA, cLyr1
- * (00154C) S_LDATA32: [0003:000112B0], Type:             0x13BA, cLyr2
- * (001560) S_LDATA32: [0003:000112C0], Type:             0x1769, cBlu
- * (001574) S_LDATA32: [0003:000112D0], Type:             0x1769, cHrz1
- * (001588) S_LDATA32: [0003:000112E0], Type:             0x1769, cHrz2
- * (00159C) S_LDATA32: [0003:000112F0], Type:             0x1769, cHrz3
- * (0015B0) S_LDATA32: [0003:00011300], Type:             0x1769, cHrz4
- * (0015C4) S_LDATA32: [0003:00011310], Type:             0x1769, cZnth1
- * (0015DC) S_LDATA32: [0003:00011320], Type:             0x1769, cZnth2
- * (0015F4) S_LDATA32: [0003:00011330], Type:             0x1ABC, cRend1
- * (00160C) S_LDATA32: [0003:00011334], Type:             0x1ABC, cRend2
- * (001624) S_LDATA32: [0003:00011338], Type:             0x13BA, cMass1
- * (00163C) S_LDATA32: [0003:00011348], Type:             0x13BA, cMass2
- * (001654) S_LDATA32: [0003:00011358], Type:             0x13BA, cTile1
- * (00166C) S_LDATA32: [0003:00011368], Type:             0x13BA, cTile2
- * (001684) S_LDATA32: [0003:000776A0], Type:      T_UCHAR(0020), drawIterations
- * (0016A4) S_LDATA32: [0003:00077750], Type:     T_REAL32(0040), drawAvgTime
- * (0016C0) S_LDATA32: [0003:0007769C], Type:     T_REAL32(0040), drawAccTime
- * (0016DC) S_LDATA32: [0003:00076A78], Type:             0x1B29, dome1
- * (0016F0) S_LDATA32: [0003:00076C98], Type:             0x1B29, dome2
- * (001704) S_LDATA32: [0003:000773F8], Type:             0x1B2A, domet
- * (001718) S_GDATA32: [0003:00915AAC], Type:       T_INT4(0074), gClouds
- * (001730) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (001748) S_GDATA32: [0003:00C9A6E4], Type:             0x13EB, CurScreen
- * (001760) S_GDATA32: [0003:0006D318], Type:             0x1664, RS
- * (001774) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (001790) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (0017AC) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * (0017CC) S_GDATA32: [0003:00C97120], Type:             0x169F, RC
- * (0017E0) S_GDATA32: [0003:0091ED38], Type:       T_INT4(0074), RS_BilinearEnable
- * (001800) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
- * (00181C) S_GDATA32: [0003:0006D3A0], Type:             0x1B2C, TS
- * (001830) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
- * (00184C) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
- * (001868) S_GDATA32: [0003:00C971AC], Type:      T_ULONG(0022), RS_BilinearChge
- * (001888) S_GDATA32: [0003:00C97110], Type:      T_ULONG(0022), RS_DPICalled
- * (0018A4) S_GDATA32: [0003:00C970C8], Type:      T_ULONG(0022), RS_DPIVCount
- * (0018C0) S_GDATA32: [0003:00C971BC], Type:      T_ULONG(0022), RS_DPIICount
- * (0018DC) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
- * (0018FC) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
- * (001918) S_GDATA32: [0003:0006D5BC], Type:             0x1B2D, RS_ZCmp
- * (001930) S_GDATA32: [0003:0006D5EC], Type:             0x1B2D, RS_TextureOp
- * (00194C) S_GDATA32: [0003:0006D6D4], Type:             0x1B2D, RS_MagFilterType
- * (00196C) S_GDATA32: [0003:0006D6EC], Type:             0x1B2D, RS_MinFilterType
- * (00198C) S_GDATA32: [0003:0006D70C], Type:             0x1B2D, RS_TextureAddress
- * (0019AC) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * 
+ */
+
+/*
  * (0019C8) S_GPROC32: [0001:00036F50], Cb: 0000005D, Type:             0x1A19, RSTATES_SetZFunc
  *          Parent: 00000000, End: 00001A14, Next: 00001A18
  *          Debug start: 00000003, Debug end: 0000005B
@@ -589,7 +631,9 @@
  * (001A00)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (001A14) S_END
- * 
+ */
+
+/*
  * (001A18) S_GPROC32: [0001:00036FB0], Cb: 0000006F, Type:             0x1A19, RSTATES_SetFogEnable
  *          Parent: 00000000, End: 00001A68, Next: 00001A6C
  *          Debug start: 00000004, Debug end: 0000006B
@@ -598,7 +642,9 @@
  * (001A54)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (001A68) S_END
- * 
+ */
+
+/*
  * (001A6C) S_GPROC32: [0001:00037020], Cb: 00000068, Type:             0x1B2F, TSTATES_SetAlphaOp
  *          Parent: 00000000, End: 00001AD0, Next: 00001AD4
  *          Debug start: 00000003, Debug end: 00000066
@@ -608,7 +654,9 @@
  * (001ABC)  S_BPREL32: [0000000C], Type:       T_INT4(0074), State
  * 
  * (001AD0) S_END
- * 
+ */
+
+/*
  * (001AD4) S_GPROC32: [0001:00037090], Cb: 00000056, Type:             0x1A19, RSTATES_SetShadeMode
  *          Parent: 00000000, End: 00001B24, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000054
@@ -617,6 +665,5 @@
  * (001B10)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (001B24) S_END
- * 
  */
 

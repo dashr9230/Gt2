@@ -16,87 +16,10 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
- * (00008C) S_GPROC32: [0001:00086CE0], Cb: 00000259, Type:             0x1ED3, BuildMatrix
- *          Parent: 00000000, End: 00000174, Next: 00000178
- *          Debug start: 00000006, Debug end: 00000255
- *          Flags: Frame Ptr Present
  * 
- * (0000C0)  S_BPREL32: [00000008], Type:     T_USHORT(0021), XAng
- * (0000D4)  S_BPREL32: [0000000C], Type:     T_USHORT(0021), YAng
- * (0000E8)  S_BPREL32: [00000010], Type:     T_USHORT(0021), ZAng
- * (0000FC)  S_BPREL32: [FFFFFFE8], Type:     T_REAL32(0040), SinZRot
- * (000110)  S_BPREL32: [FFFFFFEC], Type:     T_REAL32(0040), SinYRot
- * (000124)  S_BPREL32: [FFFFFFF0], Type:     T_REAL32(0040), SinXRot
- * (000138)  S_BPREL32: [FFFFFFF4], Type:     T_REAL32(0040), CosXRot
- * (00014C)  S_BPREL32: [FFFFFFF8], Type:     T_REAL32(0040), CosYRot
- * (000160)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), CosZRot
- * 
- * (000174) S_END
- * 
- * (000178) S_GPROC32: [0001:00086F39], Cb: 00000118, Type:             0x1001, SetupD3DSubSystem
- *          Parent: 00000000, End: 000001B4, Next: 000001B8
- *          Debug start: 00000003, Debug end: 00000116
- *          Flags: Frame Ptr Present
- * 
- * (0001B4) S_END
- * 
- * (0001B8) S_GPROC32: [0001:00087051], Cb: 0000012D, Type:             0x16A5, SetupD3DStates
- *          Parent: 00000000, End: 000001F0, Next: 000001F4
- *          Debug start: 00000003, Debug end: 0000012B
- *          Flags: Frame Ptr Present
- * 
- * (0001F0) S_END
- * 
- * (0001F4) S_GPROC32: [0001:0008717E], Cb: 0000011E, Type:             0x1001, SCREEN_AllocationInit
- *          Parent: 00000000, End: 00000244, Next: 00000248
- *          Debug start: 00000004, Debug end: 0000011A
- *          Flags: Frame Ptr Present
- * 
- * (000234)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), a
- * 
- * (000244) S_END
- * 
- * (000248) S_GPROC32: [0001:0008729C], Cb: 0000014A, Type:             0x1F90, SCREEN_Allocate
- *          Parent: 00000000, End: 000002AC, Next: 000002B0
- *          Debug start: 00000004, Debug end: 00000146
- *          Flags: Frame Ptr Present
- * 
- * (000280)  S_BPREL32: [00000008], Type:      T_UCHAR(0020), Priority
- * (000298)  S_BPREL32: [FFFFFFFC], Type:             0x1C08, NewScr
- * 
- * (0002AC) S_END
- * 
- * (0002B0) S_GPROC32: [0001:000873E6], Cb: 0000005D, Type:             0x13EF, SCREEN_Deallocate
- *          Parent: 00000000, End: 00000318, Next: 0000031C
- *          Debug start: 00000004, Debug end: 00000059
- *          Flags: Frame Ptr Present
- * 
- * (0002EC)  S_BPREL32: [00000008], Type:             0x13EB, ScrPort
- * (000300)  S_BPREL32: [FFFFFFFC], Type:             0x1C08, Scr2Kill
- * 
- * (000318) S_END
- * 
- * (00031C) S_GPROC32: [0001:00087443], Cb: 00000054, Type:             0x1F92, SCREEN_UpdateDynamicCameras
- *          Parent: 00000000, End: 00000388, Next: 0000038C
- *          Debug start: 00000004, Debug end: 00000050
- *          Flags: Frame Ptr Present
- * 
- * (000360)  S_BPREL32: [00000008], Type:             0x1C08, ScrUpdate
- * (000378)  S_BPREL32: [FFFFFFFC], Type:             0x13EB, Scr
- * 
- * (000388) S_END
- * 
- * (00038C) S_GPROC32: [0001:00087497], Cb: 00000164, Type:             0x1F92, SCREEN_Update
- *          Parent: 00000000, End: 00000400, Next: 00000788
- *          Debug start: 00000006, Debug end: 00000160
- *          Flags: Frame Ptr Present
- * 
- * (0003C4)  S_BPREL32: [00000008], Type:             0x1C08, ScrUpdate
- * (0003DC)  S_BPREL32: [FFFFFFF8], Type:      T_ULONG(0022), Updated
- * (0003F0)  S_BPREL32: [FFFFFFFC], Type:             0x13EB, Scr
- * 
- * (000400) S_END
- * 
+ */
+
+/*
  * (000404) S_GDATA32: [0003:00C9A960], Type:             0x1C06, UsedScreensHead
  * (000424) S_GDATA32: [0003:00C9A8A0], Type:             0x1006, RotX
  * (000438) S_GDATA32: [0003:00C9A8E0], Type:             0x1006, RotY
@@ -129,7 +52,106 @@
  * (000738) S_GDATA32: [0003:0006D6FC], Type:             0x1B2D, RS_MipFilterType
  * (000758) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
  * (000770) S_GDATA32: [0003:00C9A6E4], Type:             0x13EB, CurScreen
+ */
+
+/*
+ * (00008C) S_GPROC32: [0001:00086CE0], Cb: 00000259, Type:             0x1ED3, BuildMatrix
+ *          Parent: 00000000, End: 00000174, Next: 00000178
+ *          Debug start: 00000006, Debug end: 00000255
+ *          Flags: Frame Ptr Present
  * 
+ * (0000C0)  S_BPREL32: [00000008], Type:     T_USHORT(0021), XAng
+ * (0000D4)  S_BPREL32: [0000000C], Type:     T_USHORT(0021), YAng
+ * (0000E8)  S_BPREL32: [00000010], Type:     T_USHORT(0021), ZAng
+ * (0000FC)  S_BPREL32: [FFFFFFE8], Type:     T_REAL32(0040), SinZRot
+ * (000110)  S_BPREL32: [FFFFFFEC], Type:     T_REAL32(0040), SinYRot
+ * (000124)  S_BPREL32: [FFFFFFF0], Type:     T_REAL32(0040), SinXRot
+ * (000138)  S_BPREL32: [FFFFFFF4], Type:     T_REAL32(0040), CosXRot
+ * (00014C)  S_BPREL32: [FFFFFFF8], Type:     T_REAL32(0040), CosYRot
+ * (000160)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), CosZRot
+ * 
+ * (000174) S_END
+ */
+
+/*
+ * (000178) S_GPROC32: [0001:00086F39], Cb: 00000118, Type:             0x1001, SetupD3DSubSystem
+ *          Parent: 00000000, End: 000001B4, Next: 000001B8
+ *          Debug start: 00000003, Debug end: 00000116
+ *          Flags: Frame Ptr Present
+ * 
+ * (0001B4) S_END
+ */
+
+/*
+ * (0001B8) S_GPROC32: [0001:00087051], Cb: 0000012D, Type:             0x16A5, SetupD3DStates
+ *          Parent: 00000000, End: 000001F0, Next: 000001F4
+ *          Debug start: 00000003, Debug end: 0000012B
+ *          Flags: Frame Ptr Present
+ * 
+ * (0001F0) S_END
+ */
+
+/*
+ * (0001F4) S_GPROC32: [0001:0008717E], Cb: 0000011E, Type:             0x1001, SCREEN_AllocationInit
+ *          Parent: 00000000, End: 00000244, Next: 00000248
+ *          Debug start: 00000004, Debug end: 0000011A
+ *          Flags: Frame Ptr Present
+ * 
+ * (000234)  S_BPREL32: [FFFFFFFC], Type:       T_LONG(0012), a
+ * 
+ * (000244) S_END
+ */
+
+/*
+ * (000248) S_GPROC32: [0001:0008729C], Cb: 0000014A, Type:             0x1F90, SCREEN_Allocate
+ *          Parent: 00000000, End: 000002AC, Next: 000002B0
+ *          Debug start: 00000004, Debug end: 00000146
+ *          Flags: Frame Ptr Present
+ * 
+ * (000280)  S_BPREL32: [00000008], Type:      T_UCHAR(0020), Priority
+ * (000298)  S_BPREL32: [FFFFFFFC], Type:             0x1C08, NewScr
+ * 
+ * (0002AC) S_END
+ */
+
+/*
+ * (0002B0) S_GPROC32: [0001:000873E6], Cb: 0000005D, Type:             0x13EF, SCREEN_Deallocate
+ *          Parent: 00000000, End: 00000318, Next: 0000031C
+ *          Debug start: 00000004, Debug end: 00000059
+ *          Flags: Frame Ptr Present
+ * 
+ * (0002EC)  S_BPREL32: [00000008], Type:             0x13EB, ScrPort
+ * (000300)  S_BPREL32: [FFFFFFFC], Type:             0x1C08, Scr2Kill
+ * 
+ * (000318) S_END
+ */
+
+/*
+ * (00031C) S_GPROC32: [0001:00087443], Cb: 00000054, Type:             0x1F92, SCREEN_UpdateDynamicCameras
+ *          Parent: 00000000, End: 00000388, Next: 0000038C
+ *          Debug start: 00000004, Debug end: 00000050
+ *          Flags: Frame Ptr Present
+ * 
+ * (000360)  S_BPREL32: [00000008], Type:             0x1C08, ScrUpdate
+ * (000378)  S_BPREL32: [FFFFFFFC], Type:             0x13EB, Scr
+ * 
+ * (000388) S_END
+ */
+
+/*
+ * (00038C) S_GPROC32: [0001:00087497], Cb: 00000164, Type:             0x1F92, SCREEN_Update
+ *          Parent: 00000000, End: 00000400, Next: 00000788
+ *          Debug start: 00000006, Debug end: 00000160
+ *          Flags: Frame Ptr Present
+ * 
+ * (0003C4)  S_BPREL32: [00000008], Type:             0x1C08, ScrUpdate
+ * (0003DC)  S_BPREL32: [FFFFFFF8], Type:      T_ULONG(0022), Updated
+ * (0003F0)  S_BPREL32: [FFFFFFFC], Type:             0x13EB, Scr
+ * 
+ * (000400) S_END
+ */
+
+/*
  * (000788) S_GPROC32: [0001:00087600], Cb: 0000006F, Type:             0x1A19, RSTATES_SetTexturePerspective
  *          Parent: 00000000, End: 000007E4, Next: 000007E8
  *          Debug start: 00000004, Debug end: 0000006B
@@ -138,7 +160,9 @@
  * (0007D0)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (0007E4) S_END
- * 
+ */
+
+/*
  * (0007E8) S_GPROC32: [0001:00087670], Cb: 0000005D, Type:             0x1A19, RSTATES_SetZEnable
  *          Parent: 00000000, End: 00000838, Next: 0000083C
  *          Debug start: 00000003, Debug end: 0000005B
@@ -147,7 +171,9 @@
  * (000824)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (000838) S_END
- * 
+ */
+
+/*
  * (00083C) S_GPROC32: [0001:000876D0], Cb: 00000056, Type:             0x1A19, RSTATES_SetFillMode
  *          Parent: 00000000, End: 0000088C, Next: 00000890
  *          Debug start: 00000003, Debug end: 00000054
@@ -156,7 +182,9 @@
  * (000878)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (00088C) S_END
- * 
+ */
+
+/*
  * (000890) S_GPROC32: [0001:00087730], Cb: 00000056, Type:             0x16A1, RSTATES_SetPlaneMask
  *          Parent: 00000000, End: 000008E0, Next: 000008E4
  *          Debug start: 00000003, Debug end: 00000054
@@ -165,7 +193,9 @@
  * (0008CC)  S_BPREL32: [00000008], Type:      T_ULONG(0022), State
  * 
  * (0008E0) S_END
- * 
+ */
+
+/*
  * (0008E4) S_GPROC32: [0001:00087790], Cb: 0000005D, Type:             0x1A19, RSTATES_SetAlphaFunc
  *          Parent: 00000000, End: 00000934, Next: 00000938
  *          Debug start: 00000003, Debug end: 0000005B
@@ -174,7 +204,9 @@
  * (000920)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (000934) S_END
- * 
+ */
+
+/*
  * (000938) S_GPROC32: [0001:000877F0], Cb: 0000006F, Type:             0x1A19, RSTATES_SetDitherEnable
  *          Parent: 00000000, End: 0000098C, Next: 00000000
  *          Debug start: 00000004, Debug end: 0000006B
@@ -183,6 +215,5 @@
  * (000978)  S_BPREL32: [00000008], Type:       T_INT4(0074), State
  * 
  * (00098C) S_END
- * 
  */
 

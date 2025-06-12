@@ -15,6 +15,19 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000598) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (0005B4) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (0005CC) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (0005E4) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (0005FC) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ * (000614) S_LDATA32: [0003:00075278], Type:             0x1905, grOff
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0002AED0], Cb: 00000463, Type:             0x1AF1, meshCollide
  *          Parent: 00000000, End: 000001EC, Next: 000001F0
  *          Debug start: 00000006, Debug end: 0000045F
@@ -48,7 +61,9 @@
  * (0001E8)  S_END
  * 
  * (0001EC) S_END
- * 
+ */
+
+/*
  * (0001F0) S_GPROC32: [0001:0002B333], Cb: 000001FA, Type:             0x1BC9, meshFindHeight
  *          Parent: 00000000, End: 000002BC, Next: 000002C0
  *          Debug start: 00000006, Debug end: 000001F6
@@ -69,7 +84,9 @@
  * (0002B8)  S_END
  * 
  * (0002BC) S_END
- * 
+ */
+
+/*
  * (0002C0) S_GPROC32: [0001:0002B52D], Cb: 00000202, Type:             0x1BCB, meshFindHeightEx
  *          Parent: 00000000, End: 000003A0, Next: 000003A4
  *          Debug start: 00000006, Debug end: 000001FE
@@ -91,7 +108,9 @@
  * (00039C)  S_END
  * 
  * (0003A0) S_END
- * 
+ */
+
+/*
  * (0003A4) S_GPROC32: [0001:0002B72F], Cb: 0000020D, Type:             0x1BC9, meshFindHeightFloor
  *          Parent: 00000000, End: 00000474, Next: 00000478
  *          Debug start: 00000006, Debug end: 00000209
@@ -112,7 +131,9 @@
  * (000470)  S_END
  * 
  * (000474) S_END
- * 
+ */
+
+/*
  * (000478) S_GPROC32: [0001:0002B93C], Cb: 0000004D, Type:             0x1AF1, meshCollideToPoint
  *          Parent: 00000000, End: 00000510, Next: 00000514
  *          Debug start: 00000006, Debug end: 00000049
@@ -125,27 +146,23 @@
  * (000500)  S_BPREL32: [FFFFFFF4], Type:             0x1008, V
  * 
  * (000510) S_END
- * 
+ */
+
+/*
  * (000514) S_GPROC32: [0001:0002B989], Cb: 000000D2, Type:             0x1001, meshInitializeCollision
  *          Parent: 00000000, End: 00000554, Next: 00000558
  *          Debug start: 00000006, Debug end: 000000CE
  *          Flags: Frame Ptr Present
  * 
  * (000554) S_END
- * 
+ */
+
+/*
  * (000558) S_GPROC32: [0001:0002BA5B], Cb: 00000022, Type:             0x1001, meshReleaseCollision
  *          Parent: 00000000, End: 00000594, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000020
  *          Flags: Frame Ptr Present
  * 
  * (000594) S_END
- * 
- * (000598) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (0005B4) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (0005CC) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (0005E4) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (0005FC) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * (000614) S_LDATA32: [0003:00075278], Type:             0x1905, grOff
- * 
  */
 

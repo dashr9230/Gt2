@@ -15,6 +15,26 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0007C8) S_GDATA32: [0003:0091E090], Type:     T_REAL32(0040), ffFriction
+ * (0007E4) S_GDATA32: [0003:0091E094], Type:     T_REAL32(0040), ffCentre
+ * (0007FC) S_GDATA32: [0003:0091E098], Type:      T_ULONG(0022), ffEngine
+ * (000814) S_GDATA32: [0003:0091E09C], Type:      T_ULONG(0022), ffTarget
+ * (00082C) S_GDATA32: [0003:0091E0A0], Type:      T_RCHAR(0070), ffBump
+ * (000844) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (000860) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
+ * (000880) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (000898) S_GDATA32: [0003:0097F160], Type:       T_INT4(0074), SingleStep
+ * (0008B4) S_GDATA32: [0003:000777D0], Type:       T_INT4(0074), TestForcePressed
+ * (0008D4) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (0008F0) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ * (00090C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0003C6B0], Cb: 00000135, Type:             0x1408, TestForce
  *          Parent: 00000000, End: 0000010C, Next: 00000110
  *          Debug start: 00000006, Debug end: 00000131
@@ -26,7 +46,9 @@
  * (0000F8)  S_BPREL32: [FFFFFFF4], Type:             0x1008, dirWd
  * 
  * (00010C) S_END
- * 
+ */
+
+/*
  * (000110) S_GPROC32: [0001:0003C7E5], Cb: 000000BD, Type:             0x1ADE, CheckCarOrientation
  *          Parent: 00000000, End: 000001C4, Next: 000001C8
  *          Debug start: 00000006, Debug end: 000000B9
@@ -40,7 +62,9 @@
  * (0001AC)  S_BPREL32: [FFFFFFF4], Type:             0x1008, vWorldCarUp
  * 
  * (0001C4) S_END
- * 
+ */
+
+/*
  * (0001C8) S_GPROC32: [0001:0003C8A2], Cb: 0000181D, Type:             0x1408, simIterate2
  *          Parent: 00000000, End: 00000688, Next: 0000068C
  *          Debug start: 00000009, Debug end: 00001819
@@ -119,7 +143,9 @@
  * (000684)  S_END
  * 
  * (000688) S_END
- * 
+ */
+
+/*
  * (00068C) S_LPROC32: [0001:0003E0BF], Cb: 00000129, Type:             0x1AE8, simSolveOrientation
  *          Parent: 00000000, End: 00000758, Next: 0000075C
  *          Debug start: 00000006, Debug end: 00000125
@@ -136,7 +162,9 @@
  * (000748)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), ca
  * 
  * (000758) S_END
- * 
+ */
+
+/*
  * (00075C) S_LPROC32: [0001:0003E1E8], Cb: 00000031, Type:             0x1AAE, simSinCos
  *          Parent: 00000000, End: 000007C4, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000002F
@@ -147,20 +175,5 @@
  * (0007B4)  S_BPREL32: [00000010], Type:  T_32PREAL32(0440), c
  * 
  * (0007C4) S_END
- * 
- * (0007C8) S_GDATA32: [0003:0091E090], Type:     T_REAL32(0040), ffFriction
- * (0007E4) S_GDATA32: [0003:0091E094], Type:     T_REAL32(0040), ffCentre
- * (0007FC) S_GDATA32: [0003:0091E098], Type:      T_ULONG(0022), ffEngine
- * (000814) S_GDATA32: [0003:0091E09C], Type:      T_ULONG(0022), ffTarget
- * (00082C) S_GDATA32: [0003:0091E0A0], Type:      T_RCHAR(0070), ffBump
- * (000844) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (000860) S_GDATA32: [0003:0097F140], Type:             0x1404, RaceCraftObject
- * (000880) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (000898) S_GDATA32: [0003:0097F160], Type:       T_INT4(0074), SingleStep
- * (0008B4) S_GDATA32: [0003:000777D0], Type:       T_INT4(0074), TestForcePressed
- * (0008D4) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (0008F0) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * (00090C) S_GDATA32: [0003:01245120], Type:             0x18FB, diKeyPressed
- * 
  */
 

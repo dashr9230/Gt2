@@ -16,6 +16,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000230) S_LDATA32: [0003:0006C508], Type:             0x1F9A, OptionSettings
+ * (000250) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ */
+
+/*
  * (000090) S_GPROC32: [0001:000868D0], Cb: 000002CC, Type:             0x1001, SETTINGS_Report
  *          Parent: 00000000, End: 000000F0, Next: 000000F4
  *          Debug start: 00000006, Debug end: 000002C8
@@ -25,7 +34,9 @@
  * (0000DC)  S_BPREL32: [FFFFFFF0], Type:             0x1F7D, TexSize
  * 
  * (0000F0) S_END
- * 
+ */
+
+/*
  * (0000F4) S_GPROC32: [0001:00086B9C], Cb: 00000082, Type:             0x1B48, SETTINGS_SetDetailLevel
  *          Parent: 00000000, End: 00000158, Next: 0000015C
  *          Debug start: 00000004, Debug end: 0000007E
@@ -35,7 +46,9 @@
  * (000148)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (000158) S_END
- * 
+ */
+
+/*
  * (00015C) S_GPROC32: [0001:00086C1E], Cb: 0000006C, Type:             0x1F95, SETTINGS_GetDetailLevelInfo
  *          Parent: 00000000, End: 000001C4, Next: 000001C8
  *          Debug start: 00000004, Debug end: 00000068
@@ -45,7 +58,9 @@
  * (0001B4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0001C4) S_END
- * 
+ */
+
+/*
  * (0001C8) S_GPROC32: [0001:00086C8A], Cb: 00000047, Type:             0x1F97, SETTINGS_EnumAvailable
  *          Parent: 00000000, End: 0000022C, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000045
@@ -55,9 +70,5 @@
  * (00021C)  S_BPREL32: [0000000C], Type:   T_32PULONG(0422), Num
  * 
  * (00022C) S_END
- * 
- * (000230) S_LDATA32: [0003:0006C508], Type:             0x1F9A, OptionSettings
- * (000250) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * 
  */
 

@@ -15,63 +15,10 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
- * (00008C) S_GPROC32: [0001:00091FA0], Cb: 00000005, Type:             0x1A3C, ShowTime
- *          Parent: 00000000, End: 000000D4, Next: 000000D8
- *          Debug start: 00000003, Debug end: 00000003
- *          Flags: Frame Ptr Present
  * 
- * (0000BC)  S_BPREL32: [00000008], Type:      T_UCHAR(0020), TimeMode
- * 
- * (0000D4) S_END
- * 
- * (0000D8) S_GPROC32: [0001:00091FA5], Cb: 00000036, Type:             0x1001, UpdateGame
- *          Parent: 00000000, End: 0000010C, Next: 00000110
- *          Debug start: 00000003, Debug end: 00000034
- *          Flags: Frame Ptr Present
- * 
- * (00010C) S_END
- * 
- * (000110) S_GPROC32: [0001:00091FDB], Cb: 000001E8, Type:             0x1EDB, GameServer
- *          Parent: 00000000, End: 000001B4, Next: 000001B8
- *          Debug start: 00000006, Debug end: 000001E4
- *          Flags: Frame Ptr Present
- * 
- * (000144)  S_BPREL32: [00000008], Type:       T_INT4(0074), RunOneFrame
- * (00015C)  S_BPREL32: [FFFFFFF0], Type:      T_ULONG(0022), WritePosOnEntry
- * (000178)  S_BPREL32: [FFFFFFF4], Type:       T_LONG(0012), MaxDone
- * (00018C)  S_BPREL32: [FFFFFFF8], Type:       T_LONG(0012), UpdatesDone
- * (0001A4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
- * 
- * (0001B4) S_END
- * 
- * (0001B8) S_GPROC32: [0001:000921C3], Cb: 000000A3, Type:             0x1001, UpdateDisplay
- *          Parent: 00000000, End: 000001F0, Next: 000001F4
- *          Debug start: 00000003, Debug end: 000000A1
- *          Flags: Frame Ptr Present
- * 
- * (0001F0) S_END
- * 
- * (0001F4) S_GPROC32: [0001:00092266], Cb: 00000052, Type:             0x1001, TimerFunction
- *          Parent: 00000000, End: 0000022C, Next: 00000230
- *          Debug start: 00000003, Debug end: 00000050
- *          Flags: Frame Ptr Present
- * 
- * (00022C) S_END
- * 
- * (000230) S_GPROC32: [0001:000922B8], Cb: 0000003D, Type:             0x1715, TimerHandler
- *          Parent: 00000000, End: 000002DC, Next: 00000000
- *          Debug start: 00000003, Debug end: 00000039
- *          Flags: Frame Ptr Present
- * 
- * (000264)  S_BPREL32: [00000008], Type:      T_UINT4(0075), wTimerID
- * (00027C)  S_BPREL32: [0000000C], Type:      T_UINT4(0075), msg
- * (00028C)  S_BPREL32: [00000010], Type:      T_ULONG(0022), dwUser
- * (0002A0)  S_BPREL32: [00000014], Type:      T_ULONG(0022), dw1
- * (0002B0)  S_BPREL32: [00000018], Type:      T_ULONG(0022), dw2
- * (0002C0)  S_LDATA32: [0003:00070414], Type:      T_UCHAR(0020), IntRunning
- * 
- * (0002DC) S_END
- * 
+ */
+
+/*
  * (0002E0) S_GDATA32: [0003:00C6E4C0], Type:             0x1EDD, STK_Buffer
  * (0002FC) S_GDATA32: [0003:00C31A60], Type:             0x1A1E, Jstk
  * (000310) S_GDATA32: [0003:00C31CE0], Type:             0x1C04, KEY_Buffer
@@ -105,6 +52,74 @@
  * (000628) S_GDATA32: [0003:00C30FB4], Type:      T_UCHAR(0020), DaveTest_Brake
  * (000648) S_GDATA32: [0003:00C30FB5], Type:      T_RCHAR(0070), min_ds
  * (000660) S_GDATA32: [0003:00C30FB2], Type:      T_RCHAR(0070), max_ds
+ */
+
+/*
+ * (00008C) S_GPROC32: [0001:00091FA0], Cb: 00000005, Type:             0x1A3C, ShowTime
+ *          Parent: 00000000, End: 000000D4, Next: 000000D8
+ *          Debug start: 00000003, Debug end: 00000003
+ *          Flags: Frame Ptr Present
  * 
+ * (0000BC)  S_BPREL32: [00000008], Type:      T_UCHAR(0020), TimeMode
+ * 
+ * (0000D4) S_END
+ */
+
+/*
+ * (0000D8) S_GPROC32: [0001:00091FA5], Cb: 00000036, Type:             0x1001, UpdateGame
+ *          Parent: 00000000, End: 0000010C, Next: 00000110
+ *          Debug start: 00000003, Debug end: 00000034
+ *          Flags: Frame Ptr Present
+ * 
+ * (00010C) S_END
+ */
+
+/*
+ * (000110) S_GPROC32: [0001:00091FDB], Cb: 000001E8, Type:             0x1EDB, GameServer
+ *          Parent: 00000000, End: 000001B4, Next: 000001B8
+ *          Debug start: 00000006, Debug end: 000001E4
+ *          Flags: Frame Ptr Present
+ * 
+ * (000144)  S_BPREL32: [00000008], Type:       T_INT4(0074), RunOneFrame
+ * (00015C)  S_BPREL32: [FFFFFFF0], Type:      T_ULONG(0022), WritePosOnEntry
+ * (000178)  S_BPREL32: [FFFFFFF4], Type:       T_LONG(0012), MaxDone
+ * (00018C)  S_BPREL32: [FFFFFFF8], Type:       T_LONG(0012), UpdatesDone
+ * (0001A4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
+ * 
+ * (0001B4) S_END
+ */
+
+/*
+ * (0001B8) S_GPROC32: [0001:000921C3], Cb: 000000A3, Type:             0x1001, UpdateDisplay
+ *          Parent: 00000000, End: 000001F0, Next: 000001F4
+ *          Debug start: 00000003, Debug end: 000000A1
+ *          Flags: Frame Ptr Present
+ * 
+ * (0001F0) S_END
+ */
+
+/*
+ * (0001F4) S_GPROC32: [0001:00092266], Cb: 00000052, Type:             0x1001, TimerFunction
+ *          Parent: 00000000, End: 0000022C, Next: 00000230
+ *          Debug start: 00000003, Debug end: 00000050
+ *          Flags: Frame Ptr Present
+ * 
+ * (00022C) S_END
+ */
+
+/*
+ * (000230) S_GPROC32: [0001:000922B8], Cb: 0000003D, Type:             0x1715, TimerHandler
+ *          Parent: 00000000, End: 000002DC, Next: 00000000
+ *          Debug start: 00000003, Debug end: 00000039
+ *          Flags: Frame Ptr Present
+ * 
+ * (000264)  S_BPREL32: [00000008], Type:      T_UINT4(0075), wTimerID
+ * (00027C)  S_BPREL32: [0000000C], Type:      T_UINT4(0075), msg
+ * (00028C)  S_BPREL32: [00000010], Type:      T_ULONG(0022), dwUser
+ * (0002A0)  S_BPREL32: [00000014], Type:      T_ULONG(0022), dw1
+ * (0002B0)  S_BPREL32: [00000018], Type:      T_ULONG(0022), dw2
+ * (0002C0)  S_LDATA32: [0003:00070414], Type:      T_UCHAR(0020), IntRunning
+ * 
+ * (0002DC) S_END
  */
 

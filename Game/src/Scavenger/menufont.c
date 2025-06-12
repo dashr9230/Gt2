@@ -15,6 +15,15 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (0005D4) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (0005F0) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:00053900], Cb: 00000005, Type:             0x1408, TextManager_Release
  *          Parent: 00000000, End: 000000D8, Next: 000000DC
  *          Debug start: 00000003, Debug end: 00000003
@@ -23,7 +32,9 @@
  * (0000C8)  S_BPREL32: [00000008], Type:             0x1404, Obj
  * 
  * (0000D8) S_END
- * 
+ */
+
+/*
  * (0000DC) S_GPROC32: [0001:00053905], Cb: 00000037, Type:             0x1408, TextManager_DestroyAllText
  *          Parent: 00000000, End: 00000140, Next: 00000144
  *          Debug start: 00000004, Debug end: 00000033
@@ -33,7 +44,9 @@
  * (000130)  S_BPREL32: [FFFFFFFC], Type:             0x1404, ptr
  * 
  * (000140) S_END
- * 
+ */
+
+/*
  * (000144) S_GPROC32: [0001:0005393C], Cb: 0000002E, Type:             0x1408, TextManager_DrawText
  *          Parent: 00000000, End: 000001A0, Next: 000001A4
  *          Debug start: 00000004, Debug end: 0000002A
@@ -43,7 +56,9 @@
  * (000190)  S_BPREL32: [FFFFFFFC], Type:             0x1404, ptr
  * 
  * (0001A0) S_END
- * 
+ */
+
+/*
  * (0001A4) S_GPROC32: [0001:0005396A], Cb: 00000076, Type:             0x1824, TextManager_Create
  *          Parent: 00000000, End: 00000200, Next: 00000204
  *          Debug start: 00000004, Debug end: 00000072
@@ -52,7 +67,9 @@
  * (0001E0)  S_BPREL32: [FFFFFFFC], Type:             0x1404, TextManagerObject
  * 
  * (000200) S_END
- * 
+ */
+
+/*
  * (000204) S_GPROC32: [0001:000539E0], Cb: 0000002B, Type:             0x1408, Text_Draw
  *          Parent: 00000000, End: 0000025C, Next: 00000260
  *          Debug start: 00000004, Debug end: 00000027
@@ -62,7 +79,9 @@
  * (000248)  S_BPREL32: [FFFFFFFC], Type:             0x1A23, tptr
  * 
  * (00025C) S_END
- * 
+ */
+
+/*
  * (000260) S_GPROC32: [0001:00053A0B], Cb: 00000034, Type:             0x1408, Text_Release
  *          Parent: 00000000, End: 000002B8, Next: 000002BC
  *          Debug start: 00000004, Debug end: 00000030
@@ -72,7 +91,9 @@
  * (0002A4)  S_BPREL32: [FFFFFFFC], Type:             0x1A23, tptr
  * 
  * (0002B8) S_END
- * 
+ */
+
+/*
  * (0002BC) S_GPROC32: [0001:00053A3F], Cb: 00000749, Type:             0x1A26, TextWrite
  *          Parent: 00000000, End: 00000448, Next: 0000044C
  *          Debug start: 00000009, Debug end: 00000745
@@ -100,7 +121,9 @@
  * (000438)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), p
  * 
  * (000448) S_END
- * 
+ */
+
+/*
  * (00044C) S_LPROC32: [0001:00054188], Cb: 0000007A, Type:             0x182A, redistAlpha
  *          Parent: 00000000, End: 000004D0, Next: 000004D4
  *          Debug start: 00000006, Debug end: 00000076
@@ -113,7 +136,9 @@
  * (0004C0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
  * 
  * (0004D0) S_END
- * 
+ */
+
+/*
  * (0004D4) S_GPROC32: [0001:00054202], Cb: 000001AC, Type:             0x1A29, TextCalcLen
  *          Parent: 00000000, End: 000005D0, Next: 00000000
  *          Debug start: 00000009, Debug end: 000001A8
@@ -132,9 +157,5 @@
  * (0005C0)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), p
  * 
  * (0005D0) S_END
- * 
- * (0005D4) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (0005F0) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * 
  */
 

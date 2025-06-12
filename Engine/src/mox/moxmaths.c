@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000248) S_GDATA32: [0003:0121E600], Type:             0x1006, moxIdenMatrix
+ * (000264) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
+ * (000280) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
+ */
+
+/*
  * (000090) S_GPROC32: [0001:000829C0], Cb: 0000025F, Type:             0x1AB0, MOX_MultiplyMatrices
  *          Parent: 00000000, End: 000000FC, Next: 00000100
  *          Debug start: 00000003, Debug end: 0000025D
@@ -25,7 +35,9 @@
  * (0000EC)  S_BPREL32: [00000010], Type:             0x11DC, m2
  * 
  * (0000FC) S_END
- * 
+ */
+
+/*
  * (000100) S_GPROC32: [0001:00082C1F], Cb: 000001C5, Type:             0x1FD1, MOX_DefnMatrix
  *          Parent: 00000000, End: 00000208, Next: 0000020C
  *          Debug start: 00000006, Debug end: 000001C1
@@ -46,17 +58,14 @@
  * (0001F8)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), A
  * 
  * (000208) S_END
- * 
+ */
+
+/*
  * (00020C) S_GPROC32: [0001:00082DE4], Cb: 00000042, Type:             0x1001, iMATH_Initialize
  *          Parent: 00000000, End: 00000244, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000040
  *          Flags: Frame Ptr Present
  * 
  * (000244) S_END
- * 
- * (000248) S_GDATA32: [0003:0121E600], Type:             0x1006, moxIdenMatrix
- * (000264) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
- * (000280) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
- * 
  */
 

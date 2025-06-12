@@ -15,6 +15,26 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000818) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ * (000834) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
+ * (000850) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ * (000864) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
+ * (00087C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
+ * (000890) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
+ * (0008A8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
+ * (0008C0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (0008D8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
+ * (0008F0) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (00090C) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
+ * (00092C) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
+ * (000940) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
+ */
+
+/*
  * (000090) S_GPROC32: [0001:0006E690], Cb: 0000002E, Type:             0x141A, BtStartQuickRace
  *          Parent: 00000000, End: 000000F0, Next: 000000F4
  *          Debug start: 00000004, Debug end: 0000002A
@@ -24,7 +44,9 @@
  * (0000D8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0000F0) S_END
- * 
+ */
+
+/*
  * (0000F4) S_GPROC32: [0001:0006E6BE], Cb: 0000041E, Type:             0x1001, OpGotoQuickRace
  *          Parent: 00000000, End: 0000017C, Next: 00000180
  *          Debug start: 00000006, Debug end: 0000041A
@@ -37,7 +59,9 @@
  * (00016C)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), p
  * 
  * (00017C) S_END
- * 
+ */
+
+/*
  * (000180) S_GPROC32: [0001:0006EADC], Cb: 0000011F, Type:             0x141A, BtTrackChange
  *          Parent: 00000000, End: 000001F0, Next: 000001F4
  *          Debug start: 00000006, Debug end: 0000011B
@@ -48,7 +72,9 @@
  * (0001D8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0001F0) S_END
- * 
+ */
+
+/*
  * (0001F4) S_GPROC32: [0001:0006EBFB], Cb: 00000213, Type:             0x141A, BtCarChange
  *          Parent: 00000000, End: 000002C0, Next: 000002C4
  *          Debug start: 00000006, Debug end: 000001FF
@@ -64,7 +90,9 @@
  * (0002A8)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (0002C0) S_END
- * 
+ */
+
+/*
  * (0002C4) S_GPROC32: [0001:0006EE0E], Cb: 00000067, Type:             0x141A, BtAuto
  *          Parent: 00000000, End: 00000324, Next: 00000328
  *          Debug start: 00000006, Debug end: 00000063
@@ -75,7 +103,9 @@
  * (000314)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (000324) S_END
- * 
+ */
+
+/*
  * (000328) S_GPROC32: [0001:0006EE75], Cb: 00000067, Type:             0x141A, BtManual
  *          Parent: 00000000, End: 00000388, Next: 0000038C
  *          Debug start: 00000006, Debug end: 00000063
@@ -86,7 +116,9 @@
  * (000378)  S_BPREL32: [FFFFFFFC], Type:             0x180B, GwD
  * 
  * (000388) S_END
- * 
+ */
+
+/*
  * (00038C) S_GPROC32: [0001:0006EEDC], Cb: 00000D41, Type:             0x141A, SetupQuickRaceFrame_Car
  *          Parent: 00000000, End: 00000648, Next: 0000064C
  *          Debug start: 00000006, Debug end: 00000CCD
@@ -127,7 +159,9 @@
  * (000634)  S_BPREL32: [FFFFFFFC], Type:             0x1766, LogoTDT
  * 
  * (000648) S_END
- * 
+ */
+
+/*
  * (00064C) S_GPROC32: [0001:0006FC1D], Cb: 000003ED, Type:             0x141A, SetupQuickRaceFrame_Track
  *          Parent: 00000000, End: 00000730, Next: 00000734
  *          Debug start: 00000006, Debug end: 000003E9
@@ -144,7 +178,9 @@
  * (000718)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000730) S_END
- * 
+ */
+
+/*
  * (000734) S_GPROC32: [0001:0007000A], Cb: 000000EA, Type:             0x1001, DestroyQuickRaceMenu
  *          Parent: 00000000, End: 00000788, Next: 0000078C
  *          Debug start: 00000004, Debug end: 000000E6
@@ -153,7 +189,9 @@
  * (000770)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000788) S_END
- * 
+ */
+
+/*
  * (00078C) S_GPROC32: [0001:000700F4], Cb: 000002CC, Type:             0x1001, SetupQuickRaceMenu
  *          Parent: 00000000, End: 00000814, Next: 00000000
  *          Debug start: 00000006, Debug end: 000002C8
@@ -165,20 +203,5 @@
  * (0007FC)  S_BPREL32: [FFFFFFFC], Type:             0x1420, MenuData
  * 
  * (000814) S_END
- * 
- * (000818) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * (000834) S_GDATA32: [0003:00012DA8], Type:             0x1428, MenuFileList
- * (000850) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * (000864) S_GDATA32: [0003:00947E80], Type:             0x1811, Tracks
- * (00087C) S_GDATA32: [0003:00949C00], Type:             0x1814, Cars
- * (000890) S_GDATA32: [0003:00931D80], Type:             0x142A, MenuText
- * (0008A8) S_GDATA32: [0003:00992AC0], Type:             0x1820, Drivers
- * (0008C0) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (0008D8) S_GDATA32: [0003:000082D8], Type:             0x1823, TrackInfo
- * (0008F0) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (00090C) S_GDATA32: [0003:0007A0AC], Type:             0x1404, GameWorldObject
- * (00092C) S_GDATA32: [0003:0007A0CC], Type:             0x1404, st
- * (000940) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
- * 
  */
 

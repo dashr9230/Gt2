@@ -15,47 +15,10 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
- * (00008C) S_GPROC32: [0001:00088AC0], Cb: 00000100, Type:             0x1001, RSTATES_Start
- *          Parent: 00000000, End: 000000D4, Next: 000000D8
- *          Debug start: 00000004, Debug end: 000000FC
- *          Flags: Frame Ptr Present
  * 
- * (0000C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
- * 
- * (0000D4) S_END
- * 
- * (0000D8) S_GPROC32: [0001:00088BC0], Cb: 00000138, Type:             0x1001, RSTATES_Report
- *          Parent: 00000000, End: 0000013C, Next: 00000140
- *          Debug start: 00000004, Debug end: 00000134
- *          Flags: Frame Ptr Present
- * 
- * (000110)  S_BLOCK32: [0001:00088BD1], Cb: 00000123, (none)
- *           Parent: 000000D8, End: 00000138
- * 
- * (000128)   S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
- * 
- * (000138)  S_END
- * 
- * (00013C) S_END
- * 
- * (000140) S_GPROC32: [0001:00088CF8], Cb: 00000035, Type:             0x1B5B, RSTATES_ReportMessage
- *          Parent: 00000000, End: 00000194, Next: 00000198
- *          Debug start: 00000003, Debug end: 00000033
- *          Flags: Frame Ptr Present
- * 
- * (000180)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), String
- * 
- * (000194) S_END
- * 
- * (000198) S_GPROC32: [0001:00088D2D], Cb: 00000100, Type:             0x1001, TSTATES_DumpTextureStages
- *          Parent: 00000000, End: 000001EC, Next: 00000000
- *          Debug start: 00000004, Debug end: 000000FC
- *          Flags: Frame Ptr Present
- * 
- * (0001DC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
- * 
- * (0001EC) S_END
- * 
+ */
+
+/*
  * (0001F0) S_GDATA32: [0003:0091ED34], Type:       T_LONG(0012), ConsoleMode
  * (00020C) S_GDATA32: [0003:00C970C4], Type:      T_ULONG(0022), RS_AlphaTestChge
  * (00022C) S_GDATA32: [0003:00C971B4], Type:      T_ULONG(0022), RS_ZwriteEnableChge
@@ -92,6 +55,54 @@
  * (0005B0) S_GDATA32: [0003:0006D6EC], Type:             0x1F7D, RS_MinFilterType
  * (0005D0) S_GDATA32: [0003:0006D6FC], Type:             0x1F7D, RS_MipFilterType
  * (0005F0) S_GDATA32: [0003:0006D70C], Type:             0x1F31, RS_TextureAddress
+ */
+
+/*
+ * (00008C) S_GPROC32: [0001:00088AC0], Cb: 00000100, Type:             0x1001, RSTATES_Start
+ *          Parent: 00000000, End: 000000D4, Next: 000000D8
+ *          Debug start: 00000004, Debug end: 000000FC
+ *          Flags: Frame Ptr Present
  * 
+ * (0000C4)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
+ * 
+ * (0000D4) S_END
+ */
+
+/*
+ * (0000D8) S_GPROC32: [0001:00088BC0], Cb: 00000138, Type:             0x1001, RSTATES_Report
+ *          Parent: 00000000, End: 0000013C, Next: 00000140
+ *          Debug start: 00000004, Debug end: 00000134
+ *          Flags: Frame Ptr Present
+ * 
+ * (000110)  S_BLOCK32: [0001:00088BD1], Cb: 00000123, (none)
+ *           Parent: 000000D8, End: 00000138
+ * 
+ * (000128)   S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
+ * 
+ * (000138)  S_END
+ * 
+ * (00013C) S_END
+ */
+
+/*
+ * (000140) S_GPROC32: [0001:00088CF8], Cb: 00000035, Type:             0x1B5B, RSTATES_ReportMessage
+ *          Parent: 00000000, End: 00000194, Next: 00000198
+ *          Debug start: 00000003, Debug end: 00000033
+ *          Flags: Frame Ptr Present
+ * 
+ * (000180)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), String
+ * 
+ * (000194) S_END
+ */
+
+/*
+ * (000198) S_GPROC32: [0001:00088D2D], Cb: 00000100, Type:             0x1001, TSTATES_DumpTextureStages
+ *          Parent: 00000000, End: 000001EC, Next: 00000000
+ *          Debug start: 00000004, Debug end: 000000FC
+ *          Flags: Frame Ptr Present
+ * 
+ * (0001DC)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), a
+ * 
+ * (0001EC) S_END
  */
 

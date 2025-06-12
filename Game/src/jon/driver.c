@@ -15,6 +15,20 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (00053C) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
+ * (000554) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
+ * (00056C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (000584) S_GDATA32: [0003:00011B88], Type:             0x1BC7, CarDetailInfo
+ * (0005A0) S_GDATA32: [0003:00075164], Type:             0x140A, GlobalCamera
+ * (0005BC) S_LDATA32: [0003:00075678], Type:             0x1006, mTemp
+ * (0005D0) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0002BA80], Cb: 00000005, Type:             0x1408, drvReset
  *          Parent: 00000000, End: 000000CC, Next: 000000D0
  *          Debug start: 00000003, Debug end: 00000003
@@ -23,7 +37,9 @@
  * (0000BC)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0000CC) S_END
- * 
+ */
+
+/*
  * (0000D0) S_GPROC32: [0001:0002BA85], Cb: 000001DA, Type:             0x1BC5, drvAllocate
  *          Parent: 00000000, End: 00000164, Next: 00000168
  *          Debug start: 00000006, Debug end: 000001D6
@@ -41,7 +57,9 @@
  * (000160)  S_END
  * 
  * (000164) S_END
- * 
+ */
+
+/*
  * (000168) S_LPROC32: [0001:0002BC5F], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
  *          Parent: 00000000, End: 000001C0, Next: 000001C4
  *          Debug start: 00000003, Debug end: 0000000C
@@ -51,7 +69,9 @@
  * (0001B0)  S_BPREL32: [0000000C], Type:             0x13A7, F
  * 
  * (0001C0) S_END
- * 
+ */
+
+/*
  * (0001C4) S_LPROC32: [0001:0002BC6D], Cb: 0000004C, Type:             0x1AA7, helmCallback
  *          Parent: 00000000, End: 0000025C, Next: 00000260
  *          Debug start: 00000006, Debug end: 00000048
@@ -65,7 +85,9 @@
  * (00024C)  S_BPREL32: [FFFFFFFC], Type:             0x1404, obj
  * 
  * (00025C) S_END
- * 
+ */
+
+/*
  * (000260) S_LPROC32: [0001:0002BCB9], Cb: 000000EE, Type:             0x1408, drvDraw
  *          Parent: 00000000, End: 000002FC, Next: 00000300
  *          Debug start: 00000006, Debug end: 000000EA
@@ -83,7 +105,9 @@
  * (0002F8)  S_END
  * 
  * (0002FC) S_END
- * 
+ */
+
+/*
  * (000300) S_LPROC32: [0001:0002BDA7], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
  *          Parent: 00000000, End: 00000358, Next: 0000035C
  *          Debug start: 00000003, Debug end: 0000000C
@@ -93,7 +117,9 @@
  * (000348)  S_BPREL32: [0000000C], Type:    T_32PVOID(0403), D
  * 
  * (000358) S_END
- * 
+ */
+
+/*
  * (00035C) S_LPROC32: [0001:0002BDB5], Cb: 0000062B, Type:             0x1408, drvHandler
  *          Parent: 00000000, End: 000004A0, Next: 000004A4
  *          Debug start: 00000006, Debug end: 0000060B
@@ -116,14 +142,18 @@
  * (000490)  S_BPREL32: [FFFFFFF4], Type:             0x1008, a
  * 
  * (0004A0) S_END
- * 
+ */
+
+/*
  * (0004A4) S_LPROC32: [0001:0002C3E0], Cb: 00000023, Type:             0x1AA6, nRand
  *          Parent: 00000000, End: 000004D4, Next: 000004D8
  *          Debug start: 00000003, Debug end: 00000021
  *          Flags: Frame Ptr Present
  * 
  * (0004D4) S_END
- * 
+ */
+
+/*
  * (0004D8) S_GPROC32: [0001:0002C403], Cb: 00000043, Type:             0x1001, DRIVER_Allocate
  *          Parent: 00000000, End: 00000538, Next: 00000000
  *          Debug start: 00000006, Debug end: 0000003F
@@ -133,14 +163,5 @@
  * (000520)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000538) S_END
- * 
- * (00053C) S_GDATA32: [0003:0097BCC0], Type:             0x1AD1, rndArray
- * (000554) S_GDATA32: [0003:0097BCB8], Type:      T_UCHAR(0020), rndIndex
- * (00056C) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (000584) S_GDATA32: [0003:00011B88], Type:             0x1BC7, CarDetailInfo
- * (0005A0) S_GDATA32: [0003:00075164], Type:             0x140A, GlobalCamera
- * (0005BC) S_LDATA32: [0003:00075678], Type:             0x1006, mTemp
- * (0005D0) S_GDATA32: [0003:0006C4D0], Type:             0x1A4A, DetailSettings
- * 
  */
 

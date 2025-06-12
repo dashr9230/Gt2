@@ -15,6 +15,22 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000398) S_GDATA32: [0003:0097BEC0], Type:             0x13DB, freeParticle
+ * (0003B4) S_GDATA32: [0003:0097BEC4], Type:             0x13DB, allParticles
+ * (0003D0) S_GDATA32: [0003:000756B8], Type:      T_ULONG(0022), prtMaxParticles
+ * (0003F0) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (00040C) S_GDATA32: [0003:0097B490], Type:             0x1008, Isec
+ * (000420) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
+ * (000438) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
+ * (000450) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
+ * (000468) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0002C960], Cb: 00000358, Type:             0x1BBB, prtUpdateParticleList
  *          Parent: 00000000, End: 000001C4, Next: 000001C8
  *          Debug start: 00000006, Debug end: 00000354
@@ -50,7 +66,9 @@
  * (0001C0)  S_END
  * 
  * (0001C4) S_END
- * 
+ */
+
+/*
  * (0001C8) S_LPROC32: [0001:0002CCB8], Cb: 0000007F, Type:             0x1BBB, prtDeallocate
  *          Parent: 00000000, End: 00000220, Next: 00000224
  *          Debug start: 00000003, Debug end: 0000007D
@@ -60,7 +78,9 @@
  * (000210)  S_BPREL32: [0000000C], Type:             0x1BB9, lpt
  * 
  * (000220) S_END
- * 
+ */
+
+/*
  * (000224) S_LPROC32: [0001:0002CD37], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
  *          Parent: 00000000, End: 000002E0, Next: 000002E4
  *          Debug start: 00000006, Debug end: 0000006D
@@ -80,7 +100,9 @@
  * (0002DC)  S_END
  * 
  * (0002E0) S_END
- * 
+ */
+
+/*
  * (0002E4) S_GPROC32: [0001:0002CDA8], Cb: 000000E5, Type:             0x1B55, prtInitialize
  *          Parent: 00000000, End: 0000035C, Next: 00000360
  *          Debug start: 00000006, Debug end: 000000E1
@@ -96,23 +118,14 @@
  * (000358)  S_END
  * 
  * (00035C) S_END
- * 
+ */
+
+/*
  * (000360) S_GPROC32: [0001:0002CE8D], Cb: 0000003B, Type:             0x1001, prtRelease
  *          Parent: 00000000, End: 00000394, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000039
  *          Flags: Frame Ptr Present
  * 
  * (000394) S_END
- * 
- * (000398) S_GDATA32: [0003:0097BEC0], Type:             0x13DB, freeParticle
- * (0003B4) S_GDATA32: [0003:0097BEC4], Type:             0x13DB, allParticles
- * (0003D0) S_GDATA32: [0003:000756B8], Type:      T_ULONG(0022), prtMaxParticles
- * (0003F0) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (00040C) S_GDATA32: [0003:0097B490], Type:             0x1008, Isec
- * (000420) S_GDATA32: [0003:0097BED0], Type:     T_REAL32(0040), meshXZD
- * (000438) S_GDATA32: [0003:0097BED4], Type:     T_REAL32(0040), meshZZD
- * (000450) S_GDATA32: [0003:0097BEC8], Type:     T_REAL32(0040), meshXOff
- * (000468) S_GDATA32: [0003:0097BECC], Type:     T_REAL32(0040), meshZOff
- * 
  */
 

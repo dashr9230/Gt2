@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000230) S_GDATA32: [0003:0091E8AC], Type:             0x1834, logfile
+ * (000248) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000260) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:000830E0], Cb: 00000041, Type:             0x1D1B, WashAndGo
  *          Parent: 00000000, End: 000000D8, Next: 000000DC
  *          Debug start: 00000003, Debug end: 0000003F
@@ -23,7 +33,9 @@
  * (0000C0)  S_BPREL32: [00000008], Type:   T_32PUCHAR(0420), ErrorBuffer
  * 
  * (0000D8) S_END
- * 
+ */
+
+/*
  * (0000DC) S_GPROC32: [0001:00083121], Cb: 00000077, Type:             0x1FCB, ExitGracefully
  *          Parent: 00000000, End: 00000158, Next: 0000015C
  *          Debug start: 00000009, Debug end: 00000073
@@ -34,7 +46,9 @@
  * (000144)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), arglist
  * 
  * (000158) S_END
- * 
+ */
+
+/*
  * (00015C) S_GPROC32: [0001:00083198], Cb: 00000122, Type:             0x1FCB, CleanupAndGo
  *          Parent: 00000000, End: 000001D4, Next: 000001D8
  *          Debug start: 00000009, Debug end: 0000011E
@@ -45,7 +59,9 @@
  * (0001C0)  S_BPREL32: [FFFFFFFC], Type:   T_32PRCHAR(0470), arglist
  * 
  * (0001D4) S_END
- * 
+ */
+
+/*
  * (0001D8) S_GPROC32: [0001:000832BA], Cb: 0000001D, Type:             0x1B5B, DavesFault_MessageBox
  *          Parent: 00000000, End: 0000022C, Next: 00000000
  *          Debug start: 00000003, Debug end: 0000001B
@@ -54,10 +70,5 @@
  * (000218)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), message
  * 
  * (00022C) S_END
- * 
- * (000230) S_GDATA32: [0003:0091E8AC], Type:             0x1834, logfile
- * (000248) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000260) S_GDATA32: [0003:00C30FB8], Type:             0x102A, hWndMain
- * 
  */
 

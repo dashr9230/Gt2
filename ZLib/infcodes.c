@@ -15,6 +15,17 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * (00039C) S_UDT:             0x2126, inflate_codes_state
+ * (0003B8) S_UDT:             0x212F, inflate_blocks_state
+ * (0003D8) S_UDT:             0x212F, inflate_blocks_statef
+ * 
+ */
+
+/*
+ * (000380) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0009AB20], Cb: 00000071, Type:             0x2129, inflate_codes_new
  *          Parent: 00000000, End: 00000128, Next: 0000012C
  *          Debug start: 0000000C, Debug end: 00000062
@@ -28,7 +39,9 @@
  * (000118)  S_BPREL32: [FFFFFFFC], Type:             0x2127, c
  * 
  * (000128) S_END
- * 
+ */
+
+/*
  * (00012C) S_GPROC32: [0001:0009AB91], Cb: 00000D83, Type:             0x2132, inflate_codes
  *          Parent: 00000000, End: 0000031C, Next: 00000320
  *          Debug start: 00000016, Debug end: 00000D4C
@@ -61,7 +74,9 @@
  * (00030C)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), p
  * 
  * (00031C) S_END
- * 
+ */
+
+/*
  * (000320) S_GPROC32: [0001:0009B914], Cb: 0000002B, Type:             0x2134, inflate_codes_free
  *          Parent: 00000000, End: 0000037C, Next: 00000000
  *          Debug start: 00000004, Debug end: 00000021
@@ -71,11 +86,5 @@
  * (00036C)  S_BPREL32: [0000000C], Type:             0x2107, z
  * 
  * (00037C) S_END
- * 
- * (000380) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
- * (00039C) S_UDT:             0x2126, inflate_codes_state
- * (0003B8) S_UDT:             0x212F, inflate_blocks_state
- * (0003D8) S_UDT:             0x212F, inflate_blocks_statef
- * 
  */
 

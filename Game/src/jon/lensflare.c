@@ -15,6 +15,57 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000C70) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
+ * (000C8C) S_GDATA32: [0003:0097BC80], Type:      T_UCHAR(0020), seventies
+ * (000CA4) S_LDATA32: [0003:0000FF18], Type:             0x1B7D, lenses
+ * (000CBC) S_LDATA32: [0003:00010230], Type:             0x1B7E, flares
+ * (000CD4) S_LDATA32: [0003:00010338], Type:             0x1B7F, texts
+ * (000CE8) S_LDATA32: [0003:00010350], Type:             0x112A, ddsd
+ * (000CFC) S_LDATA32: [0003:000103D0], Type:             0x1006, gIMx
+ * (000D10) S_LDATA32: [0003:00075BB0], Type:             0x1B80, lPts
+ * (000D24) S_LDATA32: [0003:00075A00], Type:             0x1B81, fPts
+ * (000D38) S_LDATA32: [0003:00075B20], Type:             0x1B82, hPts
+ * (000D4C) S_LDATA32: [0003:00010410], Type:             0x11CC, d3td
+ * (000D60) S_LDATA32: [0003:00010444], Type:             0x1B83, tpX
+ * (000D74) S_LDATA32: [0003:00010468], Type:             0x1B83, tpY
+ * (000D88) S_LDATA32: [0003:0001048C], Type:             0x1B84, tpSc
+ * (000D9C) S_LDATA32: [0003:00010498], Type:             0x1B85, iCon
+ * (000DB0) S_LDATA32: [0003:000759CC], Type:     T_REAL32(0040), vwx1
+ * (000DC4) S_LDATA32: [0003:000759D4], Type:     T_REAL32(0040), vwy1
+ * (000DD8) S_LDATA32: [0003:000759D0], Type:     T_REAL32(0040), vwx2
+ * (000DEC) S_LDATA32: [0003:000759D8], Type:     T_REAL32(0040), vwy2
+ * (000E00) S_LDATA32: [0003:000759BC], Type:             0x1769, clr
+ * (000E14) S_LDATA32: [0003:000759DC], Type:             0x13BB, ctx
+ * (000E28) S_LDATA32: [0003:00075CD4], Type:     T_REAL32(0040), widy
+ * (000E3C) S_LDATA32: [0003:00075CD8], Type:             0x1404, flareParent
+ * (000E58) S_LDATA32: [0003:000759B8], Type:      T_ULONG(0022), flarePurple
+ * (000E74) S_LDATA32: [0003:000759FC], Type:             0x13A0, lenstex
+ * (000E8C) S_GDATA32: [0003:00C30EA0], Type:     T_REAL32(0040), CameraXPos
+ * (000EA8) S_GDATA32: [0003:00C30FAC], Type:     T_REAL32(0040), CameraYPos
+ * (000EC4) S_GDATA32: [0003:00C30FA4], Type:     T_REAL32(0040), CameraZPos
+ * (000EE0) S_GDATA32: [0003:00070480], Type:             0x1006, CameraMatrix
+ * (000EFC) S_LDATA32: [0003:00075CEC], Type:             0x1404, lpFlareObj
+ * (000F18) S_LDATA32: [0003:00075CF0], Type:             0x1B8B, lpFlares
+ * (000F30) S_LDATA32: [0003:00075CF4], Type:             0x1B8D, lpFlareDrawOrder
+ * (000F50) S_LDATA32: [0003:00075CF8], Type:       T_LONG(0012), NumLampsActive
+ * (000F70) S_LDATA32: [0003:00075CFC], Type:       T_LONG(0012), MaxLampsActive
+ * (000F90) S_LDATA32: [0003:00075D00], Type:       T_LONG(0012), CurLampsActive
+ * (000FB0) S_LDATA32: [0003:00075D04], Type:       T_LONG(0012), DrwLampsStart
+ * (000FCC) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
+ * (000FE4) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
+ * (001000) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
+ * (00101C) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
+ * (001038) S_GDATA32: [0003:00C97118], Type:      T_ULONG(0022), RS_DPCalled
+ * (001054) S_GDATA32: [0003:00C970CC], Type:      T_ULONG(0022), RS_DPVCount
+ * (001070) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
+ * (001090) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0002F7C0], Cb: 0000016E, Type:             0x1B6E, flareAttachFlare
  *          Parent: 00000000, End: 00000128, Next: 0000012C
  *          Debug start: 00000006, Debug end: 0000016A
@@ -27,7 +78,9 @@
  * (000114)  S_LDATA32: [0003:00075CE0], Type:             0x1008, zro
  * 
  * (000128) S_END
- * 
+ */
+
+/*
  * (00012C) S_LPROC32: [0001:0002F92E], Cb: 000001C5, Type:             0x1408, flareDrawTestPattern
  *          Parent: 00000000, End: 00000234, Next: 00000238
  *          Debug start: 00000006, Debug end: 000001C1
@@ -52,7 +105,9 @@
  * (000230)  S_END
  * 
  * (000234) S_END
- * 
+ */
+
+/*
  * (000238) S_LPROC32: [0001:0002FAF3], Cb: 000000C3, Type:             0x1408, flareTrackAttachment
  *          Parent: 00000000, End: 000002B4, Next: 000002B8
  *          Debug start: 00000006, Debug end: 000000BF
@@ -64,7 +119,9 @@
  * (0002A4)  S_BPREL32: [FFFFFFFC], Type:             0x13A1, off
  * 
  * (0002B4) S_END
- * 
+ */
+
+/*
  * (0002B8) S_GPROC32: [0001:0002FBB6], Cb: 000002A2, Type:             0x1B70, flareMeshAllocate
  *          Parent: 00000000, End: 0000042C, Next: 00000430
  *          Debug start: 00000006, Debug end: 0000029E
@@ -103,14 +160,18 @@
  * (000428)  S_END
  * 
  * (00042C) S_END
- * 
+ */
+
+/*
  * (000430) S_GPROC32: [0001:0002FE58], Cb: 00000144, Type:             0x1001, flareInitialize
  *          Parent: 00000000, End: 00000468, Next: 0000046C
  *          Debug start: 00000003, Debug end: 00000142
  *          Flags: Frame Ptr Present
  * 
  * (000468) S_END
- * 
+ */
+
+/*
  * (00046C) S_LPROC32: [0001:0002FF9C], Cb: 00000138, Type:             0x1408, flareDrawAllFlares
  *          Parent: 00000000, End: 0000056C, Next: 00000570
  *          Debug start: 00000006, Debug end: 00000134
@@ -142,7 +203,9 @@
  * (000568)  S_END
  * 
  * (00056C) S_END
- * 
+ */
+
+/*
  * (000570) S_LPROC32: [0001:000300D4], Cb: 000006EC, Type:             0x1A6A, flareDrawSpecificFlare
  *          Parent: 00000000, End: 000007D4, Next: 000007D8
  *          Debug start: 00000006, Debug end: 000006E8
@@ -205,7 +268,9 @@
  * (0007D0)  S_END
  * 
  * (0007D4) S_END
- * 
+ */
+
+/*
  * (0007D8) S_LPROC32: [0001:000307C0], Cb: 000002A9, Type:             0x1B79, drawClippedColouredScreenSprite
  *          Parent: 00000000, End: 00000930, Next: 00000934
  *          Debug start: 00000006, Debug end: 000002A5
@@ -230,7 +295,9 @@
  * (000920)  S_BPREL32: [FFFFFFFC], Type:     T_REAL32(0040), ty
  * 
  * (000930) S_END
- * 
+ */
+
+/*
  * (000934) S_LPROC32: [0001:00030A69], Cb: 0000010B, Type:             0x1B7B, flareCountPurples
  *          Parent: 00000000, End: 000009F0, Next: 000009F4
  *          Debug start: 00000006, Debug end: 00000107
@@ -250,14 +317,18 @@
  * (0009EC)  S_END
  * 
  * (0009F0) S_END
- * 
+ */
+
+/*
  * (0009F4) S_GPROC32: [0001:00030B74], Cb: 00000062, Type:             0x1001, flareRelease
  *          Parent: 00000000, End: 00000A28, Next: 00000A2C
  *          Debug start: 00000003, Debug end: 00000060
  *          Flags: Frame Ptr Present
  * 
  * (000A28) S_END
- * 
+ */
+
+/*
  * (000A2C) S_GPROC32: [0001:00030BD6], Cb: 0000026D, Type:             0x1B7C, FLARES_Init
  *          Parent: 00000000, End: 00000AD8, Next: 00000ADC
  *          Debug start: 00000006, Debug end: 00000269
@@ -275,7 +346,9 @@
  * (000AD4)  S_END
  * 
  * (000AD8) S_END
- * 
+ */
+
+/*
  * (000ADC) S_LPROC32: [0001:00030E43], Cb: 00000060, Type:             0x1408, SingleFlareDraw
  *          Parent: 00000000, End: 00000B28, Next: 00000B2C
  *          Debug start: 00000003, Debug end: 0000005E
@@ -284,7 +357,9 @@
  * (000B14)  S_BPREL32: [00000008], Type:             0x1404, lpObj
  * 
  * (000B28) S_END
- * 
+ */
+
+/*
  * (000B2C) S_LPROC32: [0001:00030EA3], Cb: 00000154, Type:             0x1408, FlareDraw
  *          Parent: 00000000, End: 00000BDC, Next: 00000BE0
  *          Debug start: 00000006, Debug end: 00000150
@@ -303,7 +378,9 @@
  * (000BD8)  S_END
  * 
  * (000BDC) S_END
- * 
+ */
+
+/*
  * (000BE0) S_LPROC32: [0001:00030FF7], Cb: 0000002A, Type:             0x1B48, FLARES_LoadLamps
  *          Parent: 00000000, End: 00000C30, Next: 00000C34
  *          Debug start: 00000003, Debug end: 00000028
@@ -312,59 +389,18 @@
  * (000C18)  S_BPREL32: [00000008], Type:   T_32PRCHAR(0470), lpFileName
  * 
  * (000C30) S_END
- * 
+ */
+
+/*
  * (000C34) S_GPROC32: [0001:00031021], Cb: 00000098, Type:             0x1001, FLARES_Release
  *          Parent: 00000000, End: 00000C6C, Next: 000010AC
  *          Debug start: 00000003, Debug end: 00000096
  *          Flags: Frame Ptr Present
  * 
  * (000C6C) S_END
- * 
- * (000C70) S_GDATA32: [0003:01255DF0], Type:             0x1ACA, MESH_Header
- * (000C8C) S_GDATA32: [0003:0097BC80], Type:      T_UCHAR(0020), seventies
- * (000CA4) S_LDATA32: [0003:0000FF18], Type:             0x1B7D, lenses
- * (000CBC) S_LDATA32: [0003:00010230], Type:             0x1B7E, flares
- * (000CD4) S_LDATA32: [0003:00010338], Type:             0x1B7F, texts
- * (000CE8) S_LDATA32: [0003:00010350], Type:             0x112A, ddsd
- * (000CFC) S_LDATA32: [0003:000103D0], Type:             0x1006, gIMx
- * (000D10) S_LDATA32: [0003:00075BB0], Type:             0x1B80, lPts
- * (000D24) S_LDATA32: [0003:00075A00], Type:             0x1B81, fPts
- * (000D38) S_LDATA32: [0003:00075B20], Type:             0x1B82, hPts
- * (000D4C) S_LDATA32: [0003:00010410], Type:             0x11CC, d3td
- * (000D60) S_LDATA32: [0003:00010444], Type:             0x1B83, tpX
- * (000D74) S_LDATA32: [0003:00010468], Type:             0x1B83, tpY
- * (000D88) S_LDATA32: [0003:0001048C], Type:             0x1B84, tpSc
- * (000D9C) S_LDATA32: [0003:00010498], Type:             0x1B85, iCon
- * (000DB0) S_LDATA32: [0003:000759CC], Type:     T_REAL32(0040), vwx1
- * (000DC4) S_LDATA32: [0003:000759D4], Type:     T_REAL32(0040), vwy1
- * (000DD8) S_LDATA32: [0003:000759D0], Type:     T_REAL32(0040), vwx2
- * (000DEC) S_LDATA32: [0003:000759D8], Type:     T_REAL32(0040), vwy2
- * (000E00) S_LDATA32: [0003:000759BC], Type:             0x1769, clr
- * (000E14) S_LDATA32: [0003:000759DC], Type:             0x13BB, ctx
- * (000E28) S_LDATA32: [0003:00075CD4], Type:     T_REAL32(0040), widy
- * (000E3C) S_LDATA32: [0003:00075CD8], Type:             0x1404, flareParent
- * (000E58) S_LDATA32: [0003:000759B8], Type:      T_ULONG(0022), flarePurple
- * (000E74) S_LDATA32: [0003:000759FC], Type:             0x13A0, lenstex
- * (000E8C) S_GDATA32: [0003:00C30EA0], Type:     T_REAL32(0040), CameraXPos
- * (000EA8) S_GDATA32: [0003:00C30FAC], Type:     T_REAL32(0040), CameraYPos
- * (000EC4) S_GDATA32: [0003:00C30FA4], Type:     T_REAL32(0040), CameraZPos
- * (000EE0) S_GDATA32: [0003:00070480], Type:             0x1006, CameraMatrix
- * (000EFC) S_LDATA32: [0003:00075CEC], Type:             0x1404, lpFlareObj
- * (000F18) S_LDATA32: [0003:00075CF0], Type:             0x1B8B, lpFlares
- * (000F30) S_LDATA32: [0003:00075CF4], Type:             0x1B8D, lpFlareDrawOrder
- * (000F50) S_LDATA32: [0003:00075CF8], Type:       T_LONG(0012), NumLampsActive
- * (000F70) S_LDATA32: [0003:00075CFC], Type:       T_LONG(0012), MaxLampsActive
- * (000F90) S_LDATA32: [0003:00075D00], Type:       T_LONG(0012), CurLampsActive
- * (000FB0) S_LDATA32: [0003:00075D04], Type:       T_LONG(0012), DrwLampsStart
- * (000FCC) S_GDATA32: [0003:00C9A980], Type:             0x1656, VidCtrl
- * (000FE4) S_GDATA32: [0003:0091ED48], Type:             0x1B2B, RS_lpCurTex
- * (001000) S_GDATA32: [0003:00C97114], Type:       T_INT4(0074), RS_DumpPacket
- * (00101C) S_GDATA32: [0003:00C970E0], Type:             0x1AD2, RS_TexChge
- * (001038) S_GDATA32: [0003:00C97118], Type:      T_ULONG(0022), RS_DPCalled
- * (001054) S_GDATA32: [0003:00C970CC], Type:      T_ULONG(0022), RS_DPVCount
- * (001070) S_GDATA32: [0003:00C97100], Type:             0x1AD2, RS_TransformChge
- * (001090) S_GDATA32: [0003:0006D568], Type:             0x1B2D, RS_PrimType
- * 
+ */
+
+/*
  * (0010AC) S_GPROC32: [0001:000310C0], Cb: 00000078, Type:             0x1B8F, RSTATES_DrawPrimitive
  *          Parent: 00000000, End: 00001174, Next: 00000000
  *          Debug start: 00000003, Debug end: 00000076
@@ -377,6 +413,5 @@
  * (001160)  S_BPREL32: [00000018], Type:      T_ULONG(0022), dwFlags
  * 
  * (001174) S_END
- * 
  */
 

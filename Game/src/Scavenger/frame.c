@@ -15,6 +15,14 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000A9C) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
+ */
+
+/*
  * (000088) S_GPROC32: [0001:0004DC80], Cb: 00000091, Type:             0x1408, Frame_Release
  *          Parent: 00000000, End: 000000E8, Next: 000000EC
  *          Debug start: 00000004, Debug end: 0000008D
@@ -24,7 +32,9 @@
  * (0000D0)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (0000E8) S_END
- * 
+ */
+
+/*
  * (0000EC) S_GPROC32: [0001:0004DD11], Cb: 000000D7, Type:             0x1824, Frame_Create
  *          Parent: 00000000, End: 00000150, Next: 00000154
  *          Debug start: 00000006, Debug end: 000000D3
@@ -34,7 +44,9 @@
  * (000138)  S_BPREL32: [FFFFFFFC], Type:             0x1404, FrameObject
  * 
  * (000150) S_END
- * 
+ */
+
+/*
  * (000154) S_GPROC32: [0001:0004DDE8], Cb: 0000001D, Type:             0x1A56, Frame_SetDrawOrder
  *          Parent: 00000000, End: 000001CC, Next: 000001D0
  *          Debug start: 00000004, Debug end: 00000019
@@ -45,7 +57,9 @@
  * (0001B4)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (0001CC) S_END
- * 
+ */
+
+/*
  * (0001D0) S_GPROC32: [0001:0004DE05], Cb: 00000080, Type:             0x1408, Frame_Draw
  *          Parent: 00000000, End: 0000022C, Next: 00000230
  *          Debug start: 00000004, Debug end: 0000007C
@@ -55,7 +69,9 @@
  * (000214)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (00022C) S_END
- * 
+ */
+
+/*
  * (000230) S_GPROC32: [0001:0004DE85], Cb: 00000047, Type:             0x1826, Frame_CreatePoly
  *          Parent: 00000000, End: 00000324, Next: 00000328
  *          Debug start: 00000004, Debug end: 00000043
@@ -74,7 +90,9 @@
  * (00030C)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000324) S_END
- * 
+ */
+
+/*
  * (000328) S_GPROC32: [0001:0004DECC], Cb: 00000043, Type:             0x182C, Frame_CreateFlatPoly
  *          Parent: 00000000, End: 00000410, Next: 00000414
  *          Debug start: 00000004, Debug end: 0000003F
@@ -92,7 +110,9 @@
  * (0003F8)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000410) S_END
- * 
+ */
+
+/*
  * (000414) S_GPROC32: [0001:0004DF0F], Cb: 00000043, Type:             0x182E, Frame_CreateGouraudPoly
  *          Parent: 00000000, End: 00000500, Next: 00000504
  *          Debug start: 00000004, Debug end: 0000003F
@@ -110,7 +130,9 @@
  * (0004E8)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000500) S_END
- * 
+ */
+
+/*
  * (000504) S_GPROC32: [0001:0004DF52], Cb: 00000051, Type:             0x1A58, Frame_Createbutton
  *          Parent: 00000000, End: 00000628, Next: 0000062C
  *          Debug start: 00000004, Debug end: 0000004D
@@ -130,7 +152,9 @@
  * (000610)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000628) S_END
- * 
+ */
+
+/*
  * (00062C) S_GPROC32: [0001:0004DFA3], Cb: 0000003E, Type:             0x1A5A, Frame_CreateIcon
  *          Parent: 00000000, End: 00000718, Next: 0000071C
  *          Debug start: 00000004, Debug end: 0000003A
@@ -147,7 +171,9 @@
  * (000700)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000718) S_END
- * 
+ */
+
+/*
  * (00071C) S_GPROC32: [0001:0004DFE1], Cb: 0000003E, Type:             0x1A5C, Frame_CreateArea
  *          Parent: 00000000, End: 000007FC, Next: 00000800
  *          Debug start: 00000004, Debug end: 0000003A
@@ -164,7 +190,9 @@
  * (0007E4)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (0007FC) S_END
- * 
+ */
+
+/*
  * (000800) S_GPROC32: [0001:0004E01F], Cb: 00000080, Type:             0x1A5E, Frame_TextWrite
  *          Parent: 00000000, End: 00000908, Next: 0000090C
  *          Debug start: 00000009, Debug end: 0000007C
@@ -183,7 +211,9 @@
  * (0008F4)  S_BPREL32: [FFFFFF00], Type:             0x1A12, Message
  * 
  * (000908) S_END
- * 
+ */
+
+/*
  * (00090C) S_GPROC32: [0001:0004E09F], Cb: 00000037, Type:             0x1A5F, Frame_CheckPointerOver
  *          Parent: 00000000, End: 00000998, Next: 0000099C
  *          Debug start: 00000004, Debug end: 00000033
@@ -195,7 +225,9 @@
  * (000980)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000998) S_END
- * 
+ */
+
+/*
  * (00099C) S_GPROC32: [0001:0004E0D6], Cb: 00000035, Type:             0x1A33, Frame_CheckClick
  *          Parent: 00000000, End: 00000A20, Next: 00000A24
  *          Debug start: 00000004, Debug end: 00000031
@@ -207,7 +239,9 @@
  * (000A08)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000A20) S_END
- * 
+ */
+
+/*
  * (000A24) S_GPROC32: [0001:0004E10B], Cb: 00000023, Type:             0x1A56, Frame_SetState
  *          Parent: 00000000, End: 00000A98, Next: 00000000
  *          Debug start: 00000004, Debug end: 0000001F
@@ -218,8 +252,5 @@
  * (000A80)  S_BPREL32: [FFFFFFFC], Type:             0x1A54, FrameData
  * 
  * (000A98) S_END
- * 
- * (000A9C) S_GDATA32: [0003:0007A0B8], Type:             0x1404, MenuObject
- * 
  */
 

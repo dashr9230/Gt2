@@ -15,6 +15,16 @@
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  * 
+ * 
+ */
+
+/*
+ * (000808) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
+ * (000820) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
+ * (00083C) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
+ */
+
+/*
  * (00008C) S_GPROC32: [0001:0001FDC0], Cb: 000000B3, Type:             0x1C39, Time_Init
  *          Parent: 00000000, End: 000000EC, Next: 000000F0
  *          Debug start: 00000004, Debug end: 000000AF
@@ -24,7 +34,9 @@
  * (0000DC)  S_BPREL32: [FFFFFFFC], Type:             0x1404, obj
  * 
  * (0000EC) S_END
- * 
+ */
+
+/*
  * (0000F0) S_GPROC32: [0001:0001FE73], Cb: 0000011E, Type:             0x1A56, Time_Reset
  *          Parent: 00000000, End: 00000180, Next: 00000184
  *          Debug start: 00000006, Debug end: 0000011A
@@ -37,7 +49,9 @@
  * (000170)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), i
  * 
  * (000180) S_END
- * 
+ */
+
+/*
  * (000184) S_LPROC32: [0001:0001FF91], Cb: 0000001D, Type:             0x1408, Time_Destroy
  *          Parent: 00000000, End: 000001C8, Next: 000001CC
  *          Debug start: 00000003, Debug end: 0000001B
@@ -46,7 +60,9 @@
  * (0001B8)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (0001C8) S_END
- * 
+ */
+
+/*
  * (0001CC) S_GPROC32: [0001:0001FFAE], Cb: 000000B3, Type:             0x1408, TriggerPitBoard
  *          Parent: 00000000, End: 00000240, Next: 00000244
  *          Debug start: 00000006, Debug end: 000000AF
@@ -57,7 +73,9 @@
  * (00022C)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, ThisCar
  * 
  * (000240) S_END
- * 
+ */
+
+/*
  * (000244) S_GPROC32: [0001:00020061], Cb: 0000001D, Type:             0x1408, Time_Handler
  *          Parent: 00000000, End: 00000288, Next: 0000028C
  *          Debug start: 00000003, Debug end: 0000001B
@@ -66,7 +84,9 @@
  * (000278)  S_BPREL32: [00000008], Type:             0x1404, obj
  * 
  * (000288) S_END
- * 
+ */
+
+/*
  * (00028C) S_LPROC32: [0001:0002007E], Cb: 0000018C, Type:             0x1408, Time_Tick
  *          Parent: 00000000, End: 00000314, Next: 00000318
  *          Debug start: 00000006, Debug end: 00000188
@@ -78,7 +98,9 @@
  * (0002FC)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (000314) S_END
- * 
+ */
+
+/*
  * (000318) S_LPROC32: [0001:0002020A], Cb: 00000118, Type:             0x1408, Time_StartLightHandler
  *          Parent: 00000000, End: 0000037C, Next: 00000380
  *          Debug start: 00000004, Debug end: 00000114
@@ -88,7 +110,9 @@
  * (000368)  S_BPREL32: [FFFFFFFC], Type:             0x1A83, Time
  * 
  * (00037C) S_END
- * 
+ */
+
+/*
  * (000380) S_LPROC32: [0001:00020322], Cb: 0000002C, Type:             0x1408, TimeRaceInfoHandler
  *          Parent: 00000000, End: 000003E0, Next: 000003E4
  *          Debug start: 00000004, Debug end: 00000028
@@ -98,7 +122,9 @@
  * (0003CC)  S_BPREL32: [FFFFFFFC], Type:             0x1A83, Time
  * 
  * (0003E0) S_END
- * 
+ */
+
+/*
  * (0003E4) S_LPROC32: [0001:0002034E], Cb: 000000DE, Type:             0x1408, Time_Check
  *          Parent: 00000000, End: 000004A0, Next: 000004A4
  *          Debug start: 00000006, Debug end: 000000DA
@@ -117,7 +143,9 @@
  * (00049C)  S_END
  * 
  * (0004A0) S_END
- * 
+ */
+
+/*
  * (0004A4) S_LPROC32: [0001:0002042C], Cb: 00000371, Type:             0x1408, Time_Draw
  *          Parent: 00000000, End: 00000538, Next: 0000053C
  *          Debug start: 00000006, Debug end: 0000036D
@@ -130,7 +158,9 @@
  * (000524)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), ypos
  * 
  * (000538) S_END
- * 
+ */
+
+/*
  * (00053C) S_GPROC32: [0001:0002079D], Cb: 00000062, Type:             0x1408, Time_InitCar
  *          Parent: 00000000, End: 00000594, Next: 00000598
  *          Debug start: 00000004, Debug end: 0000005E
@@ -140,7 +170,9 @@
  * (000580)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, ThisCar
  * 
  * (000594) S_END
- * 
+ */
+
+/*
  * (000598) S_GPROC32: [0001:000207FF], Cb: 00000394, Type:             0x1408, Time_UpdateCar
  *          Parent: 00000000, End: 0000063C, Next: 00000640
  *          Debug start: 00000007, Debug end: 0000038F
@@ -153,7 +185,9 @@
  * (000624)  S_BPREL32: [FFFFFFFC], Type:             0x1AA2, RaceControl
  * 
  * (00063C) S_END
- * 
+ */
+
+/*
  * (000640) S_LPROC32: [0001:00020B93], Cb: 0000001E, Type:             0x1408, TriggerRaceInfo
  *          Parent: 00000000, End: 0000069C, Next: 000006A0
  *          Debug start: 00000004, Debug end: 0000001A
@@ -163,7 +197,9 @@
  * (000688)  S_BPREL32: [FFFFFFFC], Type:             0x1A83, Time
  * 
  * (00069C) S_END
- * 
+ */
+
+/*
  * (0006A0) S_LPROC32: [0001:00020BB1], Cb: 00000035, Type:             0x1408, TimePitBoardHandler
  *          Parent: 00000000, End: 00000700, Next: 00000704
  *          Debug start: 00000004, Debug end: 00000031
@@ -173,7 +209,9 @@
  * (0006EC)  S_BPREL32: [FFFFFFFC], Type:             0x1A9D, ThisCar
  * 
  * (000700) S_END
- * 
+ */
+
+/*
  * (000704) S_GPROC32: [0001:00020BE6], Cb: 00000055, Type:             0x1408, Time_TriggerRaceOver
  *          Parent: 00000000, End: 00000798, Next: 0000079C
  *          Debug start: 00000006, Debug end: 00000051
@@ -190,7 +228,9 @@
  * (000794)  S_END
  * 
  * (000798) S_END
- * 
+ */
+
+/*
  * (00079C) S_GPROC32: [0001:00020C3B], Cb: 00000028, Type:             0x1408, Time_TriggerShutdownToMenu
  *          Parent: 00000000, End: 00000804, Next: 00000000
  *          Debug start: 00000004, Debug end: 00000024
@@ -200,10 +240,5 @@
  * (0007F0)  S_BPREL32: [FFFFFFFC], Type:             0x1A83, Time
  * 
  * (000804) S_END
- * 
- * (000808) S_GDATA32: [0003:0097F15C], Type:             0x1404, RC_Obj
- * (000820) S_GDATA32: [0003:00000030], Type:             0x17FB, AI_LineWeight
- * (00083C) S_GDATA32: [0003:0097C104], Type:             0x1418, Op
- * 
  */
 

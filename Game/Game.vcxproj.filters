@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Adrian">
+      <UniqueIdentifier>{488460ce-5552-4bc1-8806-155749b8c991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dave">
+      <UniqueIdentifier>{2d6d38f8-b99a-4839-8b3a-2f755023f816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jon">
+      <UniqueIdentifier>{bb80a362-2c3d-4563-8b6e-489a9a9a6a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mark">
+      <UniqueIdentifier>{69384554-34d9-4795-a355-24c1ed8019b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scavenger">
+      <UniqueIdentifier>{777d1429-e4c9-4bb7-9071-259fc7d453fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Adrian\sfxmanager.c">
+      <Filter>Adrian</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Adrian\replay.c">
+      <Filter>Adrian</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\AI_box.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\BufferGrabber.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\car2car.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\CarManager.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Chunk.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\CON_RaceControl.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Drivers.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Encrypt.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\FileGrabber.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\gamedata.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\GameSetup.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\GameText.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\GripEdit.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Hud.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\HudFont.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\HudMap.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\HudSprite.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\lineint.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\LoaderScreen.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Mapper.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Monitor.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\pausemenu.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Pitboard.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\RaceControl.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\RaceCraft2.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\raceovermenu.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\RaceTime.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\RaceWorld.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\SectorMap.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Sed2.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\SimController.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\starter.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Teams.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\TVedit.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\Vehicles.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\ViewportManager.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\collision.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\collmesh.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\driver.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\lensflare.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\lights.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\misc.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\particle.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\Random.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\shadow.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\skidmarks.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\skylayers.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\smoke.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\solar.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\weather.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jon\wind.c">
+      <Filter>jon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mark\CarCollisionMesh2.c">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mark\SimIterate2.c">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mark\simulation2.c">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mark\sqrt.c">
+      <Filter>Mark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\bt.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\button.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\careermenu.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\dialog.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\frame.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\gameworld.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\menu.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\menucar.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\menucontrol.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\menufont.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\menukeys.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\mtext.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\multiplayer.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\options.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\polygon.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\quickracemenu.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\replaytheatre.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scavenger\rootmenu.c">
+      <Filter>Scavenger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\carmesh.h" />
+  </ItemGroup>
+</Project>

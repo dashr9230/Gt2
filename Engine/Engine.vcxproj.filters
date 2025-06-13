@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Adrian">
+      <UniqueIdentifier>{62343b31-5764-41c5-9ed0-6c0801985e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dave">
+      <UniqueIdentifier>{c94e6a27-cb14-4c3b-bff0-7b6629fd889e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mox">
+      <UniqueIdentifier>{0209877e-3238-4875-a7cf-fa30dc7075e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Adrian\GamePath.c">
+      <Filter>Adrian</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Adrian\Settings.c">
+      <Filter>Adrian</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\FontManager.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\PowerLog.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\tdtf2.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dave\tv.c">
+      <Filter>dave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mox\io.c">
+      <Filter>mox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mox\memory.c">
+      <Filter>mox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mox\moxmaths.c">
+      <Filter>mox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mox\render.c">
+      <Filter>mox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mox\visuals.c">
+      <Filter>mox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cleanup.c" />
+    <ClCompile Include="src\Config.c" />
+    <ClCompile Include="src\console.c" />
+    <ClCompile Include="src\d3dcam.c" />
+    <ClCompile Include="src\D3dfuncs.c" />
+    <ClCompile Include="src\D3dlight.c" />
+    <ClCompile Include="src\D3dmath.c" />
+    <ClCompile Include="src\D3dmesh.c" />
+    <ClCompile Include="src\D3dobj.c" />
+    <ClCompile Include="src\D3dpanel.c" />
+    <ClCompile Include="src\D3dscrn.c" />
+    <ClCompile Include="src\D3dutils.c" />
+    <ClCompile Include="src\Debug.c" />
+    <ClCompile Include="src\dikeybrd.c" />
+    <ClCompile Include="src\getdxver.c" />
+    <ClCompile Include="src\joyread.c" />
+    <ClCompile Include="src\logfile.c" />
+    <ClCompile Include="src\mater.c" />
+    <ClCompile Include="src\network.c" />
+    <ClCompile Include="src\objects.c" />
+    <ClCompile Include="src\pause.c" />
+    <ClCompile Include="src\prim2d.c" />
+    <ClCompile Include="src\raster.c" />
+    <ClCompile Include="src\rstates.c" />
+    <ClCompile Include="src\Sound.c" />
+    <ClCompile Include="src\startup.c" />
+    <ClCompile Include="src\timing.c" />
+    <ClCompile Include="src\update.c" />
+    <ClCompile Include="src\video.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mox\moxtypes.h">
+      <Filter>mox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

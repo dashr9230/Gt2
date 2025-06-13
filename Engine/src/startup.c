@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -44,6 +42,10 @@
  * 
  * (00015C) S_END
  */
+void WinMain()
+{
+	// TODO: WinMain
+}
 
 /*
  * (000160) S_GPROC32: [0001:00091D15], Cb: 00000012, Type:             0x1EE8, MessageLoopHandler
@@ -56,6 +58,10 @@
  * 
  * (0001CC) S_END
  */
+void MessageLoopHandler()
+{
+	// TODO: MessageLoopHandler
+}
 
 /*
  * (0001D0) S_GPROC32: [0001:00091D27], Cb: 0000026F, Type:             0x175B, WndProc
@@ -76,4 +82,8 @@
  * 
  * (0002C0) S_END
  */
+void WndProc()
+{
+	// TODO: WndProc
+}
 

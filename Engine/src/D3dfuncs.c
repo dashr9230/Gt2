@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -42,6 +40,10 @@
  * 
  * (0000DC) S_END
  */
+void LockSurface()
+{
+	// TODO: LockSurface
+}
 
 /*
  * (0000E0) S_GPROC32: [0001:0008B4BB], Cb: 000000C3, Type:             0x1F49, VPORT_Setup
@@ -59,6 +61,10 @@
  * 
  * (0001B0) S_END
  */
+void VPORT_Setup()
+{
+	// TODO: VPORT_Setup
+}
 
 /*
  * (0001B4) S_GPROC32: [0001:0008B57E], Cb: 0000011A, Type:             0x1F4B, VPORT_SetupProjMatrixEx
@@ -78,6 +84,10 @@
  * 
  * (0002A4) S_END
  */
+void VPORT_SetupProjMatrixEx()
+{
+	// TODO: VPORT_SetupProjMatrixEx
+}
 
 /*
  * (0002A8) S_GPROC32: [0001:0008B698], Cb: 00000020, Type:             0x1F4D, VPORT_SetupProjMatrix
@@ -92,6 +102,10 @@
  * 
  * (00033C) S_END
  */
+void VPORT_SetupProjMatrix()
+{
+	// TODO: VPORT_SetupProjMatrix
+}
 
 /*
  * (000340) S_GPROC32: [0001:0008B6B8], Cb: 000000DE, Type:             0x1F50, CreateViewport
@@ -111,6 +125,10 @@
  * 
  * (00043C) S_END
  */
+void CreateViewport()
+{
+	// TODO: CreateViewport
+}
 
 /*
  * (000440) S_GPROC32: [0001:0008B796], Cb: 00000077, Type:             0x1F50, ChangeViewport
@@ -130,6 +148,10 @@
  * 
  * (00053C) S_END
  */
+void ChangeViewport()
+{
+	// TODO: ChangeViewport
+}
 
 /*
  * (000540) S_GPROC32: [0001:0008B80D], Cb: 00000059, Type:             0x1F52, DestroyViewport
@@ -142,6 +164,10 @@
  * 
  * (0005A8) S_END
  */
+void DestroyViewport()
+{
+	// TODO: DestroyViewport
+}
 
 /*
  * (0005AC) S_GPROC32: [0001:0008B866], Cb: 00000087, Type:             0x1F54, ClearViewport
@@ -154,6 +180,10 @@
  * 
  * (00060C) S_END
  */
+void ClearViewport()
+{
+	// TODO: ClearViewport
+}
 
 /*
  * (000610) S_GPROC32: [0001:0008B8ED], Cb: 0000001C, Type:             0x1F55, FUNC_SetUpdateCallBack
@@ -166,6 +196,10 @@
  * 
  * (000684) S_END
  */
+void FUNC_SetUpdateCallBack()
+{
+	// TODO: FUNC_SetUpdateCallBack
+}
 
 /*
  * (000688) S_GPROC32: [0001:0008B909], Cb: 0000001C, Type:             0x1F55, FUNC_SetGameCallBack
@@ -178,6 +212,10 @@
  * 
  * (0006F8) S_END
  */
+void FUNC_SetGameCallBack()
+{
+	// TODO: FUNC_SetGameCallBack
+}
 
 /*
  * (0006FC) S_GPROC32: [0001:0008B925], Cb: 00000083, Type:             0x1F57, INT_Init
@@ -190,6 +228,10 @@
  * 
  * (000750) S_END
  */
+void INT_Init()
+{
+	// TODO: INT_Init
+}
 
 /*
  * (000754) S_GPROC32: [0001:0008B9A8], Cb: 00000054, Type:             0x1001, INT_Remove
@@ -199,4 +241,8 @@
  * 
  * (000788) S_END
  */
+void INT_Remove()
+{
+	// TODO: INT_Remove
+}
 

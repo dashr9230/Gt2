@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -47,6 +45,10 @@
  * 
  * (00010C) S_END
  */
+void TestForce()
+{
+	// TODO: TestForce
+}
 
 /*
  * (000110) S_GPROC32: [0001:0003C7E5], Cb: 000000BD, Type:             0x1ADE, CheckCarOrientation
@@ -63,6 +65,10 @@
  * 
  * (0001C4) S_END
  */
+void CheckCarOrientation()
+{
+	// TODO: CheckCarOrientation
+}
 
 /*
  * (0001C8) S_GPROC32: [0001:0003C8A2], Cb: 0000181D, Type:             0x1408, simIterate2
@@ -144,6 +150,10 @@
  * 
  * (000688) S_END
  */
+void simIterate2()
+{
+	// TODO: simIterate2
+}
 
 /*
  * (00068C) S_LPROC32: [0001:0003E0BF], Cb: 00000129, Type:             0x1AE8, simSolveOrientation
@@ -163,6 +173,10 @@
  * 
  * (000758) S_END
  */
+void simSolveOrientation()
+{
+	// TODO: simSolveOrientation
+}
 
 /*
  * (00075C) S_LPROC32: [0001:0003E1E8], Cb: 00000031, Type:             0x1AAE, simSinCos
@@ -176,4 +190,8 @@
  * 
  * (0007C4) S_END
  */
+void simSinCos()
+{
+	// TODO: simSinCos
+}
 

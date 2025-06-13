@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -39,6 +37,10 @@
  * 
  * (00011C) S_END
  */
+void D3DVECTORNormalise()
+{
+	// TODO: D3DVECTORNormalise
+}
 
 /*
  * (000120) S_GPROC32: [0001:0007354C], Cb: 00000063, Type:             0x20C3, D3DVECTORCrossProduct
@@ -52,6 +54,10 @@
  * 
  * (000190) S_END
  */
+void D3DVECTORCrossProduct()
+{
+	// TODO: D3DVECTORCrossProduct
+}
 
 /*
  * (000194) S_GPROC32: [0001:000735AF], Cb: 000000D9, Type:             0x20C4, MultiplyD3DMATRIX
@@ -71,6 +77,10 @@
  * 
  * (000278) S_END
  */
+void MultiplyD3DMATRIX()
+{
+	// TODO: MultiplyD3DMATRIX
+}
 
 /*
  * (00027C) S_GPROC32: [0001:00073688], Cb: 000000C6, Type:             0x20C6, D3DMATRIXInvert
@@ -83,6 +93,10 @@
  * 
  * (0002D4) S_END
  */
+void D3DMATRIXInvert()
+{
+	// TODO: D3DMATRIXInvert
+}
 
 /*
  * (0002D8) S_GPROC32: [0001:0007374E], Cb: 000000FA, Type:             0x20C8, D3DMATRIXSetRotation
@@ -100,6 +114,10 @@
  * 
  * (000384) S_END
  */
+void D3DMATRIXSetRotation()
+{
+	// TODO: D3DMATRIXSetRotation
+}
 
 /*
  * (000388) S_GPROC32: [0001:00073848], Cb: 00000165, Type:             0x20CA, spline
@@ -122,6 +140,10 @@
  * 
  * (000478) S_END
  */
+void spline()
+{
+	// TODO: spline
+}
 
 /*
  * (00047C) S_GPROC32: [0001:000739AD], Cb: 00000070, Type:             0x20CC, MATH_RotatePoint
@@ -139,6 +161,10 @@
  * 
  * (000528) S_END
  */
+void MATH_RotatePoint()
+{
+	// TODO: MATH_RotatePoint
+}
 
 /*
  * (00052C) S_GPROC32: [0001:00073A1D], Cb: 00000082, Type:             0x20CC, MATH_ApplyMatrix
@@ -156,6 +182,10 @@
  * 
  * (0005D8) S_END
  */
+void MATH_ApplyMatrix()
+{
+	// TODO: MATH_ApplyMatrix
+}
 
 /*
  * (0005DC) S_GPROC32: [0001:00073A9F], Cb: 000000D4, Type:             0x20CC, MATH_ApplyProjMatrix
@@ -174,6 +204,10 @@
  * 
  * (00069C) S_END
  */
+void MATH_ApplyProjMatrix()
+{
+	// TODO: MATH_ApplyProjMatrix
+}
 
 /*
  * (0006A0) S_GPROC32: [0001:00073B73], Cb: 00000111, Type:             0x1001, MATH_CreateTrigTables
@@ -185,6 +219,10 @@
  * 
  * (0006F0) S_END
  */
+void MATH_CreateTrigTables()
+{
+	// TODO: MATH_CreateTrigTables
+}
 
 /*
  * (0006F4) S_GPROC32: [0001:00073C84], Cb: 0000001C, Type:             0x1001, MATH_DestroyTrigTables
@@ -194,6 +232,10 @@
  * 
  * (000734) S_END
  */
+void MATH_DestroyTrigTables()
+{
+	// TODO: MATH_DestroyTrigTables
+}
 
 /*
  * (000738) S_GPROC32: [0001:00073CA0], Cb: 00000187, Type:             0x20CD, MATH_ArcTan
@@ -209,4 +251,8 @@
  * 
  * (0007C8) S_END
  */
+void MATH_ArcTan()
+{
+	// TODO: MATH_ArcTan
+}
 

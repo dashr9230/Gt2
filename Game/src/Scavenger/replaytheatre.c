@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -39,6 +37,10 @@
  * 
  * (0000D8) S_END
  */
+void BtStartReplay()
+{
+	// TODO: BtStartReplay
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:000703DA], Cb: 0000016D, Type:             0x1001, OpStartReplay
@@ -50,6 +52,10 @@
  * 
  * (000124) S_END
  */
+void OpStartReplay()
+{
+	// TODO: OpStartReplay
+}
 
 /*
  * (000128) S_GPROC32: [0001:00070547], Cb: 000000EA, Type:             0x1001, DestroyReplayTheatre
@@ -61,6 +67,10 @@
  * 
  * (00017C) S_END
  */
+void DestroyReplayTheatre()
+{
+	// TODO: DestroyReplayTheatre
+}
 
 /*
  * (000180) S_GPROC32: [0001:00070631], Cb: 00000515, Type:             0x141A, SetupFrame_Replay
@@ -77,6 +87,10 @@
  * 
  * (000228) S_END
  */
+void SetupFrame_Replay()
+{
+	// TODO: SetupFrame_Replay
+}
 
 /*
  * (00022C) S_GPROC32: [0001:00070B46], Cb: 00000144, Type:             0x1001, SetupReplayTheatre
@@ -91,4 +105,8 @@
  * 
  * (0002B4) S_END
  */
+void SetupReplayTheatre()
+{
+	// TODO: SetupReplayTheatre
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -79,6 +77,10 @@
  * 
  * (000128) S_END
  */
+void flareAttachFlare()
+{
+	// TODO: flareAttachFlare
+}
 
 /*
  * (00012C) S_LPROC32: [0001:0002F92E], Cb: 000001C5, Type:             0x1408, flareDrawTestPattern
@@ -106,6 +108,10 @@
  * 
  * (000234) S_END
  */
+void flareDrawTestPattern()
+{
+	// TODO: flareDrawTestPattern
+}
 
 /*
  * (000238) S_LPROC32: [0001:0002FAF3], Cb: 000000C3, Type:             0x1408, flareTrackAttachment
@@ -120,6 +126,10 @@
  * 
  * (0002B4) S_END
  */
+void flareTrackAttachment()
+{
+	// TODO: flareTrackAttachment
+}
 
 /*
  * (0002B8) S_GPROC32: [0001:0002FBB6], Cb: 000002A2, Type:             0x1B70, flareMeshAllocate
@@ -161,6 +171,10 @@
  * 
  * (00042C) S_END
  */
+void flareMeshAllocate()
+{
+	// TODO: flareMeshAllocate
+}
 
 /*
  * (000430) S_GPROC32: [0001:0002FE58], Cb: 00000144, Type:             0x1001, flareInitialize
@@ -170,6 +184,10 @@
  * 
  * (000468) S_END
  */
+void flareInitialize()
+{
+	// TODO: flareInitialize
+}
 
 /*
  * (00046C) S_LPROC32: [0001:0002FF9C], Cb: 00000138, Type:             0x1408, flareDrawAllFlares
@@ -204,6 +222,10 @@
  * 
  * (00056C) S_END
  */
+void flareDrawAllFlares()
+{
+	// TODO: flareDrawAllFlares
+}
 
 /*
  * (000570) S_LPROC32: [0001:000300D4], Cb: 000006EC, Type:             0x1A6A, flareDrawSpecificFlare
@@ -269,6 +291,10 @@
  * 
  * (0007D4) S_END
  */
+void flareDrawSpecificFlare()
+{
+	// TODO: flareDrawSpecificFlare
+}
 
 /*
  * (0007D8) S_LPROC32: [0001:000307C0], Cb: 000002A9, Type:             0x1B79, drawClippedColouredScreenSprite
@@ -296,6 +322,10 @@
  * 
  * (000930) S_END
  */
+void drawClippedColouredScreenSprite()
+{
+	// TODO: drawClippedColouredScreenSprite
+}
 
 /*
  * (000934) S_LPROC32: [0001:00030A69], Cb: 0000010B, Type:             0x1B7B, flareCountPurples
@@ -318,6 +348,10 @@
  * 
  * (0009F0) S_END
  */
+void flareCountPurples()
+{
+	// TODO: flareCountPurples
+}
 
 /*
  * (0009F4) S_GPROC32: [0001:00030B74], Cb: 00000062, Type:             0x1001, flareRelease
@@ -327,6 +361,10 @@
  * 
  * (000A28) S_END
  */
+void flareRelease()
+{
+	// TODO: flareRelease
+}
 
 /*
  * (000A2C) S_GPROC32: [0001:00030BD6], Cb: 0000026D, Type:             0x1B7C, FLARES_Init
@@ -347,6 +385,10 @@
  * 
  * (000AD8) S_END
  */
+void FLARES_Init()
+{
+	// TODO: FLARES_Init
+}
 
 /*
  * (000ADC) S_LPROC32: [0001:00030E43], Cb: 00000060, Type:             0x1408, SingleFlareDraw
@@ -358,6 +400,10 @@
  * 
  * (000B28) S_END
  */
+void SingleFlareDraw()
+{
+	// TODO: SingleFlareDraw
+}
 
 /*
  * (000B2C) S_LPROC32: [0001:00030EA3], Cb: 00000154, Type:             0x1408, FlareDraw
@@ -379,6 +425,10 @@
  * 
  * (000BDC) S_END
  */
+void FlareDraw()
+{
+	// TODO: FlareDraw
+}
 
 /*
  * (000BE0) S_LPROC32: [0001:00030FF7], Cb: 0000002A, Type:             0x1B48, FLARES_LoadLamps
@@ -390,6 +440,10 @@
  * 
  * (000C30) S_END
  */
+void FLARES_LoadLamps()
+{
+	// TODO: FLARES_LoadLamps
+}
 
 /*
  * (000C34) S_GPROC32: [0001:00031021], Cb: 00000098, Type:             0x1001, FLARES_Release
@@ -399,6 +453,10 @@
  * 
  * (000C6C) S_END
  */
+void FLARES_Release()
+{
+	// TODO: FLARES_Release
+}
 
 /*
  * (0010AC) S_GPROC32: [0001:000310C0], Cb: 00000078, Type:             0x1B8F, RSTATES_DrawPrimitive
@@ -414,4 +472,8 @@
  * 
  * (001174) S_END
  */
+void RSTATES_DrawPrimitive()
+{
+	// TODO: RSTATES_DrawPrimitive
+}
 

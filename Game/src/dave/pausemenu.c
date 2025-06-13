@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (000104) S_END
  */
+void PAUSEMENU_Allocate()
+{
+	// TODO: PAUSEMENU_Allocate
+}
 
 /*
  * (000108) S_LPROC32: [0001:00018B08], Cb: 00000062, Type:             0x1C40, PAUSEMENU_AddItem
@@ -52,6 +54,10 @@
  * 
  * (000190) S_END
  */
+void PAUSEMENU_AddItem()
+{
+	// TODO: PAUSEMENU_AddItem
+}
 
 /*
  * (000194) S_LPROC32: [0001:00018B6A], Cb: 00000026, Type:             0x1408, PAUSEMENU_Destroy
@@ -64,6 +70,10 @@
  * 
  * (0001F4) S_END
  */
+void PAUSEMENU_Destroy()
+{
+	// TODO: PAUSEMENU_Destroy
+}
 
 /*
  * (0001F8) S_LPROC32: [0001:00018B90], Cb: 00000172, Type:             0x1408, PAUSEMENU_Handler
@@ -76,6 +86,10 @@
  * 
  * (000258) S_END
  */
+void PAUSEMENU_Handler()
+{
+	// TODO: PAUSEMENU_Handler
+}
 
 /*
  * (00025C) S_LPROC32: [0001:00018D02], Cb: 0000000F, Type:             0x1408, PAUSEMENU_Restart
@@ -87,6 +101,10 @@
  * 
  * (0002A8) S_END
  */
+void PAUSEMENU_Restart()
+{
+	// TODO: PAUSEMENU_Restart
+}
 
 /*
  * (0002AC) S_LPROC32: [0001:00018D11], Cb: 0000000A, Type:             0x1408, PAUSEMENU_Resume
@@ -98,6 +116,10 @@
  * 
  * (0002F4) S_END
  */
+void PAUSEMENU_Resume()
+{
+	// TODO: PAUSEMENU_Resume
+}
 
 /*
  * (0002F8) S_LPROC32: [0001:00018D1B], Cb: 0000003A, Type:             0x1408, PAUSEMENU_Retire
@@ -110,4 +132,8 @@
  * 
  * (000358) S_END
  */
+void PAUSEMENU_Retire()
+{
+	// TODO: PAUSEMENU_Retire
+}
 

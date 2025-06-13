@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -68,6 +66,10 @@
  * 
  * (0000C0) S_END
  */
+void MENU_DebugInit()
+{
+	// TODO: MENU_DebugInit
+}
 
 /*
  * (0000C4) S_LPROC32: [0001:0004FC6B], Cb: 0000003C, Type:             0x17C9, CON_MenuEditorEnableDisable
@@ -80,6 +82,10 @@
  * 
  * (000130) S_END
  */
+void CON_MenuEditorEnableDisable()
+{
+	// TODO: CON_MenuEditorEnableDisable
+}
 
 /*
  * (000134) S_LPROC32: [0001:0004FCA7], Cb: 00000007, Type:             0x17C9, CON_MenuEditorSave
@@ -92,6 +98,10 @@
  * 
  * (000198) S_END
  */
+void CON_MenuEditorSave()
+{
+	// TODO: CON_MenuEditorSave
+}
 
 /*
  * (00019C) S_LPROC32: [0001:0004FCAE], Cb: 00000007, Type:             0x17C9, CON_MenuEditorResetToFile
@@ -104,6 +114,10 @@
  * 
  * (000208) S_END
  */
+void CON_MenuEditorResetToFile()
+{
+	// TODO: CON_MenuEditorResetToFile
+}
 
 /*
  * (00020C) S_LPROC32: [0001:0004FCB5], Cb: 0000000E, Type:             0x17C9, CON_MenuNew
@@ -116,6 +130,10 @@
  * 
  * (000268) S_END
  */
+void CON_MenuNew()
+{
+	// TODO: CON_MenuNew
+}
 
 /*
  * (00026C) S_GPROC32: [0001:0004FCC3], Cb: 00000005, Type:             0x16A1, MENU_DebugHandler
@@ -127,6 +145,10 @@
  * 
  * (0002BC) S_END
  */
+void MENU_DebugHandler()
+{
+	// TODO: MENU_DebugHandler
+}
 
 /*
  * (0002C0) S_GPROC32: [0001:0004FCC8], Cb: 0000004C, Type:             0x141A, SetMenuReadController
@@ -139,6 +161,10 @@
  * 
  * (000320) S_END
  */
+void SetMenuReadController()
+{
+	// TODO: SetMenuReadController
+}
 
 /*
  * (000324) S_GPROC32: [0001:0004FD14], Cb: 0000002E, Type:             0x141A, BtGotoDemo
@@ -151,6 +177,10 @@
  * 
  * (000380) S_END
  */
+void BtGotoDemo()
+{
+	// TODO: BtGotoDemo
+}
 
 /*
  * (000384) S_GPROC32: [0001:0004FD42], Cb: 0000025C, Type:             0x1001, OpStartDemo
@@ -164,6 +194,10 @@
  * 
  * (0003E8) S_END
  */
+void OpStartDemo()
+{
+	// TODO: OpStartDemo
+}
 
 /*
  * (0003EC) S_GPROC32: [0001:0004FF9E], Cb: 00000059, Type:             0x16A1, MenuSetBackDrop
@@ -177,6 +211,10 @@
  * 
  * (000460) S_END
  */
+void MenuSetBackDrop()
+{
+	// TODO: MenuSetBackDrop
+}
 
 /*
  * (000464) S_GPROC32: [0001:0004FFF7], Cb: 0000039A, Type:             0x1A3A, MenuCreateBackDrop
@@ -192,6 +230,10 @@
  * 
  * (000500) S_END
  */
+void MenuCreateBackDrop()
+{
+	// TODO: MenuCreateBackDrop
+}
 
 /*
  * (000504) S_LPROC32: [0001:00050391], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -207,6 +249,10 @@
  * 
  * (000588) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (00058C) S_GPROC32: [0001:0005040B], Cb: 0000015E, Type:             0x1A3C, MoveFordLogo
@@ -220,6 +266,10 @@
  * 
  * (0005F8) S_END
  */
+void MoveFordLogo()
+{
+	// TODO: MoveFordLogo
+}
 
 /*
  * (0005FC) S_GPROC32: [0001:00050569], Cb: 000002E4, Type:             0x1001, MenuCreateFordLogo
@@ -232,6 +282,10 @@
  * 
  * (000660) S_END
  */
+void MenuCreateFordLogo()
+{
+	// TODO: MenuCreateFordLogo
+}
 
 /*
  * (000664) S_GPROC32: [0001:0005084D], Cb: 00000270, Type:             0x1001, MenuCreateThePub
@@ -244,6 +298,10 @@
  * 
  * (0006C4) S_END
  */
+void MenuCreateThePub()
+{
+	// TODO: MenuCreateThePub
+}
 
 /*
  * (0006C8) S_GPROC32: [0001:00050ABD], Cb: 00000026, Type:             0x1001, MenuShutdown
@@ -253,6 +311,10 @@
  * 
  * (0006FC) S_END
  */
+void MenuShutdown()
+{
+	// TODO: MenuShutdown
+}
 
 /*
  * (000700) S_GPROC32: [0001:00050AE3], Cb: 00000030, Type:             0x1001, OpMenuDestroy
@@ -262,6 +324,10 @@
  * 
  * (000738) S_END
  */
+void OpMenuDestroy()
+{
+	// TODO: OpMenuDestroy
+}
 
 /*
  * (00073C) S_GPROC32: [0001:00050B13], Cb: 00000089, Type:             0x1A3D, TV_Director_MenuCam
@@ -273,6 +339,10 @@
  * 
  * (00078C) S_END
  */
+void TV_Director_MenuCam()
+{
+	// TODO: TV_Director_MenuCam
+}
 
 /*
  * (000790) S_GPROC32: [0001:00050B9C], Cb: 0000029C, Type:             0x1408, MenuRelease
@@ -286,6 +356,10 @@
  * 
  * (0007FC) S_END
  */
+void MenuRelease()
+{
+	// TODO: MenuRelease
+}
 
 /*
  * (000800) S_GPROC32: [0001:00050E38], Cb: 0000032C, Type:             0x1408, MenuHandler
@@ -309,6 +383,10 @@
  * 
  * (0008C8) S_END
  */
+void MenuHandler()
+{
+	// TODO: MenuHandler
+}
 
 /*
  * (0008CC) S_GPROC32: [0001:00051164], Cb: 000007CA, Type:             0x1408, MenuDraw
@@ -330,6 +408,10 @@
  * 
  * (0009CC) S_END
  */
+void MenuDraw()
+{
+	// TODO: MenuDraw
+}
 
 /*
  * (0009D0) S_GPROC32: [0001:0005192E], Cb: 0000024B, Type:             0x16A7, MENU_ThreadTexLoad
@@ -349,6 +431,10 @@
  * 
  * (000AC4) S_END
  */
+void MENU_ThreadTexLoad()
+{
+	// TODO: MENU_ThreadTexLoad
+}
 
 /*
  * (000AC8) S_GPROC32: [0001:00051B79], Cb: 0000005B, Type:             0x1001, MENU_texStartLoad
@@ -360,6 +446,10 @@
  * 
  * (000B1C) S_END
  */
+void MENU_texStartLoad()
+{
+	// TODO: MENU_texStartLoad
+}
 
 /*
  * (000B20) S_GPROC32: [0001:00051BD4], Cb: 000005E5, Type:             0x1001, OpGetMenuReady
@@ -375,6 +465,10 @@
  * 
  * (000BB4) S_END
  */
+void OpGetMenuReady()
+{
+	// TODO: OpGetMenuReady
+}
 
 /*
  * (000BB8) S_LPROC32: [0001:000521B9], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -387,6 +481,10 @@
  * 
  * (000C10) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (000C14) S_LPROC32: [0001:000521C7], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -399,6 +497,10 @@
  * 
  * (000C6C) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 
 /*
  * (000C70) S_LPROC32: [0001:000521D5], Cb: 000003DE, Type:             0x16A1, MENU_DebugDraw
@@ -422,6 +524,10 @@
  * 
  * (000D44) S_END
  */
+void MENU_DebugDraw()
+{
+	// TODO: MENU_DebugDraw
+}
 
 /*
  * (000D48) S_GPROC32: [0001:000525B3], Cb: 0000091B, Type:             0x1001, OpMenuStart
@@ -436,4 +542,8 @@
  * 
  * (000DC8) S_END
  */
+void OpMenuStart()
+{
+	// TODO: OpMenuStart
+}
 

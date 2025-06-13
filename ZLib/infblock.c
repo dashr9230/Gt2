@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000F8) S_END
  */
+void inflate_blocks_reset()
+{
+	// TODO: inflate_blocks_reset
+}
 
 /*
  * (0000FC) S_GPROC32: [0001:00099252], Cb: 00000141, Type:             0x213B, inflate_blocks_new
@@ -50,6 +52,10 @@
  * 
  * (000178) S_END
  */
+void inflate_blocks_new()
+{
+	// TODO: inflate_blocks_new
+}
 
 /*
  * (00017C) S_GPROC32: [0001:00099393], Cb: 000013B4, Type:             0x210C, inflate_blocks
@@ -117,6 +123,10 @@
  * 
  * (0004B0) S_END
  */
+void inflate_blocks()
+{
+	// TODO: inflate_blocks
+}
 
 /*
  * (0004B4) S_GPROC32: [0001:0009A747], Cb: 0000007F, Type:             0x213D, inflate_blocks_free
@@ -129,6 +139,10 @@
  * 
  * (000510) S_END
  */
+void inflate_blocks_free()
+{
+	// TODO: inflate_blocks_free
+}
 
 /*
  * (000514) S_GPROC32: [0001:0009A7C6], Cb: 0000003E, Type:             0x213F, inflate_set_dictionary
@@ -142,6 +156,10 @@
  * 
  * (000584) S_END
  */
+void inflate_set_dictionary()
+{
+	// TODO: inflate_set_dictionary
+}
 
 /*
  * (000588) S_GPROC32: [0001:0009A804], Cb: 00000012, Type:             0x2141, inflate_blocks_sync_point
@@ -153,4 +171,8 @@
  * 
  * (0005DC) S_END
  */
+void inflate_blocks_sync_point()
+{
+	// TODO: inflate_blocks_sync_point
+}
 

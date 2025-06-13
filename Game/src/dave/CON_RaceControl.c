@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -37,6 +35,10 @@
  * 
  * (0000D0) S_END
  */
+void RC_Console_Install()
+{
+	// TODO: RC_Console_Install
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:0000AFBF], Cb: 00000005, Type:             0x1001, RC_Console_Remove
@@ -46,6 +48,10 @@
  * 
  * (000110) S_END
  */
+void RC_Console_Remove()
+{
+	// TODO: RC_Console_Remove
+}
 
 /*
  * (000114) S_GPROC32: [0001:0000AFC4], Cb: 00000094, Type:             0x17C9, CON_RCCreate
@@ -58,6 +64,10 @@
  * 
  * (000170) S_END
  */
+void CON_RCCreate()
+{
+	// TODO: CON_RCCreate
+}
 
 /*
  * (000174) S_GPROC32: [0001:0000B058], Cb: 00000169, Type:             0x17C9, CON_RCSelectVenue
@@ -74,6 +84,10 @@
  * 
  * (000220) S_END
  */
+void CON_RCSelectVenue()
+{
+	// TODO: CON_RCSelectVenue
+}
 
 /*
  * (000224) S_GPROC32: [0001:0000B1C1], Cb: 00000103, Type:             0x17C9, CON_RCEnterCar
@@ -88,6 +102,10 @@
  * 
  * (0002AC) S_END
  */
+void CON_RCEnterCar()
+{
+	// TODO: CON_RCEnterCar
+}
 
 /*
  * (0002B0) S_GPROC32: [0001:0000B2C4], Cb: 000000CB, Type:             0x17C9, CON_RCStart
@@ -102,6 +120,10 @@
  * 
  * (00033C) S_END
  */
+void CON_RCStart()
+{
+	// TODO: CON_RCStart
+}
 
 /*
  * (000340) S_GPROC32: [0001:0000B38F], Cb: 000000AF, Type:             0x1001, DumpObjectList
@@ -114,6 +136,10 @@
  * 
  * (00039C) S_END
  */
+void DumpObjectList()
+{
+	// TODO: DumpObjectList
+}
 
 /*
  * (0003A0) S_GPROC32: [0001:0000B43E], Cb: 000000AF, Type:             0x17C9, CON_RCDestroy
@@ -126,6 +152,10 @@
  * 
  * (000400) S_END
  */
+void CON_RCDestroy()
+{
+	// TODO: CON_RCDestroy
+}
 
 /*
  * (000404) S_GPROC32: [0001:0000B4ED], Cb: 00000014, Type:             0x17C9, CON_RCHelp
@@ -138,6 +168,10 @@
  * 
  * (000460) S_END
  */
+void CON_RCHelp()
+{
+	// TODO: CON_RCHelp
+}
 
 /*
  * (000464) S_GPROC32: [0001:0000B501], Cb: 0000011E, Type:             0x17C9, CON_RCQuickStart
@@ -151,6 +185,10 @@
  * 
  * (0004D4) S_END
  */
+void CON_RCQuickStart()
+{
+	// TODO: CON_RCQuickStart
+}
 
 /*
  * (0004D8) S_LPROC32: [0001:0000B61F], Cb: 00000267, Type:             0x1D30, ParseCars
@@ -187,6 +225,10 @@
  * 
  * (000654) S_END
  */
+void ParseCars()
+{
+	// TODO: ParseCars
+}
 
 /*
  * (000658) S_LPROC32: [0001:0000B886], Cb: 0000000F, Type:             0x1D32, GetDriver
@@ -199,6 +241,10 @@
  * 
  * (0006B4) S_END
  */
+void GetDriver()
+{
+	// TODO: GetDriver
+}
 
 /*
  * (0006B8) S_LPROC32: [0001:0000B895], Cb: 00000191, Type:             0x1D30, ParseTracks
@@ -215,6 +261,10 @@
  * 
  * (000758) S_END
  */
+void ParseTracks()
+{
+	// TODO: ParseTracks
+}
 
 /*
  * (00075C) S_GPROC32: [0001:0000BA26], Cb: 000000A7, Type:             0x17C9, CON_ECTS_Demo
@@ -228,6 +278,10 @@
  * 
  * (0007D0) S_END
  */
+void CON_ECTS_Demo()
+{
+	// TODO: CON_ECTS_Demo
+}
 
 /*
  * (0007D4) S_GPROC32: [0001:0000BACD], Cb: 0000015D, Type:             0x16A1, RC_ECTS_Demo
@@ -240,6 +294,10 @@
  * 
  * (00082C) S_END
  */
+void RC_ECTS_Demo()
+{
+	// TODO: RC_ECTS_Demo
+}
 
 /*
  * (000830) S_GPROC32: [0001:0000BC2A], Cb: 000002F5, Type:             0x17C9, CON_Gary
@@ -261,6 +319,10 @@
  * 
  * (000928) S_END
  */
+void CON_Gary()
+{
+	// TODO: CON_Gary
+}
 
 /*
  * (00092C) S_GPROC32: [0001:0000BF1F], Cb: 000002D2, Type:             0x17C9, CON_Justin
@@ -277,6 +339,10 @@
  * 
  * (0009C8) S_END
  */
+void CON_Justin()
+{
+	// TODO: CON_Justin
+}
 
 /*
  * (0009CC) S_GPROC32: [0001:0000C1F1], Cb: 000002F5, Type:             0x17C9, CON_John
@@ -298,6 +364,10 @@
  * 
  * (000AC4) S_END
  */
+void CON_John()
+{
+	// TODO: CON_John
+}
 
 /*
  * (000AC8) S_GPROC32: [0001:0000C4E6], Cb: 000002D8, Type:             0x17C9, CON_Herbert
@@ -319,4 +389,8 @@
  * 
  * (000BC4) S_END
  */
+void CON_Herbert()
+{
+	// TODO: CON_Herbert
+}
 

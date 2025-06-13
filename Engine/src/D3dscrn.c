@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -72,6 +70,10 @@
  * 
  * (000174) S_END
  */
+void BuildMatrix()
+{
+	// TODO: BuildMatrix
+}
 
 /*
  * (000178) S_GPROC32: [0001:00086F39], Cb: 00000118, Type:             0x1001, SetupD3DSubSystem
@@ -81,6 +83,10 @@
  * 
  * (0001B4) S_END
  */
+void SetupD3DSubSystem()
+{
+	// TODO: SetupD3DSubSystem
+}
 
 /*
  * (0001B8) S_GPROC32: [0001:00087051], Cb: 0000012D, Type:             0x16A5, SetupD3DStates
@@ -90,6 +96,10 @@
  * 
  * (0001F0) S_END
  */
+void SetupD3DStates()
+{
+	// TODO: SetupD3DStates
+}
 
 /*
  * (0001F4) S_GPROC32: [0001:0008717E], Cb: 0000011E, Type:             0x1001, SCREEN_AllocationInit
@@ -101,6 +111,10 @@
  * 
  * (000244) S_END
  */
+void SCREEN_AllocationInit()
+{
+	// TODO: SCREEN_AllocationInit
+}
 
 /*
  * (000248) S_GPROC32: [0001:0008729C], Cb: 0000014A, Type:             0x1F90, SCREEN_Allocate
@@ -113,6 +127,10 @@
  * 
  * (0002AC) S_END
  */
+void SCREEN_Allocate()
+{
+	// TODO: SCREEN_Allocate
+}
 
 /*
  * (0002B0) S_GPROC32: [0001:000873E6], Cb: 0000005D, Type:             0x13EF, SCREEN_Deallocate
@@ -125,6 +143,10 @@
  * 
  * (000318) S_END
  */
+void SCREEN_Deallocate()
+{
+	// TODO: SCREEN_Deallocate
+}
 
 /*
  * (00031C) S_GPROC32: [0001:00087443], Cb: 00000054, Type:             0x1F92, SCREEN_UpdateDynamicCameras
@@ -137,6 +159,10 @@
  * 
  * (000388) S_END
  */
+void SCREEN_UpdateDynamicCameras()
+{
+	// TODO: SCREEN_UpdateDynamicCameras
+}
 
 /*
  * (00038C) S_GPROC32: [0001:00087497], Cb: 00000164, Type:             0x1F92, SCREEN_Update
@@ -150,6 +176,10 @@
  * 
  * (000400) S_END
  */
+void SCREEN_Update()
+{
+	// TODO: SCREEN_Update
+}
 
 /*
  * (000788) S_GPROC32: [0001:00087600], Cb: 0000006F, Type:             0x1A19, RSTATES_SetTexturePerspective
@@ -161,6 +191,10 @@
  * 
  * (0007E4) S_END
  */
+void RSTATES_SetTexturePerspective()
+{
+	// TODO: RSTATES_SetTexturePerspective
+}
 
 /*
  * (0007E8) S_GPROC32: [0001:00087670], Cb: 0000005D, Type:             0x1A19, RSTATES_SetZEnable
@@ -172,6 +206,10 @@
  * 
  * (000838) S_END
  */
+void RSTATES_SetZEnable()
+{
+	// TODO: RSTATES_SetZEnable
+}
 
 /*
  * (00083C) S_GPROC32: [0001:000876D0], Cb: 00000056, Type:             0x1A19, RSTATES_SetFillMode
@@ -183,6 +221,10 @@
  * 
  * (00088C) S_END
  */
+void RSTATES_SetFillMode()
+{
+	// TODO: RSTATES_SetFillMode
+}
 
 /*
  * (000890) S_GPROC32: [0001:00087730], Cb: 00000056, Type:             0x16A1, RSTATES_SetPlaneMask
@@ -194,6 +236,10 @@
  * 
  * (0008E0) S_END
  */
+void RSTATES_SetPlaneMask()
+{
+	// TODO: RSTATES_SetPlaneMask
+}
 
 /*
  * (0008E4) S_GPROC32: [0001:00087790], Cb: 0000005D, Type:             0x1A19, RSTATES_SetAlphaFunc
@@ -205,6 +251,10 @@
  * 
  * (000934) S_END
  */
+void RSTATES_SetAlphaFunc()
+{
+	// TODO: RSTATES_SetAlphaFunc
+}
 
 /*
  * (000938) S_GPROC32: [0001:000877F0], Cb: 0000006F, Type:             0x1A19, RSTATES_SetDitherEnable
@@ -216,4 +266,8 @@
  * 
  * (00098C) S_END
  */
+void RSTATES_SetDitherEnable()
+{
+	// TODO: RSTATES_SetDitherEnable
+}
 

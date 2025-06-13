@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (0000CC) S_END
  */
+void drvReset()
+{
+	// TODO: drvReset
+}
 
 /*
  * (0000D0) S_GPROC32: [0001:0002BA85], Cb: 000001DA, Type:             0x1BC5, drvAllocate
@@ -58,6 +60,10 @@
  * 
  * (000164) S_END
  */
+void drvAllocate()
+{
+	// TODO: drvAllocate
+}
 
 /*
  * (000168) S_LPROC32: [0001:0002BC5F], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -70,6 +76,10 @@
  * 
  * (0001C0) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (0001C4) S_LPROC32: [0001:0002BC6D], Cb: 0000004C, Type:             0x1AA7, helmCallback
@@ -86,6 +96,10 @@
  * 
  * (00025C) S_END
  */
+void helmCallback()
+{
+	// TODO: helmCallback
+}
 
 /*
  * (000260) S_LPROC32: [0001:0002BCB9], Cb: 000000EE, Type:             0x1408, drvDraw
@@ -106,6 +120,10 @@
  * 
  * (0002FC) S_END
  */
+void drvDraw()
+{
+	// TODO: drvDraw
+}
 
 /*
  * (000300) S_LPROC32: [0001:0002BDA7], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -118,6 +136,10 @@
  * 
  * (000358) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 
 /*
  * (00035C) S_LPROC32: [0001:0002BDB5], Cb: 0000062B, Type:             0x1408, drvHandler
@@ -143,6 +165,10 @@
  * 
  * (0004A0) S_END
  */
+void drvHandler()
+{
+	// TODO: drvHandler
+}
 
 /*
  * (0004A4) S_LPROC32: [0001:0002C3E0], Cb: 00000023, Type:             0x1AA6, nRand
@@ -152,6 +178,10 @@
  * 
  * (0004D4) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 
 /*
  * (0004D8) S_GPROC32: [0001:0002C403], Cb: 00000043, Type:             0x1001, DRIVER_Allocate
@@ -164,4 +194,8 @@
  * 
  * (000538) S_END
  */
+void DRIVER_Allocate()
+{
+	// TODO: DRIVER_Allocate
+}
 

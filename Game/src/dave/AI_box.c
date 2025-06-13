@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -43,6 +41,10 @@
  * 
  * (0000F4) S_END
  */
+void AI_ShowLine()
+{
+	// TODO: AI_ShowLine
+}
 
 /*
  * (0000F8) S_GPROC32: [0001:00000042], Cb: 000000EB, Type:             0x1408, AI_ChooseLine
@@ -58,6 +60,10 @@
  * 
  * (000188) S_END
  */
+void AI_ChooseLine()
+{
+	// TODO: AI_ChooseLine
+}
 
 /*
  * (00018C) S_GPROC32: [0001:0000012D], Cb: 000002E1, Type:             0x1408, AI_BlackBox
@@ -79,6 +85,10 @@
  * 
  * (000244) S_END
  */
+void AI_BlackBox()
+{
+	// TODO: AI_BlackBox
+}
 
 /*
  * (000248) S_GPROC32: [0001:0000040E], Cb: 00000185, Type:             0x1D67, FindCarPos
@@ -100,6 +110,10 @@
  * 
  * (000340) S_END
  */
+void FindCarPos()
+{
+	// TODO: FindCarPos
+}
 
 /*
  * (000344) S_GPROC32: [0001:00000593], Cb: 0000100D, Type:             0x1D68, SteeringHelp
@@ -171,6 +185,10 @@
  * 
  * (0007BC) S_END
  */
+void SteeringHelp()
+{
+	// TODO: SteeringHelp
+}
 
 /*
  * (0007C0) S_GPROC32: [0001:000015A0], Cb: 00000230, Type:             0x1D68, ThrottleHelp
@@ -199,6 +217,10 @@
  * 
  * (000988) S_END
  */
+void ThrottleHelp()
+{
+	// TODO: ThrottleHelp
+}
 
 /*
  * (00098C) S_GPROC32: [0001:000017D0], Cb: 000000A2, Type:             0x1D68, BrakeHelp
@@ -219,6 +241,10 @@
  * 
  * (000A84) S_END
  */
+void BrakeHelp()
+{
+	// TODO: BrakeHelp
+}
 
 /*
  * (000A88) S_GPROC32: [0001:00001872], Cb: 00000088, Type:             0x1D6A, Car2CarColl
@@ -236,6 +262,10 @@
  * 
  * (000B3C) S_END
  */
+void Car2CarColl()
+{
+	// TODO: Car2CarColl
+}
 
 /*
  * (000B40) S_GPROC32: [0001:000018FA], Cb: 0000004C, Type:             0x1D6B, Car2CarCollNear
@@ -249,6 +279,10 @@
  * 
  * (000BB8) S_END
  */
+void Car2CarCollNear()
+{
+	// TODO: Car2CarCollNear
+}
 
 /*
  * (000BBC) S_GPROC32: [0001:00001946], Cb: 0000009D, Type:             0x1408, AvoidCollision
@@ -271,6 +305,10 @@
  * 
  * (000C90) S_END
  */
+void AvoidCollision()
+{
+	// TODO: AvoidCollision
+}
 
 /*
  * (000C94) S_GPROC32: [0001:000019E3], Cb: 0000006D, Type:             0x1D6A, ProximityCheck
@@ -287,6 +325,10 @@
  * 
  * (000D48) S_END
  */
+void ProximityCheck()
+{
+	// TODO: ProximityCheck
+}
 
 /*
  * (000D4C) S_GPROC32: [0001:00001A50], Cb: 000000F3, Type:             0x1408, Evasion
@@ -308,6 +350,10 @@
  * 
  * (000E54) S_END
  */
+void Evasion()
+{
+	// TODO: Evasion
+}
 
 /*
  * (000E58) S_GPROC32: [0001:00001B43], Cb: 000000D9, Type:             0x1408, SlipStream
@@ -325,6 +371,10 @@
  * 
  * (000F1C) S_END
  */
+void SlipStream()
+{
+	// TODO: SlipStream
+}
 
 /*
  * (000F20) S_LPROC32: [0001:00001C1C], Cb: 00000023, Type:             0x1AA6, nRand
@@ -334,4 +384,8 @@
  * 
  * (000F50) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 

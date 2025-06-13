@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -74,6 +72,10 @@
  * 
  * (000160) S_END
  */
+void CON_FogInfo()
+{
+	// TODO: CON_FogInfo
+}
 
 /*
  * (000164) S_GPROC32: [0001:00089B4B], Cb: 00000119, Type:             0x17C9, CON_FogMode
@@ -86,6 +88,10 @@
  * 
  * (0001C0) S_END
  */
+void CON_FogMode()
+{
+	// TODO: CON_FogMode
+}
 
 /*
  * (0001C4) S_GPROC32: [0001:00089C64], Cb: 00000095, Type:             0x17C9, CON_FogColour
@@ -98,6 +104,10 @@
  * 
  * (000224) S_END
  */
+void CON_FogColour()
+{
+	// TODO: CON_FogColour
+}
 
 /*
  * (000228) S_GPROC32: [0001:00089CF9], Cb: 000000A8, Type:             0x17C9, CON_FogDensity
@@ -110,6 +120,10 @@
  * 
  * (000288) S_END
  */
+void CON_FogDensity()
+{
+	// TODO: CON_FogDensity
+}
 
 /*
  * (00028C) S_GPROC32: [0001:00089DA1], Cb: 000000A8, Type:             0x17C9, CON_FogStart
@@ -122,6 +136,10 @@
  * 
  * (0002E8) S_END
  */
+void CON_FogStart()
+{
+	// TODO: CON_FogStart
+}
 
 /*
  * (0002EC) S_GPROC32: [0001:00089E49], Cb: 000000A8, Type:             0x17C9, CON_FogEnd
@@ -134,6 +152,10 @@
  * 
  * (000348) S_END
  */
+void CON_FogEnd()
+{
+	// TODO: CON_FogEnd
+}
 
 /*
  * (00034C) S_GPROC32: [0001:00089EF1], Cb: 000001D5, Type:             0x17C9, CON_FogSet
@@ -160,6 +182,10 @@
  * 
  * (000458) S_END
  */
+void CON_FogSet()
+{
+	// TODO: CON_FogSet
+}
 
 /*
  * (00045C) S_GPROC32: [0001:0008A0C6], Cb: 00000208, Type:             0x1408, DrawFogger
@@ -176,6 +202,10 @@
  * 
  * (000500) S_END
  */
+void DrawFogger()
+{
+	// TODO: DrawFogger
+}
 
 /*
  * (000504) S_GPROC32: [0001:0008A2CE], Cb: 00000428, Type:             0x1408, HandleFogger
@@ -200,6 +230,10 @@
  * 
  * (000640) S_END
  */
+void HandleFogger()
+{
+	// TODO: HandleFogger
+}
 
 /*
  * (000644) S_GPROC32: [0001:0008A6F6], Cb: 000000C4, Type:             0x17C9, CON_Fogger
@@ -214,6 +248,10 @@
  * 
  * (0006CC) S_END
  */
+void CON_Fogger()
+{
+	// TODO: CON_Fogger
+}
 
 /*
  * (0006D0) S_GPROC32: [0001:0008A7BA], Cb: 00000250, Type:             0x1001, LT_Init
@@ -225,6 +263,10 @@
  * 
  * (000710) S_END
  */
+void LT_Init()
+{
+	// TODO: LT_Init
+}
 
 /*
  * (000714) S_GPROC32: [0001:0008AA0A], Cb: 000000C7, Type:             0x1001, LT_Exit
@@ -236,6 +278,10 @@
  * 
  * (000754) S_END
  */
+void LT_Exit()
+{
+	// TODO: LT_Exit
+}
 
 /*
  * (000758) S_GPROC32: [0001:0008AAD1], Cb: 000000A9, Type:             0x1F58, LT_Create
@@ -247,6 +293,10 @@
  * 
  * (00079C) S_END
  */
+void LT_Create()
+{
+	// TODO: LT_Create
+}
 
 /*
  * (0007A0) S_GPROC32: [0001:0008AB7A], Cb: 0000003F, Type:             0x1F5A, LT_Add
@@ -258,6 +308,10 @@
  * 
  * (0007E4) S_END
  */
+void LT_Add()
+{
+	// TODO: LT_Add
+}
 
 /*
  * (0007E8) S_GPROC32: [0001:0008ABB9], Cb: 0000003F, Type:             0x1F5A, LT_Delete
@@ -269,6 +323,10 @@
  * 
  * (000830) S_END
  */
+void LT_Delete()
+{
+	// TODO: LT_Delete
+}
 
 /*
  * (000834) S_GPROC32: [0001:0008ABF8], Cb: 00000036, Type:             0x1F5A, LT_Change
@@ -280,6 +338,10 @@
  * 
  * (00087C) S_END
  */
+void LT_Change()
+{
+	// TODO: LT_Change
+}
 
 /*
  * (000880) S_GPROC32: [0001:0008AC2E], Cb: 0000006E, Type:             0x1F5A, LT_Remove
@@ -291,6 +353,10 @@
  * 
  * (0008C8) S_END
  */
+void LT_Remove()
+{
+	// TODO: LT_Remove
+}
 
 /*
  * (0008CC) S_GPROC32: [0001:0008AC9C], Cb: 00000048, Type:             0x1001, LT_RemoveALL
@@ -302,6 +368,10 @@
  * 
  * (000910) S_END
  */
+void LT_RemoveALL()
+{
+	// TODO: LT_RemoveALL
+}
 
 /*
  * (000914) S_GPROC32: [0001:0008ACE4], Cb: 000002C5, Type:             0x1001, LT_Update
@@ -322,6 +392,10 @@
  * 
  * (0009F4) S_END
  */
+void LT_Update()
+{
+	// TODO: LT_Update
+}
 
 /*
  * (0009F8) S_GPROC32: [0001:0008AFA9], Cb: 0000000C, Type:             0x1001, LT_LightsOff
@@ -331,6 +405,10 @@
  * 
  * (000A2C) S_END
  */
+void LT_LightsOff()
+{
+	// TODO: LT_LightsOff
+}
 
 /*
  * (000A30) S_GPROC32: [0001:0008AFB5], Cb: 0000000C, Type:             0x1001, LT_LightsOn
@@ -340,6 +418,10 @@
  * 
  * (000A64) S_END
  */
+void LT_LightsOn()
+{
+	// TODO: LT_LightsOn
+}
 
 /*
  * (000A68) S_GPROC32: [0001:0008AFC1], Cb: 00000069, Type:             0x1F5C, LT_SetAmbient
@@ -354,6 +436,10 @@
  * 
  * (000AE0) S_END
  */
+void LT_SetAmbient()
+{
+	// TODO: LT_SetAmbient
+}
 
 /*
  * (000AE4) S_GPROC32: [0001:0008B02A], Cb: 00000066, Type:             0x1CA6, LT_fSetAmbient
@@ -372,6 +458,10 @@
  * 
  * (000B9C) S_END
  */
+void LT_fSetAmbient()
+{
+	// TODO: LT_fSetAmbient
+}
 
 /*
  * (000BA0) S_GPROC32: [0001:0008B090], Cb: 0000008B, Type:             0x1F5E, LT_SetFog
@@ -390,6 +480,10 @@
  * 
  * (000C6C) S_END
  */
+void LT_SetFog()
+{
+	// TODO: LT_SetFog
+}
 
 /*
  * (000C70) S_GPROC32: [0001:0008B11B], Cb: 00000076, Type:             0x1F60, LT_fSetFog
@@ -412,6 +506,10 @@
  * 
  * (000D7C) S_END
  */
+void LT_fSetFog()
+{
+	// TODO: LT_fSetFog
+}
 
 /*
  * (000D80) S_GPROC32: [0001:0008B191], Cb: 0000010F, Type:             0x1001, LT_CreateBackground
@@ -423,6 +521,10 @@
  * 
  * (000DD0) S_END
  */
+void LT_CreateBackground()
+{
+	// TODO: LT_CreateBackground
+}
 
 /*
  * (000DD4) S_GPROC32: [0001:0008B2A0], Cb: 00000005, Type:             0x1001, LT_DestroyBackground
@@ -432,6 +534,10 @@
  * 
  * (000E10) S_END
  */
+void LT_DestroyBackground()
+{
+	// TODO: LT_DestroyBackground
+}
 
 /*
  * (000E14) S_GPROC32: [0001:0008B2A5], Cb: 000000E3, Type:             0x1F62, LT_SetBackground
@@ -452,6 +558,10 @@
  * 
  * (000EF4) S_END
  */
+void LT_SetBackground()
+{
+	// TODO: LT_SetBackground
+}
 
 /*
  * (000EF8) S_GPROC32: [0001:0008B388], Cb: 000000AB, Type:             0x1F64, LT_fSetBackground
@@ -468,4 +578,8 @@
  * 
  * (000F9C) S_END
  */
+void LT_fSetBackground()
+{
+	// TODO: LT_fSetBackground
+}
 

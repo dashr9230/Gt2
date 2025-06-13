@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -109,6 +107,10 @@
  * 
  * (000170) S_END
  */
+void ZONE_Find()
+{
+	// TODO: ZONE_Find
+}
 
 /*
  * (000174) S_GPROC32: [0001:00073F36], Cb: 0000003B, Type:             0x17C9, CON_MipBiasLevel
@@ -121,6 +123,10 @@
  * 
  * (0001D4) S_END
  */
+void CON_MipBiasLevel()
+{
+	// TODO: CON_MipBiasLevel
+}
 
 /*
  * (0001D8) S_GPROC32: [0001:00073F71], Cb: 00000120, Type:             0x17C9, CON_MeshInfo
@@ -133,6 +139,10 @@
  * 
  * (000234) S_END
  */
+void CON_MeshInfo()
+{
+	// TODO: CON_MeshInfo
+}
 
 /*
  * (000238) S_GPROC32: [0001:00074091], Cb: 00000058, Type:             0x17C9, CON_Mips
@@ -145,6 +155,10 @@
  * 
  * (000290) S_END
  */
+void CON_Mips()
+{
+	// TODO: CON_Mips
+}
 
 /*
  * (000294) S_GPROC32: [0001:000740E9], Cb: 00000014, Type:             0x17C9, CON_DebugCollision
@@ -157,6 +171,10 @@
  * 
  * (0002F8) S_END
  */
+void CON_DebugCollision()
+{
+	// TODO: CON_DebugCollision
+}
 
 /*
  * (0002FC) S_GPROC32: [0001:000740FD], Cb: 00000034, Type:             0x17C9, CON_TextureDetail
@@ -176,6 +194,10 @@
  * 
  * (00038C) S_END
  */
+void CON_TextureDetail()
+{
+	// TODO: CON_TextureDetail
+}
 
 /*
  * (000390) S_GPROC32: [0001:00074131], Cb: 00000123, Type:             0x1001, MESH_Init
@@ -188,6 +210,10 @@
  * 
  * (0003E4) S_END
  */
+void MESH_Init()
+{
+	// TODO: MESH_Init
+}
 
 /*
  * (0003E8) S_GPROC32: [0001:00074254], Cb: 0000001D, Type:             0x1001, MESH_Shutdown
@@ -197,6 +223,10 @@
  * 
  * (000420) S_END
  */
+void MESH_Shutdown()
+{
+	// TODO: MESH_Shutdown
+}
 
 /*
  * (000424) S_GPROC32: [0001:00074271], Cb: 00000065, Type:             0x20A9, MESH_Load
@@ -211,6 +241,10 @@
  * 
  * (0004B4) S_END
  */
+void MESH_Load()
+{
+	// TODO: MESH_Load
+}
 
 /*
  * (0004B8) S_LPROC32: [0001:000742D6], Cb: 00000CA8, Type:             0x20AA, MESH_Loader
@@ -299,6 +333,10 @@
  * 
  * (0007E0) S_END
  */
+void MESH_Loader()
+{
+	// TODO: MESH_Loader
+}
 
 /*
  * (0007E4) S_LPROC32: [0001:00074F7E], Cb: 0000005A, Type:             0x1001, gfxReset
@@ -310,6 +348,10 @@
  * 
  * (000824) S_END
  */
+void gfxReset()
+{
+	// TODO: gfxReset
+}
 
 /*
  * (000828) S_GPROC32: [0001:00074FD8], Cb: 000001F2, Type:             0x1001, MESH_Close
@@ -343,6 +385,10 @@
  * 
  * (000900) S_END
  */
+void MESH_Close()
+{
+	// TODO: MESH_Close
+}
 
 /*
  * (000904) S_GPROC32: [0001:000751CA], Cb: 00000007, Type:             0x1F08, MESH_Restore
@@ -352,6 +398,10 @@
  * 
  * (000938) S_END
  */
+void MESH_Restore()
+{
+	// TODO: MESH_Restore
+}
 
 /*
  * (00093C) S_GPROC32: [0001:000751D1], Cb: 00000040, Type:             0x205D, MESH_DrawObjects
@@ -363,6 +413,10 @@
  * 
  * (000988) S_END
  */
+void MESH_DrawObjects()
+{
+	// TODO: MESH_DrawObjects
+}
 
 /*
  * (00098C) S_GPROC32: [0001:00075211], Cb: 000008D7, Type:             0x1ED6, MESH_Draw
@@ -448,6 +502,10 @@
  * 
  * (000CF8) S_END
  */
+void MESH_Draw()
+{
+	// TODO: MESH_Draw
+}
 
 /*
  * (000CFC) S_LPROC32: [0001:00075AE8], Cb: 00000133, Type:             0x16A1, gfxRenderTable
@@ -459,6 +517,10 @@
  * 
  * (000D44) S_END
  */
+void gfxRenderTable()
+{
+	// TODO: gfxRenderTable
+}
 
 /*
  * (000D48) S_LPROC32: [0001:00075C1B], Cb: 000004D0, Type:             0x20AD, gfxAddTriangle
@@ -497,6 +559,10 @@
  * 
  * (000ED4) S_END
  */
+void gfxAddTriangle()
+{
+	// TODO: gfxAddTriangle
+}
 
 /*
  * (000ED8) S_LPROC32: [0001:000760EB], Cb: 0000028E, Type:             0x20B4, gfxAddVertex
@@ -531,6 +597,10 @@
  * 
  * (001048) S_END
  */
+void gfxAddVertex()
+{
+	// TODO: gfxAddVertex
+}
 
 /*
  * (00104C) S_LPROC32: [0001:00076379], Cb: 00000352, Type:             0x20B6, gfxAlphaAccumulate
@@ -556,6 +626,10 @@
  * 
  * (001150) S_END
  */
+void gfxAlphaAccumulate()
+{
+	// TODO: gfxAlphaAccumulate
+}
 
 /*
  * (001154) S_GPROC32: [0001:000766CB], Cb: 00001309, Type:             0x20B8, Decode_Mesh
@@ -687,6 +761,10 @@
  * 
  * (001670) S_END
  */
+void Decode_Mesh()
+{
+	// TODO: Decode_Mesh
+}
 
 /*
  * (001DB8) S_GPROC32: [0001:000779E0], Cb: 0000006F, Type:             0x1A19, RSTATES_SetAlphaTestEnable
@@ -698,6 +776,10 @@
  * 
  * (001E10) S_END
  */
+void RSTATES_SetAlphaTestEnable()
+{
+	// TODO: RSTATES_SetAlphaTestEnable
+}
 
 /*
  * (001E14) S_GPROC32: [0001:00077A50], Cb: 0000005D, Type:             0x1A19, RSTATES_SetSrcBlend
@@ -709,6 +791,10 @@
  * 
  * (001E64) S_END
  */
+void RSTATES_SetSrcBlend()
+{
+	// TODO: RSTATES_SetSrcBlend
+}
 
 /*
  * (001E68) S_GPROC32: [0001:00077AB0], Cb: 0000005D, Type:             0x1A19, RSTATES_SetDestBlend
@@ -720,6 +806,10 @@
  * 
  * (001EB8) S_END
  */
+void RSTATES_SetDestBlend()
+{
+	// TODO: RSTATES_SetDestBlend
+}
 
 /*
  * (001EBC) S_GPROC32: [0001:00077B10], Cb: 00000056, Type:             0x16A1, RSTATES_SetAlphaRef
@@ -731,6 +821,10 @@
  * 
  * (001F0C) S_END
  */
+void RSTATES_SetAlphaRef()
+{
+	// TODO: RSTATES_SetAlphaRef
+}
 
 /*
  * (001F10) S_GPROC32: [0001:00077B70], Cb: 0000006F, Type:             0x1A19, RSTATES_SetAlphaBlendEnable
@@ -742,6 +836,10 @@
  * 
  * (001F68) S_END
  */
+void RSTATES_SetAlphaBlendEnable()
+{
+	// TODO: RSTATES_SetAlphaBlendEnable
+}
 
 /*
  * (001F6C) S_GPROC32: [0001:00077BE0], Cb: 00000056, Type:             0x16A1, RSTATES_SetFogColour
@@ -753,6 +851,10 @@
  * 
  * (001FBC) S_END
  */
+void RSTATES_SetFogColour()
+{
+	// TODO: RSTATES_SetFogColour
+}
 
 /*
  * (001FC0) S_GPROC32: [0001:00077C40], Cb: 00000056, Type:             0x1A19, RSTATES_SetFogTableMode
@@ -764,6 +866,10 @@
  * 
  * (002014) S_END
  */
+void RSTATES_SetFogTableMode()
+{
+	// TODO: RSTATES_SetFogTableMode
+}
 
 /*
  * (002018) S_GPROC32: [0001:00077CA0], Cb: 00000062, Type:             0x1B53, RSTATES_SetFogTableStart
@@ -775,6 +881,10 @@
  * 
  * (00206C) S_END
  */
+void RSTATES_SetFogTableStart()
+{
+	// TODO: RSTATES_SetFogTableStart
+}
 
 /*
  * (002070) S_GPROC32: [0001:00077D10], Cb: 00000062, Type:             0x1B53, RSTATES_SetFogTableEnd
@@ -786,6 +896,10 @@
  * 
  * (0020C4) S_END
  */
+void RSTATES_SetFogTableEnd()
+{
+	// TODO: RSTATES_SetFogTableEnd
+}
 
 /*
  * (0020C8) S_GPROC32: [0001:00077D80], Cb: 00000062, Type:             0x1B53, RSTATES_SetFogTableDensity
@@ -797,6 +911,10 @@
  * 
  * (002120) S_END
  */
+void RSTATES_SetFogTableDensity()
+{
+	// TODO: RSTATES_SetFogTableDensity
+}
 
 /*
  * (002124) S_GPROC32: [0001:00077DF0], Cb: 00000062, Type:             0x1B53, RSTATES_SetMipMapLodBias
@@ -808,6 +926,10 @@
  * 
  * (002178) S_END
  */
+void RSTATES_SetMipMapLodBias()
+{
+	// TODO: RSTATES_SetMipMapLodBias
+}
 
 /*
  * (00217C) S_GPROC32: [0001:00077E60], Cb: 00000052, Type:             0x1FCB, RSTATES_Log
@@ -827,6 +949,10 @@
  * 
  * (002210) S_END
  */
+void RSTATES_Log()
+{
+	// TODO: RSTATES_Log
+}
 
 /*
  * (002214) S_GPROC32: [0001:00077EC0], Cb: 00000068, Type:             0x1BFD, TSTATES_SetAlphaArg1
@@ -839,6 +965,10 @@
  * 
  * (002278) S_END
  */
+void TSTATES_SetAlphaArg1()
+{
+	// TODO: TSTATES_SetAlphaArg1
+}
 
 /*
  * (00227C) S_GPROC32: [0001:00077F30], Cb: 00000068, Type:             0x1BFD, TSTATES_SetAlphaArg2
@@ -851,6 +981,10 @@
  * 
  * (0022E0) S_END
  */
+void TSTATES_SetAlphaArg2()
+{
+	// TODO: TSTATES_SetAlphaArg2
+}
 
 /*
  * (0022E4) S_GPROC32: [0001:00077FA0], Cb: 00000061, Type:             0x1BFD, TSTATES_SetMaxMipLevel
@@ -863,6 +997,10 @@
  * 
  * (00234C) S_END
  */
+void TSTATES_SetMaxMipLevel()
+{
+	// TODO: TSTATES_SetMaxMipLevel
+}
 
 /*
  * (002350) S_GPROC32: [0001:00078010], Cb: 00000068, Type:             0x1B2F, TSTATES_SetAddress
@@ -875,4 +1013,8 @@
  * 
  * (0023B4) S_END
  */
+void TSTATES_SetAddress()
+{
+	// TODO: TSTATES_SetAddress
+}
 

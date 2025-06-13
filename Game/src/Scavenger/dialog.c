@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -37,6 +35,10 @@
  * 
  * (000114) S_END
  */
+void Dialog_Release()
+{
+	// TODO: Dialog_Release
+}
 
 /*
  * (000118) S_GPROC32: [0001:0004C61E], Cb: 00001658, Type:             0x1A64, Dialog_Create
@@ -73,4 +75,8 @@
  * 
  * (000348) S_END
  */
+void Dialog_Create()
+{
+	// TODO: Dialog_Create
+}
 

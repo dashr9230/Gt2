@@ -13,11 +13,6 @@
  *          Ambient data: NEAR
  *          Ambient code: NEAR
  *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- */
-
-/*
  */
 
 /*
@@ -31,6 +26,10 @@
  * 
  * (0000E0) S_END
  */
+void TDTF_Reset()
+{
+	// TODO: TDTF_Reset
+}
 
 /*
  * (0000E4) S_GPROC32: [0001:00089425], Cb: 000003E6, Type:             0x1F69, TDTF_Load
@@ -48,6 +47,10 @@
  * 
  * (0001A4) S_END
  */
+void TDTF_Load()
+{
+	// TODO: TDTF_Load
+}
 
 /*
  * (0001A8) S_GPROC32: [0001:0008980B], Cb: 00000121, Type:             0x1F67, TDTF_Dump
@@ -60,6 +63,10 @@
  * 
  * (000200) S_END
  */
+void TDTF_Dump()
+{
+	// TODO: TDTF_Dump
+}
 
 /*
  * (000204) S_GPROC32: [0001:0008992C], Cb: 00000098, Type:             0x1F6E, TDTF_Allocate
@@ -75,6 +82,10 @@
  * 
  * (0002A8) S_END
  */
+void TDTF_Allocate()
+{
+	// TODO: TDTF_Allocate
+}
 
 /*
  * (0002AC) S_GPROC32: [0001:000899C4], Cb: 00000011, Type:             0x1F67, TDTF_Release
@@ -86,4 +97,8 @@
  * 
  * (0002F4) S_END
  */
+void TDTF_Release()
+{
+	// TODO: TDTF_Release
+}
 

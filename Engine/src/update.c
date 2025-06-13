@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -64,6 +62,10 @@
  * 
  * (0000D4) S_END
  */
+void ShowTime()
+{
+	// TODO: ShowTime
+}
 
 /*
  * (0000D8) S_GPROC32: [0001:00091FA5], Cb: 00000036, Type:             0x1001, UpdateGame
@@ -73,6 +75,10 @@
  * 
  * (00010C) S_END
  */
+void UpdateGame()
+{
+	// TODO: UpdateGame
+}
 
 /*
  * (000110) S_GPROC32: [0001:00091FDB], Cb: 000001E8, Type:             0x1EDB, GameServer
@@ -88,6 +94,10 @@
  * 
  * (0001B4) S_END
  */
+void GameServer()
+{
+	// TODO: GameServer
+}
 
 /*
  * (0001B8) S_GPROC32: [0001:000921C3], Cb: 000000A3, Type:             0x1001, UpdateDisplay
@@ -97,6 +107,10 @@
  * 
  * (0001F0) S_END
  */
+void UpdateDisplay()
+{
+	// TODO: UpdateDisplay
+}
 
 /*
  * (0001F4) S_GPROC32: [0001:00092266], Cb: 00000052, Type:             0x1001, TimerFunction
@@ -106,6 +120,10 @@
  * 
  * (00022C) S_END
  */
+void TimerFunction()
+{
+	// TODO: TimerFunction
+}
 
 /*
  * (000230) S_GPROC32: [0001:000922B8], Cb: 0000003D, Type:             0x1715, TimerHandler
@@ -122,4 +140,8 @@
  * 
  * (0002DC) S_END
  */
+void TimerHandler()
+{
+	// TODO: TimerHandler
+}
 

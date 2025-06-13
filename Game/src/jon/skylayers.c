@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -118,6 +116,10 @@
  * 
  * (0000C4) S_END
  */
+void skyToggleClouds()
+{
+	// TODO: skyToggleClouds
+}
 
 /*
  * (0000C8) S_GPROC32: [0001:0003407B], Cb: 000000C3, Type:             0x1B10, skyTexLoad
@@ -131,6 +133,10 @@
  * 
  * (000134) S_END
  */
+void skyTexLoad()
+{
+	// TODO: skyTexLoad
+}
 
 /*
  * (000138) S_GPROC32: [0001:0003413E], Cb: 000008D8, Type:             0x1A3C, skyInitialize
@@ -158,6 +164,10 @@
  * 
  * (00024C) S_END
  */
+void skyInitialize()
+{
+	// TODO: skyInitialize
+}
 
 /*
  * (000250) S_LPROC32: [0001:00034A16], Cb: 000004F4, Type:             0x1408, eraseSky
@@ -179,6 +189,10 @@
  * 
  * (000350) S_END
  */
+void eraseSky()
+{
+	// TODO: eraseSky
+}
 
 /*
  * (000354) S_LPROC32: [0001:00034F0A], Cb: 00000005, Type:             0x1001, tmrBeginTiming
@@ -188,6 +202,10 @@
  * 
  * (00038C) S_END
  */
+void tmrBeginTiming()
+{
+	// TODO: tmrBeginTiming
+}
 
 /*
  * (000390) S_LPROC32: [0001:00034F0F], Cb: 0000010F, Type:             0x1001, drawFans
@@ -199,6 +217,10 @@
  * 
  * (0003D0) S_END
  */
+void drawFans()
+{
+	// TODO: drawFans
+}
 
 /*
  * (0003D4) S_LPROC32: [0001:0003501E], Cb: 000015A8, Type:             0x1001, makeFans
@@ -464,6 +486,10 @@
  * 
  * (000BDC) S_END
  */
+void makeFans()
+{
+	// TODO: makeFans
+}
 
 /*
  * (000BE0) S_LPROC32: [0001:000365C6], Cb: 000000E4, Type:             0x1B12, clrFLTInterpolate
@@ -480,6 +506,10 @@
  * 
  * (000C80) S_END
  */
+void clrFLTInterpolate()
+{
+	// TODO: clrFLTInterpolate
+}
 
 /*
  * (000C84) S_LPROC32: [0001:000366AA], Cb: 00000011, Type:             0x1B14, Interpolate
@@ -493,6 +523,10 @@
  * 
  * (000CEC) S_END
  */
+void Interpolate()
+{
+	// TODO: Interpolate
+}
 
 /*
  * (000CF0) S_LPROC32: [0001:000366BB], Cb: 00000063, Type:             0x1B16, horizonColour
@@ -507,6 +541,10 @@
  * 
  * (000D6C) S_END
  */
+void horizonColour()
+{
+	// TODO: horizonColour
+}
 
 /*
  * (000D70) S_LPROC32: [0001:0003671E], Cb: 000000D2, Type:             0x1B18, clrINTInterpolate
@@ -524,6 +562,10 @@
  * 
  * (000E20) S_END
  */
+void clrINTInterpolate()
+{
+	// TODO: clrINTInterpolate
+}
 
 /*
  * (000E24) S_LPROC32: [0001:000367F0], Cb: 0000005B, Type:             0x1B1A, addPtToBand
@@ -536,6 +578,10 @@
  * 
  * (000E80) S_END
  */
+void addPtToBand()
+{
+	// TODO: addPtToBand
+}
 
 /*
  * (000E84) S_LPROC32: [0001:0003684B], Cb: 00000153, Type:             0x1B1C, makeVertex
@@ -549,6 +595,10 @@
  * 
  * (000EEC) S_END
  */
+void makeVertex()
+{
+	// TODO: makeVertex
+}
 
 /*
  * (000EF0) S_LPROC32: [0001:0003699E], Cb: 0000031A, Type:             0x1001, projectVectors
@@ -568,6 +618,10 @@
  * 
  * (000FC4) S_END
  */
+void projectVectors()
+{
+	// TODO: projectVectors
+}
 
 /*
  * (000FC8) S_LPROC32: [0001:00036CB8], Cb: 000000E1, Type:             0x1408, scrollSky
@@ -579,6 +633,10 @@
  * 
  * (00100C) S_END
  */
+void scrollSky()
+{
+	// TODO: scrollSky
+}
 
 /*
  * (001010) S_LPROC32: [0001:00036D99], Cb: 000000DB, Type:             0x1B1E, domeVertex
@@ -595,6 +653,10 @@
  * 
  * (0010A8) S_END
  */
+void domeVertex()
+{
+	// TODO: domeVertex
+}
 
 /*
  * (0010AC) S_LPROC32: [0001:00036E74], Cb: 000000BF, Type:             0x1B20, domeTri
@@ -612,6 +674,10 @@
  * 
  * (00114C) S_END
  */
+void domeTri()
+{
+	// TODO: domeTri
+}
 
 /*
  * (001150) S_GPROC32: [0001:00036F33], Cb: 00000013, Type:             0x1001, skyRelease
@@ -621,6 +687,10 @@
  * 
  * (001184) S_END
  */
+void skyRelease()
+{
+	// TODO: skyRelease
+}
 
 /*
  * (0019C8) S_GPROC32: [0001:00036F50], Cb: 0000005D, Type:             0x1A19, RSTATES_SetZFunc
@@ -632,6 +702,10 @@
  * 
  * (001A14) S_END
  */
+void RSTATES_SetZFunc()
+{
+	// TODO: RSTATES_SetZFunc
+}
 
 /*
  * (001A18) S_GPROC32: [0001:00036FB0], Cb: 0000006F, Type:             0x1A19, RSTATES_SetFogEnable
@@ -643,6 +717,10 @@
  * 
  * (001A68) S_END
  */
+void RSTATES_SetFogEnable()
+{
+	// TODO: RSTATES_SetFogEnable
+}
 
 /*
  * (001A6C) S_GPROC32: [0001:00037020], Cb: 00000068, Type:             0x1B2F, TSTATES_SetAlphaOp
@@ -655,6 +733,10 @@
  * 
  * (001AD0) S_END
  */
+void TSTATES_SetAlphaOp()
+{
+	// TODO: TSTATES_SetAlphaOp
+}
 
 /*
  * (001AD4) S_GPROC32: [0001:00037090], Cb: 00000056, Type:             0x1A19, RSTATES_SetShadeMode
@@ -666,4 +748,8 @@
  * 
  * (001B24) S_END
  */
+void RSTATES_SetShadeMode()
+{
+	// TODO: RSTATES_SetShadeMode
+}
 

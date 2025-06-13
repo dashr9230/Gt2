@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -77,6 +75,10 @@
  * 
  * (0000D4) S_END
  */
+void REND_BlendMode()
+{
+	// TODO: REND_BlendMode
+}
 
 /*
  * (0000D8) S_GPROC32: [0001:000780F6], Cb: 000007B9, Type:             0x2082, rendTriangleStream
@@ -117,6 +119,10 @@
  * 
  * (0002EC) S_END
  */
+void rendTriangleStream()
+{
+	// TODO: rendTriangleStream
+}
 
 /*
  * (0002F0) S_LPROC32: [0001:000788AF], Cb: 00000180, Type:             0x2084, rendEnvironProject
@@ -138,6 +144,10 @@
  * 
  * (000398) S_END
  */
+void rendEnvironProject()
+{
+	// TODO: rendEnvironProject
+}
 
 /*
  * (00039C) S_LPROC32: [0001:00078A2F], Cb: 0000016D, Type:             0x2086, rendMetalProject
@@ -159,6 +169,10 @@
  * 
  * (000440) S_END
  */
+void rendMetalProject()
+{
+	// TODO: rendMetalProject
+}
 
 /*
  * (000444) S_GPROC32: [0001:00078B9C], Cb: 00000153, Type:             0x2087, rendChild
@@ -171,6 +185,10 @@
  * 
  * (000498) S_END
  */
+void rendChild()
+{
+	// TODO: rendChild
+}
 
 /*
  * (00049C) S_GPROC32: [0001:00078CEF], Cb: 00000164, Type:             0x2087, rendChildren
@@ -183,6 +201,10 @@
  * 
  * (0004F0) S_END
  */
+void rendChildren()
+{
+	// TODO: rendChildren
+}
 
 /*
  * (0004F4) S_GPROC32: [0001:00078E53], Cb: 0000022B, Type:             0x2089, REND_Model
@@ -196,6 +218,10 @@
  * 
  * (000558) S_END
  */
+void REND_Model()
+{
+	// TODO: REND_Model
+}
 
 /*
  * (00055C) S_GPROC32: [0001:0007907E], Cb: 0000008B, Type:             0x1001, iREND_Initialize
@@ -207,6 +233,10 @@
  * 
  * (0005B0) S_END
  */
+void iREND_Initialize()
+{
+	// TODO: iREND_Initialize
+}
 
 /*
  * (0005B4) S_LPROC32: [0001:00079109], Cb: 00000079, Type:             0x17C9, cmdChangeMT
@@ -226,6 +256,10 @@
  * 
  * (00063C) S_END
  */
+void cmdChangeMT()
+{
+	// TODO: cmdChangeMT
+}
 
 /*
  * (000640) S_GPROC32: [0001:00079182], Cb: 00000016, Type:             0x1001, iREND_Release
@@ -235,6 +269,10 @@
  * 
  * (000678) S_END
  */
+void iREND_Release()
+{
+	// TODO: iREND_Release
+}
 
 /*
  * (00067C) S_GPROC32: [0001:00079198], Cb: 00000040, Type:             0x208B, visPrimRenderStates
@@ -248,6 +286,10 @@
  * 
  * (0006EC) S_END
  */
+void visPrimRenderStates()
+{
+	// TODO: visPrimRenderStates
+}
 
 /*
  * (0006F0) S_GPROC32: [0001:000791D8], Cb: 00000143, Type:             0x208E, VIS_Primitive
@@ -266,6 +308,10 @@
  * 
  * (0007AC) S_END
  */
+void VIS_Primitive()
+{
+	// TODO: VIS_Primitive
+}
 
 /*
  * (0007B0) S_LPROC32: [0001:0007931B], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -281,6 +327,10 @@
  * 
  * (000834) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000838) S_GPROC32: [0001:00079395], Cb: 000001B6, Type:             0x2090, VIS_PrimitiveScale
@@ -308,6 +358,10 @@
  * 
  * (000954) S_END
  */
+void VIS_PrimitiveScale()
+{
+	// TODO: VIS_PrimitiveScale
+}
 
 /*
  * (000958) S_GPROC32: [0001:0007954B], Cb: 000001FF, Type:             0x2092, VIS_Sprite
@@ -327,6 +381,10 @@
  * 
  * (000A24) S_END
  */
+void VIS_Sprite()
+{
+	// TODO: VIS_Sprite
+}
 
 /*
  * (000A28) S_GPROC32: [0001:0007974A], Cb: 0000029F, Type:             0x2094, VIS_ColouredSprite
@@ -347,6 +405,10 @@
  * 
  * (000B0C) S_END
  */
+void VIS_ColouredSprite()
+{
+	// TODO: VIS_ColouredSprite
+}
 
 /*
  * (000B10) S_GPROC32: [0001:000799E9], Cb: 00000145, Type:             0x2096, VIS_TexturedPrimitive
@@ -367,6 +429,10 @@
  * 
  * (000BF8) S_END
  */
+void VIS_TexturedPrimitive()
+{
+	// TODO: VIS_TexturedPrimitive
+}
 
 /*
  * (000BFC) S_GPROC32: [0001:00079B2E], Cb: 00000107, Type:             0x2098, VIS_ScreenPrimitive
@@ -383,6 +449,10 @@
  * 
  * (000C9C) S_END
  */
+void VIS_ScreenPrimitive()
+{
+	// TODO: VIS_ScreenPrimitive
+}
 
 /*
  * (000CA0) S_GPROC32: [0001:00079C35], Cb: 000001C4, Type:             0x209A, VIS_ScreenSprite
@@ -402,6 +472,10 @@
  * 
  * (000D70) S_END
  */
+void VIS_ScreenSprite()
+{
+	// TODO: VIS_ScreenSprite
+}
 
 /*
  * (000D74) S_GPROC32: [0001:00079DF9], Cb: 0000022E, Type:             0x209C, VIS_ClrScreenSprite
@@ -421,6 +495,10 @@
  * 
  * (000E44) S_END
  */
+void VIS_ClrScreenSprite()
+{
+	// TODO: VIS_ClrScreenSprite
+}
 
 /*
  * (000E48) S_GPROC32: [0001:0007A027], Cb: 0000022B, Type:             0x209E, VIS_ZClrScreenSprite
@@ -441,6 +519,10 @@
  * 
  * (000F28) S_END
  */
+void VIS_ZClrScreenSprite()
+{
+	// TODO: VIS_ZClrScreenSprite
+}
 
 /*
  * (000F2C) S_LPROC32: [0001:0007A252], Cb: 00000005, Type:             0x1F8F, moxError
@@ -453,6 +535,10 @@
  * 
  * (000F7C) S_END
  */
+void moxError()
+{
+	// TODO: moxError
+}
 
 /*
  * (000F80) S_LPROC32: [0001:0007A257], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
@@ -465,6 +551,10 @@
  * 
  * (000FD4) S_END
  */
+void TS_SKIPTRI()
+{
+	// TODO: TS_SKIPTRI
+}
 
 /*
  * (000FD8) S_LPROC32: [0001:0007A286], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
@@ -477,6 +567,10 @@
  * 
  * (00102C) S_END
  */
+void TS_SKIPTRI2()
+{
+	// TODO: TS_SKIPTRI2
+}
 
 /*
  * (001030) S_GPROC32: [0001:0007A2B5], Cb: 0000010D, Type:             0x2098, VIS_DepthScreenPrimitive
@@ -494,6 +588,10 @@
  * 
  * (0010E4) S_END
  */
+void VIS_DepthScreenPrimitive()
+{
+	// TODO: VIS_DepthScreenPrimitive
+}
 
 /*
  * (0010E8) S_GPROC32: [0001:0007A3C2], Cb: 000001DA, Type:             0x20A0, VIS_DepthScreenSprite
@@ -514,6 +612,10 @@
  * 
  * (0011D0) S_END
  */
+void VIS_DepthScreenSprite()
+{
+	// TODO: VIS_DepthScreenSprite
+}
 
 /*
  * (0011D4) S_GPROC32: [0001:0007A59C], Cb: 000001AE, Type:             0x20A2, VIS_JackSprite
@@ -533,6 +635,10 @@
  * 
  * (0012A4) S_END
  */
+void VIS_JackSprite()
+{
+	// TODO: VIS_JackSprite
+}
 
 /*
  * (00171C) S_GPROC32: [0001:0007A750], Cb: 0000006F, Type:             0x1A19, RSTATES_SetSpecularEnable
@@ -544,6 +650,10 @@
  * 
  * (001774) S_END
  */
+void RSTATES_SetSpecularEnable()
+{
+	// TODO: RSTATES_SetSpecularEnable
+}
 
 /*
  * (001778) S_GPROC32: [0001:0007A7C0], Cb: 00000059, Type:             0x16A1, RSTATES_SetWrap0
@@ -555,6 +665,10 @@
  * 
  * (0017C4) S_END
  */
+void RSTATES_SetWrap0()
+{
+	// TODO: RSTATES_SetWrap0
+}
 
 /*
  * (0017C8) S_GPROC32: [0001:0007A820], Cb: 00000059, Type:             0x16A1, RSTATES_SetWrap1
@@ -566,6 +680,10 @@
  * 
  * (001814) S_END
  */
+void RSTATES_SetWrap1()
+{
+	// TODO: RSTATES_SetWrap1
+}
 
 /*
  * (001818) S_GPROC32: [0001:0007A880], Cb: 00000068, Type:             0x1B2F, TSTATES_SetColorOp
@@ -578,6 +696,10 @@
  * 
  * (00187C) S_END
  */
+void TSTATES_SetColorOp()
+{
+	// TODO: TSTATES_SetColorOp
+}
 
 /*
  * (001880) S_GPROC32: [0001:0007A8F0], Cb: 00000068, Type:             0x1BFD, TSTATES_SetColorArg1
@@ -590,6 +712,10 @@
  * 
  * (0018E4) S_END
  */
+void TSTATES_SetColorArg1()
+{
+	// TODO: TSTATES_SetColorArg1
+}
 
 /*
  * (0018E8) S_GPROC32: [0001:0007A960], Cb: 00000068, Type:             0x1BFD, TSTATES_SetColorArg2
@@ -602,6 +728,10 @@
  * 
  * (00194C) S_END
  */
+void TSTATES_SetColorArg2()
+{
+	// TODO: TSTATES_SetColorArg2
+}
 
 /*
  * (001950) S_GPROC32: [0001:0007A9D0], Cb: 00000061, Type:             0x1BFD, TSTATES_SetTexCoordIndex
@@ -614,4 +744,8 @@
  * 
  * (0019B8) S_END
  */
+void TSTATES_SetTexCoordIndex()
+{
+	// TODO: TSTATES_SetTexCoordIndex
+}
 

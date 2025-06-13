@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -52,6 +50,10 @@
  * 
  * (0001C8) S_END
  */
+void getrgbpix()
+{
+	// TODO: getrgbpix
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:00085564], Cb: 000000E1, Type:             0x1F9E, palmatch
@@ -72,6 +74,10 @@
  * 
  * (0002A4) S_END
  */
+void palmatch()
+{
+	// TODO: palmatch
+}
 
 /*
  * (0002A8) S_GPROC32: [0001:00085645], Cb: 00000055, Type:             0x1FA0, getavgpix
@@ -91,6 +97,10 @@
  * 
  * (000370) S_END
  */
+void getavgpix()
+{
+	// TODO: getavgpix
+}
 
 /*
  * (000374) S_GPROC32: [0001:0008569A], Cb: 0000003D, Type:             0x16A5, TPAGE_Init
@@ -100,6 +110,10 @@
  * 
  * (0003A8) S_END
  */
+void TPAGE_Init()
+{
+	// TODO: TPAGE_Init
+}
 
 /*
  * (0003AC) S_GPROC32: [0001:000856D7], Cb: 0000001B, Type:             0x1FA3, TPAGE_Create
@@ -111,6 +125,10 @@
  * 
  * (0003F0) S_END
  */
+void TPAGE_Create()
+{
+	// TODO: TPAGE_Create
+}
 
 /*
  * (0003F4) S_LPROC32: [0001:000856F2], Cb: 000005D6, Type:             0x1FA3, tpageCreate
@@ -135,6 +153,10 @@
  * 
  * (0004F8) S_END
  */
+void tpageCreate()
+{
+	// TODO: tpageCreate
+}
 
 /*
  * (0004FC) S_LPROC32: [0001:00085CC8], Cb: 0000006F, Type:             0x1D32, TPAGE_CheckTextureFormat
@@ -148,6 +170,10 @@
  * 
  * (00057C) S_END
  */
+void TPAGE_CheckTextureFormat()
+{
+	// TODO: TPAGE_CheckTextureFormat
+}
 
 /*
  * (000580) S_LPROC32: [0001:00085D37], Cb: 000000BA, Type:             0x1AA6, tpage_alloc
@@ -160,6 +186,10 @@
  * 
  * (0005D8) S_END
  */
+void tpage_alloc()
+{
+	// TODO: tpage_alloc
+}
 
 /*
  * (0005DC) S_LPROC32: [0001:00085DF1], Cb: 00000042, Type:             0x1FA4, tpage_next
@@ -171,6 +201,10 @@
  * 
  * (000624) S_END
  */
+void tpage_next()
+{
+	// TODO: tpage_next
+}
 
 /*
  * (000628) S_LPROC32: [0001:00085E33], Cb: 0000005E, Type:             0x1FA4, tpage_gettextureinterface
@@ -182,6 +216,10 @@
  * 
  * (000680) S_END
  */
+void tpage_gettextureinterface()
+{
+	// TODO: tpage_gettextureinterface
+}
 
 /*
  * (000684) S_GPROC32: [0001:00085E91], Cb: 0000002A, Type:             0x1FA6, TPAGE_CreateStaged
@@ -194,6 +232,10 @@
  * 
  * (0006E4) S_END
  */
+void TPAGE_CreateStaged()
+{
+	// TODO: TPAGE_CreateStaged
+}
 
 /*
  * (0006E8) S_GPROC32: [0001:00085EBB], Cb: 00000267, Type:             0x1FAB, TPAGE_CreateNew
@@ -247,6 +289,10 @@
  * 
  * (000914) S_END
  */
+void TPAGE_CreateNew()
+{
+	// TODO: TPAGE_CreateNew
+}
 
 /*
  * (000918) S_GPROC32: [0001:00086122], Cb: 00000169, Type:             0x1FAF, TPAGE_Delete
@@ -258,6 +304,10 @@
  * 
  * (000960) S_END
  */
+void TPAGE_Delete()
+{
+	// TODO: TPAGE_Delete
+}
 
 /*
  * (000964) S_GPROC32: [0001:0008628B], Cb: 00000031, Type:             0x1FB1, TPAGE_DeleteEntry
@@ -270,6 +320,10 @@
  * 
  * (0009C8) S_END
  */
+void TPAGE_DeleteEntry()
+{
+	// TODO: TPAGE_DeleteEntry
+}
 
 /*
  * (0009CC) S_GPROC32: [0001:000862BC], Cb: 00000054, Type:             0x1001, TPAGE_DeleteAll
@@ -281,6 +335,10 @@
  * 
  * (000A14) S_END
  */
+void TPAGE_DeleteAll()
+{
+	// TODO: TPAGE_DeleteAll
+}
 
 /*
  * (000A18) S_GPROC32: [0001:00086310], Cb: 0000002D, Type:             0x16A5, TPAGE_EvictAll
@@ -290,6 +348,10 @@
  * 
  * (000A50) S_END
  */
+void TPAGE_EvictAll()
+{
+	// TODO: TPAGE_EvictAll
+}
 
 /*
  * (000A54) S_GPROC32: [0001:0008633D], Cb: 0000007B, Type:             0x1001, TPAGE_Report
@@ -299,6 +361,10 @@
  * 
  * (000A88) S_END
  */
+void TPAGE_Report()
+{
+	// TODO: TPAGE_Report
+}
 
 /*
  * (000B38) S_GPROC32: [0001:000863C0], Cb: 000004C3, Type:             0x1FBA, convert_to_xbit2
@@ -337,6 +403,10 @@
  * 
  * (000D64) S_END
  */
+void convert_to_xbit2()
+{
+	// TODO: convert_to_xbit2
+}
 
 /*
  * (000D68) S_GPROC32: [0001:00086890], Cb: 00000031, Type:             0x182A, FTB
@@ -349,4 +419,8 @@
  * 
  * (000DBC) S_END
  */
+void FTB()
+{
+	// TODO: FTB
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -32,6 +30,10 @@
  * 
  * (0000D8) S_END
  */
+void PolyManager_Release()
+{
+	// TODO: PolyManager_Release
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:0006E165], Cb: 0000002E, Type:             0x1408, PolyManager_Draw
@@ -44,6 +46,10 @@
  * 
  * (000134) S_END
  */
+void PolyManager_Draw()
+{
+	// TODO: PolyManager_Draw
+}
 
 /*
  * (000138) S_GPROC32: [0001:0006E193], Cb: 00000076, Type:             0x1824, PolyManager_Create
@@ -55,6 +61,10 @@
  * 
  * (000194) S_END
  */
+void PolyManager_Create()
+{
+	// TODO: PolyManager_Create
+}
 
 /*
  * (000198) S_GPROC32: [0001:0006E209], Cb: 0000002B, Type:             0x1408, Poly_Release
@@ -66,6 +76,10 @@
  * 
  * (0001DC) S_END
  */
+void Poly_Release()
+{
+	// TODO: Poly_Release
+}
 
 /*
  * (0001E0) S_GPROC32: [0001:0006E234], Cb: 00000019, Type:             0x1408, Poly_Draw
@@ -77,6 +91,10 @@
  * 
  * (000224) S_END
  */
+void Poly_Draw()
+{
+	// TODO: Poly_Draw
+}
 
 /*
  * (000228) S_GPROC32: [0001:0006E24D], Cb: 00000156, Type:             0x1826, Poly_Create
@@ -99,6 +117,10 @@
  * 
  * (000328) S_END
  */
+void Poly_Create()
+{
+	// TODO: Poly_Create
+}
 
 /*
  * (00032C) S_LPROC32: [0001:0006E3A3], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -114,6 +136,10 @@
  * 
  * (0003B0) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (0003B4) S_GPROC32: [0001:0006E41D], Cb: 00000128, Type:             0x182C, Poly_CreateFlat
@@ -135,6 +161,10 @@
  * 
  * (0004A8) S_END
  */
+void Poly_CreateFlat()
+{
+	// TODO: Poly_CreateFlat
+}
 
 /*
  * (0004AC) S_GPROC32: [0001:0006E545], Cb: 00000148, Type:             0x182E, Poly_CreateGouraud
@@ -156,4 +186,8 @@
  * 
  * (0005A4) S_END
  */
+void Poly_CreateGouraud()
+{
+	// TODO: Poly_CreateGouraud
+}
 

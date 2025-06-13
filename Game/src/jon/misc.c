@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -67,6 +65,10 @@
  * 
  * (000228) S_END
  */
+void getModelDimensions()
+{
+	// TODO: getModelDimensions
+}
 
 /*
  * (00022C) S_LPROC32: [0001:0002C6C4], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
@@ -79,6 +81,10 @@
  * 
  * (000280) S_END
  */
+void TS_SKIPTRI()
+{
+	// TODO: TS_SKIPTRI
+}
 
 /*
  * (000284) S_LPROC32: [0001:0002C6F3], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
@@ -91,6 +97,10 @@
  * 
  * (0002D8) S_END
  */
+void TS_SKIPTRI2()
+{
+	// TODO: TS_SKIPTRI2
+}
 
 /*
  * (0002DC) S_GPROC32: [0001:0002C722], Cb: 000001A9, Type:             0x1BBF, RotatePoint
@@ -113,6 +123,10 @@
  * 
  * (0003DC) S_END
  */
+void RotatePoint()
+{
+	// TODO: RotatePoint
+}
 
 /*
  * (0003E0) S_GPROC32: [0001:0002C8CB], Cb: 0000001F, Type:             0x1BC0, QHyp
@@ -125,6 +139,10 @@
  * 
  * (00042C) S_END
  */
+void QHyp()
+{
+	// TODO: QHyp
+}
 
 /*
  * (000430) S_GPROC32: [0001:0002C8EA], Cb: 00000021, Type:             0x1BC1, QAng
@@ -139,6 +157,10 @@
  * 
  * (00049C) S_END
  */
+void QAng()
+{
+	// TODO: QAng
+}
 
 /*
  * (0004A0) S_GPROC32: [0001:0002C90B], Cb: 00000047, Type:             0x1BC3, QAngSep
@@ -152,4 +174,8 @@
  * 
  * (000504) S_END
  */
+void QAngSep()
+{
+	// TODO: QAngSep
+}
 

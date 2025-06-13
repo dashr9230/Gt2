@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (00010C) S_END
  */
+void RACEOVERMENU_Allocate()
+{
+	// TODO: RACEOVERMENU_Allocate
+}
 
 /*
  * (000110) S_LPROC32: [0001:0001F6EC], Cb: 00000062, Type:             0x1C40, RACEOVERMENU_AddItem
@@ -52,6 +54,10 @@
  * 
  * (000198) S_END
  */
+void RACEOVERMENU_AddItem()
+{
+	// TODO: RACEOVERMENU_AddItem
+}
 
 /*
  * (00019C) S_LPROC32: [0001:0001F74E], Cb: 00000026, Type:             0x1408, RACEOVERMENU_Destroy
@@ -64,6 +70,10 @@
  * 
  * (0001FC) S_END
  */
+void RACEOVERMENU_Destroy()
+{
+	// TODO: RACEOVERMENU_Destroy
+}
 
 /*
  * (000200) S_LPROC32: [0001:0001F774], Cb: 0000059D, Type:             0x1408, RACEOVERMENU_Handler
@@ -78,6 +88,10 @@
  * 
  * (000280) S_END
  */
+void RACEOVERMENU_Handler()
+{
+	// TODO: RACEOVERMENU_Handler
+}
 
 /*
  * (000284) S_LPROC32: [0001:0001FD11], Cb: 0000004C, Type:             0x1408, RACEOVERMENU_Replay
@@ -92,6 +106,10 @@
  * 
  * (000310) S_END
  */
+void RACEOVERMENU_Replay()
+{
+	// TODO: RACEOVERMENU_Replay
+}
 
 /*
  * (000314) S_LPROC32: [0001:0001FD5D], Cb: 0000002E, Type:             0x1408, RACEOVERMENU_SaveReplay
@@ -104,6 +122,10 @@
  * 
  * (000378) S_END
  */
+void RACEOVERMENU_SaveReplay()
+{
+	// TODO: RACEOVERMENU_SaveReplay
+}
 
 /*
  * (00037C) S_LPROC32: [0001:0001FD8B], Cb: 00000034, Type:             0x1408, RACEOVERMENU_Leave
@@ -117,4 +139,8 @@
  * 
  * (0003F4) S_END
  */
+void RACEOVERMENU_Leave()
+{
+	// TODO: RACEOVERMENU_Leave
+}
 

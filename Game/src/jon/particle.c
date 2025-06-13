@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -67,6 +65,10 @@
  * 
  * (0001C4) S_END
  */
+void prtUpdateParticleList()
+{
+	// TODO: prtUpdateParticleList
+}
 
 /*
  * (0001C8) S_LPROC32: [0001:0002CCB8], Cb: 0000007F, Type:             0x1BBB, prtDeallocate
@@ -79,6 +81,10 @@
  * 
  * (000220) S_END
  */
+void prtDeallocate()
+{
+	// TODO: prtDeallocate
+}
 
 /*
  * (000224) S_LPROC32: [0001:0002CD37], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -101,6 +107,10 @@
  * 
  * (0002E0) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (0002E4) S_GPROC32: [0001:0002CDA8], Cb: 000000E5, Type:             0x1B55, prtInitialize
@@ -119,6 +129,10 @@
  * 
  * (00035C) S_END
  */
+void prtInitialize()
+{
+	// TODO: prtInitialize
+}
 
 /*
  * (000360) S_GPROC32: [0001:0002CE8D], Cb: 0000003B, Type:             0x1001, prtRelease
@@ -128,4 +142,8 @@
  * 
  * (000394) S_END
  */
+void prtRelease()
+{
+	// TODO: prtRelease
+}
 

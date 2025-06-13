@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -51,6 +49,10 @@
  * 
  * (0000F0) S_END
  */
+void CM_Allocate()
+{
+	// TODO: CM_Allocate
+}
 
 /*
  * (0000F4) S_LPROC32: [0001:000059A7], Cb: 0000003E, Type:             0x1408, CM_Destroy
@@ -63,6 +65,10 @@
  * 
  * (000154) S_END
  */
+void CM_Destroy()
+{
+	// TODO: CM_Destroy
+}
 
 /*
  * (000158) S_GPROC32: [0001:000059E5], Cb: 00000038, Type:             0x1408, CM_Release
@@ -74,6 +80,10 @@
  * 
  * (0001A0) S_END
  */
+void CM_Release()
+{
+	// TODO: CM_Release
+}
 
 /*
  * (0001A4) S_LPROC32: [0001:00005A1D], Cb: 0000005B, Type:             0x1408, CM_Handler
@@ -86,6 +96,10 @@
  * 
  * (000200) S_END
  */
+void CM_Handler()
+{
+	// TODO: CM_Handler
+}
 
 /*
  * (000204) S_LPROC32: [0001:00005A78], Cb: 00000029, Type:             0x1408, CM_Draw
@@ -97,6 +111,10 @@
  * 
  * (000244) S_END
  */
+void CM_Draw()
+{
+	// TODO: CM_Draw
+}
 
 /*
  * (000248) S_GPROC32: [0001:00005AA1], Cb: 00000030, Type:             0x1408, CM_YouWereOnlySupposedToBlowTheBloodyDoorsOff
@@ -108,6 +126,10 @@
  * 
  * (0002B0) S_END
  */
+void CM_YouWereOnlySupposedToBlowTheBloodyDoorsOff()
+{
+	// TODO: CM_YouWereOnlySupposedToBlowTheBloodyDoorsOff
+}
 
 /*
  * (0002B4) S_GPROC32: [0001:00005AD1], Cb: 00000527, Type:             0x1A1D, CM_EnterCar
@@ -154,6 +176,10 @@
  * 
  * (0004D0) S_END
  */
+void CM_EnterCar()
+{
+	// TODO: CM_EnterCar
+}
 
 /*
  * (0004D4) S_GPROC32: [0001:00005FF8], Cb: 00000090, Type:             0x1001, CM_CarInitOnce
@@ -169,6 +195,10 @@
  * 
  * (000578) S_END
  */
+void CM_CarInitOnce()
+{
+	// TODO: CM_CarInitOnce
+}
 
 /*
  * (00057C) S_GPROC32: [0001:00006088], Cb: 0000019C, Type:             0x1001, CM_DropAllCars
@@ -186,6 +216,10 @@
  * 
  * (000650) S_END
  */
+void CM_DropAllCars()
+{
+	// TODO: CM_DropAllCars
+}
 
 /*
  * (000654) S_GPROC32: [0001:00006224], Cb: 00000033, Type:             0x1824, CM_GetCurCar
@@ -199,6 +233,10 @@
  * 
  * (0006CC) S_END
  */
+void CM_GetCurCar()
+{
+	// TODO: CM_GetCurCar
+}
 
 /*
  * (0006D0) S_GPROC32: [0001:00006257], Cb: 00000021, Type:             0x1408, CM_ForceCPUControl
@@ -211,6 +249,10 @@
  * 
  * (000734) S_END
  */
+void CM_ForceCPUControl()
+{
+	// TODO: CM_ForceCPUControl
+}
 
 /*
  * (000738) S_GPROC32: [0001:00006278], Cb: 0000002E, Type:             0x1408, CM_ForceAllCPUControl
@@ -223,6 +265,10 @@
  * 
  * (00079C) S_END
  */
+void CM_ForceAllCPUControl()
+{
+	// TODO: CM_ForceAllCPUControl
+}
 
 /*
  * (0007A0) S_GPROC32: [0001:000062A6], Cb: 000001F8, Type:             0x1408, CM_ActiveDriverDump
@@ -243,6 +289,10 @@
  * 
  * (000848) S_END
  */
+void CM_ActiveDriverDump()
+{
+	// TODO: CM_ActiveDriverDump
+}
 
 /*
  * (00084C) S_GPROC32: [0001:0000649E], Cb: 00000054, Type:             0x1408, CM_FindHumanLanes
@@ -262,6 +312,10 @@
  * 
  * (0008DC) S_END
  */
+void CM_FindHumanLanes()
+{
+	// TODO: CM_FindHumanLanes
+}
 
 /*
  * (0008E0) S_GPROC32: [0001:000064F2], Cb: 00000030, Type:             0x1408, CM_ReportLines
@@ -281,6 +335,10 @@
  * 
  * (00096C) S_END
  */
+void CM_ReportLines()
+{
+	// TODO: CM_ReportLines
+}
 
 /*
  * (000970) S_GPROC32: [0001:00006522], Cb: 0000013A, Type:             0x1408, CM_BuildPlaces
@@ -306,6 +364,10 @@
  * 
  * (000A70) S_END
  */
+void CM_BuildPlaces()
+{
+	// TODO: CM_BuildPlaces
+}
 
 /*
  * (000A74) S_LPROC32: [0001:0000665C], Cb: 000000D0, Type:             0x1408, CM_GetCarPositions
@@ -320,6 +382,10 @@
  * 
  * (000B00) S_END
  */
+void CM_GetCarPositions()
+{
+	// TODO: CM_GetCarPositions
+}
 
 /*
  * (000B04) S_LPROC32: [0001:0000672C], Cb: 00000078, Type:             0x1408, CM_ReportPlaces
@@ -333,6 +399,10 @@
  * 
  * (000B74) S_END
  */
+void CM_ReportPlaces()
+{
+	// TODO: CM_ReportPlaces
+}
 
 /*
  * (000B78) S_LPROC32: [0001:000067A4], Cb: 000000FB, Type:             0x1408, CM_ReportCatchup
@@ -348,6 +418,10 @@
  * 
  * (000C14) S_END
  */
+void CM_ReportCatchup()
+{
+	// TODO: CM_ReportCatchup
+}
 
 /*
  * (000C18) S_GPROC32: [0001:0000689F], Cb: 000002C6, Type:             0x1408, CM_NickedCars
@@ -395,6 +469,10 @@
  * 
  * (000DC0) S_END
  */
+void CM_NickedCars()
+{
+	// TODO: CM_NickedCars
+}
 
 /*
  * (000DC4) S_GPROC32: [0001:00006B65], Cb: 00000176, Type:             0x1408, CM_ReportNickedCars
@@ -411,6 +489,10 @@
  * 
  * (000E78) S_END
  */
+void CM_ReportNickedCars()
+{
+	// TODO: CM_ReportNickedCars
+}
 
 /*
  * (000E7C) S_GPROC32: [0001:00006CDB], Cb: 0000007F, Type:             0x1408, CM_SlipStreamCars
@@ -426,6 +508,10 @@
  * 
  * (000F20) S_END
  */
+void CM_SlipStreamCars()
+{
+	// TODO: CM_SlipStreamCars
+}
 
 /*
  * (000F24) S_GPROC32: [0001:00006D5A], Cb: 00000458, Type:             0x1408, DropCarAtStart
@@ -458,6 +544,10 @@
  * 
  * (001094) S_END
  */
+void DropCarAtStart()
+{
+	// TODO: DropCarAtStart
+}
 
 /*
  * (001098) S_GPROC32: [0001:000071B2], Cb: 000003B8, Type:             0x1408, UpturnCar
@@ -489,6 +579,10 @@
  * 
  * (0011F8) S_END
  */
+void UpturnCar()
+{
+	// TODO: UpturnCar
+}
 
 /*
  * (0011FC) S_GPROC32: [0001:0000756A], Cb: 0000047F, Type:             0x1408, DropCar
@@ -521,6 +615,10 @@
  * 
  * (001368) S_END
  */
+void DropCar()
+{
+	// TODO: DropCar
+}
 
 /*
  * (00136C) S_GPROC32: [0001:000079E9], Cb: 00000041, Type:             0x1001, DropAllCars
@@ -533,6 +631,10 @@
  * 
  * (0013C8) S_END
  */
+void DropAllCars()
+{
+	// TODO: DropAllCars
+}
 
 /*
  * (0013CC) S_GPROC32: [0001:00007A2A], Cb: 00000016, Type:             0x1001, DropCar_Install
@@ -542,6 +644,10 @@
  * 
  * (001404) S_END
  */
+void DropCar_Install()
+{
+	// TODO: DropCar_Install
+}
 
 /*
  * (001408) S_GPROC32: [0001:00007A40], Cb: 0000000F, Type:             0x1001, DropCar_Uninstall
@@ -551,6 +657,10 @@
  * 
  * (001444) S_END
  */
+void DropCar_Uninstall()
+{
+	// TODO: DropCar_Uninstall
+}
 
 /*
  * (001448) S_LPROC32: [0001:00007A4F], Cb: 00000023, Type:             0x1AA6, nRand
@@ -560,6 +670,10 @@
  * 
  * (001478) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 
 /*
  * (00147C) S_LPROC32: [0001:00007A72], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -582,4 +696,8 @@
  * 
  * (001538) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 

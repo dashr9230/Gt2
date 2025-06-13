@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -34,6 +32,10 @@
  * 
  * (0000F0) S_END
  */
+void FONT_Allocate()
+{
+	// TODO: FONT_Allocate
+}
 
 /*
  * (0000F4) S_GPROC32: [0001:000913C9], Cb: 0000014D, Type:             0x1EEC, FONT_Load
@@ -58,6 +60,10 @@
  * 
  * (0001E0) S_END
  */
+void FONT_Load()
+{
+	// TODO: FONT_Load
+}
 
 /*
  * (0001E4) S_GPROC32: [0001:00091516], Cb: 0000005F, Type:             0x1EEF, FONT_Release
@@ -70,6 +76,10 @@
  * 
  * (000240) S_END
  */
+void FONT_Release()
+{
+	// TODO: FONT_Release
+}
 
 /*
  * (000244) S_GPROC32: [0001:00091575], Cb: 00000069, Type:             0x1EF1, FONT_FindPage
@@ -83,6 +93,10 @@
  * 
  * (0002B0) S_END
  */
+void FONT_FindPage()
+{
+	// TODO: FONT_FindPage
+}
 
 /*
  * (0002B4) S_GPROC32: [0001:000915DE], Cb: 000000B0, Type:             0x1EF3, FONT_Len
@@ -101,6 +115,10 @@
  * 
  * (000378) S_END
  */
+void FONT_Len()
+{
+	// TODO: FONT_Len
+}
 
 /*
  * (00037C) S_GPROC32: [0001:0009168E], Cb: 00000055, Type:             0x1EF5, FONT_Printf
@@ -117,6 +135,10 @@
  * 
  * (000428) S_END
  */
+void FONT_Printf()
+{
+	// TODO: FONT_Printf
+}
 
 /*
  * (00042C) S_GPROC32: [0001:000916E3], Cb: 0000027F, Type:             0x1EF7, FONT_Print
@@ -141,6 +163,10 @@
  * 
  * (000560) S_END
  */
+void FONT_Print()
+{
+	// TODO: FONT_Print
+}
 
 /*
  * (000564) S_GPROC32: [0001:00091962], Cb: 00000082, Type:             0x1EEF, FONT_Flush
@@ -153,6 +179,10 @@
  * 
  * (0005BC) S_END
  */
+void FONT_Flush()
+{
+	// TODO: FONT_Flush
+}
 
 /*
  * (0005C0) S_LPROC32: [0001:000919E4], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -168,4 +198,8 @@
  * 
  * (000644) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 

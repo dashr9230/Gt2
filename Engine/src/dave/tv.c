@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -54,6 +52,10 @@
  * 
  * (0000D0) S_END
  */
+void CreateCamLogo()
+{
+	// TODO: CreateCamLogo
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:00080095], Cb: 00000005, Type:             0x1FD5, SetCamPrimColor
@@ -66,6 +68,10 @@
  * 
  * (000130) S_END
  */
+void SetCamPrimColor()
+{
+	// TODO: SetCamPrimColor
+}
 
 /*
  * (000134) S_GPROC32: [0001:0008009A], Cb: 0000006F, Type:             0x1001, TV_Init
@@ -75,6 +81,10 @@
  * 
  * (000164) S_END
  */
+void TV_Init()
+{
+	// TODO: TV_Init
+}
 
 /*
  * (000168) S_GPROC32: [0001:00080109], Cb: 0000001E, Type:             0x1001, TV_Shutdown
@@ -84,6 +94,10 @@
  * 
  * (00019C) S_END
  */
+void TV_Shutdown()
+{
+	// TODO: TV_Shutdown
+}
 
 /*
  * (0001A0) S_GPROC32: [0001:00080127], Cb: 0000005E, Type:             0x1FD6, TV_Director_Allocate
@@ -95,6 +109,10 @@
  * 
  * (0001F4) S_END
  */
+void TV_Director_Allocate()
+{
+	// TODO: TV_Director_Allocate
+}
 
 /*
  * (0001F8) S_GPROC32: [0001:00080185], Cb: 00000021, Type:             0x1FD8, TV_Director_Release
@@ -106,6 +124,10 @@
  * 
  * (00024C) S_END
  */
+void TV_Director_Release()
+{
+	// TODO: TV_Director_Release
+}
 
 /*
  * (000250) S_GPROC32: [0001:000801A6], Cb: 00000200, Type:             0x1FD9, TV_Director_HireCameraMan
@@ -118,6 +140,10 @@
  * 
  * (0002BC) S_END
  */
+void TV_Director_HireCameraMan()
+{
+	// TODO: TV_Director_HireCameraMan
+}
 
 /*
  * (0002C0) S_GPROC32: [0001:000803A6], Cb: 0000004F, Type:             0x1FD3, TV_Director_FireCameraMan
@@ -129,6 +155,10 @@
  * 
  * (000314) S_END
  */
+void TV_Director_FireCameraMan()
+{
+	// TODO: TV_Director_FireCameraMan
+}
 
 /*
  * (000318) S_GPROC32: [0001:000803F5], Cb: 0000001D, Type:             0x1FDB, TV_Director_ChooseFeed
@@ -142,6 +172,10 @@
  * 
  * (000394) S_END
  */
+void TV_Director_ChooseFeed()
+{
+	// TODO: TV_Director_ChooseFeed
+}
 
 /*
  * (000398) S_GPROC32: [0001:00080412], Cb: 00000178, Type:             0x13EF, TV_Director_UpdateCam
@@ -156,6 +190,10 @@
  * 
  * (000424) S_END
  */
+void TV_Director_UpdateCam()
+{
+	// TODO: TV_Director_UpdateCam
+}
 
 /*
  * (000428) S_GPROC32: [0001:0008058A], Cb: 00000073, Type:             0x13EF, TV_CameraHandler
@@ -169,6 +207,10 @@
  * 
  * (0004A0) S_END
  */
+void TV_CameraHandler()
+{
+	// TODO: TV_CameraHandler
+}
 
 /*
  * (0004A4) S_GPROC32: [0001:000805FD], Cb: 00000068, Type:             0x13EF, TV_CameraHandlerTvOnly
@@ -182,6 +224,10 @@
  * 
  * (000524) S_END
  */
+void TV_CameraHandlerTvOnly()
+{
+	// TODO: TV_CameraHandlerTvOnly
+}
 
 /*
  * (000528) S_GPROC32: [0001:00080665], Cb: 000005C0, Type:             0x1FD3, TV_CameraShoot
@@ -222,6 +268,10 @@
  * 
  * (0006F8) S_END
  */
+void TV_CameraShoot()
+{
+	// TODO: TV_CameraShoot
+}
 
 /*
  * (0006FC) S_GPROC32: [0001:00080C25], Cb: 00000196, Type:             0x1001, TV_Install_Keypad
@@ -231,6 +281,10 @@
  * 
  * (000738) S_END
  */
+void TV_Install_Keypad()
+{
+	// TODO: TV_Install_Keypad
+}
 
 /*
  * (00073C) S_GPROC32: [0001:00080DBB], Cb: 000000EC, Type:             0x1001, TV_Uninstall_Keypad
@@ -240,6 +294,10 @@
  * 
  * (000778) S_END
  */
+void TV_Uninstall_Keypad()
+{
+	// TODO: TV_Uninstall_Keypad
+}
 
 /*
  * (00077C) S_GPROC32: [0001:00080EA7], Cb: 00000014, Type:             0x13EF, SetCamFocus
@@ -251,6 +309,10 @@
  * 
  * (0007C0) S_END
  */
+void SetCamFocus()
+{
+	// TODO: SetCamFocus
+}
 
 /*
  * (0007C4) S_GPROC32: [0001:00080EBB], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotX_Plus
@@ -260,6 +322,10 @@
  * 
  * (000800) S_END
  */
+void TV_KeyPad_RotX_Plus()
+{
+	// TODO: TV_KeyPad_RotX_Plus
+}
 
 /*
  * (000804) S_GPROC32: [0001:00080EFD], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotX_Minus
@@ -269,6 +335,10 @@
  * 
  * (000840) S_END
  */
+void TV_KeyPad_RotX_Minus()
+{
+	// TODO: TV_KeyPad_RotX_Minus
+}
 
 /*
  * (000844) S_GPROC32: [0001:00080F3F], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotY_Plus
@@ -278,6 +348,10 @@
  * 
  * (000880) S_END
  */
+void TV_KeyPad_RotY_Plus()
+{
+	// TODO: TV_KeyPad_RotY_Plus
+}
 
 /*
  * (000884) S_GPROC32: [0001:00080F81], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotY_Minus
@@ -287,6 +361,10 @@
  * 
  * (0008C0) S_END
  */
+void TV_KeyPad_RotY_Minus()
+{
+	// TODO: TV_KeyPad_RotY_Minus
+}
 
 /*
  * (0008C4) S_GPROC32: [0001:00080FC3], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotZ_Plus
@@ -296,6 +374,10 @@
  * 
  * (000900) S_END
  */
+void TV_KeyPad_RotZ_Plus()
+{
+	// TODO: TV_KeyPad_RotZ_Plus
+}
 
 /*
  * (000904) S_GPROC32: [0001:00081005], Cb: 00000042, Type:             0x1001, TV_KeyPad_RotZ_Minus
@@ -305,6 +387,10 @@
  * 
  * (000940) S_END
  */
+void TV_KeyPad_RotZ_Minus()
+{
+	// TODO: TV_KeyPad_RotZ_Minus
+}
 
 /*
  * (000944) S_GPROC32: [0001:00081047], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosX_Plus
@@ -314,6 +400,10 @@
  * 
  * (000980) S_END
  */
+void TV_KeyPad_PosX_Plus()
+{
+	// TODO: TV_KeyPad_PosX_Plus
+}
 
 /*
  * (000984) S_GPROC32: [0001:00081088], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosX_Minus
@@ -323,6 +413,10 @@
  * 
  * (0009C0) S_END
  */
+void TV_KeyPad_PosX_Minus()
+{
+	// TODO: TV_KeyPad_PosX_Minus
+}
 
 /*
  * (0009C4) S_GPROC32: [0001:000810C9], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosY_Plus
@@ -332,6 +426,10 @@
  * 
  * (000A00) S_END
  */
+void TV_KeyPad_PosY_Plus()
+{
+	// TODO: TV_KeyPad_PosY_Plus
+}
 
 /*
  * (000A04) S_GPROC32: [0001:0008110A], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosY_Minus
@@ -341,6 +439,10 @@
  * 
  * (000A40) S_END
  */
+void TV_KeyPad_PosY_Minus()
+{
+	// TODO: TV_KeyPad_PosY_Minus
+}
 
 /*
  * (000A44) S_GPROC32: [0001:0008114B], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosZ_Plus
@@ -350,6 +452,10 @@
  * 
  * (000A80) S_END
  */
+void TV_KeyPad_PosZ_Plus()
+{
+	// TODO: TV_KeyPad_PosZ_Plus
+}
 
 /*
  * (000A84) S_GPROC32: [0001:0008118C], Cb: 00000041, Type:             0x1001, TV_KeyPad_PosZ_Minus
@@ -359,6 +465,10 @@
  * 
  * (000AC0) S_END
  */
+void TV_KeyPad_PosZ_Minus()
+{
+	// TODO: TV_KeyPad_PosZ_Minus
+}
 
 /*
  * (000AC4) S_GPROC32: [0001:000811CD], Cb: 000000CD, Type:             0x1001, TV_KeyPad_Reset
@@ -368,6 +478,10 @@
  * 
  * (000AFC) S_END
  */
+void TV_KeyPad_Reset()
+{
+	// TODO: TV_KeyPad_Reset
+}
 
 /*
  * (000B00) S_GPROC32: [0001:0008129A], Cb: 00000043, Type:             0x1001, TV_KeyPad_Show_Toggle
@@ -377,6 +491,10 @@
  * 
  * (000B40) S_END
  */
+void TV_KeyPad_Show_Toggle()
+{
+	// TODO: TV_KeyPad_Show_Toggle
+}
 
 /*
  * (000B44) S_GPROC32: [0001:000812DD], Cb: 00000066, Type:             0x1001, TV_KeyPad_Fov_Plus
@@ -386,6 +504,10 @@
  * 
  * (000B80) S_END
  */
+void TV_KeyPad_Fov_Plus()
+{
+	// TODO: TV_KeyPad_Fov_Plus
+}
 
 /*
  * (000B84) S_GPROC32: [0001:00081343], Cb: 00000062, Type:             0x1001, TV_KeyPad_Fov_Minus
@@ -395,6 +517,10 @@
  * 
  * (000BC0) S_END
  */
+void TV_KeyPad_Fov_Minus()
+{
+	// TODO: TV_KeyPad_Fov_Minus
+}
 
 /*
  * (000BC4) S_GPROC32: [0001:000813A5], Cb: 00000041, Type:             0x1001, TV_KeyPad_NearClip_Plus
@@ -404,6 +530,10 @@
  * 
  * (000C04) S_END
  */
+void TV_KeyPad_NearClip_Plus()
+{
+	// TODO: TV_KeyPad_NearClip_Plus
+}
 
 /*
  * (000C08) S_GPROC32: [0001:000813E6], Cb: 0000006A, Type:             0x1001, TV_KeyPad_NearClip_Minus
@@ -413,6 +543,10 @@
  * 
  * (000C48) S_END
  */
+void TV_KeyPad_NearClip_Minus()
+{
+	// TODO: TV_KeyPad_NearClip_Minus
+}
 
 /*
  * (000C4C) S_GPROC32: [0001:00081450], Cb: 0000006A, Type:             0x1001, TV_KeyPad_FarClip_Plus
@@ -422,6 +556,10 @@
  * 
  * (000C8C) S_END
  */
+void TV_KeyPad_FarClip_Plus()
+{
+	// TODO: TV_KeyPad_FarClip_Plus
+}
 
 /*
  * (000C90) S_GPROC32: [0001:000814BA], Cb: 0000006A, Type:             0x1001, TV_KeyPad_FarClip_Minus
@@ -431,6 +569,10 @@
  * 
  * (000CD0) S_END
  */
+void TV_KeyPad_FarClip_Minus()
+{
+	// TODO: TV_KeyPad_FarClip_Minus
+}
 
 /*
  * (000CD4) S_GPROC32: [0001:00081524], Cb: 00000042, Type:             0x1001, TV_KeyPad_Roll_Plus
@@ -440,6 +582,10 @@
  * 
  * (000D10) S_END
  */
+void TV_KeyPad_Roll_Plus()
+{
+	// TODO: TV_KeyPad_Roll_Plus
+}
 
 /*
  * (000D14) S_GPROC32: [0001:00081566], Cb: 00000042, Type:             0x1001, TV_KeyPad_Roll_Minus
@@ -449,6 +595,10 @@
  * 
  * (000D50) S_END
  */
+void TV_KeyPad_Roll_Minus()
+{
+	// TODO: TV_KeyPad_Roll_Minus
+}
 
 /*
  * (000D54) S_GPROC32: [0001:000815A8], Cb: 00000042, Type:             0x1001, TV_KeyPad_Lag_Plus
@@ -458,6 +608,10 @@
  * 
  * (000D90) S_END
  */
+void TV_KeyPad_Lag_Plus()
+{
+	// TODO: TV_KeyPad_Lag_Plus
+}
 
 /*
  * (000D94) S_GPROC32: [0001:000815EA], Cb: 00000054, Type:             0x1001, TV_KeyPad_Lag_Minus
@@ -467,6 +621,10 @@
  * 
  * (000DD0) S_END
  */
+void TV_KeyPad_Lag_Minus()
+{
+	// TODO: TV_KeyPad_Lag_Minus
+}
 
 /*
  * (000DD4) S_GPROC32: [0001:0008163E], Cb: 00000069, Type:             0x1001, TV_KeyPad_CamType_Toggle
@@ -476,6 +634,10 @@
  * 
  * (000E14) S_END
  */
+void TV_KeyPad_CamType_Toggle()
+{
+	// TODO: TV_KeyPad_CamType_Toggle
+}
 
 /*
  * (000E18) S_GPROC32: [0001:000816A7], Cb: 0000057A, Type:             0x16A1, TV_Debug
@@ -487,6 +649,10 @@
  * 
  * (000E5C) S_END
  */
+void TV_Debug()
+{
+	// TODO: TV_Debug
+}
 
 /*
  * (000E60) S_GPROC32: [0001:00081C21], Cb: 000000B7, Type:             0x1001, TV_Director_SetOriginCam
@@ -496,6 +662,10 @@
  * 
  * (000EA0) S_END
  */
+void TV_Director_SetOriginCam()
+{
+	// TODO: TV_Director_SetOriginCam
+}
 
 /*
  * (000EA4) S_GPROC32: [0001:00081CD8], Cb: 000000A6, Type:             0x1FDC, TV_Director_Hire_RaceCam
@@ -508,6 +678,10 @@
  * 
  * (000F0C) S_END
  */
+void TV_Director_Hire_RaceCam()
+{
+	// TODO: TV_Director_Hire_RaceCam
+}
 
 /*
  * (000F10) S_GPROC32: [0001:00081D7E], Cb: 000000A6, Type:             0x1FDC, TV_Director_Hire_TopDownCam
@@ -520,6 +694,10 @@
  * 
  * (000F7C) S_END
  */
+void TV_Director_Hire_TopDownCam()
+{
+	// TODO: TV_Director_Hire_TopDownCam
+}
 
 /*
  * (000F80) S_GPROC32: [0001:00081E24], Cb: 0000008F, Type:             0x1FDE, TV_Director_Hire_TVCameraman
@@ -536,6 +714,10 @@
  * 
  * (001030) S_END
  */
+void TV_Director_Hire_TVCameraman()
+{
+	// TODO: TV_Director_Hire_TVCameraman
+}
 
 /*
  * (001034) S_GPROC32: [0001:00081EB3], Cb: 000000A5, Type:             0x1FE0, TV_Director_Hire_StartCam
@@ -551,6 +733,10 @@
  * 
  * (0010D0) S_END
  */
+void TV_Director_Hire_StartCam()
+{
+	// TODO: TV_Director_Hire_StartCam
+}
 
 /*
  * (0010D4) S_GPROC32: [0001:00081F58], Cb: 00000A5D, Type:             0x1FE2, TV_Director_HireNoseyCams
@@ -564,4 +750,8 @@
  * 
  * (001154) S_END
  */
+void TV_Director_HireNoseyCams()
+{
+	// TODO: TV_Director_HireNoseyCams
+}
 

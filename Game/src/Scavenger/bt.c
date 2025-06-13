@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -46,6 +44,10 @@
  * 
  * (0000E0) S_END
  */
+void dBtBomb()
+{
+	// TODO: dBtBomb
+}
 
 /*
  * (0000E4) S_GPROC32: [0001:00040C62], Cb: 00000032, Type:             0x141A, dBtCancel
@@ -58,6 +60,10 @@
  * 
  * (000140) S_END
  */
+void dBtCancel()
+{
+	// TODO: dBtCancel
+}
 
 /*
  * (000144) S_GPROC32: [0001:00040C94], Cb: 0000003E, Type:             0x141A, BtQUITTOWINDOWS
@@ -70,6 +76,10 @@
  * 
  * (0001A4) S_END
  */
+void BtQUITTOWINDOWS()
+{
+	// TODO: BtQUITTOWINDOWS
+}
 
 /*
  * (0001A8) S_GPROC32: [0001:00040CD2], Cb: 0000000A, Type:             0x141A, BtQUICKRACE
@@ -81,6 +91,10 @@
  * 
  * (0001EC) S_END
  */
+void BtQUICKRACE()
+{
+	// TODO: BtQUICKRACE
+}
 
 /*
  * (0001F0) S_GPROC32: [0001:00040CDC], Cb: 0000004B, Type:             0x141A, BtMULTIPLAYER
@@ -93,6 +107,10 @@
  * 
  * (000250) S_END
  */
+void BtMULTIPLAYER()
+{
+	// TODO: BtMULTIPLAYER
+}
 
 /*
  * (000254) S_GPROC32: [0001:00040D27], Cb: 0000000F, Type:             0x141A, BtCAREER
@@ -104,6 +122,10 @@
  * 
  * (000294) S_END
  */
+void BtCAREER()
+{
+	// TODO: BtCAREER
+}
 
 /*
  * (000298) S_GPROC32: [0001:00040D36], Cb: 0000000A, Type:             0x141A, BtROOTMENU
@@ -115,6 +137,10 @@
  * 
  * (0002DC) S_END
  */
+void BtROOTMENU()
+{
+	// TODO: BtROOTMENU
+}
 
 /*
  * (0002E0) S_GPROC32: [0001:00040D40], Cb: 0000000A, Type:             0x141A, BtREPLAY
@@ -126,6 +152,10 @@
  * 
  * (000320) S_END
  */
+void BtREPLAY()
+{
+	// TODO: BtREPLAY
+}
 
 /*
  * (000324) S_GPROC32: [0001:00040D4A], Cb: 0000003E, Type:             0x141A, BtQuitCareer
@@ -138,6 +168,10 @@
  * 
  * (000380) S_END
  */
+void BtQuitCareer()
+{
+	// TODO: BtQuitCareer
+}
 
 /*
  * (000384) S_GPROC32: [0001:00040D88], Cb: 0000002D, Type:             0x141A, BtHandRace
@@ -150,6 +184,10 @@
  * 
  * (0003D8) S_END
  */
+void BtHandRace()
+{
+	// TODO: BtHandRace
+}
 
 /*
  * (0003DC) S_GPROC32: [0001:00040DB5], Cb: 0000002D, Type:             0x141A, BtHandDrift
@@ -162,6 +200,10 @@
  * 
  * (000430) S_END
  */
+void BtHandDrift()
+{
+	// TODO: BtHandDrift
+}
 
 /*
  * (000434) S_GPROC32: [0001:00040DE2], Cb: 0000002D, Type:             0x141A, BtCareerHandRace
@@ -174,6 +216,10 @@
  * 
  * (00048C) S_END
  */
+void BtCareerHandRace()
+{
+	// TODO: BtCareerHandRace
+}
 
 /*
  * (000490) S_GPROC32: [0001:00040E0F], Cb: 0000002D, Type:             0x141A, BtCareerHandDrift
@@ -186,6 +232,10 @@
  * 
  * (0004EC) S_END
  */
+void BtCareerHandDrift()
+{
+	// TODO: BtCareerHandDrift
+}
 
 /*
  * (0004F0) S_GPROC32: [0001:00040E3C], Cb: 0000006C, Type:             0x141A, BtGfxOther
@@ -198,6 +248,10 @@
  * 
  * (000544) S_END
  */
+void BtGfxOther()
+{
+	// TODO: BtGfxOther
+}
 
 /*
  * (000548) S_GPROC32: [0001:00040EA8], Cb: 0000006C, Type:             0x141A, BtGfxCpu
@@ -210,6 +264,10 @@
  * 
  * (000598) S_END
  */
+void BtGfxCpu()
+{
+	// TODO: BtGfxCpu
+}
 
 /*
  * (00059C) S_GPROC32: [0001:00040F14], Cb: 0000006C, Type:             0x141A, BtGfxPlayer
@@ -222,6 +280,10 @@
  * 
  * (0005F0) S_END
  */
+void BtGfxPlayer()
+{
+	// TODO: BtGfxPlayer
+}
 
 /*
  * (0005F4) S_GPROC32: [0001:00040F80], Cb: 0000006C, Type:             0x141A, BtGfxTrack
@@ -234,6 +296,10 @@
  * 
  * (000648) S_END
  */
+void BtGfxTrack()
+{
+	// TODO: BtGfxTrack
+}
 
 /*
  * (00064C) S_GPROC32: [0001:00040FEC], Cb: 00000072, Type:             0x141A, BtGfxOtherClick
@@ -248,6 +314,10 @@
  * 
  * (0006CC) S_END
  */
+void BtGfxOtherClick()
+{
+	// TODO: BtGfxOtherClick
+}
 
 /*
  * (0006D0) S_GPROC32: [0001:0004105E], Cb: 00000072, Type:             0x141A, BtGfxCpuClick
@@ -262,6 +332,10 @@
  * 
  * (000750) S_END
  */
+void BtGfxCpuClick()
+{
+	// TODO: BtGfxCpuClick
+}
 
 /*
  * (000754) S_GPROC32: [0001:000410D0], Cb: 00000072, Type:             0x141A, BtGfxPlayerClick
@@ -276,6 +350,10 @@
  * 
  * (0007D4) S_END
  */
+void BtGfxPlayerClick()
+{
+	// TODO: BtGfxPlayerClick
+}
 
 /*
  * (0007D8) S_GPROC32: [0001:00041142], Cb: 00000072, Type:             0x141A, BtGfxTrackClick
@@ -290,6 +368,10 @@
  * 
  * (000858) S_END
  */
+void BtGfxTrackClick()
+{
+	// TODO: BtGfxTrackClick
+}
 
 /*
  * (00085C) S_GPROC32: [0001:000411B4], Cb: 00000069, Type:             0x141A, BtMusicChange
@@ -302,6 +384,10 @@
  * 
  * (0008B4) S_END
  */
+void BtMusicChange()
+{
+	// TODO: BtMusicChange
+}
 
 /*
  * (0008B8) S_GPROC32: [0001:0004121D], Cb: 0000006D, Type:             0x141A, BtMusicChangeClick
@@ -316,6 +402,10 @@
  * 
  * (00093C) S_END
  */
+void BtMusicChangeClick()
+{
+	// TODO: BtMusicChangeClick
+}
 
 /*
  * (000940) S_GPROC32: [0001:0004128A], Cb: 00000069, Type:             0x141A, BtCommentaryChange
@@ -328,6 +418,10 @@
  * 
  * (00099C) S_END
  */
+void BtCommentaryChange()
+{
+	// TODO: BtCommentaryChange
+}
 
 /*
  * (0009A0) S_GPROC32: [0001:000412F3], Cb: 00000069, Type:             0x141A, BtEngineChange
@@ -340,6 +434,10 @@
  * 
  * (0009F8) S_END
  */
+void BtEngineChange()
+{
+	// TODO: BtEngineChange
+}
 
 /*
  * (0009FC) S_GPROC32: [0001:0004135C], Cb: 0000006D, Type:             0x141A, BtEngineChangeClick
@@ -354,6 +452,10 @@
  * 
  * (000A80) S_END
  */
+void BtEngineChangeClick()
+{
+	// TODO: BtEngineChangeClick
+}
 
 /*
  * (000A84) S_GPROC32: [0001:000413C9], Cb: 00000069, Type:             0x141A, BtSpecialChange
@@ -366,6 +468,10 @@
  * 
  * (000ADC) S_END
  */
+void BtSpecialChange()
+{
+	// TODO: BtSpecialChange
+}
 
 /*
  * (000AE0) S_GPROC32: [0001:00041432], Cb: 0000006D, Type:             0x141A, BtSpecialChangeClick
@@ -380,6 +486,10 @@
  * 
  * (000B64) S_END
  */
+void BtSpecialChangeClick()
+{
+	// TODO: BtSpecialChangeClick
+}
 
 /*
  * (000B68) S_GPROC32: [0001:0004149F], Cb: 00000086, Type:             0x141A, Bt3DSoundChange
@@ -392,6 +502,10 @@
  * 
  * (000BC0) S_END
  */
+void Bt3DSoundChange()
+{
+	// TODO: Bt3DSoundChange
+}
 
 /*
  * (000BC4) S_GPROC32: [0001:00041525], Cb: 0000006C, Type:             0x141A, Bt3DSoundChangeClick
@@ -406,6 +520,10 @@
  * 
  * (000C48) S_END
  */
+void Bt3DSoundChangeClick()
+{
+	// TODO: Bt3DSoundChangeClick
+}
 
 /*
  * (000C4C) S_GPROC32: [0001:00041591], Cb: 0000007F, Type:             0x141A, BtPlayerDetail
@@ -418,6 +536,10 @@
  * 
  * (000CA4) S_END
  */
+void BtPlayerDetail()
+{
+	// TODO: BtPlayerDetail
+}
 
 /*
  * (000CA8) S_GPROC32: [0001:00041610], Cb: 0000007F, Type:             0x141A, BtCPUDetail
@@ -430,6 +552,10 @@
  * 
  * (000CFC) S_END
  */
+void BtCPUDetail()
+{
+	// TODO: BtCPUDetail
+}
 
 /*
  * (000D00) S_GPROC32: [0001:0004168F], Cb: 00000080, Type:             0x141A, BtPlayerDetailClick
@@ -444,6 +570,10 @@
  * 
  * (000D84) S_END
  */
+void BtPlayerDetailClick()
+{
+	// TODO: BtPlayerDetailClick
+}
 
 /*
  * (000D88) S_GPROC32: [0001:0004170F], Cb: 00000080, Type:             0x141A, BtCPUDetailClick
@@ -458,6 +588,10 @@
  * 
  * (000E08) S_END
  */
+void BtCPUDetailClick()
+{
+	// TODO: BtCPUDetailClick
+}
 
 /*
  * (000E0C) S_GPROC32: [0001:0004178F], Cb: 00000029, Type:             0x141A, BtENV
@@ -470,6 +604,10 @@
  * 
  * (000E5C) S_END
  */
+void BtENV()
+{
+	// TODO: BtENV
+}
 
 /*
  * (000E60) S_GPROC32: [0001:000417B8], Cb: 0000005E, Type:             0x141A, BtSKIDS
@@ -482,6 +620,10 @@
  * 
  * (000EB0) S_END
  */
+void BtSKIDS()
+{
+	// TODO: BtSKIDS
+}
 
 /*
  * (000EB4) S_GPROC32: [0001:00041816], Cb: 0000005E, Type:             0x141A, BtLIGHTS
@@ -494,6 +636,10 @@
  * 
  * (000F04) S_END
  */
+void BtLIGHTS()
+{
+	// TODO: BtLIGHTS
+}
 
 /*
  * (000F08) S_GPROC32: [0001:00041874], Cb: 0000005E, Type:             0x141A, BtPARTICLES
@@ -506,6 +652,10 @@
  * 
  * (000F5C) S_END
  */
+void BtPARTICLES()
+{
+	// TODO: BtPARTICLES
+}
 
 /*
  * (000F60) S_GPROC32: [0001:000418D2], Cb: 0000005E, Type:             0x141A, BtSHADOWS
@@ -518,6 +668,10 @@
  * 
  * (000FB4) S_END
  */
+void BtSHADOWS()
+{
+	// TODO: BtSHADOWS
+}
 
 /*
  * (000FB8) S_GPROC32: [0001:00041930], Cb: 00000029, Type:             0x141A, BtALPHA
@@ -530,6 +684,10 @@
  * 
  * (001008) S_END
  */
+void BtALPHA()
+{
+	// TODO: BtALPHA
+}
 
 /*
  * (00100C) S_GPROC32: [0001:00041959], Cb: 00000029, Type:             0x141A, BtMIP
@@ -542,6 +700,10 @@
  * 
  * (00105C) S_END
  */
+void BtMIP()
+{
+	// TODO: BtMIP
+}
 
 /*
  * (001060) S_GPROC32: [0001:00041982], Cb: 00000066, Type:             0x141A, BtHUD
@@ -555,6 +717,10 @@
  * 
  * (0010C8) S_END
  */
+void BtHUD()
+{
+	// TODO: BtHUD
+}
 
 /*
  * (0010CC) S_GPROC32: [0001:000419E8], Cb: 00000087, Type:             0x141A, BtTV
@@ -568,6 +734,10 @@
  * 
  * (001130) S_END
  */
+void BtTV()
+{
+	// TODO: BtTV
+}
 
 /*
  * (001134) S_GPROC32: [0001:00041A6F], Cb: 00000029, Type:             0x141A, BtCareerHUD
@@ -580,6 +750,10 @@
  * 
  * (001188) S_END
  */
+void BtCareerHUD()
+{
+	// TODO: BtCareerHUD
+}
 
 /*
  * (00118C) S_GPROC32: [0001:00041A98], Cb: 00000062, Type:             0x141A, BtCareerTV
@@ -592,6 +766,10 @@
  * 
  * (0011E0) S_END
  */
+void BtCareerTV()
+{
+	// TODO: BtCareerTV
+}
 
 /*
  * (0011E4) S_GPROC32: [0001:00041AFA], Cb: 0000005E, Type:             0x141A, BtSKY
@@ -604,6 +782,10 @@
  * 
  * (001234) S_END
  */
+void BtSKY()
+{
+	// TODO: BtSKY
+}
 
 /*
  * (001238) S_GPROC32: [0001:00041B58], Cb: 00000070, Type:             0x141A, BtSetKeyControl
@@ -616,6 +798,10 @@
  * 
  * (001298) S_END
  */
+void BtSetKeyControl()
+{
+	// TODO: BtSetKeyControl
+}
 
 /*
  * (00129C) S_GPROC32: [0001:00041BC8], Cb: 00000070, Type:             0x141A, BtSetJoyControl
@@ -628,6 +814,10 @@
  * 
  * (0012FC) S_END
  */
+void BtSetJoyControl()
+{
+	// TODO: BtSetJoyControl
+}
 
 /*
  * (001300) S_GPROC32: [0001:00041C38], Cb: 00000053, Type:             0x141A, BtCancelToRoot
@@ -640,6 +830,10 @@
  * 
  * (001360) S_END
  */
+void BtCancelToRoot()
+{
+	// TODO: BtCancelToRoot
+}
 
 /*
  * (001364) S_GPROC32: [0001:00041C8B], Cb: 0000008F, Type:             0x141A, BtChangeCam
@@ -653,4 +847,8 @@
  * 
  * (0013D0) S_END
  */
+void BtChangeCam()
+{
+	// TODO: BtChangeCam
+}
 

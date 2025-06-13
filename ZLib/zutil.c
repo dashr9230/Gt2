@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -30,6 +28,10 @@
  * 
  * (0000BC) S_END
  */
+void zlibVersion()
+{
+	// TODO: zlibVersion
+}
 
 /*
  * (0000C0) S_GPROC32: [0001:0009AABA], Cb: 00000014, Type:             0x2136, zError
@@ -41,6 +43,10 @@
  * 
  * (000100) S_END
  */
+void zError()
+{
+	// TODO: zError
+}
 
 /*
  * (000104) S_GPROC32: [0001:0009AACE], Cb: 00000030, Type:             0x1FB4, zcalloc
@@ -54,6 +60,10 @@
  * 
  * (000170) S_END
  */
+void zcalloc()
+{
+	// TODO: zcalloc
+}
 
 /*
  * (000174) S_GPROC32: [0001:0009AAFE], Cb: 00000018, Type:             0x1FB7, zcfree
@@ -66,4 +76,8 @@
  * 
  * (0001C8) S_END
  */
+void zcfree()
+{
+	// TODO: zcfree
+}
 

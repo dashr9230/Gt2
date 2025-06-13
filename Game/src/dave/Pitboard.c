@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -35,6 +33,10 @@
  * 
  * (0000EC) S_END
  */
+void PITBOARD_Allocate()
+{
+	// TODO: PITBOARD_Allocate
+}
 
 /*
  * (0000F0) S_LPROC32: [0001:00018E05], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -50,6 +52,10 @@
  * 
  * (000174) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000178) S_GPROC32: [0001:00018E7F], Cb: 00000028, Type:             0x1C7E, PITBOARD_MakeString
@@ -62,6 +68,10 @@
  * 
  * (0001D8) S_END
  */
+void PITBOARD_MakeString()
+{
+	// TODO: PITBOARD_MakeString
+}
 
 /*
  * (0001DC) S_GPROC32: [0001:00018EA7], Cb: 00000487, Type:             0x1CA1, PITBOARD_Draw
@@ -125,6 +135,10 @@
  * 
  * (00041C) S_END
  */
+void PITBOARD_Draw()
+{
+	// TODO: PITBOARD_Draw
+}
 
 /*
  * (000420) S_GPROC32: [0001:0001932E], Cb: 0000003F, Type:             0x1001, PITBOARD_Release
@@ -134,6 +148,10 @@
  * 
  * (000458) S_END
  */
+void PITBOARD_Release()
+{
+	// TODO: PITBOARD_Release
+}
 
 /*
  * (00045C) S_LPROC32: [0001:0001936D], Cb: 0000039A, Type:             0x1001, PITBOARD_DrawBack
@@ -147,6 +165,10 @@
  * 
  * (0004D4) S_END
  */
+void PITBOARD_DrawBack()
+{
+	// TODO: PITBOARD_DrawBack
+}
 
 /*
  * (0004D8) S_LPROC32: [0001:00019707], Cb: 00000023, Type:             0x1001, PITBOARD_ResetStrings
@@ -156,6 +178,10 @@
  * 
  * (000518) S_END
  */
+void PITBOARD_ResetStrings()
+{
+	// TODO: PITBOARD_ResetStrings
+}
 
 /*
  * (00051C) S_LPROC32: [0001:0001972A], Cb: 00000071, Type:             0x1001, PITBOARD_DrawStrings
@@ -165,6 +191,10 @@
  * 
  * (000558) S_END
  */
+void PITBOARD_DrawStrings()
+{
+	// TODO: PITBOARD_DrawStrings
+}
 
 /*
  * (00055C) S_LPROC32: [0001:0001979B], Cb: 000002CE, Type:             0x1CA3, PITBOARD_AddString
@@ -202,6 +232,10 @@
  * 
  * (000744) S_END
  */
+void PITBOARD_AddString()
+{
+	// TODO: PITBOARD_AddString
+}
 
 /*
  * (000748) S_LPROC32: [0001:00019A69], Cb: 00000139, Type:             0x1CA5, PITBOARD_AddPanel
@@ -220,6 +254,10 @@
  * 
  * (000814) S_END
  */
+void PITBOARD_AddPanel()
+{
+	// TODO: PITBOARD_AddPanel
+}
 
 /*
  * (000818) S_LPROC32: [0001:00019BA2], Cb: 00000120, Type:             0x1CA6, PITBOARD_AddHighlight
@@ -237,4 +275,8 @@
  * 
  * (0008D4) S_END
  */
+void PITBOARD_AddHighlight()
+{
+	// TODO: PITBOARD_AddHighlight
+}
 

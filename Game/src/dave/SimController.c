@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -42,6 +40,10 @@
  * 
  * (000164) S_END
  */
+void FindBestGear()
+{
+	// TODO: FindBestGear
+}
 
 /*
  * (000168) S_GPROC32: [0001:0002544A], Cb: 00000CBE, Type:             0x1408, SimController
@@ -88,4 +90,8 @@
  * 
  * (0002F8) S_END
  */
+void SimController()
+{
+	// TODO: SimController
+}
 

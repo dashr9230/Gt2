@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -47,4 +45,8 @@
  * 
  * (000200) S_END
  */
+void GetDXVersion()
+{
+	// TODO: GetDXVersion
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -87,6 +85,10 @@
  * 
  * (000268) S_END
  */
+void collTestVector()
+{
+	// TODO: collTestVector
+}
 
 /*
  * (00026C) S_LPROC32: [0001:0002A893], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -109,6 +111,10 @@
  * 
  * (000328) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (00032C) S_GPROC32: [0001:0002A904], Cb: 000001FD, Type:             0x16A1, collInitialize
@@ -128,6 +134,10 @@
  * 
  * (0003B8) S_END
  */
+void collInitialize()
+{
+	// TODO: collInitialize
+}
 
 /*
  * (0003BC) S_LPROC32: [0001:0002AB01], Cb: 0000002B, Type:             0x1BCE, collLink
@@ -140,6 +150,10 @@
  * 
  * (00040C) S_END
  */
+void collLink()
+{
+	// TODO: collLink
+}
 
 /*
  * (000410) S_LPROC32: [0001:0002AB2C], Cb: 000000C4, Type:             0x1408, collShuffleList
@@ -161,6 +175,10 @@
  * 
  * (0004B4) S_END
  */
+void collShuffleList()
+{
+	// TODO: collShuffleList
+}
 
 /*
  * (0004B8) S_LPROC32: [0001:0002ABF0], Cb: 00000020, Type:             0x1BD0, collDrop
@@ -172,6 +190,10 @@
  * 
  * (0004F8) S_END
  */
+void collDrop()
+{
+	// TODO: collDrop
+}
 
 /*
  * (0004FC) S_GPROC32: [0001:0002AC10], Cb: 000001C4, Type:             0x1BD2, collAddCandidate
@@ -197,6 +219,10 @@
  * 
  * (0005E4) S_END
  */
+void collAddCandidate()
+{
+	// TODO: collAddCandidate
+}
 
 /*
  * (0005E8) S_GPROC32: [0001:0002ADD4], Cb: 00000077, Type:             0x1408, collSubCandidate
@@ -209,6 +235,10 @@
  * 
  * (000640) S_END
  */
+void collSubCandidate()
+{
+	// TODO: collSubCandidate
+}
 
 /*
  * (000644) S_GPROC32: [0001:0002AE4B], Cb: 00000079, Type:             0x1001, collRelease
@@ -218,4 +248,8 @@
  * 
  * (000678) S_END
  */
+void collRelease()
+{
+	// TODO: collRelease
+}
 

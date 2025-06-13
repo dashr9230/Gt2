@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -104,6 +102,10 @@
  * 
  * (0001AC) S_END
  */
+void CMD_SetPage()
+{
+	// TODO: CMD_SetPage
+}
 
 /*
  * (0001B0) S_GPROC32: [0001:00071321], Cb: 00000057, Type:             0x1001, CTP_DecAmbient
@@ -118,6 +120,10 @@
  * 
  * (000228) S_END
  */
+void CTP_DecAmbient()
+{
+	// TODO: CTP_DecAmbient
+}
 
 /*
  * (00022C) S_GPROC32: [0001:00071378], Cb: 00000057, Type:             0x1001, CTP_IncAmbient
@@ -132,6 +138,10 @@
  * 
  * (0002A4) S_END
  */
+void CTP_IncAmbient()
+{
+	// TODO: CTP_IncAmbient
+}
 
 /*
  * (0002A8) S_GPROC32: [0001:000713CF], Cb: 0000000A, Type:             0x1001, CTP_CamReset
@@ -141,6 +151,10 @@
  * 
  * (0002DC) S_END
  */
+void CTP_CamReset()
+{
+	// TODO: CTP_CamReset
+}
 
 /*
  * (0002E0) S_GPROC32: [0001:000713D9], Cb: 00000005, Type:             0x1001, CTP_CamZoomOut
@@ -150,6 +164,10 @@
  * 
  * (000318) S_END
  */
+void CTP_CamZoomOut()
+{
+	// TODO: CTP_CamZoomOut
+}
 
 /*
  * (00031C) S_GPROC32: [0001:000713DE], Cb: 00000005, Type:             0x1001, CTP_CamZoomIn
@@ -159,6 +177,10 @@
  * 
  * (000354) S_END
  */
+void CTP_CamZoomIn()
+{
+	// TODO: CTP_CamZoomIn
+}
 
 /*
  * (000358) S_GPROC32: [0001:000713E3], Cb: 00000005, Type:             0x1001, CTP_CamPitchInc
@@ -168,6 +190,10 @@
  * 
  * (000390) S_END
  */
+void CTP_CamPitchInc()
+{
+	// TODO: CTP_CamPitchInc
+}
 
 /*
  * (000394) S_GPROC32: [0001:000713E8], Cb: 00000005, Type:             0x1001, CTP_CamPitchDec
@@ -177,6 +203,10 @@
  * 
  * (0003CC) S_END
  */
+void CTP_CamPitchDec()
+{
+	// TODO: CTP_CamPitchDec
+}
 
 /*
  * (0003D0) S_GPROC32: [0001:000713ED], Cb: 00000005, Type:             0x1001, CTP_CamDriftInc
@@ -186,6 +216,10 @@
  * 
  * (000408) S_END
  */
+void CTP_CamDriftInc()
+{
+	// TODO: CTP_CamDriftInc
+}
 
 /*
  * (00040C) S_GPROC32: [0001:000713F2], Cb: 00000005, Type:             0x1001, CTP_CamDriftDec
@@ -195,6 +229,10 @@
  * 
  * (000444) S_END
  */
+void CTP_CamDriftDec()
+{
+	// TODO: CTP_CamDriftDec
+}
 
 /*
  * (000448) S_GPROC32: [0001:000713F7], Cb: 00000005, Type:             0x1001, CTP_CamSpinLeft
@@ -204,6 +242,10 @@
  * 
  * (000480) S_END
  */
+void CTP_CamSpinLeft()
+{
+	// TODO: CTP_CamSpinLeft
+}
 
 /*
  * (000484) S_GPROC32: [0001:000713FC], Cb: 00000005, Type:             0x1001, CTP_CamSpinRight
@@ -213,6 +255,10 @@
  * 
  * (0004BC) S_END
  */
+void CTP_CamSpinRight()
+{
+	// TODO: CTP_CamSpinRight
+}
 
 /*
  * (0004C0) S_GPROC32: [0001:00071401], Cb: 00000017, Type:             0x1001, CTP_QuitProgram
@@ -222,6 +268,10 @@
  * 
  * (0004F8) S_END
  */
+void CTP_QuitProgram()
+{
+	// TODO: CTP_QuitProgram
+}
 
 /*
  * (0004FC) S_GPROC32: [0001:00071418], Cb: 0000002A, Type:             0x1001, CTP_DecreaseViewDist
@@ -231,6 +281,10 @@
  * 
  * (000538) S_END
  */
+void CTP_DecreaseViewDist()
+{
+	// TODO: CTP_DecreaseViewDist
+}
 
 /*
  * (00053C) S_GPROC32: [0001:00071442], Cb: 0000002A, Type:             0x1001, CTP_IncreaseViewDist
@@ -240,6 +294,10 @@
  * 
  * (000578) S_END
  */
+void CTP_IncreaseViewDist()
+{
+	// TODO: CTP_IncreaseViewDist
+}
 
 /*
  * (00057C) S_GPROC32: [0001:0007146C], Cb: 0000001C, Type:             0x1001, CTP_PixelInterpolation
@@ -249,6 +307,10 @@
  * 
  * (0005BC) S_END
  */
+void CTP_PixelInterpolation()
+{
+	// TODO: CTP_PixelInterpolation
+}
 
 /*
  * (0005C0) S_GPROC32: [0001:00071488], Cb: 0000001C, Type:             0x1001, CTP_ShadeMode
@@ -258,6 +320,10 @@
  * 
  * (0005F8) S_END
  */
+void CTP_ShadeMode()
+{
+	// TODO: CTP_ShadeMode
+}
 
 /*
  * (0005FC) S_GPROC32: [0001:000714A4], Cb: 00000025, Type:             0x1001, CTP_Blending
@@ -267,6 +333,10 @@
  * 
  * (000630) S_END
  */
+void CTP_Blending()
+{
+	// TODO: CTP_Blending
+}
 
 /*
  * (000634) S_GPROC32: [0001:000714C9], Cb: 0000001C, Type:             0x1001, CTP_Fogging
@@ -276,6 +346,10 @@
  * 
  * (000668) S_END
  */
+void CTP_Fogging()
+{
+	// TODO: CTP_Fogging
+}
 
 /*
  * (00066C) S_GPROC32: [0001:000714E5], Cb: 0000002C, Type:             0x1001, CTP_Lighting
@@ -287,6 +361,10 @@
  * 
  * (0006BC) S_END
  */
+void CTP_Lighting()
+{
+	// TODO: CTP_Lighting
+}
 
 /*
  * (0006C0) S_GPROC32: [0001:00071511], Cb: 0000001A, Type:             0x1001, CTP_ToggleDebug
@@ -296,6 +374,10 @@
  * 
  * (0006F8) S_END
  */
+void CTP_ToggleDebug()
+{
+	// TODO: CTP_ToggleDebug
+}
 
 /*
  * (0006FC) S_GPROC32: [0001:0007152B], Cb: 0000002B, Type:             0x1001, CTP_ToggleConsole
@@ -305,6 +387,10 @@
  * 
  * (000738) S_END
  */
+void CTP_ToggleConsole()
+{
+	// TODO: CTP_ToggleConsole
+}
 
 /*
  * (00073C) S_GPROC32: [0001:00071556], Cb: 00000027, Type:             0x20D0, CTP_SetupDebugPage
@@ -321,6 +407,10 @@
  * 
  * (000800) S_END
  */
+void CTP_SetupDebugPage()
+{
+	// TODO: CTP_SetupDebugPage
+}
 
 /*
  * (000804) S_GPROC32: [0001:0007157D], Cb: 00000123, Type:             0x20D2, CTP_SetupDebugPageEx
@@ -338,6 +428,10 @@
  * 
  * (0008DC) S_END
  */
+void CTP_SetupDebugPageEx()
+{
+	// TODO: CTP_SetupDebugPageEx
+}
 
 /*
  * (0008E0) S_GPROC32: [0001:000716A0], Cb: 00000011, Type:             0x1D65, CTP_GetDebugPageUserPtr
@@ -349,6 +443,10 @@
  * 
  * (000934) S_END
  */
+void CTP_GetDebugPageUserPtr()
+{
+	// TODO: CTP_GetDebugPageUserPtr
+}
 
 /*
  * (000938) S_GPROC32: [0001:000716B1], Cb: 00000058, Type:             0x16A1, CTP_RemoveDebugPage
@@ -360,6 +458,10 @@
  * 
  * (000988) S_END
  */
+void CTP_RemoveDebugPage()
+{
+	// TODO: CTP_RemoveDebugPage
+}
 
 /*
  * (00098C) S_GPROC32: [0001:00071709], Cb: 00000046, Type:             0x16A5, CTP_DoesThisDebugPageUseMouse
@@ -369,6 +471,10 @@
  * 
  * (0009D4) S_END
  */
+void CTP_DoesThisDebugPageUseMouse()
+{
+	// TODO: CTP_DoesThisDebugPageUseMouse
+}
 
 /*
  * (0009D8) S_GPROC32: [0001:0007174F], Cb: 00000239, Type:             0x1001, CTP_Init
@@ -380,6 +486,10 @@
  * 
  * (000A18) S_END
  */
+void CTP_Init()
+{
+	// TODO: CTP_Init
+}
 
 /*
  * (000A1C) S_GPROC32: [0001:00071988], Cb: 0000005A, Type:             0x1001, CTP_Exit
@@ -389,6 +499,10 @@
  * 
  * (000A4C) S_END
  */
+void CTP_Exit()
+{
+	// TODO: CTP_Exit
+}
 
 /*
  * (000A50) S_GPROC32: [0001:000719E2], Cb: 00000005, Type:             0x1001, CTP_Restore
@@ -398,6 +512,10 @@
  * 
  * (000A84) S_END
  */
+void CTP_Restore()
+{
+	// TODO: CTP_Restore
+}
 
 /*
  * (000A88) S_GPROC32: [0001:000719E7], Cb: 00000178, Type:             0x20D4, CTP_BindKey
@@ -412,6 +530,10 @@
  * 
  * (000B0C) S_END
  */
+void CTP_BindKey()
+{
+	// TODO: CTP_BindKey
+}
 
 /*
  * (000B10) S_GPROC32: [0001:00071B5F], Cb: 00000088, Type:             0x1B55, CTP_DetachKey
@@ -425,6 +547,10 @@
  * 
  * (000B78) S_END
  */
+void CTP_DetachKey()
+{
+	// TODO: CTP_DetachKey
+}
 
 /*
  * (000B7C) S_GPROC32: [0001:00071BE7], Cb: 0000000A, Type:             0x16A5, CTP_BindDefaultKeys
@@ -434,6 +560,10 @@
  * 
  * (000BB8) S_END
  */
+void CTP_BindDefaultKeys()
+{
+	// TODO: CTP_BindDefaultKeys
+}
 
 /*
  * (000BBC) S_GPROC32: [0001:00071BF1], Cb: 0000015D, Type:             0x1001, CTP_ReadKeys
@@ -447,6 +577,10 @@
  * 
  * (000C30) S_END
  */
+void CTP_ReadKeys()
+{
+	// TODO: CTP_ReadKeys
+}
 
 /*
  * (000C34) S_GPROC32: [0001:00071D4E], Cb: 000001EF, Type:             0x20D6, CTP_IprintEx
@@ -466,6 +600,10 @@
  * 
  * (000D08) S_END
  */
+void CTP_IprintEx()
+{
+	// TODO: CTP_IprintEx
+}
 
 /*
  * (000D0C) S_GPROC32: [0001:00071F3D], Cb: 0000001B, Type:             0x20D8, CTP_Iprint
@@ -479,6 +617,10 @@
  * 
  * (000D74) S_END
  */
+void CTP_Iprint()
+{
+	// TODO: CTP_Iprint
+}
 
 /*
  * (000D78) S_GPROC32: [0001:00071F58], Cb: 0000015A, Type:             0x20D9, CTP_PrintAt
@@ -494,6 +636,10 @@
  * 
  * (000E0C) S_END
  */
+void CTP_PrintAt()
+{
+	// TODO: CTP_PrintAt
+}
 
 /*
  * (000E10) S_GPROC32: [0001:000720B2], Cb: 0000015A, Type:             0x20DB, CTP_PrintAtEx
@@ -511,6 +657,10 @@
  * 
  * (000ED0) S_END
  */
+void CTP_PrintAtEx()
+{
+	// TODO: CTP_PrintAtEx
+}
 
 /*
  * (000ED4) S_GPROC32: [0001:0007220C], Cb: 0000011E, Type:             0x20DD, CTP_PrintAtFor
@@ -527,6 +677,10 @@
  * 
  * (000F80) S_END
  */
+void CTP_PrintAtFor()
+{
+	// TODO: CTP_PrintAtFor
+}
 
 /*
  * (000F84) S_GPROC32: [0001:0007232A], Cb: 000000AB, Type:             0x1FCB, CTP_Print
@@ -539,6 +693,10 @@
  * 
  * (000FE8) S_END
  */
+void CTP_Print()
+{
+	// TODO: CTP_Print
+}
 
 /*
  * (000FEC) S_GPROC32: [0001:000723D5], Cb: 000000A8, Type:             0x20DF, CTP_PrintEx
@@ -552,6 +710,10 @@
  * 
  * (001064) S_END
  */
+void CTP_PrintEx()
+{
+	// TODO: CTP_PrintEx
+}
 
 /*
  * (001068) S_GPROC32: [0001:0007247D], Cb: 00000070, Type:             0x1001, CTP_NextEditLine
@@ -563,6 +725,10 @@
  * 
  * (0010B0) S_END
  */
+void CTP_NextEditLine()
+{
+	// TODO: CTP_NextEditLine
+}
 
 /*
  * (0010B4) S_GPROC32: [0001:000724ED], Cb: 00000065, Type:             0x1FCB, CTP_ConsolePrint
@@ -575,6 +741,10 @@
  * 
  * (00111C) S_END
  */
+void CTP_ConsolePrint()
+{
+	// TODO: CTP_ConsolePrint
+}
 
 /*
  * (001120) S_GPROC32: [0001:00072552], Cb: 0000002F, Type:             0x1001, CTP_ConsoleLineStart
@@ -584,6 +754,10 @@
  * 
  * (00115C) S_END
  */
+void CTP_ConsoleLineStart()
+{
+	// TODO: CTP_ConsoleLineStart
+}
 
 /*
  * (001160) S_GPROC32: [0001:00072581], Cb: 0000062F, Type:             0x1001, CTP_EditLine
@@ -608,6 +782,10 @@
  * 
  * (0012AC) S_END
  */
+void CTP_EditLine()
+{
+	// TODO: CTP_EditLine
+}
 
 /*
  * (0012B0) S_LPROC32: [0001:00072BB0], Cb: 0000018A, Type:             0x16A1, UpdateDebugPage
@@ -619,6 +797,10 @@
  * 
  * (0012FC) S_END
  */
+void UpdateDebugPage()
+{
+	// TODO: UpdateDebugPage
+}
 
 /*
  * (001300) S_GPROC32: [0001:00072D3A], Cb: 00000398, Type:             0x1001, CTP_DrawConsole
@@ -646,6 +828,10 @@
  * 
  * (0013F0) S_END
  */
+void CTP_DrawConsole()
+{
+	// TODO: CTP_DrawConsole
+}
 
 /*
  * (0013F4) S_LPROC32: [0001:000730D2], Cb: 0000007E, Type:             0x16A1, DrawDebugPage
@@ -657,6 +843,10 @@
  * 
  * (001440) S_END
  */
+void DrawDebugPage()
+{
+	// TODO: DrawDebugPage
+}
 
 /*
  * (001444) S_LPROC32: [0001:00073150], Cb: 000001C3, Type:             0x16A1, DrawDebugMouse
@@ -684,6 +874,10 @@
  * 
  * (001510) S_END
  */
+void DrawDebugMouse()
+{
+	// TODO: DrawDebugMouse
+}
 
 /*
  * (001514) S_LPROC32: [0001:00073313], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -699,6 +893,10 @@
  * 
  * (001598) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (001B60) S_GPROC32: [0001:00073390], Cb: 0000001E, Type:             0x1CCB, P2D_SetColorKey
@@ -711,6 +909,10 @@
  * 
  * (001BC0) S_END
  */
+void P2D_SetColorKey()
+{
+	// TODO: P2D_SetColorKey
+}
 
 /*
  * (001BC4) S_GPROC32: [0001:000733B0], Cb: 000000EB, Type:             0x20EC, P2D_SetPTXYC
@@ -726,4 +928,8 @@
  * 
  * (001C4C) S_END
  */
+void P2D_SetPTXYC()
+{
+	// TODO: P2D_SetPTXYC
+}
 

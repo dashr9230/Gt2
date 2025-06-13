@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -48,6 +46,10 @@
  * 
  * (0000D0) S_END
  */
+void SFXMAN_LoadGameSamples()
+{
+	// TODO: SFXMAN_LoadGameSamples
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:0003388E], Cb: 0000008E, Type:             0x13EF, SFXMAN_Handler
@@ -68,6 +70,10 @@
  * 
  * (000178) S_END
  */
+void SFXMAN_Handler()
+{
+	// TODO: SFXMAN_Handler
+}
 
 /*
  * (00017C) S_GPROC32: [0001:0003391C], Cb: 00000005, Type:             0x1408, SFXMAN_Handle
@@ -79,6 +85,10 @@
  * 
  * (0001C4) S_END
  */
+void SFXMAN_Handle()
+{
+	// TODO: SFXMAN_Handle
+}
 
 /*
  * (0001C8) S_GPROC32: [0001:00033921], Cb: 00000103, Type:             0x1B34, SFXMAN_Create
@@ -102,6 +112,10 @@
  * 
  * (0002B4) S_END
  */
+void SFXMAN_Create()
+{
+	// TODO: SFXMAN_Create
+}
 
 /*
  * (0002B8) S_GPROC32: [0001:00033A24], Cb: 000000A1, Type:             0x1001, SFXMAN_Destroy
@@ -118,6 +132,10 @@
  * 
  * (00031C) S_END
  */
+void SFXMAN_Destroy()
+{
+	// TODO: SFXMAN_Destroy
+}
 
 /*
  * (000320) S_GPROC32: [0001:00033AC5], Cb: 00000038, Type:             0x13EF, SFXMAN_SetFocus
@@ -129,6 +147,10 @@
  * 
  * (000374) S_END
  */
+void SFXMAN_SetFocus()
+{
+	// TODO: SFXMAN_SetFocus
+}
 
 /*
  * (000378) S_GPROC32: [0001:00033AFD], Cb: 000003AA, Type:             0x13EF, SFXMAN_Update
@@ -177,6 +199,10 @@
  * 
  * (0005A0) S_END
  */
+void SFXMAN_Update()
+{
+	// TODO: SFXMAN_Update
+}
 
 /*
  * (0005A4) S_GPROC32: [0001:00033EA7], Cb: 000000B3, Type:             0x1B39, SFXMAN_PlaySound
@@ -204,6 +230,10 @@
  * 
  * (00066C) S_END
  */
+void SFXMAN_PlaySound()
+{
+	// TODO: SFXMAN_PlaySound
+}
 
 /*
  * (000670) S_GPROC32: [0001:00033F5A], Cb: 0000004B, Type:             0x1B3A, SFXMAN_StopSound
@@ -216,6 +246,10 @@
  * 
  * (0006D0) S_END
  */
+void SFXMAN_StopSound()
+{
+	// TODO: SFXMAN_StopSound
+}
 
 /*
  * (0006D4) S_GPROC32: [0001:00033FA5], Cb: 0000007C, Type:             0x1B3C, SFXMAN_UpdateSound
@@ -237,6 +271,10 @@
  * 
  * (000784) S_END
  */
+void SFXMAN_UpdateSound()
+{
+	// TODO: SFXMAN_UpdateSound
+}
 
 /*
  * (000788) S_GPROC32: [0001:00034021], Cb: 0000003D, Type:             0x1B3D, SFXMAN_IsSamplePlaying
@@ -249,4 +287,8 @@
  * 
  * (0007F0) S_END
  */
+void SFXMAN_IsSamplePlaying()
+{
+	// TODO: SFXMAN_IsSamplePlaying
+}
 

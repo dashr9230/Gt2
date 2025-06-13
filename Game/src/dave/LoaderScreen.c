@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -53,6 +51,10 @@
  * 
  * (0000EC) S_END
  */
+void InitLoaderScreen()
+{
+	// TODO: InitLoaderScreen
+}
 
 /*
  * (0000F0) S_LPROC32: [0001:0001643B], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -68,6 +70,10 @@
  * 
  * (000174) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000178) S_GPROC32: [0001:000164B5], Cb: 00000180, Type:             0x1001, OpLoaderScreen
@@ -80,6 +86,10 @@
  * 
  * (0001D8) S_END
  */
+void OpLoaderScreen()
+{
+	// TODO: OpLoaderScreen
+}
 
 /*
  * (0001DC) S_LPROC32: [0001:00016635], Cb: 00000054, Type:             0x1408, LoaderDestructor
@@ -91,6 +101,10 @@
  * 
  * (000224) S_END
  */
+void LoaderDestructor()
+{
+	// TODO: LoaderDestructor
+}
 
 /*
  * (000228) S_LPROC32: [0001:00016689], Cb: 00000088, Type:             0x1408, drawLoaderScreen
@@ -102,6 +116,10 @@
  * 
  * (000270) S_END
  */
+void drawLoaderScreen()
+{
+	// TODO: drawLoaderScreen
+}
 
 /*
  * (000274) S_LPROC32: [0001:00016711], Cb: 00000045, Type:             0x1408, handleLoaderScreen
@@ -113,6 +131,10 @@
  * 
  * (0002C0) S_END
  */
+void handleLoaderScreen()
+{
+	// TODO: handleLoaderScreen
+}
 
 /*
  * (0004DC) S_GPROC32: [0001:00016760], Cb: 0000007D, Type:             0x1CCB, P2D_SetScaling
@@ -125,6 +147,10 @@
  * 
  * (00053C) S_END
  */
+void P2D_SetScaling()
+{
+	// TODO: P2D_SetScaling
+}
 
 /*
  * (000540) S_GPROC32: [0001:000167E0], Cb: 00000068, Type:             0x1B2F, TSTATES_SetAddressU
@@ -137,6 +163,10 @@
  * 
  * (0005A4) S_END
  */
+void TSTATES_SetAddressU()
+{
+	// TODO: TSTATES_SetAddressU
+}
 
 /*
  * (0005A8) S_GPROC32: [0001:00016850], Cb: 00000068, Type:             0x1B2F, TSTATES_SetAddressV
@@ -149,4 +179,8 @@
  * 
  * (00060C) S_END
  */
+void TSTATES_SetAddressV()
+{
+	// TODO: TSTATES_SetAddressV
+}
 

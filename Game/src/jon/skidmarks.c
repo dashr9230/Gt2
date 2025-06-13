@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -51,6 +49,10 @@
  * 
  * (000150) S_END
  */
+void skidAddMark()
+{
+	// TODO: skidAddMark
+}
 
 /*
  * (000154) S_GPROC32: [0001:0002D8CC], Cb: 00000137, Type:             0x1BAB, skidAllocate
@@ -65,6 +67,10 @@
  * 
  * (0001D4) S_END
  */
+void skidAllocate()
+{
+	// TODO: skidAllocate
+}
 
 /*
  * (0001D8) S_LPROC32: [0001:0002DA03], Cb: 000003AA, Type:             0x1408, skidDrawSkids
@@ -82,6 +88,10 @@
  * 
  * (000288) S_END
  */
+void skidDrawSkids()
+{
+	// TODO: skidDrawSkids
+}
 
 /*
  * (00028C) S_LPROC32: [0001:0002DDAD], Cb: 00000038, Type:             0x1408, skidHandle
@@ -93,6 +103,10 @@
  * 
  * (0002D0) S_END
  */
+void skidHandle()
+{
+	// TODO: skidHandle
+}
 
 /*
  * (0002D4) S_GPROC32: [0001:0002DDE5], Cb: 000000CB, Type:             0x16A1, skidInitialize
@@ -104,6 +118,10 @@
  * 
  * (00031C) S_END
  */
+void skidInitialize()
+{
+	// TODO: skidInitialize
+}
 
 /*
  * (000320) S_GPROC32: [0001:0002DEB0], Cb: 0000006D, Type:             0x1001, skidScram
@@ -127,6 +145,10 @@
  * 
  * (0003AC) S_END
  */
+void skidScram()
+{
+	// TODO: skidScram
+}
 
 /*
  * (0003B0) S_GPROC32: [0001:0002DF1D], Cb: 00000048, Type:             0x1001, skidRelease
@@ -136,4 +158,8 @@
  * 
  * (0003E4) S_END
  */
+void skidRelease()
+{
+	// TODO: skidRelease
+}
 

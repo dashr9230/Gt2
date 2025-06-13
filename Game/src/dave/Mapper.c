@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (000110) S_END
  */
+void Mapper_GetMousePos()
+{
+	// TODO: Mapper_GetMousePos
+}
 
 /*
  * (000114) S_GPROC32: [0001:000169A1], Cb: 000000C7, Type:             0x1CD1, Mapper_WorldToScreen
@@ -55,6 +57,10 @@
  * 
  * (0001DC) S_END
  */
+void Mapper_WorldToScreen()
+{
+	// TODO: Mapper_WorldToScreen
+}
 
 /*
  * (0001E0) S_GPROC32: [0001:00016A68], Cb: 000000CB, Type:             0x1CD1, Mapper_ScreenToWorld
@@ -72,6 +78,10 @@
  * 
  * (0002A8) S_END
  */
+void Mapper_ScreenToWorld()
+{
+	// TODO: Mapper_ScreenToWorld
+}
 
 /*
  * (0002AC) S_GPROC32: [0001:00016B33], Cb: 000000C4, Type:             0x1BF9, Mapper_DrawMouse
@@ -85,4 +95,8 @@
  * 
  * (000314) S_END
  */
+void Mapper_DrawMouse()
+{
+	// TODO: Mapper_DrawMouse
+}
 

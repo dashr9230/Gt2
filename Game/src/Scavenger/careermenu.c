@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -51,6 +49,10 @@
  * 
  * (0000E4) S_END
  */
+void GiveHalfCars()
+{
+	// TODO: GiveHalfCars
+}
 
 /*
  * (0000E8) S_GPROC32: [0001:00042866], Cb: 00000066, Type:             0x1001, GiveAllCars
@@ -64,6 +66,10 @@
  * 
  * (00014C) S_END
  */
+void GiveAllCars()
+{
+	// TODO: GiveAllCars
+}
 
 /*
  * (000150) S_GPROC32: [0001:000428CC], Cb: 00000039, Type:             0x141A, BtStartCareerRace
@@ -76,6 +82,10 @@
  * 
  * (0001AC) S_END
  */
+void BtStartCareerRace()
+{
+	// TODO: BtStartCareerRace
+}
 
 /*
  * (0001B0) S_GPROC32: [0001:00042905], Cb: 0000004B, Type:             0x141A, BtStartQualify
@@ -88,6 +98,10 @@
  * 
  * (000210) S_END
  */
+void BtStartQualify()
+{
+	// TODO: BtStartQualify
+}
 
 /*
  * (000214) S_GPROC32: [0001:00042950], Cb: 0000007A, Type:             0x141A, BtQueryStartType
@@ -101,6 +115,10 @@
  * 
  * (000284) S_END
  */
+void BtQueryStartType()
+{
+	// TODO: BtQueryStartType
+}
 
 /*
  * (000288) S_GPROC32: [0001:000429CA], Cb: 000004B0, Type:             0x1001, OpStartCareerRace
@@ -115,6 +133,10 @@
  * 
  * (000304) S_END
  */
+void OpStartCareerRace()
+{
+	// TODO: OpStartCareerRace
+}
 
 /*
  * (000308) S_GPROC32: [0001:00042E7A], Cb: 00000398, Type:             0x1001, OpStartQualifying
@@ -128,6 +150,10 @@
  * 
  * (000374) S_END
  */
+void OpStartQualifying()
+{
+	// TODO: OpStartQualifying
+}
 
 /*
  * (000378) S_GPROC32: [0001:00043212], Cb: 0000006F, Type:             0x1A66, AddCar2Competition
@@ -142,6 +168,10 @@
  * 
  * (0003F4) S_END
  */
+void AddCar2Competition()
+{
+	// TODO: AddCar2Competition
+}
 
 /*
  * (0003F8) S_GPROC32: [0001:00043281], Cb: 000015B3, Type:             0x1001, JoinCompetition
@@ -165,6 +195,10 @@
  * 
  * (000518) S_END
  */
+void JoinCompetition()
+{
+	// TODO: JoinCompetition
+}
 
 /*
  * (00051C) S_GPROC32: [0001:00044834], Cb: 00000138, Type:             0x141A, BtJoin
@@ -178,6 +212,10 @@
  * 
  * (000584) S_END
  */
+void BtJoin()
+{
+	// TODO: BtJoin
+}
 
 /*
  * (000588) S_GPROC32: [0001:0004496C], Cb: 00000157, Type:             0x141A, BtCompetitionSelect
@@ -204,6 +242,10 @@
  * 
  * (0006FC) S_END
  */
+void BtCompetitionSelect()
+{
+	// TODO: BtCompetitionSelect
+}
 
 /*
  * (000700) S_GPROC32: [0001:00044AC3], Cb: 00000128, Type:             0x141A, BtLeaveComp
@@ -217,6 +259,10 @@
  * 
  * (00076C) S_END
  */
+void BtLeaveComp()
+{
+	// TODO: BtLeaveComp
+}
 
 /*
  * (000770) S_GPROC32: [0001:00044BEB], Cb: 0000003E, Type:             0x141A, BtQuitChampionship
@@ -229,6 +275,10 @@
  * 
  * (0007D4) S_END
  */
+void BtQuitChampionship()
+{
+	// TODO: BtQuitChampionship
+}
 
 /*
  * (0007D8) S_GPROC32: [0001:00044C29], Cb: 0000002C, Type:             0x141A, BtChangeStagePage
@@ -241,6 +291,10 @@
  * 
  * (000834) S_END
  */
+void BtChangeStagePage()
+{
+	// TODO: BtChangeStagePage
+}
 
 /*
  * (000838) S_GPROC32: [0001:00044C55], Cb: 000001C7, Type:             0x1001, NewCareer
@@ -258,6 +312,10 @@
  * 
  * (0008E4) S_END
  */
+void NewCareer()
+{
+	// TODO: NewCareer
+}
 
 /*
  * (0008E8) S_GPROC32: [0001:00044E1C], Cb: 000001B9, Type:             0x141A, BtCarCareerChange
@@ -276,6 +334,10 @@
  * 
  * (0009BC) S_END
  */
+void BtCarCareerChange()
+{
+	// TODO: BtCarCareerChange
+}
 
 /*
  * (0009C0) S_GPROC32: [0001:00044FD5], Cb: 00000315, Type:             0x141A, BtCareerSelectCar
@@ -294,6 +356,10 @@
  * 
  * (000A94) S_END
  */
+void BtCareerSelectCar()
+{
+	// TODO: BtCareerSelectCar
+}
 
 /*
  * (000A98) S_GPROC32: [0001:000452EA], Cb: 00000067, Type:             0x141A, BtCareerAuto
@@ -307,6 +373,10 @@
  * 
  * (000AFC) S_END
  */
+void BtCareerAuto()
+{
+	// TODO: BtCareerAuto
+}
 
 /*
  * (000B00) S_GPROC32: [0001:00045351], Cb: 00000067, Type:             0x141A, BtCareerManual
@@ -320,6 +390,10 @@
  * 
  * (000B68) S_END
  */
+void BtCareerManual()
+{
+	// TODO: BtCareerManual
+}
 
 /*
  * (000B6C) S_GPROC32: [0001:000453B8], Cb: 00000042, Type:             0x141A, BtUseAltSkin
@@ -332,6 +406,10 @@
  * 
  * (000BC0) S_END
  */
+void BtUseAltSkin()
+{
+	// TODO: BtUseAltSkin
+}
 
 /*
  * (000BC4) S_GPROC32: [0001:000453FA], Cb: 00001212, Type:             0x141A, SetupCareerFrame_Car
@@ -375,6 +453,10 @@
  * 
  * (000E7C) S_END
  */
+void SetupCareerFrame_Car()
+{
+	// TODO: SetupCareerFrame_Car
+}
 
 /*
  * (000E80) S_GPROC32: [0001:0004660C], Cb: 0000155D, Type:             0x141A, SetupCareerFrame_Competition
@@ -448,6 +530,10 @@
  * 
  * (001358) S_END
  */
+void SetupCareerFrame_Competition()
+{
+	// TODO: SetupCareerFrame_Competition
+}
 
 /*
  * (00135C) S_LPROC32: [0001:00047B69], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -463,6 +549,10 @@
  * 
  * (0013E0) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (0013E4) S_GPROC32: [0001:00047BE3], Cb: 00001299, Type:             0x1001, CompetitionShowFinalStandings
@@ -497,6 +587,10 @@
  * 
  * (0015E4) S_END
  */
+void CompetitionShowFinalStandings()
+{
+	// TODO: CompetitionShowFinalStandings
+}
 
 /*
  * (0015E8) S_GPROC32: [0001:00048E7C], Cb: 00000A39, Type:             0x1001, CalcRaceResults
@@ -512,6 +606,10 @@
  * 
  * (001678) S_END
  */
+void CalcRaceResults()
+{
+	// TODO: CalcRaceResults
+}
 
 /*
  * (00167C) S_GPROC32: [0001:000498B5], Cb: 000008F2, Type:             0x1001, CareerFrame_DisplayRaceResults
@@ -531,6 +629,10 @@
  * 
  * (001764) S_END
  */
+void CareerFrame_DisplayRaceResults()
+{
+	// TODO: CareerFrame_DisplayRaceResults
+}
 
 /*
  * (001768) S_GPROC32: [0001:0004A1A7], Cb: 0000012D, Type:             0x141A, SetupCareerFrame_RaceResults
@@ -543,6 +645,10 @@
  * 
  * (0017D4) S_END
  */
+void SetupCareerFrame_RaceResults()
+{
+	// TODO: SetupCareerFrame_RaceResults
+}
 
 /*
  * (0017D8) S_GPROC32: [0001:0004A2D4], Cb: 00000A29, Type:             0x141A, SetupCareerFrame_Results
@@ -563,6 +669,10 @@
  * 
  * (0018C4) S_END
  */
+void SetupCareerFrame_Results()
+{
+	// TODO: SetupCareerFrame_Results
+}
 
 /*
  * (0018C8) S_GPROC32: [0001:0004ACFD], Cb: 00000562, Type:             0x141A, SetupCareerFrame_NextRace
@@ -583,6 +693,10 @@
  * 
  * (0019BC) S_END
  */
+void SetupCareerFrame_NextRace()
+{
+	// TODO: SetupCareerFrame_NextRace
+}
 
 /*
  * (0019C0) S_GPROC32: [0001:0004B25F], Cb: 00000112, Type:             0x1001, DestroyCareerMenu
@@ -595,6 +709,10 @@
  * 
  * (001A24) S_END
  */
+void DestroyCareerMenu()
+{
+	// TODO: DestroyCareerMenu
+}
 
 /*
  * (001A28) S_GPROC32: [0001:0004B371], Cb: 000000D8, Type:             0x141A, BtNewGame
@@ -608,6 +726,10 @@
  * 
  * (001A94) S_END
  */
+void BtNewGame()
+{
+	// TODO: BtNewGame
+}
 
 /*
  * (001A98) S_GPROC32: [0001:0004B449], Cb: 0000005D, Type:             0x141A, BtNewGameCancel
@@ -620,6 +742,10 @@
  * 
  * (001AF8) S_END
  */
+void BtNewGameCancel()
+{
+	// TODO: BtNewGameCancel
+}
 
 /*
  * (001AFC) S_GPROC32: [0001:0004B4A6], Cb: 0000007F, Type:             0x141A, BtEnterName
@@ -633,6 +759,10 @@
  * 
  * (001B68) S_END
  */
+void BtEnterName()
+{
+	// TODO: BtEnterName
+}
 
 /*
  * (001B6C) S_GPROC32: [0001:0004B525], Cb: 0000106B, Type:             0x1001, SetupCareerMenu
@@ -660,4 +790,8 @@
  * 
  * (001CE4) S_END
  */
+void SetupCareerMenu()
+{
+	// TODO: SetupCareerMenu
+}
 

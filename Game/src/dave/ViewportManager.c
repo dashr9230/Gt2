@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -40,6 +38,10 @@
  * 
  * (0000D4) S_END
  */
+void VPM_Init()
+{
+	// TODO: VPM_Init
+}
 
 /*
  * (0000D8) S_GPROC32: [0001:0002847B], Cb: 00000097, Type:             0x1BD7, VPM_Request
@@ -56,6 +58,10 @@
  * 
  * (00018C) S_END
  */
+void VPM_Request()
+{
+	// TODO: VPM_Request
+}
 
 /*
  * (000190) S_GPROC32: [0001:00028512], Cb: 0000015E, Type:             0x1001, VPM_DesignateDrivableVPs
@@ -79,6 +85,10 @@
  * 
  * (0002D0) S_END
  */
+void VPM_DesignateDrivableVPs()
+{
+	// TODO: VPM_DesignateDrivableVPs
+}
 
 /*
  * (0002D4) S_GPROC32: [0001:00028670], Cb: 000005D4, Type:             0x1001, VPM_Allocate
@@ -117,6 +127,10 @@
  * 
  * (000530) S_END
  */
+void VPM_Allocate()
+{
+	// TODO: VPM_Allocate
+}
 
 /*
  * (000534) S_GPROC32: [0001:00028C44], Cb: 000000D0, Type:             0x1001, VPM_AllocateHUDs
@@ -129,6 +143,10 @@
  * 
  * (000590) S_END
  */
+void VPM_AllocateHUDs()
+{
+	// TODO: VPM_AllocateHUDs
+}
 
 /*
  * (000594) S_GPROC32: [0001:00028D14], Cb: 00000017, Type:             0x1BD9, VPM_SetSideEffect
@@ -141,6 +159,10 @@
  * 
  * (0005FC) S_END
  */
+void VPM_SetSideEffect()
+{
+	// TODO: VPM_SetSideEffect
+}
 
 /*
  * (000600) S_GPROC32: [0001:00028D2B], Cb: 0000004C, Type:             0x1001, VPM_SetFixedTarget
@@ -153,6 +175,10 @@
  * 
  * (000660) S_END
  */
+void VPM_SetFixedTarget()
+{
+	// TODO: VPM_SetFixedTarget
+}
 
 /*
  * (000664) S_GPROC32: [0001:00028D77], Cb: 000002BD, Type:             0x1BDB, VPM_DirectScreen
@@ -167,6 +193,10 @@
  * 
  * (0006EC) S_END
  */
+void VPM_DirectScreen()
+{
+	// TODO: VPM_DirectScreen
+}
 
 /*
  * (0006F0) S_GPROC32: [0001:00029034], Cb: 00000044, Type:             0x1001, VPM_Direct
@@ -179,6 +209,10 @@
  * 
  * (000748) S_END
  */
+void VPM_Direct()
+{
+	// TODO: VPM_Direct
+}
 
 /*
  * (00074C) S_GPROC32: [0001:00029078], Cb: 00000099, Type:             0x1001, VPM_AutoChanger
@@ -191,6 +225,10 @@
  * 
  * (0007A8) S_END
  */
+void VPM_AutoChanger()
+{
+	// TODO: VPM_AutoChanger
+}
 
 /*
  * (0007AC) S_GPROC32: [0001:00029111], Cb: 000000E2, Type:             0x1001, VPM_Release
@@ -202,6 +240,10 @@
  * 
  * (0007F0) S_END
  */
+void VPM_Release()
+{
+	// TODO: VPM_Release
+}
 
 /*
  * (0007F4) S_GPROC32: [0001:000291F3], Cb: 000000F7, Type:             0x1BDD, VPORT_SimpleSetup
@@ -229,6 +271,10 @@
  * 
  * (000914) S_END
  */
+void VPORT_SimpleSetup()
+{
+	// TODO: VPORT_SimpleSetup
+}
 
 /*
  * (000918) S_GPROC32: [0001:000292EA], Cb: 000000A8, Type:             0x1BDF, RC_CameraScreen
@@ -250,6 +296,10 @@
  * 
  * (000A1C) S_END
  */
+void RC_CameraScreen()
+{
+	// TODO: RC_CameraScreen
+}
 
 /*
  * (000A20) S_GPROC32: [0001:00029392], Cb: 000000B3, Type:             0x1BDF, RC_PlayerScreen
@@ -271,6 +321,10 @@
  * 
  * (000B24) S_END
  */
+void RC_PlayerScreen()
+{
+	// TODO: RC_PlayerScreen
+}
 
 /*
  * (000B28) S_GPROC32: [0001:00029445], Cb: 00000552, Type:             0x1BDB, VPM_Setup
@@ -305,6 +359,10 @@
  * 
  * (000D3C) S_END
  */
+void VPM_Setup()
+{
+	// TODO: VPM_Setup
+}
 
 /*
  * (000D40) S_GPROC32: [0001:00029997], Cb: 0000003D, Type:             0x1BDB, VPM_NextCar
@@ -316,6 +374,10 @@
  * 
  * (000D88) S_END
  */
+void VPM_NextCar()
+{
+	// TODO: VPM_NextCar
+}
 
 /*
  * (000D8C) S_GPROC32: [0001:000299D4], Cb: 00000276, Type:             0x1BDB, VPM_NextUser
@@ -341,6 +403,10 @@
  * 
  * (000E38) S_END
  */
+void VPM_NextUser()
+{
+	// TODO: VPM_NextUser
+}
 
 /*
  * (000E3C) S_GPROC32: [0001:00029C4A], Cb: 0000019B, Type:             0x1001, VPM_KeyChecks
@@ -361,6 +427,10 @@
  * 
  * (000EDC) S_END
  */
+void VPM_KeyChecks()
+{
+	// TODO: VPM_KeyChecks
+}
 
 /*
  * (000EE0) S_GPROC32: [0001:00029DE5], Cb: 000000A8, Type:             0x1BE0, VPM_FindTV
@@ -373,6 +443,10 @@
  * 
  * (000F38) S_END
  */
+void VPM_FindTV()
+{
+	// TODO: VPM_FindTV
+}
 
 /*
  * (000F3C) S_GPROC32: [0001:00029E8D], Cb: 000000C5, Type:             0x1BE0, VPM_FindFullScreen
@@ -385,6 +459,10 @@
  * 
  * (000F9C) S_END
  */
+void VPM_FindFullScreen()
+{
+	// TODO: VPM_FindFullScreen
+}
 
 /*
  * (000FA0) S_GPROC32: [0001:00029F52], Cb: 000000A6, Type:             0x1BE2, VPM_Force
@@ -399,6 +477,10 @@
  * 
  * (001020) S_END
  */
+void VPM_Force()
+{
+	// TODO: VPM_Force
+}
 
 /*
  * (001024) S_GPROC32: [0001:00029FF8], Cb: 000000F6, Type:             0x1A19, VPM_UnForce
@@ -426,6 +508,10 @@
  * 
  * (0010F4) S_END
  */
+void VPM_UnForce()
+{
+	// TODO: VPM_UnForce
+}
 
 /*
  * (0010F8) S_GPROC32: [0001:0002A0EE], Cb: 0000020F, Type:             0x16A1, VPM_Debug
@@ -451,6 +537,10 @@
  * 
  * (001258) S_END
  */
+void VPM_Debug()
+{
+	// TODO: VPM_Debug
+}
 
 /*
  * (00125C) S_LPROC32: [0001:0002A2FD], Cb: 000000DB, Type:             0x1B7C, DriverSetModeStr
@@ -472,6 +562,10 @@
  * 
  * (001368) S_END
  */
+void DriverSetModeStr()
+{
+	// TODO: DriverSetModeStr
+}
 
 /*
  * (00136C) S_LPROC32: [0001:0002A3D8], Cb: 00000078, Type:             0x1B7C, PipSetModeStr
@@ -489,6 +583,10 @@
  * 
  * (001428) S_END
  */
+void PipSetModeStr()
+{
+	// TODO: PipSetModeStr
+}
 
 /*
  * (00142C) S_GPROC32: [0001:0002A450], Cb: 0000009C, Type:             0x1408, VPM_ForceObjFinish
@@ -502,4 +600,8 @@
  * 
  * (00149C) S_END
  */
+void VPM_ForceObjFinish()
+{
+	// TODO: VPM_ForceObjFinish
+}
 

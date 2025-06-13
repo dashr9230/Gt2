@@ -13,11 +13,6 @@
  *          Ambient data: NEAR
  *          Ambient code: NEAR
  *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- */
-
-/*
  */
 
 /*
@@ -31,6 +26,10 @@
  * 
  * (0000E4) S_END
  */
+void heapCreate()
+{
+	// TODO: heapCreate
+}
 
 /*
  * (0000E8) S_GPROC32: [0001:000878A6], Cb: 00000062, Type:             0x1F8D, heapAllocate
@@ -51,6 +50,10 @@
  * 
  * (000178) S_END
  */
+void heapAllocate()
+{
+	// TODO: heapAllocate
+}
 
 /*
  * (00017C) S_LPROC32: [0001:00087908], Cb: 00000005, Type:             0x1F8F, moxError
@@ -63,6 +66,10 @@
  * 
  * (0001CC) S_END
  */
+void moxError()
+{
+	// TODO: moxError
+}
 
 /*
  * (0001D0) S_LPROC32: [0001:0008790D], Cb: 00000005, Type:             0x1F8F, moxReport
@@ -75,4 +82,8 @@
  * 
  * (000224) S_END
  */
+void moxReport()
+{
+	// TODO: moxReport
+}
 

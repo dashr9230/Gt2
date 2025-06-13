@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -44,6 +42,10 @@
  * 
  * (0000BC) S_END
  */
+void JOY_Init()
+{
+	// TODO: JOY_Init
+}
 
 /*
  * (0000C0) S_GPROC32: [0001:0008E0B3], Cb: 00000047, Type:             0x1F0B, JOY_DebounceHandler
@@ -59,6 +61,10 @@
  * 
  * (00015C) S_END
  */
+void JOY_DebounceHandler()
+{
+	// TODO: JOY_DebounceHandler
+}
 
 /*
  * (000160) S_GPROC32: [0001:0008E0FA], Cb: 0000003E, Type:             0x1001, JOY_BufferedReadReset
@@ -68,6 +74,10 @@
  * 
  * (0001A0) S_END
  */
+void JOY_BufferedReadReset()
+{
+	// TODO: JOY_BufferedReadReset
+}
 
 /*
  * (0001A4) S_GPROC32: [0001:0008E138], Cb: 00000030, Type:             0x1001, JOY_Enable
@@ -77,6 +87,10 @@
  * 
  * (0001D8) S_END
  */
+void JOY_Enable()
+{
+	// TODO: JOY_Enable
+}
 
 /*
  * (0001DC) S_GPROC32: [0001:0008E168], Cb: 00000035, Type:             0x1001, JOY_Disable
@@ -86,6 +100,10 @@
  * 
  * (000210) S_END
  */
+void JOY_Disable()
+{
+	// TODO: JOY_Disable
+}
 
 /*
  * (000214) S_GPROC32: [0001:0008E19D], Cb: 00000033, Type:             0x1001, JOY_DisableInHandler
@@ -95,6 +113,10 @@
  * 
  * (000250) S_END
  */
+void JOY_DisableInHandler()
+{
+	// TODO: JOY_DisableInHandler
+}
 
 /*
  * (000254) S_GPROC32: [0001:0008E1D0], Cb: 00000033, Type:             0x1001, JOY_Loader
@@ -104,6 +126,10 @@
  * 
  * (000288) S_END
  */
+void JOY_Loader()
+{
+	// TODO: JOY_Loader
+}
 
 /*
  * (00028C) S_GPROC32: [0001:0008E203], Cb: 00000173, Type:             0x1001, JOY_BufferedRead
@@ -121,6 +147,10 @@
  * 
  * (000308) S_END
  */
+void JOY_BufferedRead()
+{
+	// TODO: JOY_BufferedRead
+}
 
 /*
  * (00030C) S_GPROC32: [0001:0008E376], Cb: 00000049, Type:             0x1001, JOY_NetBufferedRead
@@ -132,6 +162,10 @@
  * 
  * (000358) S_END
  */
+void JOY_NetBufferedRead()
+{
+	// TODO: JOY_NetBufferedRead
+}
 
 /*
  * (00035C) S_GPROC32: [0001:0008E3BF], Cb: 00000012, Type:             0x1F0D, JOY_Read
@@ -144,4 +178,8 @@
  * 
  * (0003B0) S_END
  */
+void JOY_Read()
+{
+	// TODO: JOY_Read
+}
 

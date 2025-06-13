@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -52,6 +50,10 @@
  * 
  * (0000EC) S_END
  */
+void BtGetKeyControl()
+{
+	// TODO: BtGetKeyControl
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:00063B92], Cb: 0000007C, Type:             0x141A, BtGetJoyControl
@@ -65,6 +67,10 @@
  * 
  * (000160) S_END
  */
+void BtGetJoyControl()
+{
+	// TODO: BtGetJoyControl
+}
 
 /*
  * (000164) S_GPROC32: [0001:00063C0E], Cb: 000001B5, Type:             0x1408, SetIconControlSelect
@@ -77,6 +83,10 @@
  * 
  * (0001C8) S_END
  */
+void SetIconControlSelect()
+{
+	// TODO: SetIconControlSelect
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:00063DC3], Cb: 000006C9, Type:             0x1830, MakeKeyString
@@ -135,6 +145,10 @@
  * 
  * (0005B0) S_END
  */
+void MakeKeyString()
+{
+	// TODO: MakeKeyString
+}
 
 /*
  * (0005B4) S_GPROC32: [0001:0006448C], Cb: 0000002E, Type:             0x141A, BtForceOn
@@ -147,6 +161,10 @@
  * 
  * (000608) S_END
  */
+void BtForceOn()
+{
+	// TODO: BtForceOn
+}
 
 /*
  * (00060C) S_GPROC32: [0001:000644BA], Cb: 0000002E, Type:             0x141A, BtForceOff
@@ -159,6 +177,10 @@
  * 
  * (000660) S_END
  */
+void BtForceOff()
+{
+	// TODO: BtForceOff
+}
 
 /*
  * (000664) S_GPROC32: [0001:000644E8], Cb: 000001B8, Type:             0x1831, FindCorrectJoytype
@@ -172,6 +194,10 @@
  * 
  * (0006D4) S_END
  */
+void FindCorrectJoytype()
+{
+	// TODO: FindCorrectJoytype
+}
 
 /*
  * (0006D8) S_GPROC32: [0001:000646A0], Cb: 000002AB, Type:             0x141A, BtJoyChange
@@ -186,6 +212,10 @@
  * 
  * (000758) S_END
  */
+void BtJoyChange()
+{
+	// TODO: BtJoyChange
+}
 
 /*
  * (00075C) S_GPROC32: [0001:0006494B], Cb: 00000067, Type:             0x141A, BtKeyChange
@@ -198,6 +228,10 @@
  * 
  * (0007B0) S_END
  */
+void BtKeyChange()
+{
+	// TODO: BtKeyChange
+}
 
 /*
  * (0007B4) S_GPROC32: [0001:000649B2], Cb: 000002B2, Type:             0x141A, BtSetKeyRead
@@ -215,6 +249,10 @@
  * 
  * (000868) S_END
  */
+void BtSetKeyRead()
+{
+	// TODO: BtSetKeyRead
+}
 
 /*
  * (00086C) S_GPROC32: [0001:00064C64], Cb: 000004BB, Type:             0x141A, BtDigiAccelChange
@@ -245,6 +283,10 @@
  * 
  * (000A24) S_END
  */
+void BtDigiAccelChange()
+{
+	// TODO: BtDigiAccelChange
+}
 
 /*
  * (000A28) S_GPROC32: [0001:0006511F], Cb: 000004BB, Type:             0x141A, BtDigiSteerChange
@@ -275,6 +317,10 @@
  * 
  * (000BE0) S_END
  */
+void BtDigiSteerChange()
+{
+	// TODO: BtDigiSteerChange
+}
 
 /*
  * (000BE4) S_GPROC32: [0001:000655DA], Cb: 000004B3, Type:             0x141A, BtAnaAccelChange
@@ -305,6 +351,10 @@
  * 
  * (000D98) S_END
  */
+void BtAnaAccelChange()
+{
+	// TODO: BtAnaAccelChange
+}
 
 /*
  * (000D9C) S_GPROC32: [0001:00065A8D], Cb: 000004B3, Type:             0x141A, BtAnaSteerChange
@@ -335,6 +385,10 @@
  * 
  * (000F50) S_END
  */
+void BtAnaSteerChange()
+{
+	// TODO: BtAnaSteerChange
+}
 
 /*
  * (000F54) S_GPROC32: [0001:00065F40], Cb: 000001B1, Type:             0x141A, SetSensitivityBar
@@ -353,6 +407,10 @@
  * 
  * (001028) S_END
  */
+void SetSensitivityBar()
+{
+	// TODO: SetSensitivityBar
+}
 
 /*
  * (00102C) S_GPROC32: [0001:000660F1], Cb: 000000D2, Type:             0x141A, BtAccelSensChange
@@ -365,6 +423,10 @@
  * 
  * (001088) S_END
  */
+void BtAccelSensChange()
+{
+	// TODO: BtAccelSensChange
+}
 
 /*
  * (00108C) S_GPROC32: [0001:000661C3], Cb: 000000D2, Type:             0x141A, BtBrakeSensChange
@@ -377,6 +439,10 @@
  * 
  * (0010E8) S_END
  */
+void BtBrakeSensChange()
+{
+	// TODO: BtBrakeSensChange
+}
 
 /*
  * (0010EC) S_GPROC32: [0001:00066295], Cb: 000000D2, Type:             0x141A, BtSteerLeftSensChange
@@ -389,6 +455,10 @@
  * 
  * (00114C) S_END
  */
+void BtSteerLeftSensChange()
+{
+	// TODO: BtSteerLeftSensChange
+}
 
 /*
  * (001150) S_GPROC32: [0001:00066367], Cb: 000000D2, Type:             0x141A, BtSteerRightSensChange
@@ -401,6 +471,10 @@
  * 
  * (0011B0) S_END
  */
+void BtSteerRightSensChange()
+{
+	// TODO: BtSteerRightSensChange
+}
 
 /*
  * (0011B4) S_GPROC32: [0001:00066439], Cb: 0000120D, Type:             0x16A1, OptionSetupJoystickView
@@ -415,6 +489,10 @@
  * 
  * (00123C) S_END
  */
+void OptionSetupJoystickView()
+{
+	// TODO: OptionSetupJoystickView
+}
 
 /*
  * (001240) S_GPROC32: [0001:00067646], Cb: 00000D9F, Type:             0x1001, OptionSetupDigitalView
@@ -428,6 +506,10 @@
  * 
  * (0012B8) S_END
  */
+void OptionSetupDigitalView()
+{
+	// TODO: OptionSetupDigitalView
+}
 
 /*
  * (0012BC) S_GPROC32: [0001:000683E5], Cb: 0000053F, Type:             0x1001, OptionSetupKeyboardView
@@ -441,6 +523,10 @@
  * 
  * (001334) S_END
  */
+void OptionSetupKeyboardView()
+{
+	// TODO: OptionSetupKeyboardView
+}
 
 /*
  * (001338) S_GPROC32: [0001:00068924], Cb: 00000050, Type:             0x141A, OptionKeyboard
@@ -454,6 +540,10 @@
  * 
  * (0013A8) S_END
  */
+void OptionKeyboard()
+{
+	// TODO: OptionKeyboard
+}
 
 /*
  * (0013AC) S_GPROC32: [0001:00068974], Cb: 00000050, Type:             0x141A, OptionJoystick
@@ -467,6 +557,10 @@
  * 
  * (00141C) S_END
  */
+void OptionJoystick()
+{
+	// TODO: OptionJoystick
+}
 
 /*
  * (001420) S_GPROC32: [0001:000689C4], Cb: 00000050, Type:             0x141A, OptionWheel
@@ -480,6 +574,10 @@
  * 
  * (00148C) S_END
  */
+void OptionWheel()
+{
+	// TODO: OptionWheel
+}
 
 /*
  * (001490) S_GPROC32: [0001:00068A14], Cb: 00000050, Type:             0x141A, OptionDigital
@@ -493,6 +591,10 @@
  * 
  * (001500) S_END
  */
+void OptionDigital()
+{
+	// TODO: OptionDigital
+}
 
 /*
  * (001504) S_GPROC32: [0001:00068A64], Cb: 000004AC, Type:             0x141A, SetupOptionsFrame_Controller
@@ -509,6 +611,10 @@
  * 
  * (0015BC) S_END
  */
+void SetupOptionsFrame_Controller()
+{
+	// TODO: SetupOptionsFrame_Controller
+}
 
 /*
  * (0015C0) S_GPROC32: [0001:00068F10], Cb: 000002E8, Type:             0x16A1, SetDetailLevel
@@ -530,6 +636,10 @@
  * 
  * (0016C8) S_END
  */
+void SetDetailLevel()
+{
+	// TODO: SetDetailLevel
+}
 
 /*
  * (0016CC) S_GPROC32: [0001:000691F8], Cb: 00001450, Type:             0x141A, SetupOptionsFrame_Display
@@ -554,6 +664,10 @@
  * 
  * (001818) S_END
  */
+void SetupOptionsFrame_Display()
+{
+	// TODO: SetupOptionsFrame_Display
+}
 
 /*
  * (00181C) S_GPROC32: [0001:0006A648], Cb: 00000084, Type:             0x141A, BtCarCountChange
@@ -566,6 +680,10 @@
  * 
  * (001874) S_END
  */
+void BtCarCountChange()
+{
+	// TODO: BtCarCountChange
+}
 
 /*
  * (001878) S_GPROC32: [0001:0006A6CC], Cb: 00000084, Type:             0x141A, BtLapCountChange
@@ -578,6 +696,10 @@
  * 
  * (0018D0) S_END
  */
+void BtLapCountChange()
+{
+	// TODO: BtLapCountChange
+}
 
 /*
  * (0018D4) S_GPROC32: [0001:0006A750], Cb: 00000077, Type:             0x141A, BtDifficultyChange
@@ -590,6 +712,10 @@
  * 
  * (001930) S_END
  */
+void BtDifficultyChange()
+{
+	// TODO: BtDifficultyChange
+}
 
 /*
  * (001934) S_GPROC32: [0001:0006A7C7], Cb: 0000006A, Type:             0x141A, BtMultiAI
@@ -602,6 +728,10 @@
  * 
  * (001988) S_END
  */
+void BtMultiAI()
+{
+	// TODO: BtMultiAI
+}
 
 /*
  * (00198C) S_GPROC32: [0001:0006A831], Cb: 00000084, Type:             0x141A, BtLapCountChange_Split
@@ -614,6 +744,10 @@
  * 
  * (0019EC) S_END
  */
+void BtLapCountChange_Split()
+{
+	// TODO: BtLapCountChange_Split
+}
 
 /*
  * (0019F0) S_GPROC32: [0001:0006A8B5], Cb: 00000455, Type:             0x141A, SetupOptionsFrame_Split
@@ -628,6 +762,10 @@
  * 
  * (001A78) S_END
  */
+void SetupOptionsFrame_Split()
+{
+	// TODO: SetupOptionsFrame_Split
+}
 
 /*
  * (001A7C) S_GPROC32: [0001:0006AD0A], Cb: 00000084, Type:             0x141A, BtLapCountChange_Multi
@@ -640,6 +778,10 @@
  * 
  * (001ADC) S_END
  */
+void BtLapCountChange_Multi()
+{
+	// TODO: BtLapCountChange_Multi
+}
 
 /*
  * (001AE0) S_GPROC32: [0001:0006AD8E], Cb: 0000051A, Type:             0x141A, SetupOptionsFrame_MultiPlayer_Race
@@ -655,6 +797,10 @@
  * 
  * (001B84) S_END
  */
+void SetupOptionsFrame_MultiPlayer_Race()
+{
+	// TODO: SetupOptionsFrame_MultiPlayer_Race
+}
 
 /*
  * (001B88) S_GPROC32: [0001:0006B2A8], Cb: 00000A0D, Type:             0x141A, SetupOptionsFrame_Race
@@ -695,6 +841,10 @@
  * 
  * (001E04) S_END
  */
+void SetupOptionsFrame_Race()
+{
+	// TODO: SetupOptionsFrame_Race
+}
 
 /*
  * (001E08) S_GPROC32: [0001:0006BCB5], Cb: 0000019B, Type:             0x16A1, SetSound
@@ -713,6 +863,10 @@
  * 
  * (001ED0) S_END
  */
+void SetSound()
+{
+	// TODO: SetSound
+}
 
 /*
  * (001ED4) S_GPROC32: [0001:0006BE50], Cb: 00000525, Type:             0x141A, SetupOptionsFrame_Sound
@@ -727,6 +881,10 @@
  * 
  * (001F5C) S_END
  */
+void SetupOptionsFrame_Sound()
+{
+	// TODO: SetupOptionsFrame_Sound
+}
 
 /*
  * (001F60) S_GPROC32: [0001:0006C375], Cb: 00000243, Type:             0x141A, SaveSlot
@@ -742,6 +900,10 @@
  * 
  * (001FE8) S_END
  */
+void SaveSlot()
+{
+	// TODO: SaveSlot
+}
 
 /*
  * (001FEC) S_GPROC32: [0001:0006C5B8], Cb: 00000047, Type:             0x141A, BtSaveToSlot
@@ -754,6 +916,10 @@
  * 
  * (002048) S_END
  */
+void BtSaveToSlot()
+{
+	// TODO: BtSaveToSlot
+}
 
 /*
  * (00204C) S_GPROC32: [0001:0006C5FF], Cb: 000005C7, Type:             0x141A, LoadSlot
@@ -776,6 +942,10 @@
  * 
  * (002154) S_END
  */
+void LoadSlot()
+{
+	// TODO: LoadSlot
+}
 
 /*
  * (002158) S_GPROC32: [0001:0006CBC6], Cb: 0000007C, Type:             0x141A, BtLoadFromSlot
@@ -789,6 +959,10 @@
  * 
  * (0021C8) S_END
  */
+void BtLoadFromSlot()
+{
+	// TODO: BtLoadFromSlot
+}
 
 /*
  * (0021CC) S_GPROC32: [0001:0006CC42], Cb: 0000053C, Type:             0x141A, SetupOptionsFrame_Save
@@ -805,6 +979,10 @@
  * 
  * (002274) S_END
  */
+void SetupOptionsFrame_Save()
+{
+	// TODO: SetupOptionsFrame_Save
+}
 
 /*
  * (002278) S_GPROC32: [0001:0006D17E], Cb: 00000042, Type:             0x141A, BtGotoROOTMENU
@@ -817,6 +995,10 @@
  * 
  * (0022D8) S_END
  */
+void BtGotoROOTMENU()
+{
+	// TODO: BtGotoROOTMENU
+}
 
 /*
  * (0022DC) S_GPROC32: [0001:0006D1C0], Cb: 0000057E, Type:             0x141A, SetupOptionsFrame_Load
@@ -833,6 +1015,10 @@
  * 
  * (002384) S_END
  */
+void SetupOptionsFrame_Load()
+{
+	// TODO: SetupOptionsFrame_Load
+}
 
 /*
  * (002388) S_GPROC32: [0001:0006D73E], Cb: 00000084, Type:             0x141A, BtCareerOppChange
@@ -845,6 +1031,10 @@
  * 
  * (0023E4) S_END
  */
+void BtCareerOppChange()
+{
+	// TODO: BtCareerOppChange
+}
 
 /*
  * (0023E8) S_GPROC32: [0001:0006D7C2], Cb: 0000099D, Type:             0x141A, SetupOptionsFrame_Career
@@ -879,4 +1069,8 @@
  * 
  * (0025F0) S_END
  */
+void SetupOptionsFrame_Career()
+{
+	// TODO: SetupOptionsFrame_Career
+}
 

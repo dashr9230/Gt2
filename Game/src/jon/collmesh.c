@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -62,6 +60,10 @@
  * 
  * (0001EC) S_END
  */
+void meshCollide()
+{
+	// TODO: meshCollide
+}
 
 /*
  * (0001F0) S_GPROC32: [0001:0002B333], Cb: 000001FA, Type:             0x1BC9, meshFindHeight
@@ -85,6 +87,10 @@
  * 
  * (0002BC) S_END
  */
+void meshFindHeight()
+{
+	// TODO: meshFindHeight
+}
 
 /*
  * (0002C0) S_GPROC32: [0001:0002B52D], Cb: 00000202, Type:             0x1BCB, meshFindHeightEx
@@ -109,6 +115,10 @@
  * 
  * (0003A0) S_END
  */
+void meshFindHeightEx()
+{
+	// TODO: meshFindHeightEx
+}
 
 /*
  * (0003A4) S_GPROC32: [0001:0002B72F], Cb: 0000020D, Type:             0x1BC9, meshFindHeightFloor
@@ -132,6 +142,10 @@
  * 
  * (000474) S_END
  */
+void meshFindHeightFloor()
+{
+	// TODO: meshFindHeightFloor
+}
 
 /*
  * (000478) S_GPROC32: [0001:0002B93C], Cb: 0000004D, Type:             0x1AF1, meshCollideToPoint
@@ -147,6 +161,10 @@
  * 
  * (000510) S_END
  */
+void meshCollideToPoint()
+{
+	// TODO: meshCollideToPoint
+}
 
 /*
  * (000514) S_GPROC32: [0001:0002B989], Cb: 000000D2, Type:             0x1001, meshInitializeCollision
@@ -156,6 +174,10 @@
  * 
  * (000554) S_END
  */
+void meshInitializeCollision()
+{
+	// TODO: meshInitializeCollision
+}
 
 /*
  * (000558) S_GPROC32: [0001:0002BA5B], Cb: 00000022, Type:             0x1001, meshReleaseCollision
@@ -165,4 +187,8 @@
  * 
  * (000594) S_END
  */
+void meshReleaseCollision()
+{
+	// TODO: meshReleaseCollision
+}
 

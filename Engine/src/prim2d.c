@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -67,6 +65,10 @@
  * 
  * (000180) S_END
  */
+void P2D_GetPoly()
+{
+	// TODO: P2D_GetPoly
+}
 
 /*
  * (000184) S_GPROC32: [0001:0008906A], Cb: 00000017, Type:             0x1F72, P2D_FreePoly
@@ -78,6 +80,10 @@
  * 
  * (0001CC) S_END
  */
+void P2D_FreePoly()
+{
+	// TODO: P2D_FreePoly
+}
 
 /*
  * (0001D0) S_GPROC32: [0001:00089081], Cb: 00000025, Type:             0x1F72, P2D_FreePolyList
@@ -89,6 +95,10 @@
  * 
  * (00021C) S_END
  */
+void P2D_FreePolyList()
+{
+	// TODO: P2D_FreePolyList
+}
 
 /*
  * (000220) S_GPROC32: [0001:000890A6], Cb: 0000029F, Type:             0x1F72, P2D_Draw
@@ -120,4 +130,8 @@
  * 
  * (000344) S_END
  */
+void P2D_Draw()
+{
+	// TODO: P2D_Draw
+}
 

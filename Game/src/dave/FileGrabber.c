@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -41,6 +39,10 @@
  * 
  * (00010C) S_END
  */
+void FileGrabOpen()
+{
+	// TODO: FileGrabOpen
+}
 
 /*
  * (000110) S_GPROC32: [0001:0000CD43], Cb: 00000013, Type:             0x1C12, FileGrabSize
@@ -50,6 +52,10 @@
  * 
  * (000144) S_END
  */
+void FileGrabSize()
+{
+	// TODO: FileGrabSize
+}
 
 /*
  * (000148) S_GPROC32: [0001:0000CD56], Cb: 00000011, Type:             0x1001, FileGrabClose
@@ -59,6 +65,10 @@
  * 
  * (000180) S_END
  */
+void FileGrabClose()
+{
+	// TODO: FileGrabClose
+}
 
 /*
  * (000184) S_GPROC32: [0001:0000CD67], Cb: 00000024, Type:             0x1D1B, FileGrabByte
@@ -70,6 +80,10 @@
  * 
  * (0001C8) S_END
  */
+void FileGrabByte()
+{
+	// TODO: FileGrabByte
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:0000CD8B], Cb: 00000024, Type:             0x1D1C, FileGrabShort
@@ -81,6 +95,10 @@
  * 
  * (000214) S_END
  */
+void FileGrabShort()
+{
+	// TODO: FileGrabShort
+}
 
 /*
  * (000218) S_GPROC32: [0001:0000CDAF], Cb: 00000024, Type:             0x1D1E, FileGrabLong
@@ -92,6 +110,10 @@
  * 
  * (00025C) S_END
  */
+void FileGrabLong()
+{
+	// TODO: FileGrabLong
+}
 
 /*
  * (000260) S_GPROC32: [0001:0000CDD3], Cb: 00000024, Type:             0x1D20, FileGrabFloat
@@ -103,6 +125,10 @@
  * 
  * (0002A8) S_END
  */
+void FileGrabFloat()
+{
+	// TODO: FileGrabFloat
+}
 
 /*
  * (0002AC) S_GPROC32: [0001:0000CDF7], Cb: 00000026, Type:             0x1D21, FileGrabBlock
@@ -115,6 +141,10 @@
  * 
  * (000304) S_END
  */
+void FileGrabBlock()
+{
+	// TODO: FileGrabBlock
+}
 
 /*
  * (000308) S_GPROC32: [0001:0000CE1D], Cb: 00000048, Type:             0x1B5B, FileGrabStr
@@ -128,4 +158,8 @@
  * 
  * (00036C) S_END
  */
+void FileGrabStr()
+{
+	// TODO: FileGrabStr
+}
 

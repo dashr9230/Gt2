@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000BC) S_END
  */
+void HUD_Allocate()
+{
+	// TODO: HUD_Allocate
+}
 
 /*
  * (0000C0) S_GPROC32: [0001:0000D93E], Cb: 00000027, Type:             0x1001, HUD_Release
@@ -45,6 +47,10 @@
  * 
  * (0000F4) S_END
  */
+void HUD_Release()
+{
+	// TODO: HUD_Release
+}
 
 /*
  * (0000F8) S_GPROC32: [0001:0000D965], Cb: 00000376, Type:             0x13EF, HUD_Car_Draw
@@ -81,6 +87,10 @@
  * 
  * (0002CC) S_END
  */
+void HUD_Car_Draw()
+{
+	// TODO: HUD_Car_Draw
+}
 
 /*
  * (0002D0) S_GPROC32: [0001:0000DCDB], Cb: 00000143, Type:             0x13EF, HUD_TV_Draw
@@ -102,6 +112,10 @@
  * 
  * (0003C4) S_END
  */
+void HUD_TV_Draw()
+{
+	// TODO: HUD_TV_Draw
+}
 
 /*
  * (0003C8) S_GPROC32: [0001:0000DE1E], Cb: 00000190, Type:             0x13EF, HUD_Overlay_Draw
@@ -125,6 +139,10 @@
  * 
  * (0004F4) S_END
  */
+void HUD_Overlay_Draw()
+{
+	// TODO: HUD_Overlay_Draw
+}
 
 /*
  * (000590) S_GPROC32: [0001:0000DFB0], Cb: 00000047, Type:             0x1001, RSTATES_BeginScene
@@ -134,6 +152,10 @@
  * 
  * (0005CC) S_END
  */
+void RSTATES_BeginScene()
+{
+	// TODO: RSTATES_BeginScene
+}
 
 /*
  * (0005D0) S_GPROC32: [0001:0000E000], Cb: 00000047, Type:             0x1001, RSTATES_EndScene
@@ -143,4 +165,8 @@
  * 
  * (000608) S_END
  */
+void RSTATES_EndScene()
+{
+	// TODO: RSTATES_EndScene
+}
 

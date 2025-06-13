@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (000120) S_END
  */
+void IO_Acquire()
+{
+	// TODO: IO_Acquire
+}
 
 /*
  * (000124) S_GPROC32: [0001:00097D64], Cb: 00000028, Type:             0x1E83, IO_ReadB
@@ -50,6 +52,10 @@
  * 
  * (000174) S_END
  */
+void IO_ReadB()
+{
+	// TODO: IO_ReadB
+}
 
 /*
  * (000178) S_GPROC32: [0001:00097D8C], Cb: 00000028, Type:             0x1E85, IO_ReadW
@@ -62,6 +68,10 @@
  * 
  * (0001C8) S_END
  */
+void IO_ReadW()
+{
+	// TODO: IO_ReadW
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:00097DB4], Cb: 00000028, Type:             0x1E87, IO_ReadL
@@ -74,6 +84,10 @@
  * 
  * (00021C) S_END
  */
+void IO_ReadL()
+{
+	// TODO: IO_ReadL
+}
 
 /*
  * (000220) S_GPROC32: [0001:00097DDC], Cb: 00000028, Type:             0x1E89, IO_ReadF
@@ -86,6 +100,10 @@
  * 
  * (000270) S_END
  */
+void IO_ReadF()
+{
+	// TODO: IO_ReadF
+}
 
 /*
  * (000274) S_GPROC32: [0001:00097E04], Cb: 0000002D, Type:             0x1E8B, IO_ReadBlock
@@ -99,4 +117,8 @@
  * 
  * (0002D8) S_END
  */
+void IO_ReadBlock()
+{
+	// TODO: IO_ReadBlock
+}
 

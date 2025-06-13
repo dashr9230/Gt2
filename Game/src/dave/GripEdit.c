@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000FC) S_END
  */
+void GripEditor_Allocate()
+{
+	// TODO: GripEditor_Allocate
+}
 
 /*
  * (000100) S_GPROC32: [0001:0000D3EC], Cb: 00000039, Type:             0x1408, GripEditor_Destroy
@@ -54,6 +56,10 @@
  * 
  * (00017C) S_END
  */
+void GripEditor_Destroy()
+{
+	// TODO: GripEditor_Destroy
+}
 
 /*
  * (000180) S_GPROC32: [0001:0000D425], Cb: 00000033, Type:             0x1001, GripEditor_Release
@@ -65,6 +71,10 @@
  * 
  * (0001CC) S_END
  */
+void GripEditor_Release()
+{
+	// TODO: GripEditor_Release
+}
 
 /*
  * (0001D0) S_GPROC32: [0001:0000D458], Cb: 000000E1, Type:             0x1408, GripEditor_Draw
@@ -77,6 +87,10 @@
  * 
  * (00022C) S_END
  */
+void GripEditor_Draw()
+{
+	// TODO: GripEditor_Draw
+}
 
 /*
  * (000230) S_GPROC32: [0001:0000D539], Cb: 0000003B, Type:             0x1001, GripEditor_CommandInstall
@@ -86,6 +100,10 @@
  * 
  * (000274) S_END
  */
+void GripEditor_CommandInstall()
+{
+	// TODO: GripEditor_CommandInstall
+}
 
 /*
  * (000278) S_GPROC32: [0001:0000D574], Cb: 000000EA, Type:             0x17C9, CON_GripEditor_SetGFrict
@@ -107,6 +125,10 @@
  * 
  * (000338) S_END
  */
+void CON_GripEditor_SetGFrict()
+{
+	// TODO: CON_GripEditor_SetGFrict
+}
 
 /*
  * (00033C) S_GPROC32: [0001:0000D65E], Cb: 000000EB, Type:             0x17C9, CON_GripEditor_SetGRes
@@ -128,6 +150,10 @@
  * 
  * (0003F8) S_END
  */
+void CON_GripEditor_SetGRes()
+{
+	// TODO: CON_GripEditor_SetGRes
+}
 
 /*
  * (0003FC) S_GPROC32: [0001:0000D749], Cb: 000000E0, Type:             0x17C9, CON_GripEditor_Save
@@ -145,6 +171,10 @@
  * 
  * (0004D0) S_END
  */
+void CON_GripEditor_Save()
+{
+	// TODO: CON_GripEditor_Save
+}
 
 /*
  * (0004D4) S_GPROC32: [0001:0000D829], Cb: 000000F3, Type:             0x1001, GripEditor_Load
@@ -160,4 +190,8 @@
  * 
  * (00057C) S_END
  */
+void GripEditor_Load()
+{
+	// TODO: GripEditor_Load
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -41,6 +39,10 @@
  * 
  * (0000F8) S_END
  */
+void GameWorld_Release()
+{
+	// TODO: GameWorld_Release
+}
 
 /*
  * (0000FC) S_GPROC32: [0001:0004E1EE], Cb: 0000114D, Type:             0x1001, GameWorld_Create
@@ -67,6 +69,10 @@
  * 
  * (000208) S_END
  */
+void GameWorld_Create()
+{
+	// TODO: GameWorld_Create
+}
 
 /*
  * (00020C) S_GPROC32: [0001:0004F33B], Cb: 000003BD, Type:             0x1001, GameWorld_SetVariables
@@ -80,6 +86,10 @@
  * 
  * (00027C) S_END
  */
+void GameWorld_SetVariables()
+{
+	// TODO: GameWorld_SetVariables
+}
 
 /*
  * (000280) S_GPROC32: [0001:0004F6F8], Cb: 0000001D, Type:             0x1001, GameWorld_Destroy
@@ -89,6 +99,10 @@
  * 
  * (0002BC) S_END
  */
+void GameWorld_Destroy()
+{
+	// TODO: GameWorld_Destroy
+}
 
 /*
  * (0002C0) S_GPROC32: [0001:0004F715], Cb: 0000006A, Type:             0x1001, GameWorld_ResetCompetitionsToDefault
@@ -101,6 +115,10 @@
  * 
  * (00032C) S_END
  */
+void GameWorld_ResetCompetitionsToDefault()
+{
+	// TODO: GameWorld_ResetCompetitionsToDefault
+}
 
 /*
  * (000330) S_GPROC32: [0001:0004F77F], Cb: 000000F7, Type:             0x16A1, GameWorld_CompetitionDump
@@ -113,6 +131,10 @@
  * 
  * (000394) S_END
  */
+void GameWorld_CompetitionDump()
+{
+	// TODO: GameWorld_CompetitionDump
+}
 
 /*
  * (000398) S_GPROC32: [0001:0004F876], Cb: 00000211, Type:             0x1A4D, GameWorld_CreateCompetition
@@ -135,6 +157,10 @@
  * 
  * (0004DC) S_END
  */
+void GameWorld_CreateCompetition()
+{
+	// TODO: GameWorld_CreateCompetition
+}
 
 /*
  * (0004E0) S_GPROC32: [0001:0004FA87], Cb: 000000BB, Type:             0x16A1, GameWorld_CreateEmptySlot
@@ -149,6 +175,10 @@
  * 
  * (000564) S_END
  */
+void GameWorld_CreateEmptySlot()
+{
+	// TODO: GameWorld_CreateEmptySlot
+}
 
 /*
  * (000568) S_GPROC32: [0001:0004FB42], Cb: 000000C2, Type:             0x1001, GameWorld_RetrieveSlots
@@ -163,4 +193,8 @@
  * 
  * (0005E8) S_END
  */
+void GameWorld_RetrieveSlots()
+{
+	// TODO: GameWorld_RetrieveSlots
+}
 

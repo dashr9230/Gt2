@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -66,6 +64,10 @@
  * 
  * (0000CC) S_END
  */
+void Chunk_Init()
+{
+	// TODO: Chunk_Init
+}
 
 /*
  * (0000D0) S_GPROC32: [0001:00007C8C], Cb: 00000040, Type:             0x1D34, Chunk_DoesFileExist
@@ -80,6 +82,10 @@
  * 
  * (000164) S_END
  */
+void Chunk_DoesFileExist()
+{
+	// TODO: Chunk_DoesFileExist
+}
 
 /*
  * (000168) S_GPROC32: [0001:00007CCC], Cb: 00000047, Type:             0x1B45, Chunk_DoesTextureExist
@@ -92,6 +98,10 @@
  * 
  * (0001D4) S_END
  */
+void Chunk_DoesTextureExist()
+{
+	// TODO: Chunk_DoesTextureExist
+}
 
 /*
  * (0001D8) S_GPROC32: [0001:00007D13], Cb: 00000027, Type:             0x1B45, Chunk_DoesModelExist
@@ -104,6 +114,10 @@
  * 
  * (000240) S_END
  */
+void Chunk_DoesModelExist()
+{
+	// TODO: Chunk_DoesModelExist
+}
 
 /*
  * (000244) S_GPROC32: [0001:00007D3A], Cb: 00000021, Type:             0x1D36, Chunk_AddFile
@@ -118,6 +132,10 @@
  * 
  * (0002D0) S_END
  */
+void Chunk_AddFile()
+{
+	// TODO: Chunk_AddFile
+}
 
 /*
  * (0002D4) S_GPROC32: [0001:00007D5B], Cb: 000007CF, Type:             0x1D38, Chunk_AddFileEx
@@ -150,6 +168,10 @@
  * 
  * (000470) S_END
  */
+void Chunk_AddFileEx()
+{
+	// TODO: Chunk_AddFileEx
+}
 
 /*
  * (000474) S_GPROC32: [0001:0000852A], Cb: 000002E4, Type:             0x1001, Chunk_Loader
@@ -169,6 +191,10 @@
  * 
  * (000558) S_END
  */
+void Chunk_Loader()
+{
+	// TODO: Chunk_Loader
+}
 
 /*
  * (00055C) S_GPROC32: [0001:0000880E], Cb: 0000007E, Type:             0x16A7, Chunk_AsyncLoad
@@ -180,6 +206,10 @@
  * 
  * (0005A8) S_END
  */
+void Chunk_AsyncLoad()
+{
+	// TODO: Chunk_AsyncLoad
+}
 
 /*
  * (0005AC) S_GPROC32: [0001:0000888C], Cb: 0000003F, Type:             0x1001, Chunk_StartLoad
@@ -189,6 +219,10 @@
  * 
  * (0005E4) S_END
  */
+void Chunk_StartLoad()
+{
+	// TODO: Chunk_StartLoad
+}
 
 /*
  * (0005E8) S_GPROC32: [0001:000088CB], Cb: 000001B1, Type:             0x1001, Chunk_Release
@@ -200,6 +234,10 @@
  * 
  * (000630) S_END
  */
+void Chunk_Release()
+{
+	// TODO: Chunk_Release
+}
 
 /*
  * (000634) S_GPROC32: [0001:00008A7C], Cb: 000000C9, Type:             0x1001, BuildMesh
@@ -212,6 +250,10 @@
  * 
  * (00068C) S_END
  */
+void BuildMesh()
+{
+	// TODO: BuildMesh
+}
 
 /*
  * (000690) S_GPROC32: [0001:00008B45], Cb: 00000159, Type:             0x1001, BuildTextures
@@ -226,6 +268,10 @@
  * 
  * (000718) S_END
  */
+void BuildTextures()
+{
+	// TODO: BuildTextures
+}
 
 /*
  * (00071C) S_GPROC32: [0001:00008C9E], Cb: 000002EF, Type:             0x1001, Filez_Dump
@@ -237,6 +283,10 @@
  * 
  * (000760) S_END
  */
+void Filez_Dump()
+{
+	// TODO: Filez_Dump
+}
 
 /*
  * (000764) S_GPROC32: [0001:00008F8D], Cb: 00000089, Type:             0x1A13, TP_Search
@@ -250,6 +300,10 @@
  * 
  * (0007DC) S_END
  */
+void TP_Search()
+{
+	// TODO: TP_Search
+}
 
 /*
  * (0007E0) S_GPROC32: [0001:00009016], Cb: 0000052C, Type:             0x1D3B, TP_AddFile
@@ -274,6 +328,10 @@
  * 
  * (0008E4) S_END
  */
+void TP_AddFile()
+{
+	// TODO: TP_AddFile
+}
 
 /*
  * (0008E8) S_GPROC32: [0001:00009542], Cb: 0000075F, Type:             0x16A1, BuildTexture
@@ -319,6 +377,10 @@
  * 
  * (000AA4) S_END
  */
+void BuildTexture()
+{
+	// TODO: BuildTexture
+}
 
 /*
  * (000AA8) S_GPROC32: [0001:00009CA1], Cb: 00000042, Type:             0x16A1, TP_ReleaseLoadBuffer
@@ -330,6 +392,10 @@
  * 
  * (000AF8) S_END
  */
+void TP_ReleaseLoadBuffer()
+{
+	// TODO: TP_ReleaseLoadBuffer
+}
 
 /*
  * (000AFC) S_LPROC32: [0001:00009CE3], Cb: 000000DB, Type:             0x1D3F, texDecompress
@@ -359,6 +425,10 @@
  * 
  * (000BDC) S_END
  */
+void texDecompress()
+{
+	// TODO: texDecompress
+}
 
 /*
  * (000BE0) S_GPROC32: [0001:00009DBE], Cb: 0000030C, Type:             0x1D3B, MODEL_AddFile
@@ -377,6 +447,10 @@
  * 
  * (000CD4) S_END
  */
+void MODEL_AddFile()
+{
+	// TODO: MODEL_AddFile
+}
 
 /*
  * (000CD8) S_GPROC32: [0001:0000A0CA], Cb: 0000008F, Type:             0x1001, BuildModels
@@ -388,6 +462,10 @@
  * 
  * (000D1C) S_END
  */
+void BuildModels()
+{
+	// TODO: BuildModels
+}
 
 /*
  * (000D20) S_GPROC32: [0001:0000A159], Cb: 000002DA, Type:             0x16A1, BuildModel
@@ -406,6 +484,10 @@
  * 
  * (000E08) S_END
  */
+void BuildModel()
+{
+	// TODO: BuildModel
+}
 
 /*
  * (000E0C) S_LPROC32: [0001:0000A433], Cb: 00000A84, Type:             0x1D41, visParseVisual
@@ -474,6 +556,10 @@
  * 
  * (00117C) S_END
  */
+void visParseVisual()
+{
+	// TODO: visParseVisual
+}
 
 /*
  * (001180) S_LPROC32: [0001:0000AEB7], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -486,6 +572,10 @@
  * 
  * (0011D8) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (0011DC) S_LPROC32: [0001:0000AEC5], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -498,4 +588,8 @@
  * 
  * (001234) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 

@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -43,6 +41,10 @@
  * 
  * (0000C0) S_END
  */
+void windInitialize()
+{
+	// TODO: windInitialize
+}
 
 /*
  * (0000C4) S_LPROC32: [0001:0002F682], Cb: 000000CF, Type:             0x1408, windHandler
@@ -55,6 +57,10 @@
  * 
  * (00011C) S_END
  */
+void windHandler()
+{
+	// TODO: windHandler
+}
 
 /*
  * (000120) S_LPROC32: [0001:0002F751], Cb: 00000023, Type:             0x1AA6, nRand
@@ -64,6 +70,10 @@
  * 
  * (000150) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 
 /*
  * (000154) S_GPROC32: [0001:0002F774], Cb: 00000042, Type:             0x1001, windRelease
@@ -73,4 +83,8 @@
  * 
  * (000188) S_END
  */
+void windRelease()
+{
+	// TODO: windRelease
+}
 

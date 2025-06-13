@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -33,6 +31,10 @@
  * 
  * (0000E8) S_END
  */
+void Frame_Release()
+{
+	// TODO: Frame_Release
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:0004DD11], Cb: 000000D7, Type:             0x1824, Frame_Create
@@ -45,6 +47,10 @@
  * 
  * (000150) S_END
  */
+void Frame_Create()
+{
+	// TODO: Frame_Create
+}
 
 /*
  * (000154) S_GPROC32: [0001:0004DDE8], Cb: 0000001D, Type:             0x1A56, Frame_SetDrawOrder
@@ -58,6 +64,10 @@
  * 
  * (0001CC) S_END
  */
+void Frame_SetDrawOrder()
+{
+	// TODO: Frame_SetDrawOrder
+}
 
 /*
  * (0001D0) S_GPROC32: [0001:0004DE05], Cb: 00000080, Type:             0x1408, Frame_Draw
@@ -70,6 +80,10 @@
  * 
  * (00022C) S_END
  */
+void Frame_Draw()
+{
+	// TODO: Frame_Draw
+}
 
 /*
  * (000230) S_GPROC32: [0001:0004DE85], Cb: 00000047, Type:             0x1826, Frame_CreatePoly
@@ -91,6 +105,10 @@
  * 
  * (000324) S_END
  */
+void Frame_CreatePoly()
+{
+	// TODO: Frame_CreatePoly
+}
 
 /*
  * (000328) S_GPROC32: [0001:0004DECC], Cb: 00000043, Type:             0x182C, Frame_CreateFlatPoly
@@ -111,6 +129,10 @@
  * 
  * (000410) S_END
  */
+void Frame_CreateFlatPoly()
+{
+	// TODO: Frame_CreateFlatPoly
+}
 
 /*
  * (000414) S_GPROC32: [0001:0004DF0F], Cb: 00000043, Type:             0x182E, Frame_CreateGouraudPoly
@@ -131,6 +153,10 @@
  * 
  * (000500) S_END
  */
+void Frame_CreateGouraudPoly()
+{
+	// TODO: Frame_CreateGouraudPoly
+}
 
 /*
  * (000504) S_GPROC32: [0001:0004DF52], Cb: 00000051, Type:             0x1A58, Frame_Createbutton
@@ -153,6 +179,10 @@
  * 
  * (000628) S_END
  */
+void Frame_Createbutton()
+{
+	// TODO: Frame_Createbutton
+}
 
 /*
  * (00062C) S_GPROC32: [0001:0004DFA3], Cb: 0000003E, Type:             0x1A5A, Frame_CreateIcon
@@ -172,6 +202,10 @@
  * 
  * (000718) S_END
  */
+void Frame_CreateIcon()
+{
+	// TODO: Frame_CreateIcon
+}
 
 /*
  * (00071C) S_GPROC32: [0001:0004DFE1], Cb: 0000003E, Type:             0x1A5C, Frame_CreateArea
@@ -191,6 +225,10 @@
  * 
  * (0007FC) S_END
  */
+void Frame_CreateArea()
+{
+	// TODO: Frame_CreateArea
+}
 
 /*
  * (000800) S_GPROC32: [0001:0004E01F], Cb: 00000080, Type:             0x1A5E, Frame_TextWrite
@@ -212,6 +250,10 @@
  * 
  * (000908) S_END
  */
+void Frame_TextWrite()
+{
+	// TODO: Frame_TextWrite
+}
 
 /*
  * (00090C) S_GPROC32: [0001:0004E09F], Cb: 00000037, Type:             0x1A5F, Frame_CheckPointerOver
@@ -226,6 +268,10 @@
  * 
  * (000998) S_END
  */
+void Frame_CheckPointerOver()
+{
+	// TODO: Frame_CheckPointerOver
+}
 
 /*
  * (00099C) S_GPROC32: [0001:0004E0D6], Cb: 00000035, Type:             0x1A33, Frame_CheckClick
@@ -240,6 +286,10 @@
  * 
  * (000A20) S_END
  */
+void Frame_CheckClick()
+{
+	// TODO: Frame_CheckClick
+}
 
 /*
  * (000A24) S_GPROC32: [0001:0004E10B], Cb: 00000023, Type:             0x1A56, Frame_SetState
@@ -253,4 +303,8 @@
  * 
  * (000A98) S_END
  */
+void Frame_SetState()
+{
+	// TODO: Frame_SetState
+}
 

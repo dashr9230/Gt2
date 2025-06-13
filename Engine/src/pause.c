@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -40,6 +38,10 @@
  * 
  * (000100) S_END
  */
+void PAUSE_Init()
+{
+	// TODO: PAUSE_Init
+}
 
 /*
  * (000104) S_GPROC32: [0001:0008BA30], Cb: 00000025, Type:             0x1001, PAUSE_Kill
@@ -49,6 +51,10 @@
  * 
  * (000138) S_END
  */
+void PAUSE_Kill()
+{
+	// TODO: PAUSE_Kill
+}
 
 /*
  * (00013C) S_GPROC32: [0001:0008BA55], Cb: 0000004F, Type:             0x1001, PAUSE_GeneralCode
@@ -58,6 +64,10 @@
  * 
  * (000178) S_END
  */
+void PAUSE_GeneralCode()
+{
+	// TODO: PAUSE_GeneralCode
+}
 
 /*
  * (00017C) S_GPROC32: [0001:0008BAA4], Cb: 00000053, Type:             0x1001, PAUSE_Update
@@ -67,6 +77,10 @@
  * 
  * (0001B0) S_END
  */
+void PAUSE_Update()
+{
+	// TODO: PAUSE_Update
+}
 
 /*
  * (0001B4) S_GPROC32: [0001:0008BAF7], Cb: 0000001E, Type:             0x1001, PAUSE_Attempt
@@ -78,4 +92,8 @@
  * 
  * (000204) S_END
  */
+void PAUSE_Attempt()
+{
+	// TODO: PAUSE_Attempt
+}
 

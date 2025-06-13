@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -138,6 +136,10 @@
  * 
  * (00041C) S_END
  */
+void carDraw()
+{
+	// TODO: carDraw
+}
 
 /*
  * (000420) S_LPROC32: [0001:0003EAE3], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -150,6 +152,10 @@
  * 
  * (000478) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (00047C) S_LPROC32: [0001:0003EAF1], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -162,6 +168,10 @@
  * 
  * (0004D4) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 
 /*
  * (0004D8) S_LPROC32: [0001:0003EAFF], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -184,6 +194,10 @@
  * 
  * (000594) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (000598) S_LPROC32: [0001:0003EB70], Cb: 00000023, Type:             0x1AA6, nRand
@@ -193,6 +207,10 @@
  * 
  * (0005C8) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 
 /*
  * (0005CC) S_LPROC32: [0001:0003EB93], Cb: 00000182, Type:             0x1AA7, DriversArmCB
@@ -217,6 +235,10 @@
  * 
  * (0006FC) S_END
  */
+void DriversArmCB()
+{
+	// TODO: DriversArmCB
+}
 
 /*
  * (000700) S_GPROC32: [0001:0003ED15], Cb: 00000028, Type:             0x1408, simStep
@@ -229,6 +251,10 @@
  * 
  * (000754) S_END
  */
+void simStep()
+{
+	// TODO: simStep
+}
 
 /*
  * (000758) S_GPROC32: [0001:0003ED3D], Cb: 00000028, Type:             0x1408, simRun
@@ -241,6 +267,10 @@
  * 
  * (0007AC) S_END
  */
+void simRun()
+{
+	// TODO: simRun
+}
 
 /*
  * (0007B0) S_GPROC32: [0001:0003ED65], Cb: 00000032, Type:             0x1408, simSlow
@@ -253,6 +283,10 @@
  * 
  * (000804) S_END
  */
+void simSlow()
+{
+	// TODO: simSlow
+}
 
 /*
  * (000808) S_GPROC32: [0001:0003ED97], Cb: 00000518, Type:             0x1408, simReset
@@ -280,6 +314,10 @@
  * 
  * (000910) S_END
  */
+void simReset()
+{
+	// TODO: simReset
+}
 
 /*
  * (000914) S_GPROC32: [0001:0003F2AF], Cb: 0000041A, Type:             0x1408, simUpright
@@ -314,6 +352,10 @@
  * 
  * (000A4C) S_END
  */
+void simUpright()
+{
+	// TODO: simUpright
+}
 
 /*
  * (000A50) S_GPROC32: [0001:0003F6C9], Cb: 00000132, Type:             0x1AAA, simSetInverseRotationMatrix
@@ -327,6 +369,10 @@
  * 
  * (000AC4) S_END
  */
+void simSetInverseRotationMatrix()
+{
+	// TODO: simSetInverseRotationMatrix
+}
 
 /*
  * (000AC8) S_GPROC32: [0001:0003F7FB], Cb: 00000195, Type:             0x1AAC, BuildRotation
@@ -364,6 +410,10 @@
  * 
  * (000BF4) S_END
  */
+void BuildRotation()
+{
+	// TODO: BuildRotation
+}
 
 /*
  * (000BF8) S_LPROC32: [0001:0003F990], Cb: 00000031, Type:             0x1AAE, simSinCos
@@ -377,6 +427,10 @@
  * 
  * (000C60) S_END
  */
+void simSinCos()
+{
+	// TODO: simSinCos
+}
 
 /*
  * (000C64) S_LPROC32: [0001:0003F9C1], Cb: 0000019C, Type:             0x1AB0, simMultMatrices
@@ -390,6 +444,10 @@
  * 
  * (000CCC) S_END
  */
+void simMultMatrices()
+{
+	// TODO: simMultMatrices
+}
 
 /*
  * (000CD0) S_GPROC32: [0001:0003FB5D], Cb: 000002D4, Type:             0x1AB2, simApplyForce
@@ -414,6 +472,10 @@
  * 
  * (000E1C) S_END
  */
+void simApplyForce()
+{
+	// TODO: simApplyForce
+}
 
 /*
  * (000E20) S_LPROC32: [0001:0003FE31], Cb: 00000060, Type:             0x1AB4, simCrossProduct
@@ -427,6 +489,10 @@
  * 
  * (000E88) S_END
  */
+void simCrossProduct()
+{
+	// TODO: simCrossProduct
+}
 
 /*
  * (000E8C) S_GPROC32: [0001:0003FE91], Cb: 00000090, Type:             0x1A6A, simControl
@@ -440,6 +506,10 @@
  * 
  * (000EF8) S_END
  */
+void simControl()
+{
+	// TODO: simControl
+}
 
 /*
  * (000EFC) S_GPROC32: [0001:0003FF21], Cb: 00000090, Type:             0x1A6A, simDebug
@@ -453,6 +523,10 @@
  * 
  * (000F64) S_END
  */
+void simDebug()
+{
+	// TODO: simDebug
+}
 
 /*
  * (000F68) S_GPROC32: [0001:0003FFB1], Cb: 000000F9, Type:             0x1001, simInitialize
@@ -467,6 +541,10 @@
  * 
  * (000FE0) S_END
  */
+void simInitialize()
+{
+	// TODO: simInitialize
+}
 
 /*
  * (000FE4) S_GPROC32: [0001:000400AA], Cb: 00000833, Type:             0x1AB6, simInitializeObject
@@ -522,6 +600,10 @@
  * 
  * (0011FC) S_END
  */
+void simInitializeObject()
+{
+	// TODO: simInitializeObject
+}
 
 /*
  * (001200) S_LPROC32: [0001:000408DD], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
@@ -534,6 +616,10 @@
  * 
  * (001254) S_END
  */
+void TS_SKIPTRI()
+{
+	// TODO: TS_SKIPTRI
+}
 
 /*
  * (001258) S_LPROC32: [0001:0004090C], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
@@ -546,6 +632,10 @@
  * 
  * (0012AC) S_END
  */
+void TS_SKIPTRI2()
+{
+	// TODO: TS_SKIPTRI2
+}
 
 /*
  * (0012B0) S_LPROC32: [0001:0004093B], Cb: 000001AC, Type:             0x1AA7, wheelCall
@@ -569,4 +659,8 @@
  * 
  * (0013CC) S_END
  */
+void wheelCall()
+{
+	// TODO: wheelCall
+}
 

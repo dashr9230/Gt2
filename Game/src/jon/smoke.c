@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -66,6 +64,10 @@
  * 
  * (000148) S_END
  */
+void smokeAddSmoke()
+{
+	// TODO: smokeAddSmoke
+}
 
 /*
  * (00014C) S_LPROC32: [0001:0002E106], Cb: 00000028, Type:             0x1B9B, prtAllocate
@@ -77,6 +79,10 @@
  * 
  * (000190) S_END
  */
+void prtAllocate()
+{
+	// TODO: prtAllocate
+}
 
 /*
  * (000194) S_GPROC32: [0001:0002E12E], Cb: 00000170, Type:             0x1B9D, smokeAddGravel
@@ -99,6 +105,10 @@
  * 
  * (000254) S_END
  */
+void smokeAddGravel()
+{
+	// TODO: smokeAddGravel
+}
 
 /*
  * (000258) S_GPROC32: [0001:0002E29E], Cb: 00000210, Type:             0x1B9F, smokeAddDust
@@ -122,6 +132,10 @@
  * 
  * (000328) S_END
  */
+void smokeAddDust()
+{
+	// TODO: smokeAddDust
+}
 
 /*
  * (00032C) S_GPROC32: [0001:0002E4AE], Cb: 0000012C, Type:             0x1BA1, smokeAllocate
@@ -136,6 +150,10 @@
  * 
  * (0003AC) S_END
  */
+void smokeAllocate()
+{
+	// TODO: smokeAllocate
+}
 
 /*
  * (0003B0) S_LPROC32: [0001:0002E5DA], Cb: 0000007D, Type:             0x1408, smokeDraw
@@ -149,6 +167,10 @@
  * 
  * (000418) S_END
  */
+void smokeDraw()
+{
+	// TODO: smokeDraw
+}
 
 /*
  * (00041C) S_LPROC32: [0001:0002E657], Cb: 000000E3, Type:             0x1BA3, smokeLink
@@ -164,6 +186,10 @@
  * 
  * (0004AC) S_END
  */
+void smokeLink()
+{
+	// TODO: smokeLink
+}
 
 /*
  * (0004B0) S_LPROC32: [0001:0002E73A], Cb: 0000008F, Type:             0x1408, smokeHandle
@@ -177,6 +203,10 @@
  * 
  * (000518) S_END
  */
+void smokeHandle()
+{
+	// TODO: smokeHandle
+}
 
 /*
  * (00051C) S_GPROC32: [0001:0002E7C9], Cb: 0000013C, Type:             0x1001, smokeInitialize
@@ -186,6 +216,10 @@
  * 
  * (000554) S_END
  */
+void smokeInitialize()
+{
+	// TODO: smokeInitialize
+}
 
 /*
  * (000558) S_LPROC32: [0001:0002E905], Cb: 00000388, Type:             0x1408, allSmokeDraw
@@ -222,6 +256,10 @@
  * 
  * (0006BC) S_END
  */
+void allSmokeDraw()
+{
+	// TODO: allSmokeDraw
+}
 
 /*
  * (0006C0) S_GPROC32: [0001:0002EC8D], Cb: 00000065, Type:             0x1001, smokeScram
@@ -240,6 +278,10 @@
  * 
  * (000730) S_END
  */
+void smokeScram()
+{
+	// TODO: smokeScram
+}
 
 /*
  * (000734) S_LPROC32: [0001:0002ECF2], Cb: 00000033, Type:             0x1BA3, prtScramList
@@ -258,6 +300,10 @@
  * 
  * (0007A4) S_END
  */
+void prtScramList()
+{
+	// TODO: prtScramList
+}
 
 /*
  * (0007A8) S_GPROC32: [0001:0002ED25], Cb: 0000002C, Type:             0x1001, smokeRelease
@@ -267,6 +313,10 @@
  * 
  * (0007DC) S_END
  */
+void smokeRelease()
+{
+	// TODO: smokeRelease
+}
 
 /*
  * (000A0C) S_GPROC32: [0001:0002ED60], Cb: 0000006F, Type:             0x1A19, RSTATES_SetZWriteEnable
@@ -278,4 +328,8 @@
  * 
  * (000A60) S_END
  */
+void RSTATES_SetZWriteEnable()
+{
+	// TODO: RSTATES_SetZWriteEnable
+}
 

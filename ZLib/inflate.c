@@ -20,11 +20,6 @@
  * (00059C) S_UDT:             0x214D, z_stream_s
  * (0005B0) S_UDT:             0x214A, internal_state
  * (0005C8) S_UDT:             0x214D, z_stream
- * (0005DC) S_UDT:             0x214E, z_streamp
- * 
- */
-
-/*
  */
 
 /*
@@ -37,6 +32,10 @@
  * 
  * (0000D0) S_END
  */
+void inflateReset()
+{
+	// TODO: inflateReset
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:000985F2], Cb: 0000007B, Type:             0x2150, inflateEnd
@@ -48,6 +47,10 @@
  * 
  * (000118) S_END
  */
+void inflateEnd()
+{
+	// TODO: inflateEnd
+}
 
 /*
  * (00011C) S_GPROC32: [0001:0009866D], Cb: 00000178, Type:             0x2152, inflateInit2_
@@ -62,6 +65,10 @@
  * 
  * (0001A0) S_END
  */
+void inflateInit2_()
+{
+	// TODO: inflateInit2_
+}
 
 /*
  * (0001A4) S_GPROC32: [0001:000987E5], Cb: 00000022, Type:             0x2154, inflateInit_
@@ -75,6 +82,10 @@
  * 
  * (000214) S_END
  */
+void inflateInit_()
+{
+	// TODO: inflateInit_
+}
 
 /*
  * (000218) S_GPROC32: [0001:00098807], Cb: 000006F0, Type:             0x2156, inflate
@@ -104,6 +115,10 @@
  * 
  * (0003B0) S_END
  */
+void inflate()
+{
+	// TODO: inflate
+}
 
 /*
  * (0003B4) S_GPROC32: [0001:00098EF7], Cb: 000000CF, Type:             0x2158, inflateSetDictionary
@@ -118,6 +133,10 @@
  * 
  * (000444) S_END
  */
+void inflateSetDictionary()
+{
+	// TODO: inflateSetDictionary
+}
 
 /*
  * (000448) S_GPROC32: [0001:00098FC6], Cb: 00000170, Type:             0x2150, inflateSync
@@ -141,6 +160,10 @@
  * 
  * (00050C) S_END
  */
+void inflateSync()
+{
+	// TODO: inflateSync
+}
 
 /*
  * (000510) S_GPROC32: [0001:00099136], Cb: 00000040, Type:             0x2150, inflateSyncPoint
@@ -152,4 +175,8 @@
  * 
  * (000558) S_END
  */
+void inflateSyncPoint()
+{
+	// TODO: inflateSyncPoint
+}
 

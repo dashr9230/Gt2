@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -35,6 +33,10 @@
  * 
  * (0000F0) S_END
  */
+void SETTINGS_Report()
+{
+	// TODO: SETTINGS_Report
+}
 
 /*
  * (0000F4) S_GPROC32: [0001:00086B9C], Cb: 00000082, Type:             0x1B48, SETTINGS_SetDetailLevel
@@ -47,6 +49,10 @@
  * 
  * (000158) S_END
  */
+void SETTINGS_SetDetailLevel()
+{
+	// TODO: SETTINGS_SetDetailLevel
+}
 
 /*
  * (00015C) S_GPROC32: [0001:00086C1E], Cb: 0000006C, Type:             0x1F95, SETTINGS_GetDetailLevelInfo
@@ -59,6 +65,10 @@
  * 
  * (0001C4) S_END
  */
+void SETTINGS_GetDetailLevelInfo()
+{
+	// TODO: SETTINGS_GetDetailLevelInfo
+}
 
 /*
  * (0001C8) S_GPROC32: [0001:00086C8A], Cb: 00000047, Type:             0x1F97, SETTINGS_EnumAvailable
@@ -71,4 +81,8 @@
  * 
  * (00022C) S_END
  */
+void SETTINGS_EnumAvailable()
+{
+	// TODO: SETTINGS_EnumAvailable
+}
 

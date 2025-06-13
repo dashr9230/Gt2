@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -35,6 +33,10 @@
  * 
  * (0000EC) S_END
  */
+void Time_Init()
+{
+	// TODO: Time_Init
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:0001FE73], Cb: 0000011E, Type:             0x1A56, Time_Reset
@@ -50,6 +52,10 @@
  * 
  * (000180) S_END
  */
+void Time_Reset()
+{
+	// TODO: Time_Reset
+}
 
 /*
  * (000184) S_LPROC32: [0001:0001FF91], Cb: 0000001D, Type:             0x1408, Time_Destroy
@@ -61,6 +67,10 @@
  * 
  * (0001C8) S_END
  */
+void Time_Destroy()
+{
+	// TODO: Time_Destroy
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:0001FFAE], Cb: 000000B3, Type:             0x1408, TriggerPitBoard
@@ -74,6 +84,10 @@
  * 
  * (000240) S_END
  */
+void TriggerPitBoard()
+{
+	// TODO: TriggerPitBoard
+}
 
 /*
  * (000244) S_GPROC32: [0001:00020061], Cb: 0000001D, Type:             0x1408, Time_Handler
@@ -85,6 +99,10 @@
  * 
  * (000288) S_END
  */
+void Time_Handler()
+{
+	// TODO: Time_Handler
+}
 
 /*
  * (00028C) S_LPROC32: [0001:0002007E], Cb: 0000018C, Type:             0x1408, Time_Tick
@@ -99,6 +117,10 @@
  * 
  * (000314) S_END
  */
+void Time_Tick()
+{
+	// TODO: Time_Tick
+}
 
 /*
  * (000318) S_LPROC32: [0001:0002020A], Cb: 00000118, Type:             0x1408, Time_StartLightHandler
@@ -111,6 +133,10 @@
  * 
  * (00037C) S_END
  */
+void Time_StartLightHandler()
+{
+	// TODO: Time_StartLightHandler
+}
 
 /*
  * (000380) S_LPROC32: [0001:00020322], Cb: 0000002C, Type:             0x1408, TimeRaceInfoHandler
@@ -123,6 +149,10 @@
  * 
  * (0003E0) S_END
  */
+void TimeRaceInfoHandler()
+{
+	// TODO: TimeRaceInfoHandler
+}
 
 /*
  * (0003E4) S_LPROC32: [0001:0002034E], Cb: 000000DE, Type:             0x1408, Time_Check
@@ -144,6 +174,10 @@
  * 
  * (0004A0) S_END
  */
+void Time_Check()
+{
+	// TODO: Time_Check
+}
 
 /*
  * (0004A4) S_LPROC32: [0001:0002042C], Cb: 00000371, Type:             0x1408, Time_Draw
@@ -159,6 +193,10 @@
  * 
  * (000538) S_END
  */
+void Time_Draw()
+{
+	// TODO: Time_Draw
+}
 
 /*
  * (00053C) S_GPROC32: [0001:0002079D], Cb: 00000062, Type:             0x1408, Time_InitCar
@@ -171,6 +209,10 @@
  * 
  * (000594) S_END
  */
+void Time_InitCar()
+{
+	// TODO: Time_InitCar
+}
 
 /*
  * (000598) S_GPROC32: [0001:000207FF], Cb: 00000394, Type:             0x1408, Time_UpdateCar
@@ -186,6 +228,10 @@
  * 
  * (00063C) S_END
  */
+void Time_UpdateCar()
+{
+	// TODO: Time_UpdateCar
+}
 
 /*
  * (000640) S_LPROC32: [0001:00020B93], Cb: 0000001E, Type:             0x1408, TriggerRaceInfo
@@ -198,6 +244,10 @@
  * 
  * (00069C) S_END
  */
+void TriggerRaceInfo()
+{
+	// TODO: TriggerRaceInfo
+}
 
 /*
  * (0006A0) S_LPROC32: [0001:00020BB1], Cb: 00000035, Type:             0x1408, TimePitBoardHandler
@@ -210,6 +260,10 @@
  * 
  * (000700) S_END
  */
+void TimePitBoardHandler()
+{
+	// TODO: TimePitBoardHandler
+}
 
 /*
  * (000704) S_GPROC32: [0001:00020BE6], Cb: 00000055, Type:             0x1408, Time_TriggerRaceOver
@@ -229,6 +283,10 @@
  * 
  * (000798) S_END
  */
+void Time_TriggerRaceOver()
+{
+	// TODO: Time_TriggerRaceOver
+}
 
 /*
  * (00079C) S_GPROC32: [0001:00020C3B], Cb: 00000028, Type:             0x1408, Time_TriggerShutdownToMenu
@@ -241,4 +299,8 @@
  * 
  * (000804) S_END
  */
+void Time_TriggerShutdownToMenu()
+{
+	// TODO: Time_TriggerShutdownToMenu
+}
 

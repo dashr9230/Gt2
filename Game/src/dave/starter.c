@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -101,6 +99,10 @@
  * 
  * (00012C) S_END
  */
+void RenderThread()
+{
+	// TODO: RenderThread
+}
 
 /*
  * (000130) S_GPROC32: [0001:00026239], Cb: 0000000E, Type:             0x16A7, HandlerThread
@@ -112,6 +114,10 @@
  * 
  * (00017C) S_END
  */
+void HandlerThread()
+{
+	// TODO: HandlerThread
+}
 
 /*
  * (000180) S_GPROC32: [0001:00026247], Cb: 0000000C, Type:             0x1C02, TimerCallback
@@ -127,6 +133,10 @@
  * 
  * (000214) S_END
  */
+void TimerCallback()
+{
+	// TODO: TimerCallback
+}
 
 /*
  * (000218) S_GPROC32: [0001:00026253], Cb: 00000338, Type:             0x1001, USER_StartupCode
@@ -136,6 +146,10 @@
  * 
  * (000250) S_END
  */
+void USER_StartupCode()
+{
+	// TODO: USER_StartupCode
+}
 
 /*
  * (000254) S_GPROC32: [0001:0002658B], Cb: 00000057, Type:             0x1001, TimerFunc
@@ -145,6 +159,10 @@
  * 
  * (000288) S_END
  */
+void TimerFunc()
+{
+	// TODO: TimerFunc
+}
 
 /*
  * (00028C) S_GPROC32: [0001:000265E2], Cb: 0000001E, Type:             0x1001, HandlerFunc
@@ -154,6 +172,10 @@
  * 
  * (0002C0) S_END
  */
+void HandlerFunc()
+{
+	// TODO: HandlerFunc
+}
 
 /*
  * (0002C4) S_GPROC32: [0001:00026600], Cb: 0000032B, Type:             0x13EF, RenderViewport
@@ -166,6 +188,10 @@
  * 
  * (00032C) S_END
  */
+void RenderViewport()
+{
+	// TODO: RenderViewport
+}
 
 /*
  * (000330) S_LPROC32: [0001:0002692B], Cb: 00000005, Type:             0x1001, tmrBeginTiming
@@ -175,6 +201,10 @@
  * 
  * (000368) S_END
  */
+void tmrBeginTiming()
+{
+	// TODO: tmrBeginTiming
+}
 
 /*
  * (00036C) S_GPROC32: [0001:00026930], Cb: 0000023F, Type:             0x13EF, RenderViewportObjectsOnly
@@ -187,6 +217,10 @@
  * 
  * (0003E0) S_END
  */
+void RenderViewportObjectsOnly()
+{
+	// TODO: RenderViewportObjectsOnly
+}
 
 /*
  * (0003E4) S_GPROC32: [0001:00026B6F], Cb: 00000063, Type:             0x13EF, RenderViewportClearOnly
@@ -198,6 +232,10 @@
  * 
  * (00043C) S_END
  */
+void RenderViewportClearOnly()
+{
+	// TODO: RenderViewportClearOnly
+}
 
 /*
  * (000440) S_GPROC32: [0001:00026BD2], Cb: 00000018, Type:             0x1001, OpBomb
@@ -207,6 +245,10 @@
  * 
  * (000470) S_END
  */
+void OpBomb()
+{
+	// TODO: OpBomb
+}
 
 /*
  * (000474) S_GPROC32: [0001:00026BEA], Cb: 00000145, Type:             0x1001, OpDaveGameStartup
@@ -216,6 +258,10 @@
  * 
  * (0004B0) S_END
  */
+void OpDaveGameStartup()
+{
+	// TODO: OpDaveGameStartup
+}
 
 /*
  * (0004B4) S_GPROC32: [0001:00026D2F], Cb: 0000000A, Type:             0x1001, DaveDisplayLoop
@@ -225,6 +271,10 @@
  * 
  * (0004EC) S_END
  */
+void DaveDisplayLoop()
+{
+	// TODO: DaveDisplayLoop
+}
 
 /*
  * (0004F0) S_GPROC32: [0001:00026D39], Cb: 00000021, Type:             0x1001, DaveGameLoop
@@ -234,6 +284,10 @@
  * 
  * (000524) S_END
  */
+void DaveGameLoop()
+{
+	// TODO: DaveGameLoop
+}
 
 /*
  * (000B9C) S_GPROC32: [0001:00026D60], Cb: 00000141, Type:             0x1001, WaitVblAndFlip
@@ -256,6 +310,10 @@
  * 
  * (000C68) S_END
  */
+void WaitVblAndFlip()
+{
+	// TODO: WaitVblAndFlip
+}
 
 /*
  * (000C6C) S_GPROC32: [0001:00026EB0], Cb: 0000008C, Type:             0x141A, RSTATES_SetMipMapping
@@ -271,6 +329,10 @@
  * 
  * (000D0C) S_END
  */
+void RSTATES_SetMipMapping()
+{
+	// TODO: RSTATES_SetMipMapping
+}
 
 /*
  * (000D10) S_GPROC32: [0001:00026F40], Cb: 000000D8, Type:             0x1A19, RSTATES_SetBilinearEnable
@@ -282,6 +344,10 @@
  * 
  * (000D70) S_END
  */
+void RSTATES_SetBilinearEnable()
+{
+	// TODO: RSTATES_SetBilinearEnable
+}
 
 /*
  * (000D74) S_GPROC32: [0001:00027020], Cb: 00000068, Type:             0x1B2F, TSTATES_SetMagFilter
@@ -294,6 +360,10 @@
  * 
  * (000DD8) S_END
  */
+void TSTATES_SetMagFilter()
+{
+	// TODO: TSTATES_SetMagFilter
+}
 
 /*
  * (000DDC) S_GPROC32: [0001:00027090], Cb: 00000068, Type:             0x1B2F, TSTATES_SetMinFilter
@@ -306,6 +376,10 @@
  * 
  * (000E40) S_END
  */
+void TSTATES_SetMinFilter()
+{
+	// TODO: TSTATES_SetMinFilter
+}
 
 /*
  * (000E44) S_GPROC32: [0001:00027100], Cb: 00000068, Type:             0x1B2F, TSTATES_SetMipFilter
@@ -318,4 +392,8 @@
  * 
  * (000EA8) S_END
  */
+void TSTATES_SetMipFilter()
+{
+	// TODO: TSTATES_SetMipFilter
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -67,6 +65,10 @@
  * 
  * (0000D4) S_END
  */
+void RSTATES_Start()
+{
+	// TODO: RSTATES_Start
+}
 
 /*
  * (0000D8) S_GPROC32: [0001:00088BC0], Cb: 00000138, Type:             0x1001, RSTATES_Report
@@ -83,6 +85,10 @@
  * 
  * (00013C) S_END
  */
+void RSTATES_Report()
+{
+	// TODO: RSTATES_Report
+}
 
 /*
  * (000140) S_GPROC32: [0001:00088CF8], Cb: 00000035, Type:             0x1B5B, RSTATES_ReportMessage
@@ -94,6 +100,10 @@
  * 
  * (000194) S_END
  */
+void RSTATES_ReportMessage()
+{
+	// TODO: RSTATES_ReportMessage
+}
 
 /*
  * (000198) S_GPROC32: [0001:00088D2D], Cb: 00000100, Type:             0x1001, TSTATES_DumpTextureStages
@@ -105,4 +115,8 @@
  * 
  * (0001EC) S_END
  */
+void TSTATES_DumpTextureStages()
+{
+	// TODO: TSTATES_DumpTextureStages
+}
 

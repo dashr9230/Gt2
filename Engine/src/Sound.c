@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -59,6 +57,10 @@
  * 
  * (0000C0) S_END
  */
+void MSS_Create()
+{
+	// TODO: MSS_Create
+}
 
 /*
  * (0000C4) S_LPROC32: [0001:0008C7C4], Cb: 00000053, Type:             0x1F16, SetupWaveFormat
@@ -73,6 +75,10 @@
  * 
  * (000158) S_END
  */
+void SetupWaveFormat()
+{
+	// TODO: SetupWaveFormat
+}
 
 /*
  * (00015C) S_LPROC32: [0001:0008C817], Cb: 0000008B, Type:             0x1001, Create2DChannels
@@ -84,6 +90,10 @@
  * 
  * (0001A4) S_END
  */
+void Create2DChannels()
+{
+	// TODO: Create2DChannels
+}
 
 /*
  * (0001A8) S_LPROC32: [0001:0008C8A2], Cb: 00000050, Type:             0x1001, CreateSampleBuffers
@@ -95,6 +105,10 @@
  * 
  * (0001F4) S_END
  */
+void CreateSampleBuffers()
+{
+	// TODO: CreateSampleBuffers
+}
 
 /*
  * (0001F8) S_GPROC32: [0001:0008C8F2], Cb: 0000009B, Type:             0x16A5, MSS_Destroy
@@ -104,6 +118,10 @@
  * 
  * (00022C) S_END
  */
+void MSS_Destroy()
+{
+	// TODO: MSS_Destroy
+}
 
 /*
  * (000230) S_LPROC32: [0001:0008C98D], Cb: 00000062, Type:             0x1001, Destroy2DChannels
@@ -115,6 +133,10 @@
  * 
  * (00027C) S_END
  */
+void Destroy2DChannels()
+{
+	// TODO: Destroy2DChannels
+}
 
 /*
  * (000280) S_LPROC32: [0001:0008C9EF], Cb: 00000072, Type:             0x1001, DestroySampleBuffers
@@ -126,6 +148,10 @@
  * 
  * (0002CC) S_END
  */
+void DestroySampleBuffers()
+{
+	// TODO: DestroySampleBuffers
+}
 
 /*
  * (0002D0) S_GPROC32: [0001:0008CA61], Cb: 0000002A, Type:             0x1B52, MSS_MonitorPerformance
@@ -137,6 +163,10 @@
  * 
  * (000320) S_END
  */
+void MSS_MonitorPerformance()
+{
+	// TODO: MSS_MonitorPerformance
+}
 
 /*
  * (000324) S_GPROC32: [0001:0008CA8B], Cb: 0000001F, Type:             0x141A, MSS_SetMasterVolume
@@ -148,6 +178,10 @@
  * 
  * (000374) S_END
  */
+void MSS_SetMasterVolume()
+{
+	// TODO: MSS_SetMasterVolume
+}
 
 /*
  * (000378) S_GPROC32: [0001:0008CAAA], Cb: 0000001E, Type:             0x1B52, MSS_GetMasterVolume
@@ -157,6 +191,10 @@
  * 
  * (0003B4) S_END
  */
+void MSS_GetMasterVolume()
+{
+	// TODO: MSS_GetMasterVolume
+}
 
 /*
  * (0003B8) S_GPROC32: [0001:0008CAC8], Cb: 00000031, Type:             0x16A1, MSS_Free
@@ -168,6 +206,10 @@
  * 
  * (0003FC) S_END
  */
+void MSS_Free()
+{
+	// TODO: MSS_Free
+}
 
 /*
  * (000400) S_GPROC32: [0001:0008CAF9], Cb: 000000A6, Type:             0x1F18, MSS_Load
@@ -190,6 +232,10 @@
  * 
  * (0004D4) S_END
  */
+void MSS_Load()
+{
+	// TODO: MSS_Load
+}
 
 /*
  * (0004D8) S_GPROC32: [0001:0008CB9F], Cb: 000000B6, Type:             0x1F1B, MSS_LoadList
@@ -208,6 +254,10 @@
  * 
  * (000550) S_END
  */
+void MSS_LoadList()
+{
+	// TODO: MSS_LoadList
+}
 
 /*
  * (000554) S_GPROC32: [0001:0008CC55], Cb: 000000DB, Type:             0x1001, MSS_ProcessSamples
@@ -227,6 +277,10 @@
  * 
  * (000608) S_END
  */
+void MSS_ProcessSamples()
+{
+	// TODO: MSS_ProcessSamples
+}
 
 /*
  * (00060C) S_GPROC32: [0001:0008CD30], Cb: 000000BD, Type:             0x1F1C, MSS_FindChannel
@@ -248,6 +302,10 @@
  * 
  * (0006D0) S_END
  */
+void MSS_FindChannel()
+{
+	// TODO: MSS_FindChannel
+}
 
 /*
  * (0006D4) S_GPROC32: [0001:0008CDED], Cb: 00000021, Type:             0x16A1, MSS_Stop
@@ -259,6 +317,10 @@
  * 
  * (000718) S_END
  */
+void MSS_Stop()
+{
+	// TODO: MSS_Stop
+}
 
 /*
  * (00071C) S_GPROC32: [0001:0008CE0E], Cb: 000000AE, Type:             0x1F1D, MSS_Play
@@ -277,6 +339,10 @@
  * 
  * (000790) S_END
  */
+void MSS_Play()
+{
+	// TODO: MSS_Play
+}
 
 /*
  * (000794) S_GPROC32: [0001:0008CEBC], Cb: 00000008, Type:             0x1F1F, MSS_PlayEx
@@ -292,6 +358,10 @@
  * 
  * (00082C) S_END
  */
+void MSS_PlayEx()
+{
+	// TODO: MSS_PlayEx
+}
 
 /*
  * (000830) S_GPROC32: [0001:0008CEC4], Cb: 00000034, Type:             0x1A1D, MSS_SetPan
@@ -304,6 +374,10 @@
  * 
  * (000888) S_END
  */
+void MSS_SetPan()
+{
+	// TODO: MSS_SetPan
+}
 
 /*
  * (00088C) S_GPROC32: [0001:0008CEF8], Cb: 00000021, Type:             0x1F1C, MSS_GetPan
@@ -315,6 +389,10 @@
  * 
  * (0008D4) S_END
  */
+void MSS_GetPan()
+{
+	// TODO: MSS_GetPan
+}
 
 /*
  * (0008D8) S_GPROC32: [0001:0008CF19], Cb: 00000034, Type:             0x1A1D, MSS_SetSampleFrequency
@@ -327,6 +405,10 @@
  * 
  * (000940) S_END
  */
+void MSS_SetSampleFrequency()
+{
+	// TODO: MSS_SetSampleFrequency
+}
 
 /*
  * (000944) S_GPROC32: [0001:0008CF4D], Cb: 0000001E, Type:             0x1F1C, MSS_GetSampleFrequency
@@ -338,6 +420,10 @@
  * 
  * (000998) S_END
  */
+void MSS_GetSampleFrequency()
+{
+	// TODO: MSS_GetSampleFrequency
+}
 
 /*
  * (00099C) S_GPROC32: [0001:0008CF6B], Cb: 00000198, Type:             0x1001, MSS_Get3DAudioProviders
@@ -358,6 +444,10 @@
  * 
  * (000A44) S_END
  */
+void MSS_Get3DAudioProviders()
+{
+	// TODO: MSS_Get3DAudioProviders
+}
 
 /*
  * (000A48) S_GPROC32: [0001:0008D103], Cb: 0000013B, Type:             0x1B5B, MSS_ShowChannels3D
@@ -382,6 +472,10 @@
  * 
  * (000B34) S_END
  */
+void MSS_ShowChannels3D()
+{
+	// TODO: MSS_ShowChannels3D
+}
 
 /*
  * (000B38) S_GPROC32: [0001:0008D23E], Cb: 00000042, Type:             0x1001, MSS_Close3DAudio
@@ -391,6 +485,10 @@
  * 
  * (000B70) S_END
  */
+void MSS_Close3DAudio()
+{
+	// TODO: MSS_Close3DAudio
+}
 
 /*
  * (000B74) S_LPROC32: [0001:0008D280], Cb: 00000062, Type:             0x1001, Destroy3DChannels
@@ -402,6 +500,10 @@
  * 
  * (000BC0) S_END
  */
+void Destroy3DChannels()
+{
+	// TODO: Destroy3DChannels
+}
 
 /*
  * (000BC4) S_LPROC32: [0001:0008D2E2], Cb: 0000002D, Type:             0x1001, Destroy3DListener
@@ -411,6 +513,10 @@
  * 
  * (000C00) S_END
  */
+void Destroy3DListener()
+{
+	// TODO: Destroy3DListener
+}
 
 /*
  * (000C04) S_GPROC32: [0001:0008D30F], Cb: 0000010F, Type:             0x1F20, MSS_Open3DAudio
@@ -431,6 +537,10 @@
  * 
  * (000CB4) S_END
  */
+void MSS_Open3DAudio()
+{
+	// TODO: MSS_Open3DAudio
+}
 
 /*
  * (000CB8) S_LPROC32: [0001:0008D41E], Cb: 00000080, Type:             0x1001, Create3DChannels
@@ -442,6 +552,10 @@
  * 
  * (000D00) S_END
  */
+void Create3DChannels()
+{
+	// TODO: Create3DChannels
+}
 
 /*
  * (000D04) S_LPROC32: [0001:0008D49E], Cb: 00000028, Type:             0x1001, Create3DListener
@@ -451,6 +565,10 @@
  * 
  * (000D3C) S_END
  */
+void Create3DListener()
+{
+	// TODO: Create3DListener
+}
 
 /*
  * (000D40) S_LPROC32: [0001:0008D4C6], Cb: 00000071, Type:             0x17C9, SetEAXVolume
@@ -463,6 +581,10 @@
  * 
  * (000D9C) S_END
  */
+void SetEAXVolume()
+{
+	// TODO: SetEAXVolume
+}
 
 /*
  * (000DA0) S_GPROC32: [0001:0008D537], Cb: 0000002E, Type:             0x1831, MSS_ChannelStatus3D
@@ -474,6 +596,10 @@
  * 
  * (000DF0) S_END
  */
+void MSS_ChannelStatus3D()
+{
+	// TODO: MSS_ChannelStatus3D
+}
 
 /*
  * (000DF4) S_GPROC32: [0001:0008D565], Cb: 00000118, Type:             0x1F1D, MSS_PlaySample3D
@@ -492,6 +618,10 @@
  * 
  * (000E74) S_END
  */
+void MSS_PlaySample3D()
+{
+	// TODO: MSS_PlaySample3D
+}
 
 /*
  * (000E78) S_LPROC32: [0001:0008D67D], Cb: 000000EC, Type:             0x1F1D, FindChannel3D
@@ -514,6 +644,10 @@
  * 
  * (000F50) S_END
  */
+void FindChannel3D()
+{
+	// TODO: FindChannel3D
+}
 
 /*
  * (000F54) S_GPROC32: [0001:0008D769], Cb: 00000032, Type:             0x141A, MSS_StopChannel3D
@@ -525,6 +659,10 @@
  * 
  * (000FAC) S_END
  */
+void MSS_StopChannel3D()
+{
+	// TODO: MSS_StopChannel3D
+}
 
 /*
  * (000FB0) S_GPROC32: [0001:0008D79B], Cb: 0000003E, Type:             0x1001, MSS_StopAllChannels3D
@@ -536,6 +674,10 @@
  * 
  * (001000) S_END
  */
+void MSS_StopAllChannels3D()
+{
+	// TODO: MSS_StopAllChannels3D
+}
 
 /*
  * (001004) S_GPROC32: [0001:0008D7D9], Cb: 00000043, Type:             0x1B3A, MSS_SetChannelVolume3D
@@ -548,6 +690,10 @@
  * 
  * (00106C) S_END
  */
+void MSS_SetChannelVolume3D()
+{
+	// TODO: MSS_SetChannelVolume3D
+}
 
 /*
  * (001070) S_GPROC32: [0001:0008D81C], Cb: 00000033, Type:             0x1F1D, MSS_GetChannelVolume3D
@@ -559,6 +705,10 @@
  * 
  * (0010C4) S_END
  */
+void MSS_GetChannelVolume3D()
+{
+	// TODO: MSS_GetChannelVolume3D
+}
 
 /*
  * (0010C8) S_GPROC32: [0001:0008D84F], Cb: 0000004B, Type:             0x1F22, MSS_SetChannelLoopStatus3D
@@ -571,6 +721,10 @@
  * 
  * (001134) S_END
  */
+void MSS_SetChannelLoopStatus3D()
+{
+	// TODO: MSS_SetChannelLoopStatus3D
+}
 
 /*
  * (001138) S_GPROC32: [0001:0008D89A], Cb: 00000045, Type:             0x1B3A, MSS_SetChannelPlaybackFrequency3D
@@ -583,6 +737,10 @@
  * 
  * (0011B0) S_END
  */
+void MSS_SetChannelPlaybackFrequency3D()
+{
+	// TODO: MSS_SetChannelPlaybackFrequency3D
+}
 
 /*
  * (0011B4) S_GPROC32: [0001:0008D8DF], Cb: 00000033, Type:             0x1F1D, MSS_GetChannelPlaybackFrequency3D
@@ -594,6 +752,10 @@
  * 
  * (001214) S_END
  */
+void MSS_GetChannelPlaybackFrequency3D()
+{
+	// TODO: MSS_GetChannelPlaybackFrequency3D
+}
 
 /*
  * (001218) S_GPROC32: [0001:0008D912], Cb: 0000003E, Type:             0x1F24, MSS_SetChannelPos3D
@@ -608,6 +770,10 @@
  * 
  * (0012A4) S_END
  */
+void MSS_SetChannelPos3D()
+{
+	// TODO: MSS_SetChannelPos3D
+}
 
 /*
  * (0012A8) S_GPROC32: [0001:0008D950], Cb: 00000047, Type:             0x1F24, MSS_SetChannelOri3D
@@ -622,6 +788,10 @@
  * 
  * (001334) S_END
  */
+void MSS_SetChannelOri3D()
+{
+	// TODO: MSS_SetChannelOri3D
+}
 
 /*
  * (001338) S_GPROC32: [0001:0008D997], Cb: 0000003E, Type:             0x1F24, MSS_SetChannelVel3D
@@ -636,6 +806,10 @@
  * 
  * (0013C4) S_END
  */
+void MSS_SetChannelVel3D()
+{
+	// TODO: MSS_SetChannelVel3D
+}
 
 /*
  * (0013C8) S_GPROC32: [0001:0008D9D5], Cb: 00000042, Type:             0x1F26, MSS_SetSampleDistances3D
@@ -649,6 +823,10 @@
  * 
  * (00144C) S_END
  */
+void MSS_SetSampleDistances3D()
+{
+	// TODO: MSS_SetSampleDistances3D
+}
 
 /*
  * (001450) S_GPROC32: [0001:0008DA17], Cb: 0000003E, Type:             0x1F28, MSS_GetSampleDistances3D
@@ -662,6 +840,10 @@
  * 
  * (0014D4) S_END
  */
+void MSS_GetSampleDistances3D()
+{
+	// TODO: MSS_GetSampleDistances3D
+}
 
 /*
  * (0014D8) S_GPROC32: [0001:0008DA55], Cb: 0000003A, Type:             0x1F29, MSS_SetListenerOri3D
@@ -675,6 +857,10 @@
  * 
  * (001550) S_END
  */
+void MSS_SetListenerOri3D()
+{
+	// TODO: MSS_SetListenerOri3D
+}
 
 /*
  * (001554) S_GPROC32: [0001:0008DA8F], Cb: 00000031, Type:             0x1F29, MSS_SetListenerVel3D
@@ -688,6 +874,10 @@
  * 
  * (0015CC) S_END
  */
+void MSS_SetListenerVel3D()
+{
+	// TODO: MSS_SetListenerVel3D
+}
 
 /*
  * (0015D0) S_GPROC32: [0001:0008DAC0], Cb: 0000001A, Type:             0x1B52, MSS_ReportNumberActiveSamples3D
@@ -697,6 +887,10 @@
  * 
  * (001618) S_END
  */
+void MSS_ReportNumberActiveSamples3D()
+{
+	// TODO: MSS_ReportNumberActiveSamples3D
+}
 
 /*
  * (00161C) S_GPROC32: [0001:0008DADA], Cb: 0000008E, Type:             0x141A, MSS_SetEAXRoomType
@@ -725,6 +919,10 @@
  * 
  * (001718) S_END
  */
+void MSS_SetEAXRoomType()
+{
+	// TODO: MSS_SetEAXRoomType
+}
 
 /*
  * (00171C) S_GPROC32: [0001:0008DB68], Cb: 000000D4, Type:             0x1F2D, MSS_StartMusic
@@ -745,6 +943,10 @@
  * 
  * (0017C8) S_END
  */
+void MSS_StartMusic()
+{
+	// TODO: MSS_StartMusic
+}
 
 /*
  * (0017CC) S_GPROC32: [0001:0008DC3C], Cb: 00000007, Type:             0x1F2D, MSS_PreLoadStartMusic
@@ -757,6 +959,10 @@
  * 
  * (001838) S_END
  */
+void MSS_PreLoadStartMusic()
+{
+	// TODO: MSS_PreLoadStartMusic
+}
 
 /*
  * (00183C) S_GPROC32: [0001:0008DC43], Cb: 00000037, Type:             0x1001, MSS_StopMusic
@@ -766,6 +972,10 @@
  * 
  * (001874) S_END
  */
+void MSS_StopMusic()
+{
+	// TODO: MSS_StopMusic
+}
 
 /*
  * (001878) S_GPROC32: [0001:0008DC7A], Cb: 00000060, Type:             0x141A, MSS_SetMusicVolume
@@ -777,6 +987,10 @@
  * 
  * (0018CC) S_END
  */
+void MSS_SetMusicVolume()
+{
+	// TODO: MSS_SetMusicVolume
+}
 
 /*
  * (0018D0) S_GPROC32: [0001:0008DCDA], Cb: 0000000A, Type:             0x1B52, MSS_GetMusicVolume
@@ -786,6 +1000,10 @@
  * 
  * (00190C) S_END
  */
+void MSS_GetMusicVolume()
+{
+	// TODO: MSS_GetMusicVolume
+}
 
 /*
  * (001910) S_GPROC32: [0001:0008DCE4], Cb: 00000024, Type:             0x1001, MSS_PushMusicVolume
@@ -795,6 +1013,10 @@
  * 
  * (00194C) S_END
  */
+void MSS_PushMusicVolume()
+{
+	// TODO: MSS_PushMusicVolume
+}
 
 /*
  * (001950) S_GPROC32: [0001:0008DD08], Cb: 00000029, Type:             0x1001, MSS_PopMusicVolume
@@ -804,6 +1026,10 @@
  * 
  * (00198C) S_END
  */
+void MSS_PopMusicVolume()
+{
+	// TODO: MSS_PopMusicVolume
+}
 
 /*
  * (001990) S_GPROC32: [0001:0008DD31], Cb: 00000028, Type:             0x141A, MSS_PauseMusic
@@ -815,6 +1041,10 @@
  * 
  * (0019E0) S_END
  */
+void MSS_PauseMusic()
+{
+	// TODO: MSS_PauseMusic
+}
 
 /*
  * (0019E4) S_GPROC32: [0001:0008DD59], Cb: 0000001D, Type:             0x141A, MSS_PauseAllSound
@@ -826,6 +1056,10 @@
  * 
  * (001A38) S_END
  */
+void MSS_PauseAllSound()
+{
+	// TODO: MSS_PauseAllSound
+}
 
 /*
  * (001A3C) S_LPROC32: [0001:0008DD76], Cb: 0000009F, Type:             0x141A, MSS_Pause3DSound
@@ -844,6 +1078,10 @@
  * 
  * (001AB8) S_END
  */
+void MSS_Pause3DSound()
+{
+	// TODO: MSS_Pause3DSound
+}
 
 /*
  * (001ABC) S_GPROC32: [0001:0008DE15], Cb: 00000051, Type:             0x1001, MSS_AcquireSound
@@ -860,6 +1098,10 @@
  * 
  * (001B20) S_END
  */
+void MSS_AcquireSound()
+{
+	// TODO: MSS_AcquireSound
+}
 
 /*
  * (001B24) S_GPROC32: [0001:0008DE66], Cb: 0000002D, Type:             0x1001, MSS_UnacquireSound
@@ -869,6 +1111,10 @@
  * 
  * (001B60) S_END
  */
+void MSS_UnacquireSound()
+{
+	// TODO: MSS_UnacquireSound
+}
 
 /*
  * (001B64) S_GPROC32: [0001:0008DE93], Cb: 000000FE, Type:             0x1F2F, MSS_ConfigMenu
@@ -887,6 +1133,10 @@
  * 
  * (001BDC) S_END
  */
+void MSS_ConfigMenu()
+{
+	// TODO: MSS_ConfigMenu
+}
 
 /*
  * (001BE0) S_GPROC32: [0001:0008DF91], Cb: 00000078, Type:             0x1F2F, MSS_ConfigMenuResult
@@ -899,6 +1149,10 @@
  * 
  * (001C48) S_END
  */
+void MSS_ConfigMenuResult()
+{
+	// TODO: MSS_ConfigMenuResult
+}
 
 /*
  * (001C4C) S_GPROC32: [0001:0008E009], Cb: 0000000A, Type:             0x1F30, MSS_GetSoundProvider
@@ -908,6 +1162,10 @@
  * 
  * (001C88) S_END
  */
+void MSS_GetSoundProvider()
+{
+	// TODO: MSS_GetSoundProvider
+}
 
 /*
  * (001C8C) S_GPROC32: [0001:0008E013], Cb: 0000000A, Type:             0x1F30, MSS_GetSoundQuality
@@ -917,6 +1175,10 @@
  * 
  * (001CC8) S_END
  */
+void MSS_GetSoundQuality()
+{
+	// TODO: MSS_GetSoundQuality
+}
 
 /*
  * (001CCC) S_GPROC32: [0001:0008E01D], Cb: 00000016, Type:             0x1B5B, MSS_SetSoundProvider
@@ -928,6 +1190,10 @@
  * 
  * (001D24) S_END
  */
+void MSS_SetSoundProvider()
+{
+	// TODO: MSS_SetSoundProvider
+}
 
 /*
  * (001D28) S_GPROC32: [0001:0008E033], Cb: 00000016, Type:             0x1B5B, MSS_SetSoundQuality
@@ -939,4 +1205,8 @@
  * 
  * (001D80) S_END
  */
+void MSS_SetSoundQuality()
+{
+	// TODO: MSS_SetSoundQuality
+}
 

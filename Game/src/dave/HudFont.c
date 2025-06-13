@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000E8) S_END
  */
+void HUDFONT_Allocate()
+{
+	// TODO: HUDFONT_Allocate
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:0000E0E1], Cb: 0000001F, Type:             0x1D06, HUDFONT_Release
@@ -47,6 +49,10 @@
  * 
  * (000138) S_END
  */
+void HUDFONT_Release()
+{
+	// TODO: HUDFONT_Release
+}
 
 /*
  * (00013C) S_GPROC32: [0001:0000E100], Cb: 00000042, Type:             0x1D08, HUDFONT_Reset
@@ -62,6 +68,10 @@
  * 
  * (0001C8) S_END
  */
+void HUDFONT_Reset()
+{
+	// TODO: HUDFONT_Reset
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:0000E142], Cb: 0000002B, Type:             0x1D06, HUDFONT_Draw
@@ -73,6 +83,10 @@
  * 
  * (000214) S_END
  */
+void HUDFONT_Draw()
+{
+	// TODO: HUDFONT_Draw
+}
 
 /*
  * (000218) S_GPROC32: [0001:0000E16D], Cb: 00000174, Type:             0x1D0A, HUDFONT_AddString
@@ -105,6 +119,10 @@
  * 
  * (0003A0) S_END
  */
+void HUDFONT_AddString()
+{
+	// TODO: HUDFONT_AddString
+}
 
 /*
  * (0003A4) S_LPROC32: [0001:0000E2E1], Cb: 0000011C, Type:             0x1D0C, HUDFONT_AddChar
@@ -124,6 +142,10 @@
  * 
  * (00047C) S_END
  */
+void HUDFONT_AddChar()
+{
+	// TODO: HUDFONT_AddChar
+}
 
 /*
  * (000480) S_LPROC32: [0001:0000E3FD], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -139,6 +161,10 @@
  * 
  * (000504) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000508) S_LPROC32: [0001:0000E477], Cb: 00000085, Type:             0x1D0E, HUDFONT_GetTextExtents
@@ -162,6 +188,10 @@
  * 
  * (0005E0) S_END
  */
+void HUDFONT_GetTextExtents()
+{
+	// TODO: HUDFONT_GetTextExtents
+}
 
 /*
  * (0005E4) S_GPROC32: [0001:0000E4FC], Cb: 000000A2, Type:             0x1D10, HUDFONT_AddTime
@@ -185,6 +215,10 @@
  * 
  * (000708) S_END
  */
+void HUDFONT_AddTime()
+{
+	// TODO: HUDFONT_AddTime
+}
 
 /*
  * (00070C) S_GPROC32: [0001:0000E59E], Cb: 000000C9, Type:             0x1D10, HUDFONT_AddSplit
@@ -208,6 +242,10 @@
  * 
  * (000830) S_END
  */
+void HUDFONT_AddSplit()
+{
+	// TODO: HUDFONT_AddSplit
+}
 
 /*
  * (000874) S_GPROC32: [0001:0000E670], Cb: 0000000E, Type:             0x1D12, P2D_SetPrimsToDraw
@@ -220,6 +258,10 @@
  * 
  * (0008DC) S_END
  */
+void P2D_SetPrimsToDraw()
+{
+	// TODO: P2D_SetPrimsToDraw
+}
 
 /*
  * (0008E0) S_GPROC32: [0001:0000E680], Cb: 00000015, Type:             0x1D12, P2D_SetCurPrim
@@ -232,6 +274,10 @@
  * 
  * (000940) S_END
  */
+void P2D_SetCurPrim()
+{
+	// TODO: P2D_SetCurPrim
+}
 
 /*
  * (000944) S_GPROC32: [0001:0000E6A0], Cb: 0000001F, Type:             0x1CCB, P2D_SetBlendMode
@@ -244,6 +290,10 @@
  * 
  * (0009A4) S_END
  */
+void P2D_SetBlendMode()
+{
+	// TODO: P2D_SetBlendMode
+}
 
 /*
  * (0009A8) S_GPROC32: [0001:0000E6C0], Cb: 0000000E, Type:             0x1D14, P2D_SetTPage
@@ -256,6 +306,10 @@
  * 
  * (000A04) S_END
  */
+void P2D_SetTPage()
+{
+	// TODO: P2D_SetTPage
+}
 
 /*
  * (000A08) S_GPROC32: [0001:0000E6D0], Cb: 0000006D, Type:             0x1D12, P2D_SetAllColour
@@ -269,6 +323,10 @@
  * 
  * (000A74) S_END
  */
+void P2D_SetAllColour()
+{
+	// TODO: P2D_SetAllColour
+}
 
 /*
  * (000A78) S_GPROC32: [0001:0000E740], Cb: 00000288, Type:             0x1A77, P2D_SetXYWH
@@ -284,6 +342,10 @@
  * 
  * (000B00) S_END
  */
+void P2D_SetXYWH()
+{
+	// TODO: P2D_SetXYWH
+}
 
 /*
  * (000B04) S_GPROC32: [0001:0000E9D0], Cb: 000000D3, Type:             0x1A77, P2D_SetUVWH
@@ -299,4 +361,8 @@
  * 
  * (000B8C) S_END
  */
+void P2D_SetUVWH()
+{
+	// TODO: P2D_SetUVWH
+}
 

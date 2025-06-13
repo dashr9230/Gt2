@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000F0) S_END
  */
+void sunAllocate()
+{
+	// TODO: sunAllocate
+}
 
 /*
  * (0000F4) S_LPROC32: [0001:0002EF17], Cb: 00000005, Type:             0x1408, sunRender
@@ -47,6 +49,10 @@
  * 
  * (000138) S_END
  */
+void sunRender()
+{
+	// TODO: sunRender
+}
 
 /*
  * (00013C) S_LPROC32: [0001:0002EF1C], Cb: 00000005, Type:             0x1408, sunTrackCamera
@@ -58,6 +64,10 @@
  * 
  * (000184) S_END
  */
+void sunTrackCamera()
+{
+	// TODO: sunTrackCamera
+}
 
 /*
  * (000188) S_LPROC32: [0001:0002EF21], Cb: 00000005, Type:             0x1408, moonTrackCamera
@@ -69,6 +79,10 @@
  * 
  * (0001D0) S_END
  */
+void moonTrackCamera()
+{
+	// TODO: moonTrackCamera
+}
 
 /*
  * (0001D4) S_LPROC32: [0001:0002EF26], Cb: 0000003D, Type:             0x1408, moonRender
@@ -80,4 +94,8 @@
  * 
  * (000218) S_END
  */
+void moonRender()
+{
+	// TODO: moonRender
+}
 

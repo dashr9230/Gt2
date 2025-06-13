@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -46,6 +44,10 @@
  * 
  * (0000D4) S_END
  */
+void ClearCallback()
+{
+	// TODO: ClearCallback
+}
 
 /*
  * (0000D8) S_LPROC32: [0001:00052F02], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -58,6 +60,10 @@
  * 
  * (000130) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (000134) S_LPROC32: [0001:00052F10], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -70,6 +76,10 @@
  * 
  * (00018C) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 
 /*
  * (000190) S_GPROC32: [0001:00052F1E], Cb: 00000389, Type:             0x1A33, MenuDrawCar
@@ -89,6 +99,10 @@
  * 
  * (000268) S_END
  */
+void MenuDrawCar()
+{
+	// TODO: MenuDrawCar
+}
 
 /*
  * (00026C) S_GPROC32: [0001:000532A7], Cb: 00000018, Type:             0x1408, MenuCarHandler
@@ -100,6 +114,10 @@
  * 
  * (0002B4) S_END
  */
+void MenuCarHandler()
+{
+	// TODO: MenuCarHandler
+}
 
 /*
  * (0002B8) S_GPROC32: [0001:000532BF], Cb: 00000234, Type:             0x1408, MenuDrawTrack
@@ -115,6 +133,10 @@
  * 
  * (000344) S_END
  */
+void MenuDrawTrack()
+{
+	// TODO: MenuDrawTrack
+}
 
 /*
  * (000348) S_GPROC32: [0001:000534F3], Cb: 0000005D, Type:             0x1408, MenuDrawTrophy
@@ -126,6 +148,10 @@
  * 
  * (000390) S_END
  */
+void MenuDrawTrophy()
+{
+	// TODO: MenuDrawTrophy
+}
 
 /*
  * (000514) S_GPROC32: [0001:00053550], Cb: 00000056, Type:             0x1A19, RSTATES_SetCullMode
@@ -137,4 +163,8 @@
  * 
  * (000564) S_END
  */
+void RSTATES_SetCullMode()
+{
+	// TODO: RSTATES_SetCullMode
+}
 

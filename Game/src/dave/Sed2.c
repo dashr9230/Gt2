@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -41,6 +39,10 @@
  * 
  * (0000F8) S_END
  */
+void SED2_Allocate()
+{
+	// TODO: SED2_Allocate
+}
 
 /*
  * (0000FC) S_GPROC32: [0001:00023C7C], Cb: 00000105, Type:             0x1408, SED2_Enable
@@ -55,6 +57,10 @@
  * 
  * (000184) S_END
  */
+void SED2_Enable()
+{
+	// TODO: SED2_Enable
+}
 
 /*
  * (000188) S_GPROC32: [0001:00023D81], Cb: 0000001E, Type:             0x1408, SED2_Release
@@ -66,6 +72,10 @@
  * 
  * (0001D0) S_END
  */
+void SED2_Release()
+{
+	// TODO: SED2_Release
+}
 
 /*
  * (0001D4) S_GPROC32: [0001:00023D9F], Cb: 00000064, Type:             0x1408, SED2_Destroy
@@ -78,6 +88,10 @@
  * 
  * (00022C) S_END
  */
+void SED2_Destroy()
+{
+	// TODO: SED2_Destroy
+}
 
 /*
  * (000230) S_GPROC32: [0001:00023E03], Cb: 00000085, Type:             0x1C12, SED2_CountVars
@@ -91,6 +105,10 @@
  * 
  * (0002A4) S_END
  */
+void SED2_CountVars()
+{
+	// TODO: SED2_CountVars
+}
 
 /*
  * (0002A8) S_GPROC32: [0001:00023E88], Cb: 00000238, Type:             0x1C13, MakeSedValueStr
@@ -114,6 +132,10 @@
  * 
  * (0003D8) S_END
  */
+void MakeSedValueStr()
+{
+	// TODO: MakeSedValueStr
+}
 
 /*
  * (0003DC) S_GPROC32: [0001:000240C0], Cb: 00000106, Type:             0x1C17, MakeSedValue
@@ -136,6 +158,10 @@
  * 
  * (0004F8) S_END
  */
+void MakeSedValue()
+{
+	// TODO: MakeSedValue
+}
 
 /*
  * (0004FC) S_GPROC32: [0001:000241C6], Cb: 000003B8, Type:             0x1C19, SED2_DrawItem
@@ -152,6 +178,10 @@
  * 
  * (0005A8) S_END
  */
+void SED2_DrawItem()
+{
+	// TODO: SED2_DrawItem
+}
 
 /*
  * (0005AC) S_LPROC32: [0001:0002457E], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -167,6 +197,10 @@
  * 
  * (000630) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000634) S_GPROC32: [0001:000245F8], Cb: 00000098, Type:             0x16A1, SED2_Draw
@@ -181,6 +215,10 @@
  * 
  * (0006B4) S_END
  */
+void SED2_Draw()
+{
+	// TODO: SED2_Draw
+}
 
 /*
  * (0006B8) S_GPROC32: [0001:00024690], Cb: 00000174, Type:             0x1C1B, SED2_IncrementValue
@@ -209,6 +247,10 @@
  * 
  * (00084C) S_END
  */
+void SED2_IncrementValue()
+{
+	// TODO: SED2_IncrementValue
+}
 
 /*
  * (000850) S_GPROC32: [0001:00024804], Cb: 00000188, Type:             0x1C1B, SED2_DecrementValue
@@ -237,6 +279,10 @@
  * 
  * (0009E4) S_END
  */
+void SED2_DecrementValue()
+{
+	// TODO: SED2_DecrementValue
+}
 
 /*
  * (0009E8) S_GPROC32: [0001:0002498C], Cb: 0000023C, Type:             0x16A1, SED2_Handler
@@ -250,6 +296,10 @@
  * 
  * (000A5C) S_END
  */
+void SED2_Handler()
+{
+	// TODO: SED2_Handler
+}
 
 /*
  * (000A60) S_GPROC32: [0001:00024BC8], Cb: 00000055, Type:             0x1001, SED2_FixDriveConfig
@@ -262,6 +312,10 @@
  * 
  * (000ABC) S_END
  */
+void SED2_FixDriveConfig()
+{
+	// TODO: SED2_FixDriveConfig
+}
 
 /*
  * (000AC0) S_GPROC32: [0001:00024C1D], Cb: 00000073, Type:             0x16A5, SED2_Load
@@ -275,6 +329,10 @@
  * 
  * (000B30) S_END
  */
+void SED2_Load()
+{
+	// TODO: SED2_Load
+}
 
 /*
  * (000B34) S_GPROC32: [0001:00024C90], Cb: 0000006E, Type:             0x16A5, SED2_Save
@@ -288,6 +346,10 @@
  * 
  * (000BA4) S_END
  */
+void SED2_Save()
+{
+	// TODO: SED2_Save
+}
 
 /*
  * (000BA8) S_GPROC32: [0001:00024CFE], Cb: 0000004C, Type:             0x17C9, SED2_Command_Save
@@ -300,6 +362,10 @@
  * 
  * (000C0C) S_END
  */
+void SED2_Command_Save()
+{
+	// TODO: SED2_Command_Save
+}
 
 /*
  * (000C10) S_GPROC32: [0001:00024D4A], Cb: 0000004C, Type:             0x17C9, SED2_Command_Load
@@ -312,6 +378,10 @@
  * 
  * (000C74) S_END
  */
+void SED2_Command_Load()
+{
+	// TODO: SED2_Command_Load
+}
 
 /*
  * (000C78) S_GPROC32: [0001:00024D96], Cb: 00000592, Type:             0x1A56, SED2_UploadFile
@@ -337,6 +407,10 @@
  * 
  * (000D6C) S_END
  */
+void SED2_UploadFile()
+{
+	// TODO: SED2_UploadFile
+}
 
 /*
  * (000D70) S_GPROC32: [0001:00025328], Cb: 00000034, Type:             0x1BFD, SED2_DownloadFile
@@ -349,6 +423,10 @@
  * 
  * (000DD0) S_END
  */
+void SED2_DownloadFile()
+{
+	// TODO: SED2_DownloadFile
+}
 
 /*
  * (000EB0) S_GPROC32: [0001:00025360], Cb: 00000029, Type:             0x1C25, FONT_SetColor2V
@@ -362,6 +440,10 @@
  * 
  * (000F24) S_END
  */
+void FONT_SetColor2V()
+{
+	// TODO: FONT_SetColor2V
+}
 
 /*
  * (000F28) S_GPROC32: [0001:00025390], Cb: 0000000E, Type:             0x1C27, FONT_SetJustify
@@ -374,4 +456,8 @@
  * 
  * (000F88) S_END
  */
+void FONT_SetJustify()
+{
+	// TODO: FONT_SetJustify
+}
 

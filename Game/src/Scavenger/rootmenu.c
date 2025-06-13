@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000EC) S_END
  */
+void DestroyRootMenu()
+{
+	// TODO: DestroyRootMenu
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:00070CF0], Cb: 000002FC, Type:             0x1001, SetupRootMenu
@@ -48,4 +50,8 @@
  * 
  * (000154) S_END
  */
+void SetupRootMenu()
+{
+	// TODO: SetupRootMenu
+}
 

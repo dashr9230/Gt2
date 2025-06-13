@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000FC) S_END
  */
+void MOX_MultiplyMatrices()
+{
+	// TODO: MOX_MultiplyMatrices
+}
 
 /*
  * (000100) S_GPROC32: [0001:00082C1F], Cb: 000001C5, Type:             0x1FD1, MOX_DefnMatrix
@@ -59,6 +61,10 @@
  * 
  * (000208) S_END
  */
+void MOX_DefnMatrix()
+{
+	// TODO: MOX_DefnMatrix
+}
 
 /*
  * (00020C) S_GPROC32: [0001:00082DE4], Cb: 00000042, Type:             0x1001, iMATH_Initialize
@@ -68,4 +74,8 @@
  * 
  * (000244) S_END
  */
+void iMATH_Initialize()
+{
+	// TODO: iMATH_Initialize
+}
 

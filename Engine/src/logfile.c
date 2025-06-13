@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -35,6 +33,10 @@
  * 
  * (0000DC) S_END
  */
+void OpenMeALogfile()
+{
+	// TODO: OpenMeALogfile
+}
 
 /*
  * (0000E0) S_GPROC32: [0001:0008335A], Cb: 0000004D, Type:             0x1001, CloseLogfile
@@ -44,6 +46,10 @@
  * 
  * (000114) S_END
  */
+void CloseLogfile()
+{
+	// TODO: CloseLogfile
+}
 
 /*
  * (000118) S_GPROC32: [0001:000833A7], Cb: 000000BF, Type:             0x1FCB, LogFile
@@ -58,6 +64,10 @@
  * 
  * (0001A0) S_END
  */
+void LogFile()
+{
+	// TODO: LogFile
+}
 
 /*
  * (0001A4) S_GPROC32: [0001:00083466], Cb: 00000005, Type:             0x1001, NET_LogInit
@@ -67,6 +77,10 @@
  * 
  * (0001D8) S_END
  */
+void NET_LogInit()
+{
+	// TODO: NET_LogInit
+}
 
 /*
  * (0001DC) S_GPROC32: [0001:0008346B], Cb: 00000005, Type:             0x1FCB, NET_LogFile
@@ -78,6 +92,10 @@
  * 
  * (00022C) S_END
  */
+void NET_LogFile()
+{
+	// TODO: NET_LogFile
+}
 
 /*
  * (000230) S_GPROC32: [0001:00083470], Cb: 00000005, Type:             0x1D1B, NET_LogSave
@@ -89,6 +107,10 @@
  * 
  * (000278) S_END
  */
+void NET_LogSave()
+{
+	// TODO: NET_LogSave
+}
 
 /*
  * (00027C) S_GPROC32: [0001:00083475], Cb: 00000005, Type:             0x1001, NET_DumpLogFile
@@ -98,4 +120,8 @@
  * 
  * (0002B4) S_END
  */
+void NET_DumpLogFile()
+{
+	// TODO: NET_DumpLogFile
+}
 

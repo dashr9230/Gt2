@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -38,6 +36,10 @@
  * 
  * (0000D0) S_END
  */
+void ParseStringToID()
+{
+	// TODO: ParseStringToID
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:00057CA8], Cb: 00005465, Type:             0x1907, LoadTextArray
@@ -93,4 +95,8 @@
  * 
  * (0004A8) S_END
  */
+void LoadTextArray()
+{
+	// TODO: LoadTextArray
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -43,6 +41,10 @@
  * 
  * (000120) S_END
  */
+void RaceCraft_Allocate()
+{
+	// TODO: RaceCraft_Allocate
+}
 
 /*
  * (000124) S_LPROC32: [0001:0001AEC3], Cb: 00000135, Type:             0x1408, RaceCraft_Destroy
@@ -55,6 +57,10 @@
  * 
  * (000188) S_END
  */
+void RaceCraft_Destroy()
+{
+	// TODO: RaceCraft_Destroy
+}
 
 /*
  * (00018C) S_GPROC32: [0001:0001AFF8], Cb: 00000026, Type:             0x1001, RaceCraft_Release
@@ -64,6 +70,10 @@
  * 
  * (0001C8) S_END
  */
+void RaceCraft_Release()
+{
+	// TODO: RaceCraft_Release
+}
 
 /*
  * (0001CC) S_LPROC32: [0001:0001B01E], Cb: 00000005, Type:             0x1408, RaceCraft_Handler
@@ -75,6 +85,10 @@
  * 
  * (000218) S_END
  */
+void RaceCraft_Handler()
+{
+	// TODO: RaceCraft_Handler
+}
 
 /*
  * (00021C) S_LPROC32: [0001:0001B023], Cb: 00000005, Type:             0x1408, RaceCraft_Draw
@@ -86,6 +100,10 @@
  * 
  * (000264) S_END
  */
+void RaceCraft_Draw()
+{
+	// TODO: RaceCraft_Draw
+}
 
 /*
  * (000268) S_LPROC32: [0001:0001B028], Cb: 00000495, Type:             0x1C4D, RaceCraft_Load
@@ -111,6 +129,10 @@
  * 
  * (000380) S_END
  */
+void RaceCraft_Load()
+{
+	// TODO: RaceCraft_Load
+}
 
 /*
  * (000384) S_LPROC32: [0001:0001B4BD], Cb: 00000029, Type:             0x1408, RaceCraft_BuildInfo
@@ -122,6 +144,10 @@
  * 
  * (0003D0) S_END
  */
+void RaceCraft_BuildInfo()
+{
+	// TODO: RaceCraft_BuildInfo
+}
 
 /*
  * (0003D4) S_GPROC32: [0001:0001B4E6], Cb: 000000CE, Type:             0x1C51, RaceCraft_FindStartSector
@@ -137,6 +163,10 @@
  * 
  * (000478) S_END
  */
+void RaceCraft_FindStartSector()
+{
+	// TODO: RaceCraft_FindStartSector
+}
 
 /*
  * (00047C) S_LPROC32: [0001:0001B5B4], Cb: 0000011F, Type:             0x1001, RaceCraft_MeasureTrack
@@ -153,6 +183,10 @@
  * 
  * (00053C) S_END
  */
+void RaceCraft_MeasureTrack()
+{
+	// TODO: RaceCraft_MeasureTrack
+}
 
 /*
  * (000540) S_LPROC32: [0001:0001B6D3], Cb: 00000071, Type:             0x1C54, RaceCraft_MeasureSectorToSector
@@ -173,6 +207,10 @@
  * 
  * (000644) S_END
  */
+void RaceCraft_MeasureSectorToSector()
+{
+	// TODO: RaceCraft_MeasureSectorToSector
+}
 
 /*
  * (000648) S_LPROC32: [0001:0001B744], Cb: 00000020, Type:             0x1C56, RaceCraft_MeasureSectorToStart
@@ -186,6 +224,10 @@
  * 
  * (0006D0) S_END
  */
+void RaceCraft_MeasureSectorToStart()
+{
+	// TODO: RaceCraft_MeasureSectorToStart
+}
 
 /*
  * (0006D4) S_LPROC32: [0001:0001B764], Cb: 000000B4, Type:             0x1408, RaceCraft_BuildHeadings
@@ -200,6 +242,10 @@
  * 
  * (000764) S_END
  */
+void RaceCraft_BuildHeadings()
+{
+	// TODO: RaceCraft_BuildHeadings
+}
 
 /*
  * (000768) S_LPROC32: [0001:0001B818], Cb: 0000013B, Type:             0x1C58, RaceCraft_CalcSectorEdges
@@ -212,6 +258,10 @@
  * 
  * (0007D4) S_END
  */
+void RaceCraft_CalcSectorEdges()
+{
+	// TODO: RaceCraft_CalcSectorEdges
+}
 
 /*
  * (0007D8) S_LPROC32: [0001:0001B953], Cb: 0000009E, Type:             0x1C58, RaceCraft_GetHeading
@@ -230,6 +280,10 @@
  * 
  * (0008A4) S_END
  */
+void RaceCraft_GetHeading()
+{
+	// TODO: RaceCraft_GetHeading
+}
 
 /*
  * (0008A8) S_LPROC32: [0001:0001B9F1], Cb: 0000007E, Type:             0x1C58, RaceCraft_DifferentiateHeadings
@@ -248,6 +302,10 @@
  * 
  * (000994) S_END
  */
+void RaceCraft_DifferentiateHeadings()
+{
+	// TODO: RaceCraft_DifferentiateHeadings
+}
 
 /*
  * (000998) S_LPROC32: [0001:0001BA6F], Cb: 00000029, Type:             0x1408, RaceCraft_GradeTrack
@@ -259,6 +317,10 @@
  * 
  * (0009E4) S_END
  */
+void RaceCraft_GradeTrack()
+{
+	// TODO: RaceCraft_GradeTrack
+}
 
 /*
  * (0009E8) S_LPROC32: [0001:0001BA98], Cb: 0000007A, Type:             0x1408, RaceCraft_ResetGrades
@@ -274,6 +336,10 @@
  * 
  * (000A84) S_END
  */
+void RaceCraft_ResetGrades()
+{
+	// TODO: RaceCraft_ResetGrades
+}
 
 /*
  * (000A88) S_LPROC32: [0001:0001BB12], Cb: 0000007D, Type:             0x1408, RaceCraft_DetectCorners
@@ -289,6 +355,10 @@
  * 
  * (000B24) S_END
  */
+void RaceCraft_DetectCorners()
+{
+	// TODO: RaceCraft_DetectCorners
+}
 
 /*
  * (000B28) S_LPROC32: [0001:0001BB8F], Cb: 00000100, Type:             0x1408, RaceCraft_BuildTurnInZones
@@ -304,6 +374,10 @@
  * 
  * (000BC8) S_END
  */
+void RaceCraft_BuildTurnInZones()
+{
+	// TODO: RaceCraft_BuildTurnInZones
+}
 
 /*
  * (000BCC) S_LPROC32: [0001:0001BC8F], Cb: 00000103, Type:             0x1408, RaceCraft_BuildTargets
@@ -319,6 +393,10 @@
  * 
  * (000C74) S_END
  */
+void RaceCraft_BuildTargets()
+{
+	// TODO: RaceCraft_BuildTargets
+}
 
 /*
  * (000C78) S_LPROC32: [0001:0001BD92], Cb: 0000066A, Type:             0x1C58, RaceCraft_FindTarget
@@ -338,6 +416,10 @@
  * 
  * (000D70) S_END
  */
+void RaceCraft_FindTarget()
+{
+	// TODO: RaceCraft_FindTarget
+}
 
 /*
  * (000D74) S_LPROC32: [0001:0001C3FC], Cb: 00000110, Type:             0x1C5D, SetTarget
@@ -358,6 +440,10 @@
  * 
  * (000E78) S_END
  */
+void SetTarget()
+{
+	// TODO: SetTarget
+}
 
 /*
  * (000E7C) S_LPROC32: [0001:0001C50C], Cb: 00000061, Type:             0x1408, RaceCraft_ClearBrakingZones
@@ -372,6 +458,10 @@
  * 
  * (000F08) S_END
  */
+void RaceCraft_ClearBrakingZones()
+{
+	// TODO: RaceCraft_ClearBrakingZones
+}
 
 /*
  * (000F0C) S_LPROC32: [0001:0001C56D], Cb: 00000071, Type:             0x1C58, RaceCraft_FindBrakingZones
@@ -386,6 +476,10 @@
  * 
  * (000F98) S_END
  */
+void RaceCraft_FindBrakingZones()
+{
+	// TODO: RaceCraft_FindBrakingZones
+}
 
 /*
  * (000F9C) S_LPROC32: [0001:0001C5DE], Cb: 000000A1, Type:             0x1C58, RaceCraft_UnifyBrakingZones
@@ -400,6 +494,10 @@
  * 
  * (001028) S_END
  */
+void RaceCraft_UnifyBrakingZones()
+{
+	// TODO: RaceCraft_UnifyBrakingZones
+}
 
 /*
  * (00102C) S_LPROC32: [0001:0001C67F], Cb: 000000B6, Type:             0x1C58, RaceCraft_SetTriggers
@@ -415,6 +513,10 @@
  * 
  * (0010D0) S_END
  */
+void RaceCraft_SetTriggers()
+{
+	// TODO: RaceCraft_SetTriggers
+}
 
 /*
  * (0010D4) S_GPROC32: [0001:0001C735], Cb: 00000030, Type:             0x1C5E, RaceCraft_GetGridPos
@@ -429,6 +531,10 @@
  * 
  * (001160) S_END
  */
+void RaceCraft_GetGridPos()
+{
+	// TODO: RaceCraft_GetGridPos
+}
 
 /*
  * (001164) S_GPROC32: [0001:0001C765], Cb: 00000071, Type:             0x1C60, VerifyFindSector
@@ -444,6 +550,10 @@
  * 
  * (0011F8) S_END
  */
+void VerifyFindSector()
+{
+	// TODO: VerifyFindSector
+}
 
 /*
  * (0011FC) S_GPROC32: [0001:0001C7D6], Cb: 0000010E, Type:             0x1C61, RaceCraft_FindSector
@@ -462,6 +572,10 @@
  * 
  * (0012E0) S_END
  */
+void RaceCraft_FindSector()
+{
+	// TODO: RaceCraft_FindSector
+}
 
 /*
  * (0012E4) S_LPROC32: [0001:0001C8E4], Cb: 00000030, Type:             0x1C62, RaceCraft_DistToSector
@@ -477,6 +591,10 @@
  * 
  * (00137C) S_END
  */
+void RaceCraft_DistToSector()
+{
+	// TODO: RaceCraft_DistToSector
+}
 
 /*
  * (001380) S_GPROC32: [0001:0001C914], Cb: 000000C7, Type:             0x1C0E, RaceCraft_FindNearestLine
@@ -498,6 +616,10 @@
  * 
  * (001498) S_END
  */
+void RaceCraft_FindNearestLine()
+{
+	// TODO: RaceCraft_FindNearestLine
+}
 
 /*
  * (00149C) S_GPROC32: [0001:0001C9DB], Cb: 000000EB, Type:             0x1C0E, RaceCraft_LineCheck
@@ -514,6 +636,10 @@
  * 
  * (001548) S_END
  */
+void RaceCraft_LineCheck()
+{
+	// TODO: RaceCraft_LineCheck
+}
 
 /*
  * (00154C) S_GPROC32: [0001:0001CAC6], Cb: 0000022E, Type:             0x1001, RaceCraft_DrawChecks
@@ -525,6 +651,10 @@
  * 
  * (0015A0) S_END
  */
+void RaceCraft_DrawChecks()
+{
+	// TODO: RaceCraft_DrawChecks
+}
 
 /*
  * (0015A4) S_GPROC32: [0001:0001CCF4], Cb: 00000075, Type:             0x1C65, RaceCraft_GetPosition_Race
@@ -541,6 +671,10 @@
  * 
  * (00165C) S_END
  */
+void RaceCraft_GetPosition_Race()
+{
+	// TODO: RaceCraft_GetPosition_Race
+}
 
 /*
  * (001660) S_GPROC32: [0001:0001CD69], Cb: 00000173, Type:             0x1C65, RaceCraft_GetAccuratePosition_Race
@@ -559,6 +693,10 @@
  * 
  * (00174C) S_END
  */
+void RaceCraft_GetAccuratePosition_Race()
+{
+	// TODO: RaceCraft_GetAccuratePosition_Race
+}
 
 /*
  * (001750) S_LPROC32: [0001:0001CEDC], Cb: 0000001E, Type:             0x1ADE, CurCar
@@ -570,6 +708,10 @@
  * 
  * (001790) S_END
  */
+void CurCar()
+{
+	// TODO: CurCar
+}
 
 /*
  * (001794) S_GPROC32: [0001:0001CEFA], Cb: 00000034, Type:             0x1C65, RaceCraft_GetPosition_Lap
@@ -585,6 +727,10 @@
  * 
  * (001838) S_END
  */
+void RaceCraft_GetPosition_Lap()
+{
+	// TODO: RaceCraft_GetPosition_Lap
+}
 
 /*
  * (00183C) S_GPROC32: [0001:0001CF2E], Cb: 00000068, Type:             0x1C68, RaceCraft_GetSeperation_Lap
@@ -603,6 +749,10 @@
  * 
  * (001920) S_END
  */
+void RaceCraft_GetSeperation_Lap()
+{
+	// TODO: RaceCraft_GetSeperation_Lap
+}
 
 /*
  * (001924) S_GPROC32: [0001:0001CF96], Cb: 00000042, Type:             0x1C68, RaceCraft_GetSeperation_Race
@@ -619,6 +769,10 @@
  * 
  * (0019E0) S_END
  */
+void RaceCraft_GetSeperation_Race()
+{
+	// TODO: RaceCraft_GetSeperation_Race
+}
 
 /*
  * (0019E4) S_GPROC32: [0001:0001CFD8], Cb: 00000081, Type:             0x1C65, RaceCraft_FindClosestHuman_Race
@@ -636,6 +790,10 @@
  * 
  * (001AC8) S_END
  */
+void RaceCraft_FindClosestHuman_Race()
+{
+	// TODO: RaceCraft_FindClosestHuman_Race
+}
 
 /*
  * (001ACC) S_GPROC32: [0001:0001D059], Cb: 00000081, Type:             0x1C65, RaceCraft_FindClosestHuman_Lap
@@ -653,6 +811,10 @@
  * 
  * (001BB0) S_END
  */
+void RaceCraft_FindClosestHuman_Lap()
+{
+	// TODO: RaceCraft_FindClosestHuman_Lap
+}
 
 /*
  * (001BB4) S_GPROC32: [0001:0001D0DA], Cb: 0000009D, Type:             0x1ADE, RaceCraft_IsGoingTheWrongWay
@@ -670,6 +832,10 @@
  * 
  * (001C90) S_END
  */
+void RaceCraft_IsGoingTheWrongWay()
+{
+	// TODO: RaceCraft_IsGoingTheWrongWay
+}
 
 /*
  * (001C94) S_LPROC32: [0001:0001D177], Cb: 000001FD, Type:             0x1408, RaceCraft_Display2D_Allocate
@@ -701,6 +867,10 @@
  * 
  * (001E04) S_END
  */
+void RaceCraft_Display2D_Allocate()
+{
+	// TODO: RaceCraft_Display2D_Allocate
+}
 
 /*
  * (001E08) S_LPROC32: [0001:0001D374], Cb: 0000003B, Type:             0x1408, RaceCraft_Display2D_Destroy
@@ -713,6 +883,10 @@
  * 
  * (001E70) S_END
  */
+void RaceCraft_Display2D_Destroy()
+{
+	// TODO: RaceCraft_Display2D_Destroy
+}
 
 /*
  * (001E74) S_GPROC32: [0001:0001D3AF], Cb: 0000001E, Type:             0x1408, RaceCraft_Display2D_Release
@@ -724,6 +898,10 @@
  * 
  * (001EC8) S_END
  */
+void RaceCraft_Display2D_Release()
+{
+	// TODO: RaceCraft_Display2D_Release
+}
 
 /*
  * (001ECC) S_LPROC32: [0001:0001D3CD], Cb: 0000009A, Type:             0x1408, RaceCraft_Display2D_Handler
@@ -736,6 +914,10 @@
  * 
  * (001F34) S_END
  */
+void RaceCraft_Display2D_Handler()
+{
+	// TODO: RaceCraft_Display2D_Handler
+}
 
 /*
  * (001F38) S_LPROC32: [0001:0001D467], Cb: 0000002B, Type:             0x1408, RaceCraft_Display2D_Draw
@@ -748,6 +930,10 @@
  * 
  * (001F9C) S_END
  */
+void RaceCraft_Display2D_Draw()
+{
+	// TODO: RaceCraft_Display2D_Draw
+}
 
 /*
  * (001FA0) S_LPROC32: [0001:0001D492], Cb: 00000251, Type:             0x1408, RaceCraft_Display2D_Update
@@ -781,6 +967,10 @@
  * 
  * (002150) S_END
  */
+void RaceCraft_Display2D_Update()
+{
+	// TODO: RaceCraft_Display2D_Update
+}
 
 /*
  * (002154) S_LPROC32: [0001:0001D6E3], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -796,6 +986,10 @@
  * 
  * (0021D8) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (0021DC) S_LPROC32: [0001:0001D75D], Cb: 000000BD, Type:             0x1408, RaceCraft_Display3D_Allocate
@@ -810,6 +1004,10 @@
  * 
  * (002278) S_END
  */
+void RaceCraft_Display3D_Allocate()
+{
+	// TODO: RaceCraft_Display3D_Allocate
+}
 
 /*
  * (00227C) S_LPROC32: [0001:0001D81A], Cb: 0000001D, Type:             0x1408, RaceCraft_Display3D_Destroy
@@ -821,6 +1019,10 @@
  * 
  * (0022D0) S_END
  */
+void RaceCraft_Display3D_Destroy()
+{
+	// TODO: RaceCraft_Display3D_Destroy
+}
 
 /*
  * (0022D4) S_GPROC32: [0001:0001D837], Cb: 0000001E, Type:             0x1408, RaceCraft_Display3D_Release
@@ -832,6 +1034,10 @@
  * 
  * (002328) S_END
  */
+void RaceCraft_Display3D_Release()
+{
+	// TODO: RaceCraft_Display3D_Release
+}
 
 /*
  * (00232C) S_LPROC32: [0001:0001D855], Cb: 00000053, Type:             0x1408, RaceCraft_Display3D_Handler
@@ -844,6 +1050,10 @@
  * 
  * (002394) S_END
  */
+void RaceCraft_Display3D_Handler()
+{
+	// TODO: RaceCraft_Display3D_Handler
+}
 
 /*
  * (002398) S_LPROC32: [0001:0001D8A8], Cb: 00000028, Type:             0x1408, RaceCraft_Display3D_Draw
@@ -856,6 +1066,10 @@
  * 
  * (0023FC) S_END
  */
+void RaceCraft_Display3D_Draw()
+{
+	// TODO: RaceCraft_Display3D_Draw
+}
 
 /*
  * (002400) S_LPROC32: [0001:0001D8D0], Cb: 000001C9, Type:             0x1408, RaceCraft_Display3D_DrawSmarties
@@ -875,6 +1089,10 @@
  * 
  * (0024F8) S_END
  */
+void RaceCraft_Display3D_DrawSmarties()
+{
+	// TODO: RaceCraft_Display3D_DrawSmarties
+}
 
 /*
  * (0024FC) S_GPROC32: [0001:0001DA99], Cb: 000002E2, Type:             0x1408, RaceCraft_ApexLine_Allocate
@@ -913,6 +1131,10 @@
  * 
  * (00269C) S_END
  */
+void RaceCraft_ApexLine_Allocate()
+{
+	// TODO: RaceCraft_ApexLine_Allocate
+}
 
 /*
  * (0026A0) S_LPROC32: [0001:0001DD7B], Cb: 0000004A, Type:             0x1408, RaceCraft_ApexLine_Destroy
@@ -931,6 +1153,10 @@
  * 
  * (002724) S_END
  */
+void RaceCraft_ApexLine_Destroy()
+{
+	// TODO: RaceCraft_ApexLine_Destroy
+}
 
 /*
  * (002728) S_GPROC32: [0001:0001DDC5], Cb: 0000001E, Type:             0x1408, RaceCraft_ApexLine_Release
@@ -942,6 +1168,10 @@
  * 
  * (00277C) S_END
  */
+void RaceCraft_ApexLine_Release()
+{
+	// TODO: RaceCraft_ApexLine_Release
+}
 
 /*
  * (002780) S_LPROC32: [0001:0001DDE3], Cb: 00000053, Type:             0x1408, RaceCraft_ApexLine_Handler
@@ -954,6 +1184,10 @@
  * 
  * (0027E8) S_END
  */
+void RaceCraft_ApexLine_Handler()
+{
+	// TODO: RaceCraft_ApexLine_Handler
+}
 
 /*
  * (0027EC) S_LPROC32: [0001:0001DE36], Cb: 000001B3, Type:             0x1408, RaceCraft_ApexLine_Draw
@@ -975,6 +1209,10 @@
  * 
  * (002904) S_END
  */
+void RaceCraft_ApexLine_Draw()
+{
+	// TODO: RaceCraft_ApexLine_Draw
+}
 
 /*
  * (002908) S_LPROC32: [0001:0001DFE9], Cb: 00000025, Type:             0x1C73, RaceCraft_PredictApex
@@ -986,6 +1224,10 @@
  * 
  * (002958) S_END
  */
+void RaceCraft_PredictApex()
+{
+	// TODO: RaceCraft_PredictApex
+}
 
 /*
  * (00295C) S_GPROC32: [0001:0001E00E], Cb: 000001E1, Type:             0x1408, RaceCraft_GradeEditor_Allocate
@@ -1000,6 +1242,10 @@
  * 
  * (0029FC) S_END
  */
+void RaceCraft_GradeEditor_Allocate()
+{
+	// TODO: RaceCraft_GradeEditor_Allocate
+}
 
 /*
  * (002A00) S_LPROC32: [0001:0001E1EF], Cb: 00000039, Type:             0x1408, RaceCraft_GradeEditor_Destroy
@@ -1018,6 +1264,10 @@
  * 
  * (002A88) S_END
  */
+void RaceCraft_GradeEditor_Destroy()
+{
+	// TODO: RaceCraft_GradeEditor_Destroy
+}
 
 /*
  * (002A8C) S_GPROC32: [0001:0001E228], Cb: 0000001E, Type:             0x1001, RaceCraft_GradeEditor_Release
@@ -1029,6 +1279,10 @@
  * 
  * (002AE4) S_END
  */
+void RaceCraft_GradeEditor_Release()
+{
+	// TODO: RaceCraft_GradeEditor_Release
+}
 
 /*
  * (002AE8) S_LPROC32: [0001:0001E246], Cb: 0000099E, Type:             0x1408, RaceCraft_GradeEditor_Draw
@@ -1073,6 +1327,10 @@
  * 
  * (002DD4) S_END
  */
+void RaceCraft_GradeEditor_Draw()
+{
+	// TODO: RaceCraft_GradeEditor_Draw
+}
 
 /*
  * (002DD8) S_LPROC32: [0001:0001EBE4], Cb: 00000795, Type:             0x1408, RaceCraft_GradeEditor_Handler
@@ -1144,6 +1402,10 @@
  * 
  * (0032DC) S_END
  */
+void RaceCraft_GradeEditor_Handler()
+{
+	// TODO: RaceCraft_GradeEditor_Handler
+}
 
 /*
  * (0032E0) S_LPROC32: [0001:0001F379], Cb: 00000017, Type:             0x1001, RaceCraft_GradeEditor_CommandInstall
@@ -1153,6 +1415,10 @@
  * 
  * (00332C) S_END
  */
+void RaceCraft_GradeEditor_CommandInstall()
+{
+	// TODO: RaceCraft_GradeEditor_CommandInstall
+}
 
 /*
  * (003330) S_LPROC32: [0001:0001F390], Cb: 000000B4, Type:             0x17C9, CON_RaceCraft_GradeEditor_Save
@@ -1171,6 +1437,10 @@
  * 
  * (003428) S_END
  */
+void CON_RaceCraft_GradeEditor_Save()
+{
+	// TODO: CON_RaceCraft_GradeEditor_Save
+}
 
 /*
  * (00342C) S_LPROC32: [0001:0001F444], Cb: 000000CD, Type:             0x1001, RaceCraft_GradeEditor_Load
@@ -1187,6 +1457,10 @@
  * 
  * (0034F8) S_END
  */
+void RaceCraft_GradeEditor_Load()
+{
+	// TODO: RaceCraft_GradeEditor_Load
+}
 
 /*
  * (0035F0) S_GPROC32: [0001:0001F520], Cb: 0000004B, Type:             0x1C75, P2D_SetColour
@@ -1200,4 +1474,8 @@
  * 
  * (00365C) S_END
  */
+void P2D_SetColour()
+{
+	// TODO: P2D_SetColour
+}
 

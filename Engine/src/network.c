@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -57,6 +55,10 @@
  * 
  * (000138) S_END
  */
+void NET_Send()
+{
+	// TODO: NET_Send
+}
 
 /*
  * (00013C) S_LPROC32: [0001:000953CE], Cb: 0000079E, Type:             0x1E9A, ProcessDPError
@@ -99,6 +101,10 @@
  * 
  * (0003D8) S_END
  */
+void ProcessDPError()
+{
+	// TODO: ProcessDPError
+}
 
 /*
  * (0003DC) S_GPROC32: [0001:00095B6C], Cb: 0000014F, Type:             0x1001, NET_Init
@@ -110,6 +116,10 @@
  * 
  * (00041C) S_END
  */
+void NET_Init()
+{
+	// TODO: NET_Init
+}
 
 /*
  * (000420) S_LPROC32: [0001:00095CBB], Cb: 00000236, Type:             0x16A1, NET_DebugHandler
@@ -121,6 +131,10 @@
  * 
  * (00046C) S_END
  */
+void NET_DebugHandler()
+{
+	// TODO: NET_DebugHandler
+}
 
 /*
  * (000470) S_LPROC32: [0001:00095EF1], Cb: 000000F9, Type:             0x17C9, CON_Say
@@ -136,6 +150,10 @@
  * 
  * (0004FC) S_END
  */
+void CON_Say()
+{
+	// TODO: CON_Say
+}
 
 /*
  * (000500) S_LPROC32: [0001:00095FEA], Cb: 00000895, Type:             0x16A1, NET_DebugDraw
@@ -149,6 +167,10 @@
  * 
  * (000570) S_END
  */
+void NET_DebugDraw()
+{
+	// TODO: NET_DebugDraw
+}
 
 /*
  * (000574) S_LPROC32: [0001:0009687F], Cb: 000000B0, Type:             0x16BB, NET_EnumConnectionsCallback
@@ -166,6 +188,10 @@
  * 
  * (000664) S_END
  */
+void NET_EnumConnectionsCallback()
+{
+	// TODO: NET_EnumConnectionsCallback
+}
 
 /*
  * (000668) S_GPROC32: [0001:0009692F], Cb: 000000E6, Type:             0x1001, NET_Shutdown
@@ -177,6 +203,10 @@
  * 
  * (0006AC) S_END
  */
+void NET_Shutdown()
+{
+	// TODO: NET_Shutdown
+}
 
 /*
  * (0006B0) S_GPROC32: [0001:00096A15], Cb: 0000008F, Type:             0x1B55, NET_Connect
@@ -190,6 +220,10 @@
  * 
  * (00071C) S_END
  */
+void NET_Connect()
+{
+	// TODO: NET_Connect
+}
 
 /*
  * (000720) S_LPROC32: [0001:00096AA4], Cb: 00000519, Type:             0x1B55, NET_CreateServiceProviderAddress
@@ -208,6 +242,10 @@
  * 
  * (000834) S_END
  */
+void NET_CreateServiceProviderAddress()
+{
+	// TODO: NET_CreateServiceProviderAddress
+}
 
 /*
  * (000838) S_LPROC32: [0001:00096FBD], Cb: 00000149, Type:             0x16A1, NET_SetBaudRate
@@ -235,6 +273,10 @@
  * 
  * (0009C0) S_END
  */
+void NET_SetBaudRate()
+{
+	// TODO: NET_SetBaudRate
+}
 
 /*
  * (0009C4) S_GPROC32: [0001:00097106], Cb: 0000000F, Type:             0x1001, NET_Disconnect
@@ -244,6 +286,10 @@
  * 
  * (0009FC) S_END
  */
+void NET_Disconnect()
+{
+	// TODO: NET_Disconnect
+}
 
 /*
  * (000A00) S_GPROC32: [0001:00097115], Cb: 000000E5, Type:             0x1E9E, NET_CreatePlayer
@@ -261,6 +307,10 @@
  * 
  * (000ACC) S_END
  */
+void NET_CreatePlayer()
+{
+	// TODO: NET_CreatePlayer
+}
 
 /*
  * (000AD0) S_LPROC32: [0001:000971FA], Cb: 00000103, Type:             0x16A7, NET_MessageHandler
@@ -282,6 +332,10 @@
  * 
  * (000B88) S_END
  */
+void NET_MessageHandler()
+{
+	// TODO: NET_MessageHandler
+}
 
 /*
  * (000B8C) S_LPROC32: [0001:000972FD], Cb: 00000065, Type:             0x1EA5, NET_Receive
@@ -297,6 +351,10 @@
  * 
  * (000C1C) S_END
  */
+void NET_Receive()
+{
+	// TODO: NET_Receive
+}
 
 /*
  * (000C20) S_GPROC32: [0001:00097362], Cb: 0000005F, Type:             0x1B55, NET_DestroyPlayer
@@ -309,6 +367,10 @@
  * 
  * (000C7C) S_END
  */
+void NET_DestroyPlayer()
+{
+	// TODO: NET_DestroyPlayer
+}
 
 /*
  * (000C80) S_GPROC32: [0001:000973C1], Cb: 000000D0, Type:             0x1EA7, NET_Host
@@ -323,6 +385,10 @@
  * 
  * (000D00) S_END
  */
+void NET_Host()
+{
+	// TODO: NET_Host
+}
 
 /*
  * (000D04) S_LPROC32: [0001:00097491], Cb: 000000DD, Type:             0x1EA9, NET_EnumPlayers
@@ -338,6 +404,10 @@
  * 
  * (000D9C) S_END
  */
+void NET_EnumPlayers()
+{
+	// TODO: NET_EnumPlayers
+}
 
 /*
  * (000DA0) S_LPROC32: [0001:0009756E], Cb: 00000094, Type:             0x172E, NET_EnumPlayersCallback
@@ -355,6 +425,10 @@
  * 
  * (000E78) S_END
  */
+void NET_EnumPlayersCallback()
+{
+	// TODO: NET_EnumPlayersCallback
+}
 
 /*
  * (000E7C) S_LPROC32: [0001:00097602], Cb: 0000002E, Type:             0x1EAC, NET_SortPlayerList
@@ -369,6 +443,10 @@
  * 
  * (000EF8) S_END
  */
+void NET_SortPlayerList()
+{
+	// TODO: NET_SortPlayerList
+}
 
 /*
  * (000EFC) S_GPROC32: [0001:00097630], Cb: 00000097, Type:             0x16A5, NET_EnumSessions
@@ -381,6 +459,10 @@
  * 
  * (000F58) S_END
  */
+void NET_EnumSessions()
+{
+	// TODO: NET_EnumSessions
+}
 
 /*
  * (000F5C) S_LPROC32: [0001:000976C7], Cb: 000000C1, Type:             0x17D1, NET_EnumSessionsCallback
@@ -396,6 +478,10 @@
  * 
  * (001010) S_END
  */
+void NET_EnumSessionsCallback()
+{
+	// TODO: NET_EnumSessionsCallback
+}
 
 /*
  * (001014) S_GPROC32: [0001:00097788], Cb: 00000064, Type:             0x1001, NET_StopEnumSessions
@@ -407,6 +493,10 @@
  * 
  * (001064) S_END
  */
+void NET_StopEnumSessions()
+{
+	// TODO: NET_StopEnumSessions
+}
 
 /*
  * (001068) S_GPROC32: [0001:000977EC], Cb: 000000AD, Type:             0x1EAE, NET_Join
@@ -420,6 +510,10 @@
  * 
  * (0010D0) S_END
  */
+void NET_Join()
+{
+	// TODO: NET_Join
+}
 
 /*
  * (0010D4) S_GPROC32: [0001:00097899], Cb: 0000006D, Type:             0x1001, NET_Close
@@ -431,4 +525,8 @@
  * 
  * (001118) S_END
  */
+void NET_Close()
+{
+	// TODO: NET_Close
+}
 

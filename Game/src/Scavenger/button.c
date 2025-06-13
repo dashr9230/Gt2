@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -33,6 +31,10 @@
  * 
  * (0000DC) S_END
  */
+void ButtonManager_Release()
+{
+	// TODO: ButtonManager_Release
+}
 
 /*
  * (0000E0) S_GPROC32: [0001:00041D25], Cb: 00000037, Type:             0x1408, ButtonManager_DestroyAllButtons
@@ -45,6 +47,10 @@
  * 
  * (000148) S_END
  */
+void ButtonManager_DestroyAllButtons()
+{
+	// TODO: ButtonManager_DestroyAllButtons
+}
 
 /*
  * (00014C) S_GPROC32: [0001:00041D5C], Cb: 0000002E, Type:             0x1408, ButtonManager_DrawButtons
@@ -57,6 +63,10 @@
  * 
  * (0001B0) S_END
  */
+void ButtonManager_DrawButtons()
+{
+	// TODO: ButtonManager_DrawButtons
+}
 
 /*
  * (0001B4) S_GPROC32: [0001:00041D8A], Cb: 00000076, Type:             0x1824, ButtonManager_Create
@@ -68,6 +78,10 @@
  * 
  * (000210) S_END
  */
+void ButtonManager_Create()
+{
+	// TODO: ButtonManager_Create
+}
 
 /*
  * (000214) S_GPROC32: [0001:00041E00], Cb: 00000005, Type:             0x1A6A, ButtonManager_ChangeButtonFocus
@@ -80,6 +94,10 @@
  * 
  * (000288) S_END
  */
+void ButtonManager_ChangeButtonFocus()
+{
+	// TODO: ButtonManager_ChangeButtonFocus
+}
 
 /*
  * (00028C) S_GPROC32: [0001:00041E05], Cb: 00000082, Type:             0x1A5F, ButtonManager_CheckPointerOver
@@ -94,6 +112,10 @@
  * 
  * (000314) S_END
  */
+void ButtonManager_CheckPointerOver()
+{
+	// TODO: ButtonManager_CheckPointerOver
+}
 
 /*
  * (000318) S_GPROC32: [0001:00041E87], Cb: 000000A4, Type:             0x1A33, ButtonManager_CheckClick
@@ -108,6 +130,10 @@
  * 
  * (000398) S_END
  */
+void ButtonManager_CheckClick()
+{
+	// TODO: ButtonManager_CheckClick
+}
 
 /*
  * (00039C) S_GPROC32: [0001:00041F2B], Cb: 00000065, Type:             0x1408, Button_Release
@@ -119,6 +145,10 @@
  * 
  * (0003E4) S_END
  */
+void Button_Release()
+{
+	// TODO: Button_Release
+}
 
 /*
  * (0003E8) S_GPROC32: [0001:00041F90], Cb: 00000041, Type:             0x1408, Button_Draw
@@ -130,6 +160,10 @@
  * 
  * (00042C) S_END
  */
+void Button_Draw()
+{
+	// TODO: Button_Draw
+}
 
 /*
  * (000430) S_GPROC32: [0001:00041FD1], Cb: 000002A2, Type:             0x1A71, Button_Create
@@ -157,6 +191,10 @@
  * 
  * (0005A8) S_END
  */
+void Button_Create()
+{
+	// TODO: Button_Create
+}
 
 /*
  * (0005AC) S_LPROC32: [0001:00042273], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -172,6 +210,10 @@
  * 
  * (000630) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000634) S_GPROC32: [0001:000422ED], Cb: 00000017, Type:             0x1A73, Button_SetKeyPointable
@@ -184,6 +226,10 @@
  * 
  * (000694) S_END
  */
+void Button_SetKeyPointable()
+{
+	// TODO: Button_SetKeyPointable
+}
 
 /*
  * (000698) S_GPROC32: [0001:00042304], Cb: 000000DA, Type:             0x1A56, Button_SetSelected
@@ -197,6 +243,10 @@
  * 
  * (000708) S_END
  */
+void Button_SetSelected()
+{
+	// TODO: Button_SetSelected
+}
 
 /*
  * (00070C) S_GPROC32: [0001:000423DE], Cb: 00000050, Type:             0x1A75, Button_SetColour
@@ -212,6 +262,10 @@
  * 
  * (000794) S_END
  */
+void Button_SetColour()
+{
+	// TODO: Button_SetColour
+}
 
 /*
  * (000798) S_GPROC32: [0001:0004242E], Cb: 00000212, Type:             0x1A5A, Button_CreateIcon
@@ -233,6 +287,10 @@
  * 
  * (0008A8) S_END
  */
+void Button_CreateIcon()
+{
+	// TODO: Button_CreateIcon
+}
 
 /*
  * (0008AC) S_GPROC32: [0001:00042640], Cb: 0000010B, Type:             0x1A5C, Button_CreateArea
@@ -253,6 +311,10 @@
  * 
  * (0009A0) S_END
  */
+void Button_CreateArea()
+{
+	// TODO: Button_CreateArea
+}
 
 /*
  * (0009D8) S_GPROC32: [0001:00042750], Cb: 000000C7, Type:             0x1A77, P2D_SetUVUV
@@ -268,4 +330,8 @@
  * 
  * (000A60) S_END
  */
+void P2D_SetUVUV()
+{
+	// TODO: P2D_SetUVUV
+}
 

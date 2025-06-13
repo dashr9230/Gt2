@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -65,6 +63,10 @@
  * 
  * (0001A8) S_END
  */
+void BtStartMultiPlayer()
+{
+	// TODO: BtStartMultiPlayer
+}
 
 /*
  * (0001AC) S_GPROC32: [0001:0005D353], Cb: 000001C7, Type:             0x1001, MultiOP_SetSettings
@@ -76,6 +78,10 @@
  * 
  * (0001F8) S_END
  */
+void MultiOP_SetSettings()
+{
+	// TODO: MultiOP_SetSettings
+}
 
 /*
  * (0001FC) S_GPROC32: [0001:0005D51A], Cb: 0000008D, Type:             0x1001, OpGotoMultiPlayerNetworkTCPGame
@@ -88,6 +94,10 @@
  * 
  * (000264) S_END
  */
+void OpGotoMultiPlayerNetworkTCPGame()
+{
+	// TODO: OpGotoMultiPlayerNetworkTCPGame
+}
 
 /*
  * (000268) S_GPROC32: [0001:0005D5A7], Cb: 000002CF, Type:             0x1001, OpGotoMultiPlayerSplitScreen
@@ -101,6 +111,10 @@
  * 
  * (0002DC) S_END
  */
+void OpGotoMultiPlayerSplitScreen()
+{
+	// TODO: OpGotoMultiPlayerSplitScreen
+}
 
 /*
  * (0002E0) S_GPROC32: [0001:0005D876], Cb: 000002F6, Type:             0x141A, BtMultiCarChange
@@ -125,6 +139,10 @@
  * 
  * (000414) S_END
  */
+void BtMultiCarChange()
+{
+	// TODO: BtMultiCarChange
+}
 
 /*
  * (000418) S_GPROC32: [0001:0005DB6C], Cb: 00000063, Type:             0x141A, BtChangeAM
@@ -137,6 +155,10 @@
  * 
  * (00046C) S_END
  */
+void BtChangeAM()
+{
+	// TODO: BtChangeAM
+}
 
 /*
  * (000470) S_GPROC32: [0001:0005DBCF], Cb: 000000D3, Type:             0x141A, BtChangeControlUp
@@ -149,6 +171,10 @@
  * 
  * (0004CC) S_END
  */
+void BtChangeControlUp()
+{
+	// TODO: BtChangeControlUp
+}
 
 /*
  * (0004D0) S_GPROC32: [0001:0005DCA2], Cb: 0000007D, Type:             0x141A, BtChangeControlDown
@@ -161,6 +187,10 @@
  * 
  * (00052C) S_END
  */
+void BtChangeControlDown()
+{
+	// TODO: BtChangeControlDown
+}
 
 /*
  * (000530) S_GPROC32: [0001:0005DD1F], Cb: 000000CF, Type:             0x141A, BtMultiSetupController
@@ -173,6 +203,10 @@
  * 
  * (000590) S_END
  */
+void BtMultiSetupController()
+{
+	// TODO: BtMultiSetupController
+}
 
 /*
  * (000594) S_GPROC32: [0001:0005DDEE], Cb: 0000005C, Type:             0x141A, BtMultiChangeCamUp
@@ -185,6 +219,10 @@
  * 
  * (0005F0) S_END
  */
+void BtMultiChangeCamUp()
+{
+	// TODO: BtMultiChangeCamUp
+}
 
 /*
  * (0005F4) S_GPROC32: [0001:0005DE4A], Cb: 0000005C, Type:             0x141A, BtMultiChangeCamDown
@@ -197,6 +235,10 @@
  * 
  * (000650) S_END
  */
+void BtMultiChangeCamDown()
+{
+	// TODO: BtMultiChangeCamDown
+}
 
 /*
  * (000654) S_GPROC32: [0001:0005DEA6], Cb: 00001134, Type:             0x141A, SetupMultiplayerFrame_Car
@@ -251,6 +293,10 @@
  * 
  * (0009E8) S_END
  */
+void SetupMultiplayerFrame_Car()
+{
+	// TODO: SetupMultiplayerFrame_Car
+}
 
 /*
  * (0009EC) S_GPROC32: [0001:0005EFDA], Cb: 0000011F, Type:             0x141A, BtMultiTrackChange
@@ -264,6 +310,10 @@
  * 
  * (000A60) S_END
  */
+void BtMultiTrackChange()
+{
+	// TODO: BtMultiTrackChange
+}
 
 /*
  * (000A64) S_GPROC32: [0001:0005F0F9], Cb: 00000457, Type:             0x141A, SetupMultiplayerFrame_Track
@@ -282,6 +332,10 @@
  * 
  * (000B30) S_END
  */
+void SetupMultiplayerFrame_Track()
+{
+	// TODO: SetupMultiplayerFrame_Track
+}
 
 /*
  * (000B34) S_GPROC32: [0001:0005F550], Cb: 000004D9, Type:             0x141A, BtPlayerSplit
@@ -304,6 +358,10 @@
  * 
  * (000C48) S_END
  */
+void BtPlayerSplit()
+{
+	// TODO: BtPlayerSplit
+}
 
 /*
  * (000C4C) S_GPROC32: [0001:0005FA29], Cb: 00000153, Type:             0x141A, BtIPXScanLan
@@ -319,6 +377,10 @@
  * 
  * (000CDC) S_END
  */
+void BtIPXScanLan()
+{
+	// TODO: BtIPXScanLan
+}
 
 /*
  * (000CE0) S_GPROC32: [0001:0005FB7C], Cb: 00000175, Type:             0x141A, BtTCPScanLAN
@@ -334,6 +396,10 @@
  * 
  * (000D70) S_END
  */
+void BtTCPScanLAN()
+{
+	// TODO: BtTCPScanLAN
+}
 
 /*
  * (000D74) S_GPROC32: [0001:0005FCF1], Cb: 00000065, Type:             0x141A, BtNewName
@@ -347,6 +413,10 @@
  * 
  * (000DE0) S_END
  */
+void BtNewName()
+{
+	// TODO: BtNewName
+}
 
 /*
  * (000DE4) S_GPROC32: [0001:0005FD56], Cb: 00000070, Type:             0x141A, BtEnterServerName
@@ -360,6 +430,10 @@
  * 
  * (000E58) S_END
  */
+void BtEnterServerName()
+{
+	// TODO: BtEnterServerName
+}
 
 /*
  * (000E5C) S_GPROC32: [0001:0005FDC6], Cb: 0000002C, Type:             0x141A, BtChangeNetSelect
@@ -372,6 +446,10 @@
  * 
  * (000EB8) S_END
  */
+void BtChangeNetSelect()
+{
+	// TODO: BtChangeNetSelect
+}
 
 /*
  * (000EBC) S_GPROC32: [0001:0005FDF2], Cb: 0000011C, Type:             0x141A, BtServerListScroll
@@ -389,6 +467,10 @@
  * 
  * (000F74) S_END
  */
+void BtServerListScroll()
+{
+	// TODO: BtServerListScroll
+}
 
 /*
  * (000F78) S_GPROC32: [0001:0005FF0E], Cb: 00000280, Type:             0x1001, MENU_DrawIPXServerList
@@ -403,6 +485,10 @@
  * 
  * (001000) S_END
  */
+void MENU_DrawIPXServerList()
+{
+	// TODO: MENU_DrawIPXServerList
+}
 
 /*
  * (001004) S_GPROC32: [0001:0006018E], Cb: 000003FD, Type:             0x1001, MENU_DrawTCPServerInformation
@@ -417,6 +503,10 @@
  * 
  * (001098) S_END
  */
+void MENU_DrawTCPServerInformation()
+{
+	// TODO: MENU_DrawTCPServerInformation
+}
 
 /*
  * (00109C) S_GPROC32: [0001:0006058B], Cb: 00000287, Type:             0x1001, MENU_DrawIPXServerInformation
@@ -431,6 +521,10 @@
  * 
  * (001130) S_END
  */
+void MENU_DrawIPXServerInformation()
+{
+	// TODO: MENU_DrawIPXServerInformation
+}
 
 /*
  * (001134) S_GPROC32: [0001:00060812], Cb: 00000299, Type:             0x1001, MENU_DrawTCPServerList
@@ -446,6 +540,10 @@
  * 
  * (0011CC) S_END
  */
+void MENU_DrawTCPServerList()
+{
+	// TODO: MENU_DrawTCPServerList
+}
 
 /*
  * (0011D0) S_GPROC32: [0001:00060AAB], Cb: 00000299, Type:             0x1001, MENU_DrawMODEMServerList
@@ -461,6 +559,10 @@
  * 
  * (001268) S_END
  */
+void MENU_DrawMODEMServerList()
+{
+	// TODO: MENU_DrawMODEMServerList
+}
 
 /*
  * (00126C) S_GPROC32: [0001:00060D44], Cb: 00000086, Type:             0x141A, BtTCPAddEntryDone
@@ -474,6 +576,10 @@
  * 
  * (0012E0) S_END
  */
+void BtTCPAddEntryDone()
+{
+	// TODO: BtTCPAddEntryDone
+}
 
 /*
  * (0012E4) S_GPROC32: [0001:00060DCA], Cb: 000000AC, Type:             0x141A, BtTCPAddIP
@@ -487,6 +593,10 @@
  * 
  * (001350) S_END
  */
+void BtTCPAddIP()
+{
+	// TODO: BtTCPAddIP
+}
 
 /*
  * (001354) S_GPROC32: [0001:00060E76], Cb: 0000006B, Type:             0x141A, BtTCPAddEntry
@@ -500,6 +610,10 @@
  * 
  * (0013C4) S_END
  */
+void BtTCPAddEntry()
+{
+	// TODO: BtTCPAddEntry
+}
 
 /*
  * (0013C8) S_GPROC32: [0001:00060EE1], Cb: 00000071, Type:             0x141A, BtTCPEditEntryDone
@@ -513,6 +627,10 @@
  * 
  * (00143C) S_END
  */
+void BtTCPEditEntryDone()
+{
+	// TODO: BtTCPEditEntryDone
+}
 
 /*
  * (001440) S_GPROC32: [0001:00060F52], Cb: 000000C3, Type:             0x141A, BtTCPEditIP
@@ -526,6 +644,10 @@
  * 
  * (0014AC) S_END
  */
+void BtTCPEditIP()
+{
+	// TODO: BtTCPEditIP
+}
 
 /*
  * (0014B0) S_GPROC32: [0001:00061015], Cb: 00000093, Type:             0x141A, BtTCPEditEntry
@@ -539,6 +661,10 @@
  * 
  * (001520) S_END
  */
+void BtTCPEditEntry()
+{
+	// TODO: BtTCPEditEntry
+}
 
 /*
  * (001524) S_GPROC32: [0001:000610A8], Cb: 000000D8, Type:             0x141A, BtTCPDeleteEntry
@@ -551,6 +677,10 @@
  * 
  * (00157C) S_END
  */
+void BtTCPDeleteEntry()
+{
+	// TODO: BtTCPDeleteEntry
+}
 
 /*
  * (001580) S_GPROC32: [0001:00061180], Cb: 00000087, Type:             0x141A, BtMODEMAddEntryDone
@@ -564,6 +694,10 @@
  * 
  * (0015F4) S_END
  */
+void BtMODEMAddEntryDone()
+{
+	// TODO: BtMODEMAddEntryDone
+}
 
 /*
  * (0015F8) S_GPROC32: [0001:00061207], Cb: 000000AC, Type:             0x141A, BtMODEMAddIP
@@ -577,6 +711,10 @@
  * 
  * (001664) S_END
  */
+void BtMODEMAddIP()
+{
+	// TODO: BtMODEMAddIP
+}
 
 /*
  * (001668) S_GPROC32: [0001:000612B3], Cb: 0000006B, Type:             0x141A, BtMODEMAddEntry
@@ -590,6 +728,10 @@
  * 
  * (0016D8) S_END
  */
+void BtMODEMAddEntry()
+{
+	// TODO: BtMODEMAddEntry
+}
 
 /*
  * (0016DC) S_GPROC32: [0001:0006131E], Cb: 00000072, Type:             0x141A, BtMODEMEditEntryDone
@@ -603,6 +745,10 @@
  * 
  * (001750) S_END
  */
+void BtMODEMEditEntryDone()
+{
+	// TODO: BtMODEMEditEntryDone
+}
 
 /*
  * (001754) S_GPROC32: [0001:00061390], Cb: 000000C3, Type:             0x141A, BtMODEMEditIP
@@ -616,6 +762,10 @@
  * 
  * (0017C4) S_END
  */
+void BtMODEMEditIP()
+{
+	// TODO: BtMODEMEditIP
+}
 
 /*
  * (0017C8) S_GPROC32: [0001:00061453], Cb: 00000093, Type:             0x141A, BtMODEMEditEntry
@@ -629,6 +779,10 @@
  * 
  * (001838) S_END
  */
+void BtMODEMEditEntry()
+{
+	// TODO: BtMODEMEditEntry
+}
 
 /*
  * (00183C) S_GPROC32: [0001:000614E6], Cb: 000000D8, Type:             0x141A, BtMODEMDeleteEntry
@@ -641,6 +795,10 @@
  * 
  * (001898) S_END
  */
+void BtMODEMDeleteEntry()
+{
+	// TODO: BtMODEMDeleteEntry
+}
 
 /*
  * (00189C) S_GPROC32: [0001:000615BE], Cb: 00000225, Type:             0x141A, BtTCPJoin
@@ -655,6 +813,10 @@
  * 
  * (001918) S_END
  */
+void BtTCPJoin()
+{
+	// TODO: BtTCPJoin
+}
 
 /*
  * (00191C) S_GPROC32: [0001:000617E3], Cb: 00000128, Type:             0x141A, BtTCPCreate
@@ -668,6 +830,10 @@
  * 
  * (001988) S_END
  */
+void BtTCPCreate()
+{
+	// TODO: BtTCPCreate
+}
 
 /*
  * (00198C) S_GPROC32: [0001:0006190B], Cb: 000000A8, Type:             0x141A, BtTCPDisconnect
@@ -681,6 +847,10 @@
  * 
  * (0019FC) S_END
  */
+void BtTCPDisconnect()
+{
+	// TODO: BtTCPDisconnect
+}
 
 /*
  * (001A00) S_GPROC32: [0001:000619B3], Cb: 00000128, Type:             0x141A, BtIPXJoin
@@ -695,6 +865,10 @@
  * 
  * (001A7C) S_END
  */
+void BtIPXJoin()
+{
+	// TODO: BtIPXJoin
+}
 
 /*
  * (001A80) S_GPROC32: [0001:00061ADB], Cb: 000000DC, Type:             0x141A, BtIPXCreate
@@ -708,6 +882,10 @@
  * 
  * (001AEC) S_END
  */
+void BtIPXCreate()
+{
+	// TODO: BtIPXCreate
+}
 
 /*
  * (001AF0) S_GPROC32: [0001:00061BB7], Cb: 000000A8, Type:             0x141A, BtIPXDisconnect
@@ -721,6 +899,10 @@
  * 
  * (001B60) S_END
  */
+void BtIPXDisconnect()
+{
+	// TODO: BtIPXDisconnect
+}
 
 /*
  * (001B64) S_GPROC32: [0001:00061C5F], Cb: 00000722, Type:             0x141A, SetupNetworkGameFrame_Server
@@ -743,6 +925,10 @@
  * 
  * (001C90) S_END
  */
+void SetupNetworkGameFrame_Server()
+{
+	// TODO: SetupNetworkGameFrame_Server
+}
 
 /*
  * (001C94) S_GPROC32: [0001:00062381], Cb: 000000D0, Type:             0x1904, ChatDrawLine
@@ -758,6 +944,10 @@
  * 
  * (001D28) S_END
  */
+void ChatDrawLine()
+{
+	// TODO: ChatDrawLine
+}
 
 /*
  * (001D2C) S_GPROC32: [0001:00062451], Cb: 000001E0, Type:             0x141A, NetworkGame_ChatLineFinished
@@ -774,6 +964,10 @@
  * 
  * (001DDC) S_END
  */
+void NetworkGame_ChatLineFinished()
+{
+	// TODO: NetworkGame_ChatLineFinished
+}
 
 /*
  * (001DE0) S_GPROC32: [0001:00062631], Cb: 00000159, Type:             0x1907, NetworkGame_ChatLineRecieved
@@ -789,6 +983,10 @@
  * 
  * (001E7C) S_END
  */
+void NetworkGame_ChatLineRecieved()
+{
+	// TODO: NetworkGame_ChatLineRecieved
+}
 
 /*
  * (001E80) S_GPROC32: [0001:0006278A], Cb: 00000432, Type:             0x141A, SetupNetworkGameFrame_Chat
@@ -805,6 +1003,10 @@
  * 
  * (001F30) S_END
  */
+void SetupNetworkGameFrame_Chat()
+{
+	// TODO: SetupNetworkGameFrame_Chat
+}
 
 /*
  * (001F34) S_GPROC32: [0001:00062BBC], Cb: 00000040, Type:             0x141A, BtQueryTCPDisconnect
@@ -817,6 +1019,10 @@
  * 
  * (001F98) S_END
  */
+void BtQueryTCPDisconnect()
+{
+	// TODO: BtQueryTCPDisconnect
+}
 
 /*
  * (001F9C) S_GPROC32: [0001:00062BFC], Cb: 00000040, Type:             0x141A, BtQueryIPXDisconnect
@@ -829,6 +1035,10 @@
  * 
  * (002000) S_END
  */
+void BtQueryIPXDisconnect()
+{
+	// TODO: BtQueryIPXDisconnect
+}
 
 /*
  * (002004) S_GPROC32: [0001:00062C3C], Cb: 00000034, Type:             0x141A, BtQueryModemDisconnect
@@ -841,6 +1051,10 @@
  * 
  * (00206C) S_END
  */
+void BtQueryModemDisconnect()
+{
+	// TODO: BtQueryModemDisconnect
+}
 
 /*
  * (002070) S_GPROC32: [0001:00062C70], Cb: 00000034, Type:             0x141A, BtQuerySerialDisconnect
@@ -853,6 +1067,10 @@
  * 
  * (0020D8) S_END
  */
+void BtQuerySerialDisconnect()
+{
+	// TODO: BtQuerySerialDisconnect
+}
 
 /*
  * (0020DC) S_GPROC32: [0001:00062CA4], Cb: 0000012E, Type:             0x141A, BtNetROOTMENU
@@ -872,6 +1090,10 @@
  * 
  * (0021BC) S_END
  */
+void BtNetROOTMENU()
+{
+	// TODO: BtNetROOTMENU
+}
 
 /*
  * (0021C0) S_GPROC32: [0001:00062DD2], Cb: 000003CA, Type:             0x141A, BtNetwork
@@ -892,6 +1114,10 @@
  * 
  * (0022B0) S_END
  */
+void BtNetwork()
+{
+	// TODO: BtNetwork
+}
 
 /*
  * (0022B4) S_GPROC32: [0001:0006319C], Cb: 000003AE, Type:             0x1909, MultiFrameCreateButton
@@ -909,6 +1135,10 @@
  * 
  * (00236C) S_END
  */
+void MultiFrameCreateButton()
+{
+	// TODO: MultiFrameCreateButton
+}
 
 /*
  * (002370) S_GPROC32: [0001:0006354A], Cb: 000001F5, Type:             0x141A, SetupMultiFrame_GameType
@@ -926,6 +1156,10 @@
  * 
  * (002434) S_END
  */
+void SetupMultiFrame_GameType()
+{
+	// TODO: SetupMultiFrame_GameType
+}
 
 /*
  * (002438) S_GPROC32: [0001:0006373F], Cb: 000001CD, Type:             0x1001, MENU_EnumerateNetworkServices
@@ -940,6 +1174,10 @@
  * 
  * (0024E0) S_END
  */
+void MENU_EnumerateNetworkServices()
+{
+	// TODO: MENU_EnumerateNetworkServices
+}
 
 /*
  * (0024E4) S_GPROC32: [0001:0006390C], Cb: 000000EA, Type:             0x1001, DestroyMultiPlayerMenu
@@ -951,6 +1189,10 @@
  * 
  * (00253C) S_END
  */
+void DestroyMultiPlayerMenu()
+{
+	// TODO: DestroyMultiPlayerMenu
+}
 
 /*
  * (002540) S_GPROC32: [0001:000639F6], Cb: 0000013E, Type:             0x1001, SetupMultiPlayerMenu
@@ -965,4 +1207,8 @@
  * 
  * (0025C8) S_END
  */
+void SetupMultiPlayerMenu()
+{
+	// TODO: SetupMultiPlayerMenu
+}
 

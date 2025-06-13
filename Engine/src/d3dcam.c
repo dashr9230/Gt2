@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -49,6 +47,10 @@
  * 
  * (0000BC) S_END
  */
+void CAM_Init()
+{
+	// TODO: CAM_Init
+}
 
 /*
  * (0000C0) S_GPROC32: [0001:00092305], Cb: 00000299, Type:             0x1ED3, CAM_BuildMatrix
@@ -68,6 +70,10 @@
  * 
  * (0001AC) S_END
  */
+void CAM_BuildMatrix()
+{
+	// TODO: CAM_BuildMatrix
+}
 
 /*
  * (0001B0) S_GPROC32: [0001:0009259E], Cb: 000000A6, Type:             0x1ED6, CAM_Update
@@ -81,6 +87,10 @@
  * 
  * (000214) S_END
  */
+void CAM_Update()
+{
+	// TODO: CAM_Update
+}
 
 /*
  * (000218) S_GPROC32: [0001:00092644], Cb: 000000FA, Type:             0x1ED8, CAM_Move
@@ -97,6 +107,10 @@
  * 
  * (0002C0) S_END
  */
+void CAM_Move()
+{
+	// TODO: CAM_Move
+}
 
 /*
  * (0002C4) S_GPROC32: [0001:0009273E], Cb: 00000159, Type:             0x1EDA, CAM_FirstPerson
@@ -111,6 +125,10 @@
  * 
  * (00033C) S_END
  */
+void CAM_FirstPerson()
+{
+	// TODO: CAM_FirstPerson
+}
 
 /*
  * (000340) S_GPROC32: [0001:00092897], Cb: 0000023C, Type:             0x1EDA, CAM_Follow
@@ -130,6 +148,10 @@
  * 
  * (00041C) S_END
  */
+void CAM_Follow()
+{
+	// TODO: CAM_Follow
+}
 
 /*
  * (000420) S_GPROC32: [0001:00092AD3], Cb: 000000C6, Type:             0x1EDA, CAM_Fixed
@@ -148,4 +170,8 @@
  * 
  * (0004F0) S_END
  */
+void CAM_Fixed()
+{
+	// TODO: CAM_Fixed
+}
 

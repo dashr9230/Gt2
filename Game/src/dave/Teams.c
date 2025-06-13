@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000E4) S_END
  */
+void Team_Init()
+{
+	// TODO: Team_Init
+}
 
 /*
  * (0000E8) S_GPROC32: [0001:00027246], Cb: 00000057, Type:             0x1A66, Team_Join
@@ -51,6 +53,10 @@
  * 
  * (000184) S_END
  */
+void Team_Join()
+{
+	// TODO: Team_Join
+}
 
 /*
  * (000188) S_GPROC32: [0001:0002729D], Cb: 0000004C, Type:             0x16A1, Team_Leave
@@ -64,6 +70,10 @@
  * 
  * (000200) S_END
  */
+void Team_Leave()
+{
+	// TODO: Team_Leave
+}
 
 /*
  * (000204) S_GPROC32: [0001:000272E9], Cb: 0000009F, Type:             0x1BFD, Team_Swap
@@ -84,6 +94,10 @@
  * 
  * (000318) S_END
  */
+void Team_Swap()
+{
+	// TODO: Team_Swap
+}
 
 /*
  * (00031C) S_GPROC32: [0001:00027388], Cb: 0000006C, Type:             0x1BFF, Team_BuyVehicle
@@ -100,4 +114,8 @@
  * 
  * (0003D4) S_END
  */
+void Team_BuyVehicle()
+{
+	// TODO: Team_BuyVehicle
+}
 

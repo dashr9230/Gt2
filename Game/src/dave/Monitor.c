@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -49,6 +47,10 @@
  * 
  * (00017C) S_END
  */
+void Monitor_Allocate()
+{
+	// TODO: Monitor_Allocate
+}
 
 /*
  * (000180) S_LPROC32: [0001:0001713E], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -64,6 +66,10 @@
  * 
  * (000204) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (000208) S_GPROC32: [0001:000171B8], Cb: 00000189, Type:             0x1408, Monitor_Handler
@@ -76,6 +82,10 @@
  * 
  * (000260) S_END
  */
+void Monitor_Handler()
+{
+	// TODO: Monitor_Handler
+}
 
 /*
  * (000264) S_GPROC32: [0001:00017341], Cb: 0000060A, Type:             0x1408, Monitor_Draw
@@ -104,6 +114,10 @@
  * 
  * (000390) S_END
  */
+void Monitor_Draw()
+{
+	// TODO: Monitor_Draw
+}
 
 /*
  * (000394) S_GPROC32: [0001:0001794B], Cb: 00000046, Type:             0x1CBB, Monitor_DrawSmartie
@@ -118,6 +132,10 @@
  * 
  * (000420) S_END
  */
+void Monitor_DrawSmartie()
+{
+	// TODO: Monitor_DrawSmartie
+}
 
 /*
  * (000424) S_GPROC32: [0001:00017991], Cb: 00000076, Type:             0x1408, Monitor_Release
@@ -131,6 +149,10 @@
  * 
  * (00048C) S_END
  */
+void Monitor_Release()
+{
+	// TODO: Monitor_Release
+}
 
 /*
  * (000490) S_GPROC32: [0001:00017A07], Cb: 0000002C, Type:             0x1CBD, Monitor_SetColor
@@ -145,6 +167,10 @@
  * 
  * (00050C) S_END
  */
+void Monitor_SetColor()
+{
+	// TODO: Monitor_SetColor
+}
 
 /*
  * (000510) S_GPROC32: [0001:00017A33], Cb: 00000073, Type:             0x1CBF, Monitor_WatchFloat
@@ -160,6 +186,10 @@
  * 
  * (0005A8) S_END
  */
+void Monitor_WatchFloat()
+{
+	// TODO: Monitor_WatchFloat
+}
 
 /*
  * (0005AC) S_GPROC32: [0001:00017AA6], Cb: 00000073, Type:             0x1CC1, Monitor_WatchLong
@@ -175,6 +205,10 @@
  * 
  * (000644) S_END
  */
+void Monitor_WatchLong()
+{
+	// TODO: Monitor_WatchLong
+}
 
 /*
  * (000648) S_GPROC32: [0001:00017B19], Cb: 00000167, Type:             0x1CC3, Monitor_WatchPos
@@ -191,6 +225,10 @@
  * 
  * (0006E8) S_END
  */
+void Monitor_WatchPos()
+{
+	// TODO: Monitor_WatchPos
+}
 
 /*
  * (0006EC) S_GPROC32: [0001:00017C80], Cb: 00000182, Type:             0x1CC3, Monitor_WatchVec
@@ -207,6 +245,10 @@
  * 
  * (00078C) S_END
  */
+void Monitor_WatchVec()
+{
+	// TODO: Monitor_WatchVec
+}
 
 /*
  * (000790) S_GPROC32: [0001:00017E02], Cb: 0000033D, Type:             0x1408, Monitor_WheelGrip
@@ -229,6 +271,10 @@
  * 
  * (000854) S_END
  */
+void Monitor_WheelGrip()
+{
+	// TODO: Monitor_WheelGrip
+}
 
 /*
  * (000858) S_LPROC32: [0001:0001813F], Cb: 00000072, Type:             0x1CA6, primGreyBox
@@ -243,6 +289,10 @@
  * 
  * (0008CC) S_END
  */
+void primGreyBox()
+{
+	// TODO: primGreyBox
+}
 
 /*
  * (0008D0) S_LPROC32: [0001:000181B1], Cb: 000000D4, Type:             0x1CC5, primColumn
@@ -260,6 +310,10 @@
  * 
  * (000978) S_END
  */
+void primColumn()
+{
+	// TODO: primColumn
+}
 
 /*
  * (00097C) S_GPROC32: [0001:00018285], Cb: 0000007D, Type:             0x1408, Monitor_CollisionMesh
@@ -275,6 +329,10 @@
  * 
  * (000A18) S_END
  */
+void Monitor_CollisionMesh()
+{
+	// TODO: Monitor_CollisionMesh
+}
 
 /*
  * (000A1C) S_GPROC32: [0001:00018302], Cb: 00000041, Type:             0x1BFD, SetColMeshColor
@@ -287,6 +345,10 @@
  * 
  * (000A7C) S_END
  */
+void SetColMeshColor()
+{
+	// TODO: SetColMeshColor
+}
 
 /*
  * (000A80) S_GPROC32: [0001:00018343], Cb: 00000502, Type:             0x1408, Monitor_MotionTracker
@@ -305,6 +367,10 @@
  * 
  * (000B58) S_END
  */
+void Monitor_MotionTracker()
+{
+	// TODO: Monitor_MotionTracker
+}
 
 /*
  * (000B5C) S_GPROC32: [0001:00018845], Cb: 00000066, Type:             0x1CC8, Monitor_Watch2DVec
@@ -322,6 +388,10 @@
  * 
  * (000C18) S_END
  */
+void Monitor_Watch2DVec()
+{
+	// TODO: Monitor_Watch2DVec
+}
 
 /*
  * (000C1C) S_GPROC32: [0001:000188AB], Cb: 00000054, Type:             0x1CC8, Monitor_Watch2DPos
@@ -339,6 +409,10 @@
  * 
  * (000CD8) S_END
  */
+void Monitor_Watch2DPos()
+{
+	// TODO: Monitor_Watch2DPos
+}
 
 /*
  * (000DC8) S_GPROC32: [0001:00018900], Cb: 0000001F, Type:             0x1CCB, P2D_SetPointJoin
@@ -351,6 +425,10 @@
  * 
  * (000E28) S_END
  */
+void P2D_SetPointJoin()
+{
+	// TODO: P2D_SetPointJoin
+}
 
 /*
  * (000E2C) S_GPROC32: [0001:00018920], Cb: 0000009F, Type:             0x1CCD, P2D_SetXY1
@@ -364,4 +442,8 @@
  * 
  * (000E94) S_END
  */
+void P2D_SetXY1()
+{
+	// TODO: P2D_SetXY1
+}
 

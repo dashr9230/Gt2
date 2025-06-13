@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -54,6 +52,10 @@
  * 
  * (0000C0) S_END
  */
+void REPLAY_End()
+{
+	// TODO: REPLAY_End
+}
 
 /*
  * (0000C4) S_GPROC32: [0001:00031BB5], Cb: 00000042, Type:             0x1001, REPLAY_Close
@@ -63,6 +65,10 @@
  * 
  * (0000F8) S_END
  */
+void REPLAY_Close()
+{
+	// TODO: REPLAY_Close
+}
 
 /*
  * (0000FC) S_LPROC32: [0001:00031BF7], Cb: 0000008E, Type:             0x1001, REPLAY_FileClose
@@ -72,6 +78,10 @@
  * 
  * (000134) S_END
  */
+void REPLAY_FileClose()
+{
+	// TODO: REPLAY_FileClose
+}
 
 /*
  * (000138) S_LPROC32: [0001:00031C85], Cb: 00000058, Type:             0x16A1, REPLAY_FileUpdate
@@ -90,6 +100,10 @@
  * 
  * (0001C0) S_END
  */
+void REPLAY_FileUpdate()
+{
+	// TODO: REPLAY_FileUpdate
+}
 
 /*
  * (0001C4) S_GPROC32: [0001:00031CDD], Cb: 000001F1, Type:             0x1001, REPLAY_Record
@@ -124,6 +138,10 @@
  * 
  * (0002CC) S_END
  */
+void REPLAY_Record()
+{
+	// TODO: REPLAY_Record
+}
 
 /*
  * (0002D0) S_LPROC32: [0001:00031ECE], Cb: 000000B3, Type:             0x1B45, REPLAY_FileOpen
@@ -143,6 +161,10 @@
  * 
  * (000360) S_END
  */
+void REPLAY_FileOpen()
+{
+	// TODO: REPLAY_FileOpen
+}
 
 /*
  * (000364) S_GPROC32: [0001:00031F81], Cb: 000000F0, Type:             0x1B45, REPLAY_Load
@@ -156,6 +178,10 @@
  * 
  * (0003D4) S_END
  */
+void REPLAY_Load()
+{
+	// TODO: REPLAY_Load
+}
 
 /*
  * (0003D8) S_GPROC32: [0001:00032071], Cb: 00000282, Type:             0x1B47, REPLAY_Playback
@@ -181,6 +207,10 @@
  * 
  * (0004EC) S_END
  */
+void REPLAY_Playback()
+{
+	// TODO: REPLAY_Playback
+}
 
 /*
  * (0004F0) S_GPROC32: [0001:000322F3], Cb: 000000C1, Type:             0x1001, REPLAY_PlaybackInstant
@@ -194,6 +224,10 @@
  * 
  * (00056C) S_END
  */
+void REPLAY_PlaybackInstant()
+{
+	// TODO: REPLAY_PlaybackInstant
+}
 
 /*
  * (000570) S_GPROC32: [0001:000323B4], Cb: 000000A8, Type:             0x1001, REPLAY_PlaybackHook
@@ -213,6 +247,10 @@
  * 
  * (000618) S_END
  */
+void REPLAY_PlaybackHook()
+{
+	// TODO: REPLAY_PlaybackHook
+}
 
 /*
  * (00061C) S_GPROC32: [0001:0003245C], Cb: 0000001D, Type:             0x1001, REPLAY_Stop
@@ -222,6 +260,10 @@
  * 
  * (000650) S_END
  */
+void REPLAY_Stop()
+{
+	// TODO: REPLAY_Stop
+}
 
 /*
  * (000654) S_GPROC32: [0001:00032479], Cb: 0000000A, Type:             0x1B48, REPLAY_Save
@@ -233,6 +275,10 @@
  * 
  * (00069C) S_END
  */
+void REPLAY_Save()
+{
+	// TODO: REPLAY_Save
+}
 
 /*
  * (0006A0) S_LPROC32: [0001:00032483], Cb: 000000F2, Type:             0x16A1, REPLAY_PlayUpdate
@@ -247,6 +293,10 @@
  * 
  * (000730) S_END
  */
+void REPLAY_PlayUpdate()
+{
+	// TODO: REPLAY_PlayUpdate
+}
 
 /*
  * (000734) S_GPROC32: [0001:00032575], Cb: 00000116, Type:             0x17C9, CON_Replay
@@ -259,6 +309,10 @@
  * 
  * (000790) S_END
  */
+void CON_Replay()
+{
+	// TODO: CON_Replay
+}
 
 /*
  * (000794) S_GPROC32: [0001:0003268B], Cb: 00000078, Type:             0x1001, REPLAY_Init
@@ -268,6 +322,10 @@
  * 
  * (0007C8) S_END
  */
+void REPLAY_Init()
+{
+	// TODO: REPLAY_Init
+}
 
 /*
  * (0007CC) S_GPROC32: [0001:00032703], Cb: 00000039, Type:             0x1001, REPLAY_Shutdown
@@ -277,6 +335,10 @@
  * 
  * (000804) S_END
  */
+void REPLAY_Shutdown()
+{
+	// TODO: REPLAY_Shutdown
+}
 
 /*
  * (000808) S_GPROC32: [0001:0003273C], Cb: 0000009C, Type:             0x16A5, REPLAY_Report
@@ -292,6 +354,10 @@
  * 
  * (0008A0) S_END
  */
+void REPLAY_Report()
+{
+	// TODO: REPLAY_Report
+}
 
 /*
  * (0008A4) S_GPROC32: [0001:000327D8], Cb: 00000A9A, Type:             0x1408, REPLAY_Handler
@@ -368,6 +434,10 @@
  * 
  * (000B90) S_END
  */
+void REPLAY_Handler()
+{
+	// TODO: REPLAY_Handler
+}
 
 /*
  * (000B94) S_LPROC32: [0001:00033272], Cb: 00000007, Type:             0x16A5, REPLAY_AbortCheck
@@ -377,6 +447,10 @@
  * 
  * (000BD0) S_END
  */
+void REPLAY_AbortCheck()
+{
+	// TODO: REPLAY_AbortCheck
+}
 
 /*
  * (000BD4) S_GPROC32: [0001:00033279], Cb: 00000029, Type:             0x16A5, REPLAY_IsPlaying
@@ -386,6 +460,10 @@
  * 
  * (000C0C) S_END
  */
+void REPLAY_IsPlaying()
+{
+	// TODO: REPLAY_IsPlaying
+}
 
 /*
  * (000C10) S_GPROC32: [0001:000332A2], Cb: 00000020, Type:             0x16A5, REPLAY_IsRecording
@@ -395,6 +473,10 @@
  * 
  * (000C4C) S_END
  */
+void REPLAY_IsRecording()
+{
+	// TODO: REPLAY_IsRecording
+}
 
 /*
  * (000C50) S_GPROC32: [0001:000332C2], Cb: 0000003F, Type:             0x141A, REPLAY_SetPlaybackPosition
@@ -406,6 +488,10 @@
  * 
  * (000CAC) S_END
  */
+void REPLAY_SetPlaybackPosition()
+{
+	// TODO: REPLAY_SetPlaybackPosition
+}
 
 /*
  * (000CB0) S_GPROC32: [0001:00033301], Cb: 0000001E, Type:             0x1B52, REPLAY_GetPlaybackPostion
@@ -415,6 +501,10 @@
  * 
  * (000CF4) S_END
  */
+void REPLAY_GetPlaybackPostion()
+{
+	// TODO: REPLAY_GetPlaybackPostion
+}
 
 /*
  * (000CF8) S_GPROC32: [0001:0003331F], Cb: 00000016, Type:             0x1B53, REPLAY_SetPlaybackSpeed
@@ -426,6 +516,10 @@
  * 
  * (000D50) S_END
  */
+void REPLAY_SetPlaybackSpeed()
+{
+	// TODO: REPLAY_SetPlaybackSpeed
+}
 
 /*
  * (000D54) S_GPROC32: [0001:00033335], Cb: 0000001C, Type:             0x1B54, REPLAY_GetPlaybackSpeed
@@ -435,6 +529,10 @@
  * 
  * (000D94) S_END
  */
+void REPLAY_GetPlaybackSpeed()
+{
+	// TODO: REPLAY_GetPlaybackSpeed
+}
 
 /*
  * (000D98) S_GPROC32: [0001:00033351], Cb: 00000167, Type:             0x1B55, REPLAY_CopyToSlot
@@ -447,6 +545,10 @@
  * 
  * (000E00) S_END
  */
+void REPLAY_CopyToSlot()
+{
+	// TODO: REPLAY_CopyToSlot
+}
 
 /*
  * (000E04) S_LPROC32: [0001:000334B8], Cb: 00000116, Type:             0x1408, CopyHandler
@@ -466,6 +568,10 @@
  * 
  * (000E94) S_END
  */
+void CopyHandler()
+{
+	// TODO: CopyHandler
+}
 
 /*
  * (000E98) S_GPROC32: [0001:000335CE], Cb: 00000017, Type:             0x16A5, REPLAY_IsCopyComplete
@@ -475,6 +581,10 @@
  * 
  * (000ED8) S_END
  */
+void REPLAY_IsCopyComplete()
+{
+	// TODO: REPLAY_IsCopyComplete
+}
 
 /*
  * (000EDC) S_GPROC32: [0001:000335E5], Cb: 00000053, Type:             0x1B54, REPLAY_CopyProgress
@@ -486,6 +596,10 @@
  * 
  * (000F30) S_END
  */
+void REPLAY_CopyProgress()
+{
+	// TODO: REPLAY_CopyProgress
+}
 
 /*
  * (000F34) S_GPROC32: [0001:00033638], Cb: 00000075, Type:             0x1B45, REPLAY_GetSlotNameFromFile
@@ -500,6 +614,10 @@
  * 
  * (000FD0) S_END
  */
+void REPLAY_GetSlotNameFromFile()
+{
+	// TODO: REPLAY_GetSlotNameFromFile
+}
 
 /*
  * (000FD4) S_GPROC32: [0001:000336AD], Cb: 000000DC, Type:             0x1B5B, REPLAY_BuildDirectory
@@ -514,6 +632,10 @@
  * 
  * (001070) S_END
  */
+void REPLAY_BuildDirectory()
+{
+	// TODO: REPLAY_BuildDirectory
+}
 
 /*
  * (001074) S_GPROC32: [0001:00033789], Cb: 00000023, Type:             0x1B5C, REPLAY_GetSlotName
@@ -525,6 +647,10 @@
  * 
  * (0010C4) S_END
  */
+void REPLAY_GetSlotName()
+{
+	// TODO: REPLAY_GetSlotName
+}
 
 /*
  * (0010C8) S_GPROC32: [0001:000337AC], Cb: 000000B4, Type:             0x1B5E, REPLAY_SetSlotName
@@ -539,4 +665,8 @@
  * 
  * (001158) S_END
  */
+void REPLAY_SetSlotName()
+{
+	// TODO: REPLAY_SetSlotName
+}
 

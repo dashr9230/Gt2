@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -32,6 +30,10 @@
  * 
  * (0000D0) S_END
  */
+void GPath_SetDefaultPaths()
+{
+	// TODO: GPath_SetDefaultPaths
+}
 
 /*
  * (0000D4) S_GPROC32: [0001:00082E55], Cb: 0000004F, Type:             0x1FCC, GPATH_FindFile
@@ -45,6 +47,10 @@
  * 
  * (000144) S_END
  */
+void GPATH_FindFile()
+{
+	// TODO: GPATH_FindFile
+}
 
 /*
  * (000148) S_LPROC32: [0001:00082EA4], Cb: 000000CF, Type:             0x1FCE, GPATH_DoesFileExist
@@ -61,6 +67,10 @@
  * 
  * (000200) S_END
  */
+void GPATH_DoesFileExist()
+{
+	// TODO: GPATH_DoesFileExist
+}
 
 /*
  * (000204) S_GPROC32: [0001:00082F73], Cb: 000000AB, Type:             0x1FCC, GPATH_BuildFullPathToFile
@@ -75,6 +85,10 @@
  * 
  * (000294) S_END
  */
+void GPATH_BuildFullPathToFile()
+{
+	// TODO: GPATH_BuildFullPathToFile
+}
 
 /*
  * (000298) S_GPROC32: [0001:0008301E], Cb: 00000048, Type:             0x1FCF, GPATH_FindTexture
@@ -88,6 +102,10 @@
  * 
  * (000310) S_END
  */
+void GPATH_FindTexture()
+{
+	// TODO: GPATH_FindTexture
+}
 
 /*
  * (000314) S_LPROC32: [0001:00083066], Cb: 0000006D, Type:             0x1FCC, GPATH_FindTex
@@ -101,6 +119,10 @@
  * 
  * (000388) S_END
  */
+void GPATH_FindTex()
+{
+	// TODO: GPATH_FindTex
+}
 
 /*
  * (00038C) S_GPROC32: [0001:000830D3], Cb: 00000007, Type:             0x1F30, GPATH_VolatileData
@@ -110,4 +132,8 @@
  * 
  * (0003C8) S_END
  */
+void GPATH_VolatileData()
+{
+	// TODO: GPATH_VolatileData
+}
 

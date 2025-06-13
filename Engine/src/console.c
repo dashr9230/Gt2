@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -48,6 +46,10 @@
  * 
  * (0000E8) S_END
  */
+void CON_ConMode()
+{
+	// TODO: CON_ConMode
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:0008797B], Cb: 00000035, Type:             0x17C9, CON_DebugShow
@@ -60,6 +62,10 @@
  * 
  * (00014C) S_END
  */
+void CON_DebugShow()
+{
+	// TODO: CON_DebugShow
+}
 
 /*
  * (000150) S_GPROC32: [0001:000879B0], Cb: 000001B3, Type:             0x1B5B, CMD_ProcessScript
@@ -84,6 +90,10 @@
  * 
  * (00023C) S_END
  */
+void CMD_ProcessScript()
+{
+	// TODO: CMD_ProcessScript
+}
 
 /*
  * (000240) S_GPROC32: [0001:00087B63], Cb: 0000002B, Type:             0x17C9, CON_Exec
@@ -96,6 +106,10 @@
  * 
  * (000298) S_END
  */
+void CON_Exec()
+{
+	// TODO: CON_Exec
+}
 
 /*
  * (00029C) S_GPROC32: [0001:00087B8E], Cb: 00000153, Type:             0x1001, CMD_Init
@@ -107,6 +121,10 @@
  * 
  * (0002DC) S_END
  */
+void CMD_Init()
+{
+	// TODO: CMD_Init
+}
 
 /*
  * (0002E0) S_GPROC32: [0001:00087CE1], Cb: 00000012, Type:             0x1001, CMD_Exit
@@ -116,6 +134,10 @@
  * 
  * (000310) S_END
  */
+void CMD_Exit()
+{
+	// TODO: CMD_Exit
+}
 
 /*
  * (000314) S_GPROC32: [0001:00087CF3], Cb: 000002EA, Type:             0x1F7E, CMD_Process
@@ -139,6 +161,10 @@
  * 
  * (000444) S_END
  */
+void CMD_Process()
+{
+	// TODO: CMD_Process
+}
 
 /*
  * (000448) S_GPROC32: [0001:00087FDD], Cb: 000002AF, Type:             0x1F7F, CMD_Complete
@@ -162,6 +188,10 @@
  * 
  * (000578) S_END
  */
+void CMD_Complete()
+{
+	// TODO: CMD_Complete
+}
 
 /*
  * (00057C) S_GPROC32: [0001:0008828C], Cb: 00000017, Type:             0x1F81, CMD_Add
@@ -174,6 +204,10 @@
  * 
  * (0005E0) S_END
  */
+void CMD_Add()
+{
+	// TODO: CMD_Add
+}
 
 /*
  * (0005E4) S_LPROC32: [0001:000882A3], Cb: 000002B7, Type:             0x1F83, cmd_add
@@ -190,6 +224,10 @@
  * 
  * (00068C) S_END
  */
+void cmd_add()
+{
+	// TODO: cmd_add
+}
 
 /*
  * (000690) S_GPROC32: [0001:0008855A], Cb: 00000019, Type:             0x1F83, CMD_AddEx
@@ -203,6 +241,10 @@
  * 
  * (00070C) S_END
  */
+void CMD_AddEx()
+{
+	// TODO: CMD_AddEx
+}
 
 /*
  * (000710) S_GPROC32: [0001:00088573], Cb: 000000F0, Type:             0x1D1B, CMD_Remove
@@ -216,6 +258,10 @@
  * 
  * (00077C) S_END
  */
+void CMD_Remove()
+{
+	// TODO: CMD_Remove
+}
 
 /*
  * (000780) S_GPROC32: [0001:00088663], Cb: 0000002E, Type:             0x17C9, CON_Version
@@ -228,6 +274,10 @@
  * 
  * (0007DC) S_END
  */
+void CON_Version()
+{
+	// TODO: CON_Version
+}
 
 /*
  * (0007E0) S_GPROC32: [0001:00088691], Cb: 0000000E, Type:             0x17C9, CON_Exit
@@ -240,6 +290,10 @@
  * 
  * (000838) S_END
  */
+void CON_Exit()
+{
+	// TODO: CON_Exit
+}
 
 /*
  * (00083C) S_GPROC32: [0001:0008869F], Cb: 00000147, Type:             0x17C9, CON_Commands
@@ -258,6 +312,10 @@
  * 
  * (000910) S_END
  */
+void CON_Commands()
+{
+	// TODO: CON_Commands
+}
 
 /*
  * (000914) S_GPROC32: [0001:000887E6], Cb: 00000019, Type:             0x17C9, CON_Quit
@@ -270,6 +328,10 @@
  * 
  * (00096C) S_END
  */
+void CON_Quit()
+{
+	// TODO: CON_Quit
+}
 
 /*
  * (000970) S_GPROC32: [0001:000887FF], Cb: 00000065, Type:             0x17C9, CON_Echo
@@ -290,6 +352,10 @@
  * 
  * (000A08) S_END
  */
+void CON_Echo()
+{
+	// TODO: CON_Echo
+}
 
 /*
  * (000A0C) S_GPROC32: [0001:00088864], Cb: 00000109, Type:             0x17C9, CON_ObjPos
@@ -310,6 +376,10 @@
  * 
  * (000AA8) S_END
  */
+void CON_ObjPos()
+{
+	// TODO: CON_ObjPos
+}
 
 /*
  * (000AAC) S_GPROC32: [0001:0008896D], Cb: 00000038, Type:             0x17C9, CON_Cls
@@ -323,6 +393,10 @@
  * 
  * (000B14) S_END
  */
+void CON_Cls()
+{
+	// TODO: CON_Cls
+}
 
 /*
  * (000B18) S_GPROC32: [0001:000889A5], Cb: 00000077, Type:             0x17C9, CON_DisplayLines
@@ -342,6 +416,10 @@
  * 
  * (000BA4) S_END
  */
+void CON_DisplayLines()
+{
+	// TODO: CON_DisplayLines
+}
 
 /*
  * (000BA8) S_GPROC32: [0001:00088A1C], Cb: 00000014, Type:             0x17C9, CON_Reserved
@@ -354,6 +432,10 @@
  * 
  * (000C04) S_END
  */
+void CON_Reserved()
+{
+	// TODO: CON_Reserved
+}
 
 /*
  * (000C08) S_GPROC32: [0001:00088A30], Cb: 00000085, Type:             0x17C9, CON_Capture
@@ -366,4 +448,8 @@
  * 
  * (000C64) S_END
  */
+void CON_Capture()
+{
+	// TODO: CON_Capture
+}
 

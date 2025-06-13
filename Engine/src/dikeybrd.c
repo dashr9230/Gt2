@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -72,6 +70,10 @@
  * 
  * (0000EC) S_END
  */
+void DINPUT_ReturnDeviceSubType()
+{
+	// TODO: DINPUT_ReturnDeviceSubType
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:0007D774], Cb: 00000013, Type:             0x1B5C, DINPUT_ReturnDeviceProductName
@@ -83,6 +85,10 @@
  * 
  * (000150) S_END
  */
+void DINPUT_ReturnDeviceProductName()
+{
+	// TODO: DINPUT_ReturnDeviceProductName
+}
 
 /*
  * (000154) S_GPROC32: [0001:0007D787], Cb: 00000014, Type:             0x182A, DINPUT_ReturnDeviceAxesMask
@@ -94,6 +100,10 @@
  * 
  * (0001B0) S_END
  */
+void DINPUT_ReturnDeviceAxesMask()
+{
+	// TODO: DINPUT_ReturnDeviceAxesMask
+}
 
 /*
  * (0001B4) S_GPROC32: [0001:0007D79B], Cb: 0000006C, Type:             0x1FE4, DINPUT_ReturnRawJoystickData
@@ -120,6 +130,10 @@
  * 
  * (000284) S_END
  */
+void DINPUT_ReturnRawJoystickData()
+{
+	// TODO: DINPUT_ReturnRawJoystickData
+}
 
 /*
  * (000288) S_GPROC32: [0001:0007D807], Cb: 00000038, Type:             0x1FE5, DINPUT_ReturnRawButtonData
@@ -132,6 +146,10 @@
  * 
  * (0002F8) S_END
  */
+void DINPUT_ReturnRawButtonData()
+{
+	// TODO: DINPUT_ReturnRawButtonData
+}
 
 /*
  * (0002FC) S_GPROC32: [0001:0007D83F], Cb: 00000093, Type:             0x169A, DINPUT_EnumForceEffects
@@ -144,6 +162,10 @@
  * 
  * (00035C) S_END
  */
+void DINPUT_EnumForceEffects()
+{
+	// TODO: DINPUT_EnumForceEffects
+}
 
 /*
  * (000360) S_GPROC32: [0001:0007D8D2], Cb: 000001BD, Type:             0x1FE7, DINPUT_EnumCallBack
@@ -158,6 +180,10 @@
  * 
  * (0003E8) S_END
  */
+void DINPUT_EnumCallBack()
+{
+	// TODO: DINPUT_EnumCallBack
+}
 
 /*
  * (0003EC) S_GPROC32: [0001:0007DA8F], Cb: 00000393, Type:             0x1FE9, DINPUT_Init
@@ -174,6 +200,10 @@
  * 
  * (0004A0) S_END
  */
+void DINPUT_Init()
+{
+	// TODO: DINPUT_Init
+}
 
 /*
  * (0004A4) S_LPROC32: [0001:0007DE22], Cb: 0000083B, Type:             0x1001, DINPUT_JoyInit
@@ -197,6 +227,10 @@
  * 
  * (000580) S_END
  */
+void DINPUT_JoyInit()
+{
+	// TODO: DINPUT_JoyInit
+}
 
 /*
  * (000584) S_LPROC32: [0001:0007E65D], Cb: 000000C7, Type:             0x1778, EnumAxesCallback
@@ -214,6 +248,10 @@
  * 
  * (000644) S_END
  */
+void EnumAxesCallback()
+{
+	// TODO: EnumAxesCallback
+}
 
 /*
  * (000648) S_GPROC32: [0001:0007E724], Cb: 000001AC, Type:             0x1001, DINPUT_Release
@@ -225,6 +263,10 @@
  * 
  * (000690) S_END
  */
+void DINPUT_Release()
+{
+	// TODO: DINPUT_Release
+}
 
 /*
  * (000694) S_GPROC32: [0001:0007E8D0], Cb: 00000201, Type:             0x2042, DINPUT_MouseRead
@@ -245,6 +287,10 @@
  * 
  * (00078C) S_END
  */
+void DINPUT_MouseRead()
+{
+	// TODO: DINPUT_MouseRead
+}
 
 /*
  * (000790) S_GPROC32: [0001:0007EAD1], Cb: 00000031, Type:             0x2043, DINPUT_GetHardwareMousePos
@@ -264,6 +310,10 @@
  * 
  * (000820) S_END
  */
+void DINPUT_GetHardwareMousePos()
+{
+	// TODO: DINPUT_GetHardwareMousePos
+}
 
 /*
  * (000824) S_GPROC32: [0001:0007EB02], Cb: 0000013E, Type:             0x1CCF, DINPUT_GetHardwareMousePosfp
@@ -295,6 +345,10 @@
  * 
  * (000950) S_END
  */
+void DINPUT_GetHardwareMousePosfp()
+{
+	// TODO: DINPUT_GetHardwareMousePosfp
+}
 
 /*
  * (000954) S_GPROC32: [0001:0007EC40], Cb: 0000014A, Type:             0x1CCF, DINPUT_GetHardwareMousePosDebugfp
@@ -326,6 +380,10 @@
  * 
  * (000A88) S_END
  */
+void DINPUT_GetHardwareMousePosDebugfp()
+{
+	// TODO: DINPUT_GetHardwareMousePosDebugfp
+}
 
 /*
  * (000A8C) S_GPROC32: [0001:0007ED8A], Cb: 000000AB, Type:             0x2044, DINPUT_Keycode2Ascii
@@ -348,6 +406,10 @@
  * 
  * (000B4C) S_END
  */
+void DINPUT_Keycode2Ascii()
+{
+	// TODO: DINPUT_Keycode2Ascii
+}
 
 /*
  * (000B50) S_GPROC32: [0001:0007EE35], Cb: 0000014F, Type:             0x2047, DINPUT_ProcessKeys
@@ -364,6 +426,10 @@
  * 
  * (000C18) S_END
  */
+void DINPUT_ProcessKeys()
+{
+	// TODO: DINPUT_ProcessKeys
+}
 
 /*
  * (000C1C) S_GPROC32: [0001:0007EF84], Cb: 00000088, Type:             0x2049, DINPUT_ReadKeyboard
@@ -376,6 +442,10 @@
  * 
  * (000C80) S_END
  */
+void DINPUT_ReadKeyboard()
+{
+	// TODO: DINPUT_ReadKeyboard
+}
 
 /*
  * (000C84) S_GPROC32: [0001:0007F00C], Cb: 00000029, Type:             0x1BFD, DINPUT_SetForceFB
@@ -388,6 +458,10 @@
  * 
  * (000CE8) S_END
  */
+void DINPUT_SetForceFB()
+{
+	// TODO: DINPUT_SetForceFB
+}
 
 /*
  * (000CEC) S_GPROC32: [0001:0007F035], Cb: 0000002C, Type:             0x1B55, DINPUT_GetForceFB
@@ -399,6 +473,10 @@
  * 
  * (000D3C) S_END
  */
+void DINPUT_GetForceFB()
+{
+	// TODO: DINPUT_GetForceFB
+}
 
 /*
  * (000D40) S_GPROC32: [0001:0007F061], Cb: 00000020, Type:             0x1B55, DINPUT_IsDeviceConnected
@@ -410,6 +488,10 @@
  * 
  * (000D94) S_END
  */
+void DINPUT_IsDeviceConnected()
+{
+	// TODO: DINPUT_IsDeviceConnected
+}
 
 /*
  * (000D98) S_GPROC32: [0001:0007F081], Cb: 0000002C, Type:             0x1B55, DINPUT_IsDeviceForceFB
@@ -421,6 +503,10 @@
  * 
  * (000DEC) S_END
  */
+void DINPUT_IsDeviceForceFB()
+{
+	// TODO: DINPUT_IsDeviceForceFB
+}
 
 /*
  * (000DF0) S_GPROC32: [0001:0007F0AD], Cb: 00000181, Type:             0x17C9, CON_FForce
@@ -434,6 +520,10 @@
  * 
  * (000E5C) S_END
  */
+void CON_FForce()
+{
+	// TODO: CON_FForce
+}
 
 /*
  * (000E60) S_GPROC32: [0001:0007F22E], Cb: 0000068A, Type:             0x1771, DINPUT_ReadJoystk2Axis
@@ -473,6 +563,10 @@
  * 
  * (001074) S_END
  */
+void DINPUT_ReadJoystk2Axis()
+{
+	// TODO: DINPUT_ReadJoystk2Axis
+}
 
 /*
  * (001078) S_LPROC32: [0001:0007F8B8], Cb: 000003D0, Type:             0x16A1, HandleForceFeedback
@@ -494,6 +588,10 @@
  * 
  * (001134) S_END
  */
+void HandleForceFeedback()
+{
+	// TODO: HandleForceFeedback
+}
 
 /*
  * (001138) S_LPROC32: [0001:0007FC88], Cb: 00000106, Type:             0x204C, ReadJoyDevice
@@ -507,6 +605,10 @@
  * 
  * (0011AC) S_END
  */
+void ReadJoyDevice()
+{
+	// TODO: ReadJoyDevice
+}
 
 /*
  * (0011B0) S_LPROC32: [0001:0007FD8E], Cb: 00000046, Type:             0x204E, AdjustAxisSensitivity
@@ -520,6 +622,10 @@
  * 
  * (001234) S_END
  */
+void AdjustAxisSensitivity()
+{
+	// TODO: AdjustAxisSensitivity
+}
 
 /*
  * (001238) S_LPROC32: [0001:0007FDD4], Cb: 00000046, Type:             0x204E, AdjustAxisSensitivityFull
@@ -533,6 +639,10 @@
  * 
  * (0012C0) S_END
  */
+void AdjustAxisSensitivityFull()
+{
+	// TODO: AdjustAxisSensitivityFull
+}
 
 /*
  * (0012C4) S_LPROC32: [0001:0007FE1A], Cb: 0000006B, Type:             0x204F, AxisMapper
@@ -545,6 +655,10 @@
  * 
  * (001328) S_END
  */
+void AxisMapper()
+{
+	// TODO: AxisMapper
+}
 
 /*
  * (00132C) S_GPROC32: [0001:0007FE85], Cb: 00000019, Type:             0x1771, DINPUT_ReadGamePad
@@ -558,6 +672,10 @@
  * 
  * (0013A4) S_END
  */
+void DINPUT_ReadGamePad()
+{
+	// TODO: DINPUT_ReadGamePad
+}
 
 /*
  * (0013A8) S_GPROC32: [0001:0007FE9E], Cb: 00000178, Type:             0x1771, DINPUT_ReadJoystkKeyboard
@@ -572,6 +690,10 @@
  * 
  * (001438) S_END
  */
+void DINPUT_ReadJoystkKeyboard()
+{
+	// TODO: DINPUT_ReadJoystkKeyboard
+}
 
 /*
  * (00143C) S_GPROC32: [0001:00080016], Cb: 00000040, Type:             0x2051, DINPUT_DebounceJStick
@@ -586,6 +708,10 @@
  * 
  * (0014C8) S_END
  */
+void DINPUT_DebounceJStick()
+{
+	// TODO: DINPUT_DebounceJStick
+}
 
 /*
  * (0014CC) S_GPROC32: [0001:00080056], Cb: 00000032, Type:             0x2053, DINPUT_SetupPlayersJoystick
@@ -600,4 +726,8 @@
  * 
  * (001564) S_END
  */
+void DINPUT_SetupPlayersJoystick()
+{
+	// TODO: DINPUT_SetupPlayersJoystick
+}
 

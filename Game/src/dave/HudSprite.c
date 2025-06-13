@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -42,6 +40,10 @@
  * 
  * (0000F0) S_END
  */
+void HUDSPRITE_Allocate()
+{
+	// TODO: HUDSPRITE_Allocate
+}
 
 /*
  * (0000F4) S_GPROC32: [0001:0000F3C5], Cb: 00000095, Type:             0x1CD9, HUDSPRITE_Release
@@ -53,6 +55,10 @@
  * 
  * (000148) S_END
  */
+void HUDSPRITE_Release()
+{
+	// TODO: HUDSPRITE_Release
+}
 
 /*
  * (00014C) S_GPROC32: [0001:0000F45A], Cb: 00000035, Type:             0x1CDB, HUDSPRITE_Reset
@@ -68,6 +74,10 @@
  * 
  * (0001DC) S_END
  */
+void HUDSPRITE_Reset()
+{
+	// TODO: HUDSPRITE_Reset
+}
 
 /*
  * (0001E0) S_GPROC32: [0001:0000F48F], Cb: 0000019A, Type:             0x1CD9, HUDSPRITE_Dial_Allocate
@@ -81,6 +91,10 @@
  * 
  * (000264) S_END
  */
+void HUDSPRITE_Dial_Allocate()
+{
+	// TODO: HUDSPRITE_Dial_Allocate
+}
 
 /*
  * (000268) S_LPROC32: [0001:0000F629], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -96,6 +110,10 @@
  * 
  * (0002EC) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (0002F0) S_GPROC32: [0001:0000F6A3], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_Dial_Release
@@ -107,6 +125,10 @@
  * 
  * (000348) S_END
  */
+void HUDSPRITE_Dial_Release()
+{
+	// TODO: HUDSPRITE_Dial_Release
+}
 
 /*
  * (00034C) S_GPROC32: [0001:0000F6BA], Cb: 00000915, Type:             0x1CDD, HUDSPRITE_Dial_Draw
@@ -136,6 +158,10 @@
  * 
  * (0004FC) S_END
  */
+void HUDSPRITE_Dial_Draw()
+{
+	// TODO: HUDSPRITE_Dial_Draw
+}
 
 /*
  * (000500) S_GPROC32: [0001:0000FFCF], Cb: 000000D8, Type:             0x1CD9, HUDSPRITE_MiniDial_Allocate
@@ -149,6 +175,10 @@
  * 
  * (000588) S_END
  */
+void HUDSPRITE_MiniDial_Allocate()
+{
+	// TODO: HUDSPRITE_MiniDial_Allocate
+}
 
 /*
  * (00058C) S_GPROC32: [0001:000100A7], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_MiniDial_Release
@@ -160,6 +190,10 @@
  * 
  * (0005E8) S_END
  */
+void HUDSPRITE_MiniDial_Release()
+{
+	// TODO: HUDSPRITE_MiniDial_Release
+}
 
 /*
  * (0005EC) S_GPROC32: [0001:000100BE], Cb: 00000364, Type:             0x1CDD, HUDSPRITE_MiniDial_Draw
@@ -176,6 +210,10 @@
  * 
  * (0006A4) S_END
  */
+void HUDSPRITE_MiniDial_Draw()
+{
+	// TODO: HUDSPRITE_MiniDial_Draw
+}
 
 /*
  * (0006A8) S_GPROC32: [0001:00010422], Cb: 00000173, Type:             0x1CD9, HUDSPRITE_LightGantry_Allocate
@@ -190,6 +228,10 @@
  * 
  * (000744) S_END
  */
+void HUDSPRITE_LightGantry_Allocate()
+{
+	// TODO: HUDSPRITE_LightGantry_Allocate
+}
 
 /*
  * (000748) S_GPROC32: [0001:00010595], Cb: 00000029, Type:             0x1CD9, HUDSPRITE_LightGantry_Release
@@ -201,6 +243,10 @@
  * 
  * (0007A8) S_END
  */
+void HUDSPRITE_LightGantry_Release()
+{
+	// TODO: HUDSPRITE_LightGantry_Release
+}
 
 /*
  * (0007AC) S_GPROC32: [0001:000105BE], Cb: 00000683, Type:             0x1CDF, HUDSPRITE_LightGantry_Draw
@@ -244,6 +290,10 @@
  * 
  * (0009B0) S_END
  */
+void HUDSPRITE_LightGantry_Draw()
+{
+	// TODO: HUDSPRITE_LightGantry_Draw
+}
 
 /*
  * (0009B4) S_GPROC32: [0001:00010C41], Cb: 00000045, Type:             0x1CD9, HUDSPRITE_Dog_Allocate
@@ -256,6 +306,10 @@
  * 
  * (000A20) S_END
  */
+void HUDSPRITE_Dog_Allocate()
+{
+	// TODO: HUDSPRITE_Dog_Allocate
+}
 
 /*
  * (000A24) S_GPROC32: [0001:00010C86], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_Dog_Release
@@ -267,6 +321,10 @@
  * 
  * (000A7C) S_END
  */
+void HUDSPRITE_Dog_Release()
+{
+	// TODO: HUDSPRITE_Dog_Release
+}
 
 /*
  * (000A80) S_GPROC32: [0001:00010C9D], Cb: 000000F2, Type:             0x1CD9, HUDSPRITE_Dog_Draw
@@ -280,6 +338,10 @@
  * 
  * (000AFC) S_END
  */
+void HUDSPRITE_Dog_Draw()
+{
+	// TODO: HUDSPRITE_Dog_Draw
+}
 
 /*
  * (000B00) S_GPROC32: [0001:00010D8F], Cb: 00000029, Type:             0x1CD9, HUDSPRITE_MapCars_Allocate
@@ -292,6 +354,10 @@
  * 
  * (000B70) S_END
  */
+void HUDSPRITE_MapCars_Allocate()
+{
+	// TODO: HUDSPRITE_MapCars_Allocate
+}
 
 /*
  * (000B74) S_GPROC32: [0001:00010DB8], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_MapCars_Release
@@ -303,6 +369,10 @@
  * 
  * (000BD0) S_END
  */
+void HUDSPRITE_MapCars_Release()
+{
+	// TODO: HUDSPRITE_MapCars_Release
+}
 
 /*
  * (000BD4) S_GPROC32: [0001:00010DCF], Cb: 00000229, Type:             0x1CDD, HUDSPRITE_MapCars_Draw
@@ -328,6 +398,10 @@
  * 
  * (000D44) S_END
  */
+void HUDSPRITE_MapCars_Draw()
+{
+	// TODO: HUDSPRITE_MapCars_Draw
+}
 
 /*
  * (000D48) S_GPROC32: [0001:00010FF8], Cb: 0000007E, Type:             0x1CD9, HUDSPRITE_RaceInfo_Allocate
@@ -341,6 +415,10 @@
  * 
  * (000DD0) S_END
  */
+void HUDSPRITE_RaceInfo_Allocate()
+{
+	// TODO: HUDSPRITE_RaceInfo_Allocate
+}
 
 /*
  * (000DD4) S_GPROC32: [0001:00011076], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_RaceInfo_Release
@@ -352,6 +430,10 @@
  * 
  * (000E30) S_END
  */
+void HUDSPRITE_RaceInfo_Release()
+{
+	// TODO: HUDSPRITE_RaceInfo_Release
+}
 
 /*
  * (000E34) S_GPROC32: [0001:0001108D], Cb: 000000B8, Type:             0x1CE4, HUDSPRITE_RaceInfo_Draw
@@ -367,6 +449,10 @@
  * 
  * (000EDC) S_END
  */
+void HUDSPRITE_RaceInfo_Draw()
+{
+	// TODO: HUDSPRITE_RaceInfo_Draw
+}
 
 /*
  * (000EE0) S_LPROC32: [0001:00011145], Cb: 00000047, Type:             0x1CE6, HUDSPRITE_RaceInfo_Reset
@@ -382,6 +468,10 @@
  * 
  * (000F80) S_END
  */
+void HUDSPRITE_RaceInfo_Reset()
+{
+	// TODO: HUDSPRITE_RaceInfo_Reset
+}
 
 /*
  * (000F84) S_LPROC32: [0001:0001118C], Cb: 000000DF, Type:             0x1CD9, HUDSPRITE_RaceInfo_DrawHeader
@@ -395,6 +485,10 @@
  * 
  * (00100C) S_END
  */
+void HUDSPRITE_RaceInfo_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceInfo_DrawHeader
+}
 
 /*
  * (001010) S_LPROC32: [0001:0001126B], Cb: 0000009E, Type:             0x1CE4, HUDSPRITE_RaceInfo_DrawTitle
@@ -407,6 +501,10 @@
  * 
  * (001080) S_END
  */
+void HUDSPRITE_RaceInfo_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceInfo_DrawTitle
+}
 
 /*
  * (001084) S_LPROC32: [0001:00011309], Cb: 000003B7, Type:             0x1CE8, HUDSPRITE_RaceInfo_AddPlace
@@ -426,6 +524,10 @@
  * 
  * (001180) S_END
  */
+void HUDSPRITE_RaceInfo_AddPlace()
+{
+	// TODO: HUDSPRITE_RaceInfo_AddPlace
+}
 
 /*
  * (001184) S_LPROC32: [0001:000116C0], Cb: 00000024, Type:             0x1CD9, HUDSPRITE_RaceInfo_DrawPlaces
@@ -437,6 +539,10 @@
  * 
  * (0011E4) S_END
  */
+void HUDSPRITE_RaceInfo_DrawPlaces()
+{
+	// TODO: HUDSPRITE_RaceInfo_DrawPlaces
+}
 
 /*
  * (0011E8) S_GPROC32: [0001:000116E4], Cb: 0000007E, Type:             0x1CD9, HUDSPRITE_RaceResults_Allocate
@@ -450,6 +556,10 @@
  * 
  * (001274) S_END
  */
+void HUDSPRITE_RaceResults_Allocate()
+{
+	// TODO: HUDSPRITE_RaceResults_Allocate
+}
 
 /*
  * (001278) S_GPROC32: [0001:00011762], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_RaceResults_Release
@@ -461,6 +571,10 @@
  * 
  * (0012D8) S_END
  */
+void HUDSPRITE_RaceResults_Release()
+{
+	// TODO: HUDSPRITE_RaceResults_Release
+}
 
 /*
  * (0012DC) S_GPROC32: [0001:00011779], Cb: 000000CD, Type:             0x1CE4, HUDSPRITE_RaceResults_Draw
@@ -476,6 +590,10 @@
  * 
  * (001388) S_END
  */
+void HUDSPRITE_RaceResults_Draw()
+{
+	// TODO: HUDSPRITE_RaceResults_Draw
+}
 
 /*
  * (00138C) S_LPROC32: [0001:00011846], Cb: 00000036, Type:             0x1CE6, HUDSPRITE_RaceResults_Reset
@@ -490,6 +608,10 @@
  * 
  * (001418) S_END
  */
+void HUDSPRITE_RaceResults_Reset()
+{
+	// TODO: HUDSPRITE_RaceResults_Reset
+}
 
 /*
  * (00141C) S_LPROC32: [0001:0001187C], Cb: 000001D2, Type:             0x1CD9, HUDSPRITE_RaceResults_DrawHeader
@@ -503,6 +625,10 @@
  * 
  * (0014A4) S_END
  */
+void HUDSPRITE_RaceResults_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceResults_DrawHeader
+}
 
 /*
  * (0014A8) S_LPROC32: [0001:00011A4E], Cb: 0000004A, Type:             0x1CE4, HUDSPRITE_RaceResults_DrawTitle
@@ -515,6 +641,10 @@
  * 
  * (00151C) S_END
  */
+void HUDSPRITE_RaceResults_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceResults_DrawTitle
+}
 
 /*
  * (001520) S_LPROC32: [0001:00011A98], Cb: 00000447, Type:             0x1CE8, HUDSPRITE_RaceResults_AddPlace
@@ -535,6 +665,10 @@
  * 
  * (001638) S_END
  */
+void HUDSPRITE_RaceResults_AddPlace()
+{
+	// TODO: HUDSPRITE_RaceResults_AddPlace
+}
 
 /*
  * (00163C) S_LPROC32: [0001:00011EDF], Cb: 00000024, Type:             0x1CD9, HUDSPRITE_RaceResults_DrawPlaces
@@ -546,6 +680,10 @@
  * 
  * (00169C) S_END
  */
+void HUDSPRITE_RaceResults_DrawPlaces()
+{
+	// TODO: HUDSPRITE_RaceResults_DrawPlaces
+}
 
 /*
  * (0016A0) S_GPROC32: [0001:00011F03], Cb: 000000B8, Type:             0x1CD9, HUDSPRITE_PauseMenu_Allocate
@@ -559,6 +697,10 @@
  * 
  * (001728) S_END
  */
+void HUDSPRITE_PauseMenu_Allocate()
+{
+	// TODO: HUDSPRITE_PauseMenu_Allocate
+}
 
 /*
  * (00172C) S_GPROC32: [0001:00011FBB], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_PauseMenu_Release
@@ -570,6 +712,10 @@
  * 
  * (001788) S_END
  */
+void HUDSPRITE_PauseMenu_Release()
+{
+	// TODO: HUDSPRITE_PauseMenu_Release
+}
 
 /*
  * (00178C) S_GPROC32: [0001:00011FD2], Cb: 000000EF, Type:             0x1CE4, HUDSPRITE_PauseMenu_Draw
@@ -585,6 +731,10 @@
  * 
  * (001838) S_END
  */
+void HUDSPRITE_PauseMenu_Draw()
+{
+	// TODO: HUDSPRITE_PauseMenu_Draw
+}
 
 /*
  * (00183C) S_LPROC32: [0001:000120C1], Cb: 00000042, Type:             0x1CEA, HUDSPRITE_PauseMenu_Reset
@@ -600,6 +750,10 @@
  * 
  * (0018E4) S_END
  */
+void HUDSPRITE_PauseMenu_Reset()
+{
+	// TODO: HUDSPRITE_PauseMenu_Reset
+}
 
 /*
  * (0018E8) S_LPROC32: [0001:00012103], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_PauseMenu_DrawBacking
@@ -612,6 +766,10 @@
  * 
  * (00195C) S_END
  */
+void HUDSPRITE_PauseMenu_DrawBacking()
+{
+	// TODO: HUDSPRITE_PauseMenu_DrawBacking
+}
 
 /*
  * (001960) S_LPROC32: [0001:00012193], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_PauseMenu_DrawHeader
@@ -625,6 +783,10 @@
  * 
  * (0019E8) S_END
  */
+void HUDSPRITE_PauseMenu_DrawHeader()
+{
+	// TODO: HUDSPRITE_PauseMenu_DrawHeader
+}
 
 /*
  * (0019EC) S_LPROC32: [0001:0001239C], Cb: 00000049, Type:             0x1CEC, HUDSPRITE_PauseMenu_DrawTitle
@@ -638,6 +800,10 @@
  * 
  * (001A74) S_END
  */
+void HUDSPRITE_PauseMenu_DrawTitle()
+{
+	// TODO: HUDSPRITE_PauseMenu_DrawTitle
+}
 
 /*
  * (001A78) S_LPROC32: [0001:000123E5], Cb: 000000CD, Type:             0x1CEE, HUDSPRITE_PauseMenu_AddOption
@@ -656,6 +822,10 @@
  * 
  * (001B64) S_END
  */
+void HUDSPRITE_PauseMenu_AddOption()
+{
+	// TODO: HUDSPRITE_PauseMenu_AddOption
+}
 
 /*
  * (001B68) S_LPROC32: [0001:000124B2], Cb: 00000024, Type:             0x1CD9, HUDSPRITE_PauseMenu_DrawOptions
@@ -667,6 +837,10 @@
  * 
  * (001BC8) S_END
  */
+void HUDSPRITE_PauseMenu_DrawOptions()
+{
+	// TODO: HUDSPRITE_PauseMenu_DrawOptions
+}
 
 /*
  * (001BCC) S_GPROC32: [0001:000124D6], Cb: 000000DC, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_Allocate
@@ -680,6 +854,10 @@
  * 
  * (001C58) S_END
  */
+void HUDSPRITE_RaceOverMenu_Allocate()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_Allocate
+}
 
 /*
  * (001C5C) S_GPROC32: [0001:000125B2], Cb: 0000003B, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_Release
@@ -691,6 +869,10 @@
  * 
  * (001CBC) S_END
  */
+void HUDSPRITE_RaceOverMenu_Release()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_Release
+}
 
 /*
  * (001CC0) S_GPROC32: [0001:000125ED], Cb: 00000261, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_Draw
@@ -706,6 +888,10 @@
  * 
  * (001D74) S_END
  */
+void HUDSPRITE_RaceOverMenu_Draw()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_Draw
+}
 
 /*
  * (001D78) S_LPROC32: [0001:0001284E], Cb: 00000042, Type:             0x1CEA, HUDSPRITE_RaceOverMenu_Reset
@@ -721,6 +907,10 @@
  * 
  * (001E20) S_END
  */
+void HUDSPRITE_RaceOverMenu_Reset()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_Reset
+}
 
 /*
  * (001E24) S_LPROC32: [0001:00012890], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_DrawBacking
@@ -733,6 +923,10 @@
  * 
  * (001E9C) S_END
  */
+void HUDSPRITE_RaceOverMenu_DrawBacking()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_DrawBacking
+}
 
 /*
  * (001EA0) S_LPROC32: [0001:00012920], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_DrawHeader
@@ -746,6 +940,10 @@
  * 
  * (001F2C) S_END
  */
+void HUDSPRITE_RaceOverMenu_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_DrawHeader
+}
 
 /*
  * (001F30) S_LPROC32: [0001:00012B29], Cb: 00000049, Type:             0x1CEC, HUDSPRITE_RaceOverMenu_DrawTitle
@@ -759,6 +957,10 @@
  * 
  * (001FB8) S_END
  */
+void HUDSPRITE_RaceOverMenu_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_DrawTitle
+}
 
 /*
  * (001FBC) S_LPROC32: [0001:00012B72], Cb: 000000CD, Type:             0x1CEE, HUDSPRITE_RaceOverMenu_AddOption
@@ -777,6 +979,10 @@
  * 
  * (0020A8) S_END
  */
+void HUDSPRITE_RaceOverMenu_AddOption()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_AddOption
+}
 
 /*
  * (0020AC) S_LPROC32: [0001:00012C3F], Cb: 00000024, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_DrawOptions
@@ -788,6 +994,10 @@
  * 
  * (002110) S_END
  */
+void HUDSPRITE_RaceOverMenu_DrawOptions()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_DrawOptions
+}
 
 /*
  * (002114) S_LPROC32: [0001:00012C63], Cb: 000000B8, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotProgress_Allocate
@@ -801,6 +1011,10 @@
  * 
  * (0021AC) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_Allocate()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_Allocate
+}
 
 /*
  * (0021B0) S_LPROC32: [0001:00012D1B], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotProgress_Release
@@ -812,6 +1026,10 @@
  * 
  * (00221C) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_Release()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_Release
+}
 
 /*
  * (002220) S_LPROC32: [0001:00012D32], Cb: 00000029, Type:             0x1CF0, HUDSPRITE_RaceOverMenu_SlotProgress_Reset
@@ -826,6 +1044,10 @@
  * 
  * (0022C8) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_Reset()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_Reset
+}
 
 /*
  * (0022CC) S_LPROC32: [0001:00012D5B], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotProgress_DrawBacking
@@ -838,6 +1060,10 @@
  * 
  * (002350) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_DrawBacking()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_DrawBacking
+}
 
 /*
  * (002354) S_LPROC32: [0001:00012DEB], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotProgress_DrawHeader
@@ -851,6 +1077,10 @@
  * 
  * (0023EC) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_DrawHeader
+}
 
 /*
  * (0023F0) S_LPROC32: [0001:00012FF4], Cb: 0000004A, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_SlotProgress_DrawTitle
@@ -863,6 +1093,10 @@
  * 
  * (002474) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_DrawTitle
+}
 
 /*
  * (002478) S_LPROC32: [0001:0001303E], Cb: 000001E7, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_SlotProgress_DrawProgressBar
@@ -876,6 +1110,10 @@
  * 
  * (002514) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotProgress_DrawProgressBar()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotProgress_DrawProgressBar
+}
 
 /*
  * (002518) S_LPROC32: [0001:00013225], Cb: 000000B8, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotEnterName_Allocate
@@ -889,6 +1127,10 @@
  * 
  * (0025B4) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_Allocate()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_Allocate
+}
 
 /*
  * (0025B8) S_LPROC32: [0001:000132DD], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotEnterName_Release
@@ -900,6 +1142,10 @@
  * 
  * (002624) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_Release()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_Release
+}
 
 /*
  * (002628) S_LPROC32: [0001:000132F4], Cb: 0000001D, Type:             0x1CF2, HUDSPRITE_RaceOverMenu_SlotEnterName_Reset
@@ -913,6 +1159,10 @@
  * 
  * (0026B4) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_Reset()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_Reset
+}
 
 /*
  * (0026B8) S_LPROC32: [0001:00013311], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotEnterName_DrawBacking
@@ -925,6 +1175,10 @@
  * 
  * (00273C) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_DrawBacking()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_DrawBacking
+}
 
 /*
  * (002740) S_LPROC32: [0001:000133A1], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotEnterName_DrawHeader
@@ -938,6 +1192,10 @@
  * 
  * (0027D8) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_DrawHeader
+}
 
 /*
  * (0027DC) S_LPROC32: [0001:000135AA], Cb: 0000004A, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_SlotEnterName_DrawTitle
@@ -950,6 +1208,10 @@
  * 
  * (002860) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_DrawTitle
+}
 
 /*
  * (002864) S_LPROC32: [0001:000135F4], Cb: 00000110, Type:             0x1CEC, HUDSPRITE_RaceOverMenu_SlotEnterName_DrawNameBar
@@ -964,6 +1226,10 @@
  * 
  * (002914) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotEnterName_DrawNameBar()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotEnterName_DrawNameBar
+}
 
 /*
  * (002918) S_LPROC32: [0001:00013704], Cb: 000000B8, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotSelect_Allocate
@@ -977,6 +1243,10 @@
  * 
  * (0029B0) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_Allocate()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_Allocate
+}
 
 /*
  * (0029B4) S_LPROC32: [0001:000137BC], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotSelect_Release
@@ -988,6 +1258,10 @@
  * 
  * (002A20) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_Release()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_Release
+}
 
 /*
  * (002A24) S_LPROC32: [0001:000137D3], Cb: 00000029, Type:             0x1CE6, HUDSPRITE_RaceOverMenu_SlotSelect_Reset
@@ -1002,6 +1276,10 @@
  * 
  * (002AC8) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_Reset()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_Reset
+}
 
 /*
  * (002ACC) S_LPROC32: [0001:000137FC], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotSelect_DrawBacking
@@ -1014,6 +1292,10 @@
  * 
  * (002B50) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_DrawBacking()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_DrawBacking
+}
 
 /*
  * (002B54) S_LPROC32: [0001:0001388C], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_RaceOverMenu_SlotSelect_DrawHeader
@@ -1027,6 +1309,10 @@
  * 
  * (002BE8) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_DrawHeader()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_DrawHeader
+}
 
 /*
  * (002BEC) S_LPROC32: [0001:00013A95], Cb: 0000004A, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_SlotSelect_DrawTitle
@@ -1039,6 +1325,10 @@
  * 
  * (002C6C) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_DrawTitle()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_DrawTitle
+}
 
 /*
  * (002C70) S_LPROC32: [0001:00013ADF], Cb: 000001E0, Type:             0x1CE4, HUDSPRITE_RaceOverMenu_SlotSelect_DrawSlot
@@ -1055,6 +1345,10 @@
  * 
  * (002D34) S_END
  */
+void HUDSPRITE_RaceOverMenu_SlotSelect_DrawSlot()
+{
+	// TODO: HUDSPRITE_RaceOverMenu_SlotSelect_DrawSlot
+}
 
 /*
  * (002D38) S_GPROC32: [0001:00013CBF], Cb: 00000095, Type:             0x1CD9, HUDSPRITE_PlayerInfo_Allocate
@@ -1068,6 +1362,10 @@
  * 
  * (002DC4) S_END
  */
+void HUDSPRITE_PlayerInfo_Allocate()
+{
+	// TODO: HUDSPRITE_PlayerInfo_Allocate
+}
 
 /*
  * (002DC8) S_GPROC32: [0001:00013D54], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_PlayerInfo_Release
@@ -1079,6 +1377,10 @@
  * 
  * (002E24) S_END
  */
+void HUDSPRITE_PlayerInfo_Release()
+{
+	// TODO: HUDSPRITE_PlayerInfo_Release
+}
 
 /*
  * (002E28) S_GPROC32: [0001:00013D6B], Cb: 000002F0, Type:             0x1CF4, HUDSPRITE_PlayerInfo_Draw
@@ -1095,6 +1397,10 @@
  * 
  * (002EE8) S_END
  */
+void HUDSPRITE_PlayerInfo_Draw()
+{
+	// TODO: HUDSPRITE_PlayerInfo_Draw
+}
 
 /*
  * (002EEC) S_LPROC32: [0001:0001405B], Cb: 000000FA, Type:             0x1CF6, HUDSPRITE_PlayerInfo_Reset
@@ -1112,6 +1418,10 @@
  * 
  * (002FB8) S_END
  */
+void HUDSPRITE_PlayerInfo_Reset()
+{
+	// TODO: HUDSPRITE_PlayerInfo_Reset
+}
 
 /*
  * (002FBC) S_LPROC32: [0001:00014155], Cb: 0000008A, Type:             0x1CD9, HUDSPRITE_PlayerInfo_DrawBacking
@@ -1124,6 +1434,10 @@
  * 
  * (003030) S_END
  */
+void HUDSPRITE_PlayerInfo_DrawBacking()
+{
+	// TODO: HUDSPRITE_PlayerInfo_DrawBacking
+}
 
 /*
  * (003034) S_LPROC32: [0001:000141DF], Cb: 000000ED, Type:             0x1CD9, HUDSPRITE_PlayerInfo_DrawHeader
@@ -1137,6 +1451,10 @@
  * 
  * (0030BC) S_END
  */
+void HUDSPRITE_PlayerInfo_DrawHeader()
+{
+	// TODO: HUDSPRITE_PlayerInfo_DrawHeader
+}
 
 /*
  * (0030C0) S_LPROC32: [0001:000142CC], Cb: 0000009D, Type:             0x1CEC, HUDSPRITE_PlayerInfo_DrawTitle
@@ -1150,6 +1468,10 @@
  * 
  * (00314C) S_END
  */
+void HUDSPRITE_PlayerInfo_DrawTitle()
+{
+	// TODO: HUDSPRITE_PlayerInfo_DrawTitle
+}
 
 /*
  * (003150) S_GPROC32: [0001:00014369], Cb: 000000B8, Type:             0x1CD9, HUDSPRITE_Credits_Allocate
@@ -1163,6 +1485,10 @@
  * 
  * (0031D8) S_END
  */
+void HUDSPRITE_Credits_Allocate()
+{
+	// TODO: HUDSPRITE_Credits_Allocate
+}
 
 /*
  * (0031DC) S_GPROC32: [0001:00014421], Cb: 00000017, Type:             0x1CD9, HUDSPRITE_Credits_Release
@@ -1174,6 +1500,10 @@
  * 
  * (003238) S_END
  */
+void HUDSPRITE_Credits_Release()
+{
+	// TODO: HUDSPRITE_Credits_Release
+}
 
 /*
  * (00323C) S_GPROC32: [0001:00014438], Cb: 00000077, Type:             0x1CE8, HUDSPRITE_Credits_Draw
@@ -1187,6 +1517,10 @@
  * 
  * (0032BC) S_END
  */
+void HUDSPRITE_Credits_Draw()
+{
+	// TODO: HUDSPRITE_Credits_Draw
+}
 
 /*
  * (0032C0) S_LPROC32: [0001:000144AF], Cb: 00000029, Type:             0x1CE6, HUDSPRITE_Credits_Reset
@@ -1201,6 +1535,10 @@
  * 
  * (00334C) S_END
  */
+void HUDSPRITE_Credits_Reset()
+{
+	// TODO: HUDSPRITE_Credits_Reset
+}
 
 /*
  * (003350) S_LPROC32: [0001:000144D8], Cb: 00000090, Type:             0x1CD9, HUDSPRITE_Credits_DrawBacking
@@ -1213,6 +1551,10 @@
  * 
  * (0033C4) S_END
  */
+void HUDSPRITE_Credits_DrawBacking()
+{
+	// TODO: HUDSPRITE_Credits_DrawBacking
+}
 
 /*
  * (0033C8) S_LPROC32: [0001:00014568], Cb: 00000209, Type:             0x1CD9, HUDSPRITE_Credits_DrawHeader
@@ -1226,6 +1568,10 @@
  * 
  * (00344C) S_END
  */
+void HUDSPRITE_Credits_DrawHeader()
+{
+	// TODO: HUDSPRITE_Credits_DrawHeader
+}
 
 /*
  * (003450) S_LPROC32: [0001:00014771], Cb: 0000004A, Type:             0x1CE4, HUDSPRITE_Credits_DrawTitle
@@ -1238,6 +1584,10 @@
  * 
  * (0034C0) S_END
  */
+void HUDSPRITE_Credits_DrawTitle()
+{
+	// TODO: HUDSPRITE_Credits_DrawTitle
+}
 
 /*
  * (0034C4) S_LPROC32: [0001:000147BB], Cb: 000011EA, Type:             0x1CE4, HUDSPRITE_Credits_DrawBody
@@ -1268,6 +1618,10 @@
  * 
  * (003698) S_END
  */
+void HUDSPRITE_Credits_DrawBody()
+{
+	// TODO: HUDSPRITE_Credits_DrawBody
+}
 
 /*
  * (003778) S_GPROC32: [0001:000159B0], Cb: 0000000D, Type:             0x1CFB, P2D_Join
@@ -1280,6 +1634,10 @@
  * 
  * (0037D4) S_END
  */
+void P2D_Join()
+{
+	// TODO: P2D_Join
+}
 
 /*
  * (0037D8) S_GPROC32: [0001:000159C0], Cb: 0000011D, Type:             0x1CFD, P2D_SetPTXYUVC
@@ -1297,6 +1655,10 @@
  * 
  * (003884) S_END
  */
+void P2D_SetPTXYUVC()
+{
+	// TODO: P2D_SetPTXYUVC
+}
 
 /*
  * (003888) S_GPROC32: [0001:00015AE0], Cb: 000000A9, Type:             0x1CFF, P2D_GetPTXYCUV
@@ -1314,4 +1676,8 @@
  * 
  * (003938) S_END
  */
+void P2D_GetPTXYCUV()
+{
+	// TODO: P2D_GetPTXYCUV
+}
 

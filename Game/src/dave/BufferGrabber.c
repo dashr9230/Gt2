@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -32,6 +30,10 @@
  * 
  * (0000D4) S_END
  */
+void GrabSetup()
+{
+	// TODO: GrabSetup
+}
 
 /*
  * (0000D8) S_GPROC32: [0001:00001C4D], Cb: 00000032, Type:             0x1D1B, GrabByte
@@ -44,6 +46,10 @@
  * 
  * (000128) S_END
  */
+void GrabByte()
+{
+	// TODO: GrabByte
+}
 
 /*
  * (00012C) S_GPROC32: [0001:00001C7F], Cb: 00000034, Type:             0x1D1C, GrabShort
@@ -56,6 +62,10 @@
  * 
  * (000184) S_END
  */
+void GrabShort()
+{
+	// TODO: GrabShort
+}
 
 /*
  * (000188) S_GPROC32: [0001:00001CB3], Cb: 00000032, Type:             0x1D1E, GrabLong
@@ -68,6 +78,10 @@
  * 
  * (0001DC) S_END
  */
+void GrabLong()
+{
+	// TODO: GrabLong
+}
 
 /*
  * (0001E0) S_GPROC32: [0001:00001CE5], Cb: 00000032, Type:             0x1D20, GrabFloat
@@ -80,6 +94,10 @@
  * 
  * (000238) S_END
  */
+void GrabFloat()
+{
+	// TODO: GrabFloat
+}
 
 /*
  * (00023C) S_GPROC32: [0001:00001D17], Cb: 00000022, Type:             0x1D65, GrabPtr2Block
@@ -92,6 +110,10 @@
  * 
  * (000294) S_END
  */
+void GrabPtr2Block()
+{
+	// TODO: GrabPtr2Block
+}
 
 /*
  * (000298) S_GPROC32: [0001:00001D39], Cb: 00000029, Type:             0x1D21, GrabBlock
@@ -104,6 +126,10 @@
  * 
  * (0002EC) S_END
  */
+void GrabBlock()
+{
+	// TODO: GrabBlock
+}
 
 /*
  * (0002F0) S_GPROC32: [0001:00001D62], Cb: 00000035, Type:             0x1B5B, GrabStr
@@ -117,4 +143,8 @@
  * 
  * (000350) S_END
  */
+void GrabStr()
+{
+	// TODO: GrabStr
+}
 

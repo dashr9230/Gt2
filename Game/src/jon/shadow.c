@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -118,6 +116,10 @@
  * 
  * (000350) S_END
  */
+void DrawShadow()
+{
+	// TODO: DrawShadow
+}
 
 /*
  * (000354) S_LPROC32: [0001:0002D53F], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -140,6 +142,10 @@
  * 
  * (000410) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (000414) S_GPROC32: [0001:0002D5B0], Cb: 00000005, Type:             0x1BAE, shadeInitialize
@@ -153,6 +159,10 @@
  * 
  * (000484) S_END
  */
+void shadeInitialize()
+{
+	// TODO: shadeInitialize
+}
 
 /*
  * (000488) S_GPROC32: [0001:0002D5B5], Cb: 00000005, Type:             0x1001, shadeDestroy
@@ -162,6 +172,10 @@
  * 
  * (0004BC) S_END
  */
+void shadeDestroy()
+{
+	// TODO: shadeDestroy
+}
 
 /*
  * (00075C) S_GPROC32: [0001:0002D5C0], Cb: 00000053, Type:             0x1BB4, RSTATES_SetTransform
@@ -174,6 +188,10 @@
  * 
  * (0007D4) S_END
  */
+void RSTATES_SetTransform()
+{
+	// TODO: RSTATES_SetTransform
+}
 
 /*
  * (0007D8) S_GPROC32: [0001:0002D620], Cb: 00000072, Type:             0x1BB6, RSTATES_SetTexture
@@ -186,6 +204,10 @@
  * 
  * (000840) S_END
  */
+void RSTATES_SetTexture()
+{
+	// TODO: RSTATES_SetTexture
+}
 
 /*
  * (000844) S_GPROC32: [0001:0002D6A0], Cb: 00000096, Type:             0x1BB8, RSTATES_DrawIndexedPrimitive
@@ -203,4 +225,8 @@
  * 
  * (000944) S_END
  */
+void RSTATES_DrawIndexedPrimitive()
+{
+	// TODO: RSTATES_DrawIndexedPrimitive
+}
 

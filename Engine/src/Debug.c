@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -33,6 +31,10 @@
  * 
  * (0000C0) S_END
  */
+void OpenDebug()
+{
+	// TODO: OpenDebug
+}
 
 /*
  * (0000C4) S_GPROC32: [0001:00097BB3], Cb: 00000057, Type:             0x1E8D, PrintDebug
@@ -55,6 +57,10 @@
  * 
  * (000190) S_END
  */
+void PrintDebug()
+{
+	// TODO: PrintDebug
+}
 
 /*
  * (000194) S_GPROC32: [0001:00097C0A], Cb: 00000025, Type:             0x1001, CloseDebug
@@ -64,6 +70,10 @@
  * 
  * (0001C8) S_END
  */
+void CloseDebug()
+{
+	// TODO: CloseDebug
+}
 
 /*
  * (0001CC) S_GPROC32: [0001:00097C2F], Cb: 00000026, Type:             0x1BFD, TxtColDebug
@@ -76,4 +86,8 @@
  * 
  * (000228) S_END
  */
+void TxtColDebug()
+{
+	// TODO: TxtColDebug
+}
 

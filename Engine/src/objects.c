@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000C4) S_END
  */
+void CTP_ToggleModel()
+{
+	// TODO: CTP_ToggleModel
+}
 
 /*
  * (0000C8) S_GPROC32: [0001:00097915], Cb: 00000015, Type:             0x1001, CTP_YNegRot
@@ -45,6 +47,10 @@
  * 
  * (0000FC) S_END
  */
+void CTP_YNegRot()
+{
+	// TODO: CTP_YNegRot
+}
 
 /*
  * (000100) S_GPROC32: [0001:0009792A], Cb: 00000015, Type:             0x1001, CTP_YPosRot
@@ -54,6 +60,10 @@
  * 
  * (000134) S_END
  */
+void CTP_YPosRot()
+{
+	// TODO: CTP_YPosRot
+}
 
 /*
  * (000138) S_GPROC32: [0001:0009793F], Cb: 00000015, Type:             0x1001, CTP_XNegRot
@@ -63,6 +73,10 @@
  * 
  * (00016C) S_END
  */
+void CTP_XNegRot()
+{
+	// TODO: CTP_XNegRot
+}
 
 /*
  * (000170) S_GPROC32: [0001:00097954], Cb: 00000015, Type:             0x1001, CTP_XPosRot
@@ -72,6 +86,10 @@
  * 
  * (0001A4) S_END
  */
+void CTP_XPosRot()
+{
+	// TODO: CTP_XPosRot
+}
 
 /*
  * (0001A8) S_GPROC32: [0001:00097969], Cb: 00000015, Type:             0x1001, CTP_ZNegRot
@@ -81,6 +99,10 @@
  * 
  * (0001DC) S_END
  */
+void CTP_ZNegRot()
+{
+	// TODO: CTP_ZNegRot
+}
 
 /*
  * (0001E0) S_GPROC32: [0001:0009797E], Cb: 00000015, Type:             0x1001, CTP_ZPosRot
@@ -90,6 +112,10 @@
  * 
  * (000214) S_END
  */
+void CTP_ZPosRot()
+{
+	// TODO: CTP_ZPosRot
+}
 
 /*
  * (000218) S_GPROC32: [0001:00097993], Cb: 00000057, Type:             0x1001, OBJ_Init
@@ -101,6 +127,10 @@
  * 
  * (000258) S_END
  */
+void OBJ_Init()
+{
+	// TODO: OBJ_Init
+}
 
 /*
  * (00025C) S_GPROC32: [0001:000979EA], Cb: 00000015, Type:             0x1001, OBJ_Exit
@@ -110,6 +140,10 @@
  * 
  * (00028C) S_END
  */
+void OBJ_Exit()
+{
+	// TODO: OBJ_Exit
+}
 
 /*
  * (000290) S_GPROC32: [0001:000979FF], Cb: 00000060, Type:             0x1408, OBJ_Draw
@@ -121,6 +155,10 @@
  * 
  * (0002D0) S_END
  */
+void OBJ_Draw()
+{
+	// TODO: OBJ_Draw
+}
 
 /*
  * (0002D4) S_GPROC32: [0001:00097A5F], Cb: 000000B4, Type:             0x1E91, OBJ_Move
@@ -138,4 +176,8 @@
  * 
  * (00038C) S_END
  */
+void OBJ_Move()
+{
+	// TODO: OBJ_Move
+}
 

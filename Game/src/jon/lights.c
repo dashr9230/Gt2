@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -55,6 +53,10 @@
  * 
  * (000160) S_END
  */
+void DrawLights()
+{
+	// TODO: DrawLights
+}
 
 /*
  * (000164) S_GPROC32: [0001:00031145], Cb: 000002F6, Type:             0x1001, LITE_AllocateAll
@@ -81,6 +83,10 @@
  * 
  * (000280) S_END
  */
+void LITE_AllocateAll()
+{
+	// TODO: LITE_AllocateAll
+}
 
 /*
  * (000284) S_LPROC32: [0001:0003143B], Cb: 00000150, Type:             0x1B68, LITE_Allocate
@@ -99,6 +105,10 @@
  * 
  * (000354) S_END
  */
+void LITE_Allocate()
+{
+	// TODO: LITE_Allocate
+}
 
 /*
  * (000358) S_LPROC32: [0001:0003158B], Cb: 0000026B, Type:             0x1408, LITE_DrawFloor
@@ -139,6 +149,10 @@
  * 
  * (0004CC) S_END
  */
+void LITE_DrawFloor()
+{
+	// TODO: LITE_DrawFloor
+}
 
 /*
  * (0004D0) S_LPROC32: [0001:000317F6], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -161,6 +175,10 @@
  * 
  * (00058C) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (000590) S_LPROC32: [0001:00031867], Cb: 000000D5, Type:             0x1B6B, ScaleRGB
@@ -178,6 +196,10 @@
  * 
  * (00063C) S_END
  */
+void ScaleRGB()
+{
+	// TODO: ScaleRGB
+}
 
 /*
  * (000640) S_LPROC32: [0001:0003193C], Cb: 000001D9, Type:             0x1408, LITE_Draw
@@ -209,6 +231,10 @@
  * 
  * (000758) S_END
  */
+void LITE_Draw()
+{
+	// TODO: LITE_Draw
+}
 
 /*
  * (00075C) S_LPROC32: [0001:00031B15], Cb: 00000099, Type:             0x1408, LITE_Handler
@@ -221,4 +247,8 @@
  * 
  * (0007B0) S_END
  */
+void LITE_Handler()
+{
+	// TODO: LITE_Handler
+}
 

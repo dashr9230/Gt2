@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -49,6 +47,10 @@
  * 
  * (0000E8) S_END
  */
+void NormaliseVec()
+{
+	// TODO: NormaliseVec
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:00037171], Cb: 00000037, Type:             0x1AEB, MagVec
@@ -60,6 +62,10 @@
  * 
  * (00012C) S_END
  */
+void MagVec()
+{
+	// TODO: MagVec
+}
 
 /*
  * (000130) S_GPROC32: [0001:000371A8], Cb: 00000080, Type:             0x1AED, BuildBox_CalcNormal
@@ -76,6 +82,10 @@
  * 
  * (0001D4) S_END
  */
+void BuildBox_CalcNormal()
+{
+	// TODO: BuildBox_CalcNormal
+}
 
 /*
  * (0001D8) S_LPROC32: [0001:00037228], Cb: 00000060, Type:             0x1AB4, simCrossProduct
@@ -89,6 +99,10 @@
  * 
  * (000240) S_END
  */
+void simCrossProduct()
+{
+	// TODO: simCrossProduct
+}
 
 /*
  * (000244) S_GPROC32: [0001:00037288], Cb: 000005BE, Type:             0x1408, CarCol_BuildBox
@@ -107,6 +121,10 @@
  * 
  * (00030C) S_END
  */
+void CarCol_BuildBox()
+{
+	// TODO: CarCol_BuildBox
+}
 
 /*
  * (000310) S_GPROC32: [0001:00037846], Cb: 000000FD, Type:             0x1AEF, CarCol_GenWorldPos
@@ -124,6 +142,10 @@
  * 
  * (0003C4) S_END
  */
+void CarCol_GenWorldPos()
+{
+	// TODO: CarCol_GenWorldPos
+}
 
 /*
  * (0003C8) S_GPROC32: [0001:00037943], Cb: 0000004D, Type:             0x1AF1, CarCol_MeshCollideToPoint
@@ -139,6 +161,10 @@
  * 
  * (00046C) S_END
  */
+void CarCol_MeshCollideToPoint()
+{
+	// TODO: CarCol_MeshCollideToPoint
+}
 
 /*
  * (000470) S_GPROC32: [0001:00037990], Cb: 00000446, Type:             0x1AF1, CarCol_MeshCollide
@@ -163,6 +189,10 @@
  * 
  * (0005A0) S_END
  */
+void CarCol_MeshCollide()
+{
+	// TODO: CarCol_MeshCollide
+}
 
 /*
  * (0005A4) S_GPROC32: [0001:00037DD6], Cb: 00000580, Type:             0x1AF1, CarCol_MeshCollideGravity
@@ -193,6 +223,10 @@
  * 
  * (000750) S_END
  */
+void CarCol_MeshCollideGravity()
+{
+	// TODO: CarCol_MeshCollideGravity
+}
 
 /*
  * (000754) S_GPROC32: [0001:00038356], Cb: 000000E6, Type:             0x1001, MotionTracker_Reset
@@ -208,6 +242,10 @@
  * 
  * (0007EC) S_END
  */
+void MotionTracker_Reset()
+{
+	// TODO: MotionTracker_Reset
+}
 
 /*
  * (0007F0) S_GPROC32: [0001:0003843C], Cb: 000000F8, Type:             0x1AF7, CalcCarBox
@@ -225,6 +263,10 @@
  * 
  * (0008AC) S_END
  */
+void CalcCarBox()
+{
+	// TODO: CalcCarBox
+}
 
 /*
  * (0008B0) S_GPROC32: [0001:00038534], Cb: 00000128, Type:             0x1AF7, PredictNextCarBox
@@ -243,6 +285,10 @@
  * 
  * (000988) S_END
  */
+void PredictNextCarBox()
+{
+	// TODO: PredictNextCarBox
+}
 
 /*
  * (00098C) S_LPROC32: [0001:0003865C], Cb: 0000019C, Type:             0x1AB0, simMultMatrices
@@ -256,6 +302,10 @@
  * 
  * (0009F4) S_END
  */
+void simMultMatrices()
+{
+	// TODO: simMultMatrices
+}
 
 /*
  * (0009F8) S_GPROC32: [0001:000387F8], Cb: 00000145, Type:             0x1AF9, InterpolateVectors
@@ -274,6 +324,10 @@
  * 
  * (000AB8) S_END
  */
+void InterpolateVectors()
+{
+	// TODO: InterpolateVectors
+}
 
 /*
  * (000ABC) S_GPROC32: [0001:0003893D], Cb: 00000123, Type:             0x1AFB, DampMatrix
@@ -289,6 +343,10 @@
  * 
  * (000B40) S_END
  */
+void DampMatrix()
+{
+	// TODO: DampMatrix
+}
 
 /*
  * (000B44) S_GPROC32: [0001:00038A60], Cb: 00000140, Type:             0x1AFB, KillAlmostDeadMatrix
@@ -301,6 +359,10 @@
  * 
  * (000BA0) S_END
  */
+void KillAlmostDeadMatrix()
+{
+	// TODO: KillAlmostDeadMatrix
+}
 
 /*
  * (000BA4) S_GPROC32: [0001:00038BA0], Cb: 0000015C, Type:             0x1AFD, RotateTo
@@ -319,6 +381,10 @@
  * 
  * (000C64) S_END
  */
+void RotateTo()
+{
+	// TODO: RotateTo
+}
 
 /*
  * (000C68) S_GPROC32: [0001:00038CFC], Cb: 000001B8, Type:             0x1AFF, CorrectMatrix
@@ -333,6 +399,10 @@
  * 
  * (000CE0) S_END
  */
+void CorrectMatrix()
+{
+	// TODO: CorrectMatrix
+}
 
 /*
  * (000CE4) S_GPROC32: [0001:00038EB4], Cb: 00000259, Type:             0x1B01, FindVelocity
@@ -357,6 +427,10 @@
  * 
  * (000E00) S_END
  */
+void FindVelocity()
+{
+	// TODO: FindVelocity
+}
 
 /*
  * (000E04) S_GPROC32: [0001:0003910D], Cb: 0000029A, Type:             0x1B03, PredictCarBoxAtTime
@@ -380,6 +454,10 @@
  * 
  * (000F2C) S_END
  */
+void PredictCarBoxAtTime()
+{
+	// TODO: PredictCarBoxAtTime
+}
 
 /*
  * (000F30) S_GPROC32: [0001:000393A7], Cb: 000011E0, Type:             0x1B05, UpdateWheel
@@ -442,6 +520,10 @@
  * 
  * (0012F4) S_END
  */
+void UpdateWheel()
+{
+	// TODO: UpdateWheel
+}
 
 /*
  * (0012F8) S_LPROC32: [0001:0003A587], Cb: 00000031, Type:             0x1AAE, simSinCos
@@ -455,6 +537,10 @@
  * 
  * (001360) S_END
  */
+void simSinCos()
+{
+	// TODO: simSinCos
+}
 
 /*
  * (001364) S_LPROC32: [0001:0003A5B8], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -477,6 +563,10 @@
  * 
  * (001420) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (001424) S_GPROC32: [0001:0003A629], Cb: 0000009C, Type:             0x1B0A, MoveCarToTime
@@ -490,6 +580,10 @@
  * 
  * (001490) S_END
  */
+void MoveCarToTime()
+{
+	// TODO: MoveCarToTime
+}
 
 /*
  * (001494) S_GPROC32: [0001:0003A6C5], Cb: 00000260, Type:             0x1AF7, MeshCollideFailSafe
@@ -514,6 +608,10 @@
  * 
  * (0015F0) S_END
  */
+void MeshCollideFailSafe()
+{
+	// TODO: MeshCollideFailSafe
+}
 
 /*
  * (0015F4) S_GPROC32: [0001:0003A925], Cb: 00000A0A, Type:             0x1ADE, MeshCollisionOS
@@ -557,6 +655,10 @@
  * 
  * (0018D4) S_END
  */
+void MeshCollisionOS()
+{
+	// TODO: MeshCollisionOS
+}
 
 /*
  * (0018D8) S_GPROC32: [0001:0003B32F], Cb: 000012F8, Type:             0x1ADE, MeshCollision
@@ -629,6 +731,10 @@
  * 
  * (001BAC) S_END
  */
+void MeshCollision()
+{
+	// TODO: MeshCollision
+}
 
 /*
  * (001BB0) S_LPROC32: [0001:0003C627], Cb: 00000023, Type:             0x1AA6, nRand
@@ -638,6 +744,10 @@
  * 
  * (001BE0) S_END
  */
+void nRand()
+{
+	// TODO: nRand
+}
 
 /*
  * (001BE4) S_LPROC32: [0001:0003C64A], Cb: 0000001E, Type:             0x1ADE, CurCar
@@ -649,6 +759,10 @@
  * 
  * (001C24) S_END
  */
+void CurCar()
+{
+	// TODO: CurCar
+}
 
 /*
  * (001C28) S_GPROC32: [0001:0003C668], Cb: 00000048, Type:             0x1B0E, InstantFindHeight
@@ -666,4 +780,8 @@
  * 
  * (001CDC) S_END
  */
+void InstantFindHeight()
+{
+	// TODO: InstantFindHeight
+}
 

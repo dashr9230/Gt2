@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -47,6 +45,10 @@
  * 
  * (000148) S_END
  */
+void inflate_trees_bits()
+{
+	// TODO: inflate_trees_bits
+}
 
 /*
  * (00014C) S_LPROC32: [0001:0009BA1B], Cb: 000008E2, Type:             0x2113, huft_build
@@ -86,6 +88,10 @@
  * 
  * (000354) S_END
  */
+void huft_build()
+{
+	// TODO: huft_build
+}
 
 /*
  * (000358) S_GPROC32: [0001:0009C2FD], Cb: 000001CA, Type:             0x2117, inflate_trees_dynamic
@@ -108,6 +114,10 @@
  * 
  * (000458) S_END
  */
+void inflate_trees_dynamic()
+{
+	// TODO: inflate_trees_dynamic
+}
 
 /*
  * (00045C) S_GPROC32: [0001:0009C4C7], Cb: 0000002E, Type:             0x2119, inflate_trees_fixed
@@ -123,4 +133,8 @@
  * 
  * (0004E8) S_END
  */
+void inflate_trees_fixed()
+{
+	// TODO: inflate_trees_fixed
+}
 

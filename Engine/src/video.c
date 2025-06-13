@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -52,6 +50,10 @@
  * 
  * (000140) S_END
  */
+void AdvancedDlg()
+{
+	// TODO: AdvancedDlg
+}
 
 /*
  * (000144) S_GPROC32: [0001:0008E5E2], Cb: 0000051C, Type:             0x16D8, SelectDlg
@@ -79,6 +81,10 @@
  * 
  * (000278) S_END
  */
+void SelectDlg()
+{
+	// TODO: SelectDlg
+}
 
 /*
  * (00027C) S_LPROC32: [0001:0008EAFE], Cb: 00000045, Type:             0x1EF9, StoreDetail
@@ -92,6 +98,10 @@
  * 
  * (0002EC) S_END
  */
+void StoreDetail()
+{
+	// TODO: StoreDetail
+}
 
 /*
  * (0002F0) S_LPROC32: [0001:0008EB43], Cb: 000002B0, Type:             0x1EFB, SetComboResList
@@ -112,6 +122,10 @@
  * 
  * (0003F8) S_END
  */
+void SetComboResList()
+{
+	// TODO: SetComboResList
+}
 
 /*
  * (0003FC) S_GPROC32: [0001:0008EDF3], Cb: 00000250, Type:             0x1EFD, VIDEO_SelectDriver
@@ -128,6 +142,10 @@
  * 
  * (0004B0) S_END
  */
+void VIDEO_SelectDriver()
+{
+	// TODO: VIDEO_SelectDriver
+}
 
 /*
  * (0004B4) S_LPROC32: [0001:0008F043], Cb: 0000008B, Type:             0x1F03, VIDEO_Initialise
@@ -139,6 +157,10 @@
  * 
  * (000500) S_END
  */
+void VIDEO_Initialise()
+{
+	// TODO: VIDEO_Initialise
+}
 
 /*
  * (000504) S_LPROC32: [0001:0008F0CE], Cb: 0000018F, Type:             0x17B2, enumCurVProfileCB
@@ -172,6 +194,10 @@
  * 
  * (000670) S_END
  */
+void enumCurVProfileCB()
+{
+	// TODO: enumCurVProfileCB
+}
 
 /*
  * (000674) S_GPROC32: [0001:0008F25D], Cb: 00000C2B, Type:             0x1F04, VIDEO_Create3dScreen
@@ -201,6 +227,10 @@
  * 
  * (0007B4) S_END
  */
+void VIDEO_Create3dScreen()
+{
+	// TODO: VIDEO_Create3dScreen
+}
 
 /*
  * (0007B8) S_LPROC32: [0001:0008FE88], Cb: 00000177, Type:             0x1F06, VIDEO_CreateDirectDraw
@@ -220,6 +250,10 @@
  * 
  * (00084C) S_END
  */
+void VIDEO_CreateDirectDraw()
+{
+	// TODO: VIDEO_CreateDirectDraw
+}
 
 /*
  * (000850) S_LPROC32: [0001:0008FFFF], Cb: 000000CA, Type:             0x1F07, VIDEO_SetCooperativeLevel
@@ -232,6 +266,10 @@
  * 
  * (0008C0) S_END
  */
+void VIDEO_SetCooperativeLevel()
+{
+	// TODO: VIDEO_SetCooperativeLevel
+}
 
 /*
  * (0008C4) S_LPROC32: [0001:000900C9], Cb: 00000079, Type:             0x1F07, VIDEO_CreateDirect3D
@@ -243,6 +281,10 @@
  * 
  * (000914) S_END
  */
+void VIDEO_CreateDirect3D()
+{
+	// TODO: VIDEO_CreateDirect3D
+}
 
 /*
  * (000918) S_LPROC32: [0001:00090142], Cb: 00000086, Type:             0x1F07, VIDEO_SetResolution
@@ -254,6 +296,10 @@
  * 
  * (000968) S_END
  */
+void VIDEO_SetResolution()
+{
+	// TODO: VIDEO_SetResolution
+}
 
 /*
  * (00096C) S_LPROC32: [0001:000901C8], Cb: 000001E9, Type:             0x1F07, VIDEO_CreateDisplaySurfaces
@@ -274,6 +320,10 @@
  * 
  * (000A20) S_END
  */
+void VIDEO_CreateDisplaySurfaces()
+{
+	// TODO: VIDEO_CreateDisplaySurfaces
+}
 
 /*
  * (000A24) S_LPROC32: [0001:000903B1], Cb: 000001A1, Type:             0x1F07, VIDEO_CreateBackBuffer
@@ -294,6 +344,10 @@
  * 
  * (000AD0) S_END
  */
+void VIDEO_CreateBackBuffer()
+{
+	// TODO: VIDEO_CreateBackBuffer
+}
 
 /*
  * (000AD4) S_LPROC32: [0001:00090552], Cb: 000000DE, Type:             0x1F07, VIDEO_GetZBufferFormat
@@ -312,6 +366,10 @@
  * 
  * (000B54) S_END
  */
+void VIDEO_GetZBufferFormat()
+{
+	// TODO: VIDEO_GetZBufferFormat
+}
 
 /*
  * (000B58) S_LPROC32: [0001:00090630], Cb: 00000069, Type:             0x146D, enumZBufferFormatsCB
@@ -325,6 +383,10 @@
  * 
  * (000BD4) S_END
  */
+void enumZBufferFormatsCB()
+{
+	// TODO: enumZBufferFormatsCB
+}
 
 /*
  * (000BD8) S_LPROC32: [0001:00090699], Cb: 0000026B, Type:             0x1F07, VIDEO_CreateZBuffer
@@ -351,6 +413,10 @@
  * 
  * (000C98) S_END
  */
+void VIDEO_CreateZBuffer()
+{
+	// TODO: VIDEO_CreateZBuffer
+}
 
 /*
  * (000C9C) S_LPROC32: [0001:00090904], Cb: 000000CA, Type:             0x1F07, VIDEO_CreateD3Device
@@ -362,6 +428,10 @@
  * 
  * (000CEC) S_END
  */
+void VIDEO_CreateD3Device()
+{
+	// TODO: VIDEO_CreateD3Device
+}
 
 /*
  * (000CF0) S_LPROC32: [0001:000909CE], Cb: 000000CF, Type:             0x1F07, VIDEO_GetD3DeviceInfo
@@ -374,6 +444,10 @@
  * 
  * (000D58) S_END
  */
+void VIDEO_GetD3DeviceInfo()
+{
+	// TODO: VIDEO_GetD3DeviceInfo
+}
 
 /*
  * (000D5C) S_LPROC32: [0001:00090A9D], Cb: 00000146, Type:             0x1F07, VIDEO_GetTextureFormat
@@ -392,6 +466,10 @@
  * 
  * (000DDC) S_END
  */
+void VIDEO_GetTextureFormat()
+{
+	// TODO: VIDEO_GetTextureFormat
+}
 
 /*
  * (000DE0) S_LPROC32: [0001:00090BE3], Cb: 000002D3, Type:             0x146D, enumTextureFormatsCB
@@ -412,6 +490,10 @@
  * 
  * (000E94) S_END
  */
+void enumTextureFormatsCB()
+{
+	// TODO: enumTextureFormatsCB
+}
 
 /*
  * (000E98) S_GPROC32: [0001:00090EB6], Cb: 000000E3, Type:             0x1001, VIDEO_Close3dScreen
@@ -421,6 +503,10 @@
  * 
  * (000ED4) S_END
  */
+void VIDEO_Close3dScreen()
+{
+	// TODO: VIDEO_Close3dScreen
+}
 
 /*
  * (000ED8) S_LPROC32: [0001:00090F99], Cb: 000000B8, Type:             0x1F07, VIDEO_DestroyDirectDraw
@@ -432,6 +518,10 @@
  * 
  * (000F2C) S_END
  */
+void VIDEO_DestroyDirectDraw()
+{
+	// TODO: VIDEO_DestroyDirectDraw
+}
 
 /*
  * (000F30) S_LPROC32: [0001:00091051], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyDirect3D
@@ -443,6 +533,10 @@
  * 
  * (000F84) S_END
  */
+void VIDEO_DestroyDirect3D()
+{
+	// TODO: VIDEO_DestroyDirect3D
+}
 
 /*
  * (000F88) S_LPROC32: [0001:0009109A], Cb: 0000006C, Type:             0x1F07, VIDEO_RestoreDefaultResolution
@@ -454,6 +548,10 @@
  * 
  * (000FE4) S_END
  */
+void VIDEO_RestoreDefaultResolution()
+{
+	// TODO: VIDEO_RestoreDefaultResolution
+}
 
 /*
  * (000FE8) S_LPROC32: [0001:00091106], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyDisplaySurfaces
@@ -465,6 +563,10 @@
  * 
  * (001040) S_END
  */
+void VIDEO_DestroyDisplaySurfaces()
+{
+	// TODO: VIDEO_DestroyDisplaySurfaces
+}
 
 /*
  * (001044) S_LPROC32: [0001:0009114F], Cb: 00000037, Type:             0x1F07, VIDEO_DestroyBackBuffer
@@ -476,6 +578,10 @@
  * 
  * (001098) S_END
  */
+void VIDEO_DestroyBackBuffer()
+{
+	// TODO: VIDEO_DestroyBackBuffer
+}
 
 /*
  * (00109C) S_LPROC32: [0001:00091186], Cb: 00000064, Type:             0x1F07, VIDEO_DestroyZBuffer
@@ -487,6 +593,10 @@
  * 
  * (0010EC) S_END
  */
+void VIDEO_DestroyZBuffer()
+{
+	// TODO: VIDEO_DestroyZBuffer
+}
 
 /*
  * (0010F0) S_LPROC32: [0001:000911EA], Cb: 00000049, Type:             0x1F07, VIDEO_DestroyD3Device
@@ -498,6 +608,10 @@
  * 
  * (001144) S_END
  */
+void VIDEO_DestroyD3Device()
+{
+	// TODO: VIDEO_DestroyD3Device
+}
 
 /*
  * (001148) S_GPROC32: [0001:00091233], Cb: 0000004C, Type:             0x1F08, VIDEO_Restore
@@ -507,6 +621,10 @@
  * 
  * (001180) S_END
  */
+void VIDEO_Restore()
+{
+	// TODO: VIDEO_Restore
+}
 
 /*
  * (001184) S_GPROC32: [0001:0009127F], Cb: 0000000A, Type:             0x1F04, VIDEO_ChangeResolution
@@ -519,6 +637,10 @@
  * 
  * (0011F4) S_END
  */
+void VIDEO_ChangeResolution()
+{
+	// TODO: VIDEO_ChangeResolution
+}
 
 /*
  * (0011F8) S_GPROC32: [0001:00091289], Cb: 0000004D, Type:             0x1001, VIDEO_ClrScreen
@@ -530,6 +652,10 @@
  * 
  * (001244) S_END
  */
+void VIDEO_ClrScreen()
+{
+	// TODO: VIDEO_ClrScreen
+}
 
 /*
  * (001248) S_GPROC32: [0001:000912D6], Cb: 00000014, Type:             0x1001, VIDEO_ClrAllScreens
@@ -539,4 +665,8 @@
  * 
  * (001284) S_END
  */
+void VIDEO_ClrAllScreens()
+{
+	// TODO: VIDEO_ClrAllScreens
+}
 

@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -52,6 +50,10 @@
  * 
  * (000118) S_END
  */
+void RC_Create()
+{
+	// TODO: RC_Create
+}
 
 /*
  * (00011C) S_GPROC32: [0001:0001A01C], Cb: 0000001D, Type:             0x1001, SingleStep_Toggle
@@ -61,6 +63,10 @@
  * 
  * (000158) S_END
  */
+void SingleStep_Toggle()
+{
+	// TODO: SingleStep_Toggle
+}
 
 /*
  * (00015C) S_GPROC32: [0001:0001A039], Cb: 0000006E, Type:             0x1408, RC_Handler
@@ -74,6 +80,10 @@
  * 
  * (0001D0) S_END
  */
+void RC_Handler()
+{
+	// TODO: RC_Handler
+}
 
 /*
  * (0001D4) S_GPROC32: [0001:0001A0A7], Cb: 000000B1, Type:             0x1408, RC_Destroy
@@ -86,6 +96,10 @@
  * 
  * (000230) S_END
  */
+void RC_Destroy()
+{
+	// TODO: RC_Destroy
+}
 
 /*
  * (000234) S_GPROC32: [0001:0001A158], Cb: 0000015C, Type:             0x1001, RC_StoreResults
@@ -103,6 +117,10 @@
  * 
  * (0002FC) S_END
  */
+void RC_StoreResults()
+{
+	// TODO: RC_StoreResults
+}
 
 /*
  * (000300) S_GPROC32: [0001:0001A2B4], Cb: 0000006A, Type:             0x1001, RC_Shutdown
@@ -119,6 +137,10 @@
  * 
  * (000368) S_END
  */
+void RC_Shutdown()
+{
+	// TODO: RC_Shutdown
+}
 
 /*
  * (00036C) S_GPROC32: [0001:0001A31E], Cb: 00000079, Type:             0x1B48, DoesTrackExist
@@ -131,6 +153,10 @@
  * 
  * (0003CC) S_END
  */
+void DoesTrackExist()
+{
+	// TODO: DoesTrackExist
+}
 
 /*
  * (0003D0) S_GPROC32: [0001:0001A397], Cb: 00000078, Type:             0x1B5B, RC_SelectVenue
@@ -143,6 +169,10 @@
  * 
  * (000438) S_END
  */
+void RC_SelectVenue()
+{
+	// TODO: RC_SelectVenue
+}
 
 /*
  * (00043C) S_LPROC32: [0001:0001A40F], Cb: 00000058, Type:             0x1C12, FindTrackId
@@ -155,6 +185,10 @@
  * 
  * (000498) S_END
  */
+void FindTrackId()
+{
+	// TODO: FindTrackId
+}
 
 /*
  * (00049C) S_GPROC32: [0001:0001A467], Cb: 00000013, Type:             0x16A1, RC_EnterCar
@@ -166,6 +200,10 @@
  * 
  * (0004E4) S_END
  */
+void RC_EnterCar()
+{
+	// TODO: RC_EnterCar
+}
 
 /*
  * (0004E8) S_GPROC32: [0001:0001A47A], Cb: 000000AA, Type:             0x1001, RC_Load
@@ -178,6 +216,10 @@
  * 
  * (000548) S_END
  */
+void RC_Load()
+{
+	// TODO: RC_Load
+}
 
 /*
  * (00054C) S_GPROC32: [0001:0001A524], Cb: 000003E3, Type:             0x1001, RC_Ready
@@ -193,6 +235,10 @@
  * 
  * (0005E8) S_END
  */
+void RC_Ready()
+{
+	// TODO: RC_Ready
+}
 
 /*
  * (0005EC) S_GPROC32: [0001:0001A907], Cb: 000000F4, Type:             0x1001, RC_Restart
@@ -213,6 +259,10 @@
  * 
  * (000698) S_END
  */
+void RC_Restart()
+{
+	// TODO: RC_Restart
+}
 
 /*
  * (00069C) S_GPROC32: [0001:0001A9FB], Cb: 00000014, Type:             0x1408, FPS_Draw
@@ -224,6 +274,10 @@
  * 
  * (0006DC) S_END
  */
+void FPS_Draw()
+{
+	// TODO: FPS_Draw
+}
 
 /*
  * (0006E0) S_GPROC32: [0001:0001AA0F], Cb: 00000071, Type:             0x1408, FPS_Handle
@@ -235,6 +289,10 @@
  * 
  * (000724) S_END
  */
+void FPS_Handle()
+{
+	// TODO: FPS_Handle
+}
 
 /*
  * (000728) S_GPROC32: [0001:0001AA80], Cb: 00000081, Type:             0x1001, FPS_Install
@@ -244,6 +302,10 @@
  * 
  * (00075C) S_END
  */
+void FPS_Install()
+{
+	// TODO: FPS_Install
+}
 
 /*
  * (000760) S_GPROC32: [0001:0001AB01], Cb: 00000026, Type:             0x1001, FPS_Remove
@@ -253,6 +315,10 @@
  * 
  * (000794) S_END
  */
+void FPS_Remove()
+{
+	// TODO: FPS_Remove
+}
 
 /*
  * (000798) S_GPROC32: [0001:0001AB27], Cb: 00000161, Type:             0x1C7A, RC_Simple
@@ -270,6 +336,10 @@
  * 
  * (00085C) S_END
  */
+void RC_Simple()
+{
+	// TODO: RC_Simple
+}
 
 /*
  * (000860) S_GPROC32: [0001:0001AC88], Cb: 00000014, Type:             0x1001, OpRC_Quit
@@ -279,6 +349,10 @@
  * 
  * (000894) S_END
  */
+void OpRC_Quit()
+{
+	// TODO: OpRC_Quit
+}
 
 /*
  * (000898) S_GPROC32: [0001:0001AC9C], Cb: 00000031, Type:             0x1001, OpRC_RaceOver
@@ -288,6 +362,10 @@
  * 
  * (0008D0) S_END
  */
+void OpRC_RaceOver()
+{
+	// TODO: OpRC_RaceOver
+}
 
 /*
  * (0008D4) S_GPROC32: [0001:0001ACCD], Cb: 0000000F, Type:             0x1001, RC_Quit
@@ -297,4 +375,8 @@
  * 
  * (000904) S_END
  */
+void RC_Quit()
+{
+	// TODO: RC_Quit
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -52,6 +50,10 @@
  * 
  * (0000F0) S_END
  */
+void MENU_StoreAxisData()
+{
+	// TODO: MENU_StoreAxisData
+}
 
 /*
  * (0000F4) S_GPROC32: [0001:000543EF], Cb: 00000074, Type:             0x1001, MENU_ResetString
@@ -64,6 +66,10 @@
  * 
  * (000154) S_END
  */
+void MENU_ResetString()
+{
+	// TODO: MENU_ResetString
+}
 
 /*
  * (000158) S_GPROC32: [0001:00054463], Cb: 0000008D, Type:             0x1A19, MENU_KeyStringEnable
@@ -76,6 +82,10 @@
  * 
  * (0001C0) S_END
  */
+void MENU_KeyStringEnable()
+{
+	// TODO: MENU_KeyStringEnable
+}
 
 /*
  * (0001C4) S_GPROC32: [0001:000544F0], Cb: 0000013D, Type:             0x1A1B, MENU_DrawKeyString
@@ -93,6 +103,10 @@
  * 
  * (000278) S_END
  */
+void MENU_DrawKeyString()
+{
+	// TODO: MENU_DrawKeyString
+}
 
 /*
  * (00027C) S_GPROC32: [0001:0005462D], Cb: 0000026C, Type:             0x1001, MENU_MakeStrings
@@ -110,6 +124,10 @@
  * 
  * (000338) S_END
  */
+void MENU_MakeStrings()
+{
+	// TODO: MENU_MakeStrings
+}
 
 /*
  * (00033C) S_GPROC32: [0001:00054899], Cb: 0000020B, Type:             0x1001, MENU_GetKey
@@ -122,6 +140,10 @@
  * 
  * (000390) S_END
  */
+void MENU_GetKey()
+{
+	// TODO: MENU_GetKey
+}
 
 /*
  * (000394) S_GPROC32: [0001:00054AA4], Cb: 00000685, Type:             0x1A1D, MENUSetControl
@@ -153,6 +175,10 @@
  * 
  * (00055C) S_END
  */
+void MENUSetControl()
+{
+	// TODO: MENUSetControl
+}
 
 /*
  * (000560) S_GPROC32: [0001:00055129], Cb: 00000C6D, Type:             0x1A1D, MENUSetJoyControl
@@ -194,4 +220,8 @@
  * 
  * (0007E4) S_END
  */
+void MENUSetJoyControl()
+{
+	// TODO: MENUSetJoyControl
+}
 

@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -45,6 +43,10 @@
  * 
  * (000134) S_END
  */
+void FILE_Load()
+{
+	// TODO: FILE_Load
+}
 
 /*
  * (000138) S_GPROC32: [0001:0007AB23], Cb: 00000052, Type:             0x2066, FILE_GetSize
@@ -58,6 +60,10 @@
  * 
  * (0001A8) S_END
  */
+void FILE_GetSize()
+{
+	// TODO: FILE_GetSize
+}
 
 /*
  * (0001AC) S_GPROC32: [0001:0007AB75], Cb: 00000045, Type:             0x2067, FILE_GetExtension
@@ -70,6 +76,10 @@
  * 
  * (000218) S_END
  */
+void FILE_GetExtension()
+{
+	// TODO: FILE_GetExtension
+}
 
 /*
  * (00021C) S_GPROC32: [0001:0007ABBA], Cb: 000006FF, Type:             0x2069, UTIL_SaveAsPcx
@@ -101,6 +111,10 @@
  * 
  * (0003E4) S_END
  */
+void UTIL_SaveAsPcx()
+{
+	// TODO: UTIL_SaveAsPcx
+}
 
 /*
  * (0003E8) S_GPROC32: [0001:0007B2B9], Cb: 000000BC, Type:             0x1001, UTIL_ScreenShot
@@ -114,6 +128,10 @@
  * 
  * (00045C) S_END
  */
+void UTIL_ScreenShot()
+{
+	// TODO: UTIL_ScreenShot
+}
 
 /*
  * (000460) S_GPROC32: [0001:0007B375], Cb: 0000001C, Type:             0x2071, PCX_GetHeader
@@ -126,6 +144,10 @@
  * 
  * (0004BC) S_END
  */
+void PCX_GetHeader()
+{
+	// TODO: PCX_GetHeader
+}
 
 /*
  * (0004C0) S_GPROC32: [0001:0007B391], Cb: 00000A33, Type:             0x2073, PCX_LoadToSurface
@@ -161,6 +183,10 @@
  * 
  * (000714) S_END
  */
+void PCX_LoadToSurface()
+{
+	// TODO: PCX_LoadToSurface
+}
 
 /*
  * (000718) S_GPROC32: [0001:0007BDC4], Cb: 0000064F, Type:             0x2077, PCX_LoadToMemory
@@ -192,6 +218,10 @@
  * 
  * (000908) S_END
  */
+void PCX_LoadToMemory()
+{
+	// TODO: PCX_LoadToMemory
+}
 
 /*
  * (00090C) S_GPROC32: [0001:0007C413], Cb: 0000002F, Type:             0x1001, UTIL_WaitKeyPress
@@ -203,6 +233,10 @@
  * 
  * (000958) S_END
  */
+void UTIL_WaitKeyPress()
+{
+	// TODO: UTIL_WaitKeyPress
+}
 
 /*
  * (00095C) S_GPROC32: [0001:0007C442], Cb: 0000002F, Type:             0x1001, UTIL_WaitKeyRelease
@@ -214,6 +248,10 @@
  * 
  * (0009A8) S_END
  */
+void UTIL_WaitKeyRelease()
+{
+	// TODO: UTIL_WaitKeyRelease
+}
 
 /*
  * (0009AC) S_GPROC32: [0001:0007C471], Cb: 0000003C, Type:             0x1B5B, UTIL_DisplayPcxAndWaitForKeyPress
@@ -225,6 +263,10 @@
  * 
  * (000A10) S_END
  */
+void UTIL_DisplayPcxAndWaitForKeyPress()
+{
+	// TODO: UTIL_DisplayPcxAndWaitForKeyPress
+}
 
 /*
  * (000A14) S_GPROC32: [0001:0007C4AD], Cb: 0000003D, Type:             0x1001, UTIL_WaitKeyPressTimeout
@@ -236,6 +278,10 @@
  * 
  * (000A64) S_END
  */
+void UTIL_WaitKeyPressTimeout()
+{
+	// TODO: UTIL_WaitKeyPressTimeout
+}
 
 /*
  * (000A68) S_GPROC32: [0001:0007C4EA], Cb: 0000004F, Type:             0x1C43, UTIL_DisplayPcxAndWaitForKeyPressTimeout
@@ -248,6 +294,10 @@
  * 
  * (000AE4) S_END
  */
+void UTIL_DisplayPcxAndWaitForKeyPressTimeout()
+{
+	// TODO: UTIL_DisplayPcxAndWaitForKeyPressTimeout
+}
 
 /*
  * (000AE8) S_GPROC32: [0001:0007C539], Cb: 00000022, Type:             0x1B5B, UTIL_DisplayPcx
@@ -259,6 +309,10 @@
  * 
  * (000B38) S_END
  */
+void UTIL_DisplayPcx()
+{
+	// TODO: UTIL_DisplayPcx
+}
 
 /*
  * (000B3C) S_GPROC32: [0001:0007C55B], Cb: 0000002D, Type:             0x1001, MEM_Init
@@ -268,6 +322,10 @@
  * 
  * (000B6C) S_END
  */
+void MEM_Init()
+{
+	// TODO: MEM_Init
+}
 
 /*
  * (000B70) S_GPROC32: [0001:0007C588], Cb: 00000052, Type:             0x1001, MEM_Close
@@ -279,6 +337,10 @@
  * 
  * (000BB4) S_END
  */
+void MEM_Close()
+{
+	// TODO: MEM_Close
+}
 
 /*
  * (000BB8) S_GPROC32: [0001:0007C5DA], Cb: 00000005, Type:             0x1001, MEM_Report
@@ -288,6 +350,10 @@
  * 
  * (000BEC) S_END
  */
+void MEM_Report()
+{
+	// TODO: MEM_Report
+}
 
 /*
  * (000BF0) S_GPROC32: [0001:0007C5DF], Cb: 0000000F, Type:             0x2078, MEM_Size
@@ -299,6 +365,10 @@
  * 
  * (000C34) S_END
  */
+void MEM_Size()
+{
+	// TODO: MEM_Size
+}
 
 /*
  * (000C38) S_GPROC32: [0001:0007C5EE], Cb: 000000CF, Type:             0x2079, MEM_Malloc
@@ -315,6 +385,10 @@
  * 
  * (000CFC) S_END
  */
+void MEM_Malloc()
+{
+	// TODO: MEM_Malloc
+}
 
 /*
  * (000D00) S_GPROC32: [0001:0007C6BD], Cb: 000000B8, Type:             0x207E, MEM_free
@@ -328,6 +402,10 @@
  * 
  * (000D6C) S_END
  */
+void MEM_free()
+{
+	// TODO: MEM_free
+}
 
 /*
  * (000E7C) S_GPROC32: [0001:0007C780], Cb: 0000001B, Type:             0x2080, UnlockSurface
@@ -339,4 +417,8 @@
  * 
  * (000ECC) S_END
  */
+void UnlockSurface()
+{
+	// TODO: UnlockSurface
+}
 

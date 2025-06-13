@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -31,6 +29,10 @@
  * 
  * (0000C4) S_END
  */
+void RaceWorld_Init()
+{
+	// TODO: RaceWorld_Init
+}
 
 /*
  * (0000C8) S_GPROC32: [0001:00020CAC], Cb: 00000C35, Type:             0x1001, RaceWorld_SimpleStartup
@@ -40,4 +42,8 @@
  * 
  * (000108) S_END
  */
+void RaceWorld_SimpleStartup()
+{
+	// TODO: RaceWorld_SimpleStartup
+}
 

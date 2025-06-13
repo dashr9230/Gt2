@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -50,6 +48,10 @@
  * 
  * (0000D8) S_END
  */
+void OBJ_AllocationInit()
+{
+	// TODO: OBJ_AllocationInit
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:0007CA0A], Cb: 000001F4, Type:             0x1824, OBJ_Allocate
@@ -61,6 +63,10 @@
  * 
  * (000124) S_END
  */
+void OBJ_Allocate()
+{
+	// TODO: OBJ_Allocate
+}
 
 /*
  * (000128) S_GPROC32: [0001:0007CBFE], Cb: 00000226, Type:             0x1C39, OBJ_AllocateAfter
@@ -73,6 +79,10 @@
  * 
  * (00018C) S_END
  */
+void OBJ_AllocateAfter()
+{
+	// TODO: OBJ_AllocateAfter
+}
 
 /*
  * (000190) S_GPROC32: [0001:0007CE24], Cb: 0000003E, Type:             0x1C39, OBJ_AllocateChild
@@ -85,6 +95,10 @@
  * 
  * (0001FC) S_END
  */
+void OBJ_AllocateChild()
+{
+	// TODO: OBJ_AllocateChild
+}
 
 /*
  * (000200) S_GPROC32: [0001:0007CE62], Cb: 0000004B, Type:             0x1D5F, OBJ_AttachChild
@@ -97,6 +111,10 @@
  * 
  * (00025C) S_END
  */
+void OBJ_AttachChild()
+{
+	// TODO: OBJ_AttachChild
+}
 
 /*
  * (000260) S_LPROC32: [0001:0007CEAD], Cb: 00000093, Type:             0x1408, objUnlinkObject
@@ -117,6 +135,10 @@
  * 
  * (0002F4) S_END
  */
+void objUnlinkObject()
+{
+	// TODO: objUnlinkObject
+}
 
 /*
  * (0002F8) S_GPROC32: [0001:0007CF40], Cb: 00000011, Type:             0x1A73, OBJ_SetRenderPriority
@@ -129,6 +151,10 @@
  * 
  * (000360) S_END
  */
+void OBJ_SetRenderPriority()
+{
+	// TODO: OBJ_SetRenderPriority
+}
 
 /*
  * (000364) S_GPROC32: [0001:0007CF51], Cb: 00000127, Type:             0x1ADE, OBJ_Deallocate
@@ -149,6 +175,10 @@
  * 
  * (000404) S_END
  */
+void OBJ_Deallocate()
+{
+	// TODO: OBJ_Deallocate
+}
 
 /*
  * (000408) S_GPROC32: [0001:0007D078], Cb: 0000006B, Type:             0x205D, OBJ_Update
@@ -162,6 +192,10 @@
  * 
  * (000470) S_END
  */
+void OBJ_Update()
+{
+	// TODO: OBJ_Update
+}
 
 /*
  * (000474) S_GPROC32: [0001:0007D0E3], Cb: 00000073, Type:             0x1001, OBJ_ListActive
@@ -174,6 +208,10 @@
  * 
  * (0004D0) S_END
  */
+void OBJ_ListActive()
+{
+	// TODO: OBJ_ListActive
+}
 
 /*
  * (0004D4) S_GPROC32: [0001:0007D156], Cb: 000005FE, Type:             0x205F, OBJ_Link
@@ -202,4 +240,8 @@
  * 
  * (000664) S_END
  */
+void OBJ_Link()
+{
+	// TODO: OBJ_Link
+}
 

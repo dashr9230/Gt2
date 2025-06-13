@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (000114) S_END
  */
+void Car2Car_ApplyCollisions()
+{
+	// TODO: Car2Car_ApplyCollisions
+}
 
 /*
  * (000118) S_GPROC32: [0001:00001E46], Cb: 00000054, Type:             0x1408, Car2Car_GenerateAllCollisions
@@ -48,6 +50,10 @@
  * 
  * (000184) S_END
  */
+void Car2Car_GenerateAllCollisions()
+{
+	// TODO: Car2Car_GenerateAllCollisions
+}
 
 /*
  * (000188) S_GPROC32: [0001:00001E9A], Cb: 0000005D, Type:             0x1408, Car2Car_ClearCollisionList
@@ -61,6 +67,10 @@
  * 
  * (000200) S_END
  */
+void Car2Car_ClearCollisionList()
+{
+	// TODO: Car2Car_ClearCollisionList
+}
 
 /*
  * (000204) S_GPROC32: [0001:00001EF7], Cb: 000000A8, Type:             0x1B01, Trans_Ob2World
@@ -75,6 +85,10 @@
  * 
  * (00027C) S_END
  */
+void Trans_Ob2World()
+{
+	// TODO: Trans_Ob2World
+}
 
 /*
  * (000280) S_GPROC32: [0001:00001F9F], Cb: 000000C1, Type:             0x1B01, Trans_World2Ob
@@ -92,6 +106,10 @@
  * 
  * (00032C) S_END
  */
+void Trans_World2Ob()
+{
+	// TODO: Trans_World2Ob
+}
 
 /*
  * (000330) S_GPROC32: [0001:00002060], Cb: 000002D0, Type:             0x1D53, FindLineBoxIntersection
@@ -116,6 +134,10 @@
  * 
  * (000468) S_END
  */
+void FindLineBoxIntersection()
+{
+	// TODO: FindLineBoxIntersection
+}
 
 /*
  * (00046C) S_GPROC32: [0001:00002330], Cb: 000008CE, Type:             0x1D56, LineInBox
@@ -145,6 +167,10 @@
  * 
  * (0005EC) S_END
  */
+void LineInBox()
+{
+	// TODO: LineInBox
+}
 
 /*
  * (0005F0) S_GPROC32: [0001:00002BFE], Cb: 00000212, Type:             0x1D58, IsInBox
@@ -168,6 +194,10 @@
  * 
  * (000704) S_END
  */
+void IsInBox()
+{
+	// TODO: IsInBox
+}
 
 /*
  * (000708) S_GPROC32: [0001:00002E10], Cb: 00000337, Type:             0x1D5A, FindCar2CarCollPoint
@@ -193,6 +223,10 @@
  * 
  * (000844) S_END
  */
+void FindCar2CarCollPoint()
+{
+	// TODO: FindCar2CarCollPoint
+}
 
 /*
  * (000848) S_GPROC32: [0001:00003147], Cb: 00000314, Type:             0x1D5A, FindCar2CarCollPointLines
@@ -220,6 +254,10 @@
  * 
  * (0009AC) S_END
  */
+void FindCar2CarCollPointLines()
+{
+	// TODO: FindCar2CarCollPointLines
+}
 
 /*
  * (0009B0) S_GPROC32: [0001:0000345B], Cb: 0000061B, Type:             0x1D5C, CalcCollNormalOld
@@ -246,6 +284,10 @@
  * 
  * (000B00) S_END
  */
+void CalcCollNormalOld()
+{
+	// TODO: CalcCollNormalOld
+}
 
 /*
  * (000B04) S_GPROC32: [0001:00003A76], Cb: 00000376, Type:             0x1D5E, CalcCollNormal
@@ -270,6 +312,10 @@
  * 
  * (000C30) S_END
  */
+void CalcCollNormal()
+{
+	// TODO: CalcCollNormal
+}
 
 /*
  * (000C34) S_GPROC32: [0001:00003DEC], Cb: 0000047F, Type:             0x1D5F, DoCar2CarColl
@@ -302,6 +348,10 @@
  * 
  * (000DF4) S_END
  */
+void DoCar2CarColl()
+{
+	// TODO: DoCar2CarColl
+}
 
 /*
  * (000DF8) S_LPROC32: [0001:0000426B], Cb: 000000F7, Type:             0x1408, Car2CollisionSoundEffect
@@ -314,6 +364,10 @@
  * 
  * (000E58) S_END
  */
+void Car2CollisionSoundEffect()
+{
+	// TODO: Car2CollisionSoundEffect
+}
 
 /*
  * (000E5C) S_LPROC32: [0001:00004362], Cb: 00000068, Type:             0x1408, Car2Car_DetectCollisionsWith
@@ -327,6 +381,10 @@
  * 
  * (000EDC) S_END
  */
+void Car2Car_DetectCollisionsWith()
+{
+	// TODO: Car2Car_DetectCollisionsWith
+}
 
 /*
  * (000EE0) S_LPROC32: [0001:000043CA], Cb: 000000CA, Type:             0x1D61, Car2Car_DetectSphere
@@ -344,6 +402,10 @@
  * 
  * (000FA8) S_END
  */
+void Car2Car_DetectSphere()
+{
+	// TODO: Car2Car_DetectSphere
+}
 
 /*
  * (000FAC) S_GPROC32: [0001:00004494], Cb: 00000459, Type:             0x1408, Car2Car_MakeCollisionMesh
@@ -363,6 +425,10 @@
  * 
  * (001098) S_END
  */
+void Car2Car_MakeCollisionMesh()
+{
+	// TODO: Car2Car_MakeCollisionMesh
+}
 
 /*
  * (00109C) S_LPROC32: [0001:000048ED], Cb: 000001EE, Type:             0x1D63, CollMesh_CalcNormal
@@ -379,6 +445,10 @@
  * 
  * (001148) S_END
  */
+void CollMesh_CalcNormal()
+{
+	// TODO: CollMesh_CalcNormal
+}
 
 /*
  * (00114C) S_LPROC32: [0001:00004ADB], Cb: 000002B9, Type:             0x1408, CollMesh_UpdatePos
@@ -393,6 +463,10 @@
  * 
  * (0011D4) S_END
  */
+void CollMesh_UpdatePos()
+{
+	// TODO: CollMesh_UpdatePos
+}
 
 /*
  * (0011D8) S_GPROC32: [0001:00004D94], Cb: 0000029A, Type:             0x1408, CollMesh_Draw
@@ -411,6 +485,10 @@
  * 
  * (0012A8) S_END
  */
+void CollMesh_Draw()
+{
+	// TODO: CollMesh_Draw
+}
 
 /*
  * (0012AC) S_GPROC32: [0001:0000502E], Cb: 000003C9, Type:             0x1408, CollMesh_DrawEdges
@@ -432,6 +510,10 @@
  * 
  * (0013B0) S_END
  */
+void CollMesh_DrawEdges()
+{
+	// TODO: CollMesh_DrawEdges
+}
 
 /*
  * (0013B4) S_LPROC32: [0001:000053F7], Cb: 00000060, Type:             0x1AB4, simCrossProduct
@@ -445,6 +527,10 @@
  * 
  * (00141C) S_END
  */
+void simCrossProduct()
+{
+	// TODO: simCrossProduct
+}
 
 /*
  * (001420) S_GPROC32: [0001:00005457], Cb: 0000006E, Type:             0x1408, CollMesh_DrawLastCollision
@@ -459,6 +545,10 @@
  * 
  * (0014B4) S_END
  */
+void CollMesh_DrawLastCollision()
+{
+	// TODO: CollMesh_DrawLastCollision
+}
 
 /*
  * (0014B8) S_GPROC32: [0001:000054C5], Cb: 000001E7, Type:             0x1C65, ChooseFaceThatTookTheBruntOfTheImpact
@@ -483,6 +573,10 @@
  * 
  * (001628) S_END
  */
+void ChooseFaceThatTookTheBruntOfTheImpact()
+{
+	// TODO: ChooseFaceThatTookTheBruntOfTheImpact
+}
 
 /*
  * (00162C) S_GPROC32: [0001:000056AC], Cb: 000001FA, Type:             0x1408, CalcCollisionPt
@@ -497,4 +591,8 @@
  * 
  * (0016B8) S_END
  */
+void CalcCollisionPt()
+{
+	// TODO: CalcCollisionPt
+}
 

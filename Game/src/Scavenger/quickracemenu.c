@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -45,6 +43,10 @@
  * 
  * (0000F0) S_END
  */
+void BtStartQuickRace()
+{
+	// TODO: BtStartQuickRace
+}
 
 /*
  * (0000F4) S_GPROC32: [0001:0006E6BE], Cb: 0000041E, Type:             0x1001, OpGotoQuickRace
@@ -60,6 +62,10 @@
  * 
  * (00017C) S_END
  */
+void OpGotoQuickRace()
+{
+	// TODO: OpGotoQuickRace
+}
 
 /*
  * (000180) S_GPROC32: [0001:0006EADC], Cb: 0000011F, Type:             0x141A, BtTrackChange
@@ -73,6 +79,10 @@
  * 
  * (0001F0) S_END
  */
+void BtTrackChange()
+{
+	// TODO: BtTrackChange
+}
 
 /*
  * (0001F4) S_GPROC32: [0001:0006EBFB], Cb: 00000213, Type:             0x141A, BtCarChange
@@ -91,6 +101,10 @@
  * 
  * (0002C0) S_END
  */
+void BtCarChange()
+{
+	// TODO: BtCarChange
+}
 
 /*
  * (0002C4) S_GPROC32: [0001:0006EE0E], Cb: 00000067, Type:             0x141A, BtAuto
@@ -104,6 +118,10 @@
  * 
  * (000324) S_END
  */
+void BtAuto()
+{
+	// TODO: BtAuto
+}
 
 /*
  * (000328) S_GPROC32: [0001:0006EE75], Cb: 00000067, Type:             0x141A, BtManual
@@ -117,6 +135,10 @@
  * 
  * (000388) S_END
  */
+void BtManual()
+{
+	// TODO: BtManual
+}
 
 /*
  * (00038C) S_GPROC32: [0001:0006EEDC], Cb: 00000D41, Type:             0x141A, SetupQuickRaceFrame_Car
@@ -160,6 +182,10 @@
  * 
  * (000648) S_END
  */
+void SetupQuickRaceFrame_Car()
+{
+	// TODO: SetupQuickRaceFrame_Car
+}
 
 /*
  * (00064C) S_GPROC32: [0001:0006FC1D], Cb: 000003ED, Type:             0x141A, SetupQuickRaceFrame_Track
@@ -179,6 +205,10 @@
  * 
  * (000730) S_END
  */
+void SetupQuickRaceFrame_Track()
+{
+	// TODO: SetupQuickRaceFrame_Track
+}
 
 /*
  * (000734) S_GPROC32: [0001:0007000A], Cb: 000000EA, Type:             0x1001, DestroyQuickRaceMenu
@@ -190,6 +220,10 @@
  * 
  * (000788) S_END
  */
+void DestroyQuickRaceMenu()
+{
+	// TODO: DestroyQuickRaceMenu
+}
 
 /*
  * (00078C) S_GPROC32: [0001:000700F4], Cb: 000002CC, Type:             0x1001, SetupQuickRaceMenu
@@ -204,4 +238,8 @@
  * 
  * (000814) S_END
  */
+void SetupQuickRaceMenu()
+{
+	// TODO: SetupQuickRaceMenu
+}
 

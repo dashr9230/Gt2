@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -42,6 +40,10 @@
  * 
  * (000114) S_END
  */
+void CFG_ValidateVideoProfile()
+{
+	// TODO: CFG_ValidateVideoProfile
+}
 
 /*
  * (000118) S_LPROC32: [0001:00092BD4], Cb: 0000001F, Type:             0x1EBC, CFG_SelectVideoCard
@@ -54,6 +56,10 @@
  * 
  * (00017C) S_END
  */
+void CFG_SelectVideoCard()
+{
+	// TODO: CFG_SelectVideoCard
+}
 
 /*
  * (000180) S_LPROC32: [0001:00092BF3], Cb: 00000029, Type:             0x1EBC, CFG_ShowMenu
@@ -66,6 +72,10 @@
  * 
  * (0001DC) S_END
  */
+void CFG_ShowMenu()
+{
+	// TODO: CFG_ShowMenu
+}
 
 /*
  * (0001E0) S_LPROC32: [0001:00092C1C], Cb: 0000001F, Type:             0x1EBC, CFG_CardName
@@ -78,6 +88,10 @@
  * 
  * (00023C) S_END
  */
+void CFG_CardName()
+{
+	// TODO: CFG_CardName
+}
 
 /*
  * (000240) S_LPROC32: [0001:00092C3B], Cb: 00000080, Type:             0x1EBC, CFG_CardGUID
@@ -97,6 +111,10 @@
  * 
  * (0002C8) S_END
  */
+void CFG_CardGUID()
+{
+	// TODO: CFG_CardGUID
+}
 
 /*
  * (0002CC) S_LPROC32: [0001:00092CBB], Cb: 0000006F, Type:             0x1EBC, CFG_CardRes
@@ -109,6 +127,10 @@
  * 
  * (000328) S_END
  */
+void CFG_CardRes()
+{
+	// TODO: CFG_CardRes
+}
 
 /*
  * (00032C) S_LPROC32: [0001:00092D2A], Cb: 00000029, Type:             0x1EBC, CFG_CardMipMapping
@@ -121,6 +143,10 @@
  * 
  * (000390) S_END
  */
+void CFG_CardMipMapping()
+{
+	// TODO: CFG_CardMipMapping
+}
 
 /*
  * (000394) S_LPROC32: [0001:00092D53], Cb: 00000029, Type:             0x1EBC, CFG_CardMultiTexture
@@ -133,6 +159,10 @@
  * 
  * (0003F8) S_END
  */
+void CFG_CardMultiTexture()
+{
+	// TODO: CFG_CardMultiTexture
+}
 
 /*
  * (0003FC) S_LPROC32: [0001:00092D7C], Cb: 00000029, Type:             0x1EBC, CFG_Card32BitTextures
@@ -145,6 +175,10 @@
  * 
  * (000464) S_END
  */
+void CFG_Card32BitTextures()
+{
+	// TODO: CFG_Card32BitTextures
+}
 
 /*
  * (000468) S_LPROC32: [0001:00092DA5], Cb: 00000029, Type:             0x1EBC, CFG_CardAntiJudder
@@ -157,6 +191,10 @@
  * 
  * (0004CC) S_END
  */
+void CFG_CardAntiJudder()
+{
+	// TODO: CFG_CardAntiJudder
+}
 
 /*
  * (0004D0) S_LPROC32: [0001:00092DCE], Cb: 00000029, Type:             0x1EBC, CFG_CardDisableAlphaTest
@@ -169,6 +207,10 @@
  * 
  * (000538) S_END
  */
+void CFG_CardDisableAlphaTest()
+{
+	// TODO: CFG_CardDisableAlphaTest
+}
 
 /*
  * (00053C) S_LPROC32: [0001:00092DF7], Cb: 0000001F, Type:             0x1EBC, CFG_CardDetail
@@ -181,6 +223,10 @@
  * 
  * (00059C) S_END
  */
+void CFG_CardDetail()
+{
+	// TODO: CFG_CardDetail
+}
 
 /*
  * (0005A0) S_LPROC32: [0001:00092E16], Cb: 0000001A, Type:             0x1EBC, CFG_SoundProvider
@@ -193,6 +239,10 @@
  * 
  * (000604) S_END
  */
+void CFG_SoundProvider()
+{
+	// TODO: CFG_SoundProvider
+}
 
 /*
  * (000608) S_LPROC32: [0001:00092E30], Cb: 0000001A, Type:             0x1EBC, CFG_SoundQuality
@@ -205,6 +255,10 @@
  * 
  * (000668) S_END
  */
+void CFG_SoundQuality()
+{
+	// TODO: CFG_SoundQuality
+}
 
 /*
  * (00066C) S_GPROC32: [0001:00092E4A], Cb: 00000241, Type:             0x1EBE, CFIG_Load
@@ -239,6 +293,10 @@
  * 
  * (0007D8) S_END
  */
+void CFIG_Load()
+{
+	// TODO: CFIG_Load
+}
 
 /*
  * (0007DC) S_LPROC32: [0001:0009308B], Cb: 00000217, Type:             0x1EC1, SplitLine
@@ -260,6 +318,10 @@
  * 
  * (0008F4) S_END
  */
+void SplitLine()
+{
+	// TODO: SplitLine
+}
 
 /*
  * (0008F8) S_GPROC32: [0001:000932A2], Cb: 00000131, Type:             0x1EBE, CFIG_SetDefaults
@@ -271,6 +333,10 @@
  * 
  * (000948) S_END
  */
+void CFIG_SetDefaults()
+{
+	// TODO: CFIG_SetDefaults
+}
 
 /*
  * (00094C) S_GPROC32: [0001:000933D3], Cb: 00000014, Type:             0x1001, CFIG_Save
@@ -280,6 +346,10 @@
  * 
  * (000980) S_END
  */
+void CFIG_Save()
+{
+	// TODO: CFIG_Save
+}
 
 /*
  * (000984) S_LPROC32: [0001:000933E7], Cb: 0000023A, Type:             0x1001, Save
@@ -298,6 +368,10 @@
  * 
  * (0009EC) S_END
  */
+void Save()
+{
+	// TODO: Save
+}
 
 /*
  * (0009F0) S_GPROC32: [0001:00093621], Cb: 00000014, Type:             0x1001, CFIG_Test
@@ -307,6 +381,10 @@
  * 
  * (000A24) S_END
  */
+void CFIG_Test()
+{
+	// TODO: CFIG_Test
+}
 
 /*
  * (000A28) S_LPROC32: [0001:00093635], Cb: 00000024, Type:             0x1EBC, PRO_ResetGCards
@@ -319,6 +397,10 @@
  * 
  * (000A88) S_END
  */
+void PRO_ResetGCards()
+{
+	// TODO: PRO_ResetGCards
+}
 
 /*
  * (000A8C) S_LPROC32: [0001:00093659], Cb: 00000036, Type:             0x1EBC, PRO_StartCard
@@ -331,6 +413,10 @@
  * 
  * (000AEC) S_END
  */
+void PRO_StartCard()
+{
+	// TODO: PRO_StartCard
+}
 
 /*
  * (000AF0) S_LPROC32: [0001:0009368F], Cb: 00000099, Type:             0x1EBC, PRO_GraphicGuid
@@ -350,6 +436,10 @@
  * 
  * (000B7C) S_END
  */
+void PRO_GraphicGuid()
+{
+	// TODO: PRO_GraphicGuid
+}
 
 /*
  * (000B80) S_LPROC32: [0001:00093728], Cb: 0000003F, Type:             0x1EBC, PRO_DirectX6
@@ -362,6 +452,10 @@
  * 
  * (000BDC) S_END
  */
+void PRO_DirectX6()
+{
+	// TODO: PRO_DirectX6
+}
 
 /*
  * (000BE0) S_LPROC32: [0001:00093767], Cb: 0000003F, Type:             0x1EBC, PRO_SharedWithGDI
@@ -374,6 +468,10 @@
  * 
  * (000C44) S_END
  */
+void PRO_SharedWithGDI()
+{
+	// TODO: PRO_SharedWithGDI
+}
 
 /*
  * (000C48) S_LPROC32: [0001:000937A6], Cb: 0000003F, Type:             0x1EBC, PRO_WindowRender
@@ -386,6 +484,10 @@
  * 
  * (000CA8) S_END
  */
+void PRO_WindowRender()
+{
+	// TODO: PRO_WindowRender
+}
 
 /*
  * (000CAC) S_LPROC32: [0001:000937E5], Cb: 0000003F, Type:             0x1EBC, PRO_Gamma
@@ -398,6 +500,10 @@
  * 
  * (000D08) S_END
  */
+void PRO_Gamma()
+{
+	// TODO: PRO_Gamma
+}
 
 /*
  * (000D0C) S_LPROC32: [0001:00093824], Cb: 00000035, Type:             0x1EBC, PRO_TexFormats
@@ -410,6 +516,10 @@
  * 
  * (000D6C) S_END
  */
+void PRO_TexFormats()
+{
+	// TODO: PRO_TexFormats
+}
 
 /*
  * (000D70) S_LPROC32: [0001:00093859], Cb: 000000ED, Type:             0x1EBC, PRO_AddMode
@@ -436,6 +546,10 @@
  * 
  * (000E30) S_END
  */
+void PRO_AddMode()
+{
+	// TODO: PRO_AddMode
+}
 
 /*
  * (000E34) S_LPROC32: [0001:00093946], Cb: 00000012, Type:             0x1EBC, PRO_EndCard
@@ -448,6 +562,10 @@
  * 
  * (000E90) S_END
  */
+void PRO_EndCard()
+{
+	// TODO: PRO_EndCard
+}
 
 /*
  * (000E94) S_GPROC32: [0001:00093958], Cb: 000000A2, Type:             0x1EC5, VidSort
@@ -462,6 +580,10 @@
  * 
  * (000F0C) S_END
  */
+void VidSort()
+{
+	// TODO: VidSort
+}
 
 /*
  * (000F10) S_GPROC32: [0001:000939FA], Cb: 00000B1E, Type:             0x1EC6, CFIG_ProfileSystem
@@ -564,6 +686,10 @@
  * 
  * (0012CC) S_END
  */
+void CFIG_ProfileSystem()
+{
+	// TODO: CFIG_ProfileSystem
+}
 
 /*
  * (0012D0) S_LPROC32: [0001:00094518], Cb: 00000BCB, Type:             0x17B2, enumVideoProfileCB
@@ -660,6 +786,10 @@
  * 
  * (001688) S_END
  */
+void enumVideoProfileCB()
+{
+	// TODO: enumVideoProfileCB
+}
 
 /*
  * (00168C) S_LPROC32: [0001:000950E3], Cb: 00000077, Type:             0x146D, enumZBufferFormatsProfileCB
@@ -674,6 +804,10 @@
  * 
  * (001738) S_END
  */
+void enumZBufferFormatsProfileCB()
+{
+	// TODO: enumZBufferFormatsProfileCB
+}
 
 /*
  * (00173C) S_LPROC32: [0001:0009515A], Cb: 000000AB, Type:             0x160A, enumVideoModesProfileCB
@@ -688,6 +822,10 @@
  * 
  * (0017D8) S_END
  */
+void enumVideoModesProfileCB()
+{
+	// TODO: enumVideoModesProfileCB
+}
 
 /*
  * (0017DC) S_LPROC32: [0001:00095205], Cb: 000000DE, Type:             0x146D, enumTextureFormatsCB
@@ -708,6 +846,10 @@
  * 
  * (001894) S_END
  */
+void enumTextureFormatsCB()
+{
+	// TODO: enumTextureFormatsCB
+}
 
 /*
  * (001898) S_LPROC32: [0001:000952E3], Cb: 00000050, Type:             0x182A, BitCounter
@@ -722,4 +864,8 @@
  * 
  * (001918) S_END
  */
+void BitCounter()
+{
+	// TODO: BitCounter
+}
 

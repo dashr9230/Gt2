@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -56,6 +54,10 @@
  * 
  * (0000EC) S_END
  */
+void visRemap()
+{
+	// TODO: visRemap
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:00083522], Cb: 00000AA6, Type:             0x1FBF, VIS_LoadTextureEx
@@ -112,6 +114,10 @@
  * 
  * (000328) S_END
  */
+void VIS_LoadTextureEx()
+{
+	// TODO: VIS_LoadTextureEx
+}
 
 /*
  * (00032C) S_LPROC32: [0001:00083FC8], Cb: 000000F0, Type:             0x1FC1, texDecompress
@@ -142,6 +148,10 @@
  * 
  * (00041C) S_END
  */
+void texDecompress()
+{
+	// TODO: texDecompress
+}
 
 /*
  * (000420) S_LPROC32: [0001:000840B8], Cb: 00000028, Type:             0x1FC1, texCopyLiteral
@@ -155,6 +165,10 @@
  * 
  * (000488) S_END
  */
+void texCopyLiteral()
+{
+	// TODO: texCopyLiteral
+}
 
 /*
  * (00048C) S_LPROC32: [0001:000840E0], Cb: 00000005, Type:             0x1F8F, moxError
@@ -167,6 +181,10 @@
  * 
  * (0004DC) S_END
  */
+void moxError()
+{
+	// TODO: moxError
+}
 
 /*
  * (0004E0) S_LPROC32: [0001:000840E5], Cb: 00000005, Type:             0x1F8F, moxReport
@@ -179,6 +197,10 @@
  * 
  * (000534) S_END
  */
+void moxReport()
+{
+	// TODO: moxReport
+}
 
 /*
  * (000538) S_GPROC32: [0001:000840EA], Cb: 00000017, Type:             0x1FC2, VIS_LoadTexture
@@ -191,6 +213,10 @@
  * 
  * (000598) S_END
  */
+void VIS_LoadTexture()
+{
+	// TODO: VIS_LoadTexture
+}
 
 /*
  * (00059C) S_GPROC32: [0001:00084101], Cb: 000002D4, Type:             0x1FC3, VIS_LoadModel
@@ -217,6 +243,10 @@
  * 
  * (0006A4) S_END
  */
+void VIS_LoadModel()
+{
+	// TODO: VIS_LoadModel
+}
 
 /*
  * (0006A8) S_LPROC32: [0001:000843D5], Cb: 000009DC, Type:             0x1FC5, visParseVisual
@@ -285,6 +315,10 @@
  * 
  * (000A0C) S_END
  */
+void visParseVisual()
+{
+	// TODO: visParseVisual
+}
 
 /*
  * (000A10) S_LPROC32: [0001:00084DB1], Cb: 0000000E, Type:             0x1A2F, REND_SetCallback
@@ -297,6 +331,10 @@
  * 
  * (000A68) S_END
  */
+void REND_SetCallback()
+{
+	// TODO: REND_SetCallback
+}
 
 /*
  * (000A6C) S_LPROC32: [0001:00084DBF], Cb: 0000000E, Type:             0x1A31, REND_SetCallData
@@ -309,6 +347,10 @@
  * 
  * (000AC4) S_END
  */
+void REND_SetCallData()
+{
+	// TODO: REND_SetCallData
+}
 
 /*
  * (000AC8) S_GPROC32: [0001:00084DCD], Cb: 0000000A, Type:             0x1001, VIS_Flush
@@ -318,6 +360,10 @@
  * 
  * (000AFC) S_END
  */
+void VIS_Flush()
+{
+	// TODO: VIS_Flush
+}
 
 /*
  * (000B00) S_LPROC32: [0001:00084DD7], Cb: 000000A8, Type:             0x1001, visFlush
@@ -327,6 +373,10 @@
  * 
  * (000B30) S_END
  */
+void visFlush()
+{
+	// TODO: visFlush
+}
 
 /*
  * (000B34) S_GPROC32: [0001:00084E7F], Cb: 00000232, Type:             0x1001, VIS_Initialize
@@ -338,6 +388,10 @@
  * 
  * (000B80) S_END
  */
+void VIS_Initialize()
+{
+	// TODO: VIS_Initialize
+}
 
 /*
  * (000B84) S_GPROC32: [0001:000850B1], Cb: 000000C9, Type:             0x1001, VIS_Release
@@ -347,6 +401,10 @@
  * 
  * (000BB8) S_END
  */
+void VIS_Release()
+{
+	// TODO: VIS_Release
+}
 
 /*
  * (000BBC) S_GPROC32: [0001:0008517A], Cb: 00000217, Type:             0x1FC7, VIS_ModelOverride
@@ -398,6 +456,10 @@
  * 
  * (000D94) S_END
  */
+void VIS_ModelOverride()
+{
+	// TODO: VIS_ModelOverride
+}
 
 /*
  * (000D98) S_LPROC32: [0001:00085391], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI
@@ -410,6 +472,10 @@
  * 
  * (000DEC) S_END
  */
+void TS_SKIPTRI()
+{
+	// TODO: TS_SKIPTRI
+}
 
 /*
  * (000DF0) S_LPROC32: [0001:000853C0], Cb: 0000002F, Type:             0x1AB8, TS_SKIPTRI2
@@ -422,4 +488,8 @@
  * 
  * (000E44) S_END
  */
+void TS_SKIPTRI2()
+{
+	// TODO: TS_SKIPTRI2
+}
 

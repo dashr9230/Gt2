@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000D8) S_END
  */
+void OpCleanUp()
+{
+	// TODO: OpCleanUp
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:0000CF6D], Cb: 0000018D, Type:             0x1001, OpGameSetup
@@ -48,6 +50,10 @@
  * 
  * (000138) S_END
  */
+void OpGameSetup()
+{
+	// TODO: OpGameSetup
+}
 
 /*
  * (00013C) S_GPROC32: [0001:0000D0FA], Cb: 0000004F, Type:             0x1001, OpReplaySetup
@@ -57,4 +63,8 @@
  * 
  * (000174) S_END
  */
+void OpReplaySetup()
+{
+	// TODO: OpReplaySetup
+}
 

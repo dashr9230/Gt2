@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -36,6 +34,10 @@
  * 
  * (0000F0) S_END
  */
+void MenuStartMouse()
+{
+	// TODO: MenuStartMouse
+}
 
 /*
  * (0000F4) S_LPROC32: [0001:000536B2], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -51,6 +53,10 @@
  * 
  * (000178) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (00017C) S_GPROC32: [0001:0005372C], Cb: 000001C8, Type:             0x1001, SetNewMousePos
@@ -66,4 +72,8 @@
  * 
  * (000214) S_END
  */
+void SetNewMousePos()
+{
+	// TODO: SetNewMousePos
+}
 

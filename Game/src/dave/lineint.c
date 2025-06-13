@@ -14,11 +14,6 @@
  *          Ambient data: NEAR
  *          Ambient code: NEAR
  *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- */
-
-/*
  */
 
 /*
@@ -35,6 +30,10 @@
  * 
  * (000124) S_END
  */
+void LineInterSection()
+{
+	// TODO: LineInterSection
+}
 
 /*
  * (000128) S_GPROC32: [0001:00015CEC], Cb: 00000125, Type:             0x1CD3, LineLineInterSection
@@ -50,6 +49,10 @@
  * 
  * (0001C4) S_END
  */
+void LineLineInterSection()
+{
+	// TODO: LineLineInterSection
+}
 
 /*
  * (0001C8) S_GPROC32: [0001:00015E11], Cb: 000000C7, Type:             0x1CD5, ThickLineInterSection
@@ -66,6 +69,10 @@
  * 
  * (00027C) S_END
  */
+void ThickLineInterSection()
+{
+	// TODO: ThickLineInterSection
+}
 
 /*
  * (000280) S_GPROC32: [0001:00015ED8], Cb: 0000005B, Type:             0x1CD6, DistFromLine
@@ -81,4 +88,8 @@
  * 
  * (000324) S_END
  */
+void DistFromLine()
+{
+	// TODO: DistFromLine
+}
 

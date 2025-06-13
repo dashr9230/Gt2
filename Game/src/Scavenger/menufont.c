@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -33,6 +31,10 @@
  * 
  * (0000D8) S_END
  */
+void TextManager_Release()
+{
+	// TODO: TextManager_Release
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:00053905], Cb: 00000037, Type:             0x1408, TextManager_DestroyAllText
@@ -45,6 +47,10 @@
  * 
  * (000140) S_END
  */
+void TextManager_DestroyAllText()
+{
+	// TODO: TextManager_DestroyAllText
+}
 
 /*
  * (000144) S_GPROC32: [0001:0005393C], Cb: 0000002E, Type:             0x1408, TextManager_DrawText
@@ -57,6 +63,10 @@
  * 
  * (0001A0) S_END
  */
+void TextManager_DrawText()
+{
+	// TODO: TextManager_DrawText
+}
 
 /*
  * (0001A4) S_GPROC32: [0001:0005396A], Cb: 00000076, Type:             0x1824, TextManager_Create
@@ -68,6 +78,10 @@
  * 
  * (000200) S_END
  */
+void TextManager_Create()
+{
+	// TODO: TextManager_Create
+}
 
 /*
  * (000204) S_GPROC32: [0001:000539E0], Cb: 0000002B, Type:             0x1408, Text_Draw
@@ -80,6 +94,10 @@
  * 
  * (00025C) S_END
  */
+void Text_Draw()
+{
+	// TODO: Text_Draw
+}
 
 /*
  * (000260) S_GPROC32: [0001:00053A0B], Cb: 00000034, Type:             0x1408, Text_Release
@@ -92,6 +110,10 @@
  * 
  * (0002B8) S_END
  */
+void Text_Release()
+{
+	// TODO: Text_Release
+}
 
 /*
  * (0002BC) S_GPROC32: [0001:00053A3F], Cb: 00000749, Type:             0x1A26, TextWrite
@@ -122,6 +144,10 @@
  * 
  * (000448) S_END
  */
+void TextWrite()
+{
+	// TODO: TextWrite
+}
 
 /*
  * (00044C) S_LPROC32: [0001:00054188], Cb: 0000007A, Type:             0x182A, redistAlpha
@@ -137,6 +163,10 @@
  * 
  * (0004D0) S_END
  */
+void redistAlpha()
+{
+	// TODO: redistAlpha
+}
 
 /*
  * (0004D4) S_GPROC32: [0001:00054202], Cb: 000001AC, Type:             0x1A29, TextCalcLen
@@ -158,4 +188,8 @@
  * 
  * (0005D0) S_END
  */
+void TextCalcLen()
+{
+	// TODO: TextCalcLen
+}
 

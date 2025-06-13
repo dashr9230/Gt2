@@ -17,8 +17,6 @@
  * 
  * (00039C) S_UDT:             0x2126, inflate_codes_state
  * (0003B8) S_UDT:             0x212F, inflate_blocks_state
- * (0003D8) S_UDT:             0x212F, inflate_blocks_statef
- * 
  */
 
 /*
@@ -40,6 +38,10 @@
  * 
  * (000128) S_END
  */
+void inflate_codes_new()
+{
+	// TODO: inflate_codes_new
+}
 
 /*
  * (00012C) S_GPROC32: [0001:0009AB91], Cb: 00000D83, Type:             0x2132, inflate_codes
@@ -75,6 +77,10 @@
  * 
  * (00031C) S_END
  */
+void inflate_codes()
+{
+	// TODO: inflate_codes
+}
 
 /*
  * (000320) S_GPROC32: [0001:0009B914], Cb: 0000002B, Type:             0x2134, inflate_codes_free
@@ -87,4 +93,8 @@
  * 
  * (00037C) S_END
  */
+void inflate_codes_free()
+{
+	// TODO: inflate_codes_free
+}
 

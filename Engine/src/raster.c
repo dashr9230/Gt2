@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -46,6 +44,10 @@
  * 
  * (0000EC) S_END
  */
+void CON_RasterToggle()
+{
+	// TODO: CON_RasterToggle
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:0008BB34], Cb: 000000DF, Type:             0x1001, RAST_Open
@@ -62,6 +64,10 @@
  * 
  * (000150) S_END
  */
+void RAST_Open()
+{
+	// TODO: RAST_Open
+}
 
 /*
  * (000154) S_GPROC32: [0001:0008BC13], Cb: 00000025, Type:             0x1001, RAST_Close
@@ -71,6 +77,10 @@
  * 
  * (000188) S_END
  */
+void RAST_Close()
+{
+	// TODO: RAST_Close
+}
 
 /*
  * (00018C) S_GPROC32: [0001:0008BC38], Cb: 00000063, Type:             0x1001, RAST_CreateObj
@@ -80,6 +90,10 @@
  * 
  * (0001C4) S_END
  */
+void RAST_CreateObj()
+{
+	// TODO: RAST_CreateObj
+}
 
 /*
  * (0001C8) S_LPROC32: [0001:0008BC9B], Cb: 000005FD, Type:             0x1408, RasterDraw
@@ -110,6 +124,10 @@
  * 
  * (0002C4) S_END
  */
+void RasterDraw()
+{
+	// TODO: RasterDraw
+}
 
 /*
  * (0002C8) S_GPROC32: [0001:0008C298], Cb: 00000032, Type:             0x1001, RAST_DestroyObj
@@ -119,6 +137,10 @@
  * 
  * (000300) S_END
  */
+void RAST_DestroyObj()
+{
+	// TODO: RAST_DestroyObj
+}
 
 /*
  * (000304) S_GPROC32: [0001:0008C2CA], Cb: 00000057, Type:             0x1001, iRAST_Begin
@@ -128,6 +150,10 @@
  * 
  * (000338) S_END
  */
+void iRAST_Begin()
+{
+	// TODO: iRAST_Begin
+}
 
 /*
  * (00033C) S_GPROC32: [0001:0008C321], Cb: 0000004D, Type:             0x1001, iRAST_End
@@ -137,6 +163,10 @@
  * 
  * (000370) S_END
  */
+void iRAST_End()
+{
+	// TODO: iRAST_End
+}
 
 /*
  * (000374) S_GPROC32: [0001:0008C36E], Cb: 00000056, Type:             0x16A1, iRAST_Mark
@@ -148,6 +178,10 @@
  * 
  * (0003BC) S_END
  */
+void iRAST_Mark()
+{
+	// TODO: iRAST_Mark
+}
 
 /*
  * (0003C0) S_GPROC32: [0001:0008C3C4], Cb: 0000005A, Type:             0x1001, iRAST_BarBegin
@@ -157,6 +191,10 @@
  * 
  * (0003F8) S_END
  */
+void iRAST_BarBegin()
+{
+	// TODO: iRAST_BarBegin
+}
 
 /*
  * (0003FC) S_GPROC32: [0001:0008C41E], Cb: 000000DD, Type:             0x1001, iRAST_BarEnd
@@ -173,6 +211,10 @@
  * 
  * (000460) S_END
  */
+void iRAST_BarEnd()
+{
+	// TODO: iRAST_BarEnd
+}
 
 /*
  * (000464) S_GPROC32: [0001:0008C4FB], Cb: 00000095, Type:             0x16A1, iRAST_Bar
@@ -191,6 +233,10 @@
  * 
  * (0004DC) S_END
  */
+void iRAST_Bar()
+{
+	// TODO: iRAST_Bar
+}
 
 /*
  * (0004E0) S_GPROC32: [0001:0008C590], Cb: 0000005C, Type:             0x1001, iRAST_BarPush
@@ -200,6 +246,10 @@
  * 
  * (000518) S_END
  */
+void iRAST_BarPush()
+{
+	// TODO: iRAST_BarPush
+}
 
 /*
  * (00051C) S_GPROC32: [0001:0008C5EC], Cb: 0000003B, Type:             0x1001, iRAST_BarPop
@@ -209,4 +259,8 @@
  * 
  * (000550) S_END
  */
+void iRAST_BarPop()
+{
+	// TODO: iRAST_BarPop
+}
 

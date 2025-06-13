@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -34,6 +32,10 @@
  * 
  * (0000EC) S_END
  */
+void initFastSqrt()
+{
+	// TODO: initFastSqrt
+}
 
 /*
  * (0000F0) S_GPROC32: [0001:00040BA6], Cb: 0000008A, Type:             0x1A79, fastSqrt
@@ -47,4 +49,8 @@
  * 
  * (000150) S_END
  */
+void fastSqrt()
+{
+	// TODO: fastSqrt
+}
 

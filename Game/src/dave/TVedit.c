@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -47,6 +45,10 @@
  * 
  * (0000E8) S_END
  */
+void TVED_Allocate()
+{
+	// TODO: TVED_Allocate
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:0002751D], Cb: 00000039, Type:             0x1408, TVED_Destroy
@@ -65,6 +67,10 @@
  * 
  * (000160) S_END
  */
+void TVED_Destroy()
+{
+	// TODO: TVED_Destroy
+}
 
 /*
  * (000164) S_GPROC32: [0001:00027556], Cb: 0000001E, Type:             0x1408, TVED_Release
@@ -76,6 +82,10 @@
  * 
  * (0001A8) S_END
  */
+void TVED_Release()
+{
+	// TODO: TVED_Release
+}
 
 /*
  * (0001AC) S_GPROC32: [0001:00027574], Cb: 00000041, Type:             0x1BEC, GetCamDist
@@ -91,6 +101,10 @@
  * 
  * (000230) S_END
  */
+void GetCamDist()
+{
+	// TODO: GetCamDist
+}
 
 /*
  * (000234) S_GPROC32: [0001:000275B5], Cb: 00000076, Type:             0x1BED, FindClosestCameraman
@@ -108,6 +122,10 @@
  * 
  * (0002F8) S_END
  */
+void FindClosestCameraman()
+{
+	// TODO: FindClosestCameraman
+}
 
 /*
  * (0002FC) S_GPROC32: [0001:0002762B], Cb: 0000007A, Type:             0x1BED, HireCameramanAt
@@ -125,6 +143,10 @@
  * 
  * (0003B4) S_END
  */
+void HireCameramanAt()
+{
+	// TODO: HireCameramanAt
+}
 
 /*
  * (0003B8) S_LPROC32: [0001:000276A5], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -147,6 +169,10 @@
  * 
  * (000474) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (000478) S_GPROC32: [0001:00027716], Cb: 00000675, Type:             0x1408, TVED_Handler
@@ -206,6 +232,10 @@
  * 
  * (000704) S_END
  */
+void TVED_Handler()
+{
+	// TODO: TVED_Handler
+}
 
 /*
  * (000708) S_GPROC32: [0001:00027D8B], Cb: 00000094, Type:             0x1BF6, SetCamColor
@@ -222,6 +252,10 @@
  * 
  * (0007B8) S_END
  */
+void SetCamColor()
+{
+	// TODO: SetCamColor
+}
 
 /*
  * (0007BC) S_GPROC32: [0001:00027E1F], Cb: 00000005, Type:             0x1BF8, SetCamLogo
@@ -234,6 +268,10 @@
  * 
  * (000810) S_END
  */
+void SetCamLogo()
+{
+	// TODO: SetCamLogo
+}
 
 /*
  * (000814) S_GPROC32: [0001:00027E24], Cb: 0000004E, Type:             0x1408, TVED_Draw
@@ -247,6 +285,10 @@
  * 
  * (000880) S_END
  */
+void TVED_Draw()
+{
+	// TODO: TVED_Draw
+}
 
 /*
  * (000884) S_LPROC32: [0001:00027E72], Cb: 00000104, Type:             0x1BF9, DrawMouse
@@ -260,6 +302,10 @@
  * 
  * (0008EC) S_END
  */
+void DrawMouse()
+{
+	// TODO: DrawMouse
+}
 
 /*
  * (0008F0) S_GPROC32: [0001:00027F76], Cb: 0000011E, Type:             0x1001, TVED_Save
@@ -276,6 +322,10 @@
  * 
  * (0009AC) S_END
  */
+void TVED_Save()
+{
+	// TODO: TVED_Save
+}
 
 /*
  * (0009B0) S_GPROC32: [0001:00028094], Cb: 0000000C, Type:             0x17C9, CON_TVED_Save
@@ -288,6 +338,10 @@
  * 
  * (000A10) S_END
  */
+void CON_TVED_Save()
+{
+	// TODO: CON_TVED_Save
+}
 
 /*
  * (000A14) S_GPROC32: [0001:000280A0], Cb: 00000047, Type:             0x1001, TVED_Reset
@@ -300,6 +354,10 @@
  * 
  * (000A70) S_END
  */
+void TVED_Reset()
+{
+	// TODO: TVED_Reset
+}
 
 /*
  * (000A74) S_GPROC32: [0001:000280E7], Cb: 00000027, Type:             0x17C9, CON_TVED_Reset
@@ -313,6 +371,10 @@
  * 
  * (000AE8) S_END
  */
+void CON_TVED_Reset()
+{
+	// TODO: CON_TVED_Reset
+}
 
 /*
  * (000AEC) S_GPROC32: [0001:0002810E], Cb: 00000114, Type:             0x1001, TVED_Load
@@ -332,6 +394,10 @@
  * 
  * (000BF4) S_END
  */
+void TVED_Load()
+{
+	// TODO: TVED_Load
+}
 
 /*
  * (000BF8) S_GPROC32: [0001:00028222], Cb: 0000000C, Type:             0x17C9, CON_TVED_Load
@@ -344,6 +410,10 @@
  * 
  * (000C58) S_END
  */
+void CON_TVED_Load()
+{
+	// TODO: CON_TVED_Load
+}
 
 /*
  * (000C5C) S_GPROC32: [0001:0002822E], Cb: 0000003B, Type:             0x1001, TVED_Console_Install
@@ -353,6 +423,10 @@
  * 
  * (000C98) S_END
  */
+void TVED_Console_Install()
+{
+	// TODO: TVED_Console_Install
+}
 
 /*
  * (000C9C) S_GPROC32: [0001:00028269], Cb: 00000005, Type:             0x1001, TVED_AutoSelectCam
@@ -362,4 +436,8 @@
  * 
  * (000CD8) S_END
  */
+void TVED_AutoSelectCam()
+{
+	// TODO: TVED_AutoSelectCam
+}
 

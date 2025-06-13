@@ -15,8 +15,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -57,6 +55,10 @@
  * 
  * (0000D8) S_END
  */
+void SectorMap_Install()
+{
+	// TODO: SectorMap_Install
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:00021A61], Cb: 00000049, Type:             0x1001, SectorMap_Release
@@ -66,6 +68,10 @@
  * 
  * (000118) S_END
  */
+void SectorMap_Release()
+{
+	// TODO: SectorMap_Release
+}
 
 /*
  * (00011C) S_GPROC32: [0001:00021AAA], Cb: 00000377, Type:             0x1408, SectorMap_Draw
@@ -90,6 +96,10 @@
  * 
  * (000208) S_END
  */
+void SectorMap_Draw()
+{
+	// TODO: SectorMap_Draw
+}
 
 /*
  * (00020C) S_LPROC32: [0001:00021E21], Cb: 000000C0, Type:             0x1C2D, sdbgBoxDraw
@@ -105,6 +115,10 @@
  * 
  * (000294) S_END
  */
+void sdbgBoxDraw()
+{
+	// TODO: sdbgBoxDraw
+}
 
 /*
  * (000298) S_LPROC32: [0001:00021EE1], Cb: 000000BC, Type:             0x1C2D, shiliteBoxDraw
@@ -120,6 +134,10 @@
  * 
  * (000324) S_END
  */
+void shiliteBoxDraw()
+{
+	// TODO: shiliteBoxDraw
+}
 
 /*
  * (000328) S_GPROC32: [0001:00021F9D], Cb: 0000007D, Type:             0x1001, SectorMap_Dump
@@ -131,6 +149,10 @@
  * 
  * (000370) S_END
  */
+void SectorMap_Dump()
+{
+	// TODO: SectorMap_Dump
+}
 
 /*
  * (000374) S_GPROC32: [0001:0002201A], Cb: 00000210, Type:             0x1408, QuakeKeys
@@ -148,6 +170,10 @@
  * 
  * (000434) S_END
  */
+void QuakeKeys()
+{
+	// TODO: QuakeKeys
+}
 
 /*
  * (000438) S_LPROC32: [0001:0002222A], Cb: 00000071, Type:             0x1AA5, meshFindCollisionZone
@@ -170,6 +196,10 @@
  * 
  * (0004F4) S_END
  */
+void meshFindCollisionZone()
+{
+	// TODO: meshFindCollisionZone
+}
 
 /*
  * (0004F8) S_GPROC32: [0001:0002229B], Cb: 00000A70, Type:             0x1408, SectorMap_Handler
@@ -246,6 +276,10 @@
  * 
  * (000820) S_END
  */
+void SectorMap_Handler()
+{
+	// TODO: SectorMap_Handler
+}
 
 /*
  * (000824) S_LPROC32: [0001:00022D0B], Cb: 00000197, Type:             0x1C32, keySEDelete
@@ -265,6 +299,10 @@
  * 
  * (0008F8) S_END
  */
+void keySEDelete()
+{
+	// TODO: keySEDelete
+}
 
 /*
  * (0008FC) S_LPROC32: [0001:00022EA2], Cb: 0000004F, Type:             0x1C35, unlinkSector
@@ -278,6 +316,10 @@
  * 
  * (000960) S_END
  */
+void unlinkSector()
+{
+	// TODO: unlinkSector
+}
 
 /*
  * (000964) S_LPROC32: [0001:00022EF1], Cb: 000001C3, Type:             0x1C32, keySEPriority
@@ -303,6 +345,10 @@
  * 
  * (000A58) S_END
  */
+void keySEPriority()
+{
+	// TODO: keySEPriority
+}
 
 /*
  * (000A5C) S_LPROC32: [0001:000230B4], Cb: 000001C0, Type:             0x1C32, keySENormal
@@ -328,6 +374,10 @@
  * 
  * (000B4C) S_END
  */
+void keySENormal()
+{
+	// TODO: keySENormal
+}
 
 /*
  * (000B50) S_LPROC32: [0001:00023274], Cb: 000001C0, Type:             0x1C32, keySEConsider
@@ -353,6 +403,10 @@
  * 
  * (000C44) S_END
  */
+void keySEConsider()
+{
+	// TODO: keySEConsider
+}
 
 /*
  * (000C48) S_GPROC32: [0001:00023434], Cb: 00000455, Type:             0x1B5B, LoadSectors
@@ -420,6 +474,10 @@
  * 
  * (000E4C) S_END
  */
+void LoadSectors()
+{
+	// TODO: LoadSectors
+}
 
 /*
  * (000E50) S_GPROC32: [0001:00023889], Cb: 0000004F, Type:             0x17C9, cmdLoadSectors
@@ -439,6 +497,10 @@
  * 
  * (000EE0) S_END
  */
+void cmdLoadSectors()
+{
+	// TODO: cmdLoadSectors
+}
 
 /*
  * (000EE4) S_GPROC32: [0001:000238D8], Cb: 00000234, Type:             0x17C9, cmdSaveSectors
@@ -476,4 +538,8 @@
  * 
  * (001018) S_END
  */
+void cmdSaveSectors()
+{
+	// TODO: cmdSaveSectors
+}
 

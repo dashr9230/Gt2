@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -35,6 +33,10 @@
  * 
  * (000108) S_END
  */
+void SetDefaultFastestLap()
+{
+	// TODO: SetDefaultFastestLap
+}
 
 /*
  * (00010C) S_GPROC32: [0001:0000CA64], Cb: 000000E2, Type:             0x1D26, SetFastestLap
@@ -52,6 +54,10 @@
  * 
  * (0001D4) S_END
  */
+void SetFastestLap()
+{
+	// TODO: SetFastestLap
+}
 
 /*
  * (0001D8) S_GPROC32: [0001:0000CB46], Cb: 000000FD, Type:             0x1D28, ENCRYPT_Encode
@@ -68,6 +74,10 @@
  * 
  * (00028C) S_END
  */
+void ENCRYPT_Encode()
+{
+	// TODO: ENCRYPT_Encode
+}
 
 /*
  * (000290) S_GPROC32: [0001:0000CC43], Cb: 0000008E, Type:             0x1D2B, ENCRYPT_GetKeyCodeStr
@@ -82,4 +92,8 @@
  * 
  * (000318) S_END
  */
+void ENCRYPT_GetKeyCodeStr()
+{
+	// TODO: ENCRYPT_GetKeyCodeStr
+}
 

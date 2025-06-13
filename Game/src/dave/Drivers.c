@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -40,6 +38,10 @@
  * 
  * (00016C) S_END
  */
+void Driver_SetControls()
+{
+	// TODO: Driver_SetControls
+}
 
 /*
  * (000170) S_GPROC32: [0001:0000C815], Cb: 0000007D, Type:             0x1001, Driver_Init
@@ -52,6 +54,10 @@
  * 
  * (0001CC) S_END
  */
+void Driver_Init()
+{
+	// TODO: Driver_Init
+}
 
 /*
  * (0001D0) S_GPROC32: [0001:0000C892], Cb: 00000191, Type:             0x16A1, Driver_Dump
@@ -64,4 +70,8 @@
  * 
  * (000230) S_END
  */
+void Driver_Dump()
+{
+	// TODO: Driver_Dump
+}
 

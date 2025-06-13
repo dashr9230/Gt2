@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -34,6 +32,10 @@
  * 
  * (0000D8) S_END
  */
+void WashAndGo()
+{
+	// TODO: WashAndGo
+}
 
 /*
  * (0000DC) S_GPROC32: [0001:00083121], Cb: 00000077, Type:             0x1FCB, ExitGracefully
@@ -47,6 +49,10 @@
  * 
  * (000158) S_END
  */
+void ExitGracefully()
+{
+	// TODO: ExitGracefully
+}
 
 /*
  * (00015C) S_GPROC32: [0001:00083198], Cb: 00000122, Type:             0x1FCB, CleanupAndGo
@@ -60,6 +66,10 @@
  * 
  * (0001D4) S_END
  */
+void CleanupAndGo()
+{
+	// TODO: CleanupAndGo
+}
 
 /*
  * (0001D8) S_GPROC32: [0001:000832BA], Cb: 0000001D, Type:             0x1B5B, DavesFault_MessageBox
@@ -71,4 +81,8 @@
  * 
  * (00022C) S_END
  */
+void DavesFault_MessageBox()
+{
+	// TODO: DavesFault_MessageBox
+}
 

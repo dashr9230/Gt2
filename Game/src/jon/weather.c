@@ -14,8 +14,6 @@
  *          Ambient code: NEAR
  *          PCode present: 0
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * 
  */
 
 /*
@@ -47,6 +45,10 @@
  * 
  * (0000E8) S_END
  */
+void WeatherAllocate()
+{
+	// TODO: WeatherAllocate
+}
 
 /*
  * (0000EC) S_GPROC32: [0001:0002F093], Cb: 00000042, Type:             0x1408, WeatherDetach
@@ -60,6 +62,10 @@
  * 
  * (000158) S_END
  */
+void WeatherDetach()
+{
+	// TODO: WeatherDetach
+}
 
 /*
  * (00015C) S_LPROC32: [0001:0002F0D5], Cb: 00000025, Type:             0x1B93, shizukuRelease
@@ -72,6 +78,10 @@
  * 
  * (0001B4) S_END
  */
+void shizukuRelease()
+{
+	// TODO: shizukuRelease
+}
 
 /*
  * (0001B8) S_GPROC32: [0001:0002F0FA], Cb: 000000E4, Type:             0x16A1, WeatherInitialize
@@ -90,6 +100,10 @@
  * 
  * (000230) S_END
  */
+void WeatherInitialize()
+{
+	// TODO: WeatherInitialize
+}
 
 /*
  * (000234) S_LPROC32: [0001:0002F1DE], Cb: 0000009A, Type:             0x17C9, cmdWeatherSnow
@@ -102,6 +116,10 @@
  * 
  * (00028C) S_END
  */
+void cmdWeatherSnow()
+{
+	// TODO: cmdWeatherSnow
+}
 
 /*
  * (000290) S_LPROC32: [0001:0002F278], Cb: 0000005D, Type:             0x17C9, cmdWeatherIntensity
@@ -121,6 +139,10 @@
  * 
  * (000318) S_END
  */
+void cmdWeatherIntensity()
+{
+	// TODO: cmdWeatherIntensity
+}
 
 /*
  * (00031C) S_GPROC32: [0001:0002F2D5], Cb: 00000057, Type:             0x1001, WeatherRelease
@@ -130,6 +152,10 @@
  * 
  * (000354) S_END
  */
+void WeatherRelease()
+{
+	// TODO: WeatherRelease
+}
 
 /*
  * (000358) S_GPROC32: [0001:0002F32C], Cb: 0000004A, Type:             0x1B94, InitRain
@@ -142,6 +168,10 @@
  * 
  * (0003A8) S_END
  */
+void InitRain()
+{
+	// TODO: InitRain
+}
 
 /*
  * (0003AC) S_GPROC32: [0001:0002F376], Cb: 0000004A, Type:             0x1B94, InitSnow
@@ -154,6 +184,10 @@
  * 
  * (0003FC) S_END
  */
+void InitSnow()
+{
+	// TODO: InitSnow
+}
 
 /*
  * (000400) S_GPROC32: [0001:0002F3C0], Cb: 00000072, Type:             0x1B94, InitDry
@@ -167,6 +201,10 @@
  * 
  * (000464) S_END
  */
+void InitDry()
+{
+	// TODO: InitDry
+}
 
 /*
  * (000468) S_GPROC32: [0001:0002F432], Cb: 0000007E, Type:             0x1B94, InitNight
@@ -180,6 +218,10 @@
  * 
  * (0004D0) S_END
  */
+void InitNight()
+{
+	// TODO: InitNight
+}
 
 /*
  * (0004D4) S_GPROC32: [0001:0002F4B0], Cb: 0000008F, Type:             0x17C9, SetAmbient
@@ -201,6 +243,10 @@
  * 
  * (00057C) S_END
  */
+void SetAmbient()
+{
+	// TODO: SetAmbient
+}
 
 /*
  * (000580) S_GPROC32: [0001:0002F53F], Cb: 0000003B, Type:             0x17C9, SetDirect
@@ -213,4 +259,8 @@
  * 
  * (0005DC) S_END
  */
+void SetDirect()
+{
+	// TODO: SetDirect
+}
 

@@ -1,0 +1,10 @@
+# Visual Studio 2015+ cache/options directory
+.vs
+
+# Build results
+[Rr]elease/
+[Dd]ebug/
+x64/
+
+# Miscellaneous Visual Studio stuffs
+*.vcxproj.user

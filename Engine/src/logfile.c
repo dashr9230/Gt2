@@ -85,9 +85,30 @@ void CloseLogfile()
  * 
  * (0001A0) S_END
  */
-void LogFile()
+void LogFile(char* FormatString, ...)
 {
-	// TODO: LogFile
+	if (!WriteAccess)
+		return;
+
+	if (hLogMutex)
+		WaitForSingleObject(hLogMutex, INFINITE);
+
+	va_list arglist;
+	CHAR ErrorBuffer[256];
+	va_start(arglist, FormatString);
+	vsprintf(ErrorBuffer, FormatString, arglist);
+	va_end(arglist);
+
+	lstrcat(ErrorBuffer, "\n");
+	FILE* fh = fopen(LogFileName, "at");
+	if (fh)
+	{
+		fprintf(fh, "%s", ErrorBuffer);
+		fclose(fh);
+	}
+
+	if (hLogMutex)
+		ReleaseMutex(hLogMutex);
 }
 
 /*

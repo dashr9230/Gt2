@@ -16,6 +16,8 @@
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  */
 
+#include "logfile.h"
+
 #include <Windows.h>
 
 #include <stdio.h>
@@ -69,7 +71,16 @@ short OpenMeALogfile(char* filename)
  */
 void CloseLogfile()
 {
-	// TODO: CloseLogfile
+	NET_DumpLogFile();
+
+	if (WriteAccess && logfile)
+		fclose(logfile);
+
+	if (hLogMutex)
+	{
+		CloseHandle(hLogMutex);
+		hLogMutex = 0;
+	}
 }
 
 /*

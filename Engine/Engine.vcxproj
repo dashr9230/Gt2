@@ -173,6 +173,7 @@
     <ClCompile Include="src\video.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\logfile.h" />
     <ClInclude Include="src\mox\moxtypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

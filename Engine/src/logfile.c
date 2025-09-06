@@ -16,12 +16,20 @@
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  */
 
+#include <Windows.h>
+
+#include <stdio.h>
+
 /*
  * (0002B8) S_GDATA32: [0003:0091E8AC], Type:             0x1834, logfile
  * (0002D0) S_LDATA32: [0003:0006B8E0], Type:             0x1A12, LogFileName
  * (0002EC) S_GDATA32: [0003:0091E8B0], Type:      T_RCHAR(0070), WriteAccess
  * (000308) S_LDATA32: [0003:0091E8A8], Type:    T_32PVOID(0403), hLogMutex
  */
+FILE* logfile;
+char LogFileName[256] = "Logfile.log";
+char WriteAccess;
+HANDLE hLogMutex;
 
 /*
  * (00008C) S_GPROC32: [0001:000832E0], Cb: 0000007A, Type:             0x1FC9, OpenMeALogfile
@@ -33,9 +41,22 @@
  * 
  * (0000DC) S_END
  */
-void OpenMeALogfile()
+short OpenMeALogfile(char* filename)
 {
-	// TODO: OpenMeALogfile
+	wsprintf(LogFileName, "%s", filename);
+	logfile = fopen(LogFileName, "wt");
+	if (logfile)
+	{
+		WriteAccess = 1;
+		fclose(logfile);
+	}
+	else
+	{
+		WriteAccess = 0;
+	}
+	hLogMutex = NULL;
+	hLogMutex = CreateMutex(NULL, FALSE, NULL);
+	return 1;
 }
 
 /*

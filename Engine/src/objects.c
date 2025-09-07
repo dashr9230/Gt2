@@ -36,7 +36,7 @@
  */
 void CTP_ToggleModel()
 {
-	// TODO: CTP_ToggleModel
+	// nothing
 }
 
 /*

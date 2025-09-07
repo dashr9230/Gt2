@@ -6,6 +6,7 @@ short OpenMeALogfile(char* filename);
 void CloseLogfile();
 void LogFile(char* FormatString, ...);
 
+void NET_LogFile(char* FormatString, ...);
 void NET_DumpLogFile();
 
 #endif // _GT2_ENGINE_LOGFILE_H

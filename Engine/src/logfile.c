@@ -145,9 +145,9 @@ void NET_LogInit()
  * 
  * (00022C) S_END
  */
-void NET_LogFile()
+void NET_LogFile(char* FormatString, ...)
 {
-	// TODO: NET_LogFile
+	// nothing
 }
 
 /*

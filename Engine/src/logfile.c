@@ -160,9 +160,9 @@ void NET_LogFile(char* FormatString, ...)
  * 
  * (000278) S_END
  */
-void NET_LogSave()
+void NET_LogSave(unsigned char* message)
 {
-	// TODO: NET_LogSave
+	// nothing
 }
 
 /*

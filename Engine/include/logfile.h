@@ -8,6 +8,7 @@ void LogFile(char* FormatString, ...);
 
 void NET_LogInit();
 void NET_LogFile(char* FormatString, ...);
+void NET_LogSave(unsigned char* message);
 void NET_DumpLogFile();
 
 #endif // _GT2_ENGINE_LOGFILE_H

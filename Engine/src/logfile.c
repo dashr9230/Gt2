@@ -175,6 +175,6 @@ void NET_LogSave(unsigned char* message)
  */
 void NET_DumpLogFile()
 {
-	// TODO: NET_DumpLogFile
+	// nothing
 }
 

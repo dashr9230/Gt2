@@ -132,7 +132,7 @@ void LogFile(char* FormatString, ...)
  */
 void NET_LogInit()
 {
-	// TODO: NET_LogInit
+	// nothing
 }
 
 /*

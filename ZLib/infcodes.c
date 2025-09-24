@@ -1,100 +1,257 @@
-
-// File: C:\CodePrj\Gt2\ZLib\infcodes.c
-
-/*
- * ModName: .\Debug\infcodes.obj
- * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\zlib\Debug\infcodes.obj
- * 
- * (000040) S_COMPILE:
- *          Language: C
- *          Target processor: Pentium
- *          Floating-point precision: 0
- *          Floating-point package: hardware
- *          Ambient data: NEAR
- *          Ambient code: NEAR
- *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
- * 
- * (00039C) S_UDT:             0x2126, inflate_codes_state
- * (0003B8) S_UDT:             0x212F, inflate_blocks_state
+/* infcodes.c -- process literals and length/distance pairs
+ * Copyright (C) 1995-1998 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h 
  */
 
-/*
- * (000380) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
- */
+#include "zutil.h"
+#include "inftrees.h"
+#include "infblock.h"
+#include "infcodes.h"
+#include "infutil.h"
+#include "inffast.h"
 
-/*
- * (00008C) S_GPROC32: [0001:0009AB20], Cb: 00000071, Type:             0x2129, inflate_codes_new
- *          Parent: 00000000, End: 00000128, Next: 0000012C
- *          Debug start: 0000000C, Debug end: 00000062
- *          Flags: Frame Ptr Present
- * 
- * (0000C8)  S_BPREL32: [00000008], Type:      T_UINT4(0075), bl
- * (0000D8)  S_BPREL32: [0000000C], Type:      T_UINT4(0075), bd
- * (0000E8)  S_BPREL32: [00000010], Type:             0x20F3, tl
- * (0000F8)  S_BPREL32: [00000014], Type:             0x20F3, td
- * (000108)  S_BPREL32: [00000018], Type:             0x2107, z
- * (000118)  S_BPREL32: [FFFFFFFC], Type:             0x2127, c
- * 
- * (000128) S_END
- */
-void inflate_codes_new()
+/* simplify the use of the inflate_huft type with some defines */
+#define exop word.what.Exop
+#define bits word.what.Bits
+
+typedef enum {        /* waiting for "i:"=input, "o:"=output, "x:"=nothing */
+      START,    /* x: set up for LEN */
+      LEN,      /* i: get length/literal/eob next */
+      LENEXT,   /* i: getting length extra (have base) */
+      DIST,     /* i: get distance next */
+      DISTEXT,  /* i: getting distance extra */
+      COPY,     /* o: copying bytes in window, waiting for space */
+      LIT,      /* o: got literal, waiting for output space */
+      WASH,     /* o: got eob, possibly still output waiting */
+      END,      /* x: got eob and all data flushed */
+      BADCODE}  /* x: got error */
+inflate_codes_mode;
+
+/* inflate codes private state */
+struct inflate_codes_state {
+
+  /* mode */
+  inflate_codes_mode mode;      /* current inflate_codes mode */
+
+  /* mode dependent information */
+  uInt len;
+  union {
+    struct {
+      inflate_huft *tree;       /* pointer into tree */
+      uInt need;                /* bits needed */
+    } code;             /* if LEN or DIST, where in tree */
+    uInt lit;           /* if LIT, literal */
+    struct {
+      uInt get;                 /* bits to get for extra */
+      uInt dist;                /* distance back to copy from */
+    } copy;             /* if EXT or COPY, where and how much */
+  } sub;                /* submode */
+
+  /* mode independent information */
+  Byte lbits;           /* ltree bits decoded per branch */
+  Byte dbits;           /* dtree bits decoder per branch */
+  inflate_huft *ltree;          /* literal/length/eob tree */
+  inflate_huft *dtree;          /* distance tree */
+
+};
+
+
+inflate_codes_statef *inflate_codes_new(bl, bd, tl, td, z)
+uInt bl, bd;
+inflate_huft *tl;
+inflate_huft *td; /* need separate declaration for Borland C++ */
+z_streamp z;
 {
-	// TODO: inflate_codes_new
+  inflate_codes_statef *c;
+
+  if ((c = (inflate_codes_statef *)
+       ZALLOC(z,1,sizeof(struct inflate_codes_state))) != Z_NULL)
+  {
+    c->mode = START;
+    c->lbits = (Byte)bl;
+    c->dbits = (Byte)bd;
+    c->ltree = tl;
+    c->dtree = td;
+    Tracev((stderr, "inflate:       codes new\n"));
+  }
+  return c;
 }
 
-/*
- * (00012C) S_GPROC32: [0001:0009AB91], Cb: 00000D83, Type:             0x2132, inflate_codes
- *          Parent: 00000000, End: 0000031C, Next: 00000320
- *          Debug start: 00000016, Debug end: 00000D4C
- *          Flags: Frame Ptr Present
- * 
- * (000164)  S_LDATA32: [0001:0009B8EC], Type:     T_NOTYPE(0000), (none)
- * (000174)  S_LABEL32: [0001:0009AC33], $L1114
- * (000188)  S_LABEL32: [0001:0009AD5C], $L1119
- * (00019C)  S_LABEL32: [0001:0009AF5D], $L1134
- * (0001B0)  S_LABEL32: [0001:0009B062], $L1142
- * (0001C4)  S_LABEL32: [0001:0009B229], $L1155
- * (0001D8)  S_LABEL32: [0001:0009B314], $L1163
- * (0001EC)  S_LABEL32: [0001:0009B530], $L1181
- * (000200)  S_LABEL32: [0001:0009B6CE], $L1194
- * (000214)  S_LABEL32: [0001:0009B7B8], $L1199
- * (000228)  S_LABEL32: [0001:0009B81A], $L1200
- * (00023C)  S_BPREL32: [00000008], Type:             0x2130, s
- * (00024C)  S_BPREL32: [0000000C], Type:             0x2107, z
- * (00025C)  S_BPREL32: [00000010], Type:       T_INT4(0074), r
- * (00026C)  S_BPREL32: [FFFFFFD4], Type:      T_UINT4(0075), n
- * (00027C)  S_BPREL32: [FFFFFFD8], Type:      T_UINT4(0075), m
- * (00028C)  S_BPREL32: [FFFFFFDC], Type:      T_UINT4(0075), k
- * (00029C)  S_BPREL32: [FFFFFFE0], Type:      T_UINT4(0075), j
- * (0002AC)  S_BPREL32: [FFFFFFE4], Type:   T_32PUCHAR(0420), f
- * (0002BC)  S_BPREL32: [FFFFFFE8], Type:      T_UINT4(0075), e
- * (0002CC)  S_BPREL32: [FFFFFFEC], Type:             0x20F3, t
- * (0002DC)  S_BPREL32: [FFFFFFF0], Type:             0x2127, c
- * (0002EC)  S_BPREL32: [FFFFFFF4], Type:      T_ULONG(0022), b
- * (0002FC)  S_BPREL32: [FFFFFFF8], Type:   T_32PUCHAR(0420), q
- * (00030C)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), p
- * 
- * (00031C) S_END
- */
-void inflate_codes()
+
+int inflate_codes(s, z, r)
+inflate_blocks_statef *s;
+z_streamp z;
+int r;
 {
-	// TODO: inflate_codes
+  uInt j;               /* temporary storage */
+  inflate_huft *t;      /* temporary pointer */
+  uInt e;               /* extra bits or operation */
+  uLong b;              /* bit buffer */
+  uInt k;               /* bits in bit buffer */
+  Bytef *p;             /* input data pointer */
+  uInt n;               /* bytes available there */
+  Bytef *q;             /* output window write pointer */
+  uInt m;               /* bytes to end of window or read pointer */
+  Bytef *f;             /* pointer to copy strings from */
+  inflate_codes_statef *c = s->sub.decode.codes;  /* codes state */
+
+  /* copy input/output information to locals (UPDATE macro restores) */
+  LOAD
+
+  /* process input and output based on current state */
+  while (1) switch (c->mode)
+  {             /* waiting for "i:"=input, "o:"=output, "x:"=nothing */
+    case START:         /* x: set up for LEN */
+#ifndef SLOW
+      if (m >= 258 && n >= 10)
+      {
+        UPDATE
+        r = inflate_fast(c->lbits, c->dbits, c->ltree, c->dtree, s, z);
+        LOAD
+        if (r != Z_OK)
+        {
+          c->mode = r == Z_STREAM_END ? WASH : BADCODE;
+          break;
+        }
+      }
+#endif /* !SLOW */
+      c->sub.code.need = c->lbits;
+      c->sub.code.tree = c->ltree;
+      c->mode = LEN;
+    case LEN:           /* i: get length/literal/eob next */
+      j = c->sub.code.need;
+      NEEDBITS(j)
+      t = c->sub.code.tree + ((uInt)b & inflate_mask[j]);
+      DUMPBITS(t->bits)
+      e = (uInt)(t->exop);
+      if (e == 0)               /* literal */
+      {
+        c->sub.lit = t->base;
+        Tracevv((stderr, t->base >= 0x20 && t->base < 0x7f ?
+                 "inflate:         literal '%c'\n" :
+                 "inflate:         literal 0x%02x\n", t->base));
+        c->mode = LIT;
+        break;
+      }
+      if (e & 16)               /* length */
+      {
+        c->sub.copy.get = e & 15;
+        c->len = t->base;
+        c->mode = LENEXT;
+        break;
+      }
+      if ((e & 64) == 0)        /* next table */
+      {
+        c->sub.code.need = e;
+        c->sub.code.tree = t + t->base;
+        break;
+      }
+      if (e & 32)               /* end of block */
+      {
+        Tracevv((stderr, "inflate:         end of block\n"));
+        c->mode = WASH;
+        break;
+      }
+      c->mode = BADCODE;        /* invalid code */
+      z->msg = (char*)"invalid literal/length code";
+      r = Z_DATA_ERROR;
+      LEAVE
+    case LENEXT:        /* i: getting length extra (have base) */
+      j = c->sub.copy.get;
+      NEEDBITS(j)
+      c->len += (uInt)b & inflate_mask[j];
+      DUMPBITS(j)
+      c->sub.code.need = c->dbits;
+      c->sub.code.tree = c->dtree;
+      Tracevv((stderr, "inflate:         length %u\n", c->len));
+      c->mode = DIST;
+    case DIST:          /* i: get distance next */
+      j = c->sub.code.need;
+      NEEDBITS(j)
+      t = c->sub.code.tree + ((uInt)b & inflate_mask[j]);
+      DUMPBITS(t->bits)
+      e = (uInt)(t->exop);
+      if (e & 16)               /* distance */
+      {
+        c->sub.copy.get = e & 15;
+        c->sub.copy.dist = t->base;
+        c->mode = DISTEXT;
+        break;
+      }
+      if ((e & 64) == 0)        /* next table */
+      {
+        c->sub.code.need = e;
+        c->sub.code.tree = t + t->base;
+        break;
+      }
+      c->mode = BADCODE;        /* invalid code */
+      z->msg = (char*)"invalid distance code";
+      r = Z_DATA_ERROR;
+      LEAVE
+    case DISTEXT:       /* i: getting distance extra */
+      j = c->sub.copy.get;
+      NEEDBITS(j)
+      c->sub.copy.dist += (uInt)b & inflate_mask[j];
+      DUMPBITS(j)
+      Tracevv((stderr, "inflate:         distance %u\n", c->sub.copy.dist));
+      c->mode = COPY;
+    case COPY:          /* o: copying bytes in window, waiting for space */
+#ifndef __TURBOC__ /* Turbo C bug for following expression */
+      f = (uInt)(q - s->window) < c->sub.copy.dist ?
+          s->end - (c->sub.copy.dist - (q - s->window)) :
+          q - c->sub.copy.dist;
+#else
+      f = q - c->sub.copy.dist;
+      if ((uInt)(q - s->window) < c->sub.copy.dist)
+        f = s->end - (c->sub.copy.dist - (uInt)(q - s->window));
+#endif
+      while (c->len)
+      {
+        NEEDOUT
+        OUTBYTE(*f++)
+        if (f == s->end)
+          f = s->window;
+        c->len--;
+      }
+      c->mode = START;
+      break;
+    case LIT:           /* o: got literal, waiting for output space */
+      NEEDOUT
+      OUTBYTE(c->sub.lit)
+      c->mode = START;
+      break;
+    case WASH:          /* o: got eob, possibly more output */
+      if (k > 7)        /* return unused byte, if any */
+      {
+        Assert(k < 16, "inflate_codes grabbed too many bytes")
+        k -= 8;
+        n++;
+        p--;            /* can always return one */
+      }
+      FLUSH
+      if (s->read != s->write)
+        LEAVE
+      c->mode = END;
+    case END:
+      r = Z_STREAM_END;
+      LEAVE
+    case BADCODE:       /* x: got error */
+      r = Z_DATA_ERROR;
+      LEAVE
+    default:
+      r = Z_STREAM_ERROR;
+      LEAVE
+  }
+#ifdef NEED_DUMMY_RETURN
+  return Z_STREAM_ERROR;  /* Some dumb compilers complain without this */
+#endif
 }
 
-/*
- * (000320) S_GPROC32: [0001:0009B914], Cb: 0000002B, Type:             0x2134, inflate_codes_free
- *          Parent: 00000000, End: 0000037C, Next: 00000000
- *          Debug start: 00000004, Debug end: 00000021
- *          Flags: Frame Ptr Present
- * 
- * (00035C)  S_BPREL32: [00000008], Type:             0x2127, c
- * (00036C)  S_BPREL32: [0000000C], Type:             0x2107, z
- * 
- * (00037C) S_END
- */
-void inflate_codes_free()
-{
-	// TODO: inflate_codes_free
-}
 
+void inflate_codes_free(c, z)
+inflate_codes_statef *c;
+z_streamp z;
+{
+  ZFREE(z, c);
+  Tracev((stderr, "inflate:       codes free\n"));
+}

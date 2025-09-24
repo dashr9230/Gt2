@@ -1,42 +1,87 @@
-
-// File: C:\CodePrj\Gt2\ZLib\infutil.c
-
-/*
- * ModName: .\Debug\infutil.obj
- * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\zlib\Debug\infutil.obj
- * 
- * (000040) S_COMPILE:
- *          Language: C
- *          Target processor: Pentium
- *          Floating-point precision: 0
- *          Floating-point package: hardware
- *          Ambient data: NEAR
- *          Ambient code: NEAR
- *          PCode present: 0
- *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
+/* inflate_util.c -- data and routines common to blocks and codes
+ * Copyright (C) 1995-1998 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h 
  */
 
-/*
- * (000128) S_GDATA32: [0003:000733D8], Type:             0x210A, inflate_mask
- */
+#include "zutil.h"
+#include "infblock.h"
+#include "inftrees.h"
+#include "infcodes.h"
+#include "infutil.h"
 
-/*
- * (00008C) S_GPROC32: [0001:0009C500], Cb: 00000202, Type:             0x210C, inflate_flush
- *          Parent: 00000000, End: 00000124, Next: 00000000
- *          Debug start: 00000018, Debug end: 000001F3
- *          Flags: Frame Ptr Present
- * 
- * (0000C4)  S_BPREL32: [00000008], Type:             0x2102, s
- * (0000D4)  S_BPREL32: [0000000C], Type:             0x2107, z
- * (0000E4)  S_BPREL32: [00000010], Type:       T_INT4(0074), r
- * (0000F4)  S_BPREL32: [FFFFFFF4], Type:      T_UINT4(0075), n
- * (000104)  S_BPREL32: [FFFFFFF8], Type:   T_32PUCHAR(0420), q
- * (000114)  S_BPREL32: [FFFFFFFC], Type:   T_32PUCHAR(0420), p
- * 
- * (000124) S_END
- */
-void inflate_flush()
+struct inflate_codes_state {int dummy;}; /* for buggy compilers */
+
+/* And'ing with mask[n] masks the lower n bits */
+uInt inflate_mask[17] = {
+    0x0000,
+    0x0001, 0x0003, 0x0007, 0x000f, 0x001f, 0x003f, 0x007f, 0x00ff,
+    0x01ff, 0x03ff, 0x07ff, 0x0fff, 0x1fff, 0x3fff, 0x7fff, 0xffff
+};
+
+
+/* copy as much as possible from the sliding window to the output area */
+int inflate_flush(s, z, r)
+inflate_blocks_statef *s;
+z_streamp z;
+int r;
 {
-	// TODO: inflate_flush
-}
+  uInt n;
+  Bytef *p;
+  Bytef *q;
 
+  /* local copies of source and destination pointers */
+  p = z->next_out;
+  q = s->read;
+
+  /* compute number of bytes to copy as far as end of window */
+  n = (uInt)((q <= s->write ? s->write : s->end) - q);
+  if (n > z->avail_out) n = z->avail_out;
+  if (n && r == Z_BUF_ERROR) r = Z_OK;
+
+  /* update counters */
+  z->avail_out -= n;
+  z->total_out += n;
+
+  /* update check information */
+  if (s->checkfn != Z_NULL)
+    z->adler = s->check = (*s->checkfn)(s->check, q, n);
+
+  /* copy as far as end of window */
+  zmemcpy(p, q, n);
+  p += n;
+  q += n;
+
+  /* see if more to copy at beginning of window */
+  if (q == s->end)
+  {
+    /* wrap pointers */
+    q = s->window;
+    if (s->write == s->end)
+      s->write = s->window;
+
+    /* compute bytes to copy */
+    n = (uInt)(s->write - q);
+    if (n > z->avail_out) n = z->avail_out;
+    if (n && r == Z_BUF_ERROR) r = Z_OK;
+
+    /* update counters */
+    z->avail_out -= n;
+    z->total_out += n;
+
+    /* update check information */
+    if (s->checkfn != Z_NULL)
+      z->adler = s->check = (*s->checkfn)(s->check, q, n);
+
+    /* copy */
+    zmemcpy(p, q, n);
+    p += n;
+    q += n;
+  }
+
+  /* update pointers */
+  z->next_out = p;
+  s->read = q;
+
+  /* done */
+  return r;
+}

@@ -1,37 +1,48 @@
-
-// File: C:\CodePrj\Gt2\ZLib\adler32.c
-
-/*
- * ModName: .\Debug\adler32.obj
- * (000004) Start search for segment 0x1 at symbol 0x8C(000010) S_OBJNAME: Signature: 00000000, C:\CodePrj\Gt2\zlib\Debug\adler32.obj
- * 
- * (000040) S_COMPILE:
- *          Language: C
- *          Target processor: Pentium
- *          Floating-point precision: 0
- *          Floating-point package: hardware
- *          Ambient data: NEAR
- *          Ambient code: NEAR
- *          PCode present: 0
+/* adler32.c -- compute the Adler-32 checksum of a data stream
+ * Copyright (C) 1995-1998 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h 
  */
 
-/*
- * (00008C) S_GPROC32: [0001:0009A820], Cb: 00000288, Type:             0x20FE, adler32
- *          Parent: 00000000, End: 00000120, Next: 00000000
- *          Debug start: 00000017, Debug end: 00000284
- *          Flags: Frame Ptr Present
- * 
- * (0000BC)  S_BPREL32: [00000008], Type:      T_ULONG(0022), adler
- * (0000D0)  S_BPREL32: [0000000C], Type:             0x159F, buf
- * (0000E0)  S_BPREL32: [00000010], Type:      T_UINT4(0075), len
- * (0000F0)  S_BPREL32: [FFFFFFF4], Type:       T_INT4(0074), k
- * (000100)  S_BPREL32: [FFFFFFF8], Type:      T_ULONG(0022), s2
- * (000110)  S_BPREL32: [FFFFFFFC], Type:      T_ULONG(0022), s1
- * 
- * (000120) S_END
- */
-void adler32()
+/* @(#) $Id$ */
+
+#include "zlib.h"
+
+#define BASE 65521L /* largest prime smaller than 65536 */
+#define NMAX 5552
+/* NMAX is the largest n such that 255n(n+1)/2 + (n+1)(BASE-1) <= 2^32-1 */
+
+#define DO1(buf,i)  {s1 += buf[i]; s2 += s1;}
+#define DO2(buf,i)  DO1(buf,i); DO1(buf,i+1);
+#define DO4(buf,i)  DO2(buf,i); DO2(buf,i+2);
+#define DO8(buf,i)  DO4(buf,i); DO4(buf,i+4);
+#define DO16(buf)   DO8(buf,0); DO8(buf,8);
+
+/* ========================================================================= */
+uLong ZEXPORT adler32(adler, buf, len)
+    uLong adler;
+    const Bytef *buf;
+    uInt len;
 {
-	// TODO: adler32
-}
+    unsigned long s1 = adler & 0xffff;
+    unsigned long s2 = (adler >> 16) & 0xffff;
+    int k;
 
+    if (buf == Z_NULL) return 1L;
+
+    while (len > 0) {
+        k = len < NMAX ? len : NMAX;
+        len -= k;
+        while (k >= 16) {
+            DO16(buf);
+	    buf += 16;
+            k -= 16;
+        }
+        if (k != 0) do {
+            s1 += *buf++;
+	    s2 += s1;
+        } while (--k);
+        s1 %= BASE;
+        s2 %= BASE;
+    }
+    return (s2 << 16) | s1;
+}

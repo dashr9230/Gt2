@@ -141,6 +141,17 @@
     <ClCompile Include="uncompr.c" />
     <ClCompile Include="zutil.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="infblock.h" />
+    <ClInclude Include="infcodes.h" />
+    <ClInclude Include="inffast.h" />
+    <ClInclude Include="inffixed.h" />
+    <ClInclude Include="inftrees.h" />
+    <ClInclude Include="infutil.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+    <ClInclude Include="zutil.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

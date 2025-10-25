@@ -148,9 +148,14 @@ char* GPATH_BuildFullPathToFile(char* Path, char* Name, char* Ext)
  * 
  * (000310) S_END
  */
-void GPATH_FindTexture()
+char* GPATH_FindTexture(char* Path, char* Name)
 {
-	// TODO: GPATH_FindTexture
+	char* Result;
+
+	Result = GPATH_FindTex(GPATH_Install, Path, Name);
+	if (!Result)
+		Result = GPATH_FindTex(GPATH_CD, Path, Name);
+	return Result;
 }
 
 /*

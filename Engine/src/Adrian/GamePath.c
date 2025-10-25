@@ -165,9 +165,16 @@ void GPATH_FindTexture()
  * 
  * (000388) S_END
  */
-void GPATH_FindTex()
+char* GPATH_FindTex(char* Drive, char* Path, char* Name)
 {
-	// TODO: GPATH_FindTex
+	if (GPATH_DoesFileExist(Drive, Path, Name, ".DDS"))
+		return Drive;
+	else if (GPATH_DoesFileExist(Drive, Path, Name, ".MIP"))
+		return Drive;
+	else if (GPATH_DoesFileExist(Drive, Path, Name, ".TEX"))
+		return Drive;
+
+	return 0;
 }
 
 /*

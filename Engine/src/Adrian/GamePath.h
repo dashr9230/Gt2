@@ -8,5 +8,6 @@ int GPATH_DoesFileExist(char* Drive, char* Path, char* Filename, char* extension
 char* GPATH_BuildFullPathToFile(char* Path, char* Name, char* Ext);
 char* GPATH_FindTexture(char* Path, char* Name);
 char* GPATH_FindTex(char* Drive, char* Path, char* Name);
+char* GPATH_VolatileData();
 
 #endif // _GT2_GAMEPATH_H

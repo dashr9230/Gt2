@@ -190,8 +190,8 @@ char* GPATH_FindTex(char* Drive, char* Path, char* Name)
  * 
  * (0003C8) S_END
  */
-void GPATH_VolatileData()
+char* GPATH_VolatileData()
 {
-	// TODO: GPATH_VolatileData
+	return 0;
 }
 

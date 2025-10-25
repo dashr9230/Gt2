@@ -79,6 +79,6 @@
     <ClInclude Include="src\mox\moxtypes.h">
       <Filter>mox</Filter>
     </ClInclude>
-    <ClInclude Include="include\logfile.h" />
+    <ClInclude Include="src\logfile.h" />
   </ItemGroup>
 </Project>

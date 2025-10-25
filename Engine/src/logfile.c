@@ -16,11 +16,11 @@
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  */
 
-#include "logfile.h"
-
 #include <Windows.h>
 
 #include <stdio.h>
+
+#include "logfile.h"
 
 /*
  * (0002B8) S_GDATA32: [0003:0091E8AC], Type:             0x1834, logfile

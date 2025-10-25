@@ -5,5 +5,6 @@
 void GPath_SetDefaultPaths();
 char* GPATH_FindFile(char* Path, char* Name, char* Ext);
 int GPATH_DoesFileExist(char* Drive, char* Path, char* Filename, char* extension);
+char* GPATH_BuildFullPathToFile(char* Path, char* Name, char* Ext);
 
 #endif // _GT2_GAMEPATH_H

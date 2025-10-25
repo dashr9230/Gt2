@@ -115,9 +115,25 @@ int GPATH_DoesFileExist(char* Drive, char* Path, char* Filename, char* extension
  * 
  * (000294) S_END
  */
-void GPATH_BuildFullPathToFile()
+char* GPATH_BuildFullPathToFile(char* Path, char* Name, char* Ext)
 {
-	// TODO: GPATH_BuildFullPathToFile
+	char* Drive;
+
+	Drive = GPATH_FindFile(Path, Name, Ext);
+	if (Drive)
+	{
+		sprintf(GPATH_Filename, "%s", Drive);
+		if (Path)
+			sprintf(GPATH_Filename, "%s%s", GPATH_Filename, Path);
+		if (Name)
+			sprintf(GPATH_Filename, "%s%s", GPATH_Filename, Name);
+		if (Ext)
+			sprintf(GPATH_Filename, "%s%s", GPATH_Filename, Ext);
+		
+		return GPATH_Filename;
+	}
+
+	return 0;
 }
 
 /*

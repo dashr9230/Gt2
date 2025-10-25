@@ -16,11 +16,18 @@
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  */
 
+#include <stdio.h>
+
+#include "GamePath.h"
+
 /*
  * (0003CC) S_LDATA32: [0003:0091E0A8], Type:             0x153F, GPATH_Install
  * (0003E8) S_LDATA32: [0003:0091E2A8], Type:             0x153F, GPATH_CD
  * (000400) S_LDATA32: [0003:0091E4A8], Type:             0x1E96, GPATH_Filename
  */
+char GPATH_Install[512];
+char GPATH_CD[512];
+char GPATH_Filename[1024];
 
 /*
  * (000090) S_GPROC32: [0001:00082E30], Cb: 00000025, Type:             0x1001, GPath_SetDefaultPaths
@@ -32,7 +39,8 @@
  */
 void GPath_SetDefaultPaths()
 {
-	// TODO: GPath_SetDefaultPaths
+	GPATH_CD[0] = '\0';
+	strcpy(GPATH_Install, "CDImage\\");
 }
 
 /*

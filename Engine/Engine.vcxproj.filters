@@ -79,6 +79,9 @@
     <ClInclude Include="src\mox\moxtypes.h">
       <Filter>mox</Filter>
     </ClInclude>
+    <ClInclude Include="src\Adrian\GamePath.h">
+      <Filter>Adrian</Filter>
+    </ClInclude>
     <ClInclude Include="src\logfile.h" />
   </ItemGroup>
 </Project>

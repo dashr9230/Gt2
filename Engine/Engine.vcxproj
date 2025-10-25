@@ -173,6 +173,7 @@
     <ClCompile Include="src\video.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Adrian\GamePath.h" />
     <ClInclude Include="src\logfile.h" />
     <ClInclude Include="src\mox\moxtypes.h" />
   </ItemGroup>

@@ -55,9 +55,14 @@ void GPath_SetDefaultPaths()
  * 
  * (000144) S_END
  */
-void GPATH_FindFile()
+char* GPATH_FindFile(char* Path, char* Name, char* Ext)
 {
-	// TODO: GPATH_FindFile
+	if (GPATH_DoesFileExist(GPATH_Install, Path, Name, Ext))
+		return GPATH_Install;
+	else if (GPATH_DoesFileExist(GPATH_CD, Path, Name, Ext))
+		return GPATH_CD;
+
+	return 0;
 }
 
 /*

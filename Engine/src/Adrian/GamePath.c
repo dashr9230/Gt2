@@ -75,9 +75,26 @@ void GPATH_FindFile()
  * 
  * (000200) S_END
  */
-void GPATH_DoesFileExist()
+int GPATH_DoesFileExist(char* Drive, char* Path, char* Filename, char* extension)
 {
-	// TODO: GPATH_DoesFileExist
+	FILE* fh;
+	char Buffer[1024];
+
+	sprintf(Buffer, "%s", Drive);
+	if (Path)
+		sprintf(Buffer, "%s%s", Buffer, Path);
+	if (Filename)
+		sprintf(Buffer, "%s%s", Buffer, Filename);
+	if (extension)
+		sprintf(Buffer, "%s%s", Buffer, extension);
+
+	fh = fopen(Buffer, "rb");
+	if (fh)
+	{
+		fclose(fh);
+		return 1;
+	}
+	return 0;
 }
 
 /*

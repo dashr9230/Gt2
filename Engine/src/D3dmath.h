@@ -5,5 +5,6 @@
 #include <d3d9types.h>
 
 D3DVECTOR* D3DVECTORCrossProduct(D3DVECTOR* lpd, D3DVECTOR* lpa, D3DVECTOR* lpb);
+D3DMATRIX* D3DMATRIXInvert(D3DMATRIX* d, D3DMATRIX* a);
 
 #endif // _GT2_D3DMATH_H

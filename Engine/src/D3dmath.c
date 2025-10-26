@@ -101,9 +101,26 @@ void MultiplyD3DMATRIX()
  * 
  * (0002D4) S_END
  */
-void D3DMATRIXInvert()
+D3DMATRIX* D3DMATRIXInvert(D3DMATRIX* d, D3DMATRIX* a)
 {
-	// TODO: D3DMATRIXInvert
+	d->_11 = a->_11;
+	d->_12 = a->_21;
+	d->_13 = a->_31;
+	d->_14 = a->_14;
+	d->_21 = a->_12;
+	d->_22 = a->_22;
+	d->_23 = a->_32;
+	d->_24 = a->_24;
+	d->_31 = a->_13;
+	d->_32 = a->_23;
+	d->_33 = a->_33;
+	d->_34 = a->_34;
+	d->_41 = a->_14;
+	d->_42 = a->_24;
+	d->_43 = a->_34;
+	d->_44 = a->_44;
+
+	return d;
 }
 
 /*

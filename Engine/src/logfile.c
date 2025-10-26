@@ -96,7 +96,7 @@ void CloseLogfile()
  * 
  * (0001A0) S_END
  */
-void LogFile(char* FormatString, ...)
+void LogFile(const char* FormatString, ...)
 {
 	if (!WriteAccess)
 		return;
@@ -145,7 +145,7 @@ void NET_LogInit()
  * 
  * (00022C) S_END
  */
-void NET_LogFile(char* FormatString, ...)
+void NET_LogFile(const char* FormatString, ...)
 {
 	// nothing
 }

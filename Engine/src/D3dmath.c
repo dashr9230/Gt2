@@ -41,9 +41,28 @@
  * 
  * (00011C) S_END
  */
-void D3DVECTORNormalise()
+D3DVECTOR* D3DVECTORNormalise(D3DVECTOR* v)
 {
-	// TODO: D3DVECTORNormalise
+	float vz;
+	float vy;
+	float vx;
+	float inv_mod;
+
+	vx = v->x;
+	vy = v->y;
+	vz = v->z;
+
+	if (v->x != 0.0f || vy != 0.0f || vz != 0.0f)
+	{
+		inv_mod = 1.0f / (float)sqrt(vx * vx + vy * vy + vz * vz);
+
+		v->x = vx * inv_mod;
+		v->y = vy * inv_mod;
+		v->z = vz * inv_mod;
+
+		return v;
+	}
+	return v;
 }
 
 /*

@@ -83,5 +83,6 @@
       <Filter>Adrian</Filter>
     </ClInclude>
     <ClInclude Include="src\logfile.h" />
+    <ClInclude Include="src\D3dmath.h" />
   </ItemGroup>
 </Project>

@@ -17,6 +17,10 @@
  *          Compiler Version: Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8447.0
  */
 
+#include <math.h>
+
+#include <d3d9types.h>
+
 /*
  * (0007CC) S_GDATA32: [0003:0007B920], Type:  T_32PREAL32(0440), MATH_SinTable
  * (0007E8) S_GDATA32: [0003:0007B924], Type:  T_32PREAL32(0440), MATH_CosTable
@@ -54,9 +58,13 @@ void D3DVECTORNormalise()
  * 
  * (000190) S_END
  */
-void D3DVECTORCrossProduct()
+D3DVECTOR* D3DVECTORCrossProduct(D3DVECTOR* lpd, D3DVECTOR* lpa, D3DVECTOR* lpb)
 {
-	// TODO: D3DVECTORCrossProduct
+	lpd->x = lpa->y * lpb->z - lpa->z * lpb->y;
+	lpd->y = lpa->z * lpb->x - lpa->x * lpb->z;
+	lpd->z = lpa->x * lpb->y - lpa->y * lpb->x;
+
+	return lpd;
 }
 
 /*
